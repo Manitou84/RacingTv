@@ -23,7 +23,8 @@
         method: metodo,
         headers: {
           apikey: CFG.supabaseAnonKey,
-          Authorization: `Bearer ${token || CFG.supabaseAnonKey}`,
+          // con le chiavi nuove "sb_publishable_..." l'Authorization va solo con il token dell'utente
+          ...(token || CFG.supabaseAnonKey.startsWith('eyJ') ? { Authorization: `Bearer ${token || CFG.supabaseAnonKey}` } : {}),
           'Content-Type': 'application/json',
           ...(prefer ? { Prefer: prefer } : {})
         },
