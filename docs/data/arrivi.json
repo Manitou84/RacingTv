@@ -1,0 +1,129 @@
+{
+  "aggiornato": "2026-10-24T08:40:20.153Z",
+  "arrivi": {
+    "motogp-gp-australia-2026": {
+      "Sprint": {
+        "serie": "motogp",
+        "gp": "GP Australia",
+        "sessione": "Sprint",
+        "fonte": "OA Sport",
+        "url": "https://www.oasport.it/2026/10/ordine-darrivo-motogp-sprint-gp-australia-2026-marc-marquez-vince-e-torna-in-vetta-al-mondiale-4-bezzecchi/",
+        "aggiornato": "2026-10-24T08:40:20.153Z",
+        "classificati": [
+          {
+            "pos": 1,
+            "id": "marc-marquez",
+            "nome": "Marc Marquez",
+            "secondi": 1149.411
+          },
+          {
+            "pos": 2,
+            "id": "alex-marquez",
+            "nome": "Álex Márquez",
+            "secondi": 1149.734
+          },
+          {
+            "pos": 3,
+            "id": "di-giannantonio",
+            "nome": "Fabio Di Giannantonio",
+            "secondi": 1150.001
+          },
+          {
+            "pos": 4,
+            "id": "bezzecchi",
+            "nome": "Marco Bezzecchi",
+            "secondi": 1150.485
+          },
+          {
+            "pos": 5,
+            "id": "acosta",
+            "nome": "Pedro Acosta",
+            "secondi": 1153.1
+          },
+          {
+            "pos": 6,
+            "id": "ogura",
+            "nome": "Ai Ogura",
+            "secondi": 1155.557
+          },
+          {
+            "pos": 7,
+            "id": "binder",
+            "nome": "Brad Binder",
+            "secondi": 1156.844
+          },
+          {
+            "pos": 8,
+            "id": "miller",
+            "nome": "Jack Miller",
+            "secondi": 1157.193
+          },
+          {
+            "pos": 9,
+            "id": "moreira",
+            "nome": "Diogo Moreira",
+            "secondi": 1160.133
+          },
+          {
+            "pos": 10,
+            "id": null,
+            "nome": "Iker Lecuona Spa",
+            "secondi": 1160.184
+          },
+          {
+            "pos": 11,
+            "id": "quartararo",
+            "nome": "Fabio Quartararo",
+            "secondi": 1160.626
+          },
+          {
+            "pos": 12,
+            "id": "bastianini",
+            "nome": "Enea Bastianini",
+            "secondi": 1160.848
+          },
+          {
+            "pos": 13,
+            "id": "rins",
+            "nome": "Álex Rins",
+            "secondi": 1160.979
+          },
+          {
+            "pos": 14,
+            "id": "morbidelli",
+            "nome": "Franco Morbidelli",
+            "secondi": 1167.688
+          },
+          {
+            "pos": 15,
+            "id": null,
+            "nome": "Augusto Fernandez Spa",
+            "secondi": 1187.356
+          }
+        ],
+        "ritirati": [
+          {
+            "id": "raul-fernandez",
+            "nome": "Raúl Fernández"
+          },
+          {
+            "id": "martin",
+            "nome": "Jorge Martin"
+          },
+          {
+            "id": "vinales",
+            "nome": "Maverick Viñales"
+          },
+          {
+            "id": "zarco",
+            "nome": "Johann Zarco"
+          },
+          {
+            "id": "bagnaia",
+            "nome": "Francesco Bagnaia"
+          }
+        ]
+      }
+    }
+  }
+}

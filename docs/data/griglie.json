@@ -1,12 +1,12 @@
 {
-  "aggiornato": "2026-10-24T08:21:30.213Z",
+  "aggiornato": "2026-10-24T08:40:20.153Z",
   "griglie": {
     "motogp-gp-australia-2026": {
       "serie": "motogp",
       "gp": "GP Australia",
       "fonte": "OA Sport",
       "url": "https://www.oasport.it/2026/10/griglia-di-partenza-motogp-gp-australia-2026-marquez-imprendibile-sotto-la-pioggia-aprilia-in-difficolta/",
-      "aggiornato": "2026-10-24T08:21:30.213Z",
+      "aggiornato": "2026-10-24T08:40:20.153Z",
       "righe": [
         {
           "pos": 1,
@@ -89,7 +89,7 @@
         {
           "pos": 14,
           "id": null,
-          "nome": "Iker LECUONA SPA BK8 Gresini Racing Moto",
+          "nome": "Iker Lecuona Spa",
           "tempo": "1:36.296"
         },
         {
@@ -106,8 +106,8 @@
         },
         {
           "pos": 17,
-          "id": "raul-fernandez",
-          "nome": "Raúl Fernández",
+          "id": null,
+          "nome": "Augusto Fernandez Spa",
           "tempo": "1:36.778"
         },
         {
