@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-24T09:21:26.340Z",
+  "aggiornato": "2026-10-24T09:55:17.080Z",
   "articoli": [
     {
       "fonte": "Sky Sport",
@@ -12,6 +12,19 @@
         "Moto3 Gara 2026-10-25T01:00:00.000Z TV8 differita 2026-10-25T10:00:00.000Z",
         "Moto2 Gara 2026-10-25T01:15:00.000Z TV8 differita 2026-10-25T11:15:00.000Z",
         "MotoGP Gara 2026-10-25T03:00:00.000Z TV8 differita 2026-10-25T13:00:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
+      "titolo": "MotoGP in tv, GP Australia 2026: orario gara 25 ottobre, streaming, programma Sky, differita TV8",
+      "url": "https://www.oasport.it/2026/10/motogp-in-tv-gp-australia-2026-orario-gara-25-ottobre-streaming-programma-sky-differita-tv8/",
+      "gp": "GP Australia",
+      "serie": "motogp",
+      "sessioni": [
+        "MotoGP Warm up 2026-10-24T22:40:00.000Z",
+        "Moto3 Gara 2026-10-25T01:00:00.000Z TV8 differita 2026-10-25T09:45:00.000Z",
+        "Moto2 Gara 2026-10-25T01:15:00.000Z TV8 differita 2026-10-25T11:00:00.000Z",
+        "MotoGP Gara 2026-10-25T03:00:00.000Z TV8 differita 2026-10-25T12:45:00.000Z"
       ]
     },
     {
