@@ -1,6 +1,100 @@
 {
-  "aggiornato": "2026-10-24T12:19:10.591Z",
+  "aggiornato": "2026-10-24T12:23:08.820Z",
   "weekend": [
+    {
+      "id": "sbk-gp-spagna-2026",
+      "serie": "sbk",
+      "gp": "GP Spagna",
+      "sessioni": [
+        {
+          "classe": "SBK",
+          "sessione": "Prove libere 1",
+          "inizio": "2026-10-16T08:35:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "SBK",
+          "sessione": "Prove libere 2",
+          "inizio": "2026-10-16T13:00:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "SBK",
+          "sessione": "Prove libere 3",
+          "inizio": "2026-10-17T07:35:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "SBK",
+          "sessione": "Superpole",
+          "inizio": "2026-10-17T09:15:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "SBK",
+          "sessione": "Gara 1",
+          "inizio": "2026-10-17T13:30:00.000Z",
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-10-17T13:30:00.000Z"
+          },
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "SBK",
+          "sessione": "Warm up",
+          "inizio": "2026-10-18T07:35:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "SBK",
+          "sessione": "Superpole Race",
+          "inizio": "2026-10-18T09:10:00.000Z",
+          "tv8": {
+            "tipo": "differita",
+            "inizio": "2026-10-18T12:35:00.000Z"
+          },
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "SBK",
+          "sessione": "Gara 2",
+          "inizio": "2026-10-18T13:30:00.000Z",
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-10-18T13:30:00.000Z"
+          },
+          "fonte": "OA Sport"
+        }
+      ],
+      "tv8Confermati": [
+        "2026-10-16",
+        "2026-10-17",
+        "2026-10-18"
+      ],
+      "fonti": [
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/superbike-oggi-gp-spagna-2026-orari-superpole-race-e-gara-2-tv-streaming/",
+          "titolo": "Superbike oggi in tv, GP Spagna 2026: orari Superpole Race e gara-2, programma, streaming"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/superbike-oggi-gp-spagna-2026-orari-superpole-e-gara-1-tv-streaming/",
+          "titolo": "Superbike oggi in tv, GP Spagna 2026: orari Superpole e gara-1, streaming, programma TV8"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/superbike-oggi-gp-spagna-2026-orari-prove-libere-tv-streaming/",
+          "titolo": "Superbike, oggi, GP Spagna 2026: orari prove libere, tv, streaming"
+        }
+      ]
+    },
     {
       "id": "motogp-gp-australia-2026",
       "serie": "motogp",

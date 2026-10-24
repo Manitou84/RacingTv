@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-24T12:19:10.591Z",
+  "aggiornato": "2026-10-24T12:23:08.820Z",
   "articoli": [
     {
       "id": "45daad66c2e0",
@@ -760,6 +760,16 @@
       "data": "2026-10-21T10:00:00Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/21/125749572-ee40898e-7bbd-49fa-b737-8bc56f74ad8e.jpg",
       "sommario": ""
+    },
+    {
+      "id": "dcb2f250f74b",
+      "serie": "sbk",
+      "titolo": "Delbianco resta in Yamaha: Go Eleven punta su Arenas",
+      "link": "https://www.motosprint.it/news/sbk/2026/10/18-9205756/delbianco_resta_in_yamaha_go_eleven_punta_su_arenas",
+      "fonte": "Motosprint",
+      "data": "2026-10-18T10:00:00Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/18/123719413-c9924da6-360f-4d66-a392-c03b40857437.jpg",
+      "sommario": "La seconda Ducati Panigale V4R sarà affidata ad Albert, che ha rifiutato una CFMoto destinata a un collaudatore: si parla di Bautista"
     },
     {
       "id": "9525358a63dd",
