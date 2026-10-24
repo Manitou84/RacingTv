@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-10-24T05:56:33.700Z",
+  "aggiornato": "2026-10-24T06:23:15.187Z",
   "articoli": [
+    {
+      "id": "4afefd6d8290",
+      "serie": "motogp",
+      "titolo": "Colpo di scena per il Mondiale! Jorge Martín dichiarato unfit: ecco le sue condizioni",
+      "link": "https://www.motosprint.it/news/eventi/gp-australia/2026/10/24-9226624/colpo_di_scena_per_il_mondiale_jorge_martn_dichiarato_unfit_ecco_le_sue_condizioni",
+      "fonte": "Motosprint",
+      "data": "2026-10-24T06:23:15.187Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/24/053654702-c0dc68e2-7a25-4e41-a5be-9ca4a391b9f5.jpg",
+      "sommario": "Il madrileno è caduto mentre era all'inseguimento del rivale Márquez nella Sprint: confermata la frattura del radio destro e si sospetta anche un'altra all'ulna in sede distale "
+    },
+    {
+      "id": "6ff7079cf352",
+      "serie": "motogp",
+      "titolo": "Martin sbaglia, Marquez ringrazia e vince la Sprint di Phillip Island",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/24-9226609/martin_sbaglia_marquez_ringrazia_e_vince_la_sprint_di_phillip_island",
+      "fonte": "Motosprint",
+      "data": "2026-10-24T06:23:15.187Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/24/044215382-1fdfc7af-8a69-4e1a-9827-c9e63b5041d6.jpg",
+      "sommario": "Jorge finisce a terra nel corso di un bellissimo duello con Marc, che conquista così il successo davanti al fratello ed a Di Giannantonio. Bezzecchi 4°, Bagnaia ritirato"
+    },
+    {
+      "id": "72af1bea819a",
+      "serie": "motogp",
+      "titolo": "Altro brutto colpo per Aprilia: Fernandez dichiarato 'unfit' per il GP d'Australia",
+      "link": "https://www.gpone.com/it/2026/10/24/motogp/altro-brutto-colpo-per-aprilia-fernandez-dichiarato-unfit-per-il-gp-daustralia.html",
+      "fonte": "GPOne",
+      "data": "2026-10-24T06:18:27.000Z",
+      "immagine": "",
+      "sommario": "Raul si è ritirato durante la Sprint a causa della frattura al dito rimediata in Indonesia. Gli esami hanno evidenziato un'infiammazione, le sue condizioni saranno rivalutate a Sepang"
+    },
     {
       "id": "f8b6d357e694",
       "serie": "motogp",
