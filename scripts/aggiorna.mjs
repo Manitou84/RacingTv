@@ -15,13 +15,13 @@ const log = (...a) => console.log('•', ...a);
 const SERIE = [
   {
     id: 'motogp', nome: 'MotoGP',
-    oaCerca: 'MotoGP TV8', oaTitolo: t => /motogp/i.test(t) && /tv8/i.test(t),
+    oaCerca: 'MotoGP TV8', oaTitolo: t => /motogp/i.test(t) && !/\bf1\b|formula 1/i.test(t) && /tv8/i.test(t),
     skyIndice: 'https://sport.sky.it/motogp', skyLink: /(?:https:\/\/sport\.sky\.it)?(\/motogp\/(20\d\d)\/(\d\d)\/(\d\d)\/[a-z0-9-]*orari[a-z0-9-]*)/g,
     classifica: 'https://www.motosprint.it/live/moto-gp', fonteClassifica: 'Motosprint'
   },
   {
     id: 'f1', nome: 'Formula 1',
-    oaCerca: 'F1 TV8', oaTitolo: t => /\bf1\b|formula 1/i.test(t) && /tv8/i.test(t),
+    oaCerca: 'F1 TV8', oaTitolo: t => /\bf1\b|formula 1/i.test(t) && !/motogp/i.test(t) && /tv8/i.test(t),
     skyIndice: 'https://sport.sky.it/formula-1', skyLink: /(?:https:\/\/sport\.sky\.it)?(\/formula-1\/(20\d\d)\/(\d\d)\/(\d\d)\/[a-z0-9-]*orari[a-z0-9-]*)/g,
     classifica: 'https://www.autosprint.it/live/formula-1', fonteClassifica: 'Autosprint'
   }
@@ -82,7 +82,7 @@ async function articoliSky(s) {
 async function aggiornaPalinsesto() {
   const vecchio = await leggiJson(DATI + 'palinsesto.json', { weekend: [] });
   const correzioni = await leggiJson(RADICE + 'config/correzioni.json', { aggiungi: [], rimuovi: [] });
-  const perWeekend = new Map((vecchio.weekend || []).filter(w => w.serie).map(w => [w.id, { ...w, sky: [], oa: [] }]));
+  const perWeekend = new Map((vecchio.weekend || []).filter(w => w.serie).map(w => [w.id, { ...w, fontiVecchie: w.fonti || [], fonti: [], confermatiVecchi: w.tv8Confermati || [], tv8Confermati: [], sky: [], oa: [] }]));
   const prendi = (gp, anno, serie) => {
     const id = L.idWeekend(gp, anno, serie);
     if (!perWeekend.has(id)) perWeekend.set(id, { id, serie, gp, sessioni: [], fonti: [], tv8Confermati: [], sky: [], oa: [] });
@@ -106,11 +106,14 @@ async function aggiornaPalinsesto() {
   for (const w of perWeekend.values()) {
     // ordine di precedenza: già salvate < Sky < OA Sport < correzioni manuali
     const manuali = (correzioni.aggiungi || []).filter(c => c.weekend === w.id).map(c => ({ ...c, fonte: 'Correzione' }));
-    const sessioni = L.unisciSessioni(w.sessioni, w.sky, w.oa, manuali)
+    const base = (w.sky.length || w.oa.length) ? [] : w.sessioni;
+    const sessioni = L.unisciSessioni(base, w.sky, w.oa, manuali)
       .filter(s => !(correzioni.rimuovi || []).includes(`${w.id}|${s.classe}|${s.sessione}`));
     const ultima = sessioni.map(s => s.tv8?.inizio || s.inizio).sort().pop();
     if (!ultima || ADESSO - new Date(ultima) > 7 * 864e5) continue; // weekend finito da più di una settimana
-    const fonti = [...new Map(w.fonti.map(f => [f.url, f])).values()].slice(-6);
+    const nuovi = w.sky.length || w.oa.length;
+    const fonti = [...new Map((nuovi ? w.fonti : w.fontiVecchie || w.fonti).map(f => [f.url, f])).values()].slice(-6);
+    if (!nuovi) w.tv8Confermati = w.confermatiVecchi || w.tv8Confermati;
     // giorni per cui una fonte ha già pubblicato il programma TV8: lì una sessione senza TV8 è davvero solo su Sky
     const tv8Confermati = [...new Set([...(w.tv8Confermati || []), ...manuali.map(m => L.dataRoma(m.inizio || m.tv8.inizio))])].sort();
     weekend.push({ id: w.id, serie: w.serie, gp: w.gp, sessioni, tv8Confermati, fonti });

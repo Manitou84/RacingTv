@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "*/30 * * * *"   # ogni mezz'ora (GitHub può ritardare di qualche minuto)
   workflow_dispatch: {}       # pulsante "Run workflow" per aggiornare a mano
+  push:                       # parte anche quando cambiano gli script o la configurazione
+    branches: [main]
+    paths: ["scripts/**", "config/**", ".github/workflows/**"]
 
 permissions:
   contents: write

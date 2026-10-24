@@ -67,6 +67,7 @@ export function normalizzaSessione(testo, serie = 'motogp') {
   else if (/warm[- ]?up/.test(t)) sessione = 'Warm up';
   else if (/\bgara\b|\brace\b|gran premio|^\s*gp\s*$/.test(t) || (serie === 'f1' && /\bgp\b/.test(t) && !/qualific|libere/.test(t))) sessione = 'Gara';
   if (!classe || !sessione) return null;
+  if (classe === 'F1' && ['Warm up', 'Pre-qualifiche'].includes(sessione)) return null;
   return { classe, sessione };
 }
 export const serieDa = testo => /\bf1\b|formula[ -]?1|formula1/.test(pulisci(testo)) ? 'f1' : 'motogp';
@@ -134,7 +135,7 @@ export function parseSky(html, url, serie = serieDa(url)) {
     const g = rp.match(RX_TITOLO_GIORNO);
     if (g) {
       const m = MESI.indexOf(g[3]) + 1, d1 = +g[1], d2 = g[2] ? +g[2] : null;
-      giorno = { d1, m1: d2 && d2 < d1 ? m - 1 || 12 : m, d2, m2: m };
+      giorno = { d1, m1: d2 && d2 < d1 ? m - 1 || 12 : m, d2, m2: m, mattino: false };
       continue;
     }
     const s = r.match(/^-?\s*(?:ore\s+)?(\d{1,2})(?:[.:](\d{2}))?\s*[:-]\s*(.+)$/i);
@@ -142,8 +143,11 @@ export function parseSky(html, url, serie = serieDa(url)) {
     let h = +s[1] % 24; const mi = +(s[2] || 0);
     const info = normalizzaSessione(s[3], serie);
     if (!info) continue;
-    const notturna = giorno.d2 && h < 12;
-    const d = notturna ? giorno.d2 : giorno.d1, mo = notturna ? giorno.m2 : giorno.m1;
+    if (giorno.d2 && h < 12) giorno.mattino = true;
+    // "Notte giovedì 22-venerdì 23": prima della mezzanotte è il 22, dopo è il 23;
+    // un orario serale che arriva dopo quelli del mattino è già la sera del 23
+    const secondo = giorno.d2 && (h < 12 || giorno.mattino);
+    const d = secondo ? giorno.d2 : giorno.d1, mo = secondo ? giorno.m2 : giorno.m1;
     if (sessioni.some(x => x.classe === info.classe && x.sessione === info.sessione)) continue; // repliche
     const sess = { ...info, inizio: romaISO(anno, mo, d, h, mi), tv8: null, fonte: 'Sky Sport' };
     if (/tv8/i.test(s[3])) {
@@ -171,12 +175,14 @@ export function parseOA(html, titolo, url, serie = serieDa(titolo + ' ' + url)) 
   const gp = nomeGp(titolo) || nomeGp(testo);
   const sessioni = [], tv8 = [];
   const rxRiga = /^-?\s*(?:ore\s+)?(\d{1,2})[.:](\d{2})(?:\s*-\s*\d{1,2}[.:]\d{2})?\s*[:,-]?\s+(.+)$/i;
-  let sezione = 'cal';
+  let sezione = 'cal', dalTitolo = !!giorno;
+  // articolo "del giorno" con sessioni notturne: gli orari serali sono della sera prima
+  const haMattino = righe.some(r => { const m = r.match(rxRiga); return m && +m[1] < 10; });
   for (const r of righe) {
     const rp = pulisci(r);
     // titoletti di giorno: "Venerdì 2 ottobre", "SABATO 3 OTTOBRE:"
     const gg = rp.match(new RegExp(`^-?\\s*${GIORNI}\\s+(\\d{1,2})\\s+(${MESI.join('|')})\\b[^0-9]*$`));
-    if (gg && r.length < 40) { giorno = { d: +gg[1], mo: MESI.indexOf(gg[2]) + 1 }; continue; }
+    if (gg && r.length < 40) { giorno = { d: +gg[1], mo: MESI.indexOf(gg[2]) + 1 }; dalTitolo = false; continue; }
     if (!rxRiga.test(r) && (/^[^a-z]{8,}$/.test(r) || /^(calendario|programma|orari|dove vedere|palinsesto)/i.test(r))) {
       sezione = /tv8/.test(rp) && !/calendario/.test(rp) ? 'tv8' : /dove vedere/.test(rp) ? 'altro' : 'cal';
       continue;
@@ -185,7 +191,8 @@ export function parseOA(html, titolo, url, serie = serieDa(titolo + ' ' + url)) 
     const [desc, ...resto] = m[3].split(/\s+-\s+/);
     const canali = resto.join(' - ');
     const info = normalizzaSessione(desc, serie); if (!info) continue;
-    const ora = romaISO(anno, giorno.mo, giorno.d, +m[1], +m[2]);
+    const ieri = dalTitolo && haMattino && +m[1] >= 19 ? 1 : 0;
+    const ora = romaISO(anno, giorno.mo, giorno.d - ieri, +m[1], +m[2]);
     if (sezione === 'tv8') { tv8.push({ ...info, ora, differita: /differita|replica/i.test(r) }); continue; }
     if (sezione === 'altro') continue;
     if (sessioni.some(x => x.classe === info.classe && x.sessione === info.sessione)) continue;
@@ -208,14 +215,15 @@ export function parseOA(html, titolo, url, serie = serieDa(titolo + ' ' + url)) 
 }
 
 /* ---------- Unione dei palinsesti ---------- */
-const chiave = s => `${s.classe}|${s.sessione}|${dataRoma(s.inizio || s.tv8.inizio)}`;
+const quando = s => new Date(s.inizio || s.tv8.inizio).getTime();
 export function unisciSessioni(...liste) {
-  const mappa = new Map();
+  let tutte = [];
   for (const lista of liste) for (const s of lista) { // le liste dopo hanno la precedenza
-    const k = chiave(s), v = mappa.get(k);
-    mappa.set(k, v ? { ...v, ...s, inizio: s.inizio || v.inizio, tv8: s.tv8 || v.tv8, fonte: s.fonte } : s);
+    const i = tutte.findIndex(v => v.classe === s.classe && v.sessione === s.sessione && Math.abs(quando(v) - quando(s)) < 8 * 3600e3);
+    if (i < 0) { tutte.push(s); continue; }
+    const v = tutte[i];
+    tutte[i] = { ...v, ...s, inizio: s.inizio || v.inizio, tv8: s.tv8 || v.tv8, fonte: s.fonte };
   }
-  let tutte = [...mappa.values()];
   // se ci sono Q1/Q2 tolgo la "Qualifiche" generica dello stesso giorno, ereditandone l'eventuale TV8
   tutte = tutte.filter(s => {
     if (s.sessione !== 'Qualifiche') return true;
