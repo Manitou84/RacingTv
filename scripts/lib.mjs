@@ -220,10 +220,14 @@ export function unisciSessioni(...liste) {
   let tutte = [];
   for (const lista of liste) for (const s of lista) { // le liste dopo hanno la precedenza
     const i = tutte.findIndex(v => v.classe === s.classe && v.sessione === s.sessione && Math.abs(quando(v) - quando(s)) < 8 * 3600e3);
-    if (i < 0) { tutte.push(s); continue; }
+    if (i < 0) { tutte.push({ ...s, conferme: 1 }); continue; }
     const v = tutte[i];
-    tutte[i] = { ...v, ...s, inizio: s.inizio || v.inizio, tv8: s.tv8 || v.tv8, fonte: s.fonte };
+    tutte[i] = { ...v, ...s, inizio: s.inizio || v.inizio, tv8: s.tv8 || v.tv8, fonte: s.fonte, conferme: v.conferme + 1 };
   }
+  // la stessa sessione in due momenti diversi: tengo quella confermata da più fonti (a parità, la prima)
+  tutte = tutte.filter(s => !tutte.some(x => x !== s && x.classe === s.classe && x.sessione === s.sessione &&
+    (x.conferme > s.conferme || (x.conferme === s.conferme && quando(x) < quando(s)))));
+  tutte.forEach(s => delete s.conferme);
   // se ci sono Q1/Q2 tolgo la "Qualifiche" generica dello stesso giorno, ereditandone l'eventuale TV8
   tutte = tutte.filter(s => {
     if (s.sessione !== 'Qualifiche') return true;

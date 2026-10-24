@@ -72,3 +72,10 @@ assert.deepEqual(L.intervalloDate('27 febbraio - 1 marzo 2026'), { dal: '2026-02
 const tt = L.parseGriglia('<h3>CLASSIFICA COMBINATA TEST VALENCIA MOTOGP</h3><p>1 Marco Bezzecchi (Aprilia) 1:29.512</p><p>2 Jorge Martin (Aprilia) 1’29.700</p><p>3 Pedro Acosta (KTM) 1:29.801</p>', pil, /classifica/i);
 assert.equal(tt.length, 3); assert.equal(tt[1].tempo, '1:29.700'); assert.equal(tt[2].id, 'acosta');
 console.log('Test ok');
+
+// ---------- Doppioni: vince l'orario confermato da più fonti ----------
+const d1 = { classe: 'Moto3', sessione: 'Prove libere 2', inizio: '2026-10-23T21:40:00.000Z', tv8: null };
+const d2 = { classe: 'Moto3', sessione: 'Prove libere 2', inizio: '2026-10-24T21:40:00.000Z', tv8: null };
+const un = L.unisciSessioni([d1], [{ ...d1 }], [d2]);
+assert.equal(un.length, 1); assert.equal(un[0].inizio, d1.inizio);
+console.log('Doppioni ok');
