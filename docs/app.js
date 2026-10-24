@@ -96,18 +96,21 @@ const pilotiSerie = (serie = stato.serie) => D.piloti.filter(p => p.serie === se
 const weekendSerie = (serie = stato.serie) => D.palinsesto.weekend.filter(w => w.serie === serie);
 
 /* ---------- Anti-spoiler ---------- */
-// Ogni gara (e ogni sessione che TV8 manda in differita) apre una finestra:
-// dal via in pista alla fine della messa in onda su TV8, più mezz'ora.
+// Ogni gara, Sprint, qualifica della classe regina e ogni sessione che TV8 manda in differita apre una finestra:
+// dal via in pista finché non dici di averla vista. Se non lo dici, si chiude da sola
+// tre giorni dopo la messa in onda su TV8, così le notizie non restano coperte per sempre.
 const durataTv = s => s.classe === 'F1'
   ? ({ Gara: 120, Sprint: 45 }[s.sessione] || 60)
   : s.classe === 'MotoGP' && s.sessione === 'Gara' ? 80 : s.sessione === 'Sprint' ? 40 : /Q[12]/.test(s.sessione) ? 15 : s.sessione === 'Gara' ? 60 : 45;
+const SCADENZA = 72 * 3600e3;
+const daCoprire = s => ['Gara', 'Sprint'].includes(s.sessione) || s.tv8?.tipo === 'differita' ||
+  ((s.classe === 'MotoGP' || s.classe === 'F1') && /^Qualifiche/.test(s.sessione));
 function finestre() {
   const out = [];
   for (const w of D.palinsesto.weekend) for (const s of w.sessioni) {
-    if (!s.inizio) continue;
-    if (!['Gara', 'Sprint'].includes(s.sessione) && s.tv8?.tipo !== 'differita') continue;
-    const fine = new Date(new Date((s.tv8 || s).inizio).getTime() + (durataTv(s) + 30) * 60000);
-    out.push({ id: `${w.id}|${s.classe}|${s.sessione}`, serie: w.serie, inizio: new Date(s.inizio), fine });
+    if (!s.inizio || !daCoprire(s)) continue;
+    const fineTv = new Date((s.tv8 || s).inizio).getTime() + durataTv(s) * 60000;
+    out.push({ id: `${w.id}|${s.classe}|${s.sessione}`, serie: w.serie, inizio: new Date(s.inizio), fine: new Date(fineTv + SCADENZA) });
   }
   return out;
 }
@@ -127,8 +130,8 @@ const copertaNotizia = a => {
 function avvisoSpoiler() {
   const attive = finestreAttive(stato.serie);
   if (!attive.length) return '';
-  const fine = new Date(Math.max(...attive.map(f => f.fine)));
-  return `<div class="avviso-spoiler"><span>Anti-spoiler attivo fino alle ${ora(fine)}: notizie e punti sono coperti.</span><button class="testo-btn" data-svela>Ho visto tutto</button></div>`;
+  const nomi = attive.map(f => f.id.split('|').slice(1).join(' ').replace(/^F1 /, ''));
+  return `<div class="avviso-spoiler"><span>Anti-spoiler attivo: notizie e punti restano coperti finché non hai visto ${esc(nomi.join(', '))}. Tocca «L'ho già vista» su ogni sessione, o:</span><button class="testo-btn" data-svela>Ho visto tutto</button></div>`;
 }
 
 /* ---------- Matchpoint ---------- */
@@ -257,13 +260,12 @@ function bloccoGriglia(w) {
   const g = D.griglie?.[w.id];
   const quali = w.sessioni.filter(s => /^Qualifiche( Q[12])?$/.test(s.sessione) && (s.classe === 'MotoGP' || s.classe === 'F1') && s.inizio);
   if (!quali.length) return '';
-  const fineVisione = Math.max(...quali.map(s => new Date((s.tv8 || s).inizio).getTime() + (durataTv(s) + 20) * 60000));
   const tutteFinite = quali.every(s => new Date(s.inizio).getTime() + durataTv(s) * 60000 < adesso());
   if (!g) return tutteFinite ? `<section class="griglia"><h2 class="sezione-titolo">Griglia di partenza</h2><p class="nota piccola">Non ancora pubblicata: arriva poco dopo le qualifiche.</p></section>` : '';
-  const conTv8 = quali.some(s => s.tv8);
-  const libera = !stato.antiSpoiler || stato.griglieViste.has(w.id) || quali.every(s => stato.visti.has(`${w.id}|${s.classe}|${s.sessione}`)) || (conTv8 && adesso() > fineVisione);
+  const attiveQ = new Set(finestreAttive(w.serie).map(f => f.id));
+  const libera = !stato.antiSpoiler || stato.griglieViste.has(w.id) || !quali.some(s => attiveQ.has(`${w.id}|${s.classe}|${s.sessione}`));
   if (!libera) {
-    const quando = conTv8 ? `dopo la messa in onda su TV8 (fino alle ${ora(new Date(fineVisione))})` : 'quando mi dici che hai visto le qualifiche';
+    const quando = 'quando mi dici che hai visto le qualifiche';
     return `<section class="griglia"><h2 class="sezione-titolo">Griglia di partenza</h2>
       <div class="coperta"><span><strong>Griglia pronta, ma coperta</strong>Contiene il risultato delle qualifiche: la mostro ${quando}.</span><button class="bottone secondario piccolo" data-griglia="${esc(w.id)}">Mostra</button></div></section>`;
   }
@@ -431,7 +433,7 @@ function disegnaTv8() {
         <div><dt>Diretta</dt><dd>${s.inizio ? `${esc(fGiornoBreve.format(new Date(s.inizio)))}, ${ora(s.inizio)}` : '–'}<small>${diretta ? 'TV8 e Sky' : 'solo Sky'}</small></dd></div>
         <div class="${diretta ? '' : 'evidenza'}"><dt>Differita TV8</dt><dd>${diretta ? '–' : `${esc(fGiornoBreve.format(prossima.da))}, ${ora(s.tv8.inizio)}`}<small>${diretta ? 'in chiaro in diretta' : 'in chiaro'}</small></dd></div>
       </dl>
-      ${!diretta && stato.antiSpoiler ? `<div class="lav-nota">Le notizie restano coperte fino alla fine della differita.</div>` : ''}
+      ${!diretta && stato.antiSpoiler ? `<div class="lav-nota">Le notizie restano coperte finché non mi dici che l'hai vista.</div>` : ''}
     </div>`;
   } else {
     html += `<div class="lavagna"><div class="lav-evento">Weekend concluso</div><div class="lav-quando">Il prossimo programma TV8 arriva appena viene pubblicato.</div></div>`;
@@ -647,7 +649,7 @@ function disegnaClassifiche() {
     el.innerHTML = html; return;
   }
   if (finestreAttive(stato.serie).length) {
-    html += `<div class="vuoto coperta-grande"><strong>Classifica coperta</strong>Una gara è in corso o non l'hai ancora vista su TV8: i punti potrebbero svelare il risultato.<br><br><button class="bottone secondario" data-svela>Ho visto tutto, mostra</button></div>`;
+    html += `<div class="vuoto coperta-grande"><strong>Classifica coperta</strong>C'è una gara o una qualifica che non hai ancora visto: i punti potrebbero svelare il risultato.<br><br><button class="bottone secondario" data-svela>Ho visto tutto, mostra</button></div>`;
     el.innerHTML = html; return;
   }
   const capo = righe[0].punti;
