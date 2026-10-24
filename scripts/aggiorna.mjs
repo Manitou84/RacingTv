@@ -353,7 +353,7 @@ async function aggiornaStorico() {
   for (const a of anni) for (const c of pagine) {
     const k = `${a}|${c}`, v = STAGIONI[k];
     // le stagioni passate non cambiano più; quella in corso la rileggo ogni 3 ore
-    if (v && (a < anno ? v.piloti?.length || v.mancante || (v.tentativi || 0) >= 3 : recente(v.letta, 0.125))) continue;
+    if (v && (a < anno ? v.piloti?.length >= 10 || v.mancante || (v.tentativi || 0) >= 3 : recente(v.letta, 0.125)) && !(a === anno - 1 && c === 'MotoGP World Championship')) continue;
     if (letture >= 66) break;
     letture++;
     const titolo = `${a} ${c}`.replace(/ /g, '_');
@@ -361,7 +361,12 @@ async function aggiornaStorico() {
       const res = await fetch(`https://en.wikipedia.org/api/rest_v1/page/html/${encodeURIComponent(titolo)}`, { headers: UA, signal: AbortSignal.timeout(30000) });
       if (res.status === 404) return { piloti: [], costruttori: [], mancante: true };
       if (!res.ok) throw new Error(`${res.status}`);
-      return L.parseClassificaWiki(await res.text());
+      const html = await res.text();
+      if (a === anno - 1 && c === 'MotoGP World Championship') {   // campione per capire il formato della pagina
+        const i = html.search(/Riders(&#39;|'|’)?\s*standings/i);
+        await writeFile(RADICE + 'config/debug-wiki.html', `<!-- lunghezza ${html.length}, titolo a ${i} -->\n` + html.slice(Math.max(0, i - 300), i + 12000));
+      }
+      return L.parseClassificaWiki(html);
     }, null);
     if (r) STAGIONI[k] = { ...r, letta: ADESSO.toISOString(), tentativi: r.piloti.length ? 0 : (v?.tentativi || 0) + 1 };
   }
