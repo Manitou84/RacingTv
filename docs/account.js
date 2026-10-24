@@ -163,18 +163,37 @@
   // L'utente viene creato da una funzione del database che controlla che chi la chiama sia amministratore:
   // così la registrazione pubblica di Supabase può restare spenta.
   const creaUtente = (nome, password) => rpc('racingtv_admin_crea', { p_nome: nome.trim().toLowerCase(), p_email: nomeInEmail(nome), p_password: password });
+  // Condivisione: apre il menu Condividi dell'iPhone (Messaggi, WhatsApp, Mail…); nessun permesso richiesto.
+  const linkApp = () => location.origin + location.pathname.replace(/[^/]*$/, '');
+  async function condividi(testo, esito) {
+    try {
+      if (navigator.share) { await navigator.share({ title: 'RacingTv', text: testo }); return; }
+      await navigator.clipboard.writeText(testo);
+      esito.textContent = 'Testo copiato: incollalo nel messaggio.';
+    } catch (e) {
+      if (e?.name === 'AbortError') return;          // condivisione annullata
+      esito.textContent = testo;                       // ultima possibilità: lo mostro da copiare a mano
+    }
+  }
   function apriAdmin() {
     const d = $('#gestioneUtenti');
     d.showModal();
     disegnaAdmin();
+    $('#invitoUtente').hidden = true;
+    $('#condividiApp').onclick = () => condividi(`RacingTv: orari TV8, notizie e classifiche di MotoGP e F1, senza spoiler.\nApri ${linkApp()} con Safari, poi Condividi → Aggiungi alla schermata Home.\nScrivimi e ti creo l'accesso.`, $('#utentiMessaggio'));
     const form = $('#nuovoUtente');
     form.onsubmit = async e => {
       e.preventDefault();
       if (form.password.value.length < 8) { $('#utentiMessaggio').textContent = 'La password deve avere almeno 8 caratteri.'; return; }
       try {
         await creaUtente(form.nome.value, form.password.value);
-        const nome = form.nome.value; form.reset();
+        const nome = form.nome.value.trim().toLowerCase(), password = form.password.value; form.reset();
         disegnaAdmin(`Utente ${nome} creato.`);
+        // la password resta solo in questa finestra, per mandarla all'amico; non viene salvata da nessuna parte
+        const invito = $('#invitoUtente');
+        invito.hidden = false;
+        invito.querySelector('button').textContent = `Invia l'accesso a ${nome}`;
+        invito.querySelector('button').onclick = () => condividi(`Ciao! Ecco RacingTv: orari TV8, notizie e classifiche di MotoGP e F1, senza spoiler.\n\n1. Apri ${linkApp()} con Safari\n2. Tocca Condividi → Aggiungi alla schermata Home\n3. Entra con\nNome utente: ${nome}\nPassword: ${password}`, $('#utentiMessaggio'));
       } catch (err) { $('#utentiMessaggio').textContent = /registered|exists|duplicate|esiste/i.test(err.message) ? 'Esiste già un utente con questo nome.' : err.message; }
     };
     $('#utentiElenco').onclick = async e => {

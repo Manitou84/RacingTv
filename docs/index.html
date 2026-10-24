@@ -99,7 +99,15 @@
 
 <dialog id="gestioneUtenti" class="foglio">
   <form method="dialog"><div class="foglio-testa"><h2>Gestione utenti</h2><button class="testo-btn" value="chiudi">Fatto</button></div></form>
+  <div class="riga-opzione colonna">
+    <span><strong>Condividi l'app</strong><small>Manda il link di RacingTv a un amico. Poi crei qui sotto il suo utente e gli invii nome e password.</small></span>
+    <button class="bottone" id="condividiApp" type="button">Condividi l'app</button>
+  </div>
   <p class="nota piccola" id="utentiMessaggio" role="status"></p>
+  <div class="riga-opzione colonna" id="invitoUtente" hidden>
+    <span><strong>Utente pronto</strong><small>Invia link, nome utente e password con Messaggi, WhatsApp o Mail.</small></span>
+    <button class="bottone" type="button">Invia l'accesso</button>
+  </div>
   <div id="utentiElenco"></div>
   <form id="nuovoUtente" class="nuovo-utente" autocomplete="off">
     <h3 class="pal-titolo">Nuovo utente</h3>

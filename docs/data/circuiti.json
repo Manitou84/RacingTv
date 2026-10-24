@@ -316,7 +316,14 @@
       "anno": 2025
      }
     }
-   }
+   },
+   "mappaFile": [
+    "Yas Marina Circuit.svg",
+    "Yas Marina Circuit 2021.svg",
+    "Circuit Yas-Island.svg",
+    "Yas Marina Circuit (2021).svg",
+    "Circuit Yas Island.svg"
+   ]
   }
  }
 }

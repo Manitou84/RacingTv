@@ -328,8 +328,13 @@ async function aggiornaMappe() {
       }
       if (!file) throw new Error('nessuna mappa trovata');
       const nome = `mappe/${id}.png`;
-      if (vecchie[id]?.file === file && existsSync(RADICE + 'docs/' + nome)) { out[id] = vecchie[id]; return; }
-      const r = await fetch(`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file)}?width=900`, { headers: UA, signal: AbortSignal.timeout(30000) });
+      if (!Array.isArray(file) && vecchie[id]?.file === file && existsSync(RADICE + 'docs/' + nome)) { out[id] = vecchie[id]; return; }
+      // 'mappaFile' può essere un elenco di nomi da provare in ordine
+      let r = null;
+      for (const f of [].concat(file)) {
+        r = await fetch(`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(f)}?width=900`, { headers: UA, signal: AbortSignal.timeout(30000) });
+        if (r.ok && /^image\/(png|jpeg)/.test(r.headers.get('content-type') || '')) { file = f; break; }
+      }
       if (!r.ok || !/^image\/(png|jpeg)/.test(r.headers.get('content-type') || '')) throw new Error(`${r.status} ${r.headers.get('content-type')}`);
       const dati = Buffer.from(await r.arrayBuffer());
       if (dati.length > 3e6) throw new Error('immagine troppo grande');
