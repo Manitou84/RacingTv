@@ -1,8 +1,162 @@
 {
-  "aggiornato": "2026-10-23T18:50:00.000Z",
+  "aggiornato": "2026-10-24T05:26:49.995Z",
   "motogp": {
     "fonte": "Motosprint",
     "gare": [
+      {
+        "url": "https://www.motosprint.it/live/moto-gp/gran-premio-di-tailandia-901784",
+        "gp": "Gran Premio di Tailandia",
+        "circuito": "Chang International Circuit",
+        "data": "2026-03-01",
+        "podio": [
+          "marco-bezzecchi",
+          "pedro-acosta",
+          "raul-fernandez"
+        ]
+      },
+      {
+        "url": "https://www.motosprint.it/live/moto-gp/gran-premio-del-brasile-901785",
+        "gp": "Gran Premio del Brasile",
+        "circuito": "Autodromo Internacional Ayrton Senna",
+        "data": "2026-03-22",
+        "podio": [
+          "marco-bezzecchi",
+          "jorge-martin",
+          "fabio-di-giannantonio"
+        ]
+      },
+      {
+        "url": "https://www.motosprint.it/live/moto-gp/gran-premio-delle-americhe-901789",
+        "gp": "Gran Premio delle Americhe",
+        "circuito": "Circuit of the Americas",
+        "data": "2026-03-29",
+        "podio": [
+          "marco-bezzecchi",
+          "jorge-martin",
+          "pedro-acosta"
+        ]
+      },
+      {
+        "url": "https://www.motosprint.it/live/moto-gp/gran-premio-di-spagna-901792",
+        "gp": "Gran Premio di Spagna",
+        "circuito": "Circuito de Jerez",
+        "data": "2026-04-26",
+        "podio": [
+          "alex-marquez",
+          "marco-bezzecchi",
+          "fabio-di-giannantonio"
+        ]
+      },
+      {
+        "url": "https://www.motosprint.it/live/moto-gp/gran-premio-di-francia-901793",
+        "gp": "Gran Premio di Francia",
+        "circuito": "Le Mans",
+        "data": "2026-05-10",
+        "podio": [
+          "jorge-martin",
+          "marco-bezzecchi",
+          "ai-ogura"
+        ]
+      },
+      {
+        "url": "https://www.motosprint.it/live/moto-gp/gran-premio-di-catalunya-901794",
+        "gp": "Gran Premio di Catalunya",
+        "circuito": "Circuit de Catalunya",
+        "data": "2026-05-17",
+        "podio": [
+          "fabio-di-giannantonio",
+          "fermin-aldeguer",
+          "francesco-bagnaia"
+        ]
+      },
+      {
+        "url": "https://www.motosprint.it/live/moto-gp/gran-premio-ditalia-901796",
+        "gp": "Gran Premio d'Italia",
+        "circuito": "Autodromo del Mugello",
+        "data": "2026-05-31",
+        "podio": [
+          "marco-bezzecchi",
+          "jorge-martin",
+          "francesco-bagnaia"
+        ]
+      },
+      {
+        "url": "https://www.motosprint.it/live/moto-gp/grand-prix-of-hungary-901801",
+        "gp": "Grand Prix of Hungary",
+        "circuito": "Balaton Park Circuit",
+        "data": "2026-06-07",
+        "podio": [
+          "marc-marquez",
+          "pedro-acosta",
+          "francesco-bagnaia"
+        ]
+      },
+      {
+        "url": "https://www.motosprint.it/live/moto-gp/gran-premio-dei-paesi-bassi-901804",
+        "gp": "Gran Premio dei Paesi Bassi",
+        "circuito": "TT Circuit Assen",
+        "data": "2026-06-28",
+        "podio": [
+          "ai-ogura",
+          "raul-fernandez",
+          "jorge-martin"
+        ]
+      },
+      {
+        "url": "https://www.motosprint.it/live/moto-gp/gran-premio-di-germania-901805",
+        "gp": "Gran Premio di Germania",
+        "circuito": "Sachsenring",
+        "data": "2026-07-12",
+        "podio": [
+          "marc-marquez",
+          "ai-ogura",
+          "raul-fernandez"
+        ]
+      },
+      {
+        "url": "https://www.motosprint.it/live/moto-gp/gran-premio-del-regno-unito-901806",
+        "gp": "Gran Premio del Regno Unito",
+        "circuito": "Silverstone",
+        "data": "2026-08-09",
+        "podio": [
+          "raul-fernandez",
+          "jorge-martin",
+          "marco-bezzecchi"
+        ]
+      },
+      {
+        "url": "https://www.motosprint.it/live/moto-gp/gran-premio-di-catalunya-901807",
+        "gp": "Gran Premio di Catalunya",
+        "circuito": "Motorland Aragon",
+        "data": "2026-08-30",
+        "podio": [
+          "marc-marquez",
+          "pedro-acosta",
+          "marco-bezzecchi"
+        ]
+      },
+      {
+        "url": "https://www.motosprint.it/live/moto-gp/gran-premio-di-san-marino-901808",
+        "gp": "Gran Premio di San Marino",
+        "circuito": "Misano World Circuit Marco Simoncelli",
+        "data": "2026-09-13",
+        "podio": [
+          "marc-marquez",
+          "alex-marquez",
+          "pedro-acosta"
+        ]
+      },
+      {
+        "url": "https://www.motosprint.it/live/moto-gp/gran-premio-daustria-901809",
+        "gp": "Gran Premio d'Austria",
+        "circuito": "Red Bull Ring",
+        "data": "2026-09-20",
+        "podio": [
+          "pedro-acosta",
+          "jorge-martin",
+          "marco-bezzecchi"
+        ]
+      },
       {
         "url": "https://www.motosprint.it/live/moto-gp/gran-premio-del-giappone-901810",
         "gp": "Gran Premio del Giappone",
@@ -29,6 +183,172 @@
   },
   "f1": {
     "fonte": "Autosprint",
-    "gare": []
+    "gare": [
+      {
+        "url": "https://www.autosprint.it/live/formula-1/gran-premio-daustralia-900044",
+        "gp": "Gran Premio d'Australia",
+        "circuito": "Melbourne Albert Park",
+        "data": "2026-03-08",
+        "podio": [
+          "george-russell",
+          "kimi-antonelli",
+          "charles-leclerc"
+        ]
+      },
+      {
+        "url": "https://www.autosprint.it/live/formula-1/gran-premio-di-cina-900045",
+        "gp": "Gran Premio di Cina",
+        "circuito": "Shanghai",
+        "data": "2026-03-15",
+        "podio": [
+          "kimi-antonelli",
+          "george-russell",
+          "lewis-hamilton"
+        ]
+      },
+      {
+        "url": "https://www.autosprint.it/live/formula-1/gran-premio-del-giappone-900046",
+        "gp": "Gran Premio del Giappone",
+        "circuito": "Suzuka",
+        "data": "2026-03-29",
+        "podio": [
+          "kimi-antonelli",
+          "oscar-piastri",
+          "charles-leclerc"
+        ]
+      },
+      {
+        "url": "https://www.autosprint.it/live/formula-1/gran-premio-di-miami-900049",
+        "gp": "Gran Premio di Miami",
+        "circuito": "Miami International Autodrome",
+        "data": "2026-05-03",
+        "podio": [
+          "kimi-antonelli",
+          "lando-norris",
+          "oscar-piastri"
+        ]
+      },
+      {
+        "url": "https://www.autosprint.it/live/formula-1/gran-premio-di-canada-900050",
+        "gp": "Gran Premio di Canada",
+        "circuito": "Circuit Gilles Villeneuve",
+        "data": "2026-05-24",
+        "podio": [
+          "kimi-antonelli",
+          "lewis-hamilton",
+          "max-verstappen"
+        ]
+      },
+      {
+        "url": "https://www.autosprint.it/live/formula-1/gran-premio-di-monaco-900051",
+        "gp": "Gran Premio di Monaco",
+        "circuito": "Monte Carlo",
+        "data": "2026-06-07",
+        "podio": [
+          "kimi-antonelli",
+          "lewis-hamilton",
+          "isac-hadjar"
+        ]
+      },
+      {
+        "url": "https://www.autosprint.it/live/formula-1/gran-premio-daustria-900053",
+        "gp": "Gran Premio d'Austria",
+        "circuito": "Red Bull Ring",
+        "data": "2026-06-28",
+        "podio": [
+          "george-russell",
+          "max-verstappen",
+          "kimi-antonelli"
+        ]
+      },
+      {
+        "url": "https://www.autosprint.it/live/formula-1/gran-premio-dinghilterra-900054",
+        "gp": "Gran Premio d'Inghilterra",
+        "circuito": "Silverstone",
+        "data": "2026-07-05",
+        "podio": [
+          "charles-leclerc",
+          "george-russell",
+          "lewis-hamilton"
+        ]
+      },
+      {
+        "url": "https://www.autosprint.it/live/formula-1/gran-premio-del-belgio-900055",
+        "gp": "Gran Premio del Belgio",
+        "circuito": "Spa-Francorchamps",
+        "data": "2026-07-19",
+        "podio": [
+          "kimi-antonelli",
+          "charles-leclerc",
+          "max-verstappen"
+        ]
+      },
+      {
+        "url": "https://www.autosprint.it/live/formula-1/gran-premio-dungheria-900056",
+        "gp": "Gran Premio d'Ungheria",
+        "circuito": "Hungaroring",
+        "data": "2026-07-26",
+        "podio": [
+          "lando-norris",
+          "max-verstappen",
+          "kimi-antonelli"
+        ]
+      },
+      {
+        "url": "https://www.autosprint.it/live/formula-1/gran-premio-dolanda-900057",
+        "gp": "Gran Premio d'Olanda",
+        "circuito": "Zandvoort",
+        "data": "2026-08-23",
+        "podio": [
+          "lando-norris",
+          "kimi-antonelli",
+          "george-russell"
+        ]
+      },
+      {
+        "url": "https://www.autosprint.it/live/formula-1/gran-premio-ditalia-900058",
+        "gp": "Gran Premio d'Italia",
+        "circuito": "Monza",
+        "data": "2026-09-06",
+        "podio": [
+          "kimi-antonelli",
+          "george-russell",
+          "max-verstappen"
+        ]
+      },
+      {
+        "url": "https://www.autosprint.it/live/formula-1/gran-premio-di-spagna-900062",
+        "gp": "Gran Premio di Spagna",
+        "circuito": "Circuito de Madring",
+        "data": "2026-09-13",
+        "podio": [
+          "kimi-antonelli",
+          "max-verstappen",
+          "lando-norris"
+        ]
+      },
+      {
+        "url": "https://www.autosprint.it/live/formula-1/gran-premio-dellazerbaijan-900063",
+        "gp": "Gran Premio dell’Azerbaijan",
+        "circuito": "Baku City Circuit",
+        "data": "2026-09-26",
+        "podio": [
+          "george-russell",
+          "max-verstappen",
+          "isac-hadjar"
+        ]
+      },
+      {
+        "url": "https://www.autosprint.it/live/formula-1/gran-premio-di-singapore-900064",
+        "gp": "Gran Premio di Singapore",
+        "circuito": "Marina Bay",
+        "data": "2026-10-11",
+        "podio": [
+          "max-verstappen",
+          "charles-leclerc",
+          "kimi-antonelli"
+        ]
+      }
+    ]
   }
 }

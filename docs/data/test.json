@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-23T18:50:00.000Z",
+  "aggiornato": "2026-10-24T05:26:49.995Z",
   "motogp": [
     {
       "id": "motogp-shakedown-sepang-2026",
@@ -7,7 +7,8 @@
       "circuito": "Sepang International Circuit",
       "dal": "2026-01-29",
       "al": "2026-01-31",
-      "classifiche": []
+      "classifiche": [],
+      "url": "https://www.motosprint.it/live/moto-gp/shakedown-test-913091"
     },
     {
       "id": "motogp-test-sepang-2026",
@@ -15,7 +16,8 @@
       "circuito": "Sepang International Circuit",
       "dal": "2026-02-02",
       "al": "2026-02-05",
-      "classifiche": []
+      "classifiche": [],
+      "url": "https://www.motosprint.it/live/moto-gp/sepang-test-913092"
     },
     {
       "id": "motogp-test-buriram-2026",
@@ -23,7 +25,8 @@
       "circuito": "Chang International Circuit",
       "dal": "2026-02-20",
       "al": "2026-02-22",
-      "classifiche": []
+      "classifiche": [],
+      "url": "https://www.motosprint.it/live/moto-gp/buriram-test-913093"
     },
     {
       "id": "motogp-test-jerez-2026",
@@ -39,8 +42,7 @@
       "circuito": "Circuit de Catalunya",
       "dal": "2026-05-17",
       "al": "2026-05-18",
-      "classifiche": [],
-      "url": "https://www.motosprint.it/live/moto-gp/barcelona-official-test-920174"
+      "classifiche": []
     },
     {
       "id": "motogp-test-valencia-2026",
@@ -76,6 +78,26 @@
     }
   ],
   "f1": [
+    {
+      "id": "f1-bahrain-test-1-2026",
+      "nome": "Bahrain Test 1",
+      "circuito": "Manama",
+      "dal": "2026-02-11",
+      "al": "2026-02-13",
+      "url": "https://www.autosprint.it/live/formula-1/bahrain-test-1-913334",
+      "fonte": "Autosprint",
+      "classifiche": []
+    },
+    {
+      "id": "f1-bahrain-test-2-2026",
+      "nome": "Bahrain Test 2",
+      "circuito": "Manama",
+      "dal": "2026-02-18",
+      "al": "2026-02-20",
+      "url": "https://www.autosprint.it/live/formula-1/bahrain-test-2-913335",
+      "fonte": "Autosprint",
+      "classifiche": []
+    },
     {
       "id": "f1-test-bahrain-2027",
       "nome": "Test pre-stagionali",
