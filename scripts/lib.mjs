@@ -532,8 +532,9 @@ function righeClassifica(tab, persone) {
     if (!pos) continue;
     let nome = null;
     for (const c of celle.slice(1, 3)) {
-      const link = [...c.matchAll(/<a[^>]*href="([^"]*)"[^>]*?(?:title="([^"]*)")?[^>]*>([\s\S]*?)<\/a>/gi)].find(m => !/File:|Flag|Image:/i.test(m[1]));
-      if (link) { nome = decodifica(htmlInTesto(link[3]).trim() || (link[2] || '')); break; }
+      // il primo link con del testo: quello della bandierina contiene solo l'immagine
+      const link = [...c.matchAll(/<a[^>]*href="([^"]*)"[^>]*>([\s\S]*?)<\/a>/gi)].find(m => !/File:|Image:/i.test(m[1]) && htmlInTesto(m[2]).trim());
+      if (link) { nome = decodifica(htmlInTesto(link[2]).replace(/\n/g, ' ').trim()); break; }
     }
     if (!nome) continue;
     const punti = parseFloat(htmlInTesto(celle.at(-1)).replace(',', '.').replace(/[^\d.]/g, ''));
