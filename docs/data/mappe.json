@@ -1,1 +1,62 @@
-{}
+{
+  "phillip-island": {
+    "file": "Phillip_Island_Grand_Prix_Circuit_v2022.svg",
+    "via": "pageimage",
+    "immagine": "mappe/phillip-island.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Phillip_Island_Grand_Prix_Circuit_v2022.svg"
+  },
+  "sepang": {
+    "file": "Sepang.svg",
+    "via": "pageimage",
+    "immagine": "mappe/sepang.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Sepang.svg"
+  },
+  "lusail": {
+    "file": "Lusail_International_Circuit_2023.svg",
+    "via": "pageimage",
+    "immagine": "mappe/lusail.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Lusail_International_Circuit_2023.svg"
+  },
+  "portimao": {
+    "file": "Autódromo_do_Algarve_F1_Sectors.svg",
+    "via": "pageimage",
+    "immagine": "mappe/portimao.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_do_Algarve_F1_Sectors.svg"
+  },
+  "valencia": {
+    "file": "Valencia_(Ricardo_Tormo)_track_map.svg",
+    "via": "pageimage",
+    "immagine": "mappe/valencia.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Valencia_(Ricardo_Tormo)_track_map.svg"
+  },
+  "austin": {
+    "file": "Austin_circuit.svg",
+    "via": "pageimage",
+    "immagine": "mappe/austin.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Austin_circuit.svg"
+  },
+  "citta-del-messico": {
+    "file": "Autódromo_Hermanos_Rodríguez_2015.svg",
+    "via": "pageimage",
+    "immagine": "mappe/citta-del-messico.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg"
+  },
+  "interlagos": {
+    "file": "Autódromo_José_Carlos_Pace_(AKA_Interlagos)_track_map.svg",
+    "via": "pageimage",
+    "immagine": "mappe/interlagos.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_(AKA_Interlagos)_track_map.svg"
+  },
+  "las-vegas": {
+    "file": "2023_Las_Vegas_street_circuit.svg",
+    "via": "pageimage",
+    "immagine": "mappe/las-vegas.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:2023_Las_Vegas_street_circuit.svg"
+  },
+  "yas-marina": {
+    "file": "Yas Marina Rallycross circuit.svg",
+    "via": "pagina",
+    "immagine": "mappe/yas-marina.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Yas_Marina_Rallycross_circuit.svg"
+  }
+}
