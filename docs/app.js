@@ -798,7 +798,9 @@ function palmares(p) {
   }
   const base = p.palmares || { vittorie: 0, titoli: [], vittorieFino: '2000-01-01' };
   const vinteDopo = podi.filter(x => x.pos === 1 && x.data > base.vittorieFino).length;
-  return { carriera: base.vittorie + vinteDopo, titoli: base.titoli || [], tipo: base.tipoVittorie, podi, vittorieAnno: podi.filter(x => x.pos === 1).length, gareLette: gare.length };
+  // per la Superbike non leggo ancora i risultati gara per gara: niente conteggi dell'anno
+  const conAnno = (D.risultati?.[p.serie]?.gare || []).length > 0;
+  return { carriera: base.vittorie + vinteDopo, titoli: base.titoli || [], tipo: base.tipoVittorie, podi, vittorieAnno: podi.filter(x => x.pos === 1).length, gareLette: gare.length, conAnno };
 }
 // Posizione finale nei campionati delle ultime cinque stagioni (anche categorie minori), da Wikipedia
 function storicoPilota(p) {
@@ -826,13 +828,13 @@ function schedaPalmares(p) {
     <div class="pal-numeri">
       <div><b>${pm.titoli.length}</b><small>titoli</small></div>
       <div><b>${pm.carriera}</b><small>vittorie in carriera</small></div>
-      <div><b>${pm.vittorieAnno}</b><small>vittorie ${anno}</small></div>
-      <div><b>${pm.podi.length}</b><small>podi ${anno}</small></div>
+      ${pm.conAnno ? `<div><b>${pm.vittorieAnno}</b><small>vittorie ${anno}</small></div>` : ''}
+      ${pm.conAnno ? `<div><b>${pm.podi.length}</b><small>podi ${anno}</small></div>` : ''}
     </div>
     ${titoli}
     ${storicoPilota(p)}
-    <h3 class="pal-titolo">Migliori risultati ${anno}</h3>${elenco}
-    <p class="nota piccola">${esc(pm.tipo || '')}. I podi sono quelli della gara della domenica${p.serie === 'motogp' ? ', Sprint escluse' : ''}.</p>
+    ${pm.conAnno ? `<h3 class="pal-titolo">Migliori risultati ${anno}</h3>${elenco}` : ''}
+    <p class="nota piccola">${esc(pm.tipo || '')}. ${pm.conAnno ? `I podi sono quelli della gara della domenica${p.serie === 'motogp' ? ', Sprint escluse' : ''}.` : ''}</p>
   </div>`;
 }
 
@@ -969,7 +971,7 @@ function bloccoCampione(serie) {
       <div class="campione-testo">
         <span class="campione-etichetta">Campione del mondo ${esc(anno)}</span>
         <h2>${esc(p ? `${p.nome} ${p.cognome}` : r.nome)}</h2>
-        <p>${p ? `${p.bandiera} ${esc(p.team)}, ` : ''}${r.punti} punti${pm ? `, ${pm.vittorieAnno} vittorie` : ''}</p>
+        <p>${p ? `${p.bandiera} ${esc(p.team)}, ` : ''}${r.punti} punti${pm?.conAnno ? `, ${pm.vittorieAnno} vittorie` : ''}</p>
       </div>
       ${foto ? '<p class="nota piccola foto-credito">Foto: Wikipedia</p>' : ''}
     </section>

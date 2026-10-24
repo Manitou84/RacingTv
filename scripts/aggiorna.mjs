@@ -369,11 +369,11 @@ async function aggiornaStorico() {
   const piloti = (await leggiJson(DATI + 'piloti.json', { piloti: [] })).piloti;
   const perPilota = {};
   for (const p of piloti) {
-    const cog = compN(p.cognome), nome = compN(p.nome.split(' ')[0]);
+    const cog = compN(p.cognome), nomi = p.nome.split(' ').map(compN).filter(Boolean);
     const righe = [];
     for (const a of anni) {
       for (const c of CAMPIONATI[p.serie] || []) {
-        const r = (STAGIONI[`${a}|${c}`]?.piloti || []).find(x => { const n = compN(x.nome); return n.includes(cog) && (n.startsWith(nome) || n.includes(nome)); });
+        const r = (STAGIONI[`${a}|${c}`]?.piloti || []).find(x => { const n = compN(x.nome); return n.includes(cog) && nomi.some(x => n.includes(x)); });
         if (r) { righe.push({ anno: a, campionato: NOME_CAMPIONATO[c], pos: r.pos, punti: r.punti, inCorso: a === anno }); break; }
       }
     }

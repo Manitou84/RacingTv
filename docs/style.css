@@ -473,3 +473,4 @@ button.matchpoint { width: 100%; border: 0; text-align: left; font: inherit; cur
 .storico .medaglia { display: inline-grid; width: auto; min-width: 30px; height: 22px; padding: 0 6px; font-size: 14px; color: var(--gesso); background: var(--pista-2); } .storico .medaglia.m1, .storico .medaglia.m2, .storico .medaglia.m3 { color: #111; }
 
 .spoiler-tasti button { padding: 6px 4px; gap: 5px; } .spoiler-tasti button svg { display: none; }
+.storico .medaglia.m1 { background: var(--giallo); } .storico .medaglia.m2 { background: #c9ced5; } .storico .medaglia.m3 { background: #c98a4b; }
