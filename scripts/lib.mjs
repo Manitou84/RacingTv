@@ -418,7 +418,7 @@ function leggiGriglia(html, piloti, titoletto) {
       .filter(p => !battesimo || comp(p.nome.split(' ')[0]) === comp(battesimo) || comp(p.nome).startsWith(comp(battesimo)));
     const p = candidati.length > 1 ? (candidati.find(c => testo.includes(comp(c.nome.split(' ')[0]))) || candidati[0]) : candidati[0];
     const tempo = (m[2].match(/(\d{1,2})[:'’.](\d{2})[.,](\d{3})/) || []).slice(1);
-    out.push({ pos, id: p?.id || null, nome: p ? `${p.nome} ${p.cognome}` : (m[2].match(/[A-ZÀ-Ý][a-zà-ÿ]+\s+[A-ZÀ-Ý][A-ZÀ-Ý'’-]+(?:\s+[A-ZÀ-Ý][A-ZÀ-Ý'’-]+)?/) || [m[2].replace(/\(.*$/, '').replace(/^\d+\s+/, '')])[0].trim().replace(/\b([A-ZÀ-Ý])([A-ZÀ-Ý'’-]+)\b/g, (_, a, b) => a + b.toLowerCase()).slice(0, 40), ...(tempo.length ? { tempo: `${tempo[0]}:${tempo[1]}.${tempo[2]}` } : {}) });
+    out.push({ pos, id: p?.id || null, nome: p ? `${p.nome} ${p.cognome}` : (m[2].match(/[A-ZÀ-Ý][a-zà-ÿ]+\s+[A-ZÀ-Ý][A-ZÀ-Ý'’-]+(?:\s+(?![A-Z]{3}\b)[A-ZÀ-Ý][A-ZÀ-Ý'’-]+)?/) || [m[2].replace(/\(.*$/, '').replace(/^\d+\s+/, '')])[0].trim().replace(/\b([A-ZÀ-Ý])([A-ZÀ-Ý'’-]+)\b/g, (_, a, b) => a + b.toLowerCase()).slice(0, 40), ...(tempo.length ? { tempo: `${tempo[0]}:${tempo[1]}.${tempo[2]}` } : {}) });
     if (out.length >= 30) break;
   }
   return out;
@@ -435,7 +435,7 @@ function abbina(raw, piloti, usati) {
     .filter(p => !battesimo || comp_(p.nome.split(' ')[0]) === comp_(battesimo) || comp_(p.nome).startsWith(comp_(battesimo)));
   const p = candidati.length > 1 ? (candidati.find(c => testo.includes(comp_(c.nome.split(' ')[0]))) || candidati[0]) : candidati[0];
   if (p) return { id: p.id, nome: `${p.nome} ${p.cognome}` };
-  const nome = (raw.match(/[A-ZÀ-Ý][a-zà-ÿ]+\s+[A-ZÀ-Ý][A-ZÀ-Ý'’-]+(?:\s+[A-ZÀ-Ý][A-ZÀ-Ý'’-]+)?/) || [raw])[0]
+  const nome = (raw.match(/[A-ZÀ-Ý][a-zà-ÿ]+\s+[A-ZÀ-Ý][A-ZÀ-Ý'’-]+(?:\s+(?![A-Z]{3}\b)[A-ZÀ-Ý][A-ZÀ-Ý'’-]+)?/) || [raw])[0]
     .trim().replace(/\b([A-ZÀ-Ý])([A-ZÀ-Ý'’-]+)\b/g, (_, a, b) => a + b.toLowerCase()).slice(0, 40);
   return { id: null, nome };
 }
