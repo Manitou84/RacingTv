@@ -303,15 +303,30 @@ async function aggiornaMappe() {
   await mkdir(RADICE + 'docs/mappe', { recursive: true });
   for (const [id, c] of Object.entries(circuiti)) {
     await (async () => {
-      let file = c.mappaFile;
+      let file = c.mappaFile, via = 'manuale';
+      const prendi = async u => { const r = await fetch(u, { headers: UA, signal: AbortSignal.timeout(20000) }); if (!r.ok) throw new Error(`${r.status} su ${u.slice(0, 60)}`); return r.json(); };
       if (!file && c.wiki) {
-        const r = await fetch(`https://www.wikidata.org/w/api.php?action=wbgetentities&sites=enwiki&props=claims&format=json&titles=${encodeURIComponent(c.wiki)}`, { headers: UA, signal: AbortSignal.timeout(20000) });
-        const ent = Object.values((await r.json()).entities || {})[0];
-        const claims = (ent?.claims?.P15 || []).filter(x => x.mainsnak?.datavalue && !x.qualifiers?.P582);
-        const scelta = claims.find(x => x.rank === 'preferred') || claims.at(-1);
-        file = scelta?.mainsnak.datavalue.value;
+        // 1) Wikidata, proprietà P15 «mappa del percorso»
+        const ent = Object.values((await prendi(`https://www.wikidata.org/w/api.php?action=wbgetentities&sites=enwiki&props=claims&format=json&titles=${encodeURIComponent(c.wiki)}`)).entities || {})[0];
+        const claims = (ent?.claims?.P15 || []).filter(x => x.mainsnak?.datavalue);
+        const scelta = claims.find(x => x.rank === 'preferred') || claims.find(x => !x.qualifiers?.P582) || claims.at(-1);
+        file = scelta?.mainsnak.datavalue.value; via = 'wikidata';
       }
-      if (!file) throw new Error('nessuna mappa su Wikidata');
+      if (!file && c.wiki) {
+        // 2) i disegni SVG della pagina Wikipedia: preferisco quelli che sembrano un tracciato
+        const j = await prendi(`https://en.wikipedia.org/w/api.php?action=query&format=json&prop=images|pageimages&piprop=name&imlimit=100&redirects=1&titles=${encodeURIComponent(c.wiki)}`);
+        const pg = Object.values(j?.query?.pages || {})[0] || {};
+        const nomi = (pg.images || []).map(x => x.title.replace(/^File:/, ''));
+        const no = /flag|logo|icon|commons|wiki|edit|symbol|locator|location|question|padlock|ambox|crystal|nuvola|disambig|text|portal|oojs|red_pog|map_of|relief|_in_/i;
+        const svg = nomi.filter(n => /\.svg$/i.test(n) && !no.test(n.replace(/ /g, '_')));
+        const parole = c.nome.toLowerCase().split(/[^a-zà-ú]+/).filter(x => x.length > 3 && !/circuit|grand|prix|international/.test(x));
+        const voto = n => { const l = n.toLowerCase(); return (/track|circuit|layout|circuito|map/.test(l) ? 2 : 0) + parole.filter(x => l.includes(x)).length; };
+        const migliore = svg.sort((x, y) => voto(y) - voto(x))[0];
+        if (pg.pageimage && /\.svg$/i.test(pg.pageimage)) { file = pg.pageimage; via = 'pageimage'; }
+        else if (migliore && voto(migliore) > 0) { file = migliore; via = 'pagina'; }
+        if (!file) errori[id + '-candidati'] = svg.slice(0, 15).join(' | ');
+      }
+      if (!file) throw new Error('nessuna mappa trovata');
       const nome = `mappe/${id}.png`;
       if (vecchie[id]?.file === file && existsSync(RADICE + 'docs/' + nome)) { out[id] = vecchie[id]; return; }
       const r = await fetch(`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file)}?width=900`, { headers: UA, signal: AbortSignal.timeout(30000) });
@@ -319,7 +334,7 @@ async function aggiornaMappe() {
       const dati = Buffer.from(await r.arrayBuffer());
       if (dati.length > 3e6) throw new Error('immagine troppo grande');
       await writeFile(RADICE + 'docs/' + nome, dati);
-      out[id] = { file, immagine: nome, pagina: 'https://commons.wikimedia.org/wiki/File:' + encodeURIComponent(file.replace(/ /g, '_')) };
+      out[id] = { file, via, immagine: nome, pagina: 'https://commons.wikimedia.org/wiki/File:' + encodeURIComponent(file.replace(/ /g, '_')) };
       log(`mappa ${id}: ${file}`);
     })().catch(e => { errori[id] = String(e.message || e).slice(0, 200); log(`mappa ${id}: ${errori[id]}`); });
     if (!out[id] && vecchie[id]) out[id] = vecchie[id];
