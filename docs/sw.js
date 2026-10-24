@@ -1,5 +1,5 @@
 // Cache dell'app: guscio sempre disponibile, dati presi prima dalla rete.
-const VERSIONE = 'racingtv-v15';
+const VERSIONE = 'racingtv-v16';
 const GUSCIO = ['./', 'index.html', 'style.css', 'app.js', 'account.js', 'config.js', 'manifest.webmanifest', 'icons/icon-192.png'];
 
 self.addEventListener('install', e => {
@@ -17,7 +17,8 @@ self.addEventListener('fetch', e => {
     e.respondWith(caches.match(e.request).then(r => r || fetch(e.request).then(res => { const c = res.clone(); caches.open(VERSIONE).then(x => x.put(e.request, c)); return res; })));
     return;
   }
-  e.respondWith(fetch(e.request).then(res => {
+  // no-cache: chiedo sempre al server se il file è cambiato, così le nuove versioni arrivano subito
+  e.respondWith(fetch(e.request, { cache: 'no-cache' }).then(res => {
     const c = res.clone(); caches.open(VERSIONE).then(x => x.put(e.request, c)); return res;
   }).catch(() => caches.match(e.request)));
 });

@@ -439,3 +439,12 @@ button.matchpoint { width: 100%; border: 0; text-align: left; font: inherit; cur
 .svela-bottoni .bottone { flex: 1 1 auto; }
 .coperta-grande .svela-bottoni { justify-content: center; margin-top: 4px; }
 .svela-bottoni .bottone.piccolo { min-height: 40px; font-size: 14px; }
+
+/* Solo in verticale: su iPhone una web app non può bloccare la rotazione, quindi in orizzontale copro lo schermo */
+.solo-verticale { display: none; }
+@media (orientation: landscape) and (max-height: 520px) {
+  .solo-verticale { display: flex; position: fixed; inset: 0; z-index: 1000; flex-direction: column; align-items: center; justify-content: center; gap: 14px;
+    background: var(--asfalto); color: var(--gesso); text-align: center; font-family: var(--display); font-weight: 800; font-size: 22px; text-transform: uppercase; }
+  .solo-verticale svg { color: var(--giallo); transform: rotate(-90deg); }
+  body { overflow: hidden; }
+}
