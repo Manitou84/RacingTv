@@ -1,4 +1,288 @@
 {
-  "aggiornato": null,
-  "weekend": []
+  "aggiornato": "2026-10-24T05:30:53.912Z",
+  "weekend": [
+    {
+      "id": "motogp-gp-australia-2026",
+      "serie": "motogp",
+      "gp": "GP Australia",
+      "sessioni": [
+        {
+          "classe": "Moto3",
+          "sessione": "Prove libere 1",
+          "inizio": "2026-10-22T22:00:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "Moto2",
+          "sessione": "Prove libere 1",
+          "inizio": "2026-10-22T22:50:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "MotoGP",
+          "sessione": "Prove libere 1",
+          "inizio": "2026-10-22T23:45:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "Moto3",
+          "sessione": "Pre-qualifiche",
+          "inizio": "2026-10-23T02:15:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "Moto2",
+          "sessione": "Pre-qualifiche",
+          "inizio": "2026-10-23T03:05:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "MotoGP",
+          "sessione": "Pre-qualifiche",
+          "inizio": "2026-10-23T04:00:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "Moto3",
+          "sessione": "Prove libere 2",
+          "inizio": "2026-10-23T21:40:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "Moto2",
+          "sessione": "Prove libere 2",
+          "inizio": "2026-10-23T22:25:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "MotoGP",
+          "sessione": "Prove libere 2",
+          "inizio": "2026-10-23T23:10:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "MotoGP",
+          "sessione": "Qualifiche",
+          "inizio": "2026-10-23T23:50:00.000Z",
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-10-23T23:50:00.000Z"
+          },
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "Moto3",
+          "sessione": "Qualifiche",
+          "inizio": "2026-10-24T01:45:00.000Z",
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-10-24T01:45:00.000Z"
+          },
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "Moto2",
+          "sessione": "Qualifiche",
+          "inizio": "2026-10-24T02:40:00.000Z",
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-10-24T02:40:00.000Z"
+          },
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "MotoGP",
+          "sessione": "Sprint",
+          "inizio": "2026-10-24T04:00:00.000Z",
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-10-24T04:00:00.000Z"
+          },
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "Moto3",
+          "sessione": "Prove libere 2",
+          "inizio": "2026-10-24T21:40:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "MotoGP",
+          "sessione": "Warm up",
+          "inizio": "2026-10-24T22:40:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "Moto3",
+          "sessione": "Gara",
+          "inizio": "2026-10-25T01:00:00.000Z",
+          "tv8": {
+            "tipo": "differita",
+            "inizio": "2026-10-25T10:00:00.000Z"
+          },
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "Moto2",
+          "sessione": "Gara",
+          "inizio": "2026-10-25T01:15:00.000Z",
+          "tv8": {
+            "tipo": "differita",
+            "inizio": "2026-10-25T11:20:00.000Z"
+          },
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "MotoGP",
+          "sessione": "Gara",
+          "inizio": "2026-10-25T03:00:00.000Z",
+          "tv8": {
+            "tipo": "differita",
+            "inizio": "2026-10-25T13:00:00.000Z"
+          },
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "MotoGP",
+          "sessione": "Warm up",
+          "inizio": "2026-10-25T21:40:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        }
+      ],
+      "tv8Confermati": [
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25"
+      ],
+      "fonti": [
+        {
+          "nome": "Sky Sport",
+          "url": "https://sport.sky.it/motogp/2026/10/23/orari-motogp-gp-australia-phillip-island-sky-now-tv8",
+          "titolo": "Orari MotoGp: Gp Australia Phillip Island 2026 in tv e streaming su Sky, Now e TV8 | Sky Sport"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/motogp-in-tv-gp-australia-2026-orari-24-ottobre-streaming-programma-sky-e-tv8/",
+          "titolo": "MotoGP in tv, GP Australia 2026: orari 24 ottobre, streaming, programma Sky e TV8"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/motogp-in-tv-gp-australia-2026-orari-23-ottobre-streaming-programma-sky-e-tv8/",
+          "titolo": "MotoGP in tv, GP Australia 2026: orari 23 ottobre, streaming, programma Sky e TV8"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/motogp-gp-australia-2026-gli-orari-del-fine-settimana-dalle-prove-libere-alla-gara-guida-sky-e-tv8/",
+          "titolo": "MotoGP, GP Australia 2026: gli orari del fine settimana dalle prove libere alla gara. Guida Sky e TV8"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/motogp-gp-australia-2026-su-tv8-orari-in-chiaro-fine-settimana-qualifiche-sprint-e-gara/",
+          "titolo": "MotoGP, GP Australia 2026 su TV8: orari in chiaro fine settimana, qualifiche, Sprint e gara"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/motogp-gp-australia-2026-programma-orari-tv-streaming-guida-sky-e-tv8/",
+          "titolo": "MotoGP, GP Australia 2026: programma, orari, tv, streaming, guida SKY e TV8"
+        }
+      ]
+    },
+    {
+      "id": "f1-gp-usa-2026",
+      "serie": "f1",
+      "gp": "GP USA",
+      "sessioni": [
+        {
+          "classe": "F1",
+          "sessione": "Prove libere 1",
+          "inizio": "2026-10-23T17:30:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "F1",
+          "sessione": "Prove libere 2",
+          "inizio": "2026-10-23T21:00:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "F1",
+          "sessione": "Prove libere 3",
+          "inizio": "2026-10-24T17:30:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "F1",
+          "sessione": "Qualifiche",
+          "inizio": "2026-10-24T21:00:00.000Z",
+          "tv8": {
+            "tipo": "differita",
+            "inizio": "2026-10-24T22:30:00.000Z"
+          },
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "F1",
+          "sessione": "Gara",
+          "inizio": "2026-10-25T20:00:00.000Z",
+          "tv8": {
+            "tipo": "differita",
+            "inizio": "2026-10-25T21:30:00.000Z"
+          },
+          "fonte": "OA Sport"
+        }
+      ],
+      "tv8Confermati": [
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25"
+      ],
+      "fonti": [
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/a-che-ora-la-f1-su-tv8-oggi-gp-usa-2026-programma-qualifiche-differita-in-chiaro/",
+          "titolo": "A che ora la F1 su TV8 oggi, GP USA 2026: programma qualifiche, differita in chiaro"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/f1-oggi-in-tv-gp-usa-2026-orari-fp3-e-qualifiche-streaming-programma-sky-e-tv8/",
+          "titolo": "F1 oggi in tv, GP USA 2026: orari FP3 e qualifiche, streaming, programma Sky e TV8"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/f1-oggi-in-tv-gp-usa-2026-orari-prove-prove-libere-streaming-programma-sky-e-tv8/",
+          "titolo": "F1 oggi in tv, GP USA 2026: orari prove prove libere, streaming, programma Sky e TV8"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/f1-gp-usa-2026-gli-orari-del-fine-settimana-dalle-prove-libere-alla-gara-guida-sky-e-tv8/",
+          "titolo": "F1, GP USA 2026: gli orari del fine settimana dalle prove libere alla gara. Guida Sky e TV8"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/f1-gp-usa-2026-su-tv8-orari-in-chiaro-fine-settimana-qualifiche-e-gara/",
+          "titolo": "F1, GP USA 2026 su TV8: orari in chiaro fine settimana, qualifiche e gara"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/f1-gp-usa-2026-programma-orari-tv-streaming-guida-sky-e-tv8/",
+          "titolo": "F1, GP USA 2026: programma, orari, tv, streaming, guida SKY e TV8"
+        }
+      ]
+    }
+  ]
 }
