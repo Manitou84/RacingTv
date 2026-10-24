@@ -410,13 +410,67 @@ function leggiGriglia(html, piloti, titoletto) {
     const pos = +m[1];
     if (pos !== out.length + 1) { if (out.length) break; else continue; }
     const testo = comp(m[2]);
-    const candidati = piloti.filter(p => testo.includes(comp(p.cognome)));
+    // nome di battesimo scritto nella riga («93 Marc MARQUEZ …»): se c'è, deve combaciare,
+    // così un sostituto con lo stesso cognome (es. un altro Fernández) non prende il posto del titolare
+    const battesimo = (m[2].match(/([A-ZÀ-Ý][a-zà-ÿ]+)\s+[A-ZÀ-Ý][A-ZÀ-Ý'’ -]{2,}/) || [])[1];
+    const usati = new Set(out.map(o => o.id).filter(Boolean));
+    const candidati = piloti.filter(p => testo.includes(comp(p.cognome)) && !usati.has(p.id))
+      .filter(p => !battesimo || comp(p.nome.split(' ')[0]) === comp(battesimo) || comp(p.nome).startsWith(comp(battesimo)));
     const p = candidati.length > 1 ? (candidati.find(c => testo.includes(comp(c.nome.split(' ')[0]))) || candidati[0]) : candidati[0];
     const tempo = (m[2].match(/(\d{1,2})[:'’.](\d{2})[.,](\d{3})/) || []).slice(1);
-    out.push({ pos, id: p?.id || null, nome: p ? `${p.nome} ${p.cognome}` : m[2].replace(/\(.*$/, '').replace(/^\d+\s+/, '').trim().slice(0, 40), ...(tempo.length ? { tempo: `${tempo[0]}:${tempo[1]}.${tempo[2]}` } : {}) });
+    out.push({ pos, id: p?.id || null, nome: p ? `${p.nome} ${p.cognome}` : (m[2].match(/[A-ZÀ-Ý][a-zà-ÿ]+\s+[A-ZÀ-Ý][A-ZÀ-Ý'’-]+(?:\s+[A-ZÀ-Ý][A-ZÀ-Ý'’-]+)?/) || [m[2].replace(/\(.*$/, '').replace(/^\d+\s+/, '')])[0].trim().replace(/\b([A-ZÀ-Ý])([A-ZÀ-Ý'’-]+)\b/g, (_, a, b) => a + b.toLowerCase()).slice(0, 40), ...(tempo.length ? { tempo: `${tempo[0]}:${tempo[1]}.${tempo[2]}` } : {}) });
     if (out.length >= 30) break;
   }
   return out;
+}
+
+/* ---------- Ordine d'arrivo (Sprint e Gara) ---------- */
+// Formato OA Sport: «1 12 93 Marc MARQUEZ SPA Ducati Lenovo Team DUCATI 19’09.411 181.1», poi i distacchi;
+// sotto «Non classificati» i ritirati. Restituisce i classificati con tempo totale o giri di distacco.
+const comp_ = t => pulisci(t).replace(/[^a-z0-9]/g, '');
+function abbina(raw, piloti, usati) {
+  const testo = comp_(raw);
+  const battesimo = (raw.match(/([A-ZÀ-Ý][a-zà-ÿ]+)\s+[A-ZÀ-Ý][A-ZÀ-Ý'’ -]{2,}/) || [])[1];
+  const candidati = piloti.filter(p => testo.includes(comp_(p.cognome)) && !usati.has(p.id))
+    .filter(p => !battesimo || comp_(p.nome.split(' ')[0]) === comp_(battesimo) || comp_(p.nome).startsWith(comp_(battesimo)));
+  const p = candidati.length > 1 ? (candidati.find(c => testo.includes(comp_(c.nome.split(' ')[0]))) || candidati[0]) : candidati[0];
+  if (p) return { id: p.id, nome: `${p.nome} ${p.cognome}` };
+  const nome = (raw.match(/[A-ZÀ-Ý][a-zà-ÿ]+\s+[A-ZÀ-Ý][A-ZÀ-Ý'’-]+(?:\s+[A-ZÀ-Ý][A-ZÀ-Ý'’-]+)?/) || [raw])[0]
+    .trim().replace(/\b([A-ZÀ-Ý])([A-ZÀ-Ý'’-]+)\b/g, (_, a, b) => a + b.toLowerCase()).slice(0, 40);
+  return { id: null, nome };
+}
+const RX_TEMPO = /(?:(\d{1,2})[h:])?(\d{1,2})[:'’](\d{2})[.,](\d{3})/;
+export function parseArrivo(html, piloti) {
+  const righe = htmlInTesto(html).split('\n').map(r => r.trim()).filter(Boolean);
+  const i = righe.findIndex(r => /ordine d.arrivo|classifica (della )?(gara|sprint)/i.test(r) && r === r.toUpperCase());
+  if (i < 0) return null;
+  const classificati = [], ritirati = [], usati = new Set();
+  let modo = 'classificati';
+  for (const r of righe.slice(i + 1)) {
+    if (/^non classificat/i.test(r)) { modo = 'ritirati'; continue; }
+    if (!/^\d/.test(r) && r.length > 12 && r === r.toUpperCase()) break;  // titoletto successivo
+    const m = r.match(/^(\d{1,2})\s+(.+)$/);
+    if (!m) { if (classificati.length && modo === 'classificati' && r.length > 40) break; continue; }
+    const t = m[2].match(RX_TEMPO);
+    const secondi = t ? (+(t[1] || 0)) * 3600 + +t[2] * 60 + +t[3] + +t[4] / 1000 : null;
+    const giri = +((m[2].match(/(\d+)\s+gir[io]\b/i) || [])[1] || 0);
+    if (modo === 'classificati') {
+      const pos = +m[1];
+      if (pos !== classificati.length + 1) { if (classificati.length) { modo = 'ritirati'; } else continue; }
+      else {
+        const a = abbina(m[2], piloti, usati); if (a.id) usati.add(a.id);
+        const d = m[2].match(/\+\s?(?:(\d{1,2})[:'’])?(\d{1,2})[.,](\d{3})/);   // distacco scritto «+5.123»
+        const distacco = d ? +(d[1] || 0) * 60 + +d[2] + +d[3] / 1000 : null;
+        classificati.push({ pos, ...a, ...(secondi != null && !d ? { secondi } : {}), ...(distacco != null ? { distacco } : {}), ...(giri ? { giri } : {}) });
+        if (classificati.length >= 30) break;
+        continue;
+      }
+    }
+    const a = abbina(r, piloti, usati); if (a.id) usati.add(a.id);
+    ritirati.push(a);
+    if (ritirati.length >= 15) break;
+  }
+  return classificati.length >= 5 ? { classificati, ritirati } : null;
 }
 
 /* ---------- Calendario .ics ---------- */

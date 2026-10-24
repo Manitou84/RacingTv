@@ -72,15 +72,16 @@ function quandoRelativo(iso) {
 }
 
 /* ---------- Dati ---------- */
-const D = { palinsesto: { weekend: [] }, notizie: { articoli: [] }, piloti: [], classifica: {}, calendario: {}, risultati: {}, circuiti: {}, griglie: {}, test: {}, mappe: {}, hof: {} };
+const D = { palinsesto: { weekend: [] }, notizie: { articoli: [] }, piloti: [], classifica: {}, calendario: {}, risultati: {}, circuiti: {}, griglie: {}, test: {}, mappe: {}, hof: {}, arrivi: {} };
 async function carica(nome) {
   const r = await fetch(`data/${nome}.json`, { cache: 'no-cache' });
   if (!r.ok) throw new Error(nome);
   return r.json();
 }
 async function caricaTutto() {
-  const [p, n, pi, c, ca, ri, ci, gr, te, ma, hf] = await Promise.allSettled(['palinsesto', 'notizie', 'piloti', 'classifica', 'calendario', 'risultati', 'circuiti', 'griglie', 'test', 'mappe', 'hall-of-fame'].map(carica));
+  const [p, n, pi, c, ca, ri, ci, gr, te, ma, hf, ar] = await Promise.allSettled(['palinsesto', 'notizie', 'piloti', 'classifica', 'calendario', 'risultati', 'circuiti', 'griglie', 'test', 'mappe', 'hall-of-fame', 'arrivi'].map(carica));
   if (hf.status === 'fulfilled') D.hof = hf.value;
+  if (ar.status === 'fulfilled') D.arrivi = ar.value.arrivi || {};
   if (ma.status === 'fulfilled') D.mappe = ma.value;
   if (te.status === 'fulfilled') D.test = te.value;
   if (ci.status === 'fulfilled') D.circuiti = ci.value.circuiti || {};
@@ -353,8 +354,17 @@ function bloccoGriglia(w) {
   const perFila = w.serie === 'motogp' ? 3 : 2;
   const file = [];
   for (let i = 0; i < g.righe.length; i += perFila) file.push(g.righe.slice(i, i + perFila));
+  // tempo della pole e, per gli altri, distacco dalla pole
+  const secondi = t => { const m = /^(\d+):(\d{2})\.(\d{3})$/.exec(t || ''); return m ? +m[1] * 60 + +m[2] + +m[3] / 1000 : null; };
+  const pole = secondi(g.righe[0]?.tempo);
+  const crono = r => {
+    const t = secondi(r.tempo);
+    if (t == null) return '';
+    if (r.pos === 1) return `<span class="crono pole">${esc(r.tempo)}</span>`;
+    return pole != null ? `<span class="crono">+${(t - pole).toFixed(3).replace('.', ',')}</span>` : `<span class="crono">${esc(r.tempo)}</span>`;
+  };
   const casella = r => { const p = r.id && pilota(r.id); const pref = p && stato.preferiti.has(p.id);
-    return `<li class="casella${pref ? ' preferito' : ''}"><span class="pos">${r.pos}</span>${piastra(p, ' piccola')}<span class="chi"><strong><b>${esc(p ? p.cognome : r.nome)}</b></strong><small>${p ? esc(p.team) : ''}</small></span></li>`; };
+    return `<li class="casella${pref ? ' preferito' : ''}"><span class="pos">${r.pos}</span>${piastra(p, ' piccola')}<span class="chi"><strong><b>${esc(p ? p.cognome : r.nome)}</b></strong><small>${p ? esc(p.team) : ''}</small></span>${crono(r)}</li>`; };
   return `<section class="griglia"><h2 class="sezione-titolo">Griglia di partenza</h2>
     <ol class="file">${file.map((f, i) => `<li class="fila"><span class="fila-n">${i + 1}ª fila</span><ol class="fila-caselle per${perFila}">${f.map(casella).join('')}</ol></li>`).join('')}</ol>
     <p class="nota piccola">Griglia da <a href="${esc(urlSicuro(g.url))}" target="_blank" rel="noopener noreferrer">${esc(g.fonte)}</a>; eventuali penalità possono cambiarla.</p></section>`;
@@ -419,6 +429,42 @@ function rigaHof(h, serie) {
       ${h.curiosita.length ? `<h3 class="pal-titolo">Da sapere</h3><ul class="hof-curiosita">${h.curiosita.map(c => `<li>${esc(c)}</li>`).join('')}</ul>` : ''}
       ${h.legend ? `<p class="nota piccola">${h.legend >= 2026 ? 'Annunciato tra le MotoGP Legends nel 2025, ingresso nel 2026.' : `MotoGP Legend dal ${h.legend}.`}${h.hallOfFame ? ' Nella Hall of Fame MotoGP dal 2025.' : ''}</p>` : h.hallOfFame ? '<p class="nota piccola">Nella Hall of Fame MotoGP dal 2025.</p>' : ''}
     </div></li>`;
+}
+
+/* ---------- Ordine d'arrivo di Sprint e Gara ---------- */
+// Coperto finché la sessione non è segnata come vista (stesse regole dell'anti-spoiler)
+const tempoGara = x => { const h = Math.floor(x / 3600), m = Math.floor(x % 3600 / 60), sec = (x % 60).toFixed(3).padStart(6, '0').replace('.', ',');
+  return h ? `${h}h ${String(m).padStart(2, '0')}'${sec}` : `${m}'${sec}`; };
+const distaccoGara = x => x >= 60 ? `+${Math.floor(x / 60)}'${(x % 60).toFixed(3).padStart(6, '0').replace('.', ',')}` : `+${x.toFixed(3).replace('.', ',')}`;
+function bloccoArrivi(w) {
+  const tutti = D.arrivi?.[w.id];
+  if (!tutti) return '';
+  const classe = w.serie === 'f1' ? 'F1' : 'MotoGP';
+  const attive = new Set(finestreAttive(w.serie).map(f => f.id));
+  let html = '';
+  for (const sessione of ['Sprint', 'Gara']) {
+    const a = tutti[sessione];
+    if (!a) continue;
+    const idF = `${w.id}|${classe}|${sessione}`;
+    const titolo = `Ordine d'arrivo ${sessione === 'Sprint' ? 'Sprint' : 'gara'}`;
+    if (attive.has(idF)) {
+      html += `<section class="griglia arrivo"><h2 class="sezione-titolo">${titolo}</h2>
+        <div class="coperta"><span><strong>Risultato pronto, ma coperto</strong>Lo mostro quando mi dici che hai visto la ${sessione === 'Sprint' ? 'Sprint' : 'gara'}.</span><button class="bottone secondario piccolo" data-visto="${esc(idF)}">L'ho già vista</button></div></section>`;
+      continue;
+    }
+    const primo = a.classificati[0];
+    const crono = r => r.pos === 1 ? (r.secondi != null ? `<span class="crono pole">${tempoGara(r.secondi)}</span>` : '')
+      : r.giri ? `<span class="crono">+${r.giri} ${r.giri === 1 ? 'giro' : 'giri'}</span>`
+      : r.distacco != null ? `<span class="crono">${distaccoGara(r.distacco)}</span>`
+      : r.secondi != null && primo.secondi != null ? `<span class="crono">${distaccoGara(r.secondi - primo.secondi)}</span>` : '';
+    const riga = r => { const p = r.id && pilota(r.id); const pref = p && stato.preferiti.has(p.id);
+      return `<li class="arrivo-riga${pref ? ' preferito' : ''}"><span class="pos">${r.pos}</span>${piastra(p, ' piccola')}<span class="chi"><strong><b>${esc(p ? p.cognome : r.nome)}</b></strong><small>${p ? esc(p.team) : ''}</small></span>${crono(r)}</li>`; };
+    html += `<section class="griglia arrivo"><h2 class="sezione-titolo">${titolo}</h2>
+      <ol class="arrivo-lista">${a.classificati.map(riga).join('')}</ol>
+      ${a.ritirati?.length ? `<p class="nota piccola"><strong>Non classificati:</strong> ${a.ritirati.map(r => { const p = r.id && pilota(r.id); return esc(p ? p.cognome : r.nome); }).join(', ')}.</p>` : ''}
+      <p class="nota piccola">Ordine d'arrivo da <a href="${esc(urlSicuro(a.url))}" target="_blank" rel="noopener noreferrer">${esc(a.fonte)}</a>; eventuali penalità possono cambiarlo.</p></section>`;
+  }
+  return html;
 }
 
 /* ---------- Calcolatore «campione se…» ---------- */
@@ -630,6 +676,7 @@ function disegnaTv8() {
   }
   if (giorno) html += '</ol>';
   html += bloccoGriglia(w);
+  html += bloccoArrivi(w);
   html += schedaCircuito(gc);
   html += rimando;
   const fonti = [...new Map((w.fonti || []).map(f => [f.nome, f])).values()];

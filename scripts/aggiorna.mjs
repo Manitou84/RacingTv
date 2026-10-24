@@ -291,6 +291,30 @@ async function aggiornaTest() {
   await scriviJson(DATI + 'test.json', out);
 }
 
+/* ---------- Ordine d'arrivo di Sprint e Gara ---------- */
+async function aggiornaArrivi() {
+  const vecchi = await leggiJson(DATI + 'arrivi.json', { arrivi: {} });
+  const arrivi = Object.fromEntries(Object.entries(vecchi.arrivi || {}).filter(([, w]) => Object.values(w).some(x => recente(x.aggiornato, 14))));
+  const piloti = (await leggiJson(DATI + 'piloti.json', { piloti: [] })).piloti;
+  for (const s of SERIE) {
+    const cerca = `ordine d'arrivo ${s.id === 'f1' ? 'F1' : 'MotoGP'}`;
+    const api = `https://www.oasport.it/wp-json/wp/v2/posts?search=${encodeURIComponent(cerca)}&per_page=15&_fields=title,link,content,date`;
+    const articoli = await tenta(`Arrivi ${s.nome}`, async () => JSON.parse(await scarica(api)), []);
+    for (const p of articoli.reverse()) {   // dal più vecchio: se ci sono correzioni vince l'ultimo articolo
+      const titolo = L.decodifica(p.title?.rendered || '');
+      if (!/ordine d.arrivo/i.test(titolo) || /moto2|moto3|motoe|\bf2\b|\bf3\b|qualifich|prove|libere/i.test(titolo) || L.serieDa(titolo) !== s.id || !recente(p.date, 5)) continue;
+      const gp = L.nomeGp(titolo); if (!gp) continue;
+      const sessione = /sprint/i.test(titolo) ? 'Sprint' : 'Gara';
+      const r = L.parseArrivo(p.content?.rendered || '', piloti.filter(x => x.serie === s.id));
+      if (!r) { log(`Arrivo ${s.nome}: non letto da`, p.link); continue; }
+      const id = L.idWeekend(gp, +(p.date || '').slice(0, 4) || ADESSO.getFullYear(), s.id);
+      arrivi[id] = { ...(arrivi[id] || {}), [sessione]: { serie: s.id, gp, sessione, fonte: 'OA Sport', url: p.link, aggiornato: ADESSO.toISOString(), ...r } };
+      log(`Arrivo ${s.nome} ${sessione}: ${r.classificati.length} classificati per ${gp}`);
+    }
+  }
+  await scriviJson(DATI + 'arrivi.json', { aggiornato: ADESSO.toISOString(), arrivi });
+}
+
 /* ---------- Mappe dei tracciati ---------- */
 // Per ogni circuito cerca su Wikidata la «mappa del percorso» (proprietà P15) e la scarica da Wikimedia Commons
 // in docs/mappe/: così l'app la mostra dal proprio sito, senza far contattare altri server al telefono.
@@ -354,5 +378,6 @@ await aggiornaNotizie();
 await aggiornaClassifiche();
 await aggiornaRisultati();
 await aggiornaGriglie();
+await tenta('arrivi', aggiornaArrivi);
 await aggiornaTest();
 await aggiornaMappe();

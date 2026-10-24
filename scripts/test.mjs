@@ -98,5 +98,26 @@ console.log('Notti ok');
   assert.equal(g[0].tempo, '1:34.203');
   const marc = pil.find(p => p.cognome === 'Márquez' && /^Marc/.test(p.nome)), alex = pil.find(p => p.cognome === 'Márquez' && /^Ál|^Al/.test(p.nome));
   if (marc && alex) { assert.equal(g[0].id, marc.id, 'Marc in pole'); assert.equal(g[1].id, alex.id, 'Alex secondo'); }
+  const g2 = L.parseGriglia(html.replace('Pilota NUMERO11', 'Augusto FERNANDEZ'), pil);
+  assert.ok(g2[11].nome.includes('Fernandez') && !g2[11].id?.includes('raul'), 'sostituto con lo stesso cognome: ' + JSON.stringify(g2[11]));
   console.log('Griglia qualifiche ok');
+}
+
+// Ordine d'arrivo (formato OA Sport, Sprint GP Australia 2026)
+{
+  const html = '<h2><strong>ORDINE D’ARRIVO SPRINT GP AUSTRALIA</strong> <strong>MOTOGP 2026</strong></h2>' +
+    '<p>1 12 93 Marc MARQUEZ SPA Ducati Lenovo Team DUCATI 19’09.411 181.1</p>' +
+    '<p>2 9 73 Alex MARQUEZ SPA BK8 Gresini Racing MotoGP DUCATI 19’09.734 181.0 0.323</p>' +
+    '<p>3 7 49 Fabio DI GIANNANTONIO ITA Pertamina Enduro VR46 Racing Team DUCATI 19’10.001 181.0 0.590</p>' +
+    '<p>4 6 72 Marco BEZZECCHI ITA Aprilia Racing APRILIA 19’12.001 181.0 2.590</p>' +
+    '<p>5 5 37 Pedro ACOSTA SPA Red Bull KTM Factory Racing KTM 19’15.500 180.0 6.089</p>' +
+    '<p>6 4 99 Mario ROSSI ITA Team Prova HONDA 1 giro</p>' +
+    '<p><strong>Non classificati</strong></p><p>89 Jorge MARTIN SPA Aprilia Racing APRILIA 10’21.587 180.3 6 giri</p>';
+  const r = L.parseArrivo(html, pil);
+  assert.equal(r.classificati.length, 6, 'classificati');
+  assert.equal(r.classificati[0].secondi.toFixed(3), '1149.411');
+  assert.equal(r.classificati[5].giri, 1);
+  assert.equal(r.ritirati.length, 1, 'ritirati');
+  assert.equal(r.classificati[5].id, null);
+  console.log('Ordine d’arrivo ok');
 }

@@ -448,3 +448,16 @@ button.matchpoint { width: 100%; border: 0; text-align: left; font: inherit; cur
   .solo-verticale svg { color: var(--giallo); transform: rotate(-90deg); }
   body { overflow: hidden; }
 }
+
+/* Tempi in griglia */
+.casella .crono { font-family: var(--display); font-weight: 800; font-size: 17px; font-variant-numeric: tabular-nums; color: var(--grigio); line-height: 1; }
+.casella .crono.pole { color: var(--giallo); }
+
+/* Ordine d'arrivo */
+.arrivo-lista { list-style: none; margin: 0; padding: 0; }
+.arrivo-riga { display: grid; grid-template-columns: 28px 42px minmax(0,1fr) auto; gap: 10px; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--riga); }
+.arrivo-riga .pos { font-family: var(--display); font-weight: 900; font-size: 20px; text-align: right; }
+.arrivo-riga:nth-child(-n+3) .pos { color: var(--giallo); }
+.arrivo-riga.preferito .chi b { color: var(--giallo); }
+.arrivo-riga .crono { font-family: var(--display); font-weight: 800; font-size: 17px; font-variant-numeric: tabular-nums; color: var(--grigio); }
+.arrivo-riga .crono.pole { color: var(--giallo); }
