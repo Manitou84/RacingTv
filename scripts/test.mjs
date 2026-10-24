@@ -79,3 +79,12 @@ const d2 = { classe: 'Moto3', sessione: 'Prove libere 2', inizio: '2026-10-24T21
 const un = L.unisciSessioni([d1], [{ ...d1 }], [d2]);
 assert.equal(un.length, 1); assert.equal(un[0].inizio, d1.inizio);
 console.log('Doppioni ok');
+
+// ---------- Notti australiane: sera prima in testa al blocco del giorno ----------
+const notte = L.parseOA('<p><strong>Sabato 24 ottobre</strong></p><p>23.40 Moto3, GP Australia: prove libere 2 - Sky Sport MotoGP<br>01.10 MotoGP, GP Australia: prove libere 2 - Sky Sport MotoGP<br>06.00 MotoGP, GP Australia: Sprint - Sky Sport MotoGP, TV8</p><p><strong>Domenica 25 ottobre</strong></p><p>00.40 MotoGP, GP Australia: warm up - Sky<br>04.00 MotoGP, GP Australia: gara - Sky, 14.00 differita TV8</p>', 'MotoGP, GP Australia 2026: gli orari del fine settimana', 'https://www.oasport.it/2026/10/x/', 'motogp');
+const nx = (c, s) => notte.sessioni.find(x => x.classe === c && x.sessione === s);
+assert.equal(ora(nx('Moto3', 'Prove libere 2').inizio), 'ven 23, 23:40');
+assert.equal(ora(nx('MotoGP', 'Sprint').inizio), 'sab 24, 06:00');
+assert.equal(ora(nx('MotoGP', 'Warm up').inizio), 'dom 25, 00:40');
+assert.equal(ora(nx('MotoGP', 'Gara').tv8.inizio), 'dom 25, 14:00');
+console.log('Notti ok');

@@ -175,14 +175,24 @@ export function parseOA(html, titolo, url, serie = serieDa(titolo + ' ' + url)) 
   const gp = nomeGp(titolo) || nomeGp(testo);
   const sessioni = [], tv8 = [];
   const rxRiga = /^-?\s*(?:ore\s+)?(\d{1,2})[.:](\d{2})(?:\s*-\s*\d{1,2}[.:]\d{2})?\s*[:,-]?\s+(.+)$/i;
-  let sezione = 'cal', dalTitolo = !!giorno;
-  // articolo "del giorno" con sessioni notturne: gli orari serali sono della sera prima
-  const haMattino = righe.some(r => { const m = r.match(rxRiga); return m && +m[1] < 10; });
-  for (const r of righe) {
+  let sezione = 'cal';
+  // titoletti di giorno: "Venerdì 2 ottobre", "SABATO 3 OTTOBRE:"
+  const rxGiorno = new RegExp(`^-?\\s*${GIORNI}\\s+(\\d{1,2})\\s+(${MESI.join('|')})\\b[^0-9]*$`);
+  const titolettoGiorno = r => r.length < 40 && pulisci(r).match(rxGiorno);
+  // GP lontani: nel blocco di un giorno gli orari serali scritti PRIMA di quelli del mattino
+  // sono della sera precedente (es. "Sabato 24": 23.40 PL2, 00.25 ..., 06.00 Sprint)
+  const blocco = [], primoMattino = {};
+  let nb = 0;
+  righe.forEach((r, i) => {
+    if (titolettoGiorno(r)) nb++;
+    blocco[i] = nb;
+    const m = r.match(rxRiga);
+    if (m && +m[1] < 10 && primoMattino[nb] === undefined) primoMattino[nb] = i;
+  });
+  for (const [i, r] of righe.entries()) {
     const rp = pulisci(r);
-    // titoletti di giorno: "Venerdì 2 ottobre", "SABATO 3 OTTOBRE:"
-    const gg = rp.match(new RegExp(`^-?\\s*${GIORNI}\\s+(\\d{1,2})\\s+(${MESI.join('|')})\\b[^0-9]*$`));
-    if (gg && r.length < 40) { giorno = { d: +gg[1], mo: MESI.indexOf(gg[2]) + 1 }; dalTitolo = false; continue; }
+    const gg = titolettoGiorno(r);
+    if (gg) { giorno = { d: +gg[1], mo: MESI.indexOf(gg[2]) + 1 }; continue; }
     if (!rxRiga.test(r) && (/^[^a-z]{8,}$/.test(r) || /^(calendario|programma|orari|dove vedere|palinsesto)/i.test(r))) {
       sezione = /tv8/.test(rp) && !/calendario/.test(rp) ? 'tv8' : /dove vedere/.test(rp) ? 'altro' : 'cal';
       continue;
@@ -191,7 +201,8 @@ export function parseOA(html, titolo, url, serie = serieDa(titolo + ' ' + url)) 
     const [desc, ...resto] = m[3].split(/\s+-\s+/);
     const canali = resto.join(' - ');
     const info = normalizzaSessione(desc, serie); if (!info) continue;
-    const ieri = dalTitolo && haMattino && +m[1] >= 19 ? 1 : 0;
+    const pm = primoMattino[blocco[i]];
+    const ieri = +m[1] >= 19 && pm !== undefined && i < pm ? 1 : 0;
     const ora = romaISO(anno, giorno.mo, giorno.d - ieri, +m[1], +m[2]);
     if (sezione === 'tv8') { tv8.push({ ...info, ora, differita: /differita|replica/i.test(r) }); continue; }
     if (sezione === 'altro') continue;
