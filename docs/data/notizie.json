@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-10-24T10:54:05.176Z",
+  "aggiornato": "2026-10-24T11:16:55.595Z",
   "articoli": [
+    {
+      "id": "45daad66c2e0",
+      "serie": "f1",
+      "titolo": "GP Messico: orari TV e dove vedere la F1",
+      "link": "https://www.autosprint.it/news/formula1/f1-orari-tv/2026/10/24-9212993/gp_messico_orari_tv_e_dove_vedere_la_f1",
+      "fonte": "Autosprint",
+      "data": "2026-10-24T11:16:55.595Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/20/154355458-45b9e1eb-6207-40aa-97ae-d0005f55fa66.jpg",
+      "sommario": "Diciannovesimo appuntamento della stagione 2026 per la nuova Formula 1. Tutti gli orari di prove libere, qualifiche e gara in diretta su Sky, Now e in differita su TV8"
+    },
     {
       "id": "7954a9fee960",
       "serie": "f1",
