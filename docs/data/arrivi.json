@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-24T08:40:20.153Z",
+  "aggiornato": "2026-10-24T08:41:40.520Z",
   "arrivi": {
     "motogp-gp-australia-2026": {
       "Sprint": {
@@ -8,7 +8,7 @@
         "sessione": "Sprint",
         "fonte": "OA Sport",
         "url": "https://www.oasport.it/2026/10/ordine-darrivo-motogp-sprint-gp-australia-2026-marc-marquez-vince-e-torna-in-vetta-al-mondiale-4-bezzecchi/",
-        "aggiornato": "2026-10-24T08:40:20.153Z",
+        "aggiornato": "2026-10-24T08:41:40.520Z",
         "classificati": [
           {
             "pos": 1,
@@ -67,7 +67,7 @@
           {
             "pos": 10,
             "id": null,
-            "nome": "Iker Lecuona Spa",
+            "nome": "Iker Lecuona",
             "secondi": 1160.184
           },
           {
@@ -97,7 +97,7 @@
           {
             "pos": 15,
             "id": null,
-            "nome": "Augusto Fernandez Spa",
+            "nome": "Augusto Fernandez",
             "secondi": 1187.356
           }
         ],
