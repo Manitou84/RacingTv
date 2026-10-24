@@ -88,3 +88,15 @@ assert.equal(ora(nx('MotoGP', 'Sprint').inizio), 'sab 24, 06:00');
 assert.equal(ora(nx('MotoGP', 'Warm up').inizio), 'dom 25, 00:40');
 assert.equal(ora(nx('MotoGP', 'Gara').tv8.inizio), 'dom 25, 14:00');
 console.log('Notti ok');
+
+// Griglia con il titoletto «CLASSIFICA QUALIFICHE» (formato OA Sport, GP Australia 2026)
+{
+  const nomi = ['93 Marc MARQUEZ SPA Ducati Lenovo Team DUCATI 1’34.203', '73 Alex MARQUEZ SPA BK8 Gresini Racing MotoGP DUCATI 1’35.697', '5 Johann ZARCO FRA Castrol Honda LCR HONDA 1’35.706'];
+  const html = '<h2><strong>CLASSIFICA QUALIFICHE GP AUSTRALIA 2026 MOTOGP</strong></h2>' + Array.from({ length: 12 }, (_, i) => `<p>${i + 1} ${nomi[i] || (10 + i) + ' Pilota NUMERO' + i + ' ITA Team MOTO 1’36.' + (100 + i)}</p>`).join('');
+  const g = L.parseGriglia(html, pil);
+  assert.equal(g.length, 12, 'griglia da CLASSIFICA QUALIFICHE');
+  assert.equal(g[0].tempo, '1:34.203');
+  const marc = pil.find(p => p.cognome === 'Márquez' && /^Marc/.test(p.nome)), alex = pil.find(p => p.cognome === 'Márquez' && /^Ál|^Al/.test(p.nome));
+  if (marc && alex) { assert.equal(g[0].id, marc.id, 'Marc in pole'); assert.equal(g[1].id, alex.id, 'Alex secondo'); }
+  console.log('Griglia qualifiche ok');
+}

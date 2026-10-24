@@ -386,7 +386,18 @@ export function intervalloDate(testo) {
 
 /* ---------- Griglia di partenza (OA Sport) ---------- */
 // piloti: elenco della serie da docs/data/piloti.json, per riconoscere i nomi
-export function parseGriglia(html, piloti, titoletto = /griglia di partenza/i) {
+// Il titoletto sopra l'elenco cambia da articolo ad articolo («GRIGLIA DI PARTENZA», «CLASSIFICA QUALIFICHE GP …»):
+// li provo in ordine e tengo il primo elenco lungo almeno 10 posizioni.
+const TITOLETTI_GRIGLIA = [/griglia di partenza/i, /classifica (delle )?qualifiche/i, /qualifiche|q2/i];
+export function parseGriglia(html, piloti, titoletto = TITOLETTI_GRIGLIA) {
+  const minimo = Array.isArray(titoletto) ? 10 : 1;
+  for (const t of [].concat(titoletto)) {
+    const out = leggiGriglia(html, piloti, t);
+    if (out.length >= minimo) return out;
+  }
+  return [];
+}
+function leggiGriglia(html, piloti, titoletto) {
   const righe = htmlInTesto(html).split('\n');
   const i = righe.findIndex(r => titoletto.test(r) && r === r.toUpperCase());
   if (i < 0) return [];
