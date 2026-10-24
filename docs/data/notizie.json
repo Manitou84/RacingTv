@@ -1,6 +1,56 @@
 {
-  "aggiornato": "2026-10-24T07:09:58.104Z",
+  "aggiornato": "2026-10-24T07:35:47.711Z",
   "articoli": [
+    {
+      "id": "6a29c09b2240",
+      "serie": "motogp",
+      "titolo": "Jorge Martín rassicura sull'infortunio: “Sto bene, questo è l'importante”",
+      "link": "https://www.motosprint.it/news/eventi/gp-australia/2026/10/24-9226782/jorge_martn_rassicura_sull_infortunio_sto_bene_questo_l_importante",
+      "fonte": "Motosprint",
+      "data": "2026-10-24T07:35:47.711Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/24/072733675-9413b4d6-8c87-4b1c-9bb4-46dd1dd7ef1e.jpg",
+      "sommario": "Il pilota Aprilia svela i prossimi passi: \"Andremo a Melbourne per svolgere ulteriori esami. Mi dispiace molto per la caduta, ma mi sento bene nonostante il forte impatto\""
+    },
+    {
+      "id": "34227fdae15f",
+      "serie": "motogp",
+      "titolo": "Bagnaia sempre più sconsolato dopo la Sprint: “Asciutto o bagnato non cambia, sono lento uguale”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/24-9226781/bagnaia_sempre_pi_sconsolato_dopo_la_sprint_asciutto_o_bagnato_non_cambia_sono_lento_uguale",
+      "fonte": "Motosprint",
+      "data": "2026-10-24T07:35:47.711Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/24/072839467-dfd5f7c1-a301-4cb3-a694-a5589c8ae769.jpg",
+      "sommario": "Pecco abbandona dopo pochissimi giri della gara corta per un problema tecnico ma fissa l’ipotetico risultato per domani “non la top 5, ma dal nono al dodicesimo è un obiettivo realistico”\n"
+    },
+    {
+      "id": "353f816e8502",
+      "serie": "motogp",
+      "titolo": "Zarco: \"Quando corri coi ragazzi davanti diventa chiaro cosa manca sulla moto\"",
+      "link": "https://www.gpone.com/it/2026/10/24/motogp/zarco-quando-corri-coi-ragazzi-davanti-diventa-chiaro-cosa-manca-sulla-moto.html",
+      "fonte": "GPOne",
+      "data": "2026-10-24T07:20:23.000Z",
+      "immagine": "",
+      "sommario": "\"E' stata una sfortuna, un guasto elettronico. Mi sono fermato per non correre rischi stupidi. Domani spero si corra sul bagnato, è l'unica chance che abbiamo di fare podio da qui a fine stagione\""
+    },
+    {
+      "id": "494f16dd1e5a",
+      "serie": "motogp",
+      "titolo": "Marc Marquez: “Non avrei lottato così se non fosse stato Martin”",
+      "link": "https://www.gpone.com/it/2026/10/24/motogp/marc-marquez-non-avrei-lottato-cosi-se-non-fosse-stato-martin.html",
+      "fonte": "GPOne",
+      "data": "2026-10-24T07:17:33.000Z",
+      "immagine": "",
+      "sommario": "“Dieci anni fa mi buttavo in qualunque battaglia. Ora cerco di gestire meglio queste situazioni, ma oggi era il momento di rischiare. Alex era più veloce di me, forse non mi ha attaccato perché ero io”"
+    },
+    {
+      "id": "9ea4591dd6af",
+      "serie": "motogp",
+      "titolo": "Bagnaia: \"Non cambia niente: non ho velocità né sul bagnato, né sull'asciutto\"",
+      "link": "https://www.gpone.com/it/2026/10/24/motogp/bagnaia-non-cambia-niente-non-ho-velocita-ne-sul-bagnato-ne-sullasciutto.html",
+      "fonte": "GPOne",
+      "data": "2026-10-24T07:01:21.000Z",
+      "immagine": "",
+      "sommario": "\"Purtroppo mi sono fermato per un problema tecnico, sono cose che possono succedere. In qualifica abbiamo sbagliato strategia\""
+    },
     {
       "id": "daecf6037e47",
       "serie": "motogp",
@@ -40,6 +90,16 @@
       "data": "2026-10-24T07:00:00.270Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/24/063509841-4149bc52-ab4e-4091-92d2-9c8745bc3354.jpg",
       "sommario": "Marco ha chiuso ai piedi del podio dopo essere partito dalla terza fila: “Mi sentivo bene sia sull’asciutto che sul bagnato, ma il mix della qualifica mi ha fregato”"
+    },
+    {
+      "id": "b6d9000eebb9",
+      "serie": "motogp",
+      "titolo": "Acosta: \"La KTM era molto instabile, mi sono limitato a portarla al traguardo\"",
+      "link": "https://www.gpone.com/it/2026/10/24/motogp/acosta-la-ktm-era-molto-instabile-mi-sono-limitato-a-portarla-al-traguardo.html",
+      "fonte": "GPOne",
+      "data": "2026-10-24T06:57:54.000Z",
+      "immagine": "",
+      "sommario": "\"Oggi non c'era molto altro da fare. La moto si muoveva dappertutto e non girava neanche così bene. Sul bagnato? Andiamo bene solo con tanta acqua\""
     },
     {
       "id": "d6faf9bb3903",
