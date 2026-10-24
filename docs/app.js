@@ -83,7 +83,11 @@ async function caricaTutto() {
   if (gr.status === 'fulfilled') D.griglie = gr.value.griglie || {};
   if (ri.status === 'fulfilled') D.risultati = ri.value;
   if (ca.status === 'fulfilled') D.calendario = ca.value;
-  if (p.status === 'fulfilled') D.palinsesto = p.value;
+  if (p.status === 'fulfilled') {
+    D.palinsesto = p.value;
+    // Moto2 e Moto3 non interessano: restano solo MotoGP e F1
+    D.palinsesto.weekend.forEach(w => { w.sessioni = w.sessioni.filter(s => s.classe !== 'Moto2' && s.classe !== 'Moto3'); });
+  }
   if (n.status === 'fulfilled') D.notizie = n.value;
   if (pi.status === 'fulfilled') D.piloti = pi.value.piloti.map(x => ({ ...x, rx: new RegExp(x.cerca, 'i') }));
   if (c.status === 'fulfilled') D.classifica = c.value;

@@ -125,7 +125,7 @@ async function aggiornaPalinsesto() {
   weekend.sort((a, b) => primo(a).localeCompare(primo(b)));
   await scriviJson(DATI + 'palinsesto.json', { aggiornato: ADESSO.toISOString(), weekend });
   await scriviJson(DATI + 'diagnostica-orari.json', { aggiornato: ADESSO.toISOString(), articoli: diagnostica });
-  await writeFile(RADICE + 'docs/tv8.ics', L.creaIcs(weekend));
+  await writeFile(RADICE + 'docs/tv8.ics', L.creaIcs(weekend.map(w => ({ ...w, sessioni: w.sessioni.filter(s => s.classe !== 'Moto2' && s.classe !== 'Moto3') }))));
   log(`palinsesto: ${weekend.length} weekend, ${weekend.reduce((n, w) => n + w.sessioni.filter(s => s.tv8).length, 0)} trasmissioni TV8`);
 }
 
