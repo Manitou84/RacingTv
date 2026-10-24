@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-10-24T06:23:15.187Z",
+  "aggiornato": "2026-10-24T06:54:52.603Z",
   "articoli": [
+    {
+      "id": "d6faf9bb3903",
+      "serie": "motogp",
+      "titolo": "Alex Marquez: \"Potevo attaccare Marc, ma il rischio era troppo grande\"",
+      "link": "https://www.gpone.com/it/2026/10/24/motogp/alex-marquez-potevo-attaccare-marc-ma-il-rischio-era-troppo-grande.html",
+      "fonte": "GPOne",
+      "data": "2026-10-24T06:38:23.000Z",
+      "immagine": "",
+      "sommario": "\"Non è che Marc non sbagli mai: siamo tutti esseri umani e anche lui può commettere errori. Il fatto è che Marc trasforma la paura in motivazione\""
+    },
+    {
+      "id": "be363aa73021",
+      "serie": "motogp",
+      "titolo": "Le prime parole di Martin dopo la caduta: \"Sono vivo, è la cosa più importante\"",
+      "link": "https://www.gpone.com/it/2026/10/24/motogp/le-prime-parole-di-martin-dopo-la-caduta-sono-vivo-e-la-cosa-piu-importante.html",
+      "fonte": "GPOne",
+      "data": "2026-10-24T06:30:37.000Z",
+      "immagine": "",
+      "sommario": "\"È stato pericoloso, per fortuna sto bene, sembra si tratti solo di un piccolo osso. Ora andrò a Melbourne e capiremo cosa succederà\""
+    },
+    {
+      "id": "5a34adaef933",
+      "serie": "motogp",
+      "titolo": "Bezzecchi: \"Io solo contro Marquez? non è ancora finita, è un mondiale folle\"",
+      "link": "https://www.gpone.com/it/2026/10/24/motogp/bezzecchi-io-solo-contro-marquez-non-e-ancora-finita-e-un-mondiale-folle.html",
+      "fonte": "GPOne",
+      "data": "2026-10-24T06:29:57.000Z",
+      "immagine": "",
+      "sommario": "\"Mi spiace per Martin e per Aprilia. Mi sono accorto che era caduto quando ho raggiunto il gruppo di testa e lui non c'era. Nella sprint ci ho messo una pezza, ma domani non so cosa aspettarmi\""
+    },
     {
       "id": "4afefd6d8290",
       "serie": "motogp",
@@ -30,6 +60,16 @@
       "data": "2026-10-24T06:18:27.000Z",
       "immagine": "",
       "sommario": "Raul si è ritirato durante la Sprint a causa della frattura al dito rimediata in Indonesia. Gli esami hanno evidenziato un'infiammazione, le sue condizioni saranno rivalutate a Sepang"
+    },
+    {
+      "id": "dae31d8c9e52",
+      "serie": "motogp",
+      "titolo": "Di Giannantonio: \"Marc stava gestendo, Martin tradito dal vento e da una buca\"",
+      "link": "https://www.gpone.com/it/2026/10/24/motogp/di-giannantonio-marc-stava-gestendo-martin-tradito-dal-vento-e-da-una-buca.html",
+      "fonte": "GPOne",
+      "data": "2026-10-24T05:31:29.000Z",
+      "immagine": "",
+      "sommario": "\"Dopo la caduta di Jorge, Marc ha rallentato un pò, penso ne avesse di più. Dov'è caduto Martin è molto facile commettere errori, c'è una buca in ingresso curva\""
     },
     {
       "id": "f8b6d357e694",
