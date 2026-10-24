@@ -1,75 +1,2839 @@
 {
-  "aggiornato": "2026-10-24T12:28:22.236Z",
+  "aggiornato": "2026-10-24T12:29:43.844Z",
   "fonte": "Wikipedia",
   "piloti": {
-    "martin": [],
-    "marc-marquez": [],
-    "bezzecchi": [],
-    "ogura": [],
-    "acosta": [],
-    "di-giannantonio": [],
-    "raul-fernandez": [],
-    "alex-marquez": [],
-    "bagnaia": [],
-    "aldeguer": [],
-    "bastianini": [],
-    "marini": [],
-    "binder": [],
-    "moreira": [],
-    "quartararo": [],
-    "morbidelli": [],
-    "zarco": [],
-    "mir": [],
-    "miller": [],
-    "rins": [],
-    "razgatlioglu": [],
-    "vinales": [],
-    "f1-norris": [],
-    "f1-piastri": [],
-    "f1-leclerc": [],
-    "f1-hamilton": [],
-    "f1-russell": [],
-    "f1-antonelli": [],
-    "f1-verstappen": [],
-    "f1-hadjar": [],
-    "f1-lawson": [],
-    "f1-lindblad": [],
-    "f1-alonso": [],
-    "f1-stroll": [],
-    "f1-albon": [],
-    "f1-sainz": [],
-    "f1-hulkenberg": [],
-    "f1-bortoleto": [],
-    "f1-gasly": [],
-    "f1-colapinto": [],
-    "f1-ocon": [],
-    "f1-bearman": [],
-    "f1-perez": [],
-    "f1-bottas": [],
-    "sbk-bulega": [],
-    "sbk-lecuona": [],
-    "sbk-montella": [],
-    "sbk-bautista": [],
-    "sbk-sam-lowes": [],
-    "sbk-alex-lowes": [],
-    "sbk-bassani": [],
-    "sbk-baldassarri": [],
-    "sbk-surra": [],
-    "sbk-gerloff": [],
-    "sbk-rea": [],
-    "sbk-dixon": [],
-    "sbk-chantra": [],
-    "sbk-petrucci": [],
-    "sbk-oliveira": [],
-    "sbk-van-der-mark": [],
-    "sbk-soomer": [],
-    "sbk-locatelli": [],
-    "sbk-vierge": [],
-    "sbk-gardner": [],
-    "sbk-manzi": [],
-    "sbk-sofuoglu": [],
-    "sbk-baz": [],
-    "sbk-mackenzie": [],
-    "sbk-bridewell": []
+    "martin": [
+      {
+        "anno": 2021,
+        "campionato": "MotoGP",
+        "pos": 9,
+        "punti": 111,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "MotoGP",
+        "pos": 9,
+        "punti": 152,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "MotoGP",
+        "pos": 2,
+        "punti": 428,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "MotoGP",
+        "pos": 1,
+        "punti": 508,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "MotoGP",
+        "pos": 21,
+        "punti": 34,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "MotoGP",
+        "pos": 1,
+        "punti": 355,
+        "inCorso": true
+      }
+    ],
+    "marc-marquez": [
+      {
+        "anno": 2021,
+        "campionato": "MotoGP",
+        "pos": 7,
+        "punti": 142,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "MotoGP",
+        "pos": 13,
+        "punti": 113,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "MotoGP",
+        "pos": 14,
+        "punti": 96,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "MotoGP",
+        "pos": 3,
+        "punti": 392,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "MotoGP",
+        "pos": 1,
+        "punti": 545,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "MotoGP",
+        "pos": 2,
+        "punti": 353,
+        "inCorso": true
+      }
+    ],
+    "bezzecchi": [
+      {
+        "anno": 2021,
+        "campionato": "Moto2",
+        "pos": 3,
+        "punti": 214,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "MotoGP",
+        "pos": 14,
+        "punti": 111,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "MotoGP",
+        "pos": 3,
+        "punti": 329,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "MotoGP",
+        "pos": 12,
+        "punti": 153,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "MotoGP",
+        "pos": 3,
+        "punti": 353,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "MotoGP",
+        "pos": 3,
+        "punti": 309,
+        "inCorso": true
+      }
+    ],
+    "ogura": [
+      {
+        "anno": 2021,
+        "campionato": "Moto2",
+        "pos": 8,
+        "punti": 120,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Moto2",
+        "pos": 2,
+        "punti": 242,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Moto2",
+        "pos": 9,
+        "punti": 137.5,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Moto2",
+        "pos": 1,
+        "punti": 274,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "MotoGP",
+        "pos": 16,
+        "punti": 89,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "MotoGP",
+        "pos": 4,
+        "punti": 259,
+        "inCorso": true
+      }
+    ],
+    "acosta": [
+      {
+        "anno": 2021,
+        "campionato": "Moto3",
+        "pos": 1,
+        "punti": 259,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Moto2",
+        "pos": 5,
+        "punti": 177,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Moto2",
+        "pos": 1,
+        "punti": 332.5,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "MotoGP",
+        "pos": 6,
+        "punti": 215,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "MotoGP",
+        "pos": 4,
+        "punti": 307,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "MotoGP",
+        "pos": 5,
+        "punti": 258,
+        "inCorso": true
+      }
+    ],
+    "di-giannantonio": [
+      {
+        "anno": 2021,
+        "campionato": "Moto2",
+        "pos": 7,
+        "punti": 161,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "MotoGP",
+        "pos": 20,
+        "punti": 24,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "MotoGP",
+        "pos": 12,
+        "punti": 151,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "MotoGP",
+        "pos": 10,
+        "punti": 165,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "MotoGP",
+        "pos": 6,
+        "punti": 262,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "MotoGP",
+        "pos": 6,
+        "punti": 245,
+        "inCorso": true
+      }
+    ],
+    "raul-fernandez": [
+      {
+        "anno": 2021,
+        "campionato": "Moto2",
+        "pos": 2,
+        "punti": 307,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "MotoGP",
+        "pos": 22,
+        "punti": 14,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "MotoGP",
+        "pos": 20,
+        "punti": 51,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "MotoGP",
+        "pos": 16,
+        "punti": 66,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "MotoGP",
+        "pos": 10,
+        "punti": 172,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "MotoGP",
+        "pos": 7,
+        "punti": 236,
+        "inCorso": true
+      }
+    ],
+    "alex-marquez": [
+      {
+        "anno": 2021,
+        "campionato": "MotoGP",
+        "pos": 16,
+        "punti": 70,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "MotoGP",
+        "pos": 17,
+        "punti": 50,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "MotoGP",
+        "pos": 9,
+        "punti": 177,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "MotoGP",
+        "pos": 8,
+        "punti": 173,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "MotoGP",
+        "pos": 2,
+        "punti": 467,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "MotoGP",
+        "pos": 8,
+        "punti": 172,
+        "inCorso": true
+      }
+    ],
+    "bagnaia": [
+      {
+        "anno": 2021,
+        "campionato": "MotoGP",
+        "pos": 2,
+        "punti": 252,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "MotoGP",
+        "pos": 1,
+        "punti": 265,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "MotoGP",
+        "pos": 1,
+        "punti": 467,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "MotoGP",
+        "pos": 2,
+        "punti": 498,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "MotoGP",
+        "pos": 5,
+        "punti": 288,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "MotoGP",
+        "pos": 9,
+        "punti": 166,
+        "inCorso": true
+      }
+    ],
+    "aldeguer": [
+      {
+        "anno": 2021,
+        "campionato": "Moto2",
+        "pos": 25,
+        "punti": 13,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Moto2",
+        "pos": 15,
+        "punti": 80,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Moto2",
+        "pos": 3,
+        "punti": 212,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Moto2",
+        "pos": 5,
+        "punti": 182,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "MotoGP",
+        "pos": 8,
+        "punti": 214,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "MotoGP",
+        "pos": 10,
+        "punti": 125,
+        "inCorso": true
+      }
+    ],
+    "bastianini": [
+      {
+        "anno": 2021,
+        "campionato": "MotoGP",
+        "pos": 11,
+        "punti": 102,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "MotoGP",
+        "pos": 3,
+        "punti": 219,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "MotoGP",
+        "pos": 15,
+        "punti": 84,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "MotoGP",
+        "pos": 4,
+        "punti": 386,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "MotoGP",
+        "pos": 14,
+        "punti": 112,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "MotoGP",
+        "pos": 11,
+        "punti": 122,
+        "inCorso": true
+      }
+    ],
+    "marini": [
+      {
+        "anno": 2021,
+        "campionato": "MotoGP",
+        "pos": 19,
+        "punti": 41,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "MotoGP",
+        "pos": 12,
+        "punti": 120,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "MotoGP",
+        "pos": 8,
+        "punti": 201,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "MotoGP",
+        "pos": 22,
+        "punti": 14,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "MotoGP",
+        "pos": 13,
+        "punti": 142,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "MotoGP",
+        "pos": 12,
+        "punti": 108,
+        "inCorso": true
+      }
+    ],
+    "binder": [
+      {
+        "anno": 2021,
+        "campionato": "MotoGP",
+        "pos": 6,
+        "punti": 151,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "MotoGP",
+        "pos": 6,
+        "punti": 188,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "MotoGP",
+        "pos": 4,
+        "punti": 293,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "MotoGP",
+        "pos": 5,
+        "punti": 217,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "MotoGP",
+        "pos": 11,
+        "punti": 155,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "MotoGP",
+        "pos": 13,
+        "punti": 104,
+        "inCorso": true
+      }
+    ],
+    "moreira": [
+      {
+        "anno": 2022,
+        "campionato": "Moto3",
+        "pos": 8,
+        "punti": 112,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Moto3",
+        "pos": 8,
+        "punti": 131,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Moto2",
+        "pos": 13,
+        "punti": 80,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Moto2",
+        "pos": 1,
+        "punti": 287,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "MotoGP",
+        "pos": 15,
+        "punti": 74,
+        "inCorso": true
+      }
+    ],
+    "quartararo": [
+      {
+        "anno": 2021,
+        "campionato": "MotoGP",
+        "pos": 1,
+        "punti": 278,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "MotoGP",
+        "pos": 2,
+        "punti": 248,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "MotoGP",
+        "pos": 10,
+        "punti": 172,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "MotoGP",
+        "pos": 13,
+        "punti": 113,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "MotoGP",
+        "pos": 9,
+        "punti": 201,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "MotoGP",
+        "pos": 14,
+        "punti": 74,
+        "inCorso": true
+      }
+    ],
+    "morbidelli": [
+      {
+        "anno": 2021,
+        "campionato": "MotoGP",
+        "pos": 17,
+        "punti": 47,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "MotoGP",
+        "pos": 19,
+        "punti": 42,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "MotoGP",
+        "pos": 13,
+        "punti": 102,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "MotoGP",
+        "pos": 9,
+        "punti": 173,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "MotoGP",
+        "pos": 7,
+        "punti": 231,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "MotoGP",
+        "pos": 16,
+        "punti": 59,
+        "inCorso": true
+      }
+    ],
+    "zarco": [
+      {
+        "anno": 2021,
+        "campionato": "MotoGP",
+        "pos": 5,
+        "punti": 173,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "MotoGP",
+        "pos": 8,
+        "punti": 166,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "MotoGP",
+        "pos": 5,
+        "punti": 225,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "MotoGP",
+        "pos": 17,
+        "punti": 55,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "MotoGP",
+        "pos": 12,
+        "punti": 148,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "MotoGP",
+        "pos": 17,
+        "punti": 51,
+        "inCorso": true
+      }
+    ],
+    "mir": [
+      {
+        "anno": 2021,
+        "campionato": "MotoGP",
+        "pos": 3,
+        "punti": 208,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "MotoGP",
+        "pos": 15,
+        "punti": 87,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "MotoGP",
+        "pos": 22,
+        "punti": 26,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "MotoGP",
+        "pos": 21,
+        "punti": 21,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "MotoGP",
+        "pos": 15,
+        "punti": 96,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "MotoGP",
+        "pos": 18,
+        "punti": 33,
+        "inCorso": true
+      }
+    ],
+    "miller": [
+      {
+        "anno": 2021,
+        "campionato": "MotoGP",
+        "pos": 4,
+        "punti": 181,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "MotoGP",
+        "pos": 5,
+        "punti": 189,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "MotoGP",
+        "pos": 11,
+        "punti": 163,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "MotoGP",
+        "pos": 14,
+        "punti": 87,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "MotoGP",
+        "pos": 17,
+        "punti": 79,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "MotoGP",
+        "pos": 19,
+        "punti": 28,
+        "inCorso": true
+      }
+    ],
+    "rins": [
+      {
+        "anno": 2021,
+        "campionato": "MotoGP",
+        "pos": 13,
+        "punti": 99,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "MotoGP",
+        "pos": 7,
+        "punti": 173,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "MotoGP",
+        "pos": 19,
+        "punti": 54,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "MotoGP",
+        "pos": 18,
+        "punti": 31,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "MotoGP",
+        "pos": 19,
+        "punti": 68,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "MotoGP",
+        "pos": 20,
+        "punti": 25,
+        "inCorso": true
+      }
+    ],
+    "razgatlioglu": [
+      {
+        "anno": 2021,
+        "campionato": "Superbike",
+        "pos": 1,
+        "punti": 564,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Superbike",
+        "pos": 2,
+        "punti": 529,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Superbike",
+        "pos": 2,
+        "punti": 552,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Superbike",
+        "pos": 1,
+        "punti": 527,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Superbike",
+        "pos": 1,
+        "punti": 616,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "MotoGP",
+        "pos": 21,
+        "punti": 18,
+        "inCorso": true
+      }
+    ],
+    "vinales": [
+      {
+        "anno": 2021,
+        "campionato": "MotoGP",
+        "pos": 10,
+        "punti": 106,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "MotoGP",
+        "pos": 11,
+        "punti": 122,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "MotoGP",
+        "pos": 7,
+        "punti": 204,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "MotoGP",
+        "pos": 7,
+        "punti": 190,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "MotoGP",
+        "pos": 18,
+        "punti": 72,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "MotoGP",
+        "pos": 22,
+        "punti": 12,
+        "inCorso": true
+      }
+    ],
+    "f1-norris": [
+      {
+        "anno": 2021,
+        "campionato": "Formula 1",
+        "pos": 6,
+        "punti": 160,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Formula 1",
+        "pos": 7,
+        "punti": 122,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Formula 1",
+        "pos": 6,
+        "punti": 205,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Formula 1",
+        "pos": 2,
+        "punti": 374,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Formula 1",
+        "pos": 1,
+        "punti": 423,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Formula 1",
+        "pos": 6,
+        "punti": 201,
+        "inCorso": true
+      }
+    ],
+    "f1-piastri": [
+      {
+        "anno": 2021,
+        "campionato": "Formula 2",
+        "pos": 1,
+        "punti": 252.5,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Formula 1",
+        "pos": 9,
+        "punti": 97,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Formula 1",
+        "pos": 4,
+        "punti": 292,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Formula 1",
+        "pos": 3,
+        "punti": 410,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Formula 1",
+        "pos": 7,
+        "punti": 138,
+        "inCorso": true
+      }
+    ],
+    "f1-leclerc": [
+      {
+        "anno": 2021,
+        "campionato": "Formula 1",
+        "pos": 7,
+        "punti": 159,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Formula 1",
+        "pos": 2,
+        "punti": 308,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Formula 1",
+        "pos": 5,
+        "punti": 206,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Formula 1",
+        "pos": 3,
+        "punti": 356,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Formula 1",
+        "pos": 5,
+        "punti": 242,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Formula 1",
+        "pos": 5,
+        "punti": 215,
+        "inCorso": true
+      }
+    ],
+    "f1-hamilton": [
+      {
+        "anno": 2021,
+        "campionato": "Formula 1",
+        "pos": 2,
+        "punti": 387.5,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Formula 1",
+        "pos": 6,
+        "punti": 240,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Formula 1",
+        "pos": 3,
+        "punti": 234,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Formula 1",
+        "pos": 7,
+        "punti": 223,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Formula 1",
+        "pos": 6,
+        "punti": 156,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Formula 1",
+        "pos": 3,
+        "punti": 229,
+        "inCorso": true
+      }
+    ],
+    "f1-russell": [
+      {
+        "anno": 2021,
+        "campionato": "Formula 1",
+        "pos": 15,
+        "punti": 16,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Formula 1",
+        "pos": 4,
+        "punti": 275,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Formula 1",
+        "pos": 8,
+        "punti": 175,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Formula 1",
+        "pos": 6,
+        "punti": 245,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Formula 1",
+        "pos": 4,
+        "punti": 319,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Formula 1",
+        "pos": 2,
+        "punti": 238,
+        "inCorso": true
+      }
+    ],
+    "f1-antonelli": [
+      {
+        "anno": 2024,
+        "campionato": "Formula 2",
+        "pos": 6,
+        "punti": 113,
+        "inCorso": false
+      }
+    ],
+    "f1-verstappen": [
+      {
+        "anno": 2021,
+        "campionato": "Formula 1",
+        "pos": 1,
+        "punti": 395.5,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Formula 1",
+        "pos": 1,
+        "punti": 454,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Formula 1",
+        "pos": 1,
+        "punti": 575,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Formula 1",
+        "pos": 1,
+        "punti": 437,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Formula 1",
+        "pos": 2,
+        "punti": 421,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Formula 1",
+        "pos": 4,
+        "punti": 221,
+        "inCorso": true
+      }
+    ],
+    "f1-hadjar": [
+      {
+        "anno": 2022,
+        "campionato": "Formula 3",
+        "pos": 4,
+        "punti": 123,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Formula 2",
+        "pos": 14,
+        "punti": 55,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Formula 2",
+        "pos": 2,
+        "punti": 192,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Formula 1",
+        "pos": 12,
+        "punti": 51,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Formula 1",
+        "pos": 8,
+        "punti": 97,
+        "inCorso": true
+      }
+    ],
+    "f1-lawson": [
+      {
+        "anno": 2021,
+        "campionato": "Formula 2",
+        "pos": 9,
+        "punti": 103,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Formula 2",
+        "pos": 3,
+        "punti": 149,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Formula 1",
+        "pos": 20,
+        "punti": 2,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Formula 1",
+        "pos": 21,
+        "punti": 4,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Formula 1",
+        "pos": 14,
+        "punti": 38,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Formula 1",
+        "pos": 9,
+        "punti": 75,
+        "inCorso": true
+      }
+    ],
+    "f1-lindblad": [
+      {
+        "anno": 2024,
+        "campionato": "Formula 3",
+        "pos": 4,
+        "punti": 113,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Formula 2",
+        "pos": 6,
+        "punti": 134,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Formula 1",
+        "pos": 11,
+        "punti": 38,
+        "inCorso": true
+      }
+    ],
+    "f1-alonso": [
+      {
+        "anno": 2021,
+        "campionato": "Formula 1",
+        "pos": 10,
+        "punti": 81,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Formula 1",
+        "pos": 9,
+        "punti": 81,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Formula 1",
+        "pos": 4,
+        "punti": 206,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Formula 1",
+        "pos": 9,
+        "punti": 70,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Formula 1",
+        "pos": 10,
+        "punti": 56,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Formula 1",
+        "pos": 17,
+        "punti": 7,
+        "inCorso": true
+      }
+    ],
+    "f1-stroll": [
+      {
+        "anno": 2021,
+        "campionato": "Formula 1",
+        "pos": 13,
+        "punti": 34,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Formula 1",
+        "pos": 15,
+        "punti": 18,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Formula 1",
+        "pos": 10,
+        "punti": 74,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Formula 1",
+        "pos": 13,
+        "punti": 24,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Formula 1",
+        "pos": 16,
+        "punti": 33,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Formula 1",
+        "pos": 21,
+        "punti": 0,
+        "inCorso": true
+      }
+    ],
+    "f1-albon": [
+      {
+        "anno": 2022,
+        "campionato": "Formula 1",
+        "pos": 19,
+        "punti": 4,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Formula 1",
+        "pos": 13,
+        "punti": 27,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Formula 1",
+        "pos": 16,
+        "punti": 12,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Formula 1",
+        "pos": 8,
+        "punti": 73,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Formula 1",
+        "pos": 19,
+        "punti": 5,
+        "inCorso": true
+      }
+    ],
+    "f1-sainz": [
+      {
+        "anno": 2021,
+        "campionato": "Formula 1",
+        "pos": 5,
+        "punti": 164.5,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Formula 1",
+        "pos": 5,
+        "punti": 246,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Formula 1",
+        "pos": 7,
+        "punti": 200,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Formula 1",
+        "pos": 5,
+        "punti": 290,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Formula 1",
+        "pos": 9,
+        "punti": 64,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Formula 1",
+        "pos": 18,
+        "punti": 7,
+        "inCorso": true
+      }
+    ],
+    "f1-hulkenberg": [
+      {
+        "anno": 2022,
+        "campionato": "Formula 1",
+        "pos": 22,
+        "punti": 0,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Formula 1",
+        "pos": 16,
+        "punti": 9,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Formula 1",
+        "pos": 11,
+        "punti": 41,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Formula 1",
+        "pos": 11,
+        "punti": 51,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Formula 1",
+        "pos": 14,
+        "punti": 13,
+        "inCorso": true
+      }
+    ],
+    "f1-bortoleto": [
+      {
+        "anno": 2023,
+        "campionato": "Formula 3",
+        "pos": 1,
+        "punti": 164,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Formula 2",
+        "pos": 1,
+        "punti": 214.5,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Formula 1",
+        "pos": 19,
+        "punti": 19,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Formula 1",
+        "pos": 15,
+        "punti": 10,
+        "inCorso": true
+      }
+    ],
+    "f1-gasly": [
+      {
+        "anno": 2021,
+        "campionato": "Formula 1",
+        "pos": 9,
+        "punti": 110,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Formula 1",
+        "pos": 14,
+        "punti": 23,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Formula 1",
+        "pos": 11,
+        "punti": 62,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Formula 1",
+        "pos": 10,
+        "punti": 42,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Formula 1",
+        "pos": 18,
+        "punti": 22,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Formula 1",
+        "pos": 10,
+        "punti": 41,
+        "inCorso": true
+      }
+    ],
+    "f1-colapinto": [
+      {
+        "anno": 2022,
+        "campionato": "Formula 3",
+        "pos": 9,
+        "punti": 76,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Formula 2",
+        "pos": 25,
+        "punti": 0,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Formula 1",
+        "pos": 19,
+        "punti": 5,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Formula 1",
+        "pos": 20,
+        "punti": 0,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Formula 1",
+        "pos": 12,
+        "punti": 27,
+        "inCorso": true
+      }
+    ],
+    "f1-ocon": [
+      {
+        "anno": 2021,
+        "campionato": "Formula 1",
+        "pos": 11,
+        "punti": 74,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Formula 1",
+        "pos": 8,
+        "punti": 92,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Formula 1",
+        "pos": 12,
+        "punti": 58,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Formula 1",
+        "pos": 14,
+        "punti": 23,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Formula 1",
+        "pos": 15,
+        "punti": 38,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Formula 1",
+        "pos": 16,
+        "punti": 7,
+        "inCorso": true
+      }
+    ],
+    "f1-bearman": [
+      {
+        "anno": 2022,
+        "campionato": "Formula 3",
+        "pos": 3,
+        "punti": 132,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Formula 2",
+        "pos": 6,
+        "punti": 130,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Formula 1",
+        "pos": 18,
+        "punti": 7,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Formula 1",
+        "pos": 13,
+        "punti": 41,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Formula 1",
+        "pos": 13,
+        "punti": 23,
+        "inCorso": true
+      }
+    ],
+    "f1-perez": [
+      {
+        "anno": 2021,
+        "campionato": "Formula 1",
+        "pos": 4,
+        "punti": 190,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Formula 1",
+        "pos": 3,
+        "punti": 305,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Formula 1",
+        "pos": 2,
+        "punti": 285,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Formula 1",
+        "pos": 8,
+        "punti": 152,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Formula 1",
+        "pos": 23,
+        "punti": 0,
+        "inCorso": true
+      }
+    ],
+    "f1-bottas": [
+      {
+        "anno": 2021,
+        "campionato": "Formula 1",
+        "pos": 3,
+        "punti": 226,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Formula 1",
+        "pos": 10,
+        "punti": 49,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Formula 1",
+        "pos": 15,
+        "punti": 10,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Formula 1",
+        "pos": 22,
+        "punti": 0,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Formula 1",
+        "pos": 22,
+        "punti": 0,
+        "inCorso": true
+      }
+    ],
+    "sbk-bulega": [
+      {
+        "anno": 2021,
+        "campionato": "Moto2",
+        "pos": 26,
+        "punti": 12,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Supersport",
+        "pos": 4,
+        "punti": 242,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Supersport",
+        "pos": 1,
+        "punti": 503,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Superbike",
+        "pos": 2,
+        "punti": 484,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Superbike",
+        "pos": 2,
+        "punti": 603,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 1,
+        "punti": 726,
+        "inCorso": true
+      }
+    ],
+    "sbk-lecuona": [
+      {
+        "anno": 2021,
+        "campionato": "MotoGP",
+        "pos": 20,
+        "punti": 39,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Superbike",
+        "pos": 9,
+        "punti": 189,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Superbike",
+        "pos": 13,
+        "punti": 143,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Superbike",
+        "pos": 12,
+        "punti": 134,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Superbike",
+        "pos": 13,
+        "punti": 103,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 2,
+        "punti": 563,
+        "inCorso": true
+      }
+    ],
+    "sbk-montella": [
+      {
+        "anno": 2021,
+        "campionato": "Supersport",
+        "pos": 23,
+        "punti": 16,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Supersport",
+        "pos": 7,
+        "punti": 171,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Supersport",
+        "pos": 9,
+        "punti": 145,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Supersport",
+        "pos": 3,
+        "punti": 382,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Superbike",
+        "pos": 18,
+        "punti": 74,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 3,
+        "punti": 318,
+        "inCorso": true
+      }
+    ],
+    "sbk-bautista": [
+      {
+        "anno": 2021,
+        "campionato": "Superbike",
+        "pos": 10,
+        "punti": 195,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Superbike",
+        "pos": 1,
+        "punti": 601,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Superbike",
+        "pos": 1,
+        "punti": 628,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Superbike",
+        "pos": 3,
+        "punti": 357,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Superbike",
+        "pos": 3,
+        "punti": 337,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 9,
+        "punti": 167,
+        "inCorso": true
+      }
+    ],
+    "sbk-sam-lowes": [
+      {
+        "anno": 2021,
+        "campionato": "Moto2",
+        "pos": 4,
+        "punti": 190,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Moto2",
+        "pos": 19,
+        "punti": 55,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Moto2",
+        "pos": 12,
+        "punti": 104,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Superbike",
+        "pos": 18,
+        "punti": 53,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Superbike",
+        "pos": 8,
+        "punti": 184,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 4,
+        "punti": 268,
+        "inCorso": true
+      }
+    ],
+    "sbk-alex-lowes": [
+      {
+        "anno": 2021,
+        "campionato": "Superbike",
+        "pos": 8,
+        "punti": 213,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Superbike",
+        "pos": 6,
+        "punti": 272,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Superbike",
+        "pos": 11,
+        "punti": 149,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Superbike",
+        "pos": 4,
+        "punti": 316,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Superbike",
+        "pos": 6,
+        "punti": 218,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 5,
+        "punti": 259,
+        "inCorso": true
+      }
+    ],
+    "sbk-bassani": [
+      {
+        "anno": 2021,
+        "campionato": "Superbike",
+        "pos": 9,
+        "punti": 210,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Superbike",
+        "pos": 7,
+        "punti": 244,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Superbike",
+        "pos": 6,
+        "punti": 249,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Superbike",
+        "pos": 14,
+        "punti": 108,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Superbike",
+        "pos": 10,
+        "punti": 140,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 7,
+        "punti": 222,
+        "inCorso": true
+      }
+    ],
+    "sbk-baldassarri": [
+      {
+        "anno": 2021,
+        "campionato": "Moto2",
+        "pos": 31,
+        "punti": 3,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Supersport",
+        "pos": 2,
+        "punti": 388,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Superbike",
+        "pos": 18,
+        "punti": 20,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Supersport",
+        "pos": 21,
+        "punti": 28,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 6,
+        "punti": 236,
+        "inCorso": true
+      }
+    ],
+    "sbk-surra": [
+      {
+        "anno": 2023,
+        "campionato": "Moto2",
+        "pos": 33,
+        "punti": 0,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Supersport",
+        "pos": 19,
+        "punti": 62,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 8,
+        "punti": 198,
+        "inCorso": true
+      }
+    ],
+    "sbk-gerloff": [
+      {
+        "anno": 2021,
+        "campionato": "Superbike",
+        "pos": 7,
+        "punti": 228,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Superbike",
+        "pos": 11,
+        "punti": 142,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Superbike",
+        "pos": 12,
+        "punti": 144,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Superbike",
+        "pos": 9,
+        "punti": 176,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Superbike",
+        "pos": 15,
+        "punti": 88,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 10,
+        "punti": 165,
+        "inCorso": true
+      }
+    ],
+    "sbk-rea": [
+      {
+        "anno": 2021,
+        "campionato": "Superbike",
+        "pos": 2,
+        "punti": 551,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Superbike",
+        "pos": 3,
+        "punti": 502,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Superbike",
+        "pos": 3,
+        "punti": 370,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Superbike",
+        "pos": 13,
+        "punti": 127,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Superbike",
+        "pos": 16,
+        "punti": 83,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 24,
+        "punti": 6,
+        "inCorso": true
+      }
+    ],
+    "sbk-dixon": [
+      {
+        "anno": 2021,
+        "campionato": "MotoGP",
+        "pos": 30,
+        "punti": 0,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Moto2",
+        "pos": 6,
+        "punti": 168.5,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Moto2",
+        "pos": 4,
+        "punti": 204,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Moto2",
+        "pos": 8,
+        "punti": 155,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Moto2",
+        "pos": 5,
+        "punti": 225,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 19,
+        "punti": 41,
+        "inCorso": true
+      }
+    ],
+    "sbk-chantra": [
+      {
+        "anno": 2021,
+        "campionato": "Moto2",
+        "pos": 18,
+        "punti": 37,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Moto2",
+        "pos": 10,
+        "punti": 128,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Moto2",
+        "pos": 6,
+        "punti": 173.5,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Moto2",
+        "pos": 12,
+        "punti": 104,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "MotoGP",
+        "pos": 26,
+        "punti": 7,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 21,
+        "punti": 23,
+        "inCorso": true
+      }
+    ],
+    "sbk-petrucci": [
+      {
+        "anno": 2021,
+        "campionato": "MotoGP",
+        "pos": 21,
+        "punti": 37,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "MotoGP",
+        "pos": 30,
+        "punti": 0,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Superbike",
+        "pos": 7,
+        "punti": 228,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Superbike",
+        "pos": 5,
+        "punti": 307,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Superbike",
+        "pos": 5,
+        "punti": 284,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 17,
+        "punti": 61,
+        "inCorso": true
+      }
+    ],
+    "sbk-oliveira": [
+      {
+        "anno": 2021,
+        "campionato": "MotoGP",
+        "pos": 14,
+        "punti": 94,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "MotoGP",
+        "pos": 10,
+        "punti": 149,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "MotoGP",
+        "pos": 16,
+        "punti": 76,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "MotoGP",
+        "pos": 15,
+        "punti": 75,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "MotoGP",
+        "pos": 20,
+        "punti": 43,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 11,
+        "punti": 142,
+        "inCorso": true
+      }
+    ],
+    "sbk-van-der-mark": [
+      {
+        "anno": 2021,
+        "campionato": "Superbike",
+        "pos": 6,
+        "punti": 262,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Superbike",
+        "pos": 15,
+        "punti": 46,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Superbike",
+        "pos": 17,
+        "punti": 54,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Superbike",
+        "pos": 6,
+        "punti": 245,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Superbike",
+        "pos": 12,
+        "punti": 111,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 20,
+        "punti": 23,
+        "inCorso": true
+      }
+    ],
+    "sbk-soomer": [
+      {
+        "anno": 2021,
+        "campionato": "Supersport",
+        "pos": 12,
+        "punti": 105,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Supersport",
+        "pos": 13,
+        "punti": 95,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 28,
+        "punti": 0,
+        "inCorso": true
+      }
+    ],
+    "sbk-locatelli": [
+      {
+        "anno": 2021,
+        "campionato": "Superbike",
+        "pos": 4,
+        "punti": 291,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Superbike",
+        "pos": 5,
+        "punti": 274,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Superbike",
+        "pos": 4,
+        "punti": 327,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Superbike",
+        "pos": 7,
+        "punti": 232,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Superbike",
+        "pos": 4,
+        "punti": 310,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 12,
+        "punti": 121,
+        "inCorso": true
+      }
+    ],
+    "sbk-vierge": [
+      {
+        "anno": 2021,
+        "campionato": "Moto2",
+        "pos": 11,
+        "punti": 93,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Superbike",
+        "pos": 10,
+        "punti": 164,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Superbike",
+        "pos": 10,
+        "punti": 149,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Superbike",
+        "pos": 11,
+        "punti": 137,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Superbike",
+        "pos": 7,
+        "punti": 185,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 13,
+        "punti": 113,
+        "inCorso": true
+      }
+    ],
+    "sbk-gardner": [
+      {
+        "anno": 2021,
+        "campionato": "Moto2",
+        "pos": 1,
+        "punti": 311,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "MotoGP",
+        "pos": 23,
+        "punti": 13,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Superbike",
+        "pos": 9,
+        "punti": 156,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Superbike",
+        "pos": 10,
+        "punti": 140,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Superbike",
+        "pos": 11,
+        "punti": 126,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 16,
+        "punti": 63,
+        "inCorso": true
+      }
+    ],
+    "sbk-manzi": [
+      {
+        "anno": 2021,
+        "campionato": "Supersport",
+        "pos": 32,
+        "punti": 7,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Supersport",
+        "pos": 6,
+        "punti": 209,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Supersport",
+        "pos": 2,
+        "punti": 408,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Supersport",
+        "pos": 2,
+        "punti": 415,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Supersport",
+        "pos": 1,
+        "punti": 466,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 18,
+        "punti": 46,
+        "inCorso": true
+      }
+    ],
+    "sbk-sofuoglu": [
+      {
+        "anno": 2022,
+        "campionato": "Supersport",
+        "pos": 14,
+        "punti": 72,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Supersport",
+        "pos": 6,
+        "punti": 168,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Supersport",
+        "pos": 12,
+        "punti": 103,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Superbike",
+        "pos": 21,
+        "punti": 26,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 25,
+        "punti": 4,
+        "inCorso": true
+      }
+    ],
+    "sbk-baz": [
+      {
+        "anno": 2021,
+        "campionato": "Superbike",
+        "pos": 15,
+        "punti": 53,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Superbike",
+        "pos": 12,
+        "punti": 125,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Superbike",
+        "pos": 16,
+        "punti": 60,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 23,
+        "punti": 7,
+        "inCorso": true
+      }
+    ],
+    "sbk-mackenzie": [
+      {
+        "anno": 2021,
+        "campionato": "BSB",
+        "pos": 1,
+        "punti": 1202,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "Superbike",
+        "pos": 28,
+        "punti": 3,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "Supersport",
+        "pos": 18,
+        "punti": 42,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Superbike",
+        "pos": 23,
+        "punti": 7,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Superbike",
+        "pos": 19,
+        "punti": 45,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 15,
+        "punti": 81,
+        "inCorso": true
+      }
+    ],
+    "sbk-bridewell": [
+      {
+        "anno": 2021,
+        "campionato": "BSB",
+        "pos": 2,
+        "punti": 1166,
+        "inCorso": false
+      },
+      {
+        "anno": 2022,
+        "campionato": "BSB",
+        "pos": 3,
+        "punti": 1141,
+        "inCorso": false
+      },
+      {
+        "anno": 2023,
+        "campionato": "BSB",
+        "pos": 1,
+        "punti": 455,
+        "inCorso": false
+      },
+      {
+        "anno": 2024,
+        "campionato": "Superbike",
+        "pos": 35,
+        "punti": 0,
+        "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Superbike",
+        "pos": 33,
+        "punti": 0,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Superbike",
+        "pos": 14,
+        "punti": 83,
+        "inCorso": true
+      }
+    ]
   }
 }

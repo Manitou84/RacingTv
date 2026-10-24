@@ -1,7 +1,7 @@
 {
-  "aggiornato": "2026-10-24T12:28:22.236Z",
+  "aggiornato": "2026-10-24T12:29:43.844Z",
   "motogp": {
-    "aggiornato": "2026-10-24T12:28:22.236Z",
+    "aggiornato": "2026-10-24T12:29:43.844Z",
     "fonte": "Motosprint",
     "piloti": [
       {
@@ -330,7 +330,7 @@
     ]
   },
   "f1": {
-    "aggiornato": "2026-10-24T12:28:22.236Z",
+    "aggiornato": "2026-10-24T12:29:43.844Z",
     "fonte": "Autosprint",
     "piloti": [
       {
@@ -554,5 +554,222 @@
       }
     ]
   },
-  "sbk": null
+  "sbk": {
+    "aggiornato": "2026-10-24T12:29:43.844Z",
+    "fonte": "Wikipedia",
+    "piloti": [
+      {
+        "pos": 1,
+        "nome": "Nicolò Bulega",
+        "punti": 726,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 2,
+        "nome": "Iker Lecuona",
+        "punti": 563,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 3,
+        "nome": "Yari Montella",
+        "punti": 318,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 4,
+        "nome": "Sam Lowes",
+        "punti": 268,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 5,
+        "nome": "Alex Lowes",
+        "punti": 259,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 6,
+        "nome": "Lorenzo Baldassarri",
+        "punti": 236,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 7,
+        "nome": "Axel Bassani",
+        "punti": 222,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 8,
+        "nome": "Alberto Surra",
+        "punti": 198,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 9,
+        "nome": "Álvaro Bautista",
+        "punti": 167,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 10,
+        "nome": "Garrett Gerloff",
+        "punti": 165,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 11,
+        "nome": "Miguel Oliveira",
+        "punti": 142,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 12,
+        "nome": "Andrea Locatelli",
+        "punti": 121,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 13,
+        "nome": "Xavi Vierge",
+        "punti": 113,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 14,
+        "nome": "Tommy Bridewell",
+        "punti": 83,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 15,
+        "nome": "Tarran Mackenzie",
+        "punti": 81,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 16,
+        "nome": "Remy Gardner",
+        "punti": 63,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 17,
+        "nome": "Danilo Petrucci",
+        "punti": 61,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 18,
+        "nome": "Stefano Manzi",
+        "punti": 46,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 19,
+        "nome": "Jake Dixon",
+        "punti": 41,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 20,
+        "nome": "Michael van der Mark",
+        "punti": 23,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 21,
+        "nome": "Somkiat Chantra",
+        "punti": 23,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 22,
+        "nome": "Tetsuta Nagashima",
+        "punti": 7,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 23,
+        "nome": "Loris Baz",
+        "punti": 7,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 24,
+        "nome": "Jonathan Rea",
+        "punti": 6,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 25,
+        "nome": "Bahattin Sofuoğlu",
+        "punti": 4,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 26,
+        "nome": "Mattia Rato",
+        "punti": 3,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 27,
+        "nome": "Ryan Vickers",
+        "punti": 1,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 28,
+        "nome": "Hannes Soomer",
+        "punti": 0,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 29,
+        "nome": "Twan Smits",
+        "punti": 0,
+        "slug": "",
+        "team": ""
+      },
+      {
+        "pos": 30,
+        "nome": "Yuki Kunii",
+        "punti": 0,
+        "slug": "",
+        "team": ""
+      }
+    ],
+    "squadre": [],
+    "costruttori": []
+  }
 }
