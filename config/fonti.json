@@ -50,16 +50,16 @@
     "urlAlternativi": [
       "https://www.gpone.com/it/rss.xml"
     ],
-    "linkContiene": "/sbk/"
+    "linkRegex": "/(sbk|superbike|wsbk)/"
   },
   {
     "id": "motosprint-sbk",
     "serie": "sbk",
     "nome": "Motosprint",
     "tipo": "pagina",
-    "url": "https://www.motosprint.it/superbike",
+    "url": "https://www.motosprint.it/sbk",
     "urlAlternativi": [
-      "https://www.motosprint.it/sbk"
+      "https://www.motosprint.it/superbike"
     ],
     "linkRegex": "/news/(superbike|sbk|eventi/[a-z0-9-]+)/\\d{4}/\\d{2}/\\d{2}-\\d+/"
   }

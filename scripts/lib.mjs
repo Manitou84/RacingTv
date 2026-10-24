@@ -496,6 +496,15 @@ export function parseArrivo(html, piloti) {
 /* ---------- Classifiche finali da Wikipedia ---------- */
 // Pagina di una stagione (HTML della REST API di Wikipedia): legge la tabella dopo il titolo
 // «Riders'/Drivers' standings» (o «championship») e, se c'è, quella dei costruttori.
+// tutte le tabelle, anche annidate, estratte contando le aperture e chiusure
+function tabelle(html) {
+  const out = [], pila = [];
+  for (const m of html.matchAll(/<table\b|<\/table>/gi)) {
+    if (m[0][1] !== '/') pila.push(m.index);
+    else if (pila.length) { const da = pila.pop(); out.push(html.slice(da, m.index + 8)); }
+  }
+  return out;
+}
 function tabellaDopo(html, rxTitolo) {
   const titoli = [...html.matchAll(/<h[2-4][^>]*>([\s\S]*?)<\/h[2-4]>/gi)];
   for (const t of titoli) {
@@ -503,9 +512,14 @@ function tabellaDopo(html, rxTitolo) {
     const dopo = html.slice(t.index + t[0].length);
     const prossimo = dopo.search(/<h2[\s>]/i);
     const pezzo = prossimo > 0 ? dopo.slice(0, prossimo) : dopo;
-    for (const tab of pezzo.match(/<table[^>]*class="[^"]*wikitable[\s\S]*?<\/table>/gi) || []) {
-      if (/>\s*(Pts|Points)\s*</i.test(tab)) return tab;
+    // la tabella giusta è quella da cui escono più righe (prima ci può essere quella del punteggio)
+    let migliore = null, n = 0;
+    for (const tab of tabelle(pezzo)) {
+      if (!/wikitable/.test(tab.slice(0, 300)) || !/(Pts|Points)/i.test(tab)) continue;
+      const r = righeClassifica(tab);
+      if (r.length > n) { n = r.length; migliore = r; }
     }
+    if (migliore && n >= 3) return migliore;
   }
   return null;
 }
@@ -533,7 +547,7 @@ function righeClassifica(tab, persone) {
 export function parseClassificaWiki(html) {
   const tp = tabellaDopo(html, /(riders|drivers)['’]?\s+(world\s+)?(championship\s+)?standings|(riders|drivers)['’]?\s+(world\s+)?championship/i);
   const tc = tabellaDopo(html, /manufacturers['’]?\s+(world\s+)?(championship\s+)?standings|manufacturers['’]?\s+(world\s+)?championship|constructors['’]?\s+(world\s+)?(championship\s+)?standings/i);
-  return { piloti: tp ? righeClassifica(tp) : [], costruttori: tc ? righeClassifica(tc) : [] };
+  return { piloti: tp || [], costruttori: tc || [] };
 }
 
 /* ---------- Calendario .ics ---------- */

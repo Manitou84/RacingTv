@@ -353,8 +353,8 @@ async function aggiornaStorico() {
   for (const a of anni) for (const c of pagine) {
     const k = `${a}|${c}`, v = STAGIONI[k];
     // le stagioni passate non cambiano più; quella in corso la rileggo ogni 3 ore
-    if (v && (a < anno ? v.piloti?.length || v.mancante : recente(v.letta, 0.125))) continue;
-    if (letture >= 40) break;
+    if (v && (a < anno ? v.piloti?.length || v.mancante || (v.tentativi || 0) >= 3 : recente(v.letta, 0.125))) continue;
+    if (letture >= 66) break;
     letture++;
     const titolo = `${a} ${c}`.replace(/ /g, '_');
     const r = await tenta(`Wikipedia ${a} ${c}`, async () => {
@@ -363,7 +363,7 @@ async function aggiornaStorico() {
       if (!res.ok) throw new Error(`${res.status}`);
       return L.parseClassificaWiki(await res.text());
     }, null);
-    if (r) STAGIONI[k] = { ...r, letta: ADESSO.toISOString() };
+    if (r) STAGIONI[k] = { ...r, letta: ADESSO.toISOString(), tentativi: r.piloti.length ? 0 : (v?.tentativi || 0) + 1 };
   }
   const piloti = (await leggiJson(DATI + 'piloti.json', { piloti: [] })).piloti;
   const perPilota = {};
