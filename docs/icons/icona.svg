@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <radialGradient id="sfondo" cx="40%" cy="35%" r="85%">
+      <stop offset="0" stop-color="#22385c"/>
+      <stop offset=".55" stop-color="#131f36"/>
+      <stop offset="1" stop-color="#080d18"/>
+    </radialGradient>
+    <pattern id="carbonio" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <rect width="16" height="16" fill="none"/>
+      <rect width="8" height="8" fill="#ffffff" opacity=".025"/>
+      <rect x="8" y="8" width="8" height="8" fill="#ffffff" opacity=".025"/>
+    </pattern>
+    <linearGradient id="pista" x1="150" y1="0" x2="880" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff3d5a"/>
+      <stop offset=".22" stop-color="#3ff2ff"/>
+      <stop offset=".62" stop-color="#3ff2ff"/>
+      <stop offset="1" stop-color="#ff3d5a"/>
+    </linearGradient>
+    <linearGradient id="scia" x1="250" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3ff2ff" stop-opacity="0"/>
+      <stop offset=".35" stop-color="#3ff2ff" stop-opacity=".9"/>
+      <stop offset=".75" stop-color="#ff5a73" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#ff3d5a" stop-opacity=".2"/>
+    </linearGradient>
+    <filter id="alone" filterUnits="userSpaceOnUse" x="0" y="0" width="1024" height="1024">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <filter id="alone2" filterUnits="userSpaceOnUse" x="0" y="0" width="1024" height="1024">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sfondo)"/>
+  <rect width="1024" height="1024" fill="url(#carbonio)"/>
+
+  <g transform="translate(512 520) scale(1.14) translate(-560 -455)">
+  <!-- scie aerodinamiche -->
+  <g fill="none" stroke="url(#scia)" stroke-linecap="round">
+    <path d="M420 230 C 540 170, 690 135, 860 140" stroke-width="10"/>
+    <path d="M470 262 C 590 205, 720 180, 880 188" stroke-width="7" opacity=".85"/>
+    <path d="M360 205 C 480 140, 620 110, 790 105" stroke-width="5" opacity=".65"/>
+    <path d="M540 290 C 650 245, 760 230, 870 236" stroke-width="5" opacity=".6"/>
+  </g>
+  <path d="M640 210 C 720 160, 810 130, 900 118 C 870 175, 820 225, 735 270 C 715 238, 685 220, 640 210 Z" fill="#ff3d5a" fill-opacity=".12" stroke="#ff5a73" stroke-width="7" stroke-linejoin="round"/>
+
+  <!-- tracciato: alone, linea e anima chiara -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M330 730 L 760 730 C 850 730, 875 650, 820 595 L 640 520 C 585 498, 560 465, 590 425 L 680 350 C 740 300, 720 245, 650 250 L 400 275 C 270 290, 210 370, 235 450 C 255 515, 300 540, 300 600 L 300 690 C 300 715, 310 730, 330 730 Z" stroke="url(#pista)" stroke-width="46" filter="url(#alone)" opacity=".9"/>
+    <path d="M330 730 L 760 730 C 850 730, 875 650, 820 595 L 640 520 C 585 498, 560 465, 590 425 L 680 350 C 740 300, 720 245, 650 250 L 400 275 C 270 290, 210 370, 235 450 C 255 515, 300 540, 300 600 L 300 690 C 300 715, 310 730, 330 730 Z" stroke="url(#pista)" stroke-width="28" filter="url(#alone2)"/>
+    <path d="M330 730 L 760 730 C 850 730, 875 650, 820 595 L 640 520 C 585 498, 560 465, 590 425 L 680 350 C 740 300, 720 245, 650 250 L 400 275 C 270 290, 210 370, 235 450 C 255 515, 300 540, 300 600 L 300 690 C 300 715, 310 730, 330 730 Z" stroke="url(#pista)" stroke-width="20"/>
+    <path d="M330 730 L 760 730 C 850 730, 875 650, 820 595 L 640 520 C 585 498, 560 465, 590 425 L 680 350 C 740 300, 720 245, 650 250 L 400 275 C 270 290, 210 370, 235 450 C 255 515, 300 540, 300 600 L 300 690 C 300 715, 310 730, 330 730 Z" stroke="#ffffff" stroke-width="5" opacity=".8"/>
+  </g>
+
+  <!-- linea del traguardo a scacchi -->
+  <g transform="translate(548 694)">
+    <rect x="0" y="0" width="15" height="15" fill="#eaf7ff"/>
+    <rect x="0" y="15" width="15" height="15" fill="#0b1220"/>
+    <rect x="0" y="30" width="15" height="15" fill="#eaf7ff"/>
+    <rect x="0" y="45" width="15" height="15" fill="#0b1220"/>
+    <rect x="0" y="60" width="15" height="15" fill="#eaf7ff"/>
+    <rect x="15" y="0" width="15" height="15" fill="#0b1220"/>
+    <rect x="15" y="15" width="15" height="15" fill="#eaf7ff"/>
+    <rect x="15" y="30" width="15" height="15" fill="#0b1220"/>
+    <rect x="15" y="45" width="15" height="15" fill="#eaf7ff"/>
+    <rect x="15" y="60" width="15" height="15" fill="#0b1220"/>
+    <rect x="0" y="0" width="30" height="75" fill="none" stroke="#3ff2ff" stroke-width="3"/>
+  </g>
+  </g>
+</svg>
