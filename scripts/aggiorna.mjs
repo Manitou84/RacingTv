@@ -88,15 +88,18 @@ async function aggiornaPalinsesto() {
     if (!perWeekend.has(id)) perWeekend.set(id, { id, serie, gp, sessioni: [], fonti: [], tv8Confermati: [], sky: [], oa: [] });
     return perWeekend.get(id);
   };
+  const diagnostica = []; // cosa ha letto ogni articolo: serve a capire da dove arriva un orario sbagliato
+  const annota = (p, url) => diagnostica.push({ fonte: p.fonte.nome, titolo: p.fonte.titolo, url, gp: p.gp, serie: p.serie,
+    sessioni: p.sessioni.map(x => `${x.classe} ${x.sessione} ${x.inizio || '-'}${x.tv8 ? ` TV8 ${x.tv8.tipo} ${x.tv8.inizio}` : ''}`) });
   for (const s of SERIE) {
     for (const a of await articoliSky(s)) {
-      const p = L.parseSky(a.html, a.url, s.id);
+      const p = L.parseSky(a.html, a.url, s.id); annota(p, a.url);
       if (!p.gp || !p.sessioni.length) { log(`Sky ${s.nome}: nessun orario letto da`, a.url); continue; }
       const w = prendi(p.gp, p.anno, s.id); w.sky.push(...p.sessioni); w.fonti.push(p.fonte); w.tv8Confermati = [...(w.tv8Confermati || []), ...p.copertura];
       log(`Sky ${s.nome}: ${p.sessioni.length} sessioni per ${p.gp}`);
     }
     for (const a of await articoliOA(s)) {
-      const p = L.parseOA(a.html, a.titolo, a.url, s.id);
+      const p = L.parseOA(a.html, a.titolo, a.url, s.id); if (p) annota(p, a.url);
       if (!p?.gp || !p.sessioni.length) { log(`OA Sport ${s.nome}: nessun orario letto da`, a.url); continue; }
       const w = prendi(p.gp, p.anno, s.id); w.oa.push(...p.sessioni); w.fonti.push(p.fonte); w.tv8Confermati = [...(w.tv8Confermati || []), ...p.copertura];
       log(`OA Sport ${s.nome}: ${p.sessioni.length} sessioni per ${p.gp}`);
@@ -121,6 +124,7 @@ async function aggiornaPalinsesto() {
   const primo = w => w.sessioni.map(s => s.inizio || s.tv8?.inizio).sort()[0] || '';
   weekend.sort((a, b) => primo(a).localeCompare(primo(b)));
   await scriviJson(DATI + 'palinsesto.json', { aggiornato: ADESSO.toISOString(), weekend });
+  await scriviJson(DATI + 'diagnostica-orari.json', { aggiornato: ADESSO.toISOString(), articoli: diagnostica });
   await writeFile(RADICE + 'docs/tv8.ics', L.creaIcs(weekend));
   log(`palinsesto: ${weekend.length} weekend, ${weekend.reduce((n, w) => n + w.sessioni.filter(s => s.tv8).length, 0)} trasmissioni TV8`);
 }
