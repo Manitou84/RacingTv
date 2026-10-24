@@ -1,6 +1,46 @@
 {
-  "aggiornato": "2026-10-24T06:59:12.613Z",
+  "aggiornato": "2026-10-24T07:00:00.270Z",
   "articoli": [
+    {
+      "id": "daecf6037e47",
+      "serie": "motogp",
+      "titolo": "Marquez: “Forse mio fratello non mi ha passato perché ero io. Martin ha preso tanti rischi”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/24-9226775/marquez_forse_mio_fratello_non_mi_ha_passato_perch_ero_io_martin_ha_preso_tanti_rischi",
+      "fonte": "Motosprint",
+      "data": "2026-10-24T07:00:00.270Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/24/064935114-ce9a25b6-3d41-4466-80ce-ea0bbd310b98.jpeg",
+      "sommario": "Marc racconta: “Alex era più veloce di me, forse ha capito che attaccarmi sarebbe stato troppo rischioso. Con Jorge una battaglia per il titolo: lui ha sbagliato ma anche io ci sono andato vicino”\n"
+    },
+    {
+      "id": "6cdb2b512175",
+      "serie": "motogp",
+      "titolo": "Di Giannantonio protagonista della Sprint, ma c'è sempre del rammarico",
+      "link": "https://www.motosprint.it/news/eventi/gp-australia/2026/10/24-9226773/di_giannantonio_protagonista_della_sprint_ma_c_sempre_del_rammarico",
+      "fonte": "Motosprint",
+      "data": "2026-10-24T07:00:00.270Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/24/064246419-6f9e435c-7735-4a09-90ee-2a460ac05a3f.jpg",
+      "sommario": "Il romano chiude a podio nonostante un primo giro complicato: \"Sono arrivato lungo in curva 4 e ho perso tante posizioni: peccato, rimango sempre con la sensazione di poter fare di più\""
+    },
+    {
+      "id": "76ef6ba6fb97",
+      "serie": "motogp",
+      "titolo": "I medici Aprilia su Martin: “Operazione possibile, ma speriamo di evitarla”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/24-9226768/i_medici_aprilia_su_martin_operazione_possibile_ma_speriamo_di_evitarla",
+      "fonte": "Motosprint",
+      "data": "2026-10-24T07:00:00.270Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/24/061846964-eb7991e0-78f0-43ec-b017-30135acd5548.jpg",
+      "sommario": "Il Dottor Perona, direttore sanitario di Lifenet, ha fornito un primo quadro della situazione dello spagnolo, che ora dovrà fare i conti con una corsa contro il tempo\n"
+    },
+    {
+      "id": "6a16aa132190",
+      "serie": "motogp",
+      "titolo": "Bezzecchi limita i danni nella Sprint: “Mi girano le p***e, ma almeno mi sono divertito”",
+      "link": "https://www.motosprint.it/news/eventi/gp-australia/2026/10/24-9226772/bezzecchi_limita_i_danni_nella_sprint_mi_girano_le_p_e_ma_almeno_mi_sono_divertito",
+      "fonte": "Motosprint",
+      "data": "2026-10-24T07:00:00.270Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/24/063509841-4149bc52-ab4e-4091-92d2-9c8745bc3354.jpg",
+      "sommario": "Marco ha chiuso ai piedi del podio dopo essere partito dalla terza fila: “Mi sentivo bene sia sull’asciutto che sul bagnato, ma il mix della qualifica mi ha fregato”"
+    },
     {
       "id": "d6faf9bb3903",
       "serie": "motogp",
