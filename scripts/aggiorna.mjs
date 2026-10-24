@@ -364,7 +364,7 @@ async function aggiornaStorico() {
       const html = await res.text();
       if (a === anno - 1 && c === 'MotoGP World Championship') {   // campione per capire il formato della pagina
         const i = html.search(/Riders(&#39;|'|’)?\s*standings/i);
-        await writeFile(RADICE + 'config/debug-wiki.html', `<!-- lunghezza ${html.length}, titolo a ${i} -->\n` + html.slice(Math.max(0, i - 300), i + 12000));
+        await writeFile(RADICE + 'config/debug-wiki.html', `<!-- lunghezza ${html.length}, titolo a ${i} -->\n` + html.slice(Math.max(0, i - 300), i + 90000).replace(/ (id|about|typeof|data-mw)=("[^"]*"|'[^']*')/g, ""));
       }
       return L.parseClassificaWiki(html);
     }, null);
