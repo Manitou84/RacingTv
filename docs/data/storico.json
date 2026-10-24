@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-24T12:29:43.844Z",
+  "aggiornato": "2026-10-24T12:31:32.460Z",
   "fonte": "Wikipedia",
   "piloti": {
     "martin": [
@@ -1183,6 +1183,20 @@
         "pos": 6,
         "punti": 113,
         "inCorso": false
+      },
+      {
+        "anno": 2025,
+        "campionato": "Formula 1",
+        "pos": 7,
+        "punti": 150,
+        "inCorso": false
+      },
+      {
+        "anno": 2026,
+        "campionato": "Formula 1",
+        "pos": 1,
+        "punti": 340,
+        "inCorso": true
       }
     ],
     "f1-verstappen": [
