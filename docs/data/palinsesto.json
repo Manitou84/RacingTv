@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-24T05:33:07.266Z",
+  "aggiornato": "2026-10-24T05:34:27.483Z",
   "weekend": [
     {
       "id": "motogp-gp-australia-2026",
@@ -45,6 +45,13 @@
           "classe": "MotoGP",
           "sessione": "Pre-qualifiche",
           "inizio": "2026-10-23T04:00:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "Moto3",
+          "sessione": "Prove libere 2",
+          "inizio": "2026-10-23T21:40:00.000Z",
           "tv8": null,
           "fonte": "OA Sport"
         },
@@ -100,13 +107,6 @@
             "tipo": "diretta",
             "inizio": "2026-10-24T04:00:00.000Z"
           },
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "Moto3",
-          "sessione": "Prove libere 2",
-          "inizio": "2026-10-24T21:40:00.000Z",
-          "tv8": null,
           "fonte": "OA Sport"
         },
         {
