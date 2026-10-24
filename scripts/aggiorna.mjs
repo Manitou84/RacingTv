@@ -298,11 +298,11 @@ async function aggiornaMappe() {
   if (FIXTURES) return;
   const circuiti = (await leggiJson(DATI + 'circuiti.json', {})).circuiti || {};
   const vecchie = await leggiJson(DATI + 'mappe.json', {});
-  const out = {};
+  const out = {}, errori = {};
   const UA = { 'User-Agent': 'RacingTv/1.0 (https://github.com/Manitou84/RacingTv)' };
   await mkdir(RADICE + 'docs/mappe', { recursive: true });
   for (const [id, c] of Object.entries(circuiti)) {
-    await tenta(`mappa ${id}`, async () => {
+    await (async () => {
       let file = c.mappaFile;
       if (!file && c.wiki) {
         const r = await fetch(`https://www.wikidata.org/w/api.php?action=wbgetentities&sites=enwiki&props=claims&format=json&titles=${encodeURIComponent(c.wiki)}`, { headers: UA, signal: AbortSignal.timeout(20000) });
@@ -321,10 +321,11 @@ async function aggiornaMappe() {
       await writeFile(RADICE + 'docs/' + nome, dati);
       out[id] = { file, immagine: nome, pagina: 'https://commons.wikimedia.org/wiki/File:' + encodeURIComponent(file.replace(/ /g, '_')) };
       log(`mappa ${id}: ${file}`);
-    });
+    })().catch(e => { errori[id] = String(e.message || e).slice(0, 200); log(`mappa ${id}: ${errori[id]}`); });
     if (!out[id] && vecchie[id]) out[id] = vecchie[id];
   }
   await scriviJson(DATI + 'mappe.json', out);
+  await scriviJson(DATI + 'diagnostica-mappe.json', { aggiornato: ADESSO.toISOString(), errori });
 }
 
 if (FIXTURES) mappaFixtures = await leggiJson(RADICE + 'fixtures/mappa.json', {});
