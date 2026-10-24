@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-10-24T10:18:20.297Z",
+  "aggiornato": "2026-10-24T10:54:05.176Z",
   "articoli": [
+    {
+      "id": "7954a9fee960",
+      "serie": "f1",
+      "titolo": "Qualcosa bolle in pentola in Mercedes, in arrivo un astronauta della NASA",
+      "link": "https://www.autosprint.it/news/formula1/2026/10/24-9226209/qualcosa_bolle_in_pentola_in_mercedes_in_arrivo_un_astronauta_della_nasa",
+      "fonte": "Autosprint",
+      "data": "2026-10-24T10:54:05.176Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/24/104712941-9601de22-cd74-42c2-8b55-29293e0d868f.jpg",
+      "sommario": "Il comandante della missione Artemis II è stato appena ingaggiato dal team tedesco, ma non si occuperà di questioni tecniche"
+    },
     {
       "id": "a4aaab6d7366",
       "serie": "motogp",

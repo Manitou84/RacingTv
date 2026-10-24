@@ -1,7 +1,7 @@
 {
-  "aggiornato": "2026-10-24T10:18:20.297Z",
+  "aggiornato": "2026-10-24T10:54:05.176Z",
   "motogp": {
-    "aggiornato": "2026-10-24T10:18:20.297Z",
+    "aggiornato": "2026-10-24T10:54:05.176Z",
     "fonte": "Motosprint",
     "piloti": [
       {
@@ -37,7 +37,7 @@
         "slug": "ai-ogura",
         "nome": "A. Ogura",
         "team": "Trackhouse MotoGP Team",
-        "punti": 263
+        "punti": 259
       },
       {
         "pos": 6,
@@ -83,24 +83,24 @@
       },
       {
         "pos": 12,
+        "slug": "brad-binder",
+        "nome": "B. Binder",
+        "team": "Red Bull KTM Factory Racing",
+        "punti": 108
+      },
+      {
+        "pos": 13,
         "slug": "luca-marini",
         "nome": "L. Marini",
         "team": "Honda HRC Castrol",
         "punti": 108
       },
       {
-        "pos": 13,
-        "slug": "brad-binder",
-        "nome": "B. Binder",
-        "team": "Red Bull KTM Factory Racing",
-        "punti": 107
-      },
-      {
         "pos": 14,
         "slug": "diogo-moreira",
         "nome": "D. Moreira",
         "team": "LCR Honda",
-        "punti": 75
+        "punti": 76
       },
       {
         "pos": 15,
@@ -135,7 +135,7 @@
         "slug": "jack-miller",
         "nome": "J. Miller",
         "team": "Prima Pramac Yamaha",
-        "punti": 30
+        "punti": 31
       },
       {
         "pos": 20,
@@ -163,7 +163,7 @@
         "slug": "iker-lecuona",
         "nome": "I. Lecuona",
         "team": "BK8 Gresini Racing MotoGP",
-        "punti": 9
+        "punti": 10
       },
       {
         "pos": 24,
@@ -243,17 +243,17 @@
       {
         "pos": 3,
         "nome": "Trackhouse MotoGP Team",
-        "punti": 499
+        "punti": 495
       },
       {
         "pos": 4,
         "nome": "Red Bull KTM Factory Racing",
-        "punti": 370
+        "punti": 371
       },
       {
         "pos": 5,
         "nome": "BK8 Gresini Racing MotoGP",
-        "punti": 315
+        "punti": 316
       },
       {
         "pos": 6,
@@ -263,7 +263,7 @@
       {
         "pos": 7,
         "nome": "Honda HRC Castrol",
-        "punti": 147
+        "punti": 144
       },
       {
         "pos": 8,
@@ -273,7 +273,7 @@
       {
         "pos": 9,
         "nome": "LCR Honda",
-        "punti": 126
+        "punti": 127
       },
       {
         "pos": 10,
@@ -283,7 +283,22 @@
       {
         "pos": 11,
         "nome": "Prima Pramac Yamaha",
-        "punti": 48
+        "punti": 49
+      },
+      {
+        "pos": 12,
+        "nome": "Team HRC",
+        "punti": 3
+      },
+      {
+        "pos": 13,
+        "nome": "Yamaha Factory Racing Team",
+        "punti": 2
+      },
+      {
+        "pos": 14,
+        "nome": "Red Bull GASGAS Tech3",
+        "punti": 0
       }
     ],
     "costruttori": [
@@ -305,17 +320,17 @@
       {
         "pos": 4,
         "nome": "Honda",
-        "punti": 166
+        "punti": 167
       },
       {
         "pos": 5,
         "nome": "Yamaha",
-        "punti": 99
+        "punti": 100
       }
     ]
   },
   "f1": {
-    "aggiornato": "2026-10-24T10:18:20.297Z",
+    "aggiornato": "2026-10-24T10:54:05.176Z",
     "fonte": "Autosprint",
     "piloti": [
       {
