@@ -1,7 +1,7 @@
 {
   "name": "RacingTv",
   "short_name": "RacingTv",
-  "description": "MotoGP e Formula 1 in chiaro su TV8: orari, notizie, piloti preferiti e classifiche, senza spoiler.",
+  "description": "MotoGP, Formula 1 e Superbike in chiaro su TV8: orari, notizie, piloti preferiti e classifiche, senza spoiler.",
   "lang": "it",
   "start_url": "./",
   "scope": "./",

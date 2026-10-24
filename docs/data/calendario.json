@@ -1,5 +1,5 @@
 {
-  "_istruzioni": "GP rimanenti della stagione, usati per calcolare il matchpoint. 'data' è il giorno della gara della domenica (o del sabato). Se un GP viene spostato o annullato, correggi qui. 'punti' sono i massimi assegnati al vincitore di gara e Sprint. 'circuito' collega il GP alla sua scheda in circuiti.json (meteo e dati del tracciato). 'prossimaStagione' è la prima gara del campionato successivo, per il conto alla rovescia di fine stagione.",
+  "_istruzioni": "GP rimanenti della stagione, usati per calcolare il matchpoint. 'data' è il giorno della gara della domenica (o del sabato). Se un GP viene spostato o annullato, correggi qui. 'punti' sono i massimi assegnati al vincitore di gara e Sprint. 'circuito' collega il GP alla sua scheda in circuiti.json (meteo e dati del tracciato). 'prossimaStagione' è la prima gara del campionato successivo, per il conto alla rovescia di fine stagione. Per la Superbike 'gareGp' è il numero di gare lunghe del weekend (Gara 1 e Gara 2) e 'sprint' è la Superpole Race.",
   "motogp": {
     "punti": {
       "gara": 25,
@@ -92,6 +92,27 @@
       "gp": "GP Bahrain",
       "circuito": "Bahrain International Circuit, Sakhir",
       "data": "2027-03-14"
+    }
+  },
+  "sbk": {
+    "punti": {
+      "gara": 25,
+      "sprint": 12,
+      "gareGp": 2
+    },
+    "gare": [
+      {
+        "gp": "GP Spagna",
+        "data": "2026-10-18",
+        "sprint": true,
+        "circuito": "jerez"
+      }
+    ],
+    "prossimaStagione": {
+      "anno": 2027,
+      "gp": "Round d'Australia",
+      "circuito": "Phillip Island Grand Prix Circuit",
+      "data": "2027-02-21"
     }
   }
 }

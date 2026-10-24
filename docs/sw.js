@@ -1,5 +1,5 @@
 // Cache dell'app: guscio sempre disponibile, dati presi prima dalla rete.
-const VERSIONE = 'racingtv-v19';
+const VERSIONE = 'racingtv-v20';
 const GUSCIO = ['./', 'index.html', 'style.css', 'app.js', 'account.js', 'config.js', 'manifest.webmanifest', 'icons/icon-192.png'];
 
 self.addEventListener('install', e => {

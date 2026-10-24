@@ -6,7 +6,7 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://api.open-meteo.com https://it.wikipedia.org https://*.supabase.co; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'">
 <meta name="referrer" content="no-referrer">
 <title>RacingTv</title>
-<meta name="description" content="MotoGP e Formula 1 in chiaro su TV8: orari, notizie, piloti preferiti e classifiche, senza spoiler.">
+<meta name="description" content="MotoGP, Formula 1 e Superbike in chiaro su TV8: orari, notizie, piloti preferiti e classifiche, senza spoiler.">
 <meta name="theme-color" content="#1d1f23">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
@@ -27,14 +27,17 @@
     <div class="serie-scelta" role="group" aria-label="Campionato">
       <button type="button" data-serie-scelta="motogp" aria-pressed="true">MotoGP</button>
       <button type="button" data-serie-scelta="f1" aria-pressed="false">Formula 1</button>
+      <button type="button" data-serie-scelta="sbk" aria-pressed="false">SBK</button>
     </div>
     <button class="icona-btn" id="apriImpostazioni" aria-label="Impostazioni">
       <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M19.4 13a7.7 7.7 0 0 0 0-2l2.1-1.6-2-3.4-2.5 1a7.4 7.4 0 0 0-1.7-1L15 3h-4l-.4 2.9a7.4 7.4 0 0 0-1.7 1l-2.5-1-2 3.4L6.6 11a7.7 7.7 0 0 0 0 2l-2.1 1.6 2 3.4 2.5-1c.5.4 1.1.7 1.7 1L11 21h4l.4-2.9c.6-.3 1.2-.6 1.7-1l2.5 1 2-3.4zM13 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z" transform="translate(-1 0)"/></svg>
     </button>
   </div>
   <div class="spoiler-tasti" role="group" aria-label="Anti-spoiler">
-    <button type="button" data-spoiler="motogp" aria-pressed="true"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>Anti-spoiler MotoGP <em>ON</em></button>
-    <button type="button" data-spoiler="f1" aria-pressed="true"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>Anti-spoiler F1 <em>ON</em></button>
+    <span class="spoiler-etichetta">Anti-<br>spoiler</span>
+    <button type="button" data-spoiler="motogp" aria-pressed="true"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>MotoGP <em>ON</em></button>
+    <button type="button" data-spoiler="f1" aria-pressed="true"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>F1 <em>ON</em></button>
+    <button type="button" data-spoiler="sbk" aria-pressed="true"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>SBK <em>ON</em></button>
   </div>
   <h1 id="titoloGp">RacingTv</h1>
   <p id="dateGp" class="sotto"></p>
@@ -76,7 +79,7 @@
     <div class="foglio-testa"><h2>Impostazioni</h2><button class="testo-btn" value="chiudi">Fatto</button></div>
   </form>
   <div class="riga-opzione colonna">
-    <span><strong>Anti-spoiler</strong><small>Lo accendi e spegni dai due tasti in alto, uno per la MotoGP e uno per la Formula 1. Copre notizie, punti e griglia dal via di ogni qualifica e gara finché non tocchi «L'ho già vista» (al massimo tre giorni dopo la messa in onda su TV8).</small></span>
+    <span><strong>Anti-spoiler</strong><small>Lo accendi e spegni dai tasti in alto, uno per ogni campionato (MotoGP, Formula 1 e Superbike). Copre notizie, punti e griglia dal via di ogni qualifica e gara finché non tocchi «L'ho già vista» (al massimo tre giorni dopo la messa in onda su TV8).</small></span>
   </div>
   <div class="riga-opzione colonna">
     <span><strong>Avvisi sul calendario</strong><small>Aggiungi gli orari TV8 al Calendario dell'iPhone: ricevi un avviso 15 minuti prima, senza risultati.</small></span>

@@ -37,6 +37,8 @@ button { cursor: pointer; }
 .testata { padding: 10px var(--gutter) 6px; max-width: 640px; margin: 0 auto; }
 .barra-serie { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
 .serie-scelta { display: flex; gap: 2px; padding: 3px; border-radius: 10px; background: var(--pista); }
+.serie-scelta button { padding-left: 10px !important; padding-right: 10px !important;
+}
 .serie-scelta button {
   border: 0; background: none; color: var(--grigio); padding: 6px 14px; border-radius: 8px;
   font-family: var(--display); font-weight: 800; font-size: 17px; text-transform: uppercase; letter-spacing: .02em;
@@ -405,7 +407,8 @@ button.matchpoint { width: 100%; border: 0; text-align: left; font: inherit; cur
 .trac-record li small { grid-column: 1 / -1; opacity: .65; font-size: .8rem; }
 
 /* Tasti anti-spoiler, uno per serie */
-.spoiler-tasti { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: -4px 0 14px; }
+.spoiler-tasti { display: grid; grid-template-columns: auto repeat(3, minmax(0, 1fr)); gap: 6px; margin: -4px 0 14px; align-items: center; }
+.spoiler-etichetta { font: 800 11px/1.05 var(--testo); text-transform: uppercase; letter-spacing: .04em; color: var(--grigio); }
 .spoiler-tasti button { display: flex; align-items: center; justify-content: center; gap: 6px; min-height: 40px; padding: 6px 8px; border-radius: 10px; border: 1px solid var(--riga); background: var(--pista); color: var(--grigio); font: 600 .74rem/1.1 var(--testo); white-space: nowrap; cursor: pointer; }
 .spoiler-tasti button em { font-style: normal; font-weight: 800; padding: 2px 6px; border-radius: 6px; background: var(--riga); color: var(--gesso); }
 .spoiler-tasti button[aria-pressed="true"] { color: var(--gesso); border-color: #2fbf71; }
@@ -461,3 +464,12 @@ button.matchpoint { width: 100%; border: 0; text-align: left; font: inherit; cur
 .arrivo-riga.preferito .chi b { color: var(--giallo); }
 .arrivo-riga .crono { font-family: var(--display); font-weight: 800; font-size: 17px; font-variant-numeric: tabular-nums; color: var(--grigio); }
 .arrivo-riga .crono.pole { color: var(--giallo); }
+
+/* Ultimi campionati del pilota */
+.storico { width: 100%; border-collapse: collapse; font-size: 14px; margin: 4px 0 6px; font-variant-numeric: tabular-nums; }
+.storico th { text-align: left; color: var(--grigio); font-weight: 600; font-size: 12px; padding: 4px 6px 4px 0; border-bottom: 1px solid var(--riga); }
+.storico td { padding: 6px 6px 6px 0; border-bottom: 1px solid var(--riga); }
+.storico td:last-child, .storico th:last-child { text-align: right; padding-right: 0; }
+.storico .medaglia { display: inline-grid; width: auto; min-width: 30px; height: 22px; padding: 0 6px; font-size: 14px; color: var(--gesso); background: var(--pista-2); } .storico .medaglia.m1, .storico .medaglia.m2, .storico .medaglia.m3 { color: #111; }
+
+.spoiler-tasti button { padding: 6px 4px; gap: 5px; } .spoiler-tasti button svg { display: none; }

@@ -54,6 +54,20 @@ export function normalizzaSessione(testo, serie = 'motogp') {
     if (/\bf ?[23]\b|formula ?[23]\b|porsche|academy|paddock|conferenza|parata|drivers parade|pit ?lane|studio|pre[- ]?gara|post[- ]?gara|race anatomy|zona rossa|grid|griglia|highlights|sintesi/.test(t)) return null;
     classe = 'F1';
   }
+  if (serie === 'sbk') {
+    // solo la Superbike: niente Supersport, SSP300, WorldWCR
+    if (/supersport|\bssp|300|wcr|women|femminil|conferenza|parata|highlights|sintesi|pre[- ]?gara|post[- ]?gara/.test(t)) return null;
+    const x = t.replace(/[-–]/g, ' ');
+    const sess = /superpole\s*race|super\s*pole\s*race|\bspr\b/.test(x) ? 'Superpole Race'
+      : /superpole|super\s*pole|qualific/.test(x) ? 'Superpole'
+      : /(gara|race)\s*(1|uno)\b/.test(x) ? 'Gara 1'
+      : /(gara|race)\s*(2|due)\b/.test(x) ? 'Gara 2'
+      : /(libere|fp)\s*\(?\s*(1|i)\b/.test(x) ? 'Prove libere 1'
+      : /(libere|fp)\s*\(?\s*(2|ii)\b/.test(x) ? 'Prove libere 2'
+      : /(libere|fp)\s*\(?\s*(3|iii)\b/.test(x) ? 'Prove libere 3'
+      : /warm[- ]?up/.test(x) ? 'Warm up' : null;
+    return sess ? { classe: 'SBK', sessione: sess } : null;
+  }
   let sessione = null;
   if (/pre[- ]?qualific/.test(t)) sessione = 'Pre-qualifiche';
   else if (/sprint\s*(qualifying|shootout)|qualific\w*\s*(della\s+|per\s+la\s+)?sprint|sprint\s+qualific/.test(t)) sessione = 'Qualifiche Sprint';
@@ -70,11 +84,12 @@ export function normalizzaSessione(testo, serie = 'motogp') {
   if (classe === 'F1' && ['Warm up', 'Pre-qualifiche'].includes(sessione)) return null;
   return { classe, sessione };
 }
-export const serieDa = testo => /\bf1\b|formula[ -]?1|formula1/.test(pulisci(testo)) ? 'f1' : 'motogp';
+export const serieDa = testo => { const t = pulisci(testo); return /\bf1\b|formula[ -]?1|formula1/.test(t) ? 'f1' : /superbike|\bsbk\b|worldsbk/.test(t) ? 'sbk' : 'motogp'; };
 
 // GP dal testo o dall'indirizzo
 const NOMI_GP = ['san marino','repubblica ceca','gran bretagna','regno unito','americhe','emilia romagna','valencia','portogallo','malesia','thailandia','tailandia','indonesia','giappone','australia','austria','aragona','catalogna','spagna','francia','italia','olanda','germania','ungheria','brasile','qatar','argentina','india','kazakistan','cechia','comunita valenciana','balaton','sachsenring',
-  'messico','citta del messico','stati uniti','usa','las vegas','abu dhabi','singapore','azerbaijan','baku','monaco','canada','belgio','miami','cina','bahrain','arabia saudita','madrid','barcellona','san paolo'];
+  'messico','citta del messico','stati uniti','usa','las vegas','abu dhabi','singapore','azerbaijan','baku','monaco','canada','belgio','miami','cina','bahrain','arabia saudita','madrid','barcellona','san paolo',
+  'estoril','cremona','assen','most','donington','magny cours','aragon','misano','jerez','phillip island','shanghai','cina'];
 const SINONIMI = { 'stati uniti': 'usa', 'citta del messico': 'messico', 'baku': 'azerbaijan', 'regno unito': 'gran bretagna', 'tailandia': 'thailandia', 'cechia': 'repubblica ceca', 'comunita valenciana': 'valencia', 'san paolo': 'brasile' };
 const PREP = ['', 'd ', "d'", 'di ', 'del ', 'della ', 'dell ', "dell'", 'delle ', 'dei ', 'degli '];
 export function nomeGp(testo) {
@@ -109,6 +124,11 @@ function tv8DaFrasi(testo, sessioni, serie) {
       for (const m of fp.matchAll(/ore\s+(\d{1,2})(?:[.:](\d{2}))?\s+(?:la\s+|il\s+|per\s+la\s+)?(moto ?gp|moto ?2|moto ?3)/g)) {
         const classe = /gp/.test(m[3]) ? 'MotoGP' : /2/.test(m[3]) ? 'Moto2' : 'Moto3';
         metti(classe, sprint ? 'Sprint' : 'Gara', +m[1], +(m[2] || 0));
+      }
+    } else if (serie === 'sbk') {
+      for (const m of fp.matchAll(/(superpole race|superpole|gara[ -]?1|gara[ -]?2|race[ -]?1|race[ -]?2)\b[^.;]{0,40}?\b(?:alle|ore|dalle)\s+(?:ore\s+)?(\d{1,2})(?:[.:](\d{2}))?/g)) {
+        const info = normalizzaSessione(m[1], 'sbk');
+        if (info) metti('SBK', info.sessione, +m[2], +(m[3] || 0));
       }
     } else {
       for (const m of fp.matchAll(/(qualifiche sprint|sprint qualifying|qualifiche|sprint|gara|gran premio)\b[^.;]{0,40}?\b(?:alle|ore|dalle)\s+(?:ore\s+)?(\d{1,2})(?:[.:](\d{2}))?/g)) {
@@ -442,7 +462,7 @@ function abbina(raw, piloti, usati) {
 const RX_TEMPO = /(?:(\d{1,2})[h:])?(\d{1,2})[:'’](\d{2})[.,](\d{3})/;
 export function parseArrivo(html, piloti) {
   const righe = htmlInTesto(html).split('\n').map(r => r.trim()).filter(Boolean);
-  const i = righe.findIndex(r => /ordine d.arrivo|classifica (della )?(gara|sprint)/i.test(r) && r === r.toUpperCase());
+  const i = righe.findIndex(r => /ordine d.arrivo|classifica (della )?(gara|sprint|superpole race)|risultat\w* (della )?(gara|superpole race)/i.test(r) && r === r.toUpperCase());
   if (i < 0) return null;
   const classificati = [], ritirati = [], usati = new Set();
   let modo = 'classificati';
@@ -471,6 +491,49 @@ export function parseArrivo(html, piloti) {
     if (ritirati.length >= 15) break;
   }
   return classificati.length >= 5 ? { classificati, ritirati } : null;
+}
+
+/* ---------- Classifiche finali da Wikipedia ---------- */
+// Pagina di una stagione (HTML della REST API di Wikipedia): legge la tabella dopo il titolo
+// «Riders'/Drivers' standings» (o «championship») e, se c'è, quella dei costruttori.
+function tabellaDopo(html, rxTitolo) {
+  const titoli = [...html.matchAll(/<h[2-4][^>]*>([\s\S]*?)<\/h[2-4]>/gi)];
+  for (const t of titoli) {
+    if (!rxTitolo.test(htmlInTesto(t[1]).replace(/\n/g, ' '))) continue;
+    const dopo = html.slice(t.index + t[0].length);
+    const prossimo = dopo.search(/<h2[\s>]/i);
+    const pezzo = prossimo > 0 ? dopo.slice(0, prossimo) : dopo;
+    for (const tab of pezzo.match(/<table[^>]*class="[^"]*wikitable[\s\S]*?<\/table>/gi) || []) {
+      if (/>\s*(Pts|Points)\s*</i.test(tab)) return tab;
+    }
+  }
+  return null;
+}
+function righeClassifica(tab, persone) {
+  const out = [];
+  for (const tr of tab.match(/<tr[\s\S]*?<\/tr>/gi) || []) {
+    const celle = tr.match(/<t[hd][^>]*>[\s\S]*?<\/t[hd]>/gi) || [];
+    if (celle.length < 3) continue;
+    const pos = parseInt(htmlInTesto(celle[0]));
+    if (!pos) continue;
+    let nome = null;
+    for (const c of celle.slice(1, 3)) {
+      const link = [...c.matchAll(/<a[^>]*href="([^"]*)"[^>]*?(?:title="([^"]*)")?[^>]*>([\s\S]*?)<\/a>/gi)].find(m => !/File:|Flag|Image:/i.test(m[1]));
+      if (link) { nome = decodifica(htmlInTesto(link[3]).trim() || (link[2] || '')); break; }
+    }
+    if (!nome) continue;
+    const punti = parseFloat(htmlInTesto(celle.at(-1)).replace(',', '.').replace(/[^\d.]/g, ''));
+    if (Number.isNaN(punti)) continue;
+    if (out.some(r => r.pos === pos && r.nome === nome)) continue;
+    out.push({ pos, nome: nome.slice(0, 50), punti });
+    if (out.length >= 60) break;
+  }
+  return out;
+}
+export function parseClassificaWiki(html) {
+  const tp = tabellaDopo(html, /(riders|drivers)['’]?\s+(world\s+)?(championship\s+)?standings|(riders|drivers)['’]?\s+(world\s+)?championship/i);
+  const tc = tabellaDopo(html, /manufacturers['’]?\s+(world\s+)?(championship\s+)?standings|manufacturers['’]?\s+(world\s+)?championship|constructors['’]?\s+(world\s+)?(championship\s+)?standings/i);
+  return { piloti: tp ? righeClassifica(tp) : [], costruttori: tc ? righeClassifica(tc) : [] };
 }
 
 /* ---------- Calendario .ics ---------- */

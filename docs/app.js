@@ -11,7 +11,15 @@ const compatto = s => pulisci(s).replace(/[^a-z0-9]/g, '');
 const capital = s => s.charAt(0).toUpperCase() + s.slice(1);
 // Solo indirizzi web normali: blocca link "javascript:", "data:" e simili che arrivassero da un feed manomesso
 const urlSicuro = u => { try { const x = new URL(u, location.href); return /^https?:$/.test(x.protocol) ? x.href : '#'; } catch { return '#'; } };
-const SERIE = { motogp: 'MotoGP', f1: 'Formula 1' };
+const SERIE = { motogp: 'MotoGP', f1: 'Formula 1', sbk: 'Superbike' };
+const ELENCO_SERIE = Object.keys(SERIE);
+// la classe «regina» di ogni serie e i nomi delle sue sessioni che contano
+const CLASSE = { motogp: 'MotoGP', f1: 'F1', sbk: 'SBK' };
+const eRegina = s => Object.values(CLASSE).includes(s.classe);
+const eGara = nome => /^Gara( [12])?$/.test(nome);
+const eSprint = nome => nome === 'Sprint' || nome === 'Superpole Race';
+const eQualifica = nome => /^Qualifiche/.test(nome) || nome === 'Superpole';
+const tutteLeSerie = v => Object.fromEntries(ELENCO_SERIE.map(k => [k, v]));
 const VISTE = ['tv8', 'notizie', 'piloti', 'classifiche', 'test'];
 
 /* ---------- Memoria locale (può mancare: l'app funziona lo stesso) ---------- */
@@ -21,7 +29,7 @@ const memoria = {
 };
 // Preferenze personali: salvate sul telefono e, con la multi utenza attiva, anche nel profilo dell'utente.
 const stato = {
-  serie: 'motogp', vista: 'tv8', preferiti: new Set(), visti: new Set(), antiSpoiler: { motogp: true, f1: true }, soloTv8: true,
+  serie: 'motogp', vista: 'tv8', preferiti: new Set(), visti: new Set(), antiSpoiler: tutteLeSerie(true), soloTv8: true,
   griglieViste: new Set(), ultimaVisitaNotizie: 0,
   tabella: 'piloti', filtro: 'tutte', scoperte: new Set(), aperto: null, pilotiVista: 'attivi', hofFiltro: 'tutti'   // queste valgono solo per la sessione
 };
@@ -37,8 +45,8 @@ function applicaPreferenze(p) {
   if (Array.isArray(p.preferiti)) stato.preferiti = new Set(p.preferiti);
   if (Array.isArray(p.visti)) stato.visti = new Set(p.visti);
   // prima era un solo interruttore per entrambe le serie
-  if (typeof p.antiSpoiler === 'boolean') stato.antiSpoiler = { motogp: p.antiSpoiler, f1: p.antiSpoiler };
-  else if (p.antiSpoiler && typeof p.antiSpoiler === 'object') stato.antiSpoiler = { motogp: p.antiSpoiler.motogp !== false, f1: p.antiSpoiler.f1 !== false };
+  if (typeof p.antiSpoiler === 'boolean') stato.antiSpoiler = tutteLeSerie(p.antiSpoiler);
+  else if (p.antiSpoiler && typeof p.antiSpoiler === 'object') stato.antiSpoiler = Object.fromEntries(ELENCO_SERIE.map(k => [k, p.antiSpoiler[k] !== false]));
   if (typeof p.soloTv8 === 'boolean') stato.soloTv8 = p.soloTv8;
   if (Array.isArray(p.griglieViste)) stato.griglieViste = new Set(p.griglieViste);
   if (p.ultimaVisitaNotizie) stato.ultimaVisitaNotizie = p.ultimaVisitaNotizie;
@@ -72,14 +80,15 @@ function quandoRelativo(iso) {
 }
 
 /* ---------- Dati ---------- */
-const D = { palinsesto: { weekend: [] }, notizie: { articoli: [] }, piloti: [], classifica: {}, calendario: {}, risultati: {}, circuiti: {}, griglie: {}, test: {}, mappe: {}, hof: {}, arrivi: {} };
+const D = { palinsesto: { weekend: [] }, notizie: { articoli: [] }, piloti: [], classifica: {}, calendario: {}, risultati: {}, circuiti: {}, griglie: {}, test: {}, mappe: {}, hof: {}, arrivi: {}, storico: {} };
 async function carica(nome) {
   const r = await fetch(`data/${nome}.json`, { cache: 'no-cache' });
   if (!r.ok) throw new Error(nome);
   return r.json();
 }
 async function caricaTutto() {
-  const [p, n, pi, c, ca, ri, ci, gr, te, ma, hf, ar] = await Promise.allSettled(['palinsesto', 'notizie', 'piloti', 'classifica', 'calendario', 'risultati', 'circuiti', 'griglie', 'test', 'mappe', 'hall-of-fame', 'arrivi'].map(carica));
+  const [p, n, pi, c, ca, ri, ci, gr, te, ma, hf, ar, st] = await Promise.allSettled(['palinsesto', 'notizie', 'piloti', 'classifica', 'calendario', 'risultati', 'circuiti', 'griglie', 'test', 'mappe', 'hall-of-fame', 'arrivi', 'storico'].map(carica));
+  if (st.status === 'fulfilled') D.storico = st.value.piloti || {};
   if (hf.status === 'fulfilled') D.hof = hf.value;
   if (ar.status === 'fulfilled') D.arrivi = ar.value.arrivi || {};
   if (ma.status === 'fulfilled') D.mappe = ma.value;
@@ -110,10 +119,10 @@ const weekendSerie = (serie = stato.serie) => D.palinsesto.weekend.filter(w => w
 // tre giorni dopo la messa in onda su TV8, così le notizie non restano coperte per sempre.
 const durataTv = s => s.classe === 'F1'
   ? ({ Gara: 120, Sprint: 45 }[s.sessione] || 60)
+  : s.classe === 'SBK' ? ({ 'Gara 1': 45, 'Gara 2': 45, 'Superpole Race': 25, Superpole: 30 }[s.sessione] || 45)
   : s.classe === 'MotoGP' && s.sessione === 'Gara' ? 80 : s.sessione === 'Sprint' ? 40 : /Q[12]/.test(s.sessione) ? 15 : s.sessione === 'Gara' ? 60 : 45;
 const SCADENZA = 72 * 3600e3;
-const daCoprire = s => ['Gara', 'Sprint'].includes(s.sessione) || s.tv8?.tipo === 'differita' ||
-  ((s.classe === 'MotoGP' || s.classe === 'F1') && /^Qualifiche/.test(s.sessione));
+const daCoprire = s => eGara(s.sessione) || eSprint(s.sessione) || s.tv8?.tipo === 'differita' || (eRegina(s) && eQualifica(s.sessione));
 function finestre() {
   const out = [];
   for (const w of D.palinsesto.weekend) for (const s of w.sessioni) {
@@ -138,12 +147,13 @@ const copertaNotizia = a => {
 // Tre modi per togliere la copertura: le qualifiche (notizie sulle qualifiche e griglia),
 // la Sprint (che svela anche le qualifiche: la griglia della Sprint è il loro risultato) e tutto il weekend.
 const sessioneDi = f => f.id.split('|')[2];
-const eQuali = f => /^Qualifiche/.test(sessioneDi(f));
+const eQuali = f => eQualifica(sessioneDi(f));
 function bottoniSvela(attive) {
-  const quali = attive.some(eQuali), sprint = attive.some(f => sessioneDi(f) === 'Sprint');
+  const quali = attive.some(eQuali), sprint = attive.some(f => eSprint(sessioneDi(f)));
+  const sbk = attive.some(f => f.serie === 'sbk');
   return `<div class="svela-bottoni">
-    ${quali ? '<button type="button" class="bottone secondario piccolo" data-svela-tipo="qualifiche">Ho visto le qualifiche</button>' : ''}
-    ${sprint ? '<button type="button" class="bottone secondario piccolo" data-svela-tipo="sprint">Ho visto la Sprint</button>' : ''}
+    ${quali ? `<button type="button" class="bottone secondario piccolo" data-svela-tipo="qualifiche">${sbk ? 'Ho visto la Superpole' : 'Ho visto le qualifiche'}</button>` : ''}
+    ${sprint ? `<button type="button" class="bottone secondario piccolo" data-svela-tipo="sprint">${sbk ? 'Ho visto la Superpole Race' : 'Ho visto la Sprint'}</button>` : ''}
     <button type="button" class="bottone piccolo" data-svela>Ho visto tutto</button>
   </div>`;
 }
@@ -159,9 +169,10 @@ function svelaParziale(tipo) {
   if (tipo === 'qualifiche') scelte = attive.filter(eQuali);
   else {
     // la Sprint e tutte le qualifiche che la precedono
-    const sp = attive.filter(f => sessioneDi(f) === 'Sprint');
+    // in Superbike la Superpole Race arriva dopo Gara 1: segnarla come vista vuol dire aver visto anche Gara 1
+    const sp = attive.filter(f => eSprint(sessioneDi(f)));
     const ultima = Math.max(...sp.map(f => f.inizio.getTime()));
-    scelte = [...sp, ...attive.filter(f => eQuali(f) && f.inizio.getTime() <= ultima)];
+    scelte = [...sp, ...attive.filter(f => (eQuali(f) || eGara(sessioneDi(f))) && f.inizio.getTime() <= ultima)];
   }
   scelte.forEach(f => stato.visti.add(f.id));
   salva(); disegna();
@@ -171,12 +182,12 @@ function svelaParziale(tipo) {
 // Un pilota ha il matchpoint se, vincendo tutto da qui a quella gara con i rivali a zero punti,
 // avrebbe più vantaggio dei punti che restano in palio dopo.
 const fIso = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Rome' });
-const principale = s => (s.classe === 'MotoGP' || s.classe === 'F1') && ['Sprint', 'Gara'].includes(s.sessione) && s.inizio;
+const principale = s => eRegina(s) && (eGara(s.sessione) || eSprint(s.sessione)) && s.inizio;
 function matchpoint(w) {
   const cal = D.calendario?.[w.serie], cl = D.classifica?.[w.serie];
   if (!w || !cal?.gare || !cl?.piloti?.length) return null;
   const corse = w.sessioni.filter(principale).sort((a, b) => a.inizio.localeCompare(b.inizio));
-  const gara = corse.find(s => s.sessione === 'Gara');
+  const gara = corse.filter(s => eGara(s.sessione)).at(-1);
   if (!gara) return null;
   const chiave = `matchpoint-${w.id}`;
   const aggiornata = new Date(cl.aggiornato || 0);
@@ -184,9 +195,9 @@ function matchpoint(w) {
   if (aggiornata >= new Date(corse[0].inizio) && finestreAttive(w.serie).length) return memoria.get(chiave, null);
   const daCorrere = corse.filter(s => new Date(s.inizio) > aggiornata);
   if (!daCorrere.length) return null;
-  const inPalio = s => s.sessione === 'Gara' ? cal.punti.gara : cal.punti.sprint;
+  const inPalio = s => eGara(s.sessione) ? cal.punti.gara : cal.punti.sprint;
   const dataGara = fIso.format(new Date(gara.inizio));
-  const dopo = cal.gare.filter(g => g.data > dataGara).reduce((n, g) => n + cal.punti.gara + (g.sprint ? cal.punti.sprint : 0), 0);
+  const dopo = cal.gare.filter(g => g.data > dataGara).reduce((n, g) => n + cal.punti.gara * (cal.punti.gareGp || 1) + (g.sprint ? cal.punti.sprint : 0), 0);
   const righe = [...cl.piloti].sort((a, b) => b.punti - a.punti);
   const totale = daCorrere.reduce((n, s) => n + inPalio(s), 0) + dopo;
   if (righe.length > 1 && righe[0].punti - righe[1].punti > totale) return null; // mondiale già assegnato
@@ -212,7 +223,7 @@ function matchpoint(w) {
 function bannerMatchpoint(mp) {
   if (!mp) return '';
   const chi = mp.nomi.length === 1 ? `${esc(mp.nomi[0])} può vincere il mondiale` : `${esc(mp.nomi.join(' e '))} possono vincere il mondiale`;
-  const quando = mp.primaSessione === 'Sprint' ? 'già nella Sprint' : 'in questa gara';
+  const quando = eSprint(mp.primaSessione) ? `già nella ${esc(mp.primaSessione)}` : mp.primaSessione === 'Gara 1' ? 'già in Gara 1' : 'in questa gara';
   const dettaglio = mp.nomi.length === 1
     ? `Ha ${mp.distacco} punti su ${esc(mp.rivale)}; dopo il ${esc(mp.gp)} ne restano ${mp.dopo} in palio.`
     : `Dopo il ${esc(mp.gp)} restano ${mp.dopo} punti in palio.`;
@@ -223,7 +234,7 @@ function bannerMatchpoint(mp) {
 function garaCalendario(w, serie = stato.serie) {
   const gare = D.calendario?.[serie]?.gare || [];
   if (!w) return null;
-  const gara = w.sessioni.find(s => s.sessione === 'Gara' && (s.classe === 'MotoGP' || s.classe === 'F1'));
+  const gara = w.sessioni.filter(s => eGara(s.sessione) && eRegina(s)).at(-1);
   const giorno = gara?.inizio ? fIso.format(new Date(gara.inizio)) : null;
   return gare.find(g => g.gp === w.gp) || gare.find(g => giorno && Math.abs(new Date(g.data) - new Date(giorno)) < 3 * 864e5) || null;
 }
@@ -245,7 +256,7 @@ async function caricaMeteo(circ, primo, ultimo) {
 function bloccoMeteo(w, gc) {
   const circ = gc && D.circuiti[gc.circuito];
   if (!circ) return '';
-  const gara = w?.sessioni.find(s => s.sessione === 'Gara' && (s.classe === 'MotoGP' || s.classe === 'F1') && s.inizio);
+  const gara = w?.sessioni.find(s => eGara(s.sessione) && eRegina(s) && s.inizio);
   const fine = new Date(gc.data + 'T12:00:00Z');
   const giorni = Math.round((fine - adesso()) / 864e5);
   if (giorni > 15) return `<section class="meteo"><h2 class="sezione-titolo">Meteo a ${esc(circ.luogo.split(',')[0])}</h2><p class="nota piccola">Le previsioni arrivano a due settimane dalla gara.</p></section>`;
@@ -306,8 +317,8 @@ function apriTracciato(id) {
   const c = D.circuiti[id];
   if (!c) return;
   const mappa = D.mappe[id];
-  const nomeSerie = { motogp: 'MotoGP', f1: 'Formula 1' };
-  const ordine = [stato.serie, stato.serie === 'motogp' ? 'f1' : 'motogp'];
+  const nomeSerie = SERIE;
+  const ordine = [stato.serie, ...ELENCO_SERIE.filter(x => x !== stato.serie)];
   const riga = (t, v, sotto) => `<li><span>${t}</span><strong>${v}</strong>${sotto ? `<small>${sotto}</small>` : ''}</li>`;
   let rec = '';
   for (const se of ordine) {
@@ -340,7 +351,7 @@ function apriTracciato(id) {
 // La griglia è il risultato delle qualifiche: resta coperta finché le qualifiche non sono andate in onda su TV8.
 function bloccoGriglia(w) {
   const g = D.griglie?.[w.id];
-  const quali = w.sessioni.filter(s => /^Qualifiche( Q[12])?$/.test(s.sessione) && (s.classe === 'MotoGP' || s.classe === 'F1') && s.inizio);
+  const quali = w.sessioni.filter(s => (/^Qualifiche( Q[12])?$/.test(s.sessione) || s.sessione === 'Superpole') && eRegina(s) && s.inizio);
   if (!quali.length) return '';
   const tutteFinite = quali.every(s => new Date(s.inizio).getTime() + durataTv(s) * 60000 < adesso());
   if (!g) return tutteFinite ? `<section class="griglia"><h2 class="sezione-titolo">Griglia di partenza</h2><p class="nota piccola">Non ancora pubblicata: arriva poco dopo le qualifiche.</p></section>` : '';
@@ -351,7 +362,7 @@ function bloccoGriglia(w) {
     return `<section class="griglia"><h2 class="sezione-titolo">Griglia di partenza</h2>
       <div class="coperta"><span><strong>Griglia pronta, ma coperta</strong>Contiene il risultato delle qualifiche: la mostro ${quando}.</span><button class="bottone secondario piccolo" data-griglia="${esc(w.id)}">Mostra</button></div></section>`;
   }
-  const perFila = w.serie === 'motogp' ? 3 : 2;
+  const perFila = w.serie === 'f1' ? 2 : 3;
   const file = [];
   for (let i = 0; i < g.righe.length; i += perFila) file.push(g.righe.slice(i, i + perFila));
   // tempo della pole e, per gli altri, distacco dalla pole
@@ -373,7 +384,7 @@ function bloccoGriglia(w) {
 /* ---------- Hall of Fame: i grandi piloti ritirati ---------- */
 const numero = v => v == null ? '–' : v.toLocaleString('it-IT');
 const totTitoli = h => h.titoli.reduce((n, t) => n + t.anni.length, 0);
-const titoliRegina = h => h.titoli.filter(t => /^(500cc|MotoGP|Formula 1)$/.test(t.classe)).reduce((n, t) => n + t.anni.length, 0);
+const titoliRegina = h => h.titoli.filter(t => /^(500cc|MotoGP|Formula 1|Superbike)$/.test(t.classe)).reduce((n, t) => n + t.anni.length, 0);
 function disegnaHof() {
   const serie = stato.serie;
   let elenco = [...(D.hof?.[serie] || [])];
@@ -386,7 +397,7 @@ function disegnaHof() {
   elenco = elenco.filter(h => f === 'tutti' || (f === 'legend' && h.legend) || (f === 'hof' && h.hallOfFame) || (f === 'regina' && titoliRegina(h)) || (f === 'campioni' && h.titoli.length));
   elenco.sort((a, b) => titoliRegina(b) - titoliRegina(a) || totTitoli(b) - totTitoli(a) || (b.numeri.vittorie || 0) - (a.numeri.vittorie || 0));
   let html = `<div class="filtri" role="group" aria-label="Filtra">${filtri.map(([k, t]) => `<button type="button" data-hof-filtro="${k}" aria-pressed="${f === k}">${t}</button>`).join('')}</div>`;
-  html += `<p class="nota piccola">${serie === 'motogp' ? 'Le MotoGP Legends scelte dalla FIM e dalla Dorna, la nuova Hall of Fame del 2025 e altri grandi ritirati.' : 'I campioni del mondo ritirati e alcuni grandi che il titolo non lo hanno mai vinto.'} Tocca un nome per la scheda.</p>`;
+  html += `<p class="nota piccola">${serie === 'motogp' ? 'Le MotoGP Legends scelte dalla FIM e dalla Dorna, la nuova Hall of Fame del 2025 e altri grandi ritirati.' : serie === 'sbk' ? 'I campioni del mondo Superbike ritirati e alcuni grandi che il titolo non lo hanno mai vinto. Per la Superbike ci sono titoli e vittorie.' : 'I campioni del mondo ritirati e alcuni grandi che il titolo non lo hanno mai vinto.'} Tocca un nome per la scheda.</p>`;
   html += `<ul class="lista-notizie hof">${elenco.map(h => rigaHof(h, serie)).join('')}</ul>`;
   html += `<p class="nota piccola">Dati da Wikipedia (ottobre 2026). Per la moto i numeri sono di carriera in tutte le classi; dove serve c'è il dettaglio della classe regina. «–» vuol dire dato non registrato.</p>`;
   return html;
@@ -406,7 +417,7 @@ function rigaHof(h, serie) {
   if (!aperto) return testa + '</li>';
   const anno = d => d ? d.slice(0, 4) : '';
   const fData = d => d ? new Intl.DateTimeFormat('it-IT', { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(d + 'T12:00:00Z')) : '';
-  const vita = `Nato il ${esc(fData(h.nato))} a ${esc(h.luogo)}${h.morto ? `, morto il ${esc(fData(h.morto))}` : ''}.`;
+  const vita = h.nato ? `Nato il ${esc(fData(h.nato))} a ${esc(h.luogo)}${h.morto ? `, morto il ${esc(fData(h.morto))}` : ''}.` : `${esc(h.luogo)}.`;
   const n = h.numeri, r = h.regina;
   const reg = r ? `<p class="nota piccola hof-regina">Nella classe regina (${serie === 'motogp' ? '500 e MotoGP' : 'F1'}): ${[r.gare != null && `${r.gare} gare`, r.vittorie != null && `${r.vittorie} vittorie`, r.podi != null && `${r.podi} podi`, r.pole != null && `${r.pole} pole`].filter(Boolean).join(', ')}.</p>` : '';
   const titoli = h.titoli.length
@@ -414,7 +425,7 @@ function rigaHof(h, serie) {
     : '<p class="nota piccola">Nessun titolo mondiale.</p>';
   return testa + `<div class="palmares hof-scheda">
       ${h.soprannome ? `<p class="hof-sopr">«${esc(h.soprannome)}»</p>` : ''}
-      <p class="nota piccola">${vita} In attività ${esc(h.anni)}. ${serie === 'motogp' ? 'Moto' : 'Squadre'}: ${esc(h.moto)}.</p>
+      <p class="nota piccola">${vita} In attività ${esc(h.anni)}. ${serie === 'f1' ? 'Squadre' : 'Moto'}: ${esc(h.moto)}.</p>
       <div class="pal-numeri hof-numeri">
         <div><b>${tt}</b><small>titoli</small></div>
         <div><b>${numero(n.vittorie)}</b><small>vittorie</small></div>
@@ -439,19 +450,23 @@ const distaccoGara = x => x >= 60 ? `+${Math.floor(x / 60)}'${(x % 60).toFixed(3
 function bloccoArrivi(w) {
   const tutti = D.arrivi?.[w.id];
   if (!tutti) return '';
-  const classe = w.serie === 'f1' ? 'F1' : 'MotoGP';
+  const classe = CLASSE[w.serie];
   const attive = new Set(finestreAttive(w.serie).map(f => f.id));
+  const ordine = w.serie === 'sbk' ? ['Gara 1', 'Superpole Race', 'Gara 2'] : ['Sprint', 'Gara'];
+  const nomeSess = x => x === 'Gara' ? 'gara' : x;
   let html = '';
-  for (const sessione of ['Sprint', 'Gara']) {
+  const viste = [];
+  for (const sessione of ordine) {
     const a = tutti[sessione];
     if (!a) continue;
     const idF = `${w.id}|${classe}|${sessione}`;
-    const titolo = `Ordine d'arrivo ${sessione === 'Sprint' ? 'Sprint' : 'gara'}`;
+    const titolo = `Ordine d'arrivo ${nomeSess(sessione)}`;
     if (attive.has(idF)) {
       html += `<section class="griglia arrivo"><h2 class="sezione-titolo">${titolo}</h2>
-        <div class="coperta"><span><strong>Risultato pronto, ma coperto</strong>Lo mostro quando mi dici che hai visto la ${sessione === 'Sprint' ? 'Sprint' : 'gara'}.</span><button class="bottone secondario piccolo" data-visto="${esc(idF)}">L'ho già vista</button></div></section>`;
+        <div class="coperta"><span><strong>Risultato pronto, ma coperto</strong>Lo mostro quando mi dici che hai visto ${sessione === 'Gara' ? 'la gara' : esc(sessione)}.</span><button class="bottone secondario piccolo" data-visto="${esc(idF)}">L'ho già vista</button></div></section>`;
       continue;
     }
+    viste.push([sessione, a]);
     const primo = a.classificati[0];
     const crono = r => r.pos === 1 ? (r.secondi != null ? `<span class="crono pole">${tempoGara(r.secondi)}</span>` : '')
       : r.giri ? `<span class="crono">+${r.giri} ${r.giri === 1 ? 'giro' : 'giri'}</span>`
@@ -464,13 +479,44 @@ function bloccoArrivi(w) {
       ${a.ritirati?.length ? `<p class="nota piccola"><strong>Non classificati:</strong> ${a.ritirati.map(r => { const p = r.id && pilota(r.id); return esc(p ? p.cognome : r.nome); }).join(', ')}.</p>` : ''}
       <p class="nota piccola">Ordine d'arrivo da <a href="${esc(urlSicuro(a.url))}" target="_blank" rel="noopener noreferrer">${esc(a.fonte)}</a>; eventuali penalità possono cambiarlo.</p></section>`;
   }
-  return html;
+  return html + classificaWeekend(w, viste);
+}
+// Punti del weekend: somma di Sprint e Gara (in Superbike Gara 1, Superpole Race e Gara 2)
+function classificaWeekend(w, viste) {
+  if (viste.length < 2) return '';
+  const tab = PUNTI[w.serie];
+  const per = new Map();
+  for (const [sessione, a] of viste) {
+    const scala = eSprint(sessione) ? tab.Sprint : tab.Gara;
+    for (const r of a.classificati) {
+      const k = r.id || r.nome;
+      const x = per.get(k) || { id: r.id, nome: r.nome, totale: 0, parti: {} };
+      const pt = scala[r.pos - 1] || 0;
+      x.parti[sessione] = pt; x.totale += pt;
+      per.set(k, x);
+    }
+  }
+  const righe = [...per.values()].filter(x => x.totale > 0).sort((a, b) => b.totale - a.totale || (b.parti[viste.at(-1)[0]] || 0) - (a.parti[viste.at(-1)[0]] || 0));
+  if (!righe.length) return '';
+  const sigla = x => x === 'Superpole Race' ? 'SPR' : x === 'Sprint' ? 'Sprint' : x === 'Gara' ? 'Gara' : x.replace('Gara ', 'G');
+  let pos = 0, prec = null;
+  const li = righe.map((x, i) => {
+    if (x.totale !== prec) { pos = i + 1; prec = x.totale; }
+    const p = x.id && pilota(x.id); const pref = p && stato.preferiti.has(p.id);
+    const dettaglio = viste.map(([s]) => `${sigla(s)} ${x.parti[s] || 0}`).join(' · ');
+    return `<li class="arrivo-riga${pref ? ' preferito' : ''}"><span class="pos">${pos}</span>${piastra(p, ' piccola')}<span class="chi"><strong><b>${esc(p ? p.cognome : x.nome)}</b></strong><small>${esc(dettaglio)}</small></span><span class="crono pole">${x.totale}<small> pt</small></span></li>`;
+  }).join('');
+  const quali = viste.map(([s]) => s === 'Gara' ? 'gara' : s).join(', ').replace(/, ([^,]*)$/, ' e $1');
+  return `<section class="griglia arrivo"><h2 class="sezione-titolo">Punti del weekend</h2>
+    <p class="nota piccola">Punti conquistati in ${esc(quali)}${viste.length < (w.serie === 'sbk' ? 3 : 2) ? ' (manca ancora una gara)' : ''}.</p>
+    <ol class="arrivo-lista">${li}</ol></section>`;
 }
 
 /* ---------- Calcolatore «campione se…» ---------- */
 const PUNTI = {
   motogp: { Gara: [25, 20, 16, 13, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1], Sprint: [12, 9, 7, 6, 5, 4, 3, 2, 1] },
-  f1: { Gara: [25, 18, 15, 12, 10, 8, 6, 4, 2, 1], Sprint: [8, 7, 6, 5, 4, 3, 2, 1] }
+  f1: { Gara: [25, 18, 15, 12, 10, 8, 6, 4, 2, 1], Sprint: [8, 7, 6, 5, 4, 3, 2, 1] },
+  sbk: { Gara: [25, 20, 16, 13, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1], Sprint: [12, 9, 7, 6, 5, 4, 3, 2, 1] }
 };
 const nomePil = (riga, serie) => { const p = trovaPilota(riga, serie); return p ? p.cognome : riga.nome; };
 function calcolatore(serie) {
@@ -576,10 +622,11 @@ function disegnaTv8() {
   const el = $('#vista-tv8');
   clearInterval(timer);
   const w = weekendCorrente();
-  const altra = stato.serie === 'motogp' ? 'f1' : 'motogp';
-  const prossimaAltra = prossimaTv8(weekendCorrente(altra));
+  // la prossima trasmissione TV8 delle altre serie: mostro la più vicina
+  const [altra, prossimaAltra] = ELENCO_SERIE.filter(x => x !== stato.serie).map(x => [x, prossimaTv8(weekendCorrente(x))])
+    .filter(([, p]) => p).sort((a, b) => a[1].da - b[1].da)[0] || [null, null];
   const rimando = prossimaAltra ? `<button class="rimando" data-serie="${altra}">
-      <span><strong>${esc(SERIE[altra])} su TV8</strong>${esc(prossimaAltra.s.classe === 'F1' ? '' : prossimaAltra.s.classe + ' ')}${esc(prossimaAltra.s.sessione)}, ${esc(fGiornoBreve.format(prossimaAltra.da))} alle ${ora(prossimaAltra.s.tv8.inizio)}</span>
+      <span><strong>${esc(SERIE[altra])} su TV8</strong>${esc(['F1', 'SBK'].includes(prossimaAltra.s.classe) ? '' : prossimaAltra.s.classe + ' ')}${esc(prossimaAltra.s.sessione)}, ${esc(fGiornoBreve.format(prossimaAltra.da))} alle ${ora(prossimaAltra.s.tv8.inizio)}</span>
       <span aria-hidden="true" class="freccia">›</span></button>` : '';
   if (!w && stagioneFinita(stato.serie)) {
     $('#titoloGp').textContent = SERIE[stato.serie]; $('#dateGp').textContent = 'Stagione conclusa';
@@ -615,7 +662,7 @@ function disegnaTv8() {
     const diretta = s.tv8.tipo === 'diretta';
     html += `<div class="lavagna" role="timer" aria-live="off">
       <div class="lav-riga"><span class="marchio-tv8">TV8</span>${gomma(s.tv8.tipo, inOnda)}${conMp(s) ? chipMp : ''}</div>
-      <div class="lav-evento">${s.classe === 'F1' ? 'Formula 1' : esc(s.classe)} ${esc(s.sessione)}</div>
+      <div class="lav-evento">${s.classe === 'F1' ? 'Formula 1' : s.classe === 'SBK' ? 'Superbike' : esc(s.classe)} ${esc(s.sessione)}</div>
       <div class="lav-cifre${inOnda ? ' in-onda' : ''}" id="contoAllaRovescia">${inOnda ? 'In onda' : cifre(prossima.da - adesso())}</div>
       <dl class="lav-orari">
         <div><dt>Diretta</dt><dd>${s.inizio ? `${esc(fGiornoBreve.format(new Date(s.inizio)))}, ${ora(s.inizio)}` : '–'}<small>${diretta ? 'TV8 e Sky' : 'solo Sky'}</small></dd></div>
@@ -637,7 +684,7 @@ function disegnaTv8() {
   // ogni riga: a sinistra l'orario della diretta (in pista), a destra la messa in onda su TV8
   const confermati = new Set(w.tv8Confermati || []);
   const daConfermare = s => !s.tv8 && s.inizio && !confermati.has(fIso.format(new Date(s.inizio))) && new Date(s.inizio) > adesso();
-  const importante = s => /Qualifiche|Sprint|Gara/.test(s.sessione) && (s.classe === 'MotoGP' || s.classe === 'F1');
+  const importante = s => /Qualifiche|Sprint|Gara|Superpole/.test(s.sessione) && eRegina(s);
   const elenco = w.sessioni.filter(s => stato.soloTv8 ? s.tv8 || (daConfermare(s) && importante(s)) : true)
     .map(s => ({ s, quando: new Date(s.inizio || s.tv8.inizio) }))
     .sort((a, b) => a.quando - b.quando);
@@ -665,7 +712,7 @@ function disegnaTv8() {
       const altroGiorno = fChiave.format(tvDa) !== k ? `<em>${esc(fmt({ weekday: 'short' }).format(tvDa))}</em> ` : '';
       tv = `<span class="tv-diff${inOnda ? ' in-onda' : ''}"><small>${inOnda ? 'In onda' : 'Differita'}</small><b>${altroGiorno}${ora(s.tv8.inizio)}</b></span>`;
     }
-    const classe = s.classe === 'F1' ? '' : `<span class="classe ${esc(s.classe)}">${esc(s.classe)}</span>`;
+    const classe = s.classe === 'F1' || s.classe === 'SBK' ? '' : `<span class="classe ${esc(s.classe)}">${esc(s.classe)}</span>`;
     const sotto = !s.inizio ? 'Orario della diretta non indicato' : s.tv8?.tipo === 'diretta' ? 'Su TV8 e Sky' : daConfermare(s) ? 'Su Sky; TV8 non ha ancora pubblicato il programma' : 'Su Sky';
     html += `<li class="slot${passato ? ' passato' : ''}${s.tv8 ? '' : ' solo-sky'}">
       <span class="ora">${s.inizio ? ora(s.inizio) : '–'}</span>
@@ -753,6 +800,17 @@ function palmares(p) {
   const vinteDopo = podi.filter(x => x.pos === 1 && x.data > base.vittorieFino).length;
   return { carriera: base.vittorie + vinteDopo, titoli: base.titoli || [], tipo: base.tipoVittorie, podi, vittorieAnno: podi.filter(x => x.pos === 1).length, gareLette: gare.length };
 }
+// Posizione finale nei campionati delle ultime cinque stagioni (anche categorie minori), da Wikipedia
+function storicoPilota(p) {
+  const anno = adesso().getFullYear();
+  const righe = (D.storico?.[p.id] || []).filter(r => r.anno < anno).slice(-5).reverse();
+  if (!righe.length) return '';
+  const medaglia = pos => pos <= 3 ? ` m${pos}` : '';
+  return `<h3 class="pal-titolo">Ultimi campionati</h3>
+    <table class="storico"><thead><tr><th>Anno</th><th>Campionato</th><th>Pos.</th><th>Punti</th></tr></thead><tbody>
+    ${righe.map(r => `<tr><td>${r.anno}</td><td>${esc(r.campionato)}</td><td><span class="medaglia${medaglia(r.pos)}">${r.pos}°</span></td><td>${String(r.punti).replace('.', ',')}</td></tr>`).join('')}
+    </tbody></table>`;
+}
 function schedaPalmares(p) {
   const pm = palmares(p);
   const anno = adesso().getFullYear();
@@ -772,6 +830,7 @@ function schedaPalmares(p) {
       <div><b>${pm.podi.length}</b><small>podi ${anno}</small></div>
     </div>
     ${titoli}
+    ${storicoPilota(p)}
     <h3 class="pal-titolo">Migliori risultati ${anno}</h3>${elenco}
     <p class="nota piccola">${esc(pm.tipo || '')}. I podi sono quelli della gara della domenica${p.serie === 'motogp' ? ', Sprint escluse' : ''}.</p>
   </div>`;
@@ -829,8 +888,8 @@ function coloreSquadra(nome) {
 function disegnaClassifiche() {
   const el = $('#vista-classifiche');
   const c = D.classifica[stato.serie];
-  const tabelle = stato.serie === 'f1'
-    ? [['piloti', 'Piloti'], ['costruttori', 'Squadre']]
+  const tabelle = stato.serie === 'f1' ? [['piloti', 'Piloti'], ['costruttori', 'Squadre']]
+    : stato.serie === 'sbk' ? [['piloti', 'Piloti'], ['costruttori', 'Costruttori']]
     : [['piloti', 'Piloti'], ['squadre', 'Squadre'], ['costruttori', 'Costruttori']];
   if (!tabelle.some(([k]) => k === stato.tabella)) stato.tabella = 'piloti';
   let html = avvisoSpoiler();

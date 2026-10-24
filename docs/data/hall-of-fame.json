@@ -1,5 +1,5 @@
 {
- "_istruzioni": "Hall of Fame: piloti ritirati. Numeri di carriera (tutte le classi per la moto) da Wikipedia in inglese, ottobre 2026. 'regina' sono i numeri nella sola classe regina (500/MotoGP). 'legend' è l'anno di ingresso tra le MotoGP Legends; 'hallOfFame' indica la nuova Hall of Fame MotoGP del 2025 (almeno 2 titoli o 25 vittorie in classe regina). null = dato non disponibile (es. pole non registrate negli anni Cinquanta).",
+ "_istruzioni": "Hall of Fame: piloti ritirati. Numeri di carriera (tutte le classi per la moto) da Wikipedia in inglese, ottobre 2026. 'regina' sono i numeri nella sola classe regina (500/MotoGP). 'legend' è l'anno di ingresso tra le MotoGP Legends; 'hallOfFame' indica la nuova Hall of Fame MotoGP del 2025 (almeno 2 titoli o 25 vittorie in classe regina). null = dato non disponibile (es. pole non registrate negli anni Cinquanta). Per la Superbike ci sono titoli e vittorie (da Wikipedia); gare, podi e pole non sono registrati qui.",
  "motogp": [
   {
    "id": "hof-agostini",
@@ -2985,6 +2985,644 @@
    "curiosita": [
     "Con il padre Keke forma la seconda coppia padre-figlio iridata, dopo Graham e Damon Hill."
    ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  }
+ ],
+ "sbk": [
+  {
+   "id": "hof-sbk-fogarty",
+   "nome": "Carl",
+   "cognome": "Fogarty",
+   "naz": "🇬🇧",
+   "nato": "1965-07-01",
+   "luogo": "Blackburn",
+   "morto": null,
+   "anni": "1992–2000",
+   "moto": "Ducati, Honda",
+   "titoli": [
+    {
+     "classe": "Superbike",
+     "anni": [
+      1994,
+      1995,
+      1998,
+      1999
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": null,
+    "vittorie": 59,
+    "podi": null,
+    "pole": null,
+    "giriVeloci": null
+   },
+   "regina": null,
+   "bio": "Il volto della Superbike degli anni Novanta: quattro titoli con la Ducati e uno stile aggressivo che lo rese idolo in Inghilterra e in Italia.",
+   "curiosita": [
+    "La carriera finì a Phillip Island nel 2000 dopo una caduta con gravi ferite.",
+    "Per anni ha avuto il record di vittorie, poi superato da Rea e Razgatlıoğlu."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": "King Carl"
+  },
+  {
+   "id": "hof-sbk-bayliss",
+   "nome": "Troy",
+   "cognome": "Bayliss",
+   "naz": "🇦🇺",
+   "nato": "1969-03-30",
+   "luogo": "Taree",
+   "morto": null,
+   "anni": "1997–2008",
+   "moto": "Ducati",
+   "titoli": [
+    {
+     "classe": "Superbike",
+     "anni": [
+      2001,
+      2006,
+      2008
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": null,
+    "vittorie": 52,
+    "podi": null,
+    "pole": null,
+    "giriVeloci": null
+   },
+   "regina": null,
+   "bio": "Tre titoli, tutti con la Ducati. Si ritirò da campione del mondo nel 2008.",
+   "curiosita": [
+    "Nel 2006, fresco campione Superbike, vinse da sostituto il GP MotoGP di Valencia con la Ducati."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-sbk-haga",
+   "nome": "Noriyuki",
+   "cognome": "Haga",
+   "naz": "🇯🇵",
+   "nato": null,
+   "luogo": "Giappone",
+   "morto": null,
+   "anni": "1996–2013",
+   "moto": "Yamaha, Ducati, Aprilia, BMW",
+   "titoli": [],
+   "numeri": {
+    "gare": null,
+    "vittorie": 43,
+    "podi": null,
+    "pole": null,
+    "giriVeloci": null
+   },
+   "regina": null,
+   "bio": "Mai campione ma tra i piloti più amati e vincenti della Superbike, più volte vicecampione.",
+   "curiosita": [],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": "Nitro Nori"
+  },
+  {
+   "id": "hof-sbk-corser",
+   "nome": "Troy",
+   "cognome": "Corser",
+   "naz": "🇦🇺",
+   "nato": null,
+   "luogo": "Australia",
+   "morto": null,
+   "anni": "1995–2011",
+   "moto": "Ducati, Suzuki, Aprilia, Yamaha, BMW",
+   "titoli": [
+    {
+     "classe": "Superbike",
+     "anni": [
+      1996,
+      2005
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": null,
+    "vittorie": 33,
+    "podi": null,
+    "pole": null,
+    "giriVeloci": null
+   },
+   "regina": null,
+   "bio": "Due titoli a quasi dieci anni di distanza: con la Ducati nel 1996 e con la Suzuki nel 2005.",
+   "curiosita": [],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-sbk-edwards",
+   "nome": "Colin",
+   "cognome": "Edwards",
+   "naz": "🇺🇸",
+   "nato": null,
+   "luogo": "Texas",
+   "morto": null,
+   "anni": "1995–2002",
+   "moto": "Yamaha, Honda",
+   "titoli": [
+    {
+     "classe": "Superbike",
+     "anni": [
+      2000,
+      2002
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": null,
+    "vittorie": 31,
+    "podi": null,
+    "pole": null,
+    "giriVeloci": null
+   },
+   "regina": null,
+   "bio": "Due titoli con la Honda VTR. Il duello con Bayliss a Imola nell'ultima gara del 2002 è uno dei più famosi della Superbike.",
+   "curiosita": [],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": "Texas Tornado"
+  },
+  {
+   "id": "hof-sbk-polen",
+   "nome": "Doug",
+   "cognome": "Polen",
+   "naz": "🇺🇸",
+   "nato": null,
+   "luogo": "Stati Uniti",
+   "morto": null,
+   "anni": "1989–1998",
+   "moto": "Ducati, Honda",
+   "titoli": [
+    {
+     "classe": "Superbike",
+     "anni": [
+      1991,
+      1992
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": null,
+    "vittorie": 27,
+    "podi": null,
+    "pole": null,
+    "giriVeloci": null
+   },
+   "regina": null,
+   "bio": "Due titoli consecutivi con la Ducati 888, dominando le stagioni 1991 e 1992.",
+   "curiosita": [],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-sbk-roche",
+   "nome": "Raymond",
+   "cognome": "Roche",
+   "naz": "🇫🇷",
+   "nato": null,
+   "luogo": "Francia",
+   "morto": null,
+   "anni": "1988–1992",
+   "moto": "Ducati",
+   "titoli": [
+    {
+     "classe": "Superbike",
+     "anni": [
+      1990
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": null,
+    "vittorie": 23,
+    "podi": null,
+    "pole": null,
+    "giriVeloci": null
+   },
+   "regina": null,
+   "bio": "Il primo campione del mondo Superbike della Ducati, nel 1990.",
+   "curiosita": [],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-sbk-merkel",
+   "nome": "Fred",
+   "cognome": "Merkel",
+   "naz": "🇺🇸",
+   "nato": null,
+   "luogo": "Stati Uniti",
+   "morto": null,
+   "anni": "1988–1992",
+   "moto": "Honda",
+   "titoli": [
+    {
+     "classe": "Superbike",
+     "anni": [
+      1988,
+      1989
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": null,
+    "vittorie": 8,
+    "podi": null,
+    "pole": null,
+    "giriVeloci": null
+   },
+   "regina": null,
+   "bio": "Il primo campione del mondo della Superbike, nel 1988, e di nuovo nel 1989, con la Honda RC30.",
+   "curiosita": [],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-sbk-russell",
+   "nome": "Scott",
+   "cognome": "Russell",
+   "naz": "🇺🇸",
+   "nato": null,
+   "luogo": "Stati Uniti",
+   "morto": null,
+   "anni": "1990–1998",
+   "moto": "Kawasaki, Yamaha",
+   "titoli": [
+    {
+     "classe": "Superbike",
+     "anni": [
+      1993
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": null,
+    "vittorie": 14,
+    "podi": null,
+    "pole": null,
+    "giriVeloci": null
+   },
+   "regina": null,
+   "bio": "Campione 1993 con la Kawasaki, l'unico titolo piloti di Akashi fino a Tom Sykes.",
+   "curiosita": [],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": "Mr. Daytona"
+  },
+  {
+   "id": "hof-sbk-kocinski",
+   "nome": "John",
+   "cognome": "Kocinski",
+   "naz": "🇺🇸",
+   "nato": null,
+   "luogo": "Stati Uniti",
+   "morto": null,
+   "anni": "1996–1997",
+   "moto": "Ducati, Honda",
+   "titoli": [
+    {
+     "classe": "Superbike",
+     "anni": [
+      1997
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": null,
+    "vittorie": 14,
+    "podi": null,
+    "pole": null,
+    "giriVeloci": null
+   },
+   "regina": null,
+   "bio": "Campione Superbike 1997 con la Honda, dopo aver vinto anche il titolo mondiale della 250 nel 1990.",
+   "curiosita": [],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-sbk-hodgson",
+   "nome": "Neil",
+   "cognome": "Hodgson",
+   "naz": "🇬🇧",
+   "nato": null,
+   "luogo": "Regno Unito",
+   "morto": null,
+   "anni": "1995–2003",
+   "moto": "Ducati",
+   "titoli": [
+    {
+     "classe": "Superbike",
+     "anni": [
+      2003
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": null,
+    "vittorie": 16,
+    "podi": null,
+    "pole": null,
+    "giriVeloci": null
+   },
+   "regina": null,
+   "bio": "Campione 2003 con la Ducati ufficiale.",
+   "curiosita": [],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-sbk-toseland",
+   "nome": "James",
+   "cognome": "Toseland",
+   "naz": "🇬🇧",
+   "nato": null,
+   "luogo": "Regno Unito",
+   "morto": null,
+   "anni": "2001–2011",
+   "moto": "Ducati, Honda, Yamaha, BMW",
+   "titoli": [
+    {
+     "classe": "Superbike",
+     "anni": [
+      2004,
+      2007
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": null,
+    "vittorie": 16,
+    "podi": null,
+    "pole": null,
+    "giriVeloci": null
+   },
+   "regina": null,
+   "bio": "Due titoli, con la Ducati nel 2004 e con la Honda nel 2007, poi due stagioni in MotoGP.",
+   "curiosita": [
+    "Lasciate le corse, si è dedicato alla musica: suona il pianoforte e canta con la sua band."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-sbk-spies",
+   "nome": "Ben",
+   "cognome": "Spies",
+   "naz": "🇺🇸",
+   "nato": null,
+   "luogo": "Stati Uniti",
+   "morto": null,
+   "anni": "2009",
+   "moto": "Yamaha",
+   "titoli": [
+    {
+     "classe": "Superbike",
+     "anni": [
+      2009
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": null,
+    "vittorie": 14,
+    "podi": null,
+    "pole": null,
+    "giriVeloci": null
+   },
+   "regina": null,
+   "bio": "Campione al primo anno in Superbike, nel 2009 con la Yamaha, poi il passaggio in MotoGP.",
+   "curiosita": [
+    "In MotoGP ha vinto ad Assen nel 2011."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-sbk-biaggi",
+   "nome": "Max",
+   "cognome": "Biaggi",
+   "naz": "🇮🇹",
+   "nato": "1971-06-26",
+   "luogo": "Roma",
+   "morto": null,
+   "anni": "2007–2012, 2015",
+   "moto": "Suzuki, Ducati, Aprilia",
+   "titoli": [
+    {
+     "classe": "Superbike",
+     "anni": [
+      2010,
+      2012
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": null,
+    "vittorie": 21,
+    "podi": null,
+    "pole": null,
+    "giriVeloci": null
+   },
+   "regina": null,
+   "bio": "Dopo quattro titoli in 250 e tanti duelli in MotoGP, vinse due Mondiali Superbike con l'Aprilia.",
+   "curiosita": [
+    "Il titolo 2012 lo vinse a 41 anni, il campione più anziano della Superbike."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": "Il Corsaro"
+  },
+  {
+   "id": "hof-sbk-checa",
+   "nome": "Carlos",
+   "cognome": "Checa",
+   "naz": "🇪🇸",
+   "nato": null,
+   "luogo": "Spagna",
+   "morto": null,
+   "anni": "2008–2013",
+   "moto": "Honda, Ducati",
+   "titoli": [
+    {
+     "classe": "Superbike",
+     "anni": [
+      2011
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": null,
+    "vittorie": 24,
+    "podi": null,
+    "pole": null,
+    "giriVeloci": null
+   },
+   "regina": null,
+   "bio": "Campione 2011 con la Ducati del team Althea, dopo una lunga carriera anche in 500 e MotoGP.",
+   "curiosita": [],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-sbk-sykes",
+   "nome": "Tom",
+   "cognome": "Sykes",
+   "naz": "🇬🇧",
+   "nato": null,
+   "luogo": "Regno Unito",
+   "morto": null,
+   "anni": "2008–2021",
+   "moto": "Yamaha, Kawasaki, BMW",
+   "titoli": [
+    {
+     "classe": "Superbike",
+     "anni": [
+      2013
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": null,
+    "vittorie": 34,
+    "podi": null,
+    "pole": null,
+    "giriVeloci": null
+   },
+   "regina": null,
+   "bio": "Campione 2013 con la Kawasaki, specialista del giro secco.",
+   "curiosita": [
+    "È il re delle Superpole: nessuno ne ha conquistate di più."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-sbk-guintoli",
+   "nome": "Sylvain",
+   "cognome": "Guintoli",
+   "naz": "🇫🇷",
+   "nato": null,
+   "luogo": "Francia",
+   "morto": null,
+   "anni": "2009–2019",
+   "moto": "Suzuki, Ducati, Aprilia, Honda, Yamaha",
+   "titoli": [
+    {
+     "classe": "Superbike",
+     "anni": [
+      2014
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": null,
+    "vittorie": 9,
+    "podi": null,
+    "pole": null,
+    "giriVeloci": null
+   },
+   "regina": null,
+   "bio": "Campione 2014 con l'Aprilia, vincendo il titolo all'ultima gara in Qatar.",
+   "curiosita": [],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-sbk-davies",
+   "nome": "Chaz",
+   "cognome": "Davies",
+   "naz": "🇬🇧",
+   "nato": null,
+   "luogo": "Galles",
+   "morto": null,
+   "anni": "2012–2021",
+   "moto": "Aprilia, BMW, Ducati",
+   "titoli": [],
+   "numeri": {
+    "gare": null,
+    "vittorie": 32,
+    "podi": null,
+    "pole": null,
+    "giriVeloci": null
+   },
+   "regina": null,
+   "bio": "Mai campione ma più volte secondo con la Ducati, il rivale più costante di Jonathan Rea.",
+   "curiosita": [],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-sbk-chili",
+   "nome": "Pierfrancesco",
+   "cognome": "Chili",
+   "naz": "🇮🇹",
+   "nato": null,
+   "luogo": "Bologna",
+   "morto": null,
+   "anni": "1995–2006",
+   "moto": "Ducati, Suzuki, Honda",
+   "titoli": [],
+   "numeri": {
+    "gare": null,
+    "vittorie": 17,
+    "podi": null,
+    "pole": null,
+    "giriVeloci": null
+   },
+   "regina": null,
+   "bio": "«Frankie» Chili, idolo del pubblico italiano, vincitore anche di un GP della 500 negli anni Ottanta.",
+   "curiosita": [],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": "Frankie"
+  },
+  {
+   "id": "hof-sbk-melandri",
+   "nome": "Marco",
+   "cognome": "Melandri",
+   "naz": "🇮🇹",
+   "nato": "1982-08-07",
+   "luogo": "Ravenna",
+   "morto": null,
+   "anni": "2011–2019",
+   "moto": "Yamaha, BMW, Aprilia, Ducati",
+   "titoli": [],
+   "numeri": {
+    "gare": null,
+    "vittorie": 22,
+    "podi": null,
+    "pole": null,
+    "giriVeloci": null
+   },
+   "regina": null,
+   "bio": "Dopo il titolo 250 e la MotoGP, 22 vittorie in Superbike con quattro marche diverse.",
+   "curiosita": [],
    "legend": null,
    "hallOfFame": false,
    "soprannome": null

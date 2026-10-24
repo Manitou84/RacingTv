@@ -25,8 +25,17 @@ const SERIE = [
     oaCerca: 'F1 TV8', oaTitolo: t => /\bf1\b|formula 1/i.test(t) && !/motogp/i.test(t) && /tv8/i.test(t),
     skyIndice: 'https://sport.sky.it/formula-1', skyLink: /(?:https:\/\/sport\.sky\.it)?(\/formula-1\/(20\d\d)\/(\d\d)\/(\d\d)\/[a-z0-9-]*orari[a-z0-9-]*)/g,
     classifica: 'https://www.autosprint.it/live/formula-1', fonteClassifica: 'Autosprint'
+  },
+  {
+    id: 'sbk', nome: 'Superbike',
+    // gli articoli OA degli orari Superbike non hanno sempre «TV8» nel titolo
+    oaCerca: 'Superbike orari', oaTitolo: t => /superbike|\bsbk\b/i.test(t) && !/motogp|\bf1\b|formula 1|supersport/i.test(t) && /orari|programma|tv8/i.test(t),
+    skyIndice: null,
+    classifica: null, classificaWiki: 'Superbike World Championship', fonteClassifica: 'Wikipedia'
   }
 ];
+const NOME_CERCA = { motogp: 'MotoGP', f1: 'F1', sbk: 'Superbike' };
+const ESCLUDI_CLASSI = /moto2|moto3|motoe|\bf2\b|\bf3\b|supersport|\bssp\b|wcr|women/i;
 
 const leggiJson = async (p, def) => { try { return JSON.parse(await readFile(p, 'utf8')); } catch { return def; } };
 const scriviJson = (p, v) => writeFile(p, JSON.stringify(v, null, 2) + '\n');
@@ -68,6 +77,7 @@ async function articoliOA(s) {
   return out;
 }
 async function articoliSky(s) {
+  if (!s.skyIndice) return [];
   const indice = await tenta(`Sky Sport ${s.nome} (indice)`, () => scarica(s.skyIndice), '');
   const link = [...new Set([...indice.matchAll(s.skyLink)]
     .filter(m => recente(`${m[2]}-${m[3]}-${m[4]}T12:00:00Z`, 10))
@@ -180,7 +190,9 @@ async function aggiornaClassifiche() {
   const vecchie = await leggiJson(DATI + 'classifica.json', {});
   const out = { aggiornato: ADESSO.toISOString() };
   for (const s of SERIE) {
-    const c = await tenta(`Classifiche ${s.nome}`, async () => L.parseClassifiche(await scarica(s.classifica)), null);
+    const c = s.classificaWiki
+      ? (w => w && { piloti: w.piloti.map(r => ({ ...r, slug: '', team: '' })), squadre: [], costruttori: w.costruttori })(STAGIONI[`${ADESSO.getFullYear()}|${s.classificaWiki}`])
+      : await tenta(`Classifiche ${s.nome}`, async () => L.parseClassifiche(await scarica(s.classifica)), null);
     if (c && c.piloti.length >= 10) {
       out[s.id] = { aggiornato: ADESSO.toISOString(), fonte: s.fonteClassifica, ...c };
       log(`classifiche ${s.nome}: ${c.piloti.length} piloti, ${c.squadre.length} squadre, ${c.costruttori.length} costruttori`);
@@ -198,6 +210,7 @@ async function aggiornaRisultati() {
   const out = { aggiornato: ADESSO.toISOString() };
   for (const s of SERIE) {
     const gare = new Map((vecchi[s.id]?.gare || []).map(g => [g.url, g]));
+    if (!s.classifica) { out[s.id] = vecchi[s.id] || { fonte: s.fonteClassifica, gare: [] }; continue; }
     const indice = await tenta(`Risultati ${s.nome}`, () => scarica(s.classifica), '');
     let letti = 0;
     for (const url of L.linkRisultati(indice, s.classifica)) {
@@ -223,12 +236,12 @@ async function aggiornaGriglie() {
   const griglie = Object.fromEntries(Object.entries(vecchie.griglie || {}).filter(([, g]) => recente(g.aggiornato, 14)));
   const piloti = (await leggiJson(DATI + 'piloti.json', { piloti: [] })).piloti;
   for (const s of SERIE) {
-    const cerca = `griglia di partenza ${s.id === 'f1' ? 'F1' : 'MotoGP'}`;
+    const cerca = `griglia di partenza ${NOME_CERCA[s.id]}`;
     const api = `https://www.oasport.it/wp-json/wp/v2/posts?search=${encodeURIComponent(cerca)}&per_page=10&_fields=title,link,content,date`;
     const articoli = await tenta(`Griglia ${s.nome}`, async () => JSON.parse(await scarica(api)), []);
     for (const p of articoli) {
       const titolo = L.decodifica(p.title?.rendered || '');
-      if (!/griglia di partenza/i.test(titolo) || /sprint|moto2|moto3|f2|f3/i.test(titolo) || L.serieDa(titolo) !== s.id || !recente(p.date, 5)) continue;
+      if (!/griglia di partenza/i.test(titolo) || /sprint|superpole race/i.test(titolo) || ESCLUDI_CLASSI.test(titolo) || L.serieDa(titolo) !== s.id || !recente(p.date, 5)) continue;
       const gp = L.nomeGp(titolo); if (!gp) continue;
       const righe = L.parseGriglia(p.content?.rendered || '', piloti.filter(x => x.serie === s.id));
       if (righe.length < 10) { log(`Griglia ${s.nome}: non letta da`, p.link); continue; }
@@ -271,12 +284,12 @@ async function aggiornaTest() {
       elenco.set(id, { id, nome: r.gp || 'Test', circuito: r.circuito, ...r.intervallo, url, fonte: s.fonteClassifica, classifiche: [] });
     }
     // classifiche dei tempi
-    const cerca = `test ${s.id === 'f1' ? 'F1' : 'MotoGP'} classifica`;
+    const cerca = `test ${NOME_CERCA[s.id]} classifica`;
     const api = `https://www.oasport.it/wp-json/wp/v2/posts?search=${encodeURIComponent(cerca)}&per_page=20&_fields=title,link,content,date`;
     const articoli = await tenta(`Test ${s.nome} (tempi)`, async () => JSON.parse(await scarica(api)), []);
     for (const p of articoli) {
       const titolo = L.decodifica(p.title?.rendered || '');
-      if (!/test|shakedown/i.test(titolo) || !/classific|tempi|risultat|crono/i.test(titolo) || /moto2|moto3|f2|f3/i.test(titolo) || L.serieDa(titolo) !== s.id) continue;
+      if (!/test|shakedown/i.test(titolo) || !/classific|tempi|risultat|crono/i.test(titolo) || ESCLUDI_CLASSI.test(titolo) || L.serieDa(titolo) !== s.id) continue;
       const data = (p.date || '').slice(0, 10);
       const t = sovrapposto(data, data);
       if (!t || t.classifiche.some(c => c.url === p.link)) continue;
@@ -297,14 +310,17 @@ async function aggiornaArrivi() {
   const arrivi = Object.fromEntries(Object.entries(vecchi.arrivi || {}).filter(([, w]) => Object.values(w).some(x => recente(x.aggiornato, 14))));
   const piloti = (await leggiJson(DATI + 'piloti.json', { piloti: [] })).piloti;
   for (const s of SERIE) {
-    const cerca = `ordine d'arrivo ${s.id === 'f1' ? 'F1' : 'MotoGP'}`;
+    const cerca = s.id === 'sbk' ? 'Superbike classifica gara' : `ordine d'arrivo ${NOME_CERCA[s.id]}`;
     const api = `https://www.oasport.it/wp-json/wp/v2/posts?search=${encodeURIComponent(cerca)}&per_page=15&_fields=title,link,content,date`;
     const articoli = await tenta(`Arrivi ${s.nome}`, async () => JSON.parse(await scarica(api)), []);
     for (const p of articoli.reverse()) {   // dal più vecchio: se ci sono correzioni vince l'ultimo articolo
       const titolo = L.decodifica(p.title?.rendered || '');
-      if (!/ordine d.arrivo/i.test(titolo) || /moto2|moto3|motoe|\bf2\b|\bf3\b|qualifich|prove|libere/i.test(titolo) || L.serieDa(titolo) !== s.id || !recente(p.date, 5)) continue;
+      const eArrivo = s.id === 'sbk' ? /ordine d.arrivo|classifica|risultat/i.test(titolo) && /gara[ -]?[12]|superpole race|race[ -]?[12]/i.test(titolo) : /ordine d.arrivo/i.test(titolo);
+      if (!eArrivo || ESCLUDI_CLASSI.test(titolo) || /qualifich|prove|libere|live|diretta/i.test(titolo) || L.serieDa(titolo) !== s.id || !recente(p.date, 7)) continue;
       const gp = L.nomeGp(titolo); if (!gp) continue;
-      const sessione = /sprint/i.test(titolo) ? 'Sprint' : 'Gara';
+      const sessione = s.id === 'sbk'
+        ? (/superpole race/i.test(titolo) ? 'Superpole Race' : /gara[ -]?2|race[ -]?2/i.test(titolo) ? 'Gara 2' : 'Gara 1')
+        : /sprint/i.test(titolo) ? 'Sprint' : 'Gara';
       const r = L.parseArrivo(p.content?.rendered || '', piloti.filter(x => x.serie === s.id));
       if (!r) { log(`Arrivo ${s.nome}: non letto da`, p.link); continue; }
       const id = L.idWeekend(gp, +(p.date || '').slice(0, 4) || ADESSO.getFullYear(), s.id);
@@ -313,6 +329,60 @@ async function aggiornaArrivi() {
     }
   }
   await scriviJson(DATI + 'arrivi.json', { aggiornato: ADESSO.toISOString(), arrivi });
+}
+
+/* ---------- Risultati in campionato degli ultimi anni (Wikipedia) ---------- */
+// Per ogni pilota cerco la posizione finale nelle classifiche delle ultime stagioni, anche nelle categorie minori.
+const CAMPIONATI = {
+  motogp: ['MotoGP World Championship', 'Moto2 World Championship', 'Moto3 World Championship', 'Superbike World Championship'],
+  f1: ['Formula One World Championship', 'FIA Formula 2 Championship', 'FIA Formula 3 Championship', 'Super Formula Championship'],
+  sbk: ['Superbike World Championship', 'Supersport World Championship', 'MotoGP World Championship', 'Moto2 World Championship', 'British Superbike Championship']
+};
+const NOME_CAMPIONATO = { 'MotoGP World Championship': 'MotoGP', 'Moto2 World Championship': 'Moto2', 'Moto3 World Championship': 'Moto3', 'Superbike World Championship': 'Superbike',
+  'Formula One World Championship': 'Formula 1', 'FIA Formula 2 Championship': 'Formula 2', 'FIA Formula 3 Championship': 'Formula 3', 'Super Formula Championship': 'Super Formula',
+  'Supersport World Championship': 'Supersport', 'British Superbike Championship': 'BSB' };
+let STAGIONI = {};
+const compN = t => L.pulisci(String(t).replace(/ı/g, 'i').replace(/İ/g, 'I')).replace(/[^a-z]/g, '');
+async function aggiornaStorico() {
+  const vecchio = await leggiJson(RADICE + 'config/cache-stagioni.json', { stagioni: {} });
+  STAGIONI = vecchio.stagioni || {};
+  const anno = ADESSO.getFullYear(), anni = [anno - 5, anno - 4, anno - 3, anno - 2, anno - 1, anno];
+  const UA = { 'User-Agent': 'RacingTv/1.0 (https://github.com/Manitou84/RacingTv)' };
+  const pagine = [...new Set(Object.values(CAMPIONATI).flat())];
+  let letture = 0;
+  for (const a of anni) for (const c of pagine) {
+    const k = `${a}|${c}`, v = STAGIONI[k];
+    // le stagioni passate non cambiano più; quella in corso la rileggo ogni 3 ore
+    if (v && (a < anno ? v.piloti?.length || v.mancante : recente(v.letta, 0.125))) continue;
+    if (letture >= 40) break;
+    letture++;
+    const titolo = `${a} ${c}`.replace(/ /g, '_');
+    const r = await tenta(`Wikipedia ${a} ${c}`, async () => {
+      const res = await fetch(`https://en.wikipedia.org/api/rest_v1/page/html/${encodeURIComponent(titolo)}`, { headers: UA, signal: AbortSignal.timeout(30000) });
+      if (res.status === 404) return { piloti: [], costruttori: [], mancante: true };
+      if (!res.ok) throw new Error(`${res.status}`);
+      return L.parseClassificaWiki(await res.text());
+    }, null);
+    if (r) STAGIONI[k] = { ...r, letta: ADESSO.toISOString() };
+  }
+  const piloti = (await leggiJson(DATI + 'piloti.json', { piloti: [] })).piloti;
+  const perPilota = {};
+  for (const p of piloti) {
+    const cog = compN(p.cognome), nome = compN(p.nome.split(' ')[0]);
+    const righe = [];
+    for (const a of anni) {
+      for (const c of CAMPIONATI[p.serie] || []) {
+        const r = (STAGIONI[`${a}|${c}`]?.piloti || []).find(x => { const n = compN(x.nome); return n.includes(cog) && (n.startsWith(nome) || n.includes(nome)); });
+        if (r) { righe.push({ anno: a, campionato: NOME_CAMPIONATO[c], pos: r.pos, punti: r.punti, inCorso: a === anno }); break; }
+      }
+    }
+    perPilota[p.id] = righe;
+  }
+  const diag = Object.fromEntries(Object.entries(STAGIONI).map(([k, v]) => [k, v.mancante ? 'pagina assente' : `${v.piloti?.length || 0} piloti, ${v.costruttori?.length || 0} costruttori`]));
+  // la cache delle stagioni resta tra i file dello script; all'app serve solo il riepilogo per pilota
+  await scriviJson(RADICE + 'config/cache-stagioni.json', { aggiornato: ADESSO.toISOString(), _fonte: 'Wikipedia (inglese)', stagioni: STAGIONI, diagnostica: diag });
+  await scriviJson(DATI + 'storico.json', { aggiornato: ADESSO.toISOString(), fonte: 'Wikipedia', piloti: perPilota });
+  log(`storico: ${letture} pagine lette, ${Object.values(perPilota).filter(r => r.length).length} piloti con risultati`);
 }
 
 /* ---------- Mappe dei tracciati ---------- */
@@ -375,6 +445,7 @@ async function aggiornaMappe() {
 if (FIXTURES) mappaFixtures = await leggiJson(RADICE + 'fixtures/mappa.json', {});
 await aggiornaPalinsesto();
 await aggiornaNotizie();
+if (!FIXTURES) await tenta('storico', aggiornaStorico);
 await aggiornaClassifiche();
 await aggiornaRisultati();
 await aggiornaGriglie();

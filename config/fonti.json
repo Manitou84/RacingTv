@@ -5,7 +5,9 @@
     "nome": "GPOne",
     "tipo": "rss",
     "url": "https://www.gpone.com/it/article-feed.xml",
-    "urlAlternativi": ["https://www.gpone.com/it/rss.xml"],
+    "urlAlternativi": [
+      "https://www.gpone.com/it/rss.xml"
+    ],
     "linkContiene": "/motogp/"
   },
   {
@@ -22,7 +24,9 @@
     "nome": "GPOne",
     "tipo": "rss",
     "url": "https://www.gpone.com/it/article-feed.xml",
-    "urlAlternativi": ["https://www.gpone.com/it/rss.xml"],
+    "urlAlternativi": [
+      "https://www.gpone.com/it/rss.xml"
+    ],
     "linkContiene": "/formula-1/"
   },
   {
@@ -31,7 +35,32 @@
     "nome": "Autosprint",
     "tipo": "pagina",
     "url": "https://www.autosprint.it/formula1",
-    "urlAlternativi": ["https://www.autosprint.it/f1", "https://www.autosprint.it/"],
+    "urlAlternativi": [
+      "https://www.autosprint.it/f1",
+      "https://www.autosprint.it/"
+    ],
     "linkRegex": "/news/(formula1|f1|eventi/gp-[a-z-]+)/(\\d{4}/\\d{2}/\\d{2}-\\d+|[a-z0-9-]+/\\d{4}/\\d{2}/\\d{2}-\\d+)/"
+  },
+  {
+    "id": "gpone-sbk",
+    "serie": "sbk",
+    "nome": "GPOne",
+    "tipo": "rss",
+    "url": "https://www.gpone.com/it/article-feed.xml",
+    "urlAlternativi": [
+      "https://www.gpone.com/it/rss.xml"
+    ],
+    "linkContiene": "/sbk/"
+  },
+  {
+    "id": "motosprint-sbk",
+    "serie": "sbk",
+    "nome": "Motosprint",
+    "tipo": "pagina",
+    "url": "https://www.motosprint.it/superbike",
+    "urlAlternativi": [
+      "https://www.motosprint.it/sbk"
+    ],
+    "linkRegex": "/news/(superbike|sbk|eventi/[a-z0-9-]+)/\\d{4}/\\d{2}/\\d{2}-\\d+/"
   }
 ]

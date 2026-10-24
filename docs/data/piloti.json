@@ -1,5 +1,5 @@
 {
- "_istruzioni": "'serie' è motogp o f1. 'cerca' è un'espressione regolare cercata nel titolo e nel sommario delle notizie (minuscolo, senza accenti). 'slugClassifica' collega il pilota alla classifica di Motosprint/Autosprint; se manca si usa il cognome. 'moto' contiene la moto o il motore. 'palmares.vittorie' sono le vittorie in carriera fino a 'vittorieFino' (fonte: Wikipedia); l'app ci somma da sola le vittorie successive lette dai risultati dei GP. Aggiungi qui i nuovi titoli a fine stagione.",
+ "_istruzioni": "'serie' è motogp, f1 o sbk (Superbike). 'cerca' è un'espressione regolare cercata nel titolo e nel sommario delle notizie (minuscolo, senza accenti). 'slugClassifica' collega il pilota alla classifica di Motosprint/Autosprint; se manca si usa il cognome. 'moto' contiene la moto o il motore. 'palmares.vittorie' sono le vittorie in carriera fino a 'vittorieFino' (fonte: Wikipedia); l'app ci somma da sola le vittorie successive lette dai risultati dei GP. Aggiungi qui i nuovi titoli a fine stagione.",
  "piloti": [
   {
    "id": "martin",
@@ -1038,6 +1038,533 @@
     "vittorieFino": "2026-06-28",
     "tipoVittorie": "GP di F1 vinti in carriera",
     "titoli": []
+   }
+  },
+  {
+   "id": "sbk-bulega",
+   "nome": "Nicolò",
+   "cognome": "Bulega",
+   "numero": 11,
+   "team": "Aruba.it Racing - Ducati",
+   "moto": "Ducati",
+   "colore": "#c8102e",
+   "bandiera": "🇮🇹",
+   "cerca": "\\bbulega\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 52,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": [
+     {
+      "campionato": "Supersport",
+      "anno": 2023
+     },
+     {
+      "campionato": "Superbike",
+      "anno": 2026
+     }
+    ]
+   }
+  },
+  {
+   "id": "sbk-lecuona",
+   "nome": "Iker",
+   "cognome": "Lecuona",
+   "numero": 7,
+   "team": "Aruba.it Racing - Ducati",
+   "moto": "Ducati",
+   "colore": "#c8102e",
+   "bandiera": "🇪🇸",
+   "cerca": "\\blecuona\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 1,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": []
+   }
+  },
+  {
+   "id": "sbk-montella",
+   "nome": "Yari",
+   "cognome": "Montella",
+   "numero": 5,
+   "team": "Barni Spark Racing Team",
+   "moto": "Ducati",
+   "colore": "#c8102e",
+   "bandiera": "🇮🇹",
+   "cerca": "\\bmontella\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": []
+   }
+  },
+  {
+   "id": "sbk-bautista",
+   "nome": "Álvaro",
+   "cognome": "Bautista",
+   "numero": 19,
+   "team": "Barni Spark Racing Team",
+   "moto": "Ducati",
+   "colore": "#c8102e",
+   "bandiera": "🇪🇸",
+   "cerca": "\\bbautista\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 63,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": [
+     {
+      "campionato": "125cc",
+      "anno": 2006
+     },
+     {
+      "campionato": "Superbike",
+      "anno": 2022
+     },
+     {
+      "campionato": "Superbike",
+      "anno": 2023
+     }
+    ]
+   }
+  },
+  {
+   "id": "sbk-sam-lowes",
+   "nome": "Sam",
+   "cognome": "Lowes",
+   "numero": 14,
+   "team": "BEL ELF Marc VDS Racing Team",
+   "moto": "Ducati",
+   "colore": "#c8102e",
+   "bandiera": "🇬🇧",
+   "cerca": "\\bsam lowes\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": [
+     {
+      "campionato": "Supersport",
+      "anno": 2013
+     }
+    ]
+   }
+  },
+  {
+   "id": "sbk-alex-lowes",
+   "nome": "Alex",
+   "cognome": "Lowes",
+   "numero": 22,
+   "team": "Bimota by Kawasaki Racing Team",
+   "moto": "Bimota",
+   "colore": "#2b2b2b",
+   "bandiera": "🇬🇧",
+   "cerca": "\\balex lowes\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 4,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": [
+     {
+      "campionato": "BSB",
+      "anno": 2013
+     }
+    ]
+   }
+  },
+  {
+   "id": "sbk-bassani",
+   "nome": "Axel",
+   "cognome": "Bassani",
+   "numero": 47,
+   "team": "Bimota by Kawasaki Racing Team",
+   "moto": "Bimota",
+   "colore": "#2b2b2b",
+   "bandiera": "🇮🇹",
+   "cerca": "\\bbassani\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": []
+   }
+  },
+  {
+   "id": "sbk-baldassarri",
+   "nome": "Lorenzo",
+   "cognome": "Baldassarri",
+   "numero": 34,
+   "team": "Team Goeleven",
+   "moto": "Ducati",
+   "colore": "#c8102e",
+   "bandiera": "🇮🇹",
+   "cerca": "\\bbaldassarri\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": []
+   }
+  },
+  {
+   "id": "sbk-surra",
+   "nome": "Alberto",
+   "cognome": "Surra",
+   "numero": 67,
+   "team": "Motocorsa Racing",
+   "moto": "Ducati",
+   "colore": "#c8102e",
+   "bandiera": "🇮🇹",
+   "cerca": "\\bsurra\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": []
+   }
+  },
+  {
+   "id": "sbk-gerloff",
+   "nome": "Garrett",
+   "cognome": "Gerloff",
+   "numero": 31,
+   "team": "Kawasaki WorldSBK Team",
+   "moto": "Kawasaki",
+   "colore": "#69be28",
+   "bandiera": "🇺🇸",
+   "cerca": "\\bgerloff\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": []
+   }
+  },
+  {
+   "id": "sbk-rea",
+   "nome": "Jonathan",
+   "cognome": "Rea",
+   "numero": 65,
+   "team": "Honda HRC",
+   "moto": "Honda",
+   "colore": "#f2f2f2",
+   "bandiera": "🇬🇧",
+   "cerca": "\\brea\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 119,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": [
+     {
+      "campionato": "Superbike",
+      "anno": 2015
+     },
+     {
+      "campionato": "Superbike",
+      "anno": 2016
+     },
+     {
+      "campionato": "Superbike",
+      "anno": 2017
+     },
+     {
+      "campionato": "Superbike",
+      "anno": 2018
+     },
+     {
+      "campionato": "Superbike",
+      "anno": 2019
+     },
+     {
+      "campionato": "Superbike",
+      "anno": 2020
+     }
+    ]
+   }
+  },
+  {
+   "id": "sbk-dixon",
+   "nome": "Jake",
+   "cognome": "Dixon",
+   "numero": 96,
+   "team": "Honda HRC",
+   "moto": "Honda",
+   "colore": "#f2f2f2",
+   "bandiera": "🇬🇧",
+   "cerca": "\\bdixon\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": []
+   }
+  },
+  {
+   "id": "sbk-chantra",
+   "nome": "Somkiat",
+   "cognome": "Chantra",
+   "numero": 35,
+   "team": "Honda HRC",
+   "moto": "Honda",
+   "colore": "#f2f2f2",
+   "bandiera": "🇹🇭",
+   "cerca": "\\bchantra\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": []
+   }
+  },
+  {
+   "id": "sbk-petrucci",
+   "nome": "Danilo",
+   "cognome": "Petrucci",
+   "numero": 9,
+   "team": "ROKiT BMW Motorrad WorldSBK Team",
+   "moto": "BMW",
+   "colore": "#1c69d4",
+   "bandiera": "🇮🇹",
+   "cerca": "\\bpetrucci\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 3,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": []
+   }
+  },
+  {
+   "id": "sbk-oliveira",
+   "nome": "Miguel",
+   "cognome": "Oliveira",
+   "numero": 88,
+   "team": "ROKiT BMW Motorrad WorldSBK Team",
+   "moto": "BMW",
+   "colore": "#1c69d4",
+   "bandiera": "🇵🇹",
+   "cerca": "\\boliveira\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": []
+   }
+  },
+  {
+   "id": "sbk-van-der-mark",
+   "nome": "Michael",
+   "cognome": "van der Mark",
+   "numero": 60,
+   "team": "ROKiT BMW Motorrad WorldSBK Team",
+   "moto": "BMW",
+   "colore": "#1c69d4",
+   "bandiera": "🇳🇱",
+   "cerca": "\\bvan der mark\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 6,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": [
+     {
+      "campionato": "Supersport",
+      "anno": 2014
+     }
+    ]
+   }
+  },
+  {
+   "id": "sbk-soomer",
+   "nome": "Hannes",
+   "cognome": "Soomer",
+   "numero": 38,
+   "team": "ROKiT BMW Motorrad WorldSBK Team",
+   "moto": "BMW",
+   "colore": "#1c69d4",
+   "bandiera": "🇪🇪",
+   "cerca": "\\bsoomer\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": []
+   }
+  },
+  {
+   "id": "sbk-locatelli",
+   "nome": "Andrea",
+   "cognome": "Locatelli",
+   "numero": 55,
+   "team": "PATA Maxus Yamaha",
+   "moto": "Yamaha",
+   "colore": "#1a3d8f",
+   "bandiera": "🇮🇹",
+   "cerca": "\\blocatelli\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 1,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": [
+     {
+      "campionato": "Supersport",
+      "anno": 2020
+     }
+    ]
+   }
+  },
+  {
+   "id": "sbk-vierge",
+   "nome": "Xavi",
+   "cognome": "Vierge",
+   "numero": 97,
+   "team": "PATA Maxus Yamaha",
+   "moto": "Yamaha",
+   "colore": "#1a3d8f",
+   "bandiera": "🇪🇸",
+   "cerca": "\\bvierge\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": []
+   }
+  },
+  {
+   "id": "sbk-gardner",
+   "nome": "Remy",
+   "cognome": "Gardner",
+   "numero": 87,
+   "team": "GYTR GRT Yamaha WorldSBK Team",
+   "moto": "Yamaha",
+   "colore": "#1a3d8f",
+   "bandiera": "🇦🇺",
+   "cerca": "\\bgardner\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": [
+     {
+      "campionato": "Moto2",
+      "anno": 2021
+     }
+    ]
+   }
+  },
+  {
+   "id": "sbk-manzi",
+   "nome": "Stefano",
+   "cognome": "Manzi",
+   "numero": 62,
+   "team": "GYTR GRT Yamaha WorldSBK Team",
+   "moto": "Yamaha",
+   "colore": "#1a3d8f",
+   "bandiera": "🇮🇹",
+   "cerca": "\\bmanzi\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": []
+   }
+  },
+  {
+   "id": "sbk-sofuoglu",
+   "nome": "Bahattin",
+   "cognome": "Sofuoğlu",
+   "numero": 54,
+   "team": "Motoxracing WorldSBK Team",
+   "moto": "Yamaha",
+   "colore": "#1a3d8f",
+   "bandiera": "🇹🇷",
+   "cerca": "\\bsofuoglu\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": []
+   }
+  },
+  {
+   "id": "sbk-baz",
+   "nome": "Loris",
+   "cognome": "Baz",
+   "numero": 76,
+   "team": "MGM Optical Express Racing",
+   "moto": "Ducati",
+   "colore": "#c8102e",
+   "bandiera": "🇫🇷",
+   "cerca": "\\bbaz\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 2,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": []
+   }
+  },
+  {
+   "id": "sbk-mackenzie",
+   "nome": "Tarran",
+   "cognome": "Mackenzie",
+   "numero": 95,
+   "team": "MGM Optical Express Racing",
+   "moto": "Ducati",
+   "colore": "#c8102e",
+   "bandiera": "🇬🇧",
+   "cerca": "\\bmackenzie\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": []
+   }
+  },
+  {
+   "id": "sbk-bridewell",
+   "nome": "Tommy",
+   "cognome": "Bridewell",
+   "numero": 46,
+   "team": "Superbike Advocates",
+   "moto": "Ducati",
+   "colore": "#c8102e",
+   "bandiera": "🇬🇧",
+   "cerca": "\\bbridewell\\b",
+   "serie": "sbk",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-10-18",
+    "tipoVittorie": "Gare vinte nel Mondiale Superbike",
+    "titoli": [
+     {
+      "campionato": "BSB",
+      "anno": 2023
+     }
+    ]
    }
   }
  ]
