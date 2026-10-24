@@ -1,0 +1,32 @@
+name: Aggiorna dati RacingTv
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"   # ogni mezz'ora (GitHub può ritardare di qualche minuto)
+  workflow_dispatch: {}       # pulsante "Run workflow" per aggiornare a mano
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aggiorna
+  cancel-in-progress: false
+
+jobs:
+  aggiorna:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Prova dei lettori
+        run: node scripts/test.mjs
+      - name: Scarica notizie, orari TV8 e classifiche (MotoGP e F1)
+        run: node scripts/aggiorna.mjs
+      - name: Salva i dati se sono cambiati
+        run: |
+          git config user.name "aggiornamento-automatico"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data docs/tv8.ics
+          git diff --cached --quiet || (git commit -m "Aggiorna dati $(date -u +%Y-%m-%dT%H:%MZ)" && git push)

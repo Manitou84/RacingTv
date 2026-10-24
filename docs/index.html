@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https: data:; connect-src 'self' https://api.open-meteo.com https://it.wikipedia.org https://*.supabase.co; manifest-src 'self'; worker-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'">
+<meta name="referrer" content="no-referrer">
+<title>RacingTv</title>
+<meta name="description" content="MotoGP e Formula 1 in chiaro su TV8: orari, notizie, piloti preferiti e classifiche, senza spoiler.">
+<meta name="theme-color" content="#1d1f23">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="RacingTv">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" type="image/png" href="icons/icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,400..700&family=Big+Shoulders+Display:wght@600;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="cordolo" aria-hidden="true"></div>
+<header class="testata">
+  <div class="barra-serie">
+    <div class="serie-scelta" role="group" aria-label="Campionato">
+      <button type="button" data-serie-scelta="motogp" aria-pressed="true">MotoGP</button>
+      <button type="button" data-serie-scelta="f1" aria-pressed="false">Formula 1</button>
+    </div>
+    <button class="icona-btn" id="apriImpostazioni" aria-label="Impostazioni">
+      <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M19.4 13a7.7 7.7 0 0 0 0-2l2.1-1.6-2-3.4-2.5 1a7.4 7.4 0 0 0-1.7-1L15 3h-4l-.4 2.9a7.4 7.4 0 0 0-1.7 1l-2.5-1-2 3.4L6.6 11a7.7 7.7 0 0 0 0 2l-2.1 1.6 2 3.4 2.5-1c.5.4 1.1.7 1.7 1L11 21h4l.4-2.9c.6-.3 1.2-.6 1.7-1l2.5 1 2-3.4zM13 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z" transform="translate(-1 0)"/></svg>
+    </button>
+  </div>
+  <h1 id="titoloGp">RacingTv</h1>
+  <p id="dateGp" class="sotto"></p>
+</header>
+
+<main>
+  <section id="vista-tv8" class="vista" aria-label="Orari TV8"></section>
+  <section id="vista-notizie" class="vista" hidden aria-label="Notizie"></section>
+  <section id="vista-piloti" class="vista" hidden aria-label="Piloti"></section>
+  <section id="vista-classifiche" class="vista" hidden aria-label="Classifiche"></section>
+  <section id="vista-test" class="vista" hidden aria-label="Test"></section>
+</main>
+
+<nav class="schede" aria-label="Sezioni">
+  <button data-vista="tv8" aria-current="page">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h18v11H3zM8 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+    <span>TV8</span>
+  </button>
+  <button data-vista="notizie">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h13v14H6a2 2 0 0 1-2-2zM17 9h3v8a2 2 0 0 1-2 2M7 9h7M7 13h7M7 16h4" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+    <span>Notizie</span><b class="pallino" id="badgeNotizie" hidden></b>
+  </button>
+  <button data-vista="piloti">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 15a9 9 0 0 1 17-4l1 4v3H6a3 3 0 0 1-3-3zm9-3h9M14 7l-2 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+    <span>Piloti</span>
+  </button>
+  <button data-vista="classifiche">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V13h5v7M9 20V8h6v12M15 20v-9h5v9M3 20h18" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+    <span>Classifiche</span>
+  </button>
+  <button data-vista="test">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 2h6M12 5V2M12 22a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0-8 3-3M19 6l1.5-1.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span>Test</span>
+  </button>
+</nav>
+
+<dialog id="impostazioni" class="foglio">
+  <form method="dialog">
+    <div class="foglio-testa"><h2>Impostazioni</h2><button class="testo-btn" value="chiudi">Fatto</button></div>
+  </form>
+  <label class="riga-opzione">
+    <span><strong>Anti-spoiler</strong><small>Copre notizie e punti dall'inizio di ogni gara fino alla fine della differita su TV8.</small></span>
+    <input type="checkbox" id="optSpoiler" class="interruttore">
+  </label>
+  <div class="riga-opzione colonna">
+    <span><strong>Avvisi sul calendario</strong><small>Aggiungi gli orari TV8 al Calendario dell'iPhone: ricevi un avviso 15 minuti prima, senza risultati.</small></span>
+    <a class="bottone" id="linkCalendario" href="tv8.ics">Aggiungi al Calendario</a>
+  </div>
+  <div class="riga-opzione colonna">
+    <span><strong>Risultati di questo weekend</strong><small>Se hai già visto tutte le gare, togli le coperture.</small></span>
+    <button class="bottone secondario" id="svelaTutto" type="button">Ho visto tutto, mostra i risultati</button>
+  </div>
+  <div class="riga-opzione" id="rigaAccount" hidden>
+    <span><strong>Account</strong><small>Sei entrato come <b id="nomeAccount"></b>. Preferiti e impostazioni sono salvati nel tuo profilo.</small></span>
+    <button class="bottone secondario piccolo" id="esci" type="button">Esci</button>
+  </div>
+  <div class="riga-opzione colonna" id="rigaAdmin" hidden>
+    <span><strong>Amministratore</strong><small>Crea gli utenti, cambia le password, elimina gli account.</small></span>
+    <button class="bottone" id="apriAdmin" type="button">Gestione utenti</button>
+  </div>
+  <p class="nota" id="infoAggiornamento"></p>
+</dialog>
+
+<dialog id="gestioneUtenti" class="foglio">
+  <form method="dialog"><div class="foglio-testa"><h2>Gestione utenti</h2><button class="testo-btn" value="chiudi">Fatto</button></div></form>
+  <p class="nota piccola" id="utentiMessaggio" role="status"></p>
+  <div id="utentiElenco"></div>
+  <form id="nuovoUtente" class="nuovo-utente" autocomplete="off">
+    <h3 class="pal-titolo">Nuovo utente</h3>
+    <label>Nome utente<input name="nome" required autocapitalize="none" autocomplete="off" pattern="[A-Za-z0-9._-]+" title="Lettere, numeri, punto, trattino"></label>
+    <label>Password<input name="password" type="text" required minlength="8" autocomplete="new-password"></label>
+    <button class="bottone" type="submit">Crea utente</button>
+  </form>
+</dialog>
+
+<div id="accesso" class="accesso" hidden>
+  <form id="accessoForm" class="accesso-box">
+    <img src="icons/icon-192.png" alt="" width="84" height="84">
+    <h1>RacingTv</h1>
+    <p class="sotto">Entra con il tuo nome utente: ti chiedo la password una volta sola.</p>
+    <label>Nome utente<input name="nome" required autocapitalize="none" autocorrect="off" autocomplete="username"></label>
+    <label>Password<input name="password" type="password" required autocomplete="current-password"></label>
+    <p class="accesso-errore" id="accessoErrore" role="alert"></p>
+    <button class="bottone" type="submit">Entra</button>
+    <p class="nota piccola">Non hai un account? Chiedilo all'amministratore.</p>
+  </form>
+</div>
+
+<script src="config.js" defer></script>
+<script src="account.js" defer></script>
+<script src="app.js" defer></script>
+</body>
+</html>

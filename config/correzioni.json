@@ -1,0 +1,5 @@
+{
+  "_istruzioni": "Usa 'aggiungi' per inserire o correggere una trasmissione, 'rimuovi' per toglierne una (formato: idWeekend|Classe|Sessione, es. f1-gp-usa-2026|F1|Gara). Esempio di aggiunta: {\"weekend\": \"motogp-gp-australia-2026\", \"classe\": \"MotoGP\", \"sessione\": \"Sprint\", \"inizio\": \"2026-10-24T04:00:00Z\", \"tv8\": {\"tipo\": \"diretta\", \"inizio\": \"2026-10-24T04:00:00Z\"}}. Gli orari sono in UTC (ora italiana meno 1 d'inverno, meno 2 d'estate).",
+  "aggiungi": [],
+  "rimuovi": []
+}

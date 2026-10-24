@@ -1,0 +1,1044 @@
+{
+ "_istruzioni": "'serie' è motogp o f1. 'cerca' è un'espressione regolare cercata nel titolo e nel sommario delle notizie (minuscolo, senza accenti). 'slugClassifica' collega il pilota alla classifica di Motosprint/Autosprint; se manca si usa il cognome. 'moto' contiene la moto o il motore. 'palmares.vittorie' sono le vittorie in carriera fino a 'vittorieFino' (fonte: Wikipedia); l'app ci somma da sola le vittorie successive lette dai risultati dei GP. Aggiungi qui i nuovi titoli a fine stagione.",
+ "piloti": [
+  {
+   "id": "martin",
+   "nome": "Jorge",
+   "cognome": "Martin",
+   "numero": 89,
+   "team": "Aprilia Racing",
+   "moto": "Aprilia",
+   "colore": "#2b2b2b",
+   "bandiera": "🇪🇸",
+   "slugClassifica": "jorge-martin",
+   "cerca": "\\bmartin\\b",
+   "serie": "motogp",
+   "palmares": {
+    "vittorie": 19,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP vinti in carriera, tutte le classi",
+    "titoli": [
+     {
+      "campionato": "Moto3",
+      "anno": 2018
+     },
+     {
+      "campionato": "MotoGP",
+      "anno": 2024
+     }
+    ]
+   }
+  },
+  {
+   "id": "marc-marquez",
+   "nome": "Marc",
+   "cognome": "Marquez",
+   "numero": 93,
+   "team": "Ducati Lenovo",
+   "moto": "Ducati",
+   "colore": "#d8202a",
+   "bandiera": "🇪🇸",
+   "slugClassifica": "marc-marquez",
+   "cerca": "\\bmarc\\b|(?<!alex )(?<!alex\\s)\\bmarquez\\b(?! alex)",
+   "serie": "motogp",
+   "palmares": {
+    "vittorie": 101,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP vinti in carriera, tutte le classi",
+    "titoli": [
+     {
+      "campionato": "125cc",
+      "anno": 2010
+     },
+     {
+      "campionato": "Moto2",
+      "anno": 2012
+     },
+     {
+      "campionato": "MotoGP",
+      "anno": 2013
+     },
+     {
+      "campionato": "MotoGP",
+      "anno": 2014
+     },
+     {
+      "campionato": "MotoGP",
+      "anno": 2016
+     },
+     {
+      "campionato": "MotoGP",
+      "anno": 2017
+     },
+     {
+      "campionato": "MotoGP",
+      "anno": 2018
+     },
+     {
+      "campionato": "MotoGP",
+      "anno": 2019
+     },
+     {
+      "campionato": "MotoGP",
+      "anno": 2025
+     }
+    ]
+   }
+  },
+  {
+   "id": "bezzecchi",
+   "nome": "Marco",
+   "cognome": "Bezzecchi",
+   "numero": 72,
+   "team": "Aprilia Racing",
+   "moto": "Aprilia",
+   "colore": "#2b2b2b",
+   "bandiera": "🇮🇹",
+   "slugClassifica": "marco-bezzecchi",
+   "cerca": "\\bbezzecchi\\b|\\bbez\\b",
+   "serie": "motogp",
+   "palmares": {
+    "vittorie": 16,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP vinti in carriera, tutte le classi",
+    "titoli": []
+   }
+  },
+  {
+   "id": "ogura",
+   "nome": "Ai",
+   "cognome": "Ogura",
+   "numero": 79,
+   "team": "Trackhouse",
+   "moto": "Aprilia",
+   "colore": "#2f6fd6",
+   "bandiera": "🇯🇵",
+   "slugClassifica": "ai-ogura",
+   "cerca": "\\bogura\\b",
+   "serie": "motogp",
+   "palmares": {
+    "vittorie": 7,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP vinti in carriera, tutte le classi",
+    "titoli": [
+     {
+      "campionato": "Moto2",
+      "anno": 2024
+     }
+    ]
+   }
+  },
+  {
+   "id": "acosta",
+   "nome": "Pedro",
+   "cognome": "Acosta",
+   "numero": 37,
+   "team": "KTM Factory",
+   "moto": "KTM",
+   "colore": "#ff6a13",
+   "bandiera": "🇪🇸",
+   "slugClassifica": "pedro-acosta",
+   "cerca": "\\bacosta\\b",
+   "serie": "motogp",
+   "palmares": {
+    "vittorie": 16,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP vinti in carriera, tutte le classi",
+    "titoli": [
+     {
+      "campionato": "Moto3",
+      "anno": 2021
+     },
+     {
+      "campionato": "Moto2",
+      "anno": 2023
+     }
+    ]
+   }
+  },
+  {
+   "id": "di-giannantonio",
+   "nome": "Fabio",
+   "cognome": "Di Giannantonio",
+   "numero": 49,
+   "team": "VR46",
+   "moto": "Ducati",
+   "colore": "#f5c400",
+   "bandiera": "🇮🇹",
+   "slugClassifica": "fabio-di-giannantonio",
+   "cerca": "di giannantonio|\\bdiggia\\b",
+   "serie": "motogp",
+   "palmares": {
+    "vittorie": 5,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP vinti in carriera, tutte le classi",
+    "titoli": []
+   }
+  },
+  {
+   "id": "raul-fernandez",
+   "nome": "Raúl",
+   "cognome": "Fernández",
+   "numero": 25,
+   "team": "Trackhouse",
+   "moto": "Aprilia",
+   "colore": "#2f6fd6",
+   "bandiera": "🇪🇸",
+   "slugClassifica": "raul-fernandez",
+   "cerca": "raul fernandez|(?<!augusto )\\bfernandez\\b",
+   "serie": "motogp",
+   "palmares": {
+    "vittorie": 11,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP vinti in carriera, tutte le classi",
+    "titoli": []
+   }
+  },
+  {
+   "id": "alex-marquez",
+   "nome": "Álex",
+   "cognome": "Márquez",
+   "numero": 73,
+   "team": "Gresini",
+   "moto": "Ducati",
+   "colore": "#79c4ea",
+   "bandiera": "🇪🇸",
+   "slugClassifica": "alex-marquez",
+   "cerca": "alex marquez|\\balex\\b(?! rins)",
+   "serie": "motogp",
+   "palmares": {
+    "vittorie": 16,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP vinti in carriera, tutte le classi",
+    "titoli": [
+     {
+      "campionato": "Moto3",
+      "anno": 2014
+     },
+     {
+      "campionato": "Moto2",
+      "anno": 2019
+     }
+    ]
+   }
+  },
+  {
+   "id": "bagnaia",
+   "nome": "Francesco",
+   "cognome": "Bagnaia",
+   "numero": 63,
+   "team": "Ducati Lenovo",
+   "moto": "Ducati",
+   "colore": "#d8202a",
+   "bandiera": "🇮🇹",
+   "slugClassifica": "francesco-bagnaia",
+   "cerca": "\\bbagnaia\\b|\\bpecco\\b",
+   "serie": "motogp",
+   "palmares": {
+    "vittorie": 41,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP vinti in carriera, tutte le classi",
+    "titoli": [
+     {
+      "campionato": "Moto2",
+      "anno": 2018
+     },
+     {
+      "campionato": "MotoGP",
+      "anno": 2022
+     },
+     {
+      "campionato": "MotoGP",
+      "anno": 2023
+     }
+    ]
+   }
+  },
+  {
+   "id": "aldeguer",
+   "nome": "Fermín",
+   "cognome": "Aldeguer",
+   "numero": 54,
+   "team": "Gresini",
+   "moto": "Ducati",
+   "colore": "#79c4ea",
+   "bandiera": "🇪🇸",
+   "slugClassifica": "fermin-aldeguer",
+   "cerca": "\\baldeguer\\b",
+   "serie": "motogp",
+   "palmares": {
+    "vittorie": 9,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP vinti in carriera, tutte le classi",
+    "titoli": []
+   }
+  },
+  {
+   "id": "bastianini",
+   "nome": "Enea",
+   "cognome": "Bastianini",
+   "numero": 23,
+   "team": "KTM Tech3",
+   "moto": "KTM",
+   "colore": "#1f2a7a",
+   "bandiera": "🇮🇹",
+   "slugClassifica": "enea-bastianini",
+   "cerca": "\\bbastianini\\b",
+   "serie": "motogp",
+   "palmares": {
+    "vittorie": 13,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP vinti in carriera, tutte le classi",
+    "titoli": [
+     {
+      "campionato": "Moto2",
+      "anno": 2020
+     }
+    ]
+   }
+  },
+  {
+   "id": "marini",
+   "nome": "Luca",
+   "cognome": "Marini",
+   "numero": 10,
+   "team": "Honda HRC",
+   "moto": "Honda",
+   "colore": "#c8102e",
+   "bandiera": "🇮🇹",
+   "slugClassifica": "luca-marini",
+   "cerca": "\\bmarini\\b",
+   "serie": "motogp",
+   "palmares": {
+    "vittorie": 6,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP vinti in carriera, tutte le classi",
+    "titoli": []
+   }
+  },
+  {
+   "id": "binder",
+   "nome": "Brad",
+   "cognome": "Binder",
+   "numero": 33,
+   "team": "KTM Factory",
+   "moto": "KTM",
+   "colore": "#ff6a13",
+   "bandiera": "🇿🇦",
+   "slugClassifica": "brad-binder",
+   "cerca": "\\bbinder\\b",
+   "serie": "motogp",
+   "palmares": {
+    "vittorie": 17,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP vinti in carriera, tutte le classi",
+    "titoli": [
+     {
+      "campionato": "Moto3",
+      "anno": 2016
+     }
+    ]
+   }
+  },
+  {
+   "id": "moreira",
+   "nome": "Diogo",
+   "cognome": "Moreira",
+   "numero": null,
+   "team": "LCR Honda",
+   "moto": "Honda",
+   "colore": "#e9e9e9",
+   "bandiera": "🇧🇷",
+   "slugClassifica": "diogo-moreira",
+   "cerca": "\\bmoreira\\b",
+   "serie": "motogp",
+   "palmares": {
+    "vittorie": 5,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP vinti in carriera, tutte le classi",
+    "titoli": [
+     {
+      "campionato": "Moto2",
+      "anno": 2025
+     }
+    ]
+   }
+  },
+  {
+   "id": "quartararo",
+   "nome": "Fabio",
+   "cognome": "Quartararo",
+   "numero": 20,
+   "team": "Yamaha Factory",
+   "moto": "Yamaha",
+   "colore": "#1446c8",
+   "bandiera": "🇫🇷",
+   "slugClassifica": "fabio-quartararo",
+   "cerca": "\\bquartararo\\b",
+   "serie": "motogp",
+   "palmares": {
+    "vittorie": 12,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP vinti in carriera, tutte le classi",
+    "titoli": [
+     {
+      "campionato": "MotoGP",
+      "anno": 2021
+     }
+    ]
+   }
+  },
+  {
+   "id": "morbidelli",
+   "nome": "Franco",
+   "cognome": "Morbidelli",
+   "numero": 21,
+   "team": "VR46",
+   "moto": "Ducati",
+   "colore": "#f5c400",
+   "bandiera": "🇮🇹",
+   "slugClassifica": "franco-morbidelli",
+   "cerca": "\\bmorbidelli\\b|\\bfranky\\b",
+   "serie": "motogp",
+   "palmares": {
+    "vittorie": 11,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP vinti in carriera, tutte le classi",
+    "titoli": [
+     {
+      "campionato": "Moto2",
+      "anno": 2017
+     }
+    ]
+   }
+  },
+  {
+   "id": "zarco",
+   "nome": "Johann",
+   "cognome": "Zarco",
+   "numero": 5,
+   "team": "LCR Honda",
+   "moto": "Honda",
+   "colore": "#e9e9e9",
+   "bandiera": "🇫🇷",
+   "slugClassifica": "johann-zarco",
+   "cerca": "\\bzarco\\b",
+   "serie": "motogp",
+   "palmares": {
+    "vittorie": 18,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP vinti in carriera, tutte le classi",
+    "titoli": [
+     {
+      "campionato": "Moto2",
+      "anno": 2015
+     },
+     {
+      "campionato": "Moto2",
+      "anno": 2016
+     }
+    ]
+   }
+  },
+  {
+   "id": "mir",
+   "nome": "Joan",
+   "cognome": "Mir",
+   "numero": 36,
+   "team": "Honda HRC",
+   "moto": "Honda",
+   "colore": "#c8102e",
+   "bandiera": "🇪🇸",
+   "slugClassifica": "joan-mir",
+   "cerca": "\\bjoan mir\\b|\\bmir\\b",
+   "serie": "motogp",
+   "palmares": {
+    "vittorie": 12,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP vinti in carriera, tutte le classi",
+    "titoli": [
+     {
+      "campionato": "Moto3",
+      "anno": 2017
+     },
+     {
+      "campionato": "MotoGP",
+      "anno": 2020
+     }
+    ]
+   }
+  },
+  {
+   "id": "miller",
+   "nome": "Jack",
+   "cognome": "Miller",
+   "numero": 43,
+   "team": "Pramac Yamaha",
+   "moto": "Yamaha",
+   "colore": "#7b3fb0",
+   "bandiera": "🇦🇺",
+   "slugClassifica": "jack-miller",
+   "cerca": "\\bmiller\\b",
+   "serie": "motogp",
+   "palmares": {
+    "vittorie": 10,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP vinti in carriera, tutte le classi",
+    "titoli": []
+   }
+  },
+  {
+   "id": "rins",
+   "nome": "Álex",
+   "cognome": "Rins",
+   "numero": 42,
+   "team": "Yamaha Factory",
+   "moto": "Yamaha",
+   "colore": "#1446c8",
+   "bandiera": "🇪🇸",
+   "slugClassifica": "alex-rins",
+   "cerca": "\\brins\\b",
+   "serie": "motogp",
+   "palmares": {
+    "vittorie": 18,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP vinti in carriera, tutte le classi",
+    "titoli": []
+   }
+  },
+  {
+   "id": "razgatlioglu",
+   "nome": "Toprak",
+   "cognome": "Razgatlıoğlu",
+   "numero": 7,
+   "team": "Pramac Yamaha",
+   "moto": "Yamaha",
+   "colore": "#7b3fb0",
+   "bandiera": "🇹🇷",
+   "slugClassifica": "toprak-razgatlioglu",
+   "cerca": "\\btoprak\\b|razgatlioglu",
+   "serie": "motogp",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP vinti in carriera, tutte le classi",
+    "titoli": [
+     {
+      "campionato": "Superbike",
+      "anno": 2021
+     },
+     {
+      "campionato": "Superbike",
+      "anno": 2024
+     },
+     {
+      "campionato": "Superbike",
+      "anno": 2025
+     }
+    ]
+   }
+  },
+  {
+   "id": "vinales",
+   "nome": "Maverick",
+   "cognome": "Viñales",
+   "numero": 12,
+   "team": "KTM Tech3",
+   "moto": "KTM",
+   "colore": "#1f2a7a",
+   "bandiera": "🇪🇸",
+   "slugClassifica": "maverick-vinales",
+   "cerca": "\\bvinales\\b|\\bmaverick\\b",
+   "serie": "motogp",
+   "palmares": {
+    "vittorie": 26,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP vinti in carriera, tutte le classi",
+    "titoli": [
+     {
+      "campionato": "Moto3",
+      "anno": 2013
+     }
+    ]
+   }
+  },
+  {
+   "id": "f1-norris",
+   "serie": "f1",
+   "nome": "Lando",
+   "cognome": "Norris",
+   "numero": 1,
+   "team": "McLaren",
+   "moto": "Mercedes",
+   "colore": "#ff8000",
+   "bandiera": "🇬🇧",
+   "slugClassifica": "lando-norris",
+   "cerca": "\\bnorris\\b|\\blando\\b",
+   "palmares": {
+    "vittorie": 11,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP di F1 vinti in carriera",
+    "titoli": [
+     {
+      "campionato": "F1",
+      "anno": 2025
+     }
+    ]
+   }
+  },
+  {
+   "id": "f1-piastri",
+   "serie": "f1",
+   "nome": "Oscar",
+   "cognome": "Piastri",
+   "numero": 81,
+   "team": "McLaren",
+   "moto": "Mercedes",
+   "colore": "#ff8000",
+   "bandiera": "🇦🇺",
+   "slugClassifica": "oscar-piastri",
+   "cerca": "\\bpiastri\\b",
+   "palmares": {
+    "vittorie": 9,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP di F1 vinti in carriera",
+    "titoli": []
+   }
+  },
+  {
+   "id": "f1-leclerc",
+   "serie": "f1",
+   "nome": "Charles",
+   "cognome": "Leclerc",
+   "numero": 16,
+   "team": "Ferrari",
+   "moto": "Ferrari",
+   "colore": "#e8002d",
+   "bandiera": "🇲🇨",
+   "slugClassifica": "charles-leclerc",
+   "cerca": "\\bleclerc\\b",
+   "palmares": {
+    "vittorie": 8,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP di F1 vinti in carriera",
+    "titoli": []
+   }
+  },
+  {
+   "id": "f1-hamilton",
+   "serie": "f1",
+   "nome": "Lewis",
+   "cognome": "Hamilton",
+   "numero": 44,
+   "team": "Ferrari",
+   "moto": "Ferrari",
+   "colore": "#e8002d",
+   "bandiera": "🇬🇧",
+   "slugClassifica": "lewis-hamilton",
+   "cerca": "\\bhamilton\\b",
+   "palmares": {
+    "vittorie": 106,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP di F1 vinti in carriera",
+    "titoli": [
+     {
+      "campionato": "F1",
+      "anno": 2008
+     },
+     {
+      "campionato": "F1",
+      "anno": 2014
+     },
+     {
+      "campionato": "F1",
+      "anno": 2015
+     },
+     {
+      "campionato": "F1",
+      "anno": 2017
+     },
+     {
+      "campionato": "F1",
+      "anno": 2018
+     },
+     {
+      "campionato": "F1",
+      "anno": 2019
+     },
+     {
+      "campionato": "F1",
+      "anno": 2020
+     }
+    ]
+   }
+  },
+  {
+   "id": "f1-russell",
+   "serie": "f1",
+   "nome": "George",
+   "cognome": "Russell",
+   "numero": 63,
+   "team": "Mercedes",
+   "moto": "Mercedes",
+   "colore": "#27f4d2",
+   "bandiera": "🇬🇧",
+   "slugClassifica": "george-russell",
+   "cerca": "\\brussell\\b",
+   "palmares": {
+    "vittorie": 7,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP di F1 vinti in carriera",
+    "titoli": []
+   }
+  },
+  {
+   "id": "f1-antonelli",
+   "serie": "f1",
+   "nome": "Andrea Kimi",
+   "cognome": "Antonelli",
+   "numero": 12,
+   "team": "Mercedes",
+   "moto": "Mercedes",
+   "colore": "#27f4d2",
+   "bandiera": "🇮🇹",
+   "slugClassifica": "andrea-kimi-antonelli",
+   "cerca": "\\bantonelli\\b|\\bkimi\\b",
+   "palmares": {
+    "vittorie": 5,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP di F1 vinti in carriera",
+    "titoli": []
+   }
+  },
+  {
+   "id": "f1-verstappen",
+   "serie": "f1",
+   "nome": "Max",
+   "cognome": "Verstappen",
+   "numero": 3,
+   "team": "Red Bull",
+   "moto": "Red Bull Ford",
+   "colore": "#3671c6",
+   "bandiera": "🇳🇱",
+   "slugClassifica": "max-verstappen",
+   "cerca": "\\bverstappen\\b",
+   "palmares": {
+    "vittorie": 71,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP di F1 vinti in carriera",
+    "titoli": [
+     {
+      "campionato": "F1",
+      "anno": 2021
+     },
+     {
+      "campionato": "F1",
+      "anno": 2022
+     },
+     {
+      "campionato": "F1",
+      "anno": 2023
+     },
+     {
+      "campionato": "F1",
+      "anno": 2024
+     }
+    ]
+   }
+  },
+  {
+   "id": "f1-hadjar",
+   "serie": "f1",
+   "nome": "Isack",
+   "cognome": "Hadjar",
+   "numero": 6,
+   "team": "Red Bull",
+   "moto": "Red Bull Ford",
+   "colore": "#3671c6",
+   "bandiera": "🇫🇷",
+   "slugClassifica": "isack-hadjar",
+   "cerca": "\\bhadjar\\b",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP di F1 vinti in carriera",
+    "titoli": []
+   }
+  },
+  {
+   "id": "f1-lawson",
+   "serie": "f1",
+   "nome": "Liam",
+   "cognome": "Lawson",
+   "numero": 30,
+   "team": "Racing Bulls",
+   "moto": "Red Bull Ford",
+   "colore": "#6692ff",
+   "bandiera": "🇳🇿",
+   "slugClassifica": "liam-lawson",
+   "cerca": "\\blawson\\b",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP di F1 vinti in carriera",
+    "titoli": []
+   }
+  },
+  {
+   "id": "f1-lindblad",
+   "serie": "f1",
+   "nome": "Arvid",
+   "cognome": "Lindblad",
+   "numero": 41,
+   "team": "Racing Bulls",
+   "moto": "Red Bull Ford",
+   "colore": "#6692ff",
+   "bandiera": "🇬🇧",
+   "slugClassifica": "arvid-lindblad",
+   "cerca": "\\blindblad\\b",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP di F1 vinti in carriera",
+    "titoli": []
+   }
+  },
+  {
+   "id": "f1-alonso",
+   "serie": "f1",
+   "nome": "Fernando",
+   "cognome": "Alonso",
+   "numero": 14,
+   "team": "Aston Martin",
+   "moto": "Honda",
+   "colore": "#229971",
+   "bandiera": "🇪🇸",
+   "slugClassifica": "fernando-alonso",
+   "cerca": "\\balonso\\b",
+   "palmares": {
+    "vittorie": 32,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP di F1 vinti in carriera",
+    "titoli": [
+     {
+      "campionato": "F1",
+      "anno": 2005
+     },
+     {
+      "campionato": "F1",
+      "anno": 2006
+     }
+    ]
+   }
+  },
+  {
+   "id": "f1-stroll",
+   "serie": "f1",
+   "nome": "Lance",
+   "cognome": "Stroll",
+   "numero": 18,
+   "team": "Aston Martin",
+   "moto": "Honda",
+   "colore": "#229971",
+   "bandiera": "🇨🇦",
+   "slugClassifica": "lance-stroll",
+   "cerca": "\\bstroll\\b",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP di F1 vinti in carriera",
+    "titoli": []
+   }
+  },
+  {
+   "id": "f1-albon",
+   "serie": "f1",
+   "nome": "Alexander",
+   "cognome": "Albon",
+   "numero": 23,
+   "team": "Williams",
+   "moto": "Mercedes",
+   "colore": "#64c4ff",
+   "bandiera": "🇹🇭",
+   "slugClassifica": "alexander-albon",
+   "cerca": "\\balbon\\b",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP di F1 vinti in carriera",
+    "titoli": []
+   }
+  },
+  {
+   "id": "f1-sainz",
+   "serie": "f1",
+   "nome": "Carlos",
+   "cognome": "Sainz",
+   "numero": 55,
+   "team": "Williams",
+   "moto": "Mercedes",
+   "colore": "#64c4ff",
+   "bandiera": "🇪🇸",
+   "slugClassifica": "carlos-sainz",
+   "cerca": "\\bsainz\\b",
+   "palmares": {
+    "vittorie": 4,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP di F1 vinti in carriera",
+    "titoli": []
+   }
+  },
+  {
+   "id": "f1-hulkenberg",
+   "serie": "f1",
+   "nome": "Nico",
+   "cognome": "Hülkenberg",
+   "numero": 27,
+   "team": "Audi",
+   "moto": "Audi",
+   "colore": "#c1c6cc",
+   "bandiera": "🇩🇪",
+   "slugClassifica": "nico-hulkenberg",
+   "cerca": "\\bhulkenberg\\b",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP di F1 vinti in carriera",
+    "titoli": []
+   }
+  },
+  {
+   "id": "f1-bortoleto",
+   "serie": "f1",
+   "nome": "Gabriel",
+   "cognome": "Bortoleto",
+   "numero": 5,
+   "team": "Audi",
+   "moto": "Audi",
+   "colore": "#c1c6cc",
+   "bandiera": "🇧🇷",
+   "slugClassifica": "gabriel-bortoleto",
+   "cerca": "\\bbortoleto\\b",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP di F1 vinti in carriera",
+    "titoli": []
+   }
+  },
+  {
+   "id": "f1-gasly",
+   "serie": "f1",
+   "nome": "Pierre",
+   "cognome": "Gasly",
+   "numero": 10,
+   "team": "Alpine",
+   "moto": "Mercedes",
+   "colore": "#0093cc",
+   "bandiera": "🇫🇷",
+   "slugClassifica": "pierre-gasly",
+   "cerca": "\\bgasly\\b",
+   "palmares": {
+    "vittorie": 1,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP di F1 vinti in carriera",
+    "titoli": []
+   }
+  },
+  {
+   "id": "f1-colapinto",
+   "serie": "f1",
+   "nome": "Franco",
+   "cognome": "Colapinto",
+   "numero": 43,
+   "team": "Alpine",
+   "moto": "Mercedes",
+   "colore": "#0093cc",
+   "bandiera": "🇦🇷",
+   "slugClassifica": "franco-colapinto",
+   "cerca": "\\bcolapinto\\b",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP di F1 vinti in carriera",
+    "titoli": []
+   }
+  },
+  {
+   "id": "f1-ocon",
+   "serie": "f1",
+   "nome": "Esteban",
+   "cognome": "Ocon",
+   "numero": 31,
+   "team": "Haas",
+   "moto": "Ferrari",
+   "colore": "#b6babd",
+   "bandiera": "🇫🇷",
+   "slugClassifica": "esteban-ocon",
+   "cerca": "\\bocon\\b",
+   "palmares": {
+    "vittorie": 1,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP di F1 vinti in carriera",
+    "titoli": []
+   }
+  },
+  {
+   "id": "f1-bearman",
+   "serie": "f1",
+   "nome": "Oliver",
+   "cognome": "Bearman",
+   "numero": 87,
+   "team": "Haas",
+   "moto": "Ferrari",
+   "colore": "#b6babd",
+   "bandiera": "🇬🇧",
+   "slugClassifica": "oliver-bearman",
+   "cerca": "\\bbearman\\b",
+   "palmares": {
+    "vittorie": 0,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP di F1 vinti in carriera",
+    "titoli": []
+   }
+  },
+  {
+   "id": "f1-perez",
+   "serie": "f1",
+   "nome": "Sergio",
+   "cognome": "Pérez",
+   "numero": 11,
+   "team": "Cadillac",
+   "moto": "Ferrari",
+   "colore": "#3a3a3a",
+   "bandiera": "🇲🇽",
+   "slugClassifica": "sergio-perez",
+   "cerca": "\\bperez\\b|\\bchecho\\b",
+   "palmares": {
+    "vittorie": 6,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP di F1 vinti in carriera",
+    "titoli": []
+   }
+  },
+  {
+   "id": "f1-bottas",
+   "serie": "f1",
+   "nome": "Valtteri",
+   "cognome": "Bottas",
+   "numero": 77,
+   "team": "Cadillac",
+   "moto": "Ferrari",
+   "colore": "#3a3a3a",
+   "bandiera": "🇫🇮",
+   "slugClassifica": "valtteri-bottas",
+   "cerca": "\\bbottas\\b",
+   "palmares": {
+    "vittorie": 10,
+    "vittorieFino": "2026-06-28",
+    "tipoVittorie": "GP di F1 vinti in carriera",
+    "titoli": []
+   }
+  }
+ ]
+}

@@ -1,0 +1,494 @@
+{
+  "aggiornato": "2026-10-23T17:30:00.000Z",
+  "motogp": {
+    "aggiornato": "2026-10-23T17:30:00.000Z",
+    "fonte": "Motosprint",
+    "piloti": [
+      {
+        "pos": 1,
+        "slug": "jorge-martin",
+        "nome": "J. Martin",
+        "team": "Aprilia Racing Team",
+        "punti": 355
+      },
+      {
+        "pos": 2,
+        "slug": "marc-marquez",
+        "nome": "M. Marquez",
+        "team": "Ducati Lenovo Team",
+        "punti": 353
+      },
+      {
+        "pos": 3,
+        "slug": "marco-bezzecchi",
+        "nome": "M. Bezzecchi",
+        "team": "Aprilia Racing Team",
+        "punti": 309
+      },
+      {
+        "pos": 4,
+        "slug": "ai-ogura",
+        "nome": "A. Ogura",
+        "team": "Trackhouse MotoGP Team",
+        "punti": 259
+      },
+      {
+        "pos": 5,
+        "slug": "pedro-acosta",
+        "nome": "P. Acosta",
+        "team": "Red Bull KTM Factory Racing",
+        "punti": 258
+      },
+      {
+        "pos": 6,
+        "slug": "fabio-di-giannantonio",
+        "nome": "F. D. Giannantonio",
+        "team": "Pertamina Enduro VR46 Racing Team",
+        "punti": 245
+      },
+      {
+        "pos": 7,
+        "slug": "raul-fernandez",
+        "nome": "R. fernandez",
+        "team": "Trackhouse MotoGP Team",
+        "punti": 236
+      },
+      {
+        "pos": 8,
+        "slug": "alex-marquez",
+        "nome": "A. Marquez",
+        "team": "BK8 Gresini Racing MotoGP",
+        "punti": 172
+      },
+      {
+        "pos": 9,
+        "slug": "francesco-bagnaia",
+        "nome": "F. Bagnaia",
+        "team": "Ducati Lenovo Team",
+        "punti": 166
+      },
+      {
+        "pos": 10,
+        "slug": "fermin-aldeguer",
+        "nome": "F. Aldeguer",
+        "team": "BK8 Gresini Racing MotoGP",
+        "punti": 125
+      },
+      {
+        "pos": 11,
+        "slug": "enea-bastianini",
+        "nome": "E. Bastianini",
+        "team": "Red Bull KTM Tech 3",
+        "punti": 122
+      },
+      {
+        "pos": 12,
+        "slug": "luca-marini",
+        "nome": "L. Marini",
+        "team": "Honda HRC Castrol",
+        "punti": 108
+      },
+      {
+        "pos": 13,
+        "slug": "brad-binder",
+        "nome": "B. Binder",
+        "team": "Red Bull KTM Factory Racing",
+        "punti": 104
+      },
+      {
+        "pos": 14,
+        "slug": "diogo-moreira",
+        "nome": "D. Moreira",
+        "team": "LCR Honda",
+        "punti": 74
+      },
+      {
+        "pos": 15,
+        "slug": "fabio-quartararo",
+        "nome": "F. Quartararo",
+        "team": "Monster Energy Yamaha MotoGP",
+        "punti": 74
+      },
+      {
+        "pos": 16,
+        "slug": "franco-morbidelli",
+        "nome": "F. Morbidelli",
+        "team": "Pertamina Enduro VR46 Racing Team",
+        "punti": 59
+      },
+      {
+        "pos": 17,
+        "slug": "johann-zarco",
+        "nome": "J. Zarco",
+        "team": "LCR Honda Castrol",
+        "punti": 51
+      },
+      {
+        "pos": 18,
+        "slug": "joan-mir",
+        "nome": "J. Mir",
+        "team": "Honda HRC Castrol",
+        "punti": 33
+      },
+      {
+        "pos": 19,
+        "slug": "jack-miller",
+        "nome": "J. Miller",
+        "team": "Prima Pramac Yamaha",
+        "punti": 28
+      },
+      {
+        "pos": 20,
+        "slug": "alex-rins",
+        "nome": "A. Rins",
+        "team": "Monster Energy Yamaha MotoGP",
+        "punti": 25
+      },
+      {
+        "pos": 21,
+        "slug": "toprak-razgatlioglu",
+        "nome": "T. Razgatlioglu",
+        "team": "Prima Pramac Yamaha",
+        "punti": 18
+      },
+      {
+        "pos": 22,
+        "slug": "maverick-vinales",
+        "nome": "M. Vinales",
+        "team": "Red Bull KTM Tech 3",
+        "punti": 12
+      },
+      {
+        "pos": 23,
+        "slug": "iker-lecuona",
+        "nome": "I. Lecuona",
+        "team": "BK8 Gresini Racing MotoGP",
+        "punti": 9
+      },
+      {
+        "pos": 24,
+        "slug": "augusto-fernandez",
+        "nome": "A. Fernandez",
+        "team": "Yamaha Factory Racing Team",
+        "punti": 6
+      }
+    ],
+    "squadre": [
+      {
+        "pos": 1,
+        "nome": "Aprilia Racing Team",
+        "punti": 664
+      },
+      {
+        "pos": 2,
+        "nome": "Ducati Lenovo Team",
+        "punti": 519
+      },
+      {
+        "pos": 3,
+        "nome": "Trackhouse MotoGP Team",
+        "punti": 495
+      },
+      {
+        "pos": 4,
+        "nome": "Red Bull KTM Factory Racing",
+        "punti": 362
+      },
+      {
+        "pos": 5,
+        "nome": "BK8 Gresini Racing MotoGP",
+        "punti": 306
+      },
+      {
+        "pos": 6,
+        "nome": "Pertamina Enduro VR46 Racing Team",
+        "punti": 304
+      },
+      {
+        "pos": 7,
+        "nome": "Honda HRC Castrol",
+        "punti": 144
+      },
+      {
+        "pos": 8,
+        "nome": "Red Bull KTM Tech 3",
+        "punti": 139
+      },
+      {
+        "pos": 9,
+        "nome": "LCR Honda",
+        "punti": 125
+      },
+      {
+        "pos": 10,
+        "nome": "Monster Energy Yamaha MotoGP",
+        "punti": 99
+      },
+      {
+        "pos": 11,
+        "nome": "Prima Pramac Yamaha",
+        "punti": 46
+      },
+      {
+        "pos": 12,
+        "nome": "Team HRC",
+        "punti": 3
+      },
+      {
+        "pos": 13,
+        "nome": "Yamaha Factory Racing Team",
+        "punti": 2
+      },
+      {
+        "pos": 14,
+        "nome": "Red Bull GASGAS Tech3",
+        "punti": 0
+      }
+    ],
+    "costruttori": [
+      {
+        "pos": 1,
+        "nome": "Aprilia",
+        "punti": 503
+      },
+      {
+        "pos": 2,
+        "nome": "Ducati",
+        "punti": 491
+      },
+      {
+        "pos": 3,
+        "nome": "KTM",
+        "punti": 311
+      },
+      {
+        "pos": 4,
+        "nome": "Honda",
+        "punti": 165
+      },
+      {
+        "pos": 5,
+        "nome": "Yamaha",
+        "punti": 97
+      }
+    ]
+  },
+  "f1": {
+    "aggiornato": "2026-10-11T18:00:00Z",
+    "fonte": "Sky Sport (dopo il GP di Singapore)",
+    "piloti": [
+      {
+        "pos": 1,
+        "slug": "andrea-kimi-antonelli",
+        "nome": "Kimi Antonelli",
+        "team": "Mercedes",
+        "punti": 340
+      },
+      {
+        "pos": 2,
+        "slug": "george-russell",
+        "nome": "George Russell",
+        "team": "Mercedes",
+        "punti": 238
+      },
+      {
+        "pos": 3,
+        "slug": "lewis-hamilton",
+        "nome": "Lewis Hamilton",
+        "team": "Ferrari",
+        "punti": 229
+      },
+      {
+        "pos": 4,
+        "slug": "max-verstappen",
+        "nome": "Max Verstappen",
+        "team": "Red Bull",
+        "punti": 221
+      },
+      {
+        "pos": 5,
+        "slug": "charles-leclerc",
+        "nome": "Charles Leclerc",
+        "team": "Ferrari",
+        "punti": 215
+      },
+      {
+        "pos": 6,
+        "slug": "lando-norris",
+        "nome": "Lando Norris",
+        "team": "McLaren",
+        "punti": 201
+      },
+      {
+        "pos": 7,
+        "slug": "oscar-piastri",
+        "nome": "Oscar Piastri",
+        "team": "McLaren",
+        "punti": 138
+      },
+      {
+        "pos": 8,
+        "slug": "isack-hadjar",
+        "nome": "Isack Hadjar",
+        "team": "Red Bull",
+        "punti": 97
+      },
+      {
+        "pos": 9,
+        "slug": "liam-lawson",
+        "nome": "Liam Lawson",
+        "team": "Racing Bulls",
+        "punti": 75
+      },
+      {
+        "pos": 10,
+        "slug": "pierre-gasly",
+        "nome": "Pierre Gasly",
+        "team": "Alpine",
+        "punti": 41
+      },
+      {
+        "pos": 11,
+        "slug": "arvid-lindblad",
+        "nome": "Arvid Lindblad",
+        "team": "Racing Bulls",
+        "punti": 38
+      },
+      {
+        "pos": 12,
+        "slug": "franco-colapinto",
+        "nome": "Franco Colapinto",
+        "team": "Alpine",
+        "punti": 27
+      },
+      {
+        "pos": 13,
+        "slug": "oliver-bearman",
+        "nome": "Oliver Bearman",
+        "team": "Haas",
+        "punti": 20
+      },
+      {
+        "pos": 14,
+        "slug": "nico-hulkenberg",
+        "nome": "Nico Hülkenberg",
+        "team": "Audi",
+        "punti": 13
+      },
+      {
+        "pos": 15,
+        "slug": "gabriel-bortoleto",
+        "nome": "Gabriel Bortoleto",
+        "team": "Audi",
+        "punti": 10
+      },
+      {
+        "pos": 16,
+        "slug": "carlos-sainz",
+        "nome": "Carlos Sainz",
+        "team": "Williams",
+        "punti": 7
+      },
+      {
+        "pos": 17,
+        "slug": "esteban-ocon",
+        "nome": "Esteban Ocon",
+        "team": "Haas",
+        "punti": 7
+      },
+      {
+        "pos": 18,
+        "slug": "fernando-alonso",
+        "nome": "Fernando Alonso",
+        "team": "Aston Martin",
+        "punti": 7
+      },
+      {
+        "pos": 19,
+        "slug": "alexander-albon",
+        "nome": "Alexander Albon",
+        "team": "Williams",
+        "punti": 5
+      },
+      {
+        "pos": 20,
+        "slug": "valtteri-bottas",
+        "nome": "Valtteri Bottas",
+        "team": "Cadillac",
+        "punti": 0
+      },
+      {
+        "pos": 21,
+        "slug": "lance-stroll",
+        "nome": "Lance Stroll",
+        "team": "Aston Martin",
+        "punti": 0
+      },
+      {
+        "pos": 22,
+        "slug": "sergio-perez",
+        "nome": "Sergio Pérez",
+        "team": "Cadillac",
+        "punti": 0
+      }
+    ],
+    "squadre": [],
+    "costruttori": [
+      {
+        "pos": 1,
+        "nome": "Mercedes",
+        "punti": 578
+      },
+      {
+        "pos": 2,
+        "nome": "Ferrari",
+        "punti": 444
+      },
+      {
+        "pos": 3,
+        "nome": "McLaren",
+        "punti": 339
+      },
+      {
+        "pos": 4,
+        "nome": "Red Bull",
+        "punti": 332
+      },
+      {
+        "pos": 5,
+        "nome": "Racing Bulls",
+        "punti": 100
+      },
+      {
+        "pos": 6,
+        "nome": "Alpine",
+        "punti": 68
+      },
+      {
+        "pos": 7,
+        "nome": "Haas",
+        "punti": 27
+      },
+      {
+        "pos": 8,
+        "nome": "Audi",
+        "punti": 23
+      },
+      {
+        "pos": 9,
+        "nome": "Williams",
+        "punti": 12
+      },
+      {
+        "pos": 10,
+        "nome": "Aston Martin",
+        "punti": 7
+      },
+      {
+        "pos": 11,
+        "nome": "Cadillac",
+        "punti": 0
+      }
+    ]
+  }
+}

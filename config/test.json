@@ -1,0 +1,77 @@
+{
+ "_istruzioni": "Programma dei test (date e circuiti). Lo script aggiunge da solo i test che trova su Motosprint/Autosprint e collega le classifiche dei tempi pubblicate da OA Sport. Date in formato AAAA-MM-GG.",
+ "motogp": [
+  {
+   "id": "motogp-shakedown-sepang-2026",
+   "nome": "Shakedown",
+   "circuito": "Sepang International Circuit",
+   "dal": "2026-01-29",
+   "al": "2026-01-31"
+  },
+  {
+   "id": "motogp-test-sepang-2026",
+   "nome": "Test di Sepang",
+   "circuito": "Sepang International Circuit",
+   "dal": "2026-02-02",
+   "al": "2026-02-05"
+  },
+  {
+   "id": "motogp-test-buriram-2026",
+   "nome": "Test di Buriram",
+   "circuito": "Chang International Circuit",
+   "dal": "2026-02-20",
+   "al": "2026-02-22"
+  },
+  {
+   "id": "motogp-test-jerez-2026",
+   "nome": "Test di Jerez",
+   "circuito": "Circuito de Jerez",
+   "dal": "2026-04-26",
+   "al": "2026-04-27"
+  },
+  {
+   "id": "motogp-test-barcellona-2026",
+   "nome": "Test di Barcellona",
+   "circuito": "Circuit de Catalunya",
+   "dal": "2026-05-17",
+   "al": "2026-05-18"
+  },
+  {
+   "id": "motogp-test-valencia-2026",
+   "nome": "Test di Valencia (debutto 850 cc)",
+   "circuito": "Circuit Ricardo Tormo",
+   "dal": "2026-12-01",
+   "al": "2026-12-01"
+  },
+  {
+   "id": "motogp-shakedown-sepang-2027",
+   "nome": "Shakedown",
+   "circuito": "Sepang International Circuit",
+   "dal": "2027-01-29",
+   "al": "2027-01-30"
+  },
+  {
+   "id": "motogp-test-sepang-2027",
+   "nome": "Test di Sepang",
+   "circuito": "Sepang International Circuit",
+   "dal": "2027-01-31",
+   "al": "2027-02-01"
+  },
+  {
+   "id": "motogp-test-buriram-2027",
+   "nome": "Test di Buriram",
+   "circuito": "Chang International Circuit",
+   "dal": "2027-02-06",
+   "al": "2027-02-07"
+  }
+ ],
+ "f1": [
+  {
+   "id": "f1-test-bahrain-2027",
+   "nome": "Test pre-stagionali",
+   "circuito": "Bahrain International Circuit, Sakhir",
+   "dal": "2027-02-24",
+   "al": "2027-02-27"
+  }
+ ]
+}

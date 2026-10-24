@@ -1,0 +1,15 @@
+{
+  "name": "racingtv",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Web app per iPhone: MotoGP e Formula 1 su TV8, notizie, piloti preferiti, classifiche, senza spoiler",
+  "scripts": {
+    "test": "node scripts/test.mjs",
+    "aggiorna": "node scripts/aggiorna.mjs",
+    "prova": "node scripts/aggiorna.mjs --fixtures"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

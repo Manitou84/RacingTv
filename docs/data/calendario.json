@@ -1,0 +1,97 @@
+{
+  "_istruzioni": "GP rimanenti della stagione, usati per calcolare il matchpoint. 'data' è il giorno della gara della domenica (o del sabato). Se un GP viene spostato o annullato, correggi qui. 'punti' sono i massimi assegnati al vincitore di gara e Sprint. 'circuito' collega il GP alla sua scheda in circuiti.json (meteo e dati del tracciato). 'prossimaStagione' è la prima gara del campionato successivo, per il conto alla rovescia di fine stagione.",
+  "motogp": {
+    "punti": {
+      "gara": 25,
+      "sprint": 12
+    },
+    "gare": [
+      {
+        "gp": "GP Australia",
+        "data": "2026-10-25",
+        "sprint": true,
+        "circuito": "phillip-island"
+      },
+      {
+        "gp": "GP Malesia",
+        "data": "2026-11-01",
+        "sprint": true,
+        "circuito": "sepang"
+      },
+      {
+        "gp": "GP Qatar",
+        "data": "2026-11-08",
+        "sprint": true,
+        "circuito": "lusail"
+      },
+      {
+        "gp": "GP Portogallo",
+        "data": "2026-11-22",
+        "sprint": true,
+        "circuito": "portimao"
+      },
+      {
+        "gp": "GP Valencia",
+        "data": "2026-11-29",
+        "sprint": true,
+        "circuito": "valencia"
+      }
+    ],
+    "prossimaStagione": {
+      "anno": 2027,
+      "gp": "GP Thailandia",
+      "circuito": "Chang International Circuit, Buriram",
+      "data": "2027-03-07"
+    }
+  },
+  "f1": {
+    "punti": {
+      "gara": 25,
+      "sprint": 8
+    },
+    "gare": [
+      {
+        "gp": "GP USA",
+        "data": "2026-10-25",
+        "sprint": false,
+        "circuito": "austin"
+      },
+      {
+        "gp": "GP Messico",
+        "data": "2026-11-01",
+        "sprint": false,
+        "circuito": "citta-del-messico"
+      },
+      {
+        "gp": "GP Brasile",
+        "data": "2026-11-08",
+        "sprint": false,
+        "circuito": "interlagos"
+      },
+      {
+        "gp": "GP Las Vegas",
+        "data": "2026-11-21",
+        "sprint": false,
+        "circuito": "las-vegas"
+      },
+      {
+        "gp": "GP Qatar",
+        "data": "2026-11-29",
+        "sprint": false,
+        "circuito": "lusail"
+      },
+      {
+        "gp": "GP Abu Dhabi",
+        "data": "2026-12-06",
+        "sprint": false,
+        "circuito": "yas-marina"
+      }
+    ],
+    "prossimaStagione": {
+      "anno": 2027,
+      "gp": "GP Bahrain",
+      "circuito": "Bahrain International Circuit, Sakhir",
+      "data": "2027-03-14"
+    }
+  }
+}

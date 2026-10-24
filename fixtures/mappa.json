@@ -1,0 +1,15 @@
+{
+ "https://sport.sky.it/motogp": "sky-indice.html",
+ "https://sport.sky.it/motogp/2026/10/23/orari-motogp-gp-australia-phillip-island-sky-now-tv8": "sky-australia.html",
+ "https://www.oasport.it/wp-json/wp/v2/posts?search=MotoGP%20TV8&per_page=15&_fields=title,link,content,date": "oa-api.json",
+ "https://www.gpone.com/it/article-feed.xml": "gpone.xml",
+ "https://www.motosprint.it/motomondiale/moto-gp": "motosprint.html",
+ "https://www.motosprint.it/live/moto-gp": "classifica.html",
+ "https://www.oasport.it/wp-json/wp/v2/posts?search=F1%20TV8&per_page=15&_fields=title,link,content,date": "oa-api-f1.json",
+ "https://sport.sky.it/formula-1": "sky-indice-f1.html",
+ "https://www.autosprint.it/live/formula-1": "classifica-f1.html",
+ "https://www.motosprint.it/live/moto-gp/gran-premio-dindonesia-901812": "gp-indonesia.html",
+ "https://www.motosprint.it/live/moto-gp/gran-premio-del-giappone-901810": "gp-giappone.html",
+ "https://www.oasport.it/wp-json/wp/v2/posts?search=griglia%20di%20partenza%20MotoGP&per_page=10&_fields=title,link,content,date": "oa-griglia-motogp.json",
+ "https://www.motosprint.it/live/moto-gp/barcelona-official-test-920174": "test-barcellona.html"
+}

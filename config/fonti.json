@@ -1,0 +1,37 @@
+[
+  {
+    "id": "gpone-motogp",
+    "serie": "motogp",
+    "nome": "GPOne",
+    "tipo": "rss",
+    "url": "https://www.gpone.com/it/article-feed.xml",
+    "urlAlternativi": ["https://www.gpone.com/it/rss.xml"],
+    "linkContiene": "/motogp/"
+  },
+  {
+    "id": "motosprint",
+    "serie": "motogp",
+    "nome": "Motosprint",
+    "tipo": "pagina",
+    "url": "https://www.motosprint.it/motomondiale/moto-gp",
+    "linkRegex": "/news/(motomondiale/moto-gp|eventi/gp-[a-z-]+)/\\d{4}/\\d{2}/\\d{2}-\\d+/"
+  },
+  {
+    "id": "gpone-f1",
+    "serie": "f1",
+    "nome": "GPOne",
+    "tipo": "rss",
+    "url": "https://www.gpone.com/it/article-feed.xml",
+    "urlAlternativi": ["https://www.gpone.com/it/rss.xml"],
+    "linkContiene": "/formula-1/"
+  },
+  {
+    "id": "autosprint",
+    "serie": "f1",
+    "nome": "Autosprint",
+    "tipo": "pagina",
+    "url": "https://www.autosprint.it/formula1",
+    "urlAlternativi": ["https://www.autosprint.it/f1", "https://www.autosprint.it/"],
+    "linkRegex": "/news/(formula1|f1|eventi/gp-[a-z-]+)/(\\d{4}/\\d{2}/\\d{2}-\\d+|[a-z0-9-]+/\\d{4}/\\d{2}/\\d{2}-\\d+)/"
+  }
+]

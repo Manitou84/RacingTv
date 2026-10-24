@@ -1,0 +1,180 @@
+{
+ "_istruzioni": "Schede dei circuiti (fonti: Wikipedia e alVolante, ottobre 2026). 'lunghezza' e 'rettilineo' in km; 'record' è il record sul giro in gara per campionato. lat/lon servono per il meteo.",
+ "circuiti": {
+  "phillip-island": {
+   "nome": "Phillip Island Grand Prix Circuit",
+   "luogo": "Phillip Island, Australia",
+   "lat": -38.5017,
+   "lon": 145.2306,
+   "lunghezza": 4.448,
+   "curve": 12,
+   "rettilineo": null,
+   "dal": 1956,
+   "record": {
+    "motogp": {
+     "chi": "Jorge Martín",
+     "tempo": "1:27.246",
+     "anno": 2023
+    }
+   }
+  },
+  "sepang": {
+   "nome": "Sepang International Circuit",
+   "luogo": "Sepang, Malesia",
+   "lat": 2.7608,
+   "lon": 101.7382,
+   "lunghezza": 5.543,
+   "curve": 15,
+   "rettilineo": 0.927,
+   "dal": 1999,
+   "record": {
+    "motogp": {
+     "chi": "Álex Márquez",
+     "tempo": "1:58.873",
+     "anno": 2025
+    }
+   }
+  },
+  "lusail": {
+   "nome": "Lusail International Circuit",
+   "luogo": "Lusail, Qatar",
+   "lat": 25.49,
+   "lon": 51.4542,
+   "lunghezza": 5.419,
+   "curve": 16,
+   "rettilineo": 1.068,
+   "dal": 2004,
+   "record": {
+    "motogp": {
+     "chi": "Marc Márquez",
+     "tempo": "1:52.561",
+     "anno": 2025
+    },
+    "f1": {
+     "chi": "Lando Norris",
+     "tempo": "1:22.384",
+     "anno": 2024
+    }
+   }
+  },
+  "portimao": {
+   "nome": "Autódromo Internacional do Algarve",
+   "luogo": "Portimão, Portogallo",
+   "lat": 37.227,
+   "lon": -8.6267,
+   "lunghezza": 4.592,
+   "curve": 15,
+   "rettilineo": null,
+   "dal": 2008,
+   "record": {
+    "motogp": {
+     "chi": "Pedro Acosta",
+     "tempo": "1:38.237",
+     "anno": 2025
+    }
+   }
+  },
+  "valencia": {
+   "nome": "Circuit Ricardo Tormo",
+   "luogo": "Cheste, Spagna",
+   "lat": 39.489,
+   "lon": -0.6293,
+   "lunghezza": 4.005,
+   "curve": 14,
+   "rettilineo": 0.876,
+   "dal": 1999,
+   "record": {
+    "motogp": {
+     "chi": "Raúl Fernández",
+     "tempo": "1:29.976",
+     "anno": 2025
+    }
+   }
+  },
+  "austin": {
+   "nome": "Circuit of the Americas",
+   "luogo": "Austin, Stati Uniti",
+   "lat": 30.1328,
+   "lon": -97.6411,
+   "lunghezza": 5.513,
+   "curve": 20,
+   "rettilineo": 1.0,
+   "dal": 2012,
+   "record": {
+    "f1": {
+     "chi": "Charles Leclerc",
+     "tempo": "1:36.169",
+     "anno": 2019
+    }
+   }
+  },
+  "citta-del-messico": {
+   "nome": "Autódromo Hermanos Rodríguez",
+   "luogo": "Città del Messico, Messico",
+   "lat": 19.4042,
+   "lon": -99.0907,
+   "lunghezza": 4.304,
+   "curve": 17,
+   "rettilineo": 1.2,
+   "dal": 1959,
+   "record": {
+    "f1": {
+     "chi": "Valtteri Bottas",
+     "tempo": "1:17.774",
+     "anno": 2021
+    }
+   }
+  },
+  "interlagos": {
+   "nome": "Autódromo José Carlos Pace (Interlagos)",
+   "luogo": "San Paolo, Brasile",
+   "lat": -23.7036,
+   "lon": -46.6997,
+   "lunghezza": 4.309,
+   "curve": 15,
+   "rettilineo": null,
+   "dal": 1940,
+   "record": {
+    "f1": {
+     "chi": "Valtteri Bottas",
+     "tempo": "1:10.540",
+     "anno": 2018
+    }
+   }
+  },
+  "las-vegas": {
+   "nome": "Las Vegas Strip Circuit",
+   "luogo": "Las Vegas, Stati Uniti",
+   "lat": 36.1147,
+   "lon": -115.1728,
+   "lunghezza": 6.201,
+   "curve": 17,
+   "rettilineo": 1.9,
+   "dal": 2023,
+   "record": {
+    "f1": {
+     "chi": "Max Verstappen",
+     "tempo": "1:33.221",
+     "anno": 2023
+    }
+   }
+  },
+  "yas-marina": {
+   "nome": "Yas Marina Circuit",
+   "luogo": "Abu Dhabi, Emirati Arabi Uniti",
+   "lat": 24.4672,
+   "lon": 54.6031,
+   "lunghezza": 5.281,
+   "curve": 16,
+   "rettilineo": 1.14,
+   "dal": 2009,
+   "record": {
+    "f1": {
+     "chi": "Kevin Magnussen",
+     "tempo": "1:25.637",
+     "anno": 2024
+    }
+   }
+  }
+ }
+}
