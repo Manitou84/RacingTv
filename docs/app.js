@@ -134,11 +134,36 @@ const copertaNotizia = a => {
   const dal = copertoDal(a.serie);
   return dal && new Date(a.data) >= dal && !stato.scoperte.has(a.id);
 };
+// Tre modi per togliere la copertura: le qualifiche (notizie sulle qualifiche e griglia),
+// la Sprint (che svela anche le qualifiche: la griglia della Sprint è il loro risultato) e tutto il weekend.
+const sessioneDi = f => f.id.split('|')[2];
+const eQuali = f => /^Qualifiche/.test(sessioneDi(f));
+function bottoniSvela(attive) {
+  const quali = attive.some(eQuali), sprint = attive.some(f => sessioneDi(f) === 'Sprint');
+  return `<div class="svela-bottoni">
+    ${quali ? '<button type="button" class="bottone secondario piccolo" data-svela-tipo="qualifiche">Ho visto le qualifiche</button>' : ''}
+    ${sprint ? '<button type="button" class="bottone secondario piccolo" data-svela-tipo="sprint">Ho visto la Sprint</button>' : ''}
+    <button type="button" class="bottone piccolo" data-svela>Ho visto tutto</button>
+  </div>`;
+}
 function avvisoSpoiler() {
   const attive = finestreAttive(stato.serie);
   if (!attive.length) return '';
   const nomi = attive.map(f => f.id.split('|').slice(1).join(' ').replace(/^F1 /, ''));
-  return `<div class="avviso-spoiler"><span>Anti-spoiler attivo: notizie e punti restano coperti finché non hai visto ${esc(nomi.join(', '))}. Tocca «L'ho già vista» su ogni sessione, o:</span><button class="testo-btn" data-svela>Ho visto tutto</button></div>`;
+  return `<div class="avviso-spoiler colonna"><span><strong>Anti-spoiler attivo</strong> Notizie, punti e griglia restano coperti finché non hai visto: ${esc(nomi.join(', '))}.</span>${bottoniSvela(attive)}</div>`;
+}
+function svelaParziale(tipo) {
+  const attive = finestreAttive(stato.serie);
+  let scelte;
+  if (tipo === 'qualifiche') scelte = attive.filter(eQuali);
+  else {
+    // la Sprint e tutte le qualifiche che la precedono
+    const sp = attive.filter(f => sessioneDi(f) === 'Sprint');
+    const ultima = Math.max(...sp.map(f => f.inizio.getTime()));
+    scelte = [...sp, ...attive.filter(f => eQuali(f) && f.inizio.getTime() <= ultima)];
+  }
+  scelte.forEach(f => stato.visti.add(f.id));
+  salva(); disegna();
 }
 
 /* ---------- Matchpoint ---------- */
@@ -769,7 +794,7 @@ function disegnaClassifiche() {
     el.innerHTML = html; return;
   }
   if (finestreAttive(stato.serie).length) {
-    html += `<div class="vuoto coperta-grande"><strong>Classifica coperta</strong>C'è una gara o una qualifica che non hai ancora visto: i punti potrebbero svelare il risultato.<br><br><button class="bottone secondario" data-svela>Ho visto tutto, mostra</button></div>`;
+    html += `<div class="vuoto coperta-grande"><strong>Classifica coperta</strong>C'è una gara o una qualifica che non hai ancora visto: i punti potrebbero svelare il risultato.<br><br>${bottoniSvela(finestreAttive(stato.serie))}</div>`;
     el.innerHTML = html; return;
   }
   const capo = righe[0].punti;
@@ -945,6 +970,7 @@ document.addEventListener('click', e => {
   if (d.visto) { stato.visti.add(d.visto); salva(); return disegna(); }
   if (d.circuito) return apriTracciato(d.circuito);
   if (d.griglia) { stato.griglieViste.add(d.griglia); salva(); return disegna(); }
+  if (d.svelaTipo) return svelaParziale(d.svelaTipo);
   if (d.svela !== undefined) return svela();
   if (d.stella) { stato.preferiti.has(d.stella) ? stato.preferiti.delete(d.stella) : stato.preferiti.add(d.stella); salva(); return disegna(); }
   if (d.apri) { stato.aperto = stato.aperto === d.apri ? null : d.apri; return disegna(); }

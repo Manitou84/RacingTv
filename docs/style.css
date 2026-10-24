@@ -431,3 +431,11 @@ button.matchpoint { width: 100%; border: 0; text-align: left; font: inherit; cur
 .hof-regina { margin-top: 0; }
 .trac-notizie span small { color: var(--grigio); }
 .trac-notizie { padding-left: 0; } .trac-notizie span { display: block; padding: 6px 0; }
+
+/* Pulsanti per togliere l'anti-spoiler */
+.avviso-spoiler.colonna { flex-direction: column; align-items: stretch; }
+.avviso-spoiler.colonna strong { color: var(--giallo); margin-right: 4px; }
+.svela-bottoni { display: flex; flex-wrap: wrap; gap: 8px; }
+.svela-bottoni .bottone { flex: 1 1 auto; }
+.coperta-grande .svela-bottoni { justify-content: center; margin-top: 4px; }
+.svela-bottoni .bottone.piccolo { min-height: 40px; font-size: 14px; }
