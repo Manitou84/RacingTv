@@ -1,7 +1,8 @@
 // Aggiorna notizie, palinsesto TV8, classifiche e calendario per MotoGP e Formula 1.
 // Uso: node scripts/aggiorna.mjs            (scarica dai siti)
 //      node scripts/aggiorna.mjs --fixtures (usa i file di prova in fixtures/)
-import { readFile, writeFile } from 'node:fs/promises';
+import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import * as L from './lib.mjs';
 
@@ -290,6 +291,42 @@ async function aggiornaTest() {
   await scriviJson(DATI + 'test.json', out);
 }
 
+/* ---------- Mappe dei tracciati ---------- */
+// Per ogni circuito cerca su Wikidata la «mappa del percorso» (proprietà P15) e la scarica da Wikimedia Commons
+// in docs/mappe/: così l'app la mostra dal proprio sito, senza far contattare altri server al telefono.
+async function aggiornaMappe() {
+  if (FIXTURES) return;
+  const circuiti = (await leggiJson(DATI + 'circuiti.json', {})).circuiti || {};
+  const vecchie = await leggiJson(DATI + 'mappe.json', {});
+  const out = {};
+  const UA = { 'User-Agent': 'RacingTv/1.0 (https://github.com/Manitou84/RacingTv)' };
+  await mkdir(RADICE + 'docs/mappe', { recursive: true });
+  for (const [id, c] of Object.entries(circuiti)) {
+    await tenta(`mappa ${id}`, async () => {
+      let file = c.mappaFile;
+      if (!file && c.wiki) {
+        const r = await fetch(`https://www.wikidata.org/w/api.php?action=wbgetentities&sites=enwiki&props=claims&format=json&titles=${encodeURIComponent(c.wiki)}`, { headers: UA, signal: AbortSignal.timeout(20000) });
+        const ent = Object.values((await r.json()).entities || {})[0];
+        const claims = (ent?.claims?.P15 || []).filter(x => x.mainsnak?.datavalue && !x.qualifiers?.P582);
+        const scelta = claims.find(x => x.rank === 'preferred') || claims.at(-1);
+        file = scelta?.mainsnak.datavalue.value;
+      }
+      if (!file) throw new Error('nessuna mappa su Wikidata');
+      const nome = `mappe/${id}.png`;
+      if (vecchie[id]?.file === file && existsSync(RADICE + 'docs/' + nome)) { out[id] = vecchie[id]; return; }
+      const r = await fetch(`https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(file)}?width=900`, { headers: UA, signal: AbortSignal.timeout(30000) });
+      if (!r.ok || !/^image\/(png|jpeg)/.test(r.headers.get('content-type') || '')) throw new Error(`${r.status} ${r.headers.get('content-type')}`);
+      const dati = Buffer.from(await r.arrayBuffer());
+      if (dati.length > 3e6) throw new Error('immagine troppo grande');
+      await writeFile(RADICE + 'docs/' + nome, dati);
+      out[id] = { file, immagine: nome, pagina: 'https://commons.wikimedia.org/wiki/File:' + encodeURIComponent(file.replace(/ /g, '_')) };
+      log(`mappa ${id}: ${file}`);
+    });
+    if (!out[id] && vecchie[id]) out[id] = vecchie[id];
+  }
+  await scriviJson(DATI + 'mappe.json', out);
+}
+
 if (FIXTURES) mappaFixtures = await leggiJson(RADICE + 'fixtures/mappa.json', {});
 await aggiornaPalinsesto();
 await aggiornaNotizie();
@@ -297,3 +334,4 @@ await aggiornaClassifiche();
 await aggiornaRisultati();
 await aggiornaGriglie();
 await aggiornaTest();
+await aggiornaMappe();

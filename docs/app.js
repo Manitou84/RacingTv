@@ -21,14 +21,14 @@ const memoria = {
 };
 // Preferenze personali: salvate sul telefono e, con la multi utenza attiva, anche nel profilo dell'utente.
 const stato = {
-  serie: 'motogp', vista: 'tv8', preferiti: new Set(), visti: new Set(), antiSpoiler: true, soloTv8: true,
+  serie: 'motogp', vista: 'tv8', preferiti: new Set(), visti: new Set(), antiSpoiler: { motogp: true, f1: true }, soloTv8: true,
   griglieViste: new Set(), ultimaVisitaNotizie: 0,
   tabella: 'piloti', filtro: 'tutte', scoperte: new Set(), aperto: null   // queste valgono solo per la sessione
 };
 let chiavePreferenze = 'pref-locale';
 const preferenzeAttuali = () => ({
   serie: stato.serie, vista: stato.vista, preferiti: [...stato.preferiti], visti: [...stato.visti].slice(-300),
-  antiSpoiler: stato.antiSpoiler, soloTv8: stato.soloTv8, griglieViste: [...stato.griglieViste].slice(-50), ultimaVisitaNotizie: stato.ultimaVisitaNotizie
+  antiSpoiler: { ...stato.antiSpoiler }, soloTv8: stato.soloTv8, griglieViste: [...stato.griglieViste].slice(-50), ultimaVisitaNotizie: stato.ultimaVisitaNotizie
 });
 function applicaPreferenze(p) {
   if (!p) return;
@@ -36,7 +36,9 @@ function applicaPreferenze(p) {
   if (p.vista) stato.vista = p.vista;
   if (Array.isArray(p.preferiti)) stato.preferiti = new Set(p.preferiti);
   if (Array.isArray(p.visti)) stato.visti = new Set(p.visti);
-  if (typeof p.antiSpoiler === 'boolean') stato.antiSpoiler = p.antiSpoiler;
+  // prima era un solo interruttore per entrambe le serie
+  if (typeof p.antiSpoiler === 'boolean') stato.antiSpoiler = { motogp: p.antiSpoiler, f1: p.antiSpoiler };
+  else if (p.antiSpoiler && typeof p.antiSpoiler === 'object') stato.antiSpoiler = { motogp: p.antiSpoiler.motogp !== false, f1: p.antiSpoiler.f1 !== false };
   if (typeof p.soloTv8 === 'boolean') stato.soloTv8 = p.soloTv8;
   if (Array.isArray(p.griglieViste)) stato.griglieViste = new Set(p.griglieViste);
   if (p.ultimaVisitaNotizie) stato.ultimaVisitaNotizie = p.ultimaVisitaNotizie;
@@ -70,14 +72,15 @@ function quandoRelativo(iso) {
 }
 
 /* ---------- Dati ---------- */
-const D = { palinsesto: { weekend: [] }, notizie: { articoli: [] }, piloti: [], classifica: {}, calendario: {}, risultati: {}, circuiti: {}, griglie: {}, test: {} };
+const D = { palinsesto: { weekend: [] }, notizie: { articoli: [] }, piloti: [], classifica: {}, calendario: {}, risultati: {}, circuiti: {}, griglie: {}, test: {}, mappe: {} };
 async function carica(nome) {
   const r = await fetch(`data/${nome}.json`, { cache: 'no-cache' });
   if (!r.ok) throw new Error(nome);
   return r.json();
 }
 async function caricaTutto() {
-  const [p, n, pi, c, ca, ri, ci, gr, te] = await Promise.allSettled(['palinsesto', 'notizie', 'piloti', 'classifica', 'calendario', 'risultati', 'circuiti', 'griglie', 'test'].map(carica));
+  const [p, n, pi, c, ca, ri, ci, gr, te, ma] = await Promise.allSettled(['palinsesto', 'notizie', 'piloti', 'classifica', 'calendario', 'risultati', 'circuiti', 'griglie', 'test', 'mappe'].map(carica));
+  if (ma.status === 'fulfilled') D.mappe = ma.value;
   if (te.status === 'fulfilled') D.test = te.value;
   if (ci.status === 'fulfilled') D.circuiti = ci.value.circuiti || {};
   if (gr.status === 'fulfilled') D.griglie = gr.value.griglie || {};
@@ -119,9 +122,8 @@ function finestre() {
   return out;
 }
 function finestreAttive(serie) {
-  if (!stato.antiSpoiler) return [];
   const t = adesso();
-  return finestre().filter(f => (!serie || f.serie === serie) && f.inizio <= t && t < f.fine && !stato.visti.has(f.id));
+  return finestre().filter(f => stato.antiSpoiler[f.serie] && (!serie || f.serie === serie) && f.inizio <= t && t < f.fine && !stato.visti.has(f.id));
 }
 function copertoDal(serie) {
   const attive = finestreAttive(serie);
@@ -251,11 +253,45 @@ function schedaCircuito(gc) {
   if (!c) return '';
   const rec = c.record?.[stato.serie];
   const dato = (v, t) => v == null ? '' : `<div><b>${v}</b><small>${t}</small></div>`;
+  const mappa = D.mappe[gc.circuito];
   return `<section class="circuito"><h2 class="sezione-titolo">Il circuito</h2>
-    <p class="circ-nome"><strong>${esc(c.nome)}</strong><small>${esc(c.luogo)}</small></p>
+    <button type="button" class="circ-apri" data-circuito="${esc(gc.circuito)}" aria-label="Mappa del tracciato e record di ${esc(c.nome)}">
+      ${mappa ? `<img class="circ-mini" src="${esc(mappa.immagine)}" alt="" loading="lazy">` : ''}
+      <span class="circ-nome"><strong>${esc(c.nome)}</strong><small>${esc(c.luogo)}</small></span>
+      <span class="circ-freccia">Mappa e record ›</span>
+    </button>
     <div class="pal-numeri">${dato(c.lunghezza?.toLocaleString('it-IT', { minimumFractionDigits: 3 }), 'km al giro')}${dato(c.curve, 'curve')}${dato(c.rettilineo?.toLocaleString('it-IT'), 'km di rettilineo')}${dato(c.dal, 'inaugurato')}</div>
     ${rec ? `<p class="circ-record">Record sul giro in gara: <strong>${esc(rec.tempo)}</strong>, ${esc(rec.chi)} (${rec.anno})</p>` : ''}
   </section>`;
+}
+// Scheda completa del tracciato: mappa grande e tutti i record noti (prima la serie scelta, poi l'altra)
+function apriTracciato(id) {
+  const c = D.circuiti[id];
+  if (!c) return;
+  const mappa = D.mappe[id];
+  const nomeSerie = { motogp: 'MotoGP', f1: 'Formula 1' };
+  const ordine = [stato.serie, stato.serie === 'motogp' ? 'f1' : 'motogp'];
+  const riga = (t, v, sotto) => `<li><span>${t}</span><strong>${v}</strong>${sotto ? `<small>${sotto}</small>` : ''}</li>`;
+  let rec = '';
+  for (const se of ordine) {
+    const r = c.record?.[se], q = c.giroQualifica?.[se], a = c.albo?.[se];
+    if (!r && !q && !a) continue;
+    rec += `<h3 class="pal-titolo">${nomeSerie[se]}</h3><ul class="trac-record">
+      ${r ? riga('Record sul giro in gara', esc(r.tempo), `${esc(r.chi)}, ${r.anno}`) : ''}
+      ${q ? riga('Giro più veloce in qualifica', esc(q.tempo), `${esc(q.chi)}, ${q.anno}`) : ''}
+      ${a ? riga('Più vittorie qui', `${a.vittorie}`, esc(a.piuVittorie) + (se === 'motogp' ? ' (classe regina)' : '')) : ''}
+      ${a?.ultimo ? riga(`Vincitore ${a.ultimo.anno}`, esc(a.ultimo.chi), '') : ''}
+    </ul>`;
+  }
+  const dato = (v, t) => v == null ? '' : `<div><b>${v}</b><small>${t}</small></div>`;
+  $('#tracciatoContenuto').innerHTML = `
+    <p class="circ-nome"><strong>${esc(c.nome)}</strong><small>${esc(c.luogo)}</small></p>
+    ${mappa ? `<figure class="trac-mappa"><img src="${esc(mappa.immagine)}" alt="Mappa del tracciato di ${esc(c.nome)}"><figcaption>Mappa: <a href="${esc(urlSicuro(mappa.pagina))}" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a></figcaption></figure>`
+      : '<p class="nota piccola">Mappa del tracciato non ancora disponibile: arriva con il prossimo aggiornamento dei dati.</p>'}
+    <div class="pal-numeri">${dato(c.lunghezza?.toLocaleString('it-IT', { minimumFractionDigits: 3 }), 'km al giro')}${dato(c.curve, 'curve')}${dato(c.rettilineo?.toLocaleString('it-IT'), 'km di rettilineo')}${dato(c.dal, 'inaugurato')}</div>
+    ${rec || '<p class="nota piccola">Nessun record registrato.</p>'}
+    <p class="nota piccola">Fonte: Wikipedia. I record non tengono conto del weekend in corso.</p>`;
+  $('#tracciato').showModal();
 }
 
 /* ---------- Griglia di partenza ---------- */
@@ -267,7 +303,7 @@ function bloccoGriglia(w) {
   const tutteFinite = quali.every(s => new Date(s.inizio).getTime() + durataTv(s) * 60000 < adesso());
   if (!g) return tutteFinite ? `<section class="griglia"><h2 class="sezione-titolo">Griglia di partenza</h2><p class="nota piccola">Non ancora pubblicata: arriva poco dopo le qualifiche.</p></section>` : '';
   const attiveQ = new Set(finestreAttive(w.serie).map(f => f.id));
-  const libera = !stato.antiSpoiler || stato.griglieViste.has(w.id) || !quali.some(s => attiveQ.has(`${w.id}|${s.classe}|${s.sessione}`));
+  const libera = !stato.antiSpoiler[w.serie] || stato.griglieViste.has(w.id) || !quali.some(s => attiveQ.has(`${w.id}|${s.classe}|${s.sessione}`));
   if (!libera) {
     const quando = 'quando mi dici che hai visto le qualifiche';
     return `<section class="griglia"><h2 class="sezione-titolo">Griglia di partenza</h2>
@@ -437,7 +473,7 @@ function disegnaTv8() {
         <div><dt>Diretta</dt><dd>${s.inizio ? `${esc(fGiornoBreve.format(new Date(s.inizio)))}, ${ora(s.inizio)}` : '–'}<small>${diretta ? 'TV8 e Sky' : 'solo Sky'}</small></dd></div>
         <div class="${diretta ? '' : 'evidenza'}"><dt>Differita TV8</dt><dd>${diretta ? '–' : `${esc(fGiornoBreve.format(prossima.da))}, ${ora(s.tv8.inizio)}`}<small>${diretta ? 'in chiaro in diretta' : 'in chiaro'}</small></dd></div>
       </dl>
-      ${!diretta && stato.antiSpoiler ? `<div class="lav-nota">Le notizie restano coperte finché non mi dici che l'hai vista.</div>` : ''}
+      ${!diretta && stato.antiSpoiler[stato.serie] ? `<div class="lav-nota">Le notizie restano coperte finché non mi dici che l'hai vista.</div>` : ''}
     </div>`;
   } else {
     html += `<div class="lavagna"><div class="lav-evento">Weekend concluso</div><div class="lav-quando">Il prossimo programma TV8 arriva appena viene pubblicato.</div></div>`;
@@ -794,6 +830,7 @@ function aggiornaBadge() {
 function disegna() {
   document.querySelectorAll('[data-serie-scelta]').forEach(b => b.setAttribute('aria-pressed', b.dataset.serieScelta === stato.serie));
   document.body.dataset.serie = stato.serie;
+  document.querySelectorAll('[data-spoiler]').forEach(b => { const on = stato.antiSpoiler[b.dataset.spoiler]; b.setAttribute('aria-pressed', on); b.querySelector('em').textContent = on ? 'ON' : 'OFF'; });
   if (stato.vista === 'tv8') disegnaTv8();
   else {
     $('#titoloGp').textContent = TITOLI[stato.vista];
@@ -815,6 +852,7 @@ document.addEventListener('click', e => {
   const t = e.target.closest('button, a[data-scopri]');
   if (!t) return;
   const d = t.dataset;
+  if (d.spoiler) { stato.antiSpoiler[d.spoiler] = !stato.antiSpoiler[d.spoiler]; salva(); return disegna(); }
   if (d.serieScelta) return cambiaSerie(d.serieScelta);
   if (d.serie) return cambiaSerie(d.serie);
   if (d.vista || d.vai) return mostra(d.vista || d.vai);
@@ -823,6 +861,7 @@ document.addEventListener('click', e => {
   if (d.filtro) { stato.filtro = d.filtro; return disegna(); }
   if (d.scopri) { e.preventDefault(); stato.scoperte.add(d.scopri); return disegna(); }
   if (d.visto) { stato.visti.add(d.visto); salva(); return disegna(); }
+  if (d.circuito) return apriTracciato(d.circuito);
   if (d.griglia) { stato.griglieViste.add(d.griglia); salva(); return disegna(); }
   if (d.svela !== undefined) return svela();
   if (d.stella) { stato.preferiti.has(d.stella) ? stato.preferiti.delete(d.stella) : stato.preferiti.add(d.stella); salva(); return disegna(); }
@@ -833,7 +872,6 @@ function svela() {
   finestreAttive(stato.serie).forEach(f => stato.visti.add(f.id)); salva(); disegna();
 }
 $('#apriImpostazioni').addEventListener('click', () => {
-  $('#optSpoiler').checked = stato.antiSpoiler;
   const profilo = window.Account?.configurato ? window.Account.profilo() : null;
   $('#rigaAccount').hidden = !profilo;
   $('#rigaAdmin').hidden = !profilo?.admin;
@@ -843,7 +881,6 @@ $('#apriImpostazioni').addEventListener('click', () => {
   $('#infoAggiornamento').textContent = `Dati aggiornati ${quandoRelativo(D.palinsesto.aggiornato || new Date().toISOString())}. L'app si aggiorna da sola ogni mezz'ora.`;
   $('#impostazioni').showModal();
 });
-$('#optSpoiler').addEventListener('change', e => { stato.antiSpoiler = e.target.checked; salva(); disegna(); });
 $('#svelaTutto').addEventListener('click', () => { finestre().forEach(f => { if (f.inizio <= adesso()) stato.visti.add(f.id); }); salva(); $('#impostazioni').close(); disegna(); });
 document.addEventListener('visibilitychange', async () => { if (!document.hidden) { await caricaTutto(); disegna(); } });
 

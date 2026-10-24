@@ -1,5 +1,5 @@
 {
- "_istruzioni": "Schede dei circuiti (fonti: Wikipedia e alVolante, ottobre 2026). 'lunghezza' e 'rettilineo' in km; 'record' è il record sul giro in gara per campionato. lat/lon servono per il meteo.",
+ "_istruzioni": "Schede dei circuiti (fonti: Wikipedia, ottobre 2026). 'lunghezza' e 'rettilineo' in km; 'record' è il record sul giro in gara per campionato; 'giroQualifica' il giro più veloce di sempre in qualifica (se noto); 'albo' chi ha vinto di più nella classe regina e il vincitore dell'ultima edizione. 'wiki' è il titolo della pagina Wikipedia inglese da cui si prende la mappa del tracciato (puoi forzarla con 'mappaFile': nome del file su Wikimedia Commons). lat/lon servono per il meteo.",
  "circuiti": {
   "phillip-island": {
    "nome": "Phillip Island Grand Prix Circuit",
@@ -12,9 +12,20 @@
    "dal": 1956,
    "record": {
     "motogp": {
-     "chi": "Jorge Martín",
-     "tempo": "1:27.246",
-     "anno": 2023
+     "chi": "Marc Márquez",
+     "tempo": "1:27.765",
+     "anno": 2024
+    }
+   },
+   "wiki": "Phillip_Island_Grand_Prix_Circuit",
+   "albo": {
+    "motogp": {
+     "piuVittorie": "Valentino Rossi e Casey Stoner",
+     "vittorie": 6,
+     "ultimo": {
+      "chi": "Raúl Fernández",
+      "anno": 2025
+     }
     }
    }
   },
@@ -32,6 +43,22 @@
      "chi": "Álex Márquez",
      "tempo": "1:58.873",
      "anno": 2025
+    },
+    "f1": {
+     "chi": "Sebastian Vettel",
+     "tempo": "1:34.080",
+     "anno": 2017
+    }
+   },
+   "wiki": "Sepang_International_Circuit",
+   "albo": {
+    "motogp": {
+     "piuVittorie": "Valentino Rossi",
+     "vittorie": 6,
+     "ultimo": {
+      "chi": "Álex Márquez",
+      "anno": 2025
+     }
     }
    }
   },
@@ -55,6 +82,32 @@
      "tempo": "1:22.384",
      "anno": 2024
     }
+   },
+   "wiki": "Lusail_International_Circuit",
+   "giroQualifica": {
+    "f1": {
+     "chi": "Oscar Piastri",
+     "tempo": "1:19.387",
+     "anno": 2025
+    }
+   },
+   "albo": {
+    "motogp": {
+     "piuVittorie": "Valentino Rossi e Casey Stoner",
+     "vittorie": 4,
+     "ultimo": {
+      "chi": "Marc Márquez",
+      "anno": 2025
+     }
+    },
+    "f1": {
+     "piuVittorie": "Max Verstappen",
+     "vittorie": 3,
+     "ultimo": {
+      "chi": "Max Verstappen",
+      "anno": 2025
+     }
+    }
    }
   },
   "portimao": {
@@ -71,6 +124,22 @@
      "chi": "Pedro Acosta",
      "tempo": "1:38.237",
      "anno": 2025
+    },
+    "f1": {
+     "chi": "Lewis Hamilton",
+     "tempo": "1:18.750",
+     "anno": 2020
+    }
+   },
+   "wiki": "Algarve_International_Circuit",
+   "albo": {
+    "motogp": {
+     "piuVittorie": "Fabio Quartararo",
+     "vittorie": 2,
+     "ultimo": {
+      "chi": "Marco Bezzecchi",
+      "anno": 2025
+     }
     }
    }
   },
@@ -89,6 +158,17 @@
      "tempo": "1:29.976",
      "anno": 2025
     }
+   },
+   "wiki": "Circuit_Ricardo_Tormo",
+   "albo": {
+    "motogp": {
+     "piuVittorie": "Dani Pedrosa e Jorge Lorenzo",
+     "vittorie": 4,
+     "ultimo": {
+      "chi": "Marco Bezzecchi",
+      "anno": 2025
+     }
+    }
    }
   },
   "austin": {
@@ -105,6 +185,24 @@
      "chi": "Charles Leclerc",
      "tempo": "1:36.169",
      "anno": 2019
+    }
+   },
+   "wiki": "Circuit_of_the_Americas",
+   "giroQualifica": {
+    "f1": {
+     "chi": "Valtteri Bottas",
+     "tempo": "1:32.029",
+     "anno": 2019
+    }
+   },
+   "albo": {
+    "f1": {
+     "piuVittorie": "Lewis Hamilton",
+     "vittorie": 5,
+     "ultimo": {
+      "chi": "Max Verstappen",
+      "anno": 2025
+     }
     }
    }
   },
@@ -123,6 +221,17 @@
      "tempo": "1:17.774",
      "anno": 2021
     }
+   },
+   "wiki": "Autódromo_Hermanos_Rodríguez",
+   "albo": {
+    "f1": {
+     "piuVittorie": "Max Verstappen",
+     "vittorie": 5,
+     "ultimo": {
+      "chi": "Lando Norris",
+      "anno": 2025
+     }
+    }
    }
   },
   "interlagos": {
@@ -140,6 +249,17 @@
      "tempo": "1:10.540",
      "anno": 2018
     }
+   },
+   "wiki": "Interlagos_Circuit",
+   "albo": {
+    "f1": {
+     "piuVittorie": "Michael Schumacher",
+     "vittorie": 4,
+     "ultimo": {
+      "chi": "Lando Norris",
+      "anno": 2025
+     }
+    }
    }
   },
   "las-vegas": {
@@ -154,8 +274,19 @@
    "record": {
     "f1": {
      "chi": "Max Verstappen",
-     "tempo": "1:33.221",
-     "anno": 2023
+     "tempo": "1:33.365",
+     "anno": 2025
+    }
+   },
+   "wiki": "Las_Vegas_Strip_Circuit",
+   "albo": {
+    "f1": {
+     "piuVittorie": "Max Verstappen",
+     "vittorie": 2,
+     "ultimo": {
+      "chi": "Max Verstappen",
+      "anno": 2025
+     }
     }
    }
   },
@@ -173,6 +304,17 @@
      "chi": "Kevin Magnussen",
      "tempo": "1:25.637",
      "anno": 2024
+    }
+   },
+   "wiki": "Yas_Marina_Circuit",
+   "albo": {
+    "f1": {
+     "piuVittorie": "Lewis Hamilton e Max Verstappen",
+     "vittorie": 5,
+     "ultimo": {
+      "chi": "Max Verstappen",
+      "anno": 2025
+     }
     }
    }
   }
