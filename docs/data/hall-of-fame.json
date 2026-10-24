@@ -1,0 +1,2993 @@
+{
+ "_istruzioni": "Hall of Fame: piloti ritirati. Numeri di carriera (tutte le classi per la moto) da Wikipedia in inglese, ottobre 2026. 'regina' sono i numeri nella sola classe regina (500/MotoGP). 'legend' è l'anno di ingresso tra le MotoGP Legends; 'hallOfFame' indica la nuova Hall of Fame MotoGP del 2025 (almeno 2 titoli o 25 vittorie in classe regina). null = dato non disponibile (es. pole non registrate negli anni Cinquanta).",
+ "motogp": [
+  {
+   "id": "hof-agostini",
+   "nome": "Giacomo",
+   "cognome": "Agostini",
+   "naz": "🇮🇹",
+   "nato": "1942-06-16",
+   "luogo": "Brescia",
+   "morto": null,
+   "anni": "1964–1977",
+   "moto": "MV Agusta, Yamaha, Suzuki",
+   "titoli": [
+    {
+     "classe": "500cc",
+     "anni": [
+      1966,
+      1967,
+      1968,
+      1969,
+      1970,
+      1971,
+      1972,
+      1975
+     ]
+    },
+    {
+     "classe": "350cc",
+     "anni": [
+      1968,
+      1969,
+      1970,
+      1971,
+      1972,
+      1973,
+      1974
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 207,
+    "vittorie": 122,
+    "podi": 159,
+    "pole": 6,
+    "giriVeloci": 117
+   },
+   "regina": {
+    "vittorie": 68
+   },
+   "bio": "Il pilota più vincente della storia del Motomondiale: 15 titoli e 122 Gran Premi. Dominò per quasi un decennio con la MV Agusta in 350 e 500, poi passò alla Yamaha e nel 1975 portò al titolo una moto a due tempi per la prima volta nella classe regina.",
+   "curiosita": [
+    "Nel 1972 boicottò il Tourist Trophy dopo la morte dell'amico Gilberto Parlotti: dal 1977 il TT uscì dal Mondiale.",
+    "Il titolo 500 del 1967 lo vinse a pari punti con Mike Hailwood, per il maggior numero di secondi posti.",
+    "Al debutto con la Yamaha vinse la 200 Miglia di Daytona del 1974."
+   ],
+   "legend": 2000,
+   "hallOfFame": true,
+   "soprannome": "Ago"
+  },
+  {
+   "id": "hof-rossi",
+   "nome": "Valentino",
+   "cognome": "Rossi",
+   "naz": "🇮🇹",
+   "nato": "1979-02-16",
+   "luogo": "Urbino",
+   "morto": null,
+   "anni": "1996–2021",
+   "moto": "Aprilia, Honda, Yamaha, Ducati",
+   "titoli": [
+    {
+     "classe": "MotoGP",
+     "anni": [
+      2002,
+      2003,
+      2004,
+      2005,
+      2008,
+      2009
+     ]
+    },
+    {
+     "classe": "500cc",
+     "anni": [
+      2001
+     ]
+    },
+    {
+     "classe": "250cc",
+     "anni": [
+      1999
+     ]
+    },
+    {
+     "classe": "125cc",
+     "anni": [
+      1997
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 432,
+    "vittorie": 115,
+    "podi": 235,
+    "pole": 65,
+    "giriVeloci": 96
+   },
+   "regina": {
+    "gare": 372,
+    "vittorie": 89,
+    "podi": 199,
+    "pole": 55
+   },
+   "bio": "Nove titoli in quattro classi e 115 vittorie: il pilota che ha reso la MotoGP uno spettacolo globale. Vinse l'ultimo Mondiale della 500 a due tempi e tre titoli di fila con la Honda, poi la scommessa con la Yamaha: nel 2004 vinse al debutto in Sudafrica e conquistò subito il titolo.",
+   "curiosita": [
+    "Unico pilota ad aver corso più di 400 Gran Premi.",
+    "Ad Assen 2009 ottenne la 100ª vittoria, secondo pilota di sempre dopo Agostini.",
+    "Il suo numero 46 è stato ritirato al Mugello nel 2022."
+   ],
+   "legend": 2021,
+   "hallOfFame": true,
+   "soprannome": "Il Dottore"
+  },
+  {
+   "id": "hof-doohan",
+   "nome": "Mick",
+   "cognome": "Doohan",
+   "naz": "🇦🇺",
+   "nato": "1965-06-04",
+   "luogo": "Gold Coast",
+   "morto": null,
+   "anni": "1989–1999",
+   "moto": "Honda",
+   "titoli": [
+    {
+     "classe": "500cc",
+     "anni": [
+      1994,
+      1995,
+      1996,
+      1997,
+      1998
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 137,
+    "vittorie": 54,
+    "podi": 95,
+    "pole": 58,
+    "giriVeloci": 46
+   },
+   "regina": null,
+   "bio": "Cinque titoli consecutivi della 500 con la Honda NSR, tutti tra il 1994 e il 1998. Tornò a vincere dopo il gravissimo infortunio alla gamba del 1992 e costruì una delle serie di dominio più nette della storia.",
+   "curiosita": [
+    "Nel 1997 vinse 12 gare su 15.",
+    "Nel 1992 un incidente in prova ad Assen gli costò il titolo, perso per 4 punti contro Rainey.",
+    "Vinse la 8 Ore di Suzuka 1991 in coppia con Wayne Gardner."
+   ],
+   "legend": 2000,
+   "hallOfFame": true,
+   "soprannome": null
+  },
+  {
+   "id": "hof-hailwood",
+   "nome": "Mike",
+   "cognome": "Hailwood",
+   "naz": "🇬🇧",
+   "nato": "1940-04-02",
+   "luogo": "Great Milton",
+   "morto": "1981-03-23",
+   "anni": "1958–1967",
+   "moto": "NSU, Honda, MV Agusta",
+   "titoli": [
+    {
+     "classe": "500cc",
+     "anni": [
+      1962,
+      1963,
+      1964,
+      1965
+     ]
+    },
+    {
+     "classe": "350cc",
+     "anni": [
+      1966,
+      1967
+     ]
+    },
+    {
+     "classe": "250cc",
+     "anni": [
+      1961,
+      1966,
+      1967
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 152,
+    "vittorie": 76,
+    "podi": 112,
+    "pole": null,
+    "giriVeloci": 79
+   },
+   "regina": {
+    "vittorie": 37
+   },
+   "bio": "Nove titoli mondiali e 14 vittorie al Tourist Trophy: per molti il più talentuoso di sempre, capace di vincere con qualunque moto. Corse anche 50 Gran Premi di Formula 1.",
+   "curiosita": [
+    "Nel 1961 fu il primo a vincere tre gare nella stessa settimana del TT.",
+    "Nel 1973 salvò Clay Regazzoni dalla sua auto in fiamme al GP del Sudafrica: ricevette la George Medal.",
+    "A 38 anni tornò al TT e vinse nel 1978 con una Ducati."
+   ],
+   "legend": 2000,
+   "hallOfFame": true,
+   "soprannome": "Mike the Bike"
+  },
+  {
+   "id": "hof-nieto",
+   "nome": "Ángel",
+   "cognome": "Nieto",
+   "naz": "🇪🇸",
+   "nato": "1947-01-25",
+   "luogo": "Zamora",
+   "morto": "2017-08-03",
+   "anni": "1964–1986",
+   "moto": "Derbi, Kreidler, Bultaco, Minarelli, Garelli",
+   "titoli": [
+    {
+     "classe": "125cc",
+     "anni": [
+      1971,
+      1972,
+      1979,
+      1981,
+      1982,
+      1983,
+      1984
+     ]
+    },
+    {
+     "classe": "50cc",
+     "anni": [
+      1969,
+      1970,
+      1972,
+      1975,
+      1976,
+      1977
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 186,
+    "vittorie": 90,
+    "podi": 139,
+    "pole": 34,
+    "giriVeloci": 81
+   },
+   "regina": null,
+   "bio": "Il padre del motociclismo spagnolo: 13 titoli nelle piccole cilindrate, 50 e 125, e 90 vittorie. Per scaramanzia diceva sempre di averne vinti «12+1».",
+   "curiosita": [
+    "Il circuito di Jerez porta il suo nome dal 2018.",
+    "Quando Rossi lo eguagliò a 90 vittorie (Le Mans 2008) festeggiò con una bandiera «90+90».",
+    "Quarto pilota di sempre per numero di vittorie."
+   ],
+   "legend": 2000,
+   "hallOfFame": false,
+   "soprannome": "12+1"
+  },
+  {
+   "id": "hof-rainey",
+   "nome": "Wayne",
+   "cognome": "Rainey",
+   "naz": "🇺🇸",
+   "nato": "1960-10-23",
+   "luogo": "Downey (California)",
+   "morto": null,
+   "anni": "1984, 1988–1993",
+   "moto": "Yamaha",
+   "titoli": [
+    {
+     "classe": "500cc",
+     "anni": [
+      1990,
+      1991,
+      1992
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 94,
+    "vittorie": 24,
+    "podi": 65,
+    "pole": 16,
+    "giriVeloci": 23
+   },
+   "regina": null,
+   "bio": "Tre titoli consecutivi della 500 con la Yamaha del team Roberts, nella grande rivalità con Kevin Schwantz. La carriera finì a Misano nel 1993, quando era in testa al Mondiale: l'incidente lo lasciò paralizzato.",
+   "curiosita": [
+    "Tutte le sue 24 vittorie sono arrivate in 500.",
+    "Vinse la 8 Ore di Suzuka nel 1988.",
+    "Dopo il ritiro ha guidato la serie americana MotoAmerica."
+   ],
+   "legend": 2000,
+   "hallOfFame": true,
+   "soprannome": null
+  },
+  {
+   "id": "hof-kroberts",
+   "nome": "Kenny",
+   "cognome": "Roberts",
+   "naz": "🇺🇸",
+   "nato": "1951-12-31",
+   "luogo": "Modesto (California)",
+   "morto": null,
+   "anni": "1974, 1978–1983",
+   "moto": "Yamaha",
+   "titoli": [
+    {
+     "classe": "500cc",
+     "anni": [
+      1978,
+      1979,
+      1980
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 60,
+    "vittorie": 24,
+    "podi": 44,
+    "pole": 22,
+    "giriVeloci": 27
+   },
+   "regina": {
+    "vittorie": 22
+   },
+   "bio": "Il primo americano campione del mondo: arrivò in Europa nel 1978 e vinse subito il titolo della 500, poi altri due. Portò dal dirt track lo stile di guida in derapata e il ginocchio a terra.",
+   "curiosita": [
+    "I giornalisti italiani lo chiamarono «il Marziano».",
+    "Si batté per premi più alti e circuiti più sicuri, cambiando il rapporto tra piloti e organizzatori.",
+    "Suo figlio Kenny Jr. vinse la 500 nel 2000: unica coppia padre-figlio campione nella classe regina."
+   ],
+   "legend": 2000,
+   "hallOfFame": true,
+   "soprannome": "Il Marziano"
+  },
+  {
+   "id": "hof-schwantz",
+   "nome": "Kevin",
+   "cognome": "Schwantz",
+   "naz": "🇺🇸",
+   "nato": "1964-06-19",
+   "luogo": "Houston (Texas)",
+   "morto": null,
+   "anni": "1986–1995",
+   "moto": "Suzuki",
+   "titoli": [
+    {
+     "classe": "500cc",
+     "anni": [
+      1993
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 105,
+    "vittorie": 25,
+    "podi": 51,
+    "pole": 29,
+    "giriVeloci": 26
+   },
+   "regina": null,
+   "bio": "Uno dei piloti più spettacolari di sempre, tutto o niente in sella alla Suzuki. Vinse il titolo 500 nel 1993 dopo anni di duelli con Rainey.",
+   "curiosita": [
+    "Il suo numero 34 è stato ritirato dalla FIM.",
+    "Ha contribuito a progettare il Circuit of the Americas di Austin."
+   ],
+   "legend": 2000,
+   "hallOfFame": true,
+   "soprannome": null
+  },
+  {
+   "id": "hof-mang",
+   "nome": "Anton",
+   "cognome": "Mang",
+   "naz": "🇩🇪",
+   "nato": "1949-09-29",
+   "luogo": "Inning am Ammersee",
+   "morto": null,
+   "anni": "1975–1988",
+   "moto": "Kawasaki, Honda",
+   "titoli": [
+    {
+     "classe": "250cc",
+     "anni": [
+      1980,
+      1981,
+      1987
+     ]
+    },
+    {
+     "classe": "350cc",
+     "anni": [
+      1981,
+      1982
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 153,
+    "vittorie": 42,
+    "podi": 84,
+    "pole": 34,
+    "giriVeloci": 26
+   },
+   "regina": null,
+   "bio": "Specialista delle medie cilindrate: cinque titoli tra 250 e 350, con Kawasaki e Honda.",
+   "curiosita": [
+    "Ultimo campione della 350 (1982), prima che la classe venisse abolita.",
+    "Vinse il titolo 250 del 1987 a 38 anni: il campione più anziano della categoria."
+   ],
+   "legend": 2001,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-sheene",
+   "nome": "Barry",
+   "cognome": "Sheene",
+   "naz": "🇬🇧",
+   "nato": "1950-09-11",
+   "luogo": "Londra",
+   "morto": "2003-03-10",
+   "anni": "1970–1984",
+   "moto": "Suzuki, Yamaha",
+   "titoli": [
+    {
+     "classe": "500cc",
+     "anni": [
+      1976,
+      1977
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 104,
+    "vittorie": 23,
+    "podi": 52,
+    "pole": 18,
+    "giriVeloci": 20
+   },
+   "regina": {
+    "vittorie": 19
+   },
+   "bio": "Due titoli della 500 con la Suzuki e un carisma da rockstar: fu il primo motociclista a diventare un personaggio pubblico anche fuori dalle piste.",
+   "curiosita": [
+    "Tornò in gara tre mesi dopo un terribile incidente a Daytona nel 1975.",
+    "È ancora l'ultimo britannico campione della classe regina."
+   ],
+   "legend": 2001,
+   "hallOfFame": true,
+   "soprannome": null
+  },
+  {
+   "id": "hof-spencer",
+   "nome": "Freddie",
+   "cognome": "Spencer",
+   "naz": "🇺🇸",
+   "nato": "1961-12-20",
+   "luogo": "Shreveport (Louisiana)",
+   "morto": null,
+   "anni": "1980–1993",
+   "moto": "Honda, Yamaha",
+   "titoli": [
+    {
+     "classe": "500cc",
+     "anni": [
+      1983,
+      1985
+     ]
+    },
+    {
+     "classe": "250cc",
+     "anni": [
+      1985
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 72,
+    "vittorie": 27,
+    "podi": 39,
+    "pole": 33,
+    "giriVeloci": 24
+   },
+   "regina": {
+    "vittorie": 20
+   },
+   "bio": "Talento precoce: campione della 500 a 21 anni nel 1983. Nel 1985 fece qualcosa di unico, vincendo nello stesso anno i titoli 250 e 500.",
+   "curiosita": [
+    "È l'unico pilota ad aver vinto 250 e 500 nella stessa stagione.",
+    "I problemi ai polsi, attribuiti anche a quella doppia stagione, gli accorciarono la carriera."
+   ],
+   "legend": 2001,
+   "hallOfFame": true,
+   "soprannome": "Fast Freddie"
+  },
+  {
+   "id": "hof-ubbiali",
+   "nome": "Carlo",
+   "cognome": "Ubbiali",
+   "naz": "🇮🇹",
+   "nato": "1929-09-22",
+   "luogo": "Bergamo",
+   "morto": "2020-06-02",
+   "anni": "1949–1960",
+   "moto": "Mondial, MV Agusta",
+   "titoli": [
+    {
+     "classe": "125cc",
+     "anni": [
+      1951,
+      1955,
+      1956,
+      1958,
+      1959,
+      1960
+     ]
+    },
+    {
+     "classe": "250cc",
+     "anni": [
+      1956,
+      1959,
+      1960
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 71,
+    "vittorie": 39,
+    "podi": 68,
+    "pole": null,
+    "giriVeloci": 30
+   },
+   "regina": null,
+   "bio": "Nove titoli tra 125 e 250 negli anni Cinquanta: il suo record di titoli resistette fino ad Agostini. Pilota calcolatore e regolarissimo.",
+   "curiosita": [
+    "In 12 anni di carriera non ebbe mai un incidente grave.",
+    "Vinse cinque volte al Tourist Trophy.",
+    "Quando è morto era l'ultimo pilota vivente della prima stagione mondiale, il 1949."
+   ],
+   "legend": 2001,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-duke",
+   "nome": "Geoff",
+   "cognome": "Duke",
+   "naz": "🇬🇧",
+   "nato": "1923-03-29",
+   "luogo": "St Helens",
+   "morto": "2015-05-01",
+   "anni": "1950–1959",
+   "moto": "Norton, Gilera, BMW, Benelli, NSU",
+   "titoli": [
+    {
+     "classe": "500cc",
+     "anni": [
+      1951,
+      1953,
+      1954,
+      1955
+     ]
+    },
+    {
+     "classe": "350cc",
+     "anni": [
+      1951,
+      1952
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 89,
+    "vittorie": 33,
+    "podi": 50,
+    "pole": null,
+    "giriVeloci": 29
+   },
+   "regina": null,
+   "bio": "Il primo grande divo del Motomondiale: sei titoli tra Norton e Gilera negli anni Cinquanta e sei vittorie al Tourist Trophy.",
+   "curiosita": [
+    "Fu tra i primi a correre con la tuta in pelle intera.",
+    "Nel 1953 fu nominato Ufficiale dell'Ordine dell'Impero Britannico."
+   ],
+   "legend": 2002,
+   "hallOfFame": true,
+   "soprannome": null
+  },
+  {
+   "id": "hof-gardner",
+   "nome": "Wayne",
+   "cognome": "Gardner",
+   "naz": "🇦🇺",
+   "nato": "1959-10-11",
+   "luogo": "Wollongong",
+   "morto": null,
+   "anni": "1983–1992",
+   "moto": "Honda",
+   "titoli": [
+    {
+     "classe": "500cc",
+     "anni": [
+      1987
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 102,
+    "vittorie": 18,
+    "podi": 51,
+    "pole": 19,
+    "giriVeloci": 19
+   },
+   "regina": null,
+   "bio": "Il primo australiano campione della 500, nel 1987 con la Honda. Aprì la strada a Doohan e Stoner.",
+   "curiosita": [
+    "Il rettilineo di Phillip Island si chiama Gardner Straight.",
+    "Ha vinto quattro volte la 8 Ore di Suzuka."
+   ],
+   "legend": 2002,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-read",
+   "nome": "Phil",
+   "cognome": "Read",
+   "naz": "🇬🇧",
+   "nato": "1939-01-01",
+   "luogo": "Luton",
+   "morto": "2022-10-06",
+   "anni": "1961–1976",
+   "moto": "Yamaha, MV Agusta, Suzuki",
+   "titoli": [
+    {
+     "classe": "500cc",
+     "anni": [
+      1973,
+      1974
+     ]
+    },
+    {
+     "classe": "250cc",
+     "anni": [
+      1964,
+      1965,
+      1968,
+      1971
+     ]
+    },
+    {
+     "classe": "125cc",
+     "anni": [
+      1968
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 152,
+    "vittorie": 52,
+    "podi": 121,
+    "pole": 4,
+    "giriVeloci": 36
+   },
+   "regina": null,
+   "bio": "Sette titoli in tre classi: fu il primo pilota a vincere il Mondiale in 125, 250 e 500.",
+   "curiosita": [
+    "Nel 1968 ignorò gli ordini di scuderia Yamaha per battere il compagno Bill Ivy: la casa non lo ingaggiò più.",
+    "Vinse i due titoli 500 con la MV Agusta nel 1973 e 1974."
+   ],
+   "legend": 2002,
+   "hallOfFame": true,
+   "soprannome": "Il principe della velocità"
+  },
+  {
+   "id": "hof-kato",
+   "nome": "Daijiro",
+   "cognome": "Kato",
+   "naz": "🇯🇵",
+   "nato": "1976-07-04",
+   "luogo": "Saitama",
+   "morto": "2003-04-20",
+   "anni": "1996–2003",
+   "moto": "Honda",
+   "titoli": [
+    {
+     "classe": "250cc",
+     "anni": [
+      2001
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 53,
+    "vittorie": 17,
+    "podi": 27,
+    "pole": 11,
+    "giriVeloci": 11
+   },
+   "regina": null,
+   "bio": "Campione 250 nel 2001 con 11 vittorie in una sola stagione. Morì dopo l'incidente al GP del Giappone del 2003, a Suzuka.",
+   "curiosita": [
+    "Le 11 vittorie del 2001 sono ancora il record della classe intermedia.",
+    "Il suo numero 74 è stato ritirato."
+   ],
+   "legend": 2003,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-surtees",
+   "nome": "John",
+   "cognome": "Surtees",
+   "naz": "🇬🇧",
+   "nato": "1934-02-11",
+   "luogo": "Tatsfield",
+   "morto": "2017-03-10",
+   "anni": "1952–1960",
+   "moto": "Norton, NSU, BMW, MV Agusta",
+   "titoli": [
+    {
+     "classe": "500cc",
+     "anni": [
+      1956,
+      1958,
+      1959,
+      1960
+     ]
+    },
+    {
+     "classe": "350cc",
+     "anni": [
+      1958,
+      1959,
+      1960
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 68,
+    "vittorie": 38,
+    "podi": 45,
+    "pole": null,
+    "giriVeloci": 34
+   },
+   "regina": null,
+   "bio": "Sette titoli in moto con la MV Agusta, poi il passaggio alle auto e il Mondiale di Formula 1 del 1964 con la Ferrari.",
+   "curiosita": [
+    "È l'unico campione del mondo sia su due sia su quattro ruote.",
+    "Fu il primo a vincere il Senior TT tre anni di fila."
+   ],
+   "legend": 2003,
+   "hallOfFame": true,
+   "soprannome": null
+  },
+  {
+   "id": "hof-lawson",
+   "nome": "Eddie",
+   "cognome": "Lawson",
+   "naz": "🇺🇸",
+   "nato": "1958-03-11",
+   "luogo": "Upland (California)",
+   "morto": null,
+   "anni": "1983–1992",
+   "moto": "Yamaha, Honda, Cagiva",
+   "titoli": [
+    {
+     "classe": "500cc",
+     "anni": [
+      1984,
+      1986,
+      1988,
+      1989
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 127,
+    "vittorie": 31,
+    "podi": 78,
+    "pole": 18,
+    "giriVeloci": 21
+   },
+   "regina": null,
+   "bio": "Quattro titoli della 500 con una costanza leggendaria. Nel 1989 lasciò la Yamaha per la Honda e vinse di nuovo.",
+   "curiosita": [
+    "Primo a vincere titoli consecutivi con due marche diverse (Yamaha 1988, Honda 1989).",
+    "Nel 1992 diede alla Cagiva la prima vittoria in 500, in Ungheria."
+   ],
+   "legend": 2005,
+   "hallOfFame": true,
+   "soprannome": "Steady Eddie"
+  },
+  {
+   "id": "hof-redman",
+   "nome": "Jim",
+   "cognome": "Redman",
+   "naz": "🇿🇼",
+   "nato": "1931-11-08",
+   "luogo": "Londra",
+   "morto": null,
+   "anni": "1959–1966",
+   "moto": "Norton, Honda",
+   "titoli": [
+    {
+     "classe": "350cc",
+     "anni": [
+      1962,
+      1963,
+      1964,
+      1965
+     ]
+    },
+    {
+     "classe": "250cc",
+     "anni": [
+      1962,
+      1963
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 135,
+    "vittorie": 45,
+    "podi": 98,
+    "pole": null,
+    "giriVeloci": 35
+   },
+   "regina": null,
+   "bio": "Sei titoli tra 250 e 350 con la Honda degli anni Sessanta. Nato a Londra, corse per la Rhodesia, dove era emigrato.",
+   "curiosita": [
+    "Vinse sei volte al Tourist Trophy."
+   ],
+   "legend": 2007,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-saarinen",
+   "nome": "Jarno",
+   "cognome": "Saarinen",
+   "naz": "🇫🇮",
+   "nato": "1945-12-11",
+   "luogo": "Turku",
+   "morto": "1973-05-20",
+   "anni": "1968, 1970–1973",
+   "moto": "Yamaha, Benelli",
+   "titoli": [
+    {
+     "classe": "250cc",
+     "anni": [
+      1972
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 46,
+    "vittorie": 15,
+    "podi": 32,
+    "pole": null,
+    "giriVeloci": 15
+   },
+   "regina": null,
+   "bio": "Il finlandese volante: campione 250 nel 1972 e stella nascente della 500. Morì a Monza nel 1973 nello stesso incidente di Renzo Pasolini.",
+   "curiosita": [
+    "È l'unico finlandese campione del mondo di velocità.",
+    "La sua morte accelerò le richieste di circuiti più sicuri."
+   ],
+   "legend": 2009,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-stoner",
+   "nome": "Casey",
+   "cognome": "Stoner",
+   "naz": "🇦🇺",
+   "nato": "1985-10-16",
+   "luogo": "Southport",
+   "morto": null,
+   "anni": "2001–2012",
+   "moto": "Aprilia, Honda, KTM, Ducati",
+   "titoli": [
+    {
+     "classe": "MotoGP",
+     "anni": [
+      2007,
+      2011
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 176,
+    "vittorie": 45,
+    "podi": 89,
+    "pole": 43,
+    "giriVeloci": 33
+   },
+   "regina": {
+    "gare": 115,
+    "vittorie": 38,
+    "podi": 69,
+    "pole": 39
+   },
+   "bio": "Due titoli MotoGP con due marche diverse: nel 2007 con la Ducati, prima volta per la casa di Borgo Panigale, e nel 2011 con la Honda. Si ritirò a soli 27 anni.",
+   "curiosita": [
+    "Vinse sei volte di fila a Phillip Island, la gara di casa.",
+    "Il titolo 2011 lo chiuse proprio in Australia."
+   ],
+   "legend": 2013,
+   "hallOfFame": true,
+   "soprannome": null
+  },
+  {
+   "id": "hof-simoncelli",
+   "nome": "Marco",
+   "cognome": "Simoncelli",
+   "naz": "🇮🇹",
+   "nato": "1987-01-20",
+   "luogo": "Cattolica",
+   "morto": "2011-10-23",
+   "anni": "2002–2011",
+   "moto": "Aprilia, Gilera, Honda",
+   "titoli": [
+    {
+     "classe": "250cc",
+     "anni": [
+      2008
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 148,
+    "vittorie": 14,
+    "podi": 31,
+    "pole": 15,
+    "giriVeloci": 9
+   },
+   "regina": null,
+   "bio": "Il Sic: campione 250 nel 2008 con la Gilera, amato per il carattere e la guida senza risparmio. Morì a Sepang nel 2011.",
+   "curiosita": [
+    "Il circuito di Misano porta il suo nome.",
+    "Il numero 58 è stato ritirato in tutte le classi."
+   ],
+   "legend": 2014,
+   "hallOfFame": false,
+   "soprannome": "Sic"
+  },
+  {
+   "id": "hof-criville",
+   "nome": "Àlex",
+   "cognome": "Crivillé",
+   "naz": "🇪🇸",
+   "nato": "1970-03-04",
+   "luogo": "Barcellona",
+   "morto": null,
+   "anni": "1987–2001",
+   "moto": "Derbi, JJ Cobas, Yamaha, Honda",
+   "titoli": [
+    {
+     "classe": "500cc",
+     "anni": [
+      1999
+     ]
+    },
+    {
+     "classe": "125cc",
+     "anni": [
+      1989
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 193,
+    "vittorie": 20,
+    "podi": 66,
+    "pole": 12,
+    "giriVeloci": 20
+   },
+   "regina": {
+    "vittorie": 15
+   },
+   "bio": "Il primo spagnolo campione della 500, nel 1999 con la Honda, dopo anni da scudiero di Doohan.",
+   "curiosita": [
+    "Primo spagnolo a vincere un GP della 500: Assen 1992.",
+    "A Brno nel 1996 batté Doohan per 2 millesimi."
+   ],
+   "legend": 2015,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-hayden",
+   "nome": "Nicky",
+   "cognome": "Hayden",
+   "naz": "🇺🇸",
+   "nato": "1981-07-30",
+   "luogo": "Owensboro (Kentucky)",
+   "morto": "2017-05-22",
+   "anni": "2003–2016",
+   "moto": "Honda, Ducati",
+   "titoli": [
+    {
+     "classe": "MotoGP",
+     "anni": [
+      2006
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 218,
+    "vittorie": 3,
+    "podi": 28,
+    "pole": 5,
+    "giriVeloci": 7
+   },
+   "regina": null,
+   "bio": "Campione MotoGP 2006 con la Honda, all'ultima gara di Valencia, interrompendo la serie di Rossi. Morì nel 2017 investito mentre era in bicicletta.",
+   "curiosita": [
+    "Il suo 69 è stato ritirato.",
+    "Nel 2002 era diventato il più giovane campione della Superbike americana."
+   ],
+   "legend": 2015,
+   "hallOfFame": false,
+   "soprannome": "Kentucky Kid"
+  },
+  {
+   "id": "hof-uncini",
+   "nome": "Franco",
+   "cognome": "Uncini",
+   "naz": "🇮🇹",
+   "nato": "1955-03-09",
+   "luogo": "Recanati",
+   "morto": null,
+   "anni": "1976–1985",
+   "moto": "Yamaha, Harley-Davidson, Suzuki",
+   "titoli": [
+    {
+     "classe": "500cc",
+     "anni": [
+      1982
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 79,
+    "vittorie": 7,
+    "podi": 21,
+    "pole": 3,
+    "giriVeloci": 3
+   },
+   "regina": null,
+   "bio": "Campione della 500 nel 1982 con la Suzuki del team Gallina, cinque vittorie in stagione.",
+   "curiosita": [
+    "Fu l'ultimo italiano campione della 500 fino a Rossi nel 2001.",
+    "Dopo un grave incidente ad Assen nel 1983 è diventato responsabile della sicurezza della MotoGP per la FIM."
+   ],
+   "legend": 2015,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-lucchinelli",
+   "nome": "Marco",
+   "cognome": "Lucchinelli",
+   "naz": "🇮🇹",
+   "nato": "1954-06-26",
+   "luogo": "Bolano",
+   "morto": null,
+   "anni": "1975–1986",
+   "moto": "Yamaha, Suzuki, Honda, Cagiva",
+   "titoli": [
+    {
+     "classe": "500cc",
+     "anni": [
+      1981
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 75,
+    "vittorie": 6,
+    "podi": 19,
+    "pole": 9,
+    "giriVeloci": 9
+   },
+   "regina": null,
+   "bio": "Campione della 500 nel 1981 con la Suzuki del team Gallina. Pilota istintivo e personaggio fuori dagli schemi.",
+   "curiosita": [
+    "Era soprannominato «Crazy Horse»."
+   ],
+   "legend": 2017,
+   "hallOfFame": false,
+   "soprannome": "Crazy Horse"
+  },
+  {
+   "id": "hof-krobertsjr",
+   "nome": "Kenny",
+   "cognome": "Roberts Jr.",
+   "naz": "🇺🇸",
+   "nato": "1973-07-25",
+   "luogo": "Mountain View (California)",
+   "morto": null,
+   "anni": "1993–2007",
+   "moto": "Yamaha, Modenas, Suzuki, KR",
+   "titoli": [
+    {
+     "classe": "500cc",
+     "anni": [
+      2000
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 185,
+    "vittorie": 8,
+    "podi": 22,
+    "pole": 10,
+    "giriVeloci": 9
+   },
+   "regina": null,
+   "bio": "Campione della 500 nel 2000 con la Suzuki, figlio del tre volte campione Kenny Roberts.",
+   "curiosita": [
+    "Con il padre forma l'unica coppia padre-figlio campione della classe regina.",
+    "Vinse al debutto con la Suzuki, a Sepang nel 1999."
+   ],
+   "legend": 2017,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-ballington",
+   "nome": "Kork",
+   "cognome": "Ballington",
+   "naz": "🇿🇦",
+   "nato": "1951-04-10",
+   "luogo": "Salisbury (Rhodesia)",
+   "morto": null,
+   "anni": "1976–1982",
+   "moto": "Yamaha, Kawasaki",
+   "titoli": [
+    {
+     "classe": "250cc",
+     "anni": [
+      1978,
+      1979
+     ]
+    },
+    {
+     "classe": "350cc",
+     "anni": [
+      1978,
+      1979
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 85,
+    "vittorie": 31,
+    "podi": 46,
+    "pole": 8,
+    "giriVeloci": 15
+   },
+   "regina": null,
+   "bio": "Quattro titoli in due anni con la Kawasaki: doppietta 250 e 350 sia nel 1978 sia nel 1979.",
+   "curiosita": [],
+   "legend": 2018,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-mamola",
+   "nome": "Randy",
+   "cognome": "Mamola",
+   "naz": "🇺🇸",
+   "nato": "1959-11-10",
+   "luogo": "San Jose (California)",
+   "morto": null,
+   "anni": "1979–1990, 1992",
+   "moto": "Suzuki, Yamaha, Honda, Cagiva",
+   "titoli": [],
+   "numeri": {
+    "gare": 151,
+    "vittorie": 13,
+    "podi": 57,
+    "pole": 5,
+    "giriVeloci": 12
+   },
+   "regina": null,
+   "bio": "Mai campione ma quattro volte secondo nella 500 (1980, 1981, 1984, 1987). Pilota spettacolare e volto amatissimo del paddock.",
+   "curiosita": [
+    "Ha fondato l'associazione benefica Riders for Health, che porta mezzi sanitari in Africa."
+   ],
+   "legend": 2018,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-pedrosa",
+   "nome": "Dani",
+   "cognome": "Pedrosa",
+   "naz": "🇪🇸",
+   "nato": "1985-09-29",
+   "luogo": "Sabadell",
+   "morto": null,
+   "anni": "2001–2018 (poi wild card KTM)",
+   "moto": "Honda, KTM",
+   "titoli": [
+    {
+     "classe": "250cc",
+     "anni": [
+      2004,
+      2005
+     ]
+    },
+    {
+     "classe": "125cc",
+     "anni": [
+      2003
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 299,
+    "vittorie": 54,
+    "podi": 153,
+    "pole": 49,
+    "giriVeloci": 64
+   },
+   "regina": {
+    "gare": 221,
+    "vittorie": 31,
+    "podi": 112
+   },
+   "bio": "Tre titoli nelle classi minori e 31 vittorie in MotoGP, tutte con la Honda, senza mai vincere il titolo della classe regina. Dopo il ritiro è stato a lungo collaudatore della KTM.",
+   "curiosita": [
+    "Tre volte secondo in MotoGP: 2007, 2010 e 2012.",
+    "A Jerez c'è una curva intitolata a lui dal 2019."
+   ],
+   "legend": 2018,
+   "hallOfFame": true,
+   "soprannome": null
+  },
+  {
+   "id": "hof-dorflinger",
+   "nome": "Stefan",
+   "cognome": "Dörflinger",
+   "naz": "🇨🇭",
+   "nato": "1948-12-23",
+   "luogo": "Nagold",
+   "morto": null,
+   "anni": "1973–1990",
+   "moto": "Kreidler, Zündapp, Krauser",
+   "titoli": [
+    {
+     "classe": "80cc",
+     "anni": [
+      1984,
+      1985
+     ]
+    },
+    {
+     "classe": "50cc",
+     "anni": [
+      1982,
+      1983
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 159,
+    "vittorie": 18,
+    "podi": 58,
+    "pole": 34,
+    "giriVeloci": null
+   },
+   "regina": null,
+   "bio": "Quattro titoli consecutivi tra 50 e 80 cc dal 1982 al 1985.",
+   "curiosita": [
+    "Fu il primo campione della classe 80 cc, nel 1984."
+   ],
+   "legend": 2019,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-aspar",
+   "nome": "Jorge",
+   "cognome": "Martínez",
+   "naz": "🇪🇸",
+   "nato": "1962-08-29",
+   "luogo": "Alzira",
+   "morto": null,
+   "anni": "1982–1997",
+   "moto": "Derbi, JJ Cobas, Honda, Yamaha, Aprilia",
+   "titoli": [
+    {
+     "classe": "80cc",
+     "anni": [
+      1986,
+      1987,
+      1988
+     ]
+    },
+    {
+     "classe": "125cc",
+     "anni": [
+      1988
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 196,
+    "vittorie": 37,
+    "podi": 61,
+    "pole": 19,
+    "giriVeloci": 11
+   },
+   "regina": null,
+   "bio": "«Aspar», quattro titoli nelle piccole cilindrate. Nel 1988 vinse 80 e 125 nella stessa stagione. Poi ha fondato l'Aspar Team, protagonista per anni nel Mondiale.",
+   "curiosita": [],
+   "legend": 2019,
+   "hallOfFame": false,
+   "soprannome": "Aspar"
+  },
+  {
+   "id": "hof-anderson",
+   "nome": "Hugh",
+   "cognome": "Anderson",
+   "naz": "🇳🇿",
+   "nato": "1936-01-18",
+   "luogo": "Huntly",
+   "morto": null,
+   "anni": "1960–1966",
+   "moto": "Suzuki",
+   "titoli": [
+    {
+     "classe": "125cc",
+     "anni": [
+      1963,
+      1965
+     ]
+    },
+    {
+     "classe": "50cc",
+     "anni": [
+      1963,
+      1964
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 68,
+    "vittorie": 24,
+    "podi": 48,
+    "pole": 0,
+    "giriVeloci": 21
+   },
+   "regina": null,
+   "bio": "Quattro titoli con la Suzuki nelle piccole cilindrate degli anni Sessanta: il primo neozelandese tra le MotoGP Legends.",
+   "curiosita": [
+    "Vinse due volte al Tourist Trophy."
+   ],
+   "legend": 2022,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-biaggi",
+   "nome": "Max",
+   "cognome": "Biaggi",
+   "naz": "🇮🇹",
+   "nato": "1971-06-26",
+   "luogo": "Roma",
+   "morto": null,
+   "anni": "1991–2005",
+   "moto": "Aprilia, Honda, Yamaha",
+   "titoli": [
+    {
+     "classe": "250cc",
+     "anni": [
+      1994,
+      1995,
+      1996,
+      1997
+     ]
+    },
+    {
+     "classe": "Superbike",
+     "anni": [
+      2010,
+      2012
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 214,
+    "vittorie": 42,
+    "podi": 111,
+    "pole": 56,
+    "giriVeloci": 42
+   },
+   "regina": {
+    "vittorie": 13
+   },
+   "bio": "Quattro titoli consecutivi della 250, tre con l'Aprilia e uno con la Honda, poi la grande rivalità con Rossi in 500 e MotoGP. In Superbike vinse altri due titoli con l'Aprilia.",
+   "curiosita": [
+    "Vinse al debutto in 500, a Suzuka nel 1998.",
+    "Tre volte secondo nella classe regina: 1998, 2001 e 2002.",
+    "Campione Superbike nel 2012 a 41 anni, il più anziano di sempre."
+   ],
+   "legend": 2022,
+   "hallOfFame": false,
+   "soprannome": "Il Corsaro"
+  },
+  {
+   "id": "hof-lorenzo",
+   "nome": "Jorge",
+   "cognome": "Lorenzo",
+   "naz": "🇪🇸",
+   "nato": "1987-05-04",
+   "luogo": "Palma di Maiorca",
+   "morto": null,
+   "anni": "2002–2019",
+   "moto": "Derbi, Honda, Aprilia, Yamaha, Ducati",
+   "titoli": [
+    {
+     "classe": "MotoGP",
+     "anni": [
+      2010,
+      2012,
+      2015
+     ]
+    },
+    {
+     "classe": "250cc",
+     "anni": [
+      2006,
+      2007
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 297,
+    "vittorie": 68,
+    "podi": 152,
+    "pole": 69,
+    "giriVeloci": 37
+   },
+   "regina": {
+    "vittorie": 47,
+    "podi": 114
+   },
+   "bio": "Cinque titoli, tre in MotoGP con la Yamaha. Guida pulitissima e velocità in curva: quando partiva davanti era quasi imbattibile.",
+   "curiosita": [
+    "Vinse al terzo GP in MotoGP, in Portogallo nel 2008.",
+    "Ha vinto con la Ducati nel 2018 al Mugello."
+   ],
+   "legend": 2022,
+   "hallOfFame": true,
+   "soprannome": "Por Fuera"
+  },
+  {
+   "id": "hof-taveri",
+   "nome": "Luigi",
+   "cognome": "Taveri",
+   "naz": "🇨🇭",
+   "nato": "1929-09-19",
+   "luogo": "Horgen",
+   "morto": "2018-03-01",
+   "anni": "1954–1966",
+   "moto": "MV Agusta, Ducati, MZ, Kreidler, Honda",
+   "titoli": [
+    {
+     "classe": "125cc",
+     "anni": [
+      1962,
+      1964,
+      1966
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 143,
+    "vittorie": 30,
+    "podi": 89,
+    "pole": null,
+    "giriVeloci": 28
+   },
+   "regina": null,
+   "bio": "Tre titoli della 125 con la Honda negli anni Sessanta.",
+   "curiosita": [
+    "È l'unico pilota ad aver fatto punti in sei classi: 50, 125, 250, 350, 500 e sidecar."
+   ],
+   "legend": 2022,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-anscheidt",
+   "nome": "Hans-Georg",
+   "cognome": "Anscheidt",
+   "naz": "🇩🇪",
+   "nato": "1935-12-23",
+   "luogo": "Königsberg",
+   "morto": null,
+   "anni": "1962–1968",
+   "moto": "Kreidler, Suzuki",
+   "titoli": [
+    {
+     "classe": "50cc",
+     "anni": [
+      1966,
+      1967,
+      1968
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 48,
+    "vittorie": 14,
+    "podi": 34,
+    "pole": null,
+    "giriVeloci": 12
+   },
+   "regina": null,
+   "bio": "Tre titoli consecutivi della 50 cc con la Suzuki.",
+   "curiosita": [],
+   "legend": 2023,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-dovizioso",
+   "nome": "Andrea",
+   "cognome": "Dovizioso",
+   "naz": "🇮🇹",
+   "nato": "1986-03-23",
+   "luogo": "Forlimpopoli",
+   "morto": null,
+   "anni": "2001–2022",
+   "moto": "Aprilia, Honda, Yamaha, Ducati",
+   "titoli": [
+    {
+     "classe": "125cc",
+     "anni": [
+      2004
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 346,
+    "vittorie": 24,
+    "podi": 103,
+    "pole": 20,
+    "giriVeloci": 22
+   },
+   "regina": {
+    "vittorie": 15
+   },
+   "bio": "Campione 125 nel 2004 e tre volte vicecampione MotoGP con la Ducati (2017, 2018, 2019), sempre dietro Márquez. Famose le sue vittorie all'ultima curva.",
+   "curiosita": [
+    "Prima vittoria in MotoGP a Donington nel 2009, sotto la pioggia.",
+    "È l'unico ad aver vinto gare MotoGP in tre decenni diversi."
+   ],
+   "legend": 2023,
+   "hallOfFame": false,
+   "soprannome": "Dovi"
+  },
+  {
+   "id": "hof-masetti",
+   "nome": "Umberto",
+   "cognome": "Masetti",
+   "naz": "🇮🇹",
+   "nato": "1926-05-04",
+   "luogo": "Borgo delle Rose (Parma)",
+   "morto": "2006-05-28",
+   "anni": "1949–1958",
+   "moto": "Gilera, MV Agusta, Benelli, Morini",
+   "titoli": [
+    {
+     "classe": "500cc",
+     "anni": [
+      1950,
+      1952
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 31,
+    "vittorie": 6,
+    "podi": 21,
+    "pole": null,
+    "giriVeloci": 1
+   },
+   "regina": null,
+   "bio": "Il primo italiano campione del mondo della 500, nel 1950 con la Gilera, e di nuovo nel 1952.",
+   "curiosita": [],
+   "legend": null,
+   "hallOfFame": true,
+   "soprannome": null
+  },
+  {
+   "id": "hof-graham",
+   "nome": "Les",
+   "cognome": "Graham",
+   "naz": "🇬🇧",
+   "nato": "1911-09-14",
+   "luogo": "Wallasey",
+   "morto": "1953-06-12",
+   "anni": "1949–1953",
+   "moto": "AJS, MV Agusta",
+   "titoli": [
+    {
+     "classe": "500cc",
+     "anni": [
+      1949
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 33,
+    "vittorie": 8,
+    "podi": 19,
+    "pole": null,
+    "giriVeloci": 5
+   },
+   "regina": null,
+   "bio": "Il primo campione del mondo della 500 della storia, nel 1949 con la AJS Porcupine. Morì al Tourist Trophy del 1953 in sella alla MV Agusta.",
+   "curiosita": [
+    "Annunciato tra le MotoGP Legends nel 2025, con cerimonia nel 2026."
+   ],
+   "legend": 2026,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-liberati",
+   "nome": "Libero",
+   "cognome": "Liberati",
+   "naz": "🇮🇹",
+   "nato": "1926-09-20",
+   "luogo": "Terni",
+   "morto": "1962-03-05",
+   "anni": "1952–1959",
+   "moto": "Gilera, Moto Morini",
+   "titoli": [
+    {
+     "classe": "500cc",
+     "anni": [
+      1957
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 15,
+    "vittorie": 6,
+    "podi": 14,
+    "pole": null,
+    "giriVeloci": 3
+   },
+   "regina": null,
+   "bio": "Campione della 500 nel 1957 con la Gilera, quattro vittorie nella stagione.",
+   "curiosita": [
+    "Annunciato tra le MotoGP Legends nel 2025, con cerimonia nel 2026."
+   ],
+   "legend": 2026,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-hocking",
+   "nome": "Gary",
+   "cognome": "Hocking",
+   "naz": "🇿🇼",
+   "nato": "1937-09-30",
+   "luogo": "Caerleon",
+   "morto": "1962-12-21",
+   "anni": "1958–1962",
+   "moto": "MZ, MV Agusta",
+   "titoli": [
+    {
+     "classe": "500cc",
+     "anni": [
+      1961
+     ]
+    },
+    {
+     "classe": "350cc",
+     "anni": [
+      1961
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 38,
+    "vittorie": 19,
+    "podi": 33,
+    "pole": null,
+    "giriVeloci": 21
+   },
+   "regina": null,
+   "bio": "Erede di Surtees alla MV Agusta: nel 1961 vinse i titoli 350 e 500. Passato alle auto, morì l'anno dopo in Sudafrica.",
+   "curiosita": [
+    "Annunciato tra le MotoGP Legends nel 2025, con cerimonia nel 2026."
+   ],
+   "legend": 2026,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-capirossi",
+   "nome": "Loris",
+   "cognome": "Capirossi",
+   "naz": "🇮🇹",
+   "nato": "1973-04-04",
+   "luogo": "Castel San Pietro Terme",
+   "morto": null,
+   "anni": "1990–2011",
+   "moto": "Honda, Aprilia, Yamaha, Ducati, Suzuki",
+   "titoli": [
+    {
+     "classe": "125cc",
+     "anni": [
+      1990,
+      1991
+     ]
+    },
+    {
+     "classe": "250cc",
+     "anni": [
+      1998
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 328,
+    "vittorie": 29,
+    "podi": 99,
+    "pole": 41,
+    "giriVeloci": 32
+   },
+   "regina": {
+    "vittorie": 9
+   },
+   "bio": "Tre titoli tra 125 e 250 e nove vittorie nella classe regina, sette con la Ducati, a cui diede la prima vittoria in MotoGP a Barcellona nel 2003.",
+   "curiosita": [
+    "Campione 125 nel 1990 a 17 anni: il più giovane campione del mondo di sempre all'epoca.",
+    "Primo pilota a superare i 300 Gran Premi."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": "Capirex"
+  },
+  {
+   "id": "hof-melandri",
+   "nome": "Marco",
+   "cognome": "Melandri",
+   "naz": "🇮🇹",
+   "nato": "1982-08-07",
+   "luogo": "Ravenna",
+   "morto": null,
+   "anni": "1997–2010",
+   "moto": "Honda, Aprilia, Yamaha, Ducati, Kawasaki",
+   "titoli": [
+    {
+     "classe": "250cc",
+     "anni": [
+      2002
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 215,
+    "vittorie": 22,
+    "podi": 62,
+    "pole": 9,
+    "giriVeloci": 16
+   },
+   "regina": {
+    "vittorie": 5
+   },
+   "bio": "Campione 250 nel 2002 e secondo in MotoGP nel 2005 dietro Rossi. Poi 22 vittorie in Superbike.",
+   "curiosita": [
+    "Vinse il primo GP a 15 anni, ad Assen nel 1998: allora il più giovane vincitore di sempre."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": "Macio"
+  },
+  {
+   "id": "hof-gibernau",
+   "nome": "Sete",
+   "cognome": "Gibernau",
+   "naz": "🇪🇸",
+   "nato": "1972-12-15",
+   "luogo": "Barcellona",
+   "morto": null,
+   "anni": "1992–2006, 2009",
+   "moto": "Yamaha, Honda, Suzuki, Ducati",
+   "titoli": [],
+   "numeri": {
+    "gare": 178,
+    "vittorie": 9,
+    "podi": 30,
+    "pole": 13,
+    "giriVeloci": 8
+   },
+   "regina": {
+    "vittorie": 9
+   },
+   "bio": "Il grande rivale di Rossi nel 2003 e 2004, entrambe le volte secondo con la Honda del team Gresini.",
+   "curiosita": [
+    "È nipote di Paco Bultó, fondatore della Bultaco."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  }
+ ],
+ "f1": [
+  {
+   "id": "hof-farina",
+   "nome": "Giuseppe «Nino»",
+   "cognome": "Farina",
+   "naz": "🇮🇹",
+   "nato": "1906-10-30",
+   "luogo": "Torino",
+   "morto": "1966-06-30",
+   "anni": "1950–1955",
+   "moto": "Alfa Romeo, Ferrari",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1950
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 33,
+    "vittorie": 5,
+    "podi": 20,
+    "pole": 5,
+    "giriVeloci": 5
+   },
+   "regina": null,
+   "bio": "Il primo campione del mondo di Formula 1: nel 1950 con l'Alfa Romeo vinse la prima gara mondiale della storia, a Silverstone, e il titolo.",
+   "curiosita": [
+    "Morì in un incidente stradale mentre andava ad assistere al GP di Francia del 1966."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-fangio",
+   "nome": "Juan Manuel",
+   "cognome": "Fangio",
+   "naz": "🇦🇷",
+   "nato": "1911-06-24",
+   "luogo": "Balcarce",
+   "morto": "1995-07-17",
+   "anni": "1950–1958",
+   "moto": "Alfa Romeo, Maserati, Mercedes, Ferrari",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1951,
+      1954,
+      1955,
+      1956,
+      1957
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 51,
+    "vittorie": 24,
+    "podi": 35,
+    "pole": 29,
+    "giriVeloci": 23
+   },
+   "regina": null,
+   "bio": "Cinque titoli con quattro marche diverse in appena otto stagioni: vinse quasi una gara su due. Per decenni il riferimento assoluto della Formula 1.",
+   "curiosita": [
+    "Il suo record di cinque titoli resistette fino al 2003, battuto da Schumacher.",
+    "La vittoria al Nürburgring del 1957, rimontando 48 secondi alle Ferrari, è considerata una delle più grandi di sempre."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": "El Chueco"
+  },
+  {
+   "id": "hof-ascari",
+   "nome": "Alberto",
+   "cognome": "Ascari",
+   "naz": "🇮🇹",
+   "nato": "1918-07-13",
+   "luogo": "Milano",
+   "morto": "1955-05-26",
+   "anni": "1950–1955",
+   "moto": "Ferrari, Maserati, Lancia",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1952,
+      1953
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 32,
+    "vittorie": 13,
+    "podi": 17,
+    "pole": 14,
+    "giriVeloci": 12
+   },
+   "regina": null,
+   "bio": "Il primo campione del mondo della Ferrari, nel 1952 e nel 1953. In quei due anni vinse nove gare consecutive.",
+   "curiosita": [
+    "Morì a Monza durante un test, quattro giorni dopo essere finito in mare al GP di Monaco.",
+    "È ancora l'ultimo italiano campione del mondo di Formula 1."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-hawthorn",
+   "nome": "Mike",
+   "cognome": "Hawthorn",
+   "naz": "🇬🇧",
+   "nato": "1929-04-10",
+   "luogo": "Mexborough",
+   "morto": "1959-01-22",
+   "anni": "1952–1958",
+   "moto": "Ferrari, Cooper, Vanwall, BRM",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1958
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 45,
+    "vittorie": 3,
+    "podi": 18,
+    "pole": 4,
+    "giriVeloci": 6
+   },
+   "regina": null,
+   "bio": "Il primo britannico campione del mondo, nel 1958 con la Ferrari, battendo Moss per un punto pur vincendo una sola gara.",
+   "curiosita": [
+    "Si ritirò subito dopo il titolo e morì pochi mesi dopo in un incidente stradale."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-moss",
+   "nome": "Stirling",
+   "cognome": "Moss",
+   "naz": "🇬🇧",
+   "nato": "1929-09-17",
+   "luogo": "Londra",
+   "morto": "2020-04-12",
+   "anni": "1951–1961",
+   "moto": "Mercedes, Maserati, Vanwall, Cooper, Lotus",
+   "titoli": [],
+   "numeri": {
+    "gare": 66,
+    "vittorie": 16,
+    "podi": 24,
+    "pole": 16,
+    "giriVeloci": 19
+   },
+   "regina": null,
+   "bio": "Il più grande pilota a non aver mai vinto il Mondiale: quattro volte secondo di fila (1955–1958) e tre volte terzo. Vinceva con qualunque auto, anche le più piccole.",
+   "curiosita": [
+    "Vinse la Mille Miglia del 1955 con la Mercedes, con un record che non è mai stato battuto.",
+    "Nel 1958 testimoniò a favore del rivale Hawthorn, evitandogli una squalifica: perse il titolo per un punto."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-brabham",
+   "nome": "Jack",
+   "cognome": "Brabham",
+   "naz": "🇦🇺",
+   "nato": "1926-04-02",
+   "luogo": "Hurstville",
+   "morto": "2014-05-19",
+   "anni": "1955–1970",
+   "moto": "Cooper, Brabham",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1959,
+      1960,
+      1966
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 126,
+    "vittorie": 14,
+    "podi": 31,
+    "pole": 13,
+    "giriVeloci": 12
+   },
+   "regina": null,
+   "bio": "Tre titoli, gli ultimi con una macchina costruita da lui. Con la Cooper a motore posteriore cambiò la Formula 1.",
+   "curiosita": [
+    "È l'unico pilota campione del mondo con una vettura della propria squadra (1966).",
+    "Nel 1959 spinse l'auto a piedi fino al traguardo a Sebring per chiudere il Mondiale."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-phill",
+   "nome": "Phil",
+   "cognome": "Hill",
+   "naz": "🇺🇸",
+   "nato": "1927-04-20",
+   "luogo": "Miami",
+   "morto": "2008-08-28",
+   "anni": "1958–1964, 1966",
+   "moto": "Ferrari, Cooper, ATS",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1961
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 49,
+    "vittorie": 3,
+    "podi": 16,
+    "pole": 6,
+    "giriVeloci": 6
+   },
+   "regina": null,
+   "bio": "Il primo americano campione del mondo, nel 1961 con la Ferrari «sharknose».",
+   "curiosita": [
+    "Il titolo arrivò a Monza nel giorno dell'incidente mortale del compagno Wolfgang von Trips."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-ghill",
+   "nome": "Graham",
+   "cognome": "Hill",
+   "naz": "🇬🇧",
+   "nato": "1929-02-15",
+   "luogo": "Londra",
+   "morto": "1975-11-29",
+   "anni": "1958–1975",
+   "moto": "Lotus, BRM, Brabham, Hill",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1962,
+      1968
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 176,
+    "vittorie": 14,
+    "podi": 36,
+    "pole": 13,
+    "giriVeloci": 10
+   },
+   "regina": null,
+   "bio": "Due volte campione del mondo e signore di Monaco, dove vinse cinque volte. Morì in un incidente aereo nel 1975.",
+   "curiosita": [
+    "È l'unico ad aver vinto la Tripla Corona: Mondiale di F1, 500 Miglia di Indianapolis (1966) e 24 Ore di Le Mans (1972).",
+    "Suo figlio Damon fu campione nel 1996."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": "Mr. Monaco"
+  },
+  {
+   "id": "hof-clark",
+   "nome": "Jim",
+   "cognome": "Clark",
+   "naz": "🇬🇧",
+   "nato": "1936-03-04",
+   "luogo": "Kilmany",
+   "morto": "1968-04-07",
+   "anni": "1960–1968",
+   "moto": "Lotus",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1963,
+      1965
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 72,
+    "vittorie": 25,
+    "podi": 32,
+    "pole": 33,
+    "giriVeloci": 28
+   },
+   "regina": null,
+   "bio": "Due titoli con la Lotus e un talento considerato da molti il più puro di sempre. Morì a Hockenheim nel 1968 in una gara di Formula 2.",
+   "curiosita": [
+    "Nel 1965 vinse anche la 500 Miglia di Indianapolis.",
+    "Corse tutta la carriera in Formula 1 con la Lotus."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-surtees",
+   "nome": "John",
+   "cognome": "Surtees",
+   "naz": "🇬🇧",
+   "nato": "1934-02-11",
+   "luogo": "Tatsfield",
+   "morto": "2017-03-10",
+   "anni": "1960–1972",
+   "moto": "Lotus, Cooper, Ferrari, Honda, BRM, Surtees",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1964
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 111,
+    "vittorie": 6,
+    "podi": 24,
+    "pole": 8,
+    "giriVeloci": 11
+   },
+   "regina": null,
+   "bio": "Dopo sette titoli in moto vinse il Mondiale di Formula 1 del 1964 con la Ferrari.",
+   "curiosita": [
+    "È l'unico campione del mondo sia su due sia su quattro ruote."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-hulme",
+   "nome": "Denny",
+   "cognome": "Hulme",
+   "naz": "🇳🇿",
+   "nato": "1936-06-18",
+   "luogo": "Motueka",
+   "morto": "1992-10-04",
+   "anni": "1965–1974",
+   "moto": "Brabham, McLaren",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1967
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 112,
+    "vittorie": 8,
+    "podi": 33,
+    "pole": 1,
+    "giriVeloci": 9
+   },
+   "regina": null,
+   "bio": "Campione del mondo nel 1967 con la Brabham, davanti al suo capo squadra Jack Brabham. Unico neozelandese iridato.",
+   "curiosita": [
+    "Era soprannominato «l'Orso».",
+    "Morì per un malore mentre correva a Bathurst nel 1992."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": "L'Orso"
+  },
+  {
+   "id": "hof-stewart",
+   "nome": "Jackie",
+   "cognome": "Stewart",
+   "naz": "🇬🇧",
+   "nato": "1939-06-11",
+   "luogo": "Milton (Scozia)",
+   "morto": null,
+   "anni": "1965–1973",
+   "moto": "BRM, Matra, March, Tyrrell",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1969,
+      1971,
+      1973
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 99,
+    "vittorie": 27,
+    "podi": 43,
+    "pole": 17,
+    "giriVeloci": 15
+   },
+   "regina": null,
+   "bio": "Tre titoli in cinque anni e il pilota che ha cambiato la sicurezza in Formula 1: dopo il suo incidente del 1966 si batté per circuiti e auto più sicuri.",
+   "curiosita": [
+    "Il suo record di 27 vittorie resistette fino al 1987.",
+    "Si ritirò da campione del mondo nel 1973."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": "Lo scozzese volante"
+  },
+  {
+   "id": "hof-rindt",
+   "nome": "Jochen",
+   "cognome": "Rindt",
+   "naz": "🇦🇹",
+   "nato": "1942-04-18",
+   "luogo": "Magonza",
+   "morto": "1970-09-05",
+   "anni": "1964–1970",
+   "moto": "Cooper, Brabham, Lotus",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1970
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 60,
+    "vittorie": 6,
+    "podi": 13,
+    "pole": 10,
+    "giriVeloci": 3
+   },
+   "regina": null,
+   "bio": "Campione del mondo 1970 con la Lotus, il titolo gli fu assegnato dopo la morte nelle prove di Monza.",
+   "curiosita": [
+    "È l'unico campione del mondo di Formula 1 alla memoria."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-fittipaldi",
+   "nome": "Emerson",
+   "cognome": "Fittipaldi",
+   "naz": "🇧🇷",
+   "nato": "1946-12-12",
+   "luogo": "San Paolo",
+   "morto": null,
+   "anni": "1970–1980",
+   "moto": "Lotus, McLaren, Fittipaldi",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1972,
+      1974
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 144,
+    "vittorie": 14,
+    "podi": 35,
+    "pole": 6,
+    "giriVeloci": 6
+   },
+   "regina": null,
+   "bio": "Il primo brasiliano campione del mondo, nel 1972 con la Lotus, allora il più giovane di sempre. Poi il secondo titolo con la McLaren nel 1974.",
+   "curiosita": [
+    "Ha vinto due volte la 500 Miglia di Indianapolis (1989 e 1993)."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-lauda",
+   "nome": "Niki",
+   "cognome": "Lauda",
+   "naz": "🇦🇹",
+   "nato": "1949-02-22",
+   "luogo": "Vienna",
+   "morto": "2019-05-20",
+   "anni": "1971–1979, 1982–1985",
+   "moto": "March, BRM, Ferrari, Brabham, McLaren",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1975,
+      1977,
+      1984
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 171,
+    "vittorie": 25,
+    "podi": 54,
+    "pole": 24,
+    "giriVeloci": 24
+   },
+   "regina": null,
+   "bio": "Tre titoli, due con la Ferrari. Nel 1976 rischiò la vita nel rogo del Nürburgring e tornò in pista sei settimane dopo.",
+   "curiosita": [
+    "Vinse il titolo 1984 per mezzo punto sul compagno Prost, il margine più piccolo della storia.",
+    "Fondò la compagnia aerea Lauda Air."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-hunt",
+   "nome": "James",
+   "cognome": "Hunt",
+   "naz": "🇬🇧",
+   "nato": "1947-08-29",
+   "luogo": "Belmont",
+   "morto": "1993-06-15",
+   "anni": "1973–1979",
+   "moto": "Hesketh, McLaren, Wolf",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1976
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 92,
+    "vittorie": 10,
+    "podi": 23,
+    "pole": 14,
+    "giriVeloci": 8
+   },
+   "regina": null,
+   "bio": "Campione 1976 con la McLaren, vincendo la sfida con Lauda all'ultima gara sotto la pioggia del Fuji, per un punto.",
+   "curiosita": [
+    "Dopo il ritiro fu un celebre commentatore della BBC."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-andretti",
+   "nome": "Mario",
+   "cognome": "Andretti",
+   "naz": "🇺🇸",
+   "nato": "1940-02-28",
+   "luogo": "Montona (Istria)",
+   "morto": null,
+   "anni": "1968–1982",
+   "moto": "Lotus, Ferrari, March, Parnelli, Alfa Romeo, Williams",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1978
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 128,
+    "vittorie": 12,
+    "podi": 19,
+    "pole": 18,
+    "giriVeloci": 10
+   },
+   "regina": null,
+   "bio": "Campione 1978 con la rivoluzionaria Lotus 79 a effetto suolo. Uno dei piloti più completi di sempre.",
+   "curiosita": [
+    "Ha vinto anche la 500 Miglia di Indianapolis (1969) e la Daytona 500 (1967).",
+    "È l'ultimo americano campione del mondo di Formula 1."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-scheckter",
+   "nome": "Jody",
+   "cognome": "Scheckter",
+   "naz": "🇿🇦",
+   "nato": "1950-01-29",
+   "luogo": "East London",
+   "morto": null,
+   "anni": "1972–1980",
+   "moto": "McLaren, Tyrrell, Wolf, Ferrari",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1979
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 112,
+    "vittorie": 10,
+    "podi": 33,
+    "pole": 3,
+    "giriVeloci": 5
+   },
+   "regina": null,
+   "bio": "Campione 1979 con la Ferrari: fu l'ultimo titolo piloti di Maranello fino a Schumacher nel 2000.",
+   "curiosita": [
+    "Unico africano ad aver vinto il Mondiale e un Gran Premio.",
+    "Vinse il GP di Svezia 1976 con la Tyrrell a sei ruote, unica vittoria di sempre per un'auto così."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-gvilleneuve",
+   "nome": "Gilles",
+   "cognome": "Villeneuve",
+   "naz": "🇨🇦",
+   "nato": "1950-01-18",
+   "luogo": "Saint-Jean-sur-Richelieu",
+   "morto": "1982-05-08",
+   "anni": "1977–1982",
+   "moto": "McLaren, Ferrari",
+   "titoli": [],
+   "numeri": {
+    "gare": 67,
+    "vittorie": 6,
+    "podi": 13,
+    "pole": 2,
+    "giriVeloci": 8
+   },
+   "regina": null,
+   "bio": "Mai campione ma idolo dei tifosi Ferrari per il coraggio e lo spettacolo. Secondo nel 1979 dietro il compagno Scheckter. Morì a Zolder nel 1982.",
+   "curiosita": [
+    "Il circuito di Montréal porta il suo nome.",
+    "Suo figlio Jacques è stato campione nel 1997."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-jones",
+   "nome": "Alan",
+   "cognome": "Jones",
+   "naz": "🇦🇺",
+   "nato": "1946-11-02",
+   "luogo": "Melbourne",
+   "morto": null,
+   "anni": "1975–1986",
+   "moto": "Williams, Shadow, Hesketh, Lola",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1980
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 116,
+    "vittorie": 12,
+    "podi": 24,
+    "pole": 6,
+    "giriVeloci": 13
+   },
+   "regina": null,
+   "bio": "Il primo campione del mondo della Williams, nel 1980.",
+   "curiosita": [],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-piquet",
+   "nome": "Nelson",
+   "cognome": "Piquet",
+   "naz": "🇧🇷",
+   "nato": "1952-08-17",
+   "luogo": "Rio de Janeiro",
+   "morto": null,
+   "anni": "1978–1991",
+   "moto": "Brabham, Williams, Lotus, Benetton",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1981,
+      1983,
+      1987
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 204,
+    "vittorie": 23,
+    "podi": 60,
+    "pole": 24,
+    "giriVeloci": 23
+   },
+   "regina": null,
+   "bio": "Tre titoli, due con la Brabham e uno con la Williams nel 1987, battendo il compagno Mansell.",
+   "curiosita": [],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-krosberg",
+   "nome": "Keke",
+   "cognome": "Rosberg",
+   "naz": "🇫🇮",
+   "nato": "1948-12-06",
+   "luogo": "Solna (Svezia)",
+   "morto": null,
+   "anni": "1978–1986",
+   "moto": "Williams, McLaren, Wolf, Fittipaldi",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1982
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 114,
+    "vittorie": 5,
+    "podi": 17,
+    "pole": 5,
+    "giriVeloci": 3
+   },
+   "regina": null,
+   "bio": "Il primo finlandese campione del mondo, nel 1982 con la Williams.",
+   "curiosita": [
+    "Vinse il titolo con una sola vittoria nella stagione.",
+    "Suo figlio Nico è stato campione nel 2016."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-prost",
+   "nome": "Alain",
+   "cognome": "Prost",
+   "naz": "🇫🇷",
+   "nato": "1955-02-24",
+   "luogo": "Lorette",
+   "morto": null,
+   "anni": "1980–1991, 1993",
+   "moto": "McLaren, Renault, Ferrari, Williams",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1985,
+      1986,
+      1989,
+      1993
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 199,
+    "vittorie": 51,
+    "podi": 106,
+    "pole": 33,
+    "giriVeloci": 41
+   },
+   "regina": null,
+   "bio": "«Il Professore»: quattro titoli con una guida calcolatrice e precisa. La rivalità con Senna alla McLaren è la più famosa della Formula 1.",
+   "curiosita": [
+    "Vinse il quarto titolo nel 1993 con la Williams e si ritirò subito dopo.",
+    "Fu il primo a superare le 27 vittorie di Stewart, nel 1987."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": "Il Professore"
+  },
+  {
+   "id": "hof-senna",
+   "nome": "Ayrton",
+   "cognome": "Senna",
+   "naz": "🇧🇷",
+   "nato": "1960-03-21",
+   "luogo": "San Paolo",
+   "morto": "1994-05-01",
+   "anni": "1984–1994",
+   "moto": "Toleman, Lotus, McLaren, Williams",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1988,
+      1990,
+      1991
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 161,
+    "vittorie": 41,
+    "podi": 80,
+    "pole": 65,
+    "giriVeloci": 19
+   },
+   "regina": null,
+   "bio": "Tre titoli con la McLaren e una velocità sul giro secco mai vista: 65 pole position. Morì a Imola nel 1994 mentre era in testa al GP di San Marino.",
+   "curiosita": [
+    "Ha vinto sei volte a Monaco, record.",
+    "Ai funerali in Brasile parteciparono circa tre milioni di persone."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": "Magic"
+  },
+  {
+   "id": "hof-mansell",
+   "nome": "Nigel",
+   "cognome": "Mansell",
+   "naz": "🇬🇧",
+   "nato": "1953-08-08",
+   "luogo": "Upton-upon-Severn",
+   "morto": null,
+   "anni": "1980–1992, 1994–1995",
+   "moto": "Lotus, Williams, Ferrari, McLaren",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1992
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 187,
+    "vittorie": 31,
+    "podi": 59,
+    "pole": 32,
+    "giriVeloci": 30
+   },
+   "regina": null,
+   "bio": "Campione 1992 con la Williams dominante, nove vittorie. I tifosi Ferrari lo chiamavano «il Leone».",
+   "curiosita": [
+    "Nel 1993 vinse al debutto anche il campionato americano IndyCar."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": "Il Leone"
+  },
+  {
+   "id": "hof-schumacher",
+   "nome": "Michael",
+   "cognome": "Schumacher",
+   "naz": "🇩🇪",
+   "nato": "1969-01-03",
+   "luogo": "Hürth",
+   "morto": null,
+   "anni": "1991–2006, 2010–2012",
+   "moto": "Jordan, Benetton, Ferrari, Mercedes",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1994,
+      1995,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 306,
+    "vittorie": 91,
+    "podi": 155,
+    "pole": 68,
+    "giriVeloci": 77
+   },
+   "regina": null,
+   "bio": "Sette titoli: due con la Benetton e cinque consecutivi con la Ferrari, con cui riportò il titolo a Maranello dopo 21 anni.",
+   "curiosita": [
+    "Nel 2002 salì sul podio in tutte le gare.",
+    "Nel 1997 fu escluso dalla classifica per la manovra su Villeneuve a Jerez.",
+    "Dal grave incidente sugli sci del 2013 non è più apparso in pubblico."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": "Schumi"
+  },
+  {
+   "id": "hof-dhill",
+   "nome": "Damon",
+   "cognome": "Hill",
+   "naz": "🇬🇧",
+   "nato": "1960-09-17",
+   "luogo": "Londra",
+   "morto": null,
+   "anni": "1992–1999",
+   "moto": "Brabham, Williams, Arrows, Jordan",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1996
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 115,
+    "vittorie": 22,
+    "podi": 42,
+    "pole": 20,
+    "giriVeloci": 19
+   },
+   "regina": null,
+   "bio": "Campione 1996 con la Williams. Figlio di Graham, sono stati la prima coppia padre-figlio iridata.",
+   "curiosita": [
+    "Nel 1998 diede alla Jordan la prima vittoria, a Spa."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-jvilleneuve",
+   "nome": "Jacques",
+   "cognome": "Villeneuve",
+   "naz": "🇨🇦",
+   "nato": "1971-04-09",
+   "luogo": "Saint-Jean-sur-Richelieu",
+   "morto": null,
+   "anni": "1996–2006",
+   "moto": "Williams, BAR, Renault, Sauber, BMW Sauber",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1997
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 163,
+    "vittorie": 11,
+    "podi": 23,
+    "pole": 13,
+    "giriVeloci": 9
+   },
+   "regina": null,
+   "bio": "Campione 1997 con la Williams dopo il duello con Schumacher a Jerez. Primo canadese iridato.",
+   "curiosita": [
+    "Prima della F1 aveva vinto la 500 Miglia di Indianapolis e il titolo IndyCar nel 1995.",
+    "Al debutto nel 1996 vinse quattro gare e fu secondo."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-hakkinen",
+   "nome": "Mika",
+   "cognome": "Häkkinen",
+   "naz": "🇫🇮",
+   "nato": "1968-09-28",
+   "luogo": "Vantaa",
+   "morto": null,
+   "anni": "1991–2001",
+   "moto": "Lotus, McLaren",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      1998,
+      1999
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 161,
+    "vittorie": 20,
+    "podi": 51,
+    "pole": 26,
+    "giriVeloci": 25
+   },
+   "regina": null,
+   "bio": "Due titoli con la McLaren nella grande sfida con Schumacher. Tornò al top dopo il gravissimo incidente di Adelaide nel 1995.",
+   "curiosita": [],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": "Il finlandese volante"
+  },
+  {
+   "id": "hof-raikkonen",
+   "nome": "Kimi",
+   "cognome": "Räikkönen",
+   "naz": "🇫🇮",
+   "nato": "1979-10-17",
+   "luogo": "Espoo",
+   "morto": null,
+   "anni": "2001–2009, 2012–2021",
+   "moto": "Sauber, McLaren, Ferrari, Lotus, Alfa Romeo",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      2007
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 349,
+    "vittorie": 21,
+    "podi": 103,
+    "pole": 18,
+    "giriVeloci": 46
+   },
+   "regina": null,
+   "bio": "Campione 2007 con la Ferrari, rimontando 17 punti nelle ultime due gare: fu l'ultimo titolo piloti della Ferrari.",
+   "curiosita": [
+    "Al ritiro nel 2021 era il pilota con più Gran Premi disputati."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": "Iceman"
+  },
+  {
+   "id": "hof-button",
+   "nome": "Jenson",
+   "cognome": "Button",
+   "naz": "🇬🇧",
+   "nato": "1980-01-19",
+   "luogo": "Frome",
+   "morto": null,
+   "anni": "2000–2017",
+   "moto": "Williams, Benetton, Renault, BAR, Honda, Brawn, McLaren",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      2009
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 306,
+    "vittorie": 15,
+    "podi": 50,
+    "pole": 8,
+    "giriVeloci": 8
+   },
+   "regina": null,
+   "bio": "Campione 2009 con la Brawn GP, la squadra nata dalle ceneri della Honda e vincente al primo anno.",
+   "curiosita": [
+    "Vinse il GP del Canada 2011 dopo essere stato ultimo in gara."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-vettel",
+   "nome": "Sebastian",
+   "cognome": "Vettel",
+   "naz": "🇩🇪",
+   "nato": "1987-07-03",
+   "luogo": "Heppenheim",
+   "morto": null,
+   "anni": "2007–2022",
+   "moto": "BMW Sauber, Toro Rosso, Red Bull, Ferrari, Aston Martin",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      2010,
+      2011,
+      2012,
+      2013
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 299,
+    "vittorie": 53,
+    "podi": 122,
+    "pole": 57,
+    "giriVeloci": 38
+   },
+   "regina": null,
+   "bio": "Quattro titoli consecutivi con la Red Bull. Il più giovane campione della storia, a 23 anni.",
+   "curiosita": [
+    "Vinse il primo GP a Monza 2008 con la Toro Rosso, allora il più giovane vincitore.",
+    "Nel 2013 vinse nove gare di fila."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  },
+  {
+   "id": "hof-nrosberg",
+   "nome": "Nico",
+   "cognome": "Rosberg",
+   "naz": "🇩🇪",
+   "nato": "1985-06-27",
+   "luogo": "Wiesbaden",
+   "morto": null,
+   "anni": "2006–2016",
+   "moto": "Williams, Mercedes",
+   "titoli": [
+    {
+     "classe": "Formula 1",
+     "anni": [
+      2016
+     ]
+    }
+   ],
+   "numeri": {
+    "gare": 206,
+    "vittorie": 23,
+    "podi": 57,
+    "pole": 30,
+    "giriVeloci": 20
+   },
+   "regina": null,
+   "bio": "Campione 2016 con la Mercedes, battendo Hamilton, e ritirato cinque giorni dopo.",
+   "curiosita": [
+    "Con il padre Keke forma la seconda coppia padre-figlio iridata, dopo Graham e Damon Hill."
+   ],
+   "legend": null,
+   "hallOfFame": false,
+   "soprannome": null
+  }
+ ]
+}

@@ -23,7 +23,7 @@ const memoria = {
 const stato = {
   serie: 'motogp', vista: 'tv8', preferiti: new Set(), visti: new Set(), antiSpoiler: { motogp: true, f1: true }, soloTv8: true,
   griglieViste: new Set(), ultimaVisitaNotizie: 0,
-  tabella: 'piloti', filtro: 'tutte', scoperte: new Set(), aperto: null   // queste valgono solo per la sessione
+  tabella: 'piloti', filtro: 'tutte', scoperte: new Set(), aperto: null, pilotiVista: 'attivi', hofFiltro: 'tutti'   // queste valgono solo per la sessione
 };
 let chiavePreferenze = 'pref-locale';
 const preferenzeAttuali = () => ({
@@ -72,14 +72,15 @@ function quandoRelativo(iso) {
 }
 
 /* ---------- Dati ---------- */
-const D = { palinsesto: { weekend: [] }, notizie: { articoli: [] }, piloti: [], classifica: {}, calendario: {}, risultati: {}, circuiti: {}, griglie: {}, test: {}, mappe: {} };
+const D = { palinsesto: { weekend: [] }, notizie: { articoli: [] }, piloti: [], classifica: {}, calendario: {}, risultati: {}, circuiti: {}, griglie: {}, test: {}, mappe: {}, hof: {} };
 async function carica(nome) {
   const r = await fetch(`data/${nome}.json`, { cache: 'no-cache' });
   if (!r.ok) throw new Error(nome);
   return r.json();
 }
 async function caricaTutto() {
-  const [p, n, pi, c, ca, ri, ci, gr, te, ma] = await Promise.allSettled(['palinsesto', 'notizie', 'piloti', 'classifica', 'calendario', 'risultati', 'circuiti', 'griglie', 'test', 'mappe'].map(carica));
+  const [p, n, pi, c, ca, ri, ci, gr, te, ma, hf] = await Promise.allSettled(['palinsesto', 'notizie', 'piloti', 'classifica', 'calendario', 'risultati', 'circuiti', 'griglie', 'test', 'mappe', 'hall-of-fame'].map(carica));
+  if (hf.status === 'fulfilled') D.hof = hf.value;
   if (ma.status === 'fulfilled') D.mappe = ma.value;
   if (te.status === 'fulfilled') D.test = te.value;
   if (ci.status === 'fulfilled') D.circuiti = ci.value.circuiti || {};
@@ -264,6 +265,16 @@ function schedaCircuito(gc) {
     ${rec ? `<p class="circ-record">Record sul giro in gara: <strong>${esc(rec.tempo)}</strong>, ${esc(rec.chi)} (${rec.anno})</p>` : ''}
   </section>`;
 }
+// Ultime notizie che parlano del circuito o del suo GP (coperte dall'anti-spoiler come nella scheda Notizie)
+function notizieCircuito(c) {
+  if (!c.cerca) return '';
+  let rx; try { rx = new RegExp(c.cerca, 'i'); } catch { return ''; }
+  const sue = D.notizie.articoli.filter(a => rx.test(a.titolo + ' ' + (a.sommario || ''))).slice(0, 6);
+  if (!sue.length) return '';
+  return `<h3 class="pal-titolo">Ultime notizie</h3><div class="pilota-notizie trac-notizie">${sue.map(a => copertaNotizia(a)
+    ? `<span><small>Notizia coperta dall'anti-spoiler (${esc(a.fonte)}, ${quandoRelativo(a.data)})</small></span>`
+    : `<a href="${esc(urlSicuro(a.link))}" target="_blank" rel="noopener noreferrer">${esc(a.titolo)} <small>${esc(a.fonte)}, ${quandoRelativo(a.data)}</small></a>`).join('')}</div>`;
+}
 // Scheda completa del tracciato: mappa grande e tutti i record noti (prima la serie scelta, poi l'altra)
 function apriTracciato(id) {
   const c = D.circuiti[id];
@@ -289,7 +300,12 @@ function apriTracciato(id) {
     ${mappa ? `<figure class="trac-mappa"><img src="${esc(mappa.immagine)}" alt="Mappa del tracciato di ${esc(c.nome)}"><figcaption>Mappa: <a href="${esc(urlSicuro(mappa.pagina))}" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a></figcaption></figure>`
       : '<p class="nota piccola">Mappa del tracciato non ancora disponibile: arriva con il prossimo aggiornamento dei dati.</p>'}
     <div class="pal-numeri">${dato(c.lunghezza?.toLocaleString('it-IT', { minimumFractionDigits: 3 }), 'km al giro')}${dato(c.curve, 'curve')}${dato(c.rettilineo?.toLocaleString('it-IT'), 'km di rettilineo')}${dato(c.dal, 'inaugurato')}</div>
+    ${c.storia ? `<h3 class="pal-titolo">La storia</h3><p class="hof-bio">${esc(c.storia)}</p>` : ''}
+    ${c.debutto ? `<p class="nota piccola">Primo GP mondiale: ${Object.entries(c.debutto).map(([se, a]) => `${nomeSerie[se]} ${a}`).join(', ')}.</p>` : ''}
+    ${c.curveCelebri?.length ? `<h3 class="pal-titolo">Curve da conoscere</h3><ul class="hof-curiosita">${c.curveCelebri.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
+    ${c.curiosita?.length ? `<h3 class="pal-titolo">Curiosità</h3><ul class="hof-curiosita">${c.curiosita.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
     ${rec || '<p class="nota piccola">Nessun record registrato.</p>'}
+    ${notizieCircuito(c)}
     <p class="nota piccola">Fonte: Wikipedia. I record non tengono conto del weekend in corso.</p>`;
   $('#tracciato').showModal();
 }
@@ -317,6 +333,67 @@ function bloccoGriglia(w) {
   return `<section class="griglia"><h2 class="sezione-titolo">Griglia di partenza</h2>
     <ol class="file">${file.map((f, i) => `<li class="fila"><span class="fila-n">${i + 1}ª fila</span><ol class="fila-caselle per${perFila}">${f.map(casella).join('')}</ol></li>`).join('')}</ol>
     <p class="nota piccola">Griglia da <a href="${esc(urlSicuro(g.url))}" target="_blank" rel="noopener noreferrer">${esc(g.fonte)}</a>; eventuali penalità possono cambiarla.</p></section>`;
+}
+
+/* ---------- Hall of Fame: i grandi piloti ritirati ---------- */
+const numero = v => v == null ? '–' : v.toLocaleString('it-IT');
+const totTitoli = h => h.titoli.reduce((n, t) => n + t.anni.length, 0);
+const titoliRegina = h => h.titoli.filter(t => /^(500cc|MotoGP|Formula 1)$/.test(t.classe)).reduce((n, t) => n + t.anni.length, 0);
+function disegnaHof() {
+  const serie = stato.serie;
+  let elenco = [...(D.hof?.[serie] || [])];
+  if (!elenco.length) return '<div class="vuoto"><strong>Hall of Fame non disponibile</strong>I dati arrivano con il prossimo aggiornamento.</div>';
+  const filtri = serie === 'motogp'
+    ? [['tutti', 'Tutti'], ['legend', 'MotoGP Legends'], ['hof', 'Hall of Fame 2025'], ['regina', 'Campioni classe regina']]
+    : [['tutti', 'Tutti'], ['campioni', 'Campioni del mondo']];
+  if (!filtri.some(f => f[0] === stato.hofFiltro)) stato.hofFiltro = 'tutti';
+  const f = stato.hofFiltro;
+  elenco = elenco.filter(h => f === 'tutti' || (f === 'legend' && h.legend) || (f === 'hof' && h.hallOfFame) || (f === 'regina' && titoliRegina(h)) || (f === 'campioni' && h.titoli.length));
+  elenco.sort((a, b) => titoliRegina(b) - titoliRegina(a) || totTitoli(b) - totTitoli(a) || (b.numeri.vittorie || 0) - (a.numeri.vittorie || 0));
+  let html = `<div class="filtri" role="group" aria-label="Filtra">${filtri.map(([k, t]) => `<button type="button" data-hof-filtro="${k}" aria-pressed="${f === k}">${t}</button>`).join('')}</div>`;
+  html += `<p class="nota piccola">${serie === 'motogp' ? 'Le MotoGP Legends scelte dalla FIM e dalla Dorna, la nuova Hall of Fame del 2025 e altri grandi ritirati.' : 'I campioni del mondo ritirati e alcuni grandi che il titolo non lo hanno mai vinto.'} Tocca un nome per la scheda.</p>`;
+  html += `<ul class="lista-notizie hof">${elenco.map(h => rigaHof(h, serie)).join('')}</ul>`;
+  html += `<p class="nota piccola">Dati da Wikipedia (ottobre 2026). Per la moto i numeri sono di carriera in tutte le classi; dove serve c'è il dettaglio della classe regina. «–» vuol dire dato non registrato.</p>`;
+  return html;
+}
+function rigaHof(h, serie) {
+  const aperto = stato.aperto === h.id;
+  const tt = totTitoli(h);
+  const foto = fotoPilota({ id: h.id, nome: h.nome.replace(/«.*»/, '').trim(), cognome: h.cognome, serie });
+  const badge = [h.legend ? `<em class="hof-badge">Legend${h.legend >= 2026 ? ' 2026' : ''}</em>` : '', h.hallOfFame ? '<em class="hof-badge oro">Hall of Fame</em>' : ''].join('');
+  const testa = `<li class="pilota hof-pilota"><div class="pilota-riga senza-punti">
+      ${foto ? `<img class="hof-foto" src="${esc(urlSicuro(foto))}" alt="" loading="lazy">` : `<span class="piastra vuota hof-iniziali">${esc(h.cognome.slice(0, 2).toUpperCase())}</span>`}
+      <button class="chi" data-apri="${esc(h.id)}" aria-expanded="${aperto}">
+        <strong><b>${esc(h.cognome)}</b></strong><small>${h.naz} ${esc(h.nome)} · ${tt ? `${tt} ${tt === 1 ? 'titolo' : 'titoli'}` : 'nessun titolo'} · ${numero(h.numeri.vittorie)} vittorie</small>
+        <span class="hof-badges">${badge}</span>
+      </button><span></span>
+    </div>`;
+  if (!aperto) return testa + '</li>';
+  const anno = d => d ? d.slice(0, 4) : '';
+  const fData = d => d ? new Intl.DateTimeFormat('it-IT', { day: 'numeric', month: 'long', year: 'numeric' }).format(new Date(d + 'T12:00:00Z')) : '';
+  const vita = `Nato il ${esc(fData(h.nato))} a ${esc(h.luogo)}${h.morto ? `, morto il ${esc(fData(h.morto))}` : ''}.`;
+  const n = h.numeri, r = h.regina;
+  const reg = r ? `<p class="nota piccola hof-regina">Nella classe regina (${serie === 'motogp' ? '500 e MotoGP' : 'F1'}): ${[r.gare != null && `${r.gare} gare`, r.vittorie != null && `${r.vittorie} vittorie`, r.podi != null && `${r.podi} podi`, r.pole != null && `${r.pole} pole`].filter(Boolean).join(', ')}.</p>` : '';
+  const titoli = h.titoli.length
+    ? `<div class="hof-titoli">${h.titoli.map(t => `<div><strong>${esc(t.classe)}</strong><span>${t.anni.map(a => `<span class="titolo">${a}</span>`).join('')}</span></div>`).join('')}</div>`
+    : '<p class="nota piccola">Nessun titolo mondiale.</p>';
+  return testa + `<div class="palmares hof-scheda">
+      ${h.soprannome ? `<p class="hof-sopr">«${esc(h.soprannome)}»</p>` : ''}
+      <p class="nota piccola">${vita} In attività ${esc(h.anni)}. ${serie === 'motogp' ? 'Moto' : 'Squadre'}: ${esc(h.moto)}.</p>
+      <div class="pal-numeri hof-numeri">
+        <div><b>${tt}</b><small>titoli</small></div>
+        <div><b>${numero(n.vittorie)}</b><small>vittorie</small></div>
+        <div><b>${numero(n.podi)}</b><small>podi</small></div>
+        <div><b>${numero(n.pole)}</b><small>pole</small></div>
+        <div><b>${numero(n.gare)}</b><small>gare</small></div>
+        <div><b>${numero(n.giriVeloci)}</b><small>giri veloci</small></div>
+      </div>
+      ${reg}
+      <h3 class="pal-titolo">Titoli mondiali</h3>${titoli}
+      <h3 class="pal-titolo">Biografia</h3><p class="hof-bio">${esc(h.bio)}</p>
+      ${h.curiosita.length ? `<h3 class="pal-titolo">Da sapere</h3><ul class="hof-curiosita">${h.curiosita.map(c => `<li>${esc(c)}</li>`).join('')}</ul>` : ''}
+      ${h.legend ? `<p class="nota piccola">${h.legend >= 2026 ? 'Annunciato tra le MotoGP Legends nel 2025, ingresso nel 2026.' : `MotoGP Legend dal ${h.legend}.`}${h.hallOfFame ? ' Nella Hall of Fame MotoGP dal 2025.' : ''}</p>` : h.hallOfFame ? '<p class="nota piccola">Nella Hall of Fame MotoGP dal 2025.</p>' : ''}
+    </div></li>`;
 }
 
 /* ---------- Calcolatore «campione se…» ---------- */
@@ -651,7 +728,10 @@ function disegnaPiloti() {
   const preferiti = tutti.filter(p => stato.preferiti.has(p.id));
   // raggruppo per squadra, nell'ordine della classifica squadre quando c'è
   const squadre = [...new Set(tutti.map(p => p.team))];
-  let html = avvisoSpoiler();
+  let html = `<div class="commuta" role="group" aria-label="Quali piloti">
+    <button type="button" data-pvista="attivi" aria-pressed="${stato.pilotiVista === 'attivi'}">In attività</button>
+    <button type="button" data-pvista="hof" aria-pressed="${stato.pilotiVista === 'hof'}">Hall of Fame</button></div>`;
+  if (stato.pilotiVista === 'hof') { el.innerHTML = html + disegnaHof(); return; }
   if (preferiti.length) html += `<h2 class="sezione-titolo">I tuoi piloti</h2><ul class="lista-notizie">${preferiti.map(rigaPilota).join('')}</ul>`;
   else html += `<p class="nota">Tocca la stella per seguire un pilota: le sue notizie finiscono nel filtro «I miei piloti».</p>`;
   for (const t of squadre) {
@@ -852,6 +932,8 @@ document.addEventListener('click', e => {
   const t = e.target.closest('button, a[data-scopri]');
   if (!t) return;
   const d = t.dataset;
+  if (d.pvista) { stato.pilotiVista = d.pvista; stato.aperto = null; return disegna(); }
+  if (d.hofFiltro) { stato.hofFiltro = d.hofFiltro; return disegna(); }
   if (d.spoiler) { stato.antiSpoiler[d.spoiler] = !stato.antiSpoiler[d.spoiler]; salva(); return disegna(); }
   if (d.serieScelta) return cambiaSerie(d.serieScelta);
   if (d.serie) return cambiaSerie(d.serie);

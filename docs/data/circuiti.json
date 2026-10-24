@@ -1,5 +1,5 @@
 {
- "_istruzioni": "Schede dei circuiti (fonti: Wikipedia, ottobre 2026). 'lunghezza' e 'rettilineo' in km; 'record' è il record sul giro in gara per campionato; 'giroQualifica' il giro più veloce di sempre in qualifica (se noto); 'albo' chi ha vinto di più nella classe regina e il vincitore dell'ultima edizione. 'wiki' è il titolo della pagina Wikipedia inglese da cui si prende la mappa del tracciato (puoi forzarla con 'mappaFile': nome del file su Wikimedia Commons). lat/lon servono per il meteo.",
+ "_istruzioni": "Schede dei circuiti (fonti: Wikipedia, ottobre 2026). 'lunghezza' e 'rettilineo' in km; 'record' è il record sul giro in gara per campionato; 'giroQualifica' il giro più veloce di sempre in qualifica (se noto); 'albo' chi ha vinto di più nella classe regina e il vincitore dell'ultima edizione. 'wiki' è il titolo della pagina Wikipedia inglese da cui si prende la mappa del tracciato (puoi forzarla con 'mappaFile': nome del file su Wikimedia Commons). lat/lon servono per il meteo. 'storia', 'curveCelebri' e 'curiosita' sono i testi della scheda; 'debutto' è l'anno del primo GP mondiale per serie; 'cerca' è l'espressione con cui si cercano le notizie su quel GP.",
  "circuiti": {
   "phillip-island": {
    "nome": "Phillip Island Grand Prix Circuit",
@@ -27,7 +27,24 @@
       "anno": 2025
      }
     }
-   }
+   },
+   "cerca": "phillip island|gp (d'|dell')?australia|australian gp",
+   "debutto": {
+    "motogp": 1989
+   },
+   "storia": "Affacciato sullo Stretto di Bass, sull'isola di Phillip Island a sud di Melbourne, è uno dei tracciati più veloci e amati del calendario. Nato nel 1956 come circuito stradale, ospita il Motomondiale nel 1989–1990 e poi ininterrottamente dal 1997.",
+   "curveCelebri": [
+    "Doohan Corner (curva 1)",
+    "Southern Loop",
+    "Stoner Corner (curva 3)",
+    "Siberia",
+    "Lukey Heights"
+   ],
+   "curiosita": [
+    "Il vento dell'oceano e i gabbiani sul tracciato sono un classico: più di un pilota ha colpito un uccello in gara.",
+    "Il rettilineo di partenza si chiama Gardner Straight, in onore di Wayne Gardner.",
+    "Le curve veloci a sinistra mettono a dura prova il lato sinistro delle gomme."
+   ]
   },
   "sepang": {
    "nome": "Sepang International Circuit",
@@ -60,7 +77,22 @@
       "anno": 2025
      }
     }
-   }
+   },
+   "cerca": "sepang|malesia|malaysia",
+   "debutto": {
+    "motogp": 1999,
+    "f1": 1999
+   },
+   "storia": "Disegnato da Hermann Tilke e inaugurato nel 1999, fu il primo dei moderni circuiti asiatici. Ha ospitato la Formula 1 dal 1999 al 2017 e la MotoGP dal 1999 a oggi.",
+   "curveCelebri": [
+    "Curva 1-2 (tornante a destra)",
+    "Curva 15 (tornante prima del traguardo)"
+   ],
+   "curiosita": [
+    "Due lunghi rettilinei paralleli separati dal tornante finale.",
+    "Caldo e umidità sono estremi e i temporali tropicali possono arrivare all'improvviso.",
+    "È anche la pista dei test invernali MotoGP."
+   ]
   },
   "lusail": {
    "nome": "Lusail International Circuit",
@@ -108,7 +140,21 @@
       "anno": 2025
      }
     }
-   }
+   },
+   "cerca": "lusail|losail|qatar",
+   "debutto": {
+    "motogp": 2004,
+    "f1": 2021
+   },
+   "storia": "Costruito nel deserto vicino a Doha e inaugurato nel 2004, è illuminato da migliaia di riflettori. La Formula 1 ci è arrivata nel 2021 e dal 2023 è fissa in calendario.",
+   "curveCelebri": [
+    "Curva 1 in fondo al rettilineo di oltre 1 km",
+    "Curve veloci 12-13-14"
+   ],
+   "curiosita": [
+    "Nel 2008 ha ospitato la prima gara notturna della storia della MotoGP.",
+    "La sabbia portata dal vento rende l'aderenza molto variabile, soprattutto all'inizio del weekend."
+   ]
   },
   "portimao": {
    "nome": "Autódromo Internacional do Algarve",
@@ -141,7 +187,20 @@
       "anno": 2025
      }
     }
-   }
+   },
+   "cerca": "portim[aã]o|algarve|portogallo|portugal",
+   "debutto": {
+    "motogp": 2020,
+    "f1": 2020
+   },
+   "storia": "Inaugurato nel 2008 vicino a Portimão, in Algarve, è famoso per i saliscendi e i dossi ciechi che lo fanno sembrare un ottovolante. MotoGP dal 2020, Formula 1 nel 2020 e 2021.",
+   "curveCelebri": [
+    "Curva 1 in discesa dopo il dosso del traguardo",
+    "Ultima curva veloce in discesa"
+   ],
+   "curiosita": [
+    "Molte curve si affrontano senza vederne l'uscita, dietro un dosso."
+   ]
   },
   "valencia": {
    "nome": "Circuit Ricardo Tormo",
@@ -169,7 +228,24 @@
       "anno": 2025
      }
     }
-   }
+   },
+   "cerca": "valencia|ricardo tormo|cheste",
+   "debutto": {
+    "motogp": 1999
+   },
+   "storia": "Il Circuit Ricardo Tormo di Cheste, vicino a Valencia, è dedicato al due volte campione del mondo della 50 cc. Aperto nel 1999, è da anni la gara finale della MotoGP.",
+   "curveCelebri": [
+    "Curva Aspar (1)",
+    "Curva Doohan (2)",
+    "Curva Ángel Nieto (6)",
+    "Curva Champi Herreros (12)",
+    "Curva Adrián Campos (14)"
+   ],
+   "curiosita": [
+    "Il pubblico vede quasi tutta la pista dalle tribune, che formano uno stadio attorno al tracciato.",
+    "Si corre in senso antiorario con molte curve a sinistra.",
+    "Spesso è qui che si decide il Mondiale, e il martedì dopo cominciano i test della stagione successiva."
+   ]
   },
   "austin": {
    "nome": "Circuit of the Americas",
@@ -204,7 +280,23 @@
       "anno": 2025
      }
     }
-   }
+   },
+   "cerca": "austin|cota|circuit of the americas|stati uniti|usa",
+   "debutto": {
+    "f1": 2012,
+    "motogp": 2013
+   },
+   "storia": "Il Circuit of the Americas di Austin, in Texas, è stato inaugurato nel 2012. L'hanno disegnato Hermann Tilke e Tavo Hellmund con la consulenza di Kevin Schwantz, prendendo spunto da curve famose di altri circuiti.",
+   "curveCelebri": [
+    "Curva 1 in salita ripida",
+    "Le esse veloci ispirate a Silverstone",
+    "Lo stadio delle curve 12-15"
+   ],
+   "curiosita": [
+    "La salita verso la curva 1 supera i 40 metri di dislivello.",
+    "Le esse del primo settore si ispirano a Maggotts e Becketts di Silverstone.",
+    "Ospita sia la Formula 1 sia la MotoGP."
+   ]
   },
   "citta-del-messico": {
    "nome": "Autódromo Hermanos Rodríguez",
@@ -232,7 +324,21 @@
       "anno": 2025
      }
     }
-   }
+   },
+   "cerca": "messico|mexico|hermanos rodr[ií]guez",
+   "debutto": {
+    "f1": 1963
+   },
+   "storia": "Intitolato ai fratelli Ricardo e Pedro Rodríguez, è a oltre 2.200 metri di quota, la più alta del calendario. La Formula 1 ci ha corso negli anni Sessanta, tra il 1986 e il 1992 e di nuovo dal 2015.",
+   "curveCelebri": [
+    "Foro Sol (lo stadio)",
+    "Esse veloci del secondo settore",
+    "La vecchia Peraltada"
+   ],
+   "curiosita": [
+    "L'aria rarefatta riduce la deportanza e il raffreddamento: si usano ali da Monaco ma si va velocissimi.",
+    "Il passaggio dentro lo stadio di baseball Foro Sol è uno dei momenti più spettacolari della stagione."
+   ]
   },
   "interlagos": {
    "nome": "Autódromo José Carlos Pace (Interlagos)",
@@ -260,7 +366,23 @@
       "anno": 2025
      }
     }
-   }
+   },
+   "cerca": "interlagos|brasile|brasil|san paolo|são paulo|sao paulo",
+   "debutto": {
+    "f1": 1973
+   },
+   "storia": "L'Autódromo José Carlos Pace, per tutti Interlagos, è a San Paolo tra due laghi artificiali. Ospita il GP del Brasile dal 1973 (con una pausa negli anni Ottanta) ed è uno dei circuiti più amati dai piloti.",
+   "curveCelebri": [
+    "S di Senna",
+    "Curva do Sol",
+    "Descida do Lago",
+    "Junção"
+   ],
+   "curiosita": [
+    "Si corre in senso antiorario.",
+    "Il nome ufficiale ricorda José Carlos Pace, pilota brasiliano morto nel 1977.",
+    "La pioggia improvvisa ha deciso molte edizioni e qualche Mondiale."
+   ]
   },
   "las-vegas": {
    "nome": "Las Vegas Strip Circuit",
@@ -288,7 +410,20 @@
       "anno": 2025
      }
     }
-   }
+   },
+   "cerca": "las vegas|vegas",
+   "debutto": {
+    "f1": 2023
+   },
+   "storia": "Circuito cittadino che corre sulla Strip di Las Vegas, tra casinò e hotel. Si corre di sabato sera, ora locale, ed è entrato in calendario nel 2023.",
+   "curveCelebri": [
+    "Il passaggio davanti alla Sphere",
+    "Il rettilineo della Strip"
+   ],
+   "curiosita": [
+    "Il rettilineo lungo Las Vegas Boulevard supera i 1,9 km: tra i tratti più veloci della stagione.",
+    "Le temperature notturne di novembre sono basse e mettono in difficoltà le gomme."
+   ]
   },
   "yas-marina": {
    "nome": "Yas Marina Circuit",
@@ -323,6 +458,20 @@
     "Circuit Yas-Island.svg",
     "Yas Marina Circuit (2021).svg",
     "Circuit Yas Island.svg"
+   ],
+   "cerca": "abu dhabi|yas marina|yas",
+   "debutto": {
+    "f1": 2009
+   },
+   "storia": "Costruito sull'isola di Yas ad Abu Dhabi e inaugurato nel 2009, chiude tradizionalmente la stagione di Formula 1 con una gara che parte al tramonto e finisce in notturna. Nel 2021 il tracciato è stato modificato per renderlo più veloce.",
+   "curveCelebri": [
+    "Il passaggio sotto l'hotel sospeso sulla pista",
+    "Tornante della curva 5"
+   ],
+   "curiosita": [
+    "L'uscita dai box passa in un tunnel sotto la pista.",
+    "Nel 2021 qui si è deciso il Mondiale tra Verstappen e Hamilton all'ultimo giro.",
+    "La mappa mostra il tracciato prima delle modifiche del 2021, con la versione attuale in grigio."
    ]
   }
  }
