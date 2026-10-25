@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-25T21:15:35.651Z",
+  "aggiornato": "2026-10-25T21:51:37.162Z",
   "motogp": {
     "fonte": "Motosprint",
     "gare": [
@@ -347,6 +347,17 @@
           "max-verstappen",
           "charles-leclerc",
           "kimi-antonelli"
+        ]
+      },
+      {
+        "url": "https://www.autosprint.it/live/formula-1/gran-premio-degli-stati-uniti-damerica-900065",
+        "gp": "Gran Premio degli Stati Uniti d'America",
+        "circuito": "Circuit of the Americas",
+        "data": "2026-10-25",
+        "podio": [
+          "kimi-antonelli",
+          "charles-leclerc",
+          "max-verstappen"
         ]
       }
     ]

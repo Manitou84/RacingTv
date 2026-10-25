@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-25T21:15:35.651Z",
+  "aggiornato": "2026-10-25T21:51:37.162Z",
   "arrivi": {
     "motogp-gp-australia-2026": {
       "Sprint": {
@@ -8,7 +8,7 @@
         "sessione": "Sprint",
         "fonte": "OA Sport",
         "url": "https://www.oasport.it/2026/10/ordine-darrivo-motogp-sprint-gp-australia-2026-marc-marquez-vince-e-torna-in-vetta-al-mondiale-4-bezzecchi/",
-        "aggiornato": "2026-10-25T21:15:35.651Z",
+        "aggiornato": "2026-10-25T21:51:37.162Z",
         "classificati": [
           {
             "pos": 1,
@@ -123,6 +123,129 @@
             "nome": "Francesco Bagnaia"
           }
         ]
+      }
+    },
+    "f1-gp-usa-2026": {
+      "Gara": {
+        "serie": "f1",
+        "gp": "GP USA",
+        "sessione": "Gara",
+        "fonte": "OA Sport",
+        "url": "https://www.oasport.it/2026/10/ordine-darrivo-f1-gp-usa-2026-risultati-e-classifica-gara/",
+        "aggiornato": "2026-10-25T21:51:37.162Z",
+        "classificati": [
+          {
+            "pos": 1,
+            "id": "f1-antonelli",
+            "nome": "Andrea Kimi Antonelli"
+          },
+          {
+            "pos": 2,
+            "id": "f1-leclerc",
+            "nome": "Charles Leclerc"
+          },
+          {
+            "pos": 3,
+            "id": "f1-verstappen",
+            "nome": "Max Verstappen"
+          },
+          {
+            "pos": 4,
+            "id": "f1-hamilton",
+            "nome": "Lewis Hamilton"
+          },
+          {
+            "pos": 5,
+            "id": "f1-norris",
+            "nome": "Lando Norris"
+          },
+          {
+            "pos": 6,
+            "id": "f1-hadjar",
+            "nome": "Isack Hadjar"
+          },
+          {
+            "pos": 7,
+            "id": "f1-piastri",
+            "nome": "Oscar Piastri"
+          },
+          {
+            "pos": 8,
+            "id": "f1-russell",
+            "nome": "George Russell"
+          },
+          {
+            "pos": 9,
+            "id": "f1-lawson",
+            "nome": "Liam Lawson"
+          },
+          {
+            "pos": 10,
+            "id": "f1-gasly",
+            "nome": "Pierre Gasly"
+          },
+          {
+            "pos": 11,
+            "id": "f1-hulkenberg",
+            "nome": "Nico Hülkenberg"
+          },
+          {
+            "pos": 12,
+            "id": "f1-lindblad",
+            "nome": "Arvid Lindblad"
+          },
+          {
+            "pos": 13,
+            "id": "f1-bortoleto",
+            "nome": "Gabriel Bortoleto"
+          },
+          {
+            "pos": 14,
+            "id": "f1-ocon",
+            "nome": "Esteban Ocon"
+          },
+          {
+            "pos": 15,
+            "id": "f1-stroll",
+            "nome": "Lance Stroll"
+          },
+          {
+            "pos": 16,
+            "id": "f1-alonso",
+            "nome": "Fernando Alonso"
+          },
+          {
+            "pos": 17,
+            "id": "f1-albon",
+            "nome": "Alexander Albon"
+          },
+          {
+            "pos": 18,
+            "id": "f1-sainz",
+            "nome": "Carlos Sainz"
+          },
+          {
+            "pos": 19,
+            "id": "f1-perez",
+            "nome": "Sergio Pérez"
+          },
+          {
+            "pos": 20,
+            "id": "f1-bottas",
+            "nome": "Valtteri Bottas"
+          },
+          {
+            "pos": 21,
+            "id": "f1-colapinto",
+            "nome": "Franco Colapinto"
+          },
+          {
+            "pos": 22,
+            "id": "f1-bearman",
+            "nome": "Oliver Bearman"
+          }
+        ],
+        "ritirati": []
       }
     }
   }
