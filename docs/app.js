@@ -80,14 +80,17 @@ function quandoRelativo(iso) {
 }
 
 /* ---------- Dati ---------- */
-const D = { palinsesto: { weekend: [] }, notizie: { articoli: [] }, piloti: [], classifica: {}, calendario: {}, risultati: {}, circuiti: {}, griglie: {}, test: {}, mappe: {}, hof: {}, arrivi: {}, storico: {} };
+const D = { palinsesto: { weekend: [] }, notizie: { articoli: [] }, piloti: [], classifica: {}, calendario: {}, risultati: {}, circuiti: {}, griglie: {}, test: {}, mappe: {}, hof: {}, arrivi: {}, storico: {}, calendarioAnno: {} };
 async function carica(nome) {
   const r = await fetch(`data/${nome}.json`, { cache: 'no-cache' });
   if (!r.ok) throw new Error(nome);
   return r.json();
 }
 async function caricaTutto() {
-  const [p, n, pi, c, ca, ri, ci, gr, te, ma, hf, ar, st] = await Promise.allSettled(['palinsesto', 'notizie', 'piloti', 'classifica', 'calendario', 'risultati', 'circuiti', 'griglie', 'test', 'mappe', 'hall-of-fame', 'arrivi', 'storico'].map(carica));
+  const [p, n, pi, c, ca, ri, ci, gr, te, ma, hf, ar, st, cia] = await Promise.allSettled(['palinsesto', 'notizie', 'piloti', 'classifica', 'calendario', 'risultati', 'circuiti', 'griglie', 'test', 'mappe', 'hall-of-fame', 'arrivi', 'storico', 'circuiti-auto'].map(carica));
+  // schede automatiche (Wikipedia) completate da quelle scritte a mano, che hanno la precedenza
+  const auto = cia.status === 'fulfilled' ? cia.value.circuiti || {} : {};
+  for (const [k, v] of Object.entries(auto)) D.circuiti[k] = { ...v, ...(D.circuiti[k] || {}), record: { ...(v.record || {}), ...(D.circuiti[k]?.record || {}) } };
   if (st.status === 'fulfilled') D.storico = st.value.piloti || {};
   if (hf.status === 'fulfilled') D.hof = hf.value;
   if (ar.status === 'fulfilled') D.arrivi = ar.value.arrivi || {};
@@ -268,7 +271,7 @@ function bloccoMeteo(w, gc) {
   const dati = meteoCache[chiave];
   let corpo;
   if (dati === 'errore') corpo = '<p class="nota piccola">Previsioni non disponibili in questo momento.</p>';
-  else if (dati instanceof Promise || !dati) { dati?.then?.(() => { if (stato.vista === 'tv8') disegna(); }); corpo = '<p class="nota piccola">Carico le previsioni…</p>'; }
+  else if (dati instanceof Promise || !dati) { dati?.then?.(() => { if ($('#tracciato').open && ultimoTracciato) apriTracciato(...ultimoTracciato); else if (stato.vista === 'tv8') disegna(); }); corpo = '<p class="nota piccola">Carico le previsioni…</p>'; }
   else {
     const d = dati.daily;
     const giorniHtml = d.time.map((t, i) => { const m = meteoDa(d.weather_code[i]); return `<div class="meteo-giorno">
@@ -313,9 +316,10 @@ function notizieCircuito(c) {
     : `<a href="${esc(urlSicuro(a.link))}" target="_blank" rel="noopener noreferrer">${esc(a.titolo)} <small>${esc(a.fonte)}, ${quandoRelativo(a.data)}</small></a>`).join('')}</div>`;
 }
 // Scheda completa del tracciato: mappa grande e tutti i record noti (prima la serie scelta, poi l'altra)
-function apriTracciato(id) {
-  const c = D.circuiti[id];
-  if (!c) return;
+let ultimoTracciato = null;
+function apriTracciato(id, gara = null) {
+  ultimoTracciato = [id, gara];
+  const c = D.circuiti[id] || { nome: id, luogo: '' };
   const mappa = D.mappe[id];
   const nomeSerie = SERIE;
   const ordine = [stato.serie, ...ELENCO_SERIE.filter(x => x !== stato.serie)];
@@ -325,26 +329,33 @@ function apriTracciato(id) {
     const r = c.record?.[se], q = c.giroQualifica?.[se], a = c.albo?.[se];
     if (!r && !q && !a) continue;
     rec += `<h3 class="pal-titolo">${nomeSerie[se]}</h3><ul class="trac-record">
-      ${r ? riga('Record sul giro in gara', esc(r.tempo), `${esc(r.chi)}, ${r.anno}`) : ''}
+      ${r ? riga('Record sul giro in gara', esc(r.tempo), `${esc(r.chi)}${r.anno ? ', ' + r.anno : ''}`) : ''}
       ${q ? riga('Giro più veloce in qualifica', esc(q.tempo), `${esc(q.chi)}, ${q.anno}`) : ''}
       ${a ? riga('Più vittorie qui', `${a.vittorie}`, esc(a.piuVittorie) + (se === 'motogp' ? ' (classe regina)' : '')) : ''}
       ${a?.ultimo ? riga(`Vincitore ${a.ultimo.anno}`, esc(a.ultimo.chi), '') : ''}
     </ul>`;
   }
   const dato = (v, t) => v == null ? '' : `<div><b>${v}</b><small>${t}</small></div>`;
+  // le gare di tutti i campionati su questa pista, nella stagione in corso e in quella già annunciata
+  const fData = d => new Intl.DateTimeFormat('it-IT', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(d + 'T12:00:00Z'));
+  const qui = ELENCO_SERIE.flatMap(se => [...(D.calendario?.[se]?.gare || []), ...(D.calendario?.[se]?.prossimoCalendario?.gare || [])]
+    .filter(g => g.circuito === id).map(g => `${SERIE[se]}: ${g.gp}, ${fData(g.data)}`));
   $('#tracciatoContenuto').innerHTML = `
-    <p class="circ-nome"><strong>${esc(c.nome)}</strong><small>${esc(c.luogo)}</small></p>
+    ${gara ? `<p class="trac-gp">${esc(gara.gp)} · ${esc(fData(gara.data))}</p>` : ''}
+    <p class="circ-nome"><strong>${esc(c.nome)}</strong><small>${esc(c.luogo || '')}</small></p>
     ${mappa ? `<figure class="trac-mappa"><img src="${esc(mappa.immagine)}" alt="Mappa del tracciato di ${esc(c.nome)}"><figcaption>Mappa: <a href="${esc(urlSicuro(mappa.pagina))}" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a></figcaption></figure>`
       : '<p class="nota piccola">Mappa del tracciato non ancora disponibile: arriva con il prossimo aggiornamento dei dati.</p>'}
     <div class="pal-numeri">${dato(c.lunghezza?.toLocaleString('it-IT', { minimumFractionDigits: 3 }), 'km al giro')}${dato(c.curve, 'curve')}${dato(c.rettilineo?.toLocaleString('it-IT'), 'km di rettilineo')}${dato(c.dal, 'inaugurato')}</div>
-    ${c.storia ? `<h3 class="pal-titolo">La storia</h3><p class="hof-bio">${esc(c.storia)}</p>` : ''}
+    ${gara && c.lat != null ? bloccoMeteo(null, { circuito: id, data: gara.data }) : ''}
+    ${qui.length ? `<h3 class="pal-titolo">In calendario</h3><ul class="hof-curiosita">${qui.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
+    ${c.storia ? `<h3 class="pal-titolo">La storia</h3><p class="hof-bio">${esc(c.storia)}</p>${c.fonteStoria ? `<p class="nota piccola">Da <a href="${esc(urlSicuro(c.fonteStoria))}" target="_blank" rel="noopener noreferrer">Wikipedia</a></p>` : ''}` : ''}
     ${c.debutto ? `<p class="nota piccola">Primo GP mondiale: ${Object.entries(c.debutto).map(([se, a]) => `${nomeSerie[se]} ${a}`).join(', ')}.</p>` : ''}
     ${c.curveCelebri?.length ? `<h3 class="pal-titolo">Curve da conoscere</h3><ul class="hof-curiosita">${c.curveCelebri.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
     ${c.curiosita?.length ? `<h3 class="pal-titolo">Curiosità</h3><ul class="hof-curiosita">${c.curiosita.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
     ${rec || '<p class="nota piccola">Nessun record registrato.</p>'}
     ${notizieCircuito(c)}
     <p class="nota piccola">Fonte: Wikipedia. I record non tengono conto del weekend in corso.</p>`;
-  $('#tracciato').showModal();
+  if (!$('#tracciato').open) $('#tracciato').showModal();
 }
 
 /* ---------- Griglia di partenza ---------- */
@@ -510,6 +521,57 @@ function classificaWeekend(w, viste) {
   return `<section class="griglia arrivo"><h2 class="sezione-titolo">Punti del weekend</h2>
     <p class="nota piccola">Punti conquistati in ${esc(quali)}${viste.length < (w.serie === 'sbk' ? 3 : 2) ? ' (manca ancora una gara)' : ''}.</p>
     <ol class="arrivo-lista">${li}</ol></section>`;
+}
+
+/* ---------- Calendario: tutta la stagione, pista per pista ---------- */
+function disegnaCalendario() {
+  const el = $('#vista-calendario');
+  const cal = D.calendario?.[stato.serie];
+  if (!cal?.gare?.length) { el.innerHTML = '<div class="vuoto"><strong>Calendario non disponibile</strong></div>'; return; }
+  const stagioni = [{ anno: +cal.gare[0].data.slice(0, 4), gare: cal.gare }, ...(cal.prossimoCalendario ? [cal.prossimoCalendario] : [])];
+  const oggi = fIso.format(adesso());
+  // di default la stagione in corso; se è finita e c'è già la successiva, quella
+  const finita = cal.gare.at(-1).data < oggi;
+  let anno = D.calendarioAnno[stato.serie] || (finita && cal.prossimoCalendario ? cal.prossimoCalendario.anno : stagioni[0].anno);
+  const st = stagioni.find(x => x.anno === anno) || stagioni[0];
+  let html = '';
+  if (stagioni.length > 1) html += `<div class="commuta" role="group" aria-label="Stagione">${stagioni.map(x => `<button type="button" data-cal-anno="${x.anno}" aria-pressed="${x.anno === st.anno}">${x.anno}${x.provvisorio ? ' (provvisorio)' : ''}</button>`).join('')}</div>`;
+  const prossima = st.gare.find(g => g.data >= oggi);
+  const fatte = st.gare.filter(g => g.data < oggi).length;
+  html += `<p class="nota">${st.gare.length} ${stato.serie === 'f1' ? 'Gran Premi' : 'round'} · ${fatte ? `${fatte} già corsi` : 'stagione da iniziare'}${st.provvisorio ? ' · calendario provvisorio' : ''}. Tocca un GP per la scheda della pista.</p>`;
+  const dal = copertoDal(stato.serie);
+  const gareRis = D.risultati?.[stato.serie]?.gare || [];
+  const fGiorni = (a, b) => {
+    const d1 = new Date(a + 'T12:00:00Z'), d2 = new Date(b + 'T12:00:00Z');
+    const mese = fmt({ month: 'long', timeZone: 'UTC' });
+    return d1.getUTCMonth() === d2.getUTCMonth() ? `${d1.getUTCDate()}–${d2.getUTCDate()} ${mese.format(d2)}` : `${d1.getUTCDate()} ${mese.format(d1)} – ${d2.getUTCDate()} ${mese.format(d2)}`;
+  };
+  html += '<ol class="calendario">';
+  st.gare.forEach((g, i) => {
+    const c = D.circuiti[g.circuito] || {};
+    const mappa = D.mappe[g.circuito];
+    const venerdi = new Date(new Date(g.data + 'T12:00:00Z').getTime() - 2 * 864e5).toISOString().slice(0, 10);
+    const passata = g.data < oggi, questa = g === prossima && Math.round((new Date(g.data + 'T12:00:00Z') - adesso()) / 864e5) <= 3;
+    // vincitore della gara, solo se non è coperto dall'anti-spoiler
+    const ris = passata && gareRis.find(r => Math.abs(new Date(r.data + 'T12:00:00Z') - new Date(g.data + 'T12:00:00Z')) < 2 * 864e5);
+    const coperto = dal && new Date(g.data + 'T23:59:00Z') >= dal;
+    const vinc = ris?.podio?.[0] && !coperto ? (p => p ? p.cognome : '')(pilotiSerie().find(p => corrisponde(p, ris.podio[0]))) : '';
+    const stato_ = questa ? '<em class="cal-chip ora">Questo weekend</em>' : g === prossima ? '<em class="cal-chip ora">Prossimo</em>' : passata ? '<em class="cal-chip">Corso</em>' : '';
+    html += `<li class="cal-gp${passata ? ' passato' : ''}${g === prossima ? ' prossimo' : ''}">
+      <button type="button" class="cal-apri" data-circuito="${esc(g.circuito)}" data-cal-gp="${esc(g.gp)}" data-cal-data="${esc(g.data)}">
+        <span class="cal-round">${i + 1}</span>
+        ${mappa ? `<img class="cal-mappa" src="${esc(mappa.immagine)}" alt="" loading="lazy">` : '<span class="cal-mappa vuota"></span>'}
+        <span class="cal-testo">
+          <strong>${esc(g.gp)}</strong>
+          <small>${esc(c.nome || g.circuito)}${c.luogo ? ` · ${esc(c.luogo)}` : ''}</small>
+          <small class="cal-date">${esc(fGiorni(venerdi, g.data))}${g.nota ? ` · ${esc(g.nota)}` : ''}</small>
+          <span class="cal-chips">${stato_}${g.sprint && stato.serie !== 'sbk' ? '<em class="cal-chip">Sprint</em>' : ''}${vinc ? `<em class="cal-chip vinc">🏆 ${esc(vinc)}</em>` : passata && coperto ? '<em class="cal-chip">Risultato coperto</em>' : ''}</span>
+        </span>
+        <span class="freccia" aria-hidden="true">›</span>
+      </button></li>`;
+  });
+  html += '</ol><p class="nota piccola">Schede dei circuiti da Wikipedia; mappe da Wikimedia Commons.</p>';
+  el.innerHTML = html;
 }
 
 /* ---------- Calcolatore «campione se…» ---------- */
@@ -1026,7 +1088,7 @@ function disegnaTest() {
 }
 
 /* ---------- Navigazione ed eventi ---------- */
-const TITOLI = { notizie: 'Notizie', piloti: 'Piloti', classifiche: 'Classifiche', test: 'Test' };
+const TITOLI = { calendario: 'Calendario', notizie: 'Notizie', piloti: 'Piloti', classifiche: 'Classifiche', test: 'Test' };
 function mostra(vista) {
   stato.vista = vista; salva();
   for (const v of VISTE) $(`#vista-${v}`).hidden = v !== vista;
@@ -1049,7 +1111,7 @@ function disegna() {
     $('#titoloGp').textContent = TITOLI[stato.vista];
     const w = weekendCorrente();
     $('#dateGp').textContent = SERIE[stato.serie] + (w ? `, ${w.gp}` : '');
-    ({ notizie: disegnaNotizie, piloti: disegnaPiloti, classifiche: disegnaClassifiche, test: disegnaTest })[stato.vista]();
+    ({ calendario: disegnaCalendario, notizie: disegnaNotizie, piloti: disegnaPiloti, classifiche: disegnaClassifiche, test: disegnaTest })[stato.vista]();
   }
   aggiornaBadge();
 }
@@ -1076,7 +1138,8 @@ document.addEventListener('click', e => {
   if (d.filtro) { stato.filtro = d.filtro; return disegna(); }
   if (d.scopri) { e.preventDefault(); stato.scoperte.add(d.scopri); return disegna(); }
   if (d.visto) { stato.visti.add(d.visto); salva(); return disegna(); }
-  if (d.circuito) return apriTracciato(d.circuito);
+  if (d.calAnno) { D.calendarioAnno[stato.serie] = +d.calAnno; return disegna(); }
+  if (d.circuito) return apriTracciato(d.circuito, d.calGp ? { gp: d.calGp, data: d.calData } : null);
   if (d.griglia) { stato.griglieViste.add(d.griglia); salva(); return disegna(); }
   if (d.svelaTipo) return svelaParziale(d.svelaTipo);
   if (d.svela !== undefined) return svela();

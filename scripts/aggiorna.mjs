@@ -386,12 +386,50 @@ async function aggiornaStorico() {
   log(`storico: ${letture} pagine lette, ${Object.values(perPilota).filter(r => r.length).length} piloti con risultati`);
 }
 
+/* ---------- Schede dei circuiti di tutto il calendario ---------- */
+// Dati da Wikipedia inglese (infobox e record), riassunto dalla Wikipedia italiana, coordinate da Wikidata.
+// Ogni circuito si rilegge una volta al mese.
+async function aggiornaCircuiti() {
+  if (FIXTURES) return;
+  const elenco = (await leggiJson(RADICE + 'config/circuiti-wiki.json', { circuiti: {} })).circuiti;
+  const vecchi = (await leggiJson(DATI + 'circuiti-auto.json', { circuiti: {} })).circuiti || {};
+  const out = {}, UA = { 'User-Agent': 'RacingTv/1.0 (https://github.com/Manitou84/RacingTv)' };
+  const json = async u => { const r = await fetch(u, { headers: UA, signal: AbortSignal.timeout(30000) }); if (!r.ok) throw new Error(`${r.status} ${u.slice(0, 70)}`); return r.json(); };
+  let letti = 0;
+  for (const [id, c] of Object.entries(elenco)) {
+    const v = vecchi[id];
+    if (v && recente(v.letto, 30) && v.wiki === c.wiki) { out[id] = v; continue; }
+    if (!c.wiki || letti >= 50) { if (v) out[id] = v; continue; }
+    letti++;
+    const r = await tenta(`circuito ${id}`, async () => {
+      const titolo = encodeURIComponent(c.wiki);
+      const res = await fetch(`https://en.wikipedia.org/api/rest_v1/page/html/${titolo}`, { headers: UA, signal: AbortSignal.timeout(30000) });
+      if (!res.ok) throw new Error(`${res.status}`);
+      const dati = L.parseCircuitoWiki(await res.text());
+      const sommarioEn = await json(`https://en.wikipedia.org/api/rest_v1/page/summary/${titolo}`).catch(() => null);
+      // titolo italiano e riassunto in italiano
+      const ll = await json(`https://en.wikipedia.org/w/api.php?action=query&format=json&prop=langlinks&lllang=it&redirects=1&titles=${titolo}`).catch(() => null);
+      const it = Object.values(ll?.query?.pages || {})[0]?.langlinks?.[0]?.['*'];
+      const sommarioIt = it ? await json(`https://it.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(it.replace(/ /g, '_'))}`).catch(() => null) : null;
+      const coord = sommarioEn?.coordinates || sommarioIt?.coordinates;
+      const testo = (sommarioIt?.extract || '').replace(/\s+/g, ' ').trim();
+      return { wiki: c.wiki, letto: ADESSO.toISOString(), nome: sommarioEn?.title || c.wiki.replace(/_/g, ' '), luogo: c.luogo,
+        ...(coord ? { lat: +coord.lat.toFixed(4), lon: +coord.lon.toFixed(4) } : {}),
+        ...dati, storia: testo.length > 700 ? testo.slice(0, 700).replace(/\s+\S*$/, '') + '…' : testo,
+        fonteStoria: it ? `https://it.wikipedia.org/wiki/${encodeURIComponent(it.replace(/ /g, '_'))}` : null };
+    }, null);
+    if (r) out[id] = r; else if (v) out[id] = v;
+  }
+  await scriviJson(DATI + 'circuiti-auto.json', { aggiornato: ADESSO.toISOString(), _fonte: 'Wikipedia e Wikidata', circuiti: out });
+  log(`circuiti: ${Object.keys(out).length} schede, ${letti} lette ora`);
+}
+
 /* ---------- Mappe dei tracciati ---------- */
 // Per ogni circuito cerca su Wikidata la «mappa del percorso» (proprietà P15) e la scarica da Wikimedia Commons
 // in docs/mappe/: così l'app la mostra dal proprio sito, senza far contattare altri server al telefono.
 async function aggiornaMappe() {
   if (FIXTURES) return;
-  const circuiti = (await leggiJson(DATI + 'circuiti.json', {})).circuiti || {};
+  const circuiti = { ...((await leggiJson(RADICE + 'config/circuiti-wiki.json', {})).circuiti || {}), ...((await leggiJson(DATI + 'circuiti.json', {})).circuiti || {}) };
   const vecchie = await leggiJson(DATI + 'mappe.json', {});
   const out = {}, errori = {};
   const UA = { 'User-Agent': 'RacingTv/1.0 (https://github.com/Manitou84/RacingTv)' };
@@ -452,4 +490,5 @@ await aggiornaRisultati();
 await aggiornaGriglie();
 await tenta('arrivi', aggiornaArrivi);
 await aggiornaTest();
+await tenta('circuiti', aggiornaCircuiti);
 await aggiornaMappe();

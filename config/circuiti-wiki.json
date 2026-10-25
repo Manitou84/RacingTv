@@ -1,0 +1,181 @@
+{
+  "_istruzioni": "Circuiti di cui lo script legge da Wikipedia (inglese e italiana) e da Wikidata: dati del tracciato, storia, record, coordinate per il meteo e mappa. Aggiungi qui i nuovi circuiti: id usato in calendario.json, titolo della pagina Wikipedia inglese e luogo in italiano. I dati scritti a mano in docs/data/circuiti.json hanno la precedenza.",
+  "circuiti": {
+    "aragon": {
+      "wiki": "MotorLand_Aragón",
+      "luogo": "Alcañiz, Spagna"
+    },
+    "assen": {
+      "wiki": "TT_Circuit_Assen",
+      "luogo": "Assen, Paesi Bassi"
+    },
+    "austin": {
+      "wiki": "Circuit_of_the_Americas",
+      "luogo": "Austin, Stati Uniti"
+    },
+    "baku": {
+      "wiki": "Baku_City_Circuit",
+      "luogo": "Baku, Azerbaigian"
+    },
+    "balaton": {
+      "wiki": "Balaton_Park_Circuit",
+      "luogo": "Balatonfőkajár, Ungheria"
+    },
+    "barcellona": {
+      "wiki": "Circuit_de_Barcelona-Catalunya",
+      "luogo": "Montmeló, Spagna"
+    },
+    "brno": {
+      "wiki": "Brno_Circuit",
+      "luogo": "Brno, Repubblica Ceca"
+    },
+    "buriram": {
+      "wiki": "Chang_International_Circuit",
+      "luogo": "Buriram, Thailandia"
+    },
+    "citta-del-messico": {
+      "wiki": "Autódromo_Hermanos_Rodríguez",
+      "luogo": "Città del Messico, Messico"
+    },
+    "cremona": {
+      "wiki": "Cremona_Circuit",
+      "luogo": "San Martino del Lago, Italia"
+    },
+    "donington": {
+      "wiki": "Donington_Park",
+      "luogo": "Castle Donington, Regno Unito"
+    },
+    "estoril": {
+      "wiki": "Circuito_do_Estoril",
+      "luogo": "Estoril, Portogallo"
+    },
+    "goiania": {
+      "wiki": "Autódromo_Internacional_Ayrton_Senna_(Goiânia)",
+      "luogo": "Goiânia, Brasile"
+    },
+    "hungaroring": {
+      "wiki": "Hungaroring",
+      "luogo": "Mogyoród, Ungheria"
+    },
+    "interlagos": {
+      "wiki": "Interlagos_Circuit",
+      "luogo": "San Paolo, Brasile"
+    },
+    "jerez": {
+      "wiki": "Circuito_de_Jerez",
+      "luogo": "Jerez de la Frontera, Spagna"
+    },
+    "las-vegas": {
+      "wiki": "Las_Vegas_Strip_Circuit",
+      "luogo": "Las Vegas, Stati Uniti"
+    },
+    "le-mans": {
+      "wiki": "Bugatti_Circuit",
+      "luogo": "Le Mans, Francia"
+    },
+    "lusail": {
+      "wiki": "Lusail_International_Circuit",
+      "luogo": "Lusail, Qatar"
+    },
+    "madrid": {
+      "wiki": "Madring",
+      "luogo": "Madrid, Spagna"
+    },
+    "magny-cours": {
+      "wiki": "Circuit_de_Nevers_Magny-Cours",
+      "luogo": "Magny-Cours, Francia"
+    },
+    "mandalika": {
+      "wiki": "Mandalika_International_Street_Circuit",
+      "luogo": "Lombok, Indonesia"
+    },
+    "melbourne": {
+      "wiki": "Albert_Park_Circuit",
+      "luogo": "Melbourne, Australia"
+    },
+    "miami": {
+      "wiki": "Miami_International_Autodrome",
+      "luogo": "Miami Gardens, Stati Uniti"
+    },
+    "misano": {
+      "wiki": "Misano_World_Circuit_Marco_Simoncelli",
+      "luogo": "Misano Adriatico, Italia"
+    },
+    "monaco": {
+      "wiki": "Circuit_de_Monaco",
+      "luogo": "Monte Carlo, Monaco"
+    },
+    "montreal": {
+      "wiki": "Circuit_Gilles_Villeneuve",
+      "luogo": "Montréal, Canada"
+    },
+    "monza": {
+      "wiki": "Monza_Circuit",
+      "luogo": "Monza, Italia"
+    },
+    "most": {
+      "wiki": "Autodrom_Most",
+      "luogo": "Most, Repubblica Ceca"
+    },
+    "motegi": {
+      "wiki": "Mobility_Resort_Motegi",
+      "luogo": "Motegi, Giappone"
+    },
+    "mugello": {
+      "wiki": "Mugello_Circuit",
+      "luogo": "Scarperia e San Piero, Italia"
+    },
+    "phillip-island": {
+      "wiki": "Phillip_Island_Grand_Prix_Circuit",
+      "luogo": "Phillip Island, Australia"
+    },
+    "portimao": {
+      "wiki": "Algarve_International_Circuit",
+      "luogo": "Portimão, Portogallo"
+    },
+    "sachsenring": {
+      "wiki": "Sachsenring",
+      "luogo": "Hohenstein-Ernstthal, Germania"
+    },
+    "sepang": {
+      "wiki": "Sepang_International_Circuit",
+      "luogo": "Sepang, Malesia"
+    },
+    "shanghai": {
+      "wiki": "Shanghai_International_Circuit",
+      "luogo": "Shanghai, Cina"
+    },
+    "silverstone": {
+      "wiki": "Silverstone_Circuit",
+      "luogo": "Silverstone, Regno Unito"
+    },
+    "singapore": {
+      "wiki": "Marina_Bay_Street_Circuit",
+      "luogo": "Singapore"
+    },
+    "spa": {
+      "wiki": "Circuit_de_Spa-Francorchamps",
+      "luogo": "Stavelot, Belgio"
+    },
+    "spielberg": {
+      "wiki": "Red_Bull_Ring",
+      "luogo": "Spielberg, Austria"
+    },
+    "suzuka": {
+      "wiki": "Suzuka_International_Racing_Course",
+      "luogo": "Suzuka, Giappone"
+    },
+    "valencia": {
+      "wiki": "Circuit_Ricardo_Tormo",
+      "luogo": "Cheste, Spagna"
+    },
+    "yas-marina": {
+      "wiki": "Yas_Marina_Circuit",
+      "luogo": "Abu Dhabi, Emirati Arabi Uniti"
+    },
+    "zandvoort": {
+      "wiki": "Circuit_Zandvoort",
+      "luogo": "Zandvoort, Paesi Bassi"
+    }
+  }
+}

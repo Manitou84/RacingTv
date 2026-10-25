@@ -1,5 +1,5 @@
 {
-  "_istruzioni": "GP rimanenti della stagione, usati per calcolare il matchpoint. 'data' è il giorno della gara della domenica (o del sabato). Se un GP viene spostato o annullato, correggi qui. 'punti' sono i massimi assegnati al vincitore di gara e Sprint. 'circuito' collega il GP alla sua scheda in circuiti.json (meteo e dati del tracciato). 'prossimaStagione' è la prima gara del campionato successivo, per il conto alla rovescia di fine stagione. Per la Superbike 'gareGp' è il numero di gare lunghe del weekend (Gara 1 e Gara 2) e 'sprint' è la Superpole Race.",
+  "_istruzioni": "Calendario completo della stagione per ogni campionato, in ordine. 'data' è il giorno della gara principale (la domenica, salvo eccezioni). 'circuito' collega il GP alla scheda in circuiti.json/circuiti-auto.json. 'sprint' indica il weekend con Sprint (in Superbike la Superpole Race c'è sempre). 'punti' sono i massimi al vincitore di gara e Sprint; per la Superbike 'gareGp' è il numero di gare lunghe del weekend. 'prossimaStagione' è la prima gara del campionato successivo; 'prossimoCalendario' (facoltativo) il calendario già annunciato dell'anno dopo. Se un GP viene spostato o annullato, correggi qui.",
   "motogp": {
     "punti": {
       "gara": 25,
@@ -7,34 +7,136 @@
     },
     "gare": [
       {
+        "gp": "GP Thailandia",
+        "data": "2026-03-01",
+        "circuito": "buriram",
+        "sprint": true
+      },
+      {
+        "gp": "GP Brasile",
+        "data": "2026-03-22",
+        "circuito": "goiania",
+        "sprint": true
+      },
+      {
+        "gp": "GP USA",
+        "data": "2026-03-29",
+        "circuito": "austin",
+        "sprint": true
+      },
+      {
+        "gp": "GP Spagna",
+        "data": "2026-04-26",
+        "circuito": "jerez",
+        "sprint": true
+      },
+      {
+        "gp": "GP Francia",
+        "data": "2026-05-10",
+        "circuito": "le-mans",
+        "sprint": true
+      },
+      {
+        "gp": "GP Catalogna",
+        "data": "2026-05-17",
+        "circuito": "barcellona",
+        "sprint": true
+      },
+      {
+        "gp": "GP Italia",
+        "data": "2026-05-31",
+        "circuito": "mugello",
+        "sprint": true
+      },
+      {
+        "gp": "GP Ungheria",
+        "data": "2026-06-07",
+        "circuito": "balaton",
+        "sprint": true
+      },
+      {
+        "gp": "GP Repubblica Ceca",
+        "data": "2026-06-21",
+        "circuito": "brno",
+        "sprint": true
+      },
+      {
+        "gp": "GP Olanda",
+        "data": "2026-06-28",
+        "circuito": "assen",
+        "sprint": true
+      },
+      {
+        "gp": "GP Germania",
+        "data": "2026-07-12",
+        "circuito": "sachsenring",
+        "sprint": true
+      },
+      {
+        "gp": "GP Gran Bretagna",
+        "data": "2026-08-09",
+        "circuito": "silverstone",
+        "sprint": true
+      },
+      {
+        "gp": "GP Aragona",
+        "data": "2026-08-30",
+        "circuito": "aragon",
+        "sprint": true
+      },
+      {
+        "gp": "GP San Marino",
+        "data": "2026-09-13",
+        "circuito": "misano",
+        "sprint": true
+      },
+      {
+        "gp": "GP Austria",
+        "data": "2026-09-20",
+        "circuito": "spielberg",
+        "sprint": true
+      },
+      {
+        "gp": "GP Giappone",
+        "data": "2026-10-04",
+        "circuito": "motegi",
+        "sprint": true
+      },
+      {
+        "gp": "GP Indonesia",
+        "data": "2026-10-11",
+        "circuito": "mandalika",
+        "sprint": true
+      },
+      {
         "gp": "GP Australia",
         "data": "2026-10-25",
-        "sprint": true,
-        "circuito": "phillip-island"
+        "circuito": "phillip-island",
+        "sprint": true
       },
       {
         "gp": "GP Malesia",
         "data": "2026-11-01",
-        "sprint": true,
-        "circuito": "sepang"
+        "circuito": "sepang",
+        "sprint": true
       },
       {
         "gp": "GP Qatar",
         "data": "2026-11-08",
-        "sprint": true,
-        "circuito": "lusail"
+        "circuito": "lusail",
+        "sprint": true
       },
       {
         "gp": "GP Portogallo",
         "data": "2026-11-22",
-        "sprint": true,
-        "circuito": "portimao"
+        "circuito": "portimao",
+        "sprint": true
       },
       {
         "gp": "GP Valencia",
         "data": "2026-11-29",
-        "sprint": true,
-        "circuito": "valencia"
+        "circuito": "valencia",
+        "sprint": true
       }
     ],
     "prossimaStagione": {
@@ -51,40 +153,144 @@
     },
     "gare": [
       {
+        "gp": "GP Australia",
+        "data": "2026-03-08",
+        "circuito": "melbourne",
+        "sprint": false
+      },
+      {
+        "gp": "GP Cina",
+        "data": "2026-03-15",
+        "circuito": "shanghai",
+        "sprint": true
+      },
+      {
+        "gp": "GP Giappone",
+        "data": "2026-03-29",
+        "circuito": "suzuka",
+        "sprint": false
+      },
+      {
+        "gp": "GP Miami",
+        "data": "2026-05-03",
+        "circuito": "miami",
+        "sprint": true
+      },
+      {
+        "gp": "GP Canada",
+        "data": "2026-05-24",
+        "circuito": "montreal",
+        "sprint": true
+      },
+      {
+        "gp": "GP Monaco",
+        "data": "2026-06-07",
+        "circuito": "monaco",
+        "sprint": false
+      },
+      {
+        "gp": "GP Barcellona",
+        "data": "2026-06-14",
+        "circuito": "barcellona",
+        "sprint": false
+      },
+      {
+        "gp": "GP Austria",
+        "data": "2026-06-28",
+        "circuito": "spielberg",
+        "sprint": false
+      },
+      {
+        "gp": "GP Gran Bretagna",
+        "data": "2026-07-05",
+        "circuito": "silverstone",
+        "sprint": true
+      },
+      {
+        "gp": "GP Belgio",
+        "data": "2026-07-19",
+        "circuito": "spa",
+        "sprint": false
+      },
+      {
+        "gp": "GP Ungheria",
+        "data": "2026-07-26",
+        "circuito": "hungaroring",
+        "sprint": false
+      },
+      {
+        "gp": "GP Olanda",
+        "data": "2026-08-23",
+        "circuito": "zandvoort",
+        "sprint": true
+      },
+      {
+        "gp": "GP Italia",
+        "data": "2026-09-06",
+        "circuito": "monza",
+        "sprint": false
+      },
+      {
+        "gp": "GP Spagna",
+        "data": "2026-09-13",
+        "circuito": "madrid",
+        "sprint": false
+      },
+      {
+        "gp": "GP Azerbaijan",
+        "data": "2026-09-26",
+        "circuito": "baku",
+        "sprint": false,
+        "nota": "Gara di sabato"
+      },
+      {
+        "gp": "GP Bahrain",
+        "data": "2026-10-04",
+        "circuito": "sepang",
+        "sprint": false,
+        "nota": "Corso a Sepang al posto del Bahrain"
+      },
+      {
+        "gp": "GP Singapore",
+        "data": "2026-10-11",
+        "circuito": "singapore",
+        "sprint": true
+      },
+      {
         "gp": "GP USA",
         "data": "2026-10-25",
-        "sprint": false,
-        "circuito": "austin"
+        "circuito": "austin",
+        "sprint": false
       },
       {
         "gp": "GP Messico",
         "data": "2026-11-01",
-        "sprint": false,
-        "circuito": "citta-del-messico"
+        "circuito": "citta-del-messico",
+        "sprint": false
       },
       {
         "gp": "GP Brasile",
         "data": "2026-11-08",
-        "sprint": false,
-        "circuito": "interlagos"
+        "circuito": "interlagos",
+        "sprint": false
       },
       {
         "gp": "GP Las Vegas",
         "data": "2026-11-21",
-        "sprint": false,
-        "circuito": "las-vegas"
+        "circuito": "las-vegas",
+        "sprint": false
       },
       {
         "gp": "GP Qatar",
         "data": "2026-11-29",
-        "sprint": false,
-        "circuito": "lusail"
+        "circuito": "lusail",
+        "sprint": false
       },
       {
         "gp": "GP Abu Dhabi",
         "data": "2026-12-06",
-        "sprint": false,
-        "circuito": "yas-marina"
+        "circuito": "yas-marina",
+        "sprint": false
       }
     ],
     "prossimaStagione": {
@@ -102,10 +308,76 @@
     },
     "gare": [
       {
+        "gp": "GP Australia",
+        "data": "2026-02-22",
+        "circuito": "phillip-island",
+        "sprint": true
+      },
+      {
+        "gp": "GP Portogallo",
+        "data": "2026-03-29",
+        "circuito": "portimao",
+        "sprint": true
+      },
+      {
+        "gp": "GP Olanda",
+        "data": "2026-04-19",
+        "circuito": "assen",
+        "sprint": true
+      },
+      {
+        "gp": "GP Ungheria",
+        "data": "2026-05-03",
+        "circuito": "balaton",
+        "sprint": true
+      },
+      {
+        "gp": "GP Repubblica Ceca",
+        "data": "2026-05-17",
+        "circuito": "most",
+        "sprint": true
+      },
+      {
+        "gp": "GP Aragona",
+        "data": "2026-05-31",
+        "circuito": "aragon",
+        "sprint": true
+      },
+      {
+        "gp": "GP Emilia Romagna",
+        "data": "2026-06-14",
+        "circuito": "misano",
+        "sprint": true
+      },
+      {
+        "gp": "GP Gran Bretagna",
+        "data": "2026-07-12",
+        "circuito": "donington",
+        "sprint": true
+      },
+      {
+        "gp": "GP Francia",
+        "data": "2026-09-06",
+        "circuito": "magny-cours",
+        "sprint": true
+      },
+      {
+        "gp": "GP Italia",
+        "data": "2026-09-27",
+        "circuito": "cremona",
+        "sprint": true
+      },
+      {
+        "gp": "GP Estoril",
+        "data": "2026-10-11",
+        "circuito": "estoril",
+        "sprint": true
+      },
+      {
         "gp": "GP Spagna",
         "data": "2026-10-18",
-        "sprint": true,
-        "circuito": "jerez"
+        "circuito": "jerez",
+        "sprint": true
       }
     ],
     "prossimaStagione": {
@@ -113,6 +385,84 @@
       "gp": "Round d'Australia",
       "circuito": "Phillip Island Grand Prix Circuit",
       "data": "2027-02-21"
+    },
+    "prossimoCalendario": {
+      "anno": 2027,
+      "provvisorio": true,
+      "gare": [
+        {
+          "gp": "GP Australia",
+          "data": "2027-02-21",
+          "circuito": "phillip-island",
+          "sprint": true
+        },
+        {
+          "gp": "GP Portogallo",
+          "data": "2027-03-21",
+          "circuito": "portimao",
+          "sprint": true
+        },
+        {
+          "gp": "GP Valencia",
+          "data": "2027-04-04",
+          "circuito": "valencia",
+          "sprint": true
+        },
+        {
+          "gp": "GP Olanda",
+          "data": "2027-04-18",
+          "circuito": "assen",
+          "sprint": true
+        },
+        {
+          "gp": "GP Aragona",
+          "data": "2027-05-23",
+          "circuito": "aragon",
+          "sprint": true
+        },
+        {
+          "gp": "GP Repubblica Ceca",
+          "data": "2027-06-06",
+          "circuito": "most",
+          "sprint": true
+        },
+        {
+          "gp": "GP Emilia Romagna",
+          "data": "2027-06-20",
+          "circuito": "misano",
+          "sprint": true
+        },
+        {
+          "gp": "GP Gran Bretagna",
+          "data": "2027-07-11",
+          "circuito": "donington",
+          "sprint": true
+        },
+        {
+          "gp": "GP Francia",
+          "data": "2027-09-05",
+          "circuito": "magny-cours",
+          "sprint": true
+        },
+        {
+          "gp": "GP Italia",
+          "data": "2027-09-26",
+          "circuito": "cremona",
+          "sprint": true
+        },
+        {
+          "gp": "GP Estoril",
+          "data": "2027-10-17",
+          "circuito": "estoril",
+          "sprint": true
+        },
+        {
+          "gp": "GP Cina",
+          "data": "2027-10-31",
+          "circuito": "shanghai",
+          "sprint": true
+        }
+      ]
     }
   }
 }

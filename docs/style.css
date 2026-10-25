@@ -474,3 +474,24 @@ button.matchpoint { width: 100%; border: 0; text-align: left; font: inherit; cur
 
 .spoiler-tasti button { padding: 6px 4px; gap: 5px; } .spoiler-tasti button svg { display: none; }
 .storico .medaglia.m1 { background: var(--giallo); } .storico .medaglia.m2 { background: #c9ced5; } .storico .medaglia.m3 { background: #c98a4b; }
+
+/* Calendario */
+.calendario { list-style: none; margin: 8px 0 0; padding: 0; }
+.cal-gp { border-bottom: 1px solid var(--riga); }
+.cal-apri { display: grid; grid-template-columns: 26px 64px minmax(0, 1fr) 12px; gap: 10px; align-items: center; width: 100%; padding: 10px 0; border: 0; background: none; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.cal-round { font-family: var(--display); font-weight: 900; font-size: 22px; color: var(--grigio); text-align: right; }
+.cal-mappa { width: 64px; height: 48px; object-fit: contain; background: #f3f1ec; border-radius: 6px; padding: 3px; box-sizing: border-box; }
+.cal-mappa.vuota { display: block; background: var(--pista); }
+.cal-testo { min-width: 0; display: grid; gap: 1px; }
+.cal-testo strong { font-family: var(--display); font-weight: 800; font-size: 19px; text-transform: uppercase; line-height: 1.1; }
+.cal-testo small { color: var(--grigio); font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.cal-testo .cal-date { color: var(--gesso); }
+.cal-chips { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 3px; }
+.cal-chip { font-style: normal; font-size: 11px; font-weight: 700; padding: 2px 6px; border-radius: 4px; background: var(--pista-2); color: var(--grigio); }
+.cal-chip.ora { background: var(--rosso); color: #fff; }
+.cal-chip.vinc { background: var(--giallo); color: var(--lavagna); }
+.cal-gp.passato .cal-testo strong, .cal-gp.passato .cal-round { opacity: .6; }
+.cal-gp.prossimo .cal-round { color: var(--rosso); }
+.trac-gp { margin: 0 0 4px; font-weight: 700; color: var(--giallo); }
+.schede button { font-size: 11px; }
+.schede svg { width: 24px; height: 24px; }

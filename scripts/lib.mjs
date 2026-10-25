@@ -551,6 +551,39 @@ export function parseClassificaWiki(html) {
   return { piloti: tp || [], costruttori: tc || [] };
 }
 
+/* ---------- Scheda di un circuito da Wikipedia (inglese) ---------- */
+// Infobox: lunghezza, curve, anno di apertura del primo tracciato elencato.
+// Tabella «Lap records»: record sul giro in gara per Formula 1, MotoGP e Superbike.
+export function parseCircuitoWiki(html) {
+  const out = { record: {} };
+  const info = (html.match(/<table[^>]*class="[^"]*infobox[\s\S]*?<\/table>/i) || [])[0] || '';
+  for (const tr of info.match(/<tr[\s\S]*?<\/tr>/gi) || []) {
+    const th = htmlInTesto((tr.match(/<th[^>]*>([\s\S]*?)<\/th>/i) || [])[1] || '').replace(/\n/g, ' ').trim().toLowerCase();
+    const td = htmlInTesto((tr.match(/<td[^>]*>([\s\S]*?)<\/td>/i) || [])[1] || '').replace(/\n/g, ' ').trim();
+    if (!th || !td) continue;
+    if (/^length/.test(th) && out.lunghezza == null) { const m = td.match(/([\d.,]+)\s*km/); if (m) out.lunghezza = +m[1].replace(',', '.'); }
+    else if (/^turns/.test(th) && out.curve == null) { const m = td.match(/^(\d+)/); if (m) out.curve = +m[1]; }
+    else if (/^opened/.test(th) && out.dal == null) { const m = td.match(/(18|19|20)\d\d/); if (m) out.dal = +m[0]; }
+  }
+  const i = html.search(/<h[2-4][^>]*>[^<]*(?:<[^>]+>)*\s*Lap records/i);
+  if (i >= 0) {
+    const pezzo = html.slice(i, i + 400000);
+    const fine = pezzo.slice(10).search(/<h2[\s>]/i);
+    for (const tr of (fine > 0 ? pezzo.slice(0, fine + 10) : pezzo).match(/<tr[\s\S]*?<\/tr>/gi) || []) {
+      const celle = (tr.match(/<td[\s\S]*?<\/td>/gi) || []).map(c => htmlInTesto(c).replace(/\n/g, ' ').trim());
+      if (celle.length < 4) continue;
+      const cat = celle[0];
+      const serie = /^formula one\b/i.test(cat) ? 'f1' : /^motogp\b/i.test(cat) ? 'motogp' : /^(world ?sbk|superbike world|world superbike|superbike)\b/i.test(cat) ? 'sbk' : null;
+      if (!serie || out.record[serie]) continue;
+      const tempo = celle.find(c => /^\d?:?\d{1,2}:\d{2}\.\d{3}$/.test(c) || /^\d:\d{2}\.\d{3}$/.test(c));
+      const anno = (celle.at(-1).match(/(19|20)\d\d/) || [])[0];
+      const chi = celle[celle.indexOf(tempo) + 1];
+      if (tempo && chi) out.record[serie] = { chi: chi.slice(0, 40), tempo, anno: anno ? +anno : null };
+    }
+  }
+  return out;
+}
+
 /* ---------- Calendario .ics ---------- */
 const icsData = iso => iso.replace(/[-:]/g, '').replace(/\.\d{3}/, '');
 const DURATE = { 'Gara': 60, 'Sprint': 35, 'Qualifiche Sprint': 45, 'Qualifiche': 45, 'Qualifiche Q1': 15, 'Qualifiche Q2': 15 };
