@@ -131,6 +131,60 @@
     "immagine": "mappe/mandalika.png",
     "pagina": "https://commons.wikimedia.org/wiki/File:Mandalika_International_Street_Circuit.svg"
   },
+  "melbourne": {
+    "file": "Albert_Park_Circuit_2021.svg",
+    "via": "pageimage",
+    "immagine": "mappe/melbourne.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Albert_Park_Circuit_2021.svg"
+  },
+  "miami": {
+    "file": "Hard_Rock_Stadium_Circuit_2022.svg",
+    "via": "pageimage",
+    "immagine": "mappe/miami.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Hard_Rock_Stadium_Circuit_2022.svg"
+  },
+  "misano": {
+    "file": "Misano_World_Circuit.svg",
+    "via": "pageimage",
+    "immagine": "mappe/misano.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Misano_World_Circuit.svg"
+  },
+  "monaco": {
+    "file": "Monte_Carlo_Formula_1_track_map.svg",
+    "via": "pageimage",
+    "immagine": "mappe/monaco.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Monte_Carlo_Formula_1_track_map.svg"
+  },
+  "montreal": {
+    "file": "Île_Notre-Dame_(Circuit_Gilles_Villeneuve).svg",
+    "via": "pageimage",
+    "immagine": "mappe/montreal.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:%C3%8Ele_Notre-Dame_(Circuit_Gilles_Villeneuve).svg"
+  },
+  "monza": {
+    "file": "Monza_track_map.svg",
+    "via": "pageimage",
+    "immagine": "mappe/monza.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Monza_track_map.svg"
+  },
+  "most": {
+    "file": "Autodrom_Most_layout.svg",
+    "via": "pageimage",
+    "immagine": "mappe/most.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Autodrom_Most_layout.svg"
+  },
+  "motegi": {
+    "file": "Twin_Ring_Motegi_map-2.svg",
+    "via": "pageimage",
+    "immagine": "mappe/motegi.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Twin_Ring_Motegi_map-2.svg"
+  },
+  "mugello": {
+    "file": "Mugello_Racing_Circuit_track_map_15_turns.svg",
+    "via": "pageimage",
+    "immagine": "mappe/mugello.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Mugello_Racing_Circuit_track_map_15_turns.svg"
+  },
   "phillip-island": {
     "file": "Phillip_Island_Grand_Prix_Circuit_v2022.svg",
     "via": "pageimage",
@@ -143,11 +197,47 @@
     "immagine": "mappe/portimao.png",
     "pagina": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_do_Algarve_F1_Sectors.svg"
   },
+  "sachsenring": {
+    "file": "Sachsenring.svg",
+    "via": "pageimage",
+    "immagine": "mappe/sachsenring.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Sachsenring.svg"
+  },
   "sepang": {
     "file": "Sepang.svg",
     "via": "pageimage",
     "immagine": "mappe/sepang.png",
     "pagina": "https://commons.wikimedia.org/wiki/File:Sepang.svg"
+  },
+  "shanghai": {
+    "file": "Shanghai_International_Racing_Circuit_track_map.svg",
+    "via": "pageimage",
+    "immagine": "mappe/shanghai.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Shanghai_International_Racing_Circuit_track_map.svg"
+  },
+  "silverstone": {
+    "file": "Circuit_Silverstone_2011.svg",
+    "via": "pageimage",
+    "immagine": "mappe/silverstone.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Circuit_Silverstone_2011.svg"
+  },
+  "singapore": {
+    "file": "Marina_Bay_circuit_2023.svg",
+    "via": "pageimage",
+    "immagine": "mappe/singapore.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Marina_Bay_circuit_2023.svg"
+  },
+  "spa": {
+    "file": "Spa-Francorchamps_of_Belgium.svg",
+    "via": "pageimage",
+    "immagine": "mappe/spa.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Spa-Francorchamps_of_Belgium.svg"
+  },
+  "spielberg": {
+    "file": "Spielberg_bare_map_numbers_contextless_2021_corner_names.svg",
+    "via": "pageimage",
+    "immagine": "mappe/spielberg.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Spielberg_bare_map_numbers_contextless_2021_corner_names.svg"
   },
   "valencia": {
     "file": "Valencia_(Ricardo_Tormo)_track_map.svg",
