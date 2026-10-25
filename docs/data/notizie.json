@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-10-25T15:16:51.260Z",
+  "aggiornato": "2026-10-25T15:54:18.830Z",
   "articoli": [
+    {
+      "id": "cc6337e97f6e",
+      "serie": "motogp",
+      "titolo": "Aldeguer alza bandiera bianca: Lecuona correrà anche a Sepang",
+      "link": "https://www.gpone.com/it/2026/10/25/motogp/aldeguer-alza-bandiera-bianca-lecuona-correra-anche-a-sepang.html",
+      "fonte": "GPOne",
+      "data": "2026-10-25T15:49:09.000Z",
+      "immagine": "",
+      "sommario": "Fermin non ha ancora recuperato dall’infortunio, pertanto ci sarà Iker sulla Desmosedici di Gresini in Malesia"
+    },
+    {
+      "id": "21e4d737dc15",
+      "serie": "sbk",
+      "titolo": "Mizuno e Ducati Kagayama conquistano il Campionato giapponese SBK",
+      "link": "https://www.gpone.com/it/2026/10/25/wsbk/mizuno-e-ducati-kagayama-conquistano-il-campionato-giapponese-sbk.html",
+      "fonte": "GPOne",
+      "data": "2026-10-25T15:27:41.000Z",
+      "immagine": "",
+      "sommario": "Con otto vittorie su dieci gare, la Casa di Borgo Panigale è la prima non giapponese nella storia a festeggiare il titolo in Sol Levante con la vecchia Panigale V4"
+    },
     {
       "id": "6a3d280755da",
       "serie": "f1",
