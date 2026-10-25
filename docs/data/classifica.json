@@ -1,7 +1,7 @@
 {
-  "aggiornato": "2026-10-25T07:11:25.158Z",
+  "aggiornato": "2026-10-25T07:58:08.762Z",
   "motogp": {
-    "aggiornato": "2026-10-25T07:11:25.158Z",
+    "aggiornato": "2026-10-25T07:58:08.762Z",
     "fonte": "Motosprint",
     "piloti": [
       {
@@ -183,7 +183,7 @@
         "pos": 26,
         "slug": "somkiat-chantra",
         "nome": "S. Chantra",
-        "team": "Team HRC",
+        "team": "Honda HRC Castrol",
         "punti": 3
       },
       {
@@ -263,7 +263,7 @@
       {
         "pos": 7,
         "nome": "Honda HRC Castrol",
-        "punti": 144
+        "punti": 147
       },
       {
         "pos": 8,
@@ -284,21 +284,6 @@
         "pos": 11,
         "nome": "Prima Pramac Yamaha",
         "punti": 49
-      },
-      {
-        "pos": 12,
-        "nome": "Team HRC",
-        "punti": 3
-      },
-      {
-        "pos": 13,
-        "nome": "Yamaha Factory Racing Team",
-        "punti": 2
-      },
-      {
-        "pos": 14,
-        "nome": "Red Bull GASGAS Tech3",
-        "punti": 0
       }
     ],
     "costruttori": [
@@ -330,7 +315,7 @@
     ]
   },
   "f1": {
-    "aggiornato": "2026-10-25T07:11:25.158Z",
+    "aggiornato": "2026-10-25T07:58:08.762Z",
     "fonte": "Autosprint",
     "piloti": [
       {
@@ -555,7 +540,7 @@
     ]
   },
   "sbk": {
-    "aggiornato": "2026-10-25T07:11:25.158Z",
+    "aggiornato": "2026-10-25T07:58:08.762Z",
     "fonte": "Wikipedia",
     "piloti": [
       {
