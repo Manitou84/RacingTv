@@ -401,6 +401,7 @@ async function aggiornaCircuiti() {
     if (v && recente(v.letto, 30) && v.wiki === c.wiki) { out[id] = v; continue; }
     if (!c.wiki || letti >= 50) { if (v) out[id] = v; continue; }
     letti++;
+    await new Promise(r => setTimeout(r, 400));
     const r = await tenta(`circuito ${id}`, async () => {
       const titolo = encodeURIComponent(c.wiki);
       const res = await fetch(`https://en.wikipedia.org/api/rest_v1/page/html/${titolo}`, { headers: UA, signal: AbortSignal.timeout(30000) });
@@ -413,7 +414,7 @@ async function aggiornaCircuiti() {
       const sommarioIt = it ? await json(`https://it.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(it.replace(/ /g, '_'))}`).catch(() => null) : null;
       const coord = sommarioEn?.coordinates || sommarioIt?.coordinates;
       const testo = (sommarioIt?.extract || '').replace(/\s+/g, ' ').trim();
-      return { wiki: c.wiki, letto: ADESSO.toISOString(), nome: sommarioEn?.title || c.wiki.replace(/_/g, ' '), luogo: c.luogo,
+      return { wiki: c.wiki, letto: ADESSO.toISOString(), nome: sommarioIt?.title || sommarioEn?.title || c.wiki.replace(/_/g, ' '), luogo: c.luogo,
         ...(coord ? { lat: +coord.lat.toFixed(4), lon: +coord.lon.toFixed(4) } : {}),
         ...dati, storia: testo.length > 700 ? testo.slice(0, 700).replace(/\s+\S*$/, '') + '…' : testo,
         fonteStoria: it ? `https://it.wikipedia.org/wiki/${encodeURIComponent(it.replace(/ /g, '_'))}` : null };
@@ -434,17 +435,16 @@ async function aggiornaMappe() {
   const out = {}, errori = {};
   const UA = { 'User-Agent': 'RacingTv/1.0 (https://github.com/Manitou84/RacingTv)' };
   await mkdir(RADICE + 'docs/mappe', { recursive: true });
+  const pausa = ms => new Promise(r => setTimeout(r, ms));
+  let scaricate = 0;
   for (const [id, c] of Object.entries(circuiti)) {
+    if (vecchie[id] && existsSync(RADICE + 'docs/' + vecchie[id].immagine) && !c.mappaFile) { out[id] = vecchie[id]; continue; }
+    if (scaricate >= 15) { if (vecchie[id]) out[id] = vecchie[id]; continue; }   // Wikimedia limita le richieste: le altre al prossimo giro
+    scaricate++;
+    await pausa(1500);
     await (async () => {
       let file = c.mappaFile, via = 'manuale';
       const prendi = async u => { const r = await fetch(u, { headers: UA, signal: AbortSignal.timeout(20000) }); if (!r.ok) throw new Error(`${r.status} su ${u.slice(0, 60)}`); return r.json(); };
-      if (!file && c.wiki) {
-        // 1) Wikidata, proprietà P15 «mappa del percorso»
-        const ent = Object.values((await prendi(`https://www.wikidata.org/w/api.php?action=wbgetentities&sites=enwiki&props=claims&format=json&titles=${encodeURIComponent(c.wiki)}`)).entities || {})[0];
-        const claims = (ent?.claims?.P15 || []).filter(x => x.mainsnak?.datavalue);
-        const scelta = claims.find(x => x.rank === 'preferred') || claims.find(x => !x.qualifiers?.P582) || claims.at(-1);
-        file = scelta?.mainsnak.datavalue.value; via = 'wikidata';
-      }
       if (!file && c.wiki) {
         // 2) i disegni SVG della pagina Wikipedia: preferisco quelli che sembrano un tracciato
         const j = await prendi(`https://en.wikipedia.org/w/api.php?action=query&format=json&prop=images|pageimages&piprop=name&imlimit=100&redirects=1&titles=${encodeURIComponent(c.wiki)}`);
@@ -452,7 +452,7 @@ async function aggiornaMappe() {
         const nomi = (pg.images || []).map(x => x.title.replace(/^File:/, ''));
         const no = /flag|logo|icon|commons|wiki|edit|symbol|locator|location|question|padlock|ambox|crystal|nuvola|disambig|text|portal|oojs|red_pog|map_of|relief|_in_/i;
         const svg = nomi.filter(n => /\.svg$/i.test(n) && !no.test(n.replace(/ /g, '_')));
-        const parole = c.nome.toLowerCase().split(/[^a-zà-ú]+/).filter(x => x.length > 3 && !/circuit|grand|prix|international/.test(x));
+        const parole = (c.nome || c.wiki.replace(/_/g, ' ')).toLowerCase().split(/[^a-zà-ú]+/).filter(x => x.length > 3 && !/circuit|grand|prix|international/.test(x));
         const voto = n => { const l = n.toLowerCase(); return (/track|circuit|layout|circuito|map/.test(l) ? 2 : 0) + parole.filter(x => l.includes(x)).length; };
         const migliore = svg.sort((x, y) => voto(y) - voto(x))[0];
         if (pg.pageimage && /\.svg$/i.test(pg.pageimage)) { file = pg.pageimage; via = 'pageimage'; }

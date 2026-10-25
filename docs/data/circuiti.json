@@ -473,6 +473,13 @@
     "Nel 2021 qui si è deciso il Mondiale tra Verstappen e Hamilton all'ultimo giro.",
     "La mappa mostra il tracciato prima delle modifiche del 2021, con la versione attuale in grigio."
    ]
+  },
+  "le-mans": {
+   "nome": "Circuito Bugatti",
+   "luogo": "Le Mans, Francia",
+   "lunghezza": 4.185,
+   "curve": 14,
+   "wiki": "Bugatti_Circuit"
   }
  }
 }

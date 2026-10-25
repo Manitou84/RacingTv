@@ -575,9 +575,11 @@ export function parseCircuitoWiki(html) {
       const cat = celle[0];
       const serie = /^formula one\b/i.test(cat) ? 'f1' : /^motogp\b/i.test(cat) ? 'motogp' : /^(world ?sbk|superbike world|world superbike|superbike)\b/i.test(cat) ? 'sbk' : null;
       if (!serie || out.record[serie]) continue;
-      const tempo = celle.find(c => /^\d?:?\d{1,2}:\d{2}\.\d{3}$/.test(c) || /^\d:\d{2}\.\d{3}$/.test(c));
-      const anno = (celle.at(-1).match(/(19|20)\d\d/) || [])[0];
-      const chi = celle[celle.indexOf(tempo) + 1];
+      const it = celle.findIndex(c => /^(\d:)?\d{1,2}:\d{2}\.\d{3}$/.test(c));
+      const tempo = it >= 0 ? celle[it] : null;
+      const dopo = celle.slice(it + 1);
+      const chi = dopo.find(c => /[a-z]/i.test(c) && !/\bkm\b|\bmi\)/.test(c));
+      const anno = (dopo.join(' ').match(/\b(19|20)\d\d\b/) || [])[0];
       if (tempo && chi) out.record[serie] = { chi: chi.slice(0, 40), tempo, anno: anno ? +anno : null };
     }
   }
