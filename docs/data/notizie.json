@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-10-25T05:56:12.818Z",
+  "aggiornato": "2026-10-25T06:23:31.142Z",
   "articoli": [
+    {
+      "id": "532596a3e60f",
+      "serie": "motogp",
+      "titolo": "Confermata una sola frattura per Martin: sarà presente a Sepang",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/25-9229975/confermata_una_sola_frattura_per_martin_sar_presente_a_sepang",
+      "fonte": "Motosprint",
+      "data": "2026-10-25T06:23:31.142Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/25/055758504-12fd71c1-0e61-42cd-b59b-e2373875188c.jpg",
+      "sommario": "Lo spagnolo ha cambiato i propri piani e volerà in Malesia, ma la sua presenza in pista resta ancora in forte dubbio"
+    },
+    {
+      "id": "cc63bad2336c",
+      "serie": "motogp",
+      "titolo": "A Phillip Island vince il maltempo: cancellata la gara della MotoGP",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/25-9229974/a_phillip_island_vince_il_maltempo_cancellata_la_gara_della_motogp",
+      "fonte": "Motosprint",
+      "data": "2026-10-25T06:23:31.142Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/25/053915826-e62b88de-99b7-4f5c-b4a5-702b6d97c276.jpeg",
+      "sommario": "Dopo Moto3 e Moto2, anche la classe regina deve dire addio alla sua corsa. L’ultimo saluto all’isola con un giro di parata. Un errore la mancata inversione tra Sprint e GP?\n"
+    },
     {
       "id": "2f9a0fe4f302",
       "serie": "motogp",
