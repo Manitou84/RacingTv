@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-25T09:20:44.196Z",
+  "aggiornato": "2026-10-25T09:55:35.039Z",
   "articoli": [
     {
       "fonte": "Sky Sport",
@@ -143,6 +143,16 @@
     },
     {
       "fonte": "OA Sport",
+      "titolo": "Dove vedere la F1 stasera in tv, GP USA 2026: orario gara, differita TV8, streaming",
+      "url": "https://www.oasport.it/2026/10/dove-vedere-la-f1-stasera-in-tv-gp-usa-2026-orario-gara-differita-tv8-streaming/",
+      "gp": "GP USA",
+      "serie": "f1",
+      "sessioni": [
+        "F1 Gara 2026-10-25T20:00:00.000Z TV8 differita 2026-10-25T21:25:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
       "titolo": "A che ora la F1 su TV8 oggi, GP USA 2026: programma differita gara in chiaro",
       "url": "https://www.oasport.it/2026/10/a-che-ora-la-f1-su-tv8-oggi-gp-usa-2026-programma-gara-differita-in-chiaro/",
       "gp": "GP USA",
@@ -232,20 +242,6 @@
         "F1 Prove libere 3 2026-10-24T17:30:00.000Z",
         "F1 Qualifiche 2026-10-24T21:00:00.000Z TV8 differita 2026-10-24T22:30:00.000Z",
         "F1 Gara 2026-10-25T20:00:00.000Z TV8 differita 2026-10-25T21:30:00.000Z"
-      ]
-    },
-    {
-      "fonte": "OA Sport",
-      "titolo": "F1, GP USA 2026: programma, orari, tv, streaming, guida SKY e TV8",
-      "url": "https://www.oasport.it/2026/10/f1-gp-usa-2026-programma-orari-tv-streaming-guida-sky-e-tv8/",
-      "gp": "GP USA",
-      "serie": "f1",
-      "sessioni": [
-        "F1 Prove libere 1 2026-10-23T17:30:00.000Z",
-        "F1 Prove libere 2 2026-10-23T21:00:00.000Z",
-        "F1 Prove libere 3 2026-10-24T17:30:00.000Z",
-        "F1 Qualifiche 2026-10-24T21:00:00.000Z",
-        "F1 Gara 2026-10-25T20:00:00.000Z"
       ]
     },
     {
