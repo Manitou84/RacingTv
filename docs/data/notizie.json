@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-10-25T04:59:01.294Z",
+  "aggiornato": "2026-10-25T05:25:52.297Z",
   "articoli": [
+    {
+      "id": "2f9a0fe4f302",
+      "serie": "motogp",
+      "titolo": "VIDEO - L'ultimo saluto dei piloti a Phillip Island",
+      "link": "https://www.gpone.com/it/2026/10/25/motogp/video-lultimo-saluto-dei-piloti-a-phillip-island.html",
+      "fonte": "GPOne",
+      "data": "2026-10-25T05:20:16.000Z",
+      "immagine": "",
+      "sommario": "Il maltempo cancella l'ultima gara della MotoGP a Phillip Island. I piloti salutano il pubblico con un giro d'onore: il racconto dalla griglia."
+    },
+    {
+      "id": "d8a4a38b213b",
+      "serie": "motogp",
+      "titolo": "La pioggia fa un regalo a Martín e uno a Márquez: il paradosso del Mondiale",
+      "link": "https://www.gpone.com/it/2026/10/25/motogp/la-pioggia-fa-un-regalo-a-martin-e-uno-a-marquez-il-paradosso-del-mondiale.html",
+      "fonte": "GPOne",
+      "data": "2026-10-25T04:55:25.000Z",
+      "immagine": "",
+      "sommario": "Il GP d'Australia cancellato evita a Jorge di perdere altri 25 punti contro Marc. Ma se salta anche il Qatar, resteranno soltanto 111 punti da assegnare: il vantaggio del ducatista peserà sempre di più"
+    },
     {
       "id": "9bf4a580b162",
       "serie": "motogp",

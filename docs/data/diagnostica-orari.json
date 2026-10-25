@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-25T04:59:01.294Z",
+  "aggiornato": "2026-10-25T05:25:52.297Z",
   "articoli": [
     {
       "fonte": "Sky Sport",
@@ -155,6 +155,17 @@
         "Moto3 Gara 2026-10-25T01:00:00.000Z",
         "Moto2 Gara 2026-10-25T01:15:00.000Z",
         "MotoGP Gara 2026-10-25T03:00:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
+      "titolo": "A che ora la F1 su TV8 oggi, GP USA 2026: programma gara, differita in chiaro",
+      "url": "https://www.oasport.it/2026/10/a-che-ora-la-f1-su-tv8-oggi-gp-usa-2026-programma-gara-differita-in-chiaro/",
+      "gp": "GP USA",
+      "serie": "f1",
+      "sessioni": [
+        "F1 Gara 2026-10-25T20:00:00.000Z TV8 differita 2026-10-25T21:30:00.000Z",
+        "F1 Qualifiche - TV8 differita 2026-10-25T18:45:00.000Z"
       ]
     },
     {
