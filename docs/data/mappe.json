@@ -1,4 +1,10 @@
 {
+  "aragon": {
+    "file": "Motorland_Aragón_FIA.svg",
+    "via": "pageimage",
+    "immagine": "mappe/aragon.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Motorland_Arag%C3%B3n_FIA.svg"
+  },
   "assen": {
     "file": "TT Assen.svg",
     "via": "wikidata",
@@ -17,11 +23,65 @@
     "immagine": "mappe/baku.png",
     "pagina": "https://commons.wikimedia.org/wiki/File:Baku_Street_Circuit.jpg"
   },
+  "balaton": {
+    "file": "Balaton_Park_Circuit_layout_(automobile_racing).svg",
+    "via": "pageimage",
+    "immagine": "mappe/balaton.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Balaton_Park_Circuit_layout_(automobile_racing).svg"
+  },
+  "barcellona": {
+    "file": "Circuit_de_Catalunya_moto_2021.svg",
+    "via": "pageimage",
+    "immagine": "mappe/barcellona.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Circuit_de_Catalunya_moto_2021.svg"
+  },
+  "brno": {
+    "file": "Brno_(formerly_Masarykův_okruh).svg",
+    "via": "pageimage",
+    "immagine": "mappe/brno.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Brno_(formerly_Masaryk%C5%AFv_okruh).svg"
+  },
+  "buriram": {
+    "file": "Buriram_circuit_map.svg",
+    "via": "pageimage",
+    "immagine": "mappe/buriram.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Buriram_circuit_map.svg"
+  },
   "citta-del-messico": {
     "file": "Autódromo_Hermanos_Rodríguez_2015.svg",
     "via": "pageimage",
     "immagine": "mappe/citta-del-messico.png",
     "pagina": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_Hermanos_Rodr%C3%ADguez_2015.svg"
+  },
+  "cremona": {
+    "file": "Cremona Circuit Angelo Bergamonti, San Martino Del Lago, Italy.svg",
+    "via": "pagina",
+    "immagine": "mappe/cremona.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Cremona_Circuit_Angelo_Bergamonti%2C_San_Martino_Del_Lago%2C_Italy.svg"
+  },
+  "donington": {
+    "file": "Donington_circuit.svg",
+    "via": "pageimage",
+    "immagine": "mappe/donington.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Donington_circuit.svg"
+  },
+  "estoril": {
+    "file": "Estoril_track_map.svg",
+    "via": "pageimage",
+    "immagine": "mappe/estoril.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Estoril_track_map.svg"
+  },
+  "goiania": {
+    "file": "Autódromo_Internacional_Ayrton_Senna_(Goiânia)_track_map_(Brazil)--Mixed_circuit.svg",
+    "via": "pageimage",
+    "immagine": "mappe/goiania.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_Internacional_Ayrton_Senna_(Goi%C3%A2nia)_track_map_(Brazil)--Mixed_circuit.svg"
+  },
+  "hungaroring": {
+    "file": "Hungaroring2026.svg",
+    "via": "pageimage",
+    "immagine": "mappe/hungaroring.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Hungaroring2026.svg"
   },
   "interlagos": {
     "file": "Autódromo_José_Carlos_Pace_(AKA_Interlagos)_track_map.svg",
@@ -29,17 +89,47 @@
     "immagine": "mappe/interlagos.png",
     "pagina": "https://commons.wikimedia.org/wiki/File:Aut%C3%B3dromo_Jos%C3%A9_Carlos_Pace_(AKA_Interlagos)_track_map.svg"
   },
+  "jerez": {
+    "file": "Circuito_de_Jerez_v2.svg",
+    "via": "pageimage",
+    "immagine": "mappe/jerez.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Circuito_de_Jerez_v2.svg"
+  },
   "las-vegas": {
     "file": "2023_Las_Vegas_street_circuit.svg",
     "via": "pageimage",
     "immagine": "mappe/las-vegas.png",
     "pagina": "https://commons.wikimedia.org/wiki/File:2023_Las_Vegas_street_circuit.svg"
   },
+  "le-mans": {
+    "file": "Bugatti Circuit.svg",
+    "via": "pagina",
+    "immagine": "mappe/le-mans.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Bugatti_Circuit.svg"
+  },
   "lusail": {
     "file": "Lusail_International_Circuit_2023.svg",
     "via": "pageimage",
     "immagine": "mappe/lusail.png",
     "pagina": "https://commons.wikimedia.org/wiki/File:Lusail_International_Circuit_2023.svg"
+  },
+  "madrid": {
+    "file": "Madring_(2026).svg",
+    "via": "pageimage",
+    "immagine": "mappe/madrid.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Madring_(2026).svg"
+  },
+  "magny-cours": {
+    "file": "Circuit_de_Nevers_Magny-Cours.svg",
+    "via": "pageimage",
+    "immagine": "mappe/magny-cours.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Circuit_de_Nevers_Magny-Cours.svg"
+  },
+  "mandalika": {
+    "file": "Mandalika_International_Street_Circuit.svg",
+    "via": "pageimage",
+    "immagine": "mappe/mandalika.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Mandalika_International_Street_Circuit.svg"
   },
   "phillip-island": {
     "file": "Phillip_Island_Grand_Prix_Circuit_v2022.svg",
