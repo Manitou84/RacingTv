@@ -1,6 +1,46 @@
 {
-  "aggiornato": "2026-10-25T09:55:35.039Z",
+  "aggiornato": "2026-10-25T10:17:46.508Z",
   "articoli": [
+    {
+      "id": "b933e1388cbc",
+      "serie": "motogp",
+      "titolo": "Aldeguer rinuncia anche alla MotoGP di Sepang, Lecuona il sostituto",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/25-9230236/aldeguer_rinuncia_anche_alla_motogp_di_sepang_lecuona_il_sostituto",
+      "fonte": "Motosprint",
+      "data": "2026-10-25T10:17:46.508Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/25/085734841-71742d4a-8138-4230-80a2-1da36113e064.jpg",
+      "sommario": "Fermin salterà anche il Gran Premio di Malesia: Iker continua con la Ducati Desmosedici del team Gresini"
+    },
+    {
+      "id": "a37103744ee3",
+      "serie": "motogp",
+      "titolo": "Il disappunto di Marquez: “Phillip Island non meritava un addio come questo”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/25-9230235/il_disappunto_di_marquez_phillip_island_non_meritava_un_addio_come_questo",
+      "fonte": "Motosprint",
+      "data": "2026-10-25T10:17:46.508Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/25/085931362-3e199f5f-67b5-4ff9-8448-9575eae4ee78.jpg",
+      "sommario": "La cancellazione del GP domenicale ha lasciato tutti con l’amaro in bocca, soprattutto trattandosi dell’ultima volta sul circuito australiano: ecco cosa ha detto Marc a riguardo"
+    },
+    {
+      "id": "736470853b33",
+      "serie": "motogp",
+      "titolo": "MotoGP, Bagnaia e la soluzione con Tardozzi per correre a Phillip Island",
+      "link": "https://www.gpone.com/it/2026/10/25/motogp/pecco-bagnaia-aveva-la-soluzione-per-correre-a-phillip-island.html",
+      "fonte": "GPOne",
+      "data": "2026-10-25T09:52:39.000Z",
+      "immagine": "",
+      "sommario": "Un vero peccato aver perso l'ultima occasione di vedere un GP a Phillip Island, anche perché Bagnaia aveva trovato una soluzione perfetta, coinvolgendo Davide 'Iceman' Tardozzi."
+    },
+    {
+      "id": "514501540087",
+      "serie": "motogp",
+      "titolo": "Claudio Costa: “Martín, in Malesia è quasi impossibile. In Qatar l'impossibile diventa possibile”",
+      "link": "https://www.gpone.com/it/2026/10/25/motogp/claudio-costa-martin-in-malesia-e-quasi-impossibile-in-qatar-limpossibile-diventa-possibile.html",
+      "fonte": "GPOne",
+      "data": "2026-10-25T09:24:05.000Z",
+      "immagine": "",
+      "sommario": "\"Con il polso sinistro rotto ho fatto vincere Schwantz. Martín ha avuto la sfortuna di rompersi il destro. Al polso sinistro, avrebbe potuto correre in Malesia, naturalmente con la medicina 'eretica' di Costa\""
+    },
     {
       "id": "41cf0787139d",
       "serie": "motogp",
