@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-10-25T13:05:06.658Z",
+  "aggiornato": "2026-10-25T13:54:35.653Z",
   "articoli": [
+    {
+      "id": "6a3d280755da",
+      "serie": "f1",
+      "titolo": "Saltare un GP per la nascita di suo figlio? Leclerc risponde",
+      "link": "https://www.autosprint.it/news/formula1/2026/10/25-9230573/saltare_un_gp_per_la_nascita_di_suo_figlio_leclerc_risponde",
+      "fonte": "Autosprint",
+      "data": "2026-10-25T13:54:35.653Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/25/132717064-cdaaf91c-0aca-4d9e-9f35-550fac1a2fda.jpg",
+      "sommario": "Prima del gran premio degli Stati Uniti è stato chiesto a Charles Leclerc se intendesse saltare una gara se fosse coinciso col momento in cui sarebbe diventato papà"
+    },
     {
       "id": "1d64bb3fdb0a",
       "serie": "motogp",

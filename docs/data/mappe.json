@@ -239,6 +239,12 @@
     "immagine": "mappe/spielberg.png",
     "pagina": "https://commons.wikimedia.org/wiki/File:Spielberg_bare_map_numbers_contextless_2021_corner_names.svg"
   },
+  "suzuka": {
+    "file": "Suzuka_circuit_map--2005.svg",
+    "via": "pageimage",
+    "immagine": "mappe/suzuka.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Suzuka_circuit_map--2005.svg"
+  },
   "valencia": {
     "file": "Valencia_(Ricardo_Tormo)_track_map.svg",
     "via": "pageimage",
@@ -250,5 +256,11 @@
     "via": "manuale",
     "immagine": "mappe/yas-marina.png",
     "pagina": "https://commons.wikimedia.org/wiki/File:Circuit_Yas-Island.svg"
+  },
+  "zandvoort": {
+    "file": "Circuit Park Zandvoort-1948.svg",
+    "via": "pagina",
+    "immagine": "mappe/zandvoort.png",
+    "pagina": "https://commons.wikimedia.org/wiki/File:Circuit_Park_Zandvoort-1948.svg"
   }
 }
