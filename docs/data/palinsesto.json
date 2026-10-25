@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-25T06:23:31.142Z",
+  "aggiornato": "2026-10-25T07:11:25.158Z",
   "weekend": [
     {
       "id": "sbk-gp-spagna-2026",
@@ -206,14 +206,14 @@
         {
           "classe": "MotoGP",
           "sessione": "Warm up",
-          "inizio": "2026-10-24T22:40:00.000Z",
+          "inizio": "2026-10-24T20:40:00.000Z",
           "tv8": null,
           "fonte": "OA Sport"
         },
         {
           "classe": "Moto3",
           "sessione": "Gara",
-          "inizio": "2026-10-25T01:00:00.000Z",
+          "inizio": "2026-10-24T22:00:00.000Z",
           "tv8": {
             "tipo": "differita",
             "inizio": "2026-10-25T10:00:00.000Z"
@@ -249,6 +249,11 @@
       "fonti": [
         {
           "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/motogp-su-tv8-gp-australia-2026-quando-la-gara-in-chiaro-orario-e-programma/",
+          "titolo": "MotoGP su TV8, GP Australia 2026: quando la gara in chiaro, orario e programma"
+        },
+        {
+          "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/10/motogp-in-tv-gp-australia-2026-orario-gara-25-ottobre-streaming-programma-sky-differita-tv8/",
           "titolo": "MotoGP in tv, GP Australia 2026: orario gara 25 ottobre, streaming, programma Sky, differita TV8"
         },
@@ -271,11 +276,6 @@
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/10/motogp-gp-australia-2026-su-tv8-orari-in-chiaro-fine-settimana-qualifiche-sprint-e-gara/",
           "titolo": "MotoGP, GP Australia 2026 su TV8: orari in chiaro fine settimana, qualifiche, Sprint e gara"
-        },
-        {
-          "nome": "OA Sport",
-          "url": "https://www.oasport.it/2026/10/motogp-gp-australia-2026-programma-orari-tv-streaming-guida-sky-e-tv8/",
-          "titolo": "MotoGP, GP Australia 2026: programma, orari, tv, streaming, guida SKY e TV8"
         }
       ]
     },
