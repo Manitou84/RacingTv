@@ -1,7 +1,7 @@
 {
-  "aggiornato": "2026-10-25T21:51:37.162Z",
+  "aggiornato": "2026-10-25T22:13:40.676Z",
   "motogp": {
-    "aggiornato": "2026-10-25T21:51:37.162Z",
+    "aggiornato": "2026-10-25T22:13:40.676Z",
     "fonte": "Motosprint",
     "piloti": [
       {
@@ -315,7 +315,7 @@
     ]
   },
   "f1": {
-    "aggiornato": "2026-10-25T21:51:37.162Z",
+    "aggiornato": "2026-10-25T22:13:40.676Z",
     "fonte": "Autosprint",
     "piloti": [
       {
@@ -323,70 +323,70 @@
         "slug": "kimi-antonelli",
         "nome": "A. K. Antonelli",
         "team": "Mercedes-AMG Petronas F1 Team",
-        "punti": 340
+        "punti": 365
       },
       {
         "pos": 2,
         "slug": "george-russell",
         "nome": "G. Russell",
         "team": "Mercedes-AMG Petronas F1 Team",
-        "punti": 238
+        "punti": 242
       },
       {
         "pos": 3,
         "slug": "lewis-hamilton",
         "nome": "L. Hamilton",
         "team": "Scuderia Ferrari HP",
-        "punti": 229
+        "punti": 241
       },
       {
         "pos": 4,
         "slug": "max-verstappen",
         "nome": "M. Verstappen",
         "team": "Oracle Red Bull Racing",
-        "punti": 221
+        "punti": 236
       },
       {
         "pos": 5,
         "slug": "charles-leclerc",
         "nome": "C. Leclerc",
         "team": "Scuderia Ferrari HP",
-        "punti": 215
+        "punti": 233
       },
       {
         "pos": 6,
         "slug": "lando-norris",
         "nome": "L. Norris",
         "team": "McLaren Mastercard F1 Team",
-        "punti": 201
+        "punti": 211
       },
       {
         "pos": 7,
         "slug": "oscar-piastri",
         "nome": "O. Piastri",
         "team": "McLaren Mastercard F1 Team",
-        "punti": 138
+        "punti": 144
       },
       {
         "pos": 8,
         "slug": "isack-hadjar",
         "nome": "I. Hadjar",
         "team": "Oracle Red Bull Racing",
-        "punti": 97
+        "punti": 105
       },
       {
         "pos": 9,
         "slug": "liam-lawson",
         "nome": "L. Lawson",
         "team": "Visa Cash App Racing Bulls Formula One Team",
-        "punti": 75
+        "punti": 77
       },
       {
         "pos": 10,
         "slug": "pierre-gasly",
         "nome": "P. Gasly",
         "team": "BWT Alpine F1 Team",
-        "punti": 41
+        "punti": 42
       },
       {
         "pos": 11,
@@ -485,32 +485,32 @@
       {
         "pos": 1,
         "nome": "Mercedes-AMG Petronas F1 Team",
-        "punti": 578
+        "punti": 607
       },
       {
         "pos": 2,
         "nome": "Scuderia Ferrari HP",
-        "punti": 444
+        "punti": 474
       },
       {
         "pos": 3,
-        "nome": "McLaren Mastercard F1 Team",
-        "punti": 339
+        "nome": "Oracle Red Bull Racing",
+        "punti": 355
       },
       {
         "pos": 4,
-        "nome": "Oracle Red Bull Racing",
-        "punti": 332
+        "nome": "McLaren Mastercard F1 Team",
+        "punti": 355
       },
       {
         "pos": 5,
         "nome": "Visa Cash App Racing Bulls Formula One Team",
-        "punti": 100
+        "punti": 102
       },
       {
         "pos": 6,
         "nome": "BWT Alpine F1 Team",
-        "punti": 68
+        "punti": 69
       },
       {
         "pos": 7,
@@ -540,7 +540,7 @@
     ]
   },
   "sbk": {
-    "aggiornato": "2026-10-25T21:51:37.162Z",
+    "aggiornato": "2026-10-25T22:13:40.676Z",
     "fonte": "Wikipedia",
     "piloti": [
       {
