@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-10-25T11:16:38.574Z",
+  "aggiornato": "2026-10-25T11:53:20.100Z",
   "articoli": [
+    {
+      "id": "95a01f8d9f29",
+      "serie": "motogp",
+      "titolo": "Qatar sì o no? I dubbi restano, Carlos Ezpeleta sarà a Doha mercoledì",
+      "link": "https://www.gpone.com/it/2026/10/25/motogp/qatar-si-o-no-i-dubbi-restano-carlos-ezpeleta-sara-a-doha-mercoledi.html",
+      "fonte": "GPOne",
+      "data": "2026-10-25T11:48:27.000Z",
+      "immagine": "",
+      "sommario": "I team dicono di fidarsi dell'organizzatore, ma intanto i Governi europei sconsigliano viaggi non necessari nell'area. Lo spettacolo non può andare avanti a tutti i costi"
+    },
+    {
+      "id": "f783aa4dec50",
+      "serie": "motogp",
+      "titolo": "Bonora apre al rientro di Martin in Malesia: \"Ci lavoreremo, siamo ottimisti\"",
+      "link": "https://www.gpone.com/it/2026/10/25/motogp/bonora-apre-al-rientro-di-martin-in-malesia-ci-lavoreremo-siamo-ottimisti.html",
+      "fonte": "GPOne",
+      "data": "2026-10-25T11:00:25.000Z",
+      "immagine": "",
+      "sommario": "\"Oggi abbiamo trovato bene Jorge e questo ci dà fiducia. Rientrare sarebbe anche il suo obiettivo. Dovremo valutare giorno per giorno e attenerci al parere dei medici\""
+    },
     {
       "id": "b933e1388cbc",
       "serie": "motogp",

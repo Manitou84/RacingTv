@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-25T11:16:38.574Z",
+  "aggiornato": "2026-10-25T11:53:20.100Z",
   "fonte": "Wikipedia",
   "piloti": {
     "martin": [
@@ -173,7 +173,7 @@
       {
         "anno": 2026,
         "campionato": "MotoGP",
-        "pos": 4,
+        "pos": 5,
         "punti": 259,
         "inCorso": true
       }
@@ -217,7 +217,7 @@
       {
         "anno": 2026,
         "campionato": "MotoGP",
-        "pos": 5,
+        "pos": 4,
         "punti": 263,
         "inCorso": true
       }

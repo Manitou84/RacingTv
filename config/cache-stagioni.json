@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-25T11:16:38.574Z",
+  "aggiornato": "2026-10-25T11:53:20.100Z",
   "_fonte": "Wikipedia (inglese)",
   "stagioni": {
     "2021|MotoGP World Championship": {
@@ -10056,13 +10056,13 @@
         },
         {
           "pos": 4,
-          "nome": "Ai Ogura",
-          "punti": 259
+          "nome": "Pedro Acosta",
+          "punti": 263
         },
         {
           "pos": 5,
-          "nome": "Pedro Acosta",
-          "punti": 263
+          "nome": "Ai Ogura",
+          "punti": 259
         },
         {
           "pos": 6,
@@ -10257,7 +10257,7 @@
           "punti": 49
         }
       ],
-      "letta": "2026-10-25T08:22:22.744Z",
+      "letta": "2026-10-25T11:53:20.100Z",
       "tentativi": 0
     },
     "2026|Moto2 World Championship": {
@@ -10485,7 +10485,7 @@
           "punti": 38
         }
       ],
-      "letta": "2026-10-25T08:22:22.744Z",
+      "letta": "2026-10-25T11:53:20.100Z",
       "tentativi": 0
     },
     "2026|Moto3 World Championship": {
@@ -10683,7 +10683,7 @@
           "punti": 68
         }
       ],
-      "letta": "2026-10-25T08:22:22.744Z",
+      "letta": "2026-10-25T11:53:20.100Z",
       "tentativi": 0
     },
     "2026|Superbike World Championship": {
@@ -10840,7 +10840,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-10-25T08:22:22.744Z",
+      "letta": "2026-10-25T11:53:20.100Z",
       "tentativi": 0
     },
     "2026|Formula One World Championship": {
@@ -11018,7 +11018,7 @@
           "punti": 0
         }
       ],
-      "letta": "2026-10-25T08:22:22.744Z",
+      "letta": "2026-10-25T11:53:20.100Z",
       "tentativi": 0
     },
     "2026|FIA Formula 2 Championship": {
@@ -11140,7 +11140,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-10-25T08:22:22.744Z",
+      "letta": "2026-10-25T11:53:20.100Z",
       "tentativi": 0
     },
     "2026|FIA Formula 3 Championship": {
@@ -11322,7 +11322,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-10-25T08:22:22.744Z",
+      "letta": "2026-10-25T11:53:20.100Z",
       "tentativi": 0
     },
     "2026|Super Formula Championship": {
@@ -11459,7 +11459,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-10-25T08:22:22.744Z",
+      "letta": "2026-10-25T11:53:20.100Z",
       "tentativi": 0
     },
     "2026|Supersport World Championship": {
@@ -11742,7 +11742,7 @@
           "punti": 5
         }
       ],
-      "letta": "2026-10-25T08:22:22.744Z",
+      "letta": "2026-10-25T11:53:20.100Z",
       "tentativi": 0
     },
     "2026|British Superbike Championship": {
@@ -11879,7 +11879,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-10-25T08:22:22.744Z",
+      "letta": "2026-10-25T11:53:20.100Z",
       "tentativi": 0
     }
   },

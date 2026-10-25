@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-25T11:16:38.574Z",
+  "aggiornato": "2026-10-25T11:53:20.100Z",
   "articoli": [
     {
       "fonte": "Sky Sport",
@@ -143,23 +143,23 @@
     },
     {
       "fonte": "OA Sport",
-      "titolo": "Dove vedere la F1 stasera in tv, GP USA 2026: orario gara, differita TV8, streaming",
-      "url": "https://www.oasport.it/2026/10/dove-vedere-la-f1-stasera-in-tv-gp-usa-2026-orario-gara-differita-tv8-streaming/",
-      "gp": "GP USA",
-      "serie": "f1",
-      "sessioni": [
-        "F1 Gara 2026-10-25T20:00:00.000Z TV8 differita 2026-10-25T21:25:00.000Z"
-      ]
-    },
-    {
-      "fonte": "OA Sport",
-      "titolo": "A che ora la F1 su TV8 oggi, GP USA 2026: programma differita gara in chiaro",
+      "titolo": "Quando la F1 su TV8 oggi, GP USA 2026: orario differita gara in chiaro",
       "url": "https://www.oasport.it/2026/10/a-che-ora-la-f1-su-tv8-oggi-gp-usa-2026-programma-gara-differita-in-chiaro/",
       "gp": "GP USA",
       "serie": "f1",
       "sessioni": [
         "F1 Gara 2026-10-25T20:00:00.000Z TV8 differita 2026-10-25T21:30:00.000Z",
         "F1 Qualifiche - TV8 differita 2026-10-25T18:45:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
+      "titolo": "Dove vedere la F1 stasera in tv, GP USA 2026: orario d’inizio gara, differita TV8, streaming",
+      "url": "https://www.oasport.it/2026/10/dove-vedere-la-f1-stasera-in-tv-gp-usa-2026-orario-gara-differita-tv8-streaming/",
+      "gp": "GP USA",
+      "serie": "f1",
+      "sessioni": [
+        "F1 Gara 2026-10-25T20:00:00.000Z TV8 differita 2026-10-25T21:25:00.000Z"
       ]
     },
     {
