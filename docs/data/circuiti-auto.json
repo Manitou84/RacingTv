@@ -1,0 +1,886 @@
+{
+  "aggiornato": "2026-10-25T12:58:28.561Z",
+  "_fonte": "Wikipedia e Wikidata",
+  "circuiti": {
+    "aragon": {
+      "wiki": "MotorLand_Aragón",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "MotorLand Aragón",
+      "luogo": "Alcañiz, Spagna",
+      "lat": 41.0783,
+      "lon": -0.2075,
+      "record": {
+        "sbk": {
+          "chi": "Tom Sykes",
+          "tempo": "1:57.664",
+          "anno": 2014
+        },
+        "motogp": {
+          "chi": "Marc Márquez",
+          "tempo": "1:45.704",
+          "anno": 2024
+        }
+      },
+      "dal": 2009,
+      "lunghezza": 5.345,
+      "curve": 18,
+      "storia": "La Ciudad del Motor de Aragón, nota anche come Motorland Aragón, è un circuito motoristico situato ad Alcañiz, località della comunità autonoma spagnola dell'Aragona.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Ciudad_del_Motor_de_Arag%C3%B3n"
+    },
+    "assen": {
+      "wiki": "TT_Circuit_Assen",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "TT Circuit Assen",
+      "luogo": "Assen, Paesi Bassi",
+      "lat": 52.9617,
+      "lon": 6.5233,
+      "record": {
+        "motogp": {
+          "chi": "Valentino Rossi",
+          "tempo": "1:36.558",
+          "anno": 2009
+        },
+        "sbk": {
+          "chi": "Noriyuki Haga",
+          "tempo": "1:38.680",
+          "anno": 2009
+        }
+      },
+      "dal": 1925,
+      "lunghezza": 4.555,
+      "curve": 18,
+      "storia": "Il TT Circuit Assen è il tracciato dove si svolge dal 1925 il Gran Premio motociclistico d'Olanda, che fa parte del motomondiale sin dall'istituzione di tale titolo.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/TT_Circuit_Assen"
+    },
+    "austin": {
+      "wiki": "Circuit_of_the_Americas",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Circuit of the Americas",
+      "luogo": "Austin, Stati Uniti",
+      "lat": 30.1328,
+      "lon": -97.6411,
+      "record": {},
+      "dal": 2012,
+      "lunghezza": 5.513,
+      "curve": 20,
+      "storia": "Il circuito delle Americhe di Austin, in Texas, è un circuito motoristico statunitense, sede dal 2012 del Gran Premio degli Stati Uniti d'America di Formula 1 e dal 2013 del Gran Premio motociclistico delle Americhe.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_delle_Americhe"
+    },
+    "baku": {
+      "wiki": "Baku_City_Circuit",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Baku City Circuit",
+      "luogo": "Baku, Azerbaigian",
+      "lat": 40.3725,
+      "lon": 49.8533,
+      "record": {
+        "f1": {
+          "chi": "Charles Leclerc",
+          "tempo": "1:43.009",
+          "anno": 2019
+        }
+      },
+      "dal": 2016,
+      "lunghezza": 6.003,
+      "curve": 20,
+      "storia": "Il circuito di Baku è un circuito cittadino non permanente sito a Baku, capitale dell'Azerbaigian, nella zona della città vecchia.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_di_Baku"
+    },
+    "balaton": {
+      "wiki": "Balaton_Park_Circuit",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Balaton Park Circuit",
+      "luogo": "Balatonfőkajár, Ungheria",
+      "lat": 47.0081,
+      "lon": 18.1989,
+      "record": {},
+      "dal": 2023,
+      "lunghezza": 4.115,
+      "curve": 16,
+      "storia": "Il circuito del Balaton Park è un circuito situato a Balatonfőkajár, Ungheria. Aperto nel maggio del 2023, ospita il TCR Eastern Europe Trophy e dal 2025 ospita il Gran Premio motociclistico d'Ungheria nel Motomondiale e una tappa del Campionato Superbike.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_del_Balaton_Park"
+    },
+    "barcellona": {
+      "wiki": "Circuit_de_Barcelona-Catalunya",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Circuit de Barcelona-Catalunya",
+      "luogo": "Montmeló, Spagna",
+      "lat": 41.57,
+      "lon": 2.2611,
+      "record": {
+        "motogp": {
+          "chi": "Pedro Acosta",
+          "tempo": "1:39.664",
+          "anno": 2024
+        }
+      },
+      "dal": 1991,
+      "lunghezza": 4.657,
+      "curve": 14,
+      "storia": "Il circuito di Barcellona-Catalogna è un tracciato per competizioni automobilistiche e motociclistiche situato in via Mas Moreneta a Montmeló, venti chilometri a nord-est di Barcellona, in Catalogna. Fino all'accordo del 2013 con il consiglio comunale della capitale della comunità autonoma spagnola era noto semplicemente come Circuit de Catalunya. Per via del comune ove risiede è noto colloquialmente anche come circuito di Montmeló.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_di_Barcellona-Catalogna"
+    },
+    "brno": {
+      "wiki": "Brno_Circuit",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Brno Circuit",
+      "luogo": "Brno, Repubblica Ceca",
+      "lat": 49.2047,
+      "lon": 16.4506,
+      "record": {
+        "motogp": {
+          "chi": "Fabio Di Giannantonio",
+          "tempo": "1:53.122",
+          "anno": 2026
+        }
+      },
+      "dal": 1930,
+      "lunghezza": 5.403,
+      "curve": 14,
+      "storia": "Il circuito di Brno è la sede storica del Gran Premio motociclistico della Repubblica Ceca ed è situato a Brno della Repubblica Ceca.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_di_Brno"
+    },
+    "buriram": {
+      "wiki": "Chang_International_Circuit",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Buriram International Circuit",
+      "luogo": "Buriram, Thailandia",
+      "lat": 14.9628,
+      "lon": 103.085,
+      "record": {
+        "motogp": {
+          "chi": "Marco Bezzecchi",
+          "tempo": "1:30.487",
+          "anno": 2026
+        }
+      },
+      "dal": 2014,
+      "lunghezza": 4.554,
+      "curve": 12,
+      "storia": "Il circuito internazionale di Buriram è un circuito per competizioni motociclistiche e automobilistiche situato nella città di Buriram in Thailandia, costruito nel 2014. Dal 2015 fa parte del calendario del Campionato mondiale Superbike e nel 2018 entra a far parte di una delle 19 gare valevole per il Motomondiale 2018.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_internazionale_di_Buriram"
+    },
+    "citta-del-messico": {
+      "wiki": "Autódromo_Hermanos_Rodríguez",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Autódromo Hermanos Rodríguez",
+      "luogo": "Città del Messico, Messico",
+      "lat": 19.4061,
+      "lon": -99.0925,
+      "record": {
+        "f1": {
+          "chi": "Valtteri Bottas",
+          "tempo": "1:17.774",
+          "anno": 2021
+        }
+      },
+      "dal": 1959,
+      "lunghezza": 4.304,
+      "curve": 17,
+      "storia": "L'Autódromo Hermanos Rodríguez è un circuito automobilistico permanente posto in un parco alla periferia di Città del Messico, che ha ospitato il Gran Premio del Messico di Formula 1 dal 1963 al 1970, dal 1986 al 1992 e dal 2015 al 2019. Dal 2021 ospita il Gran Premio di Città del Messico.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Autodromo_Hermanos_Rodr%C3%ADguez"
+    },
+    "cremona": {
+      "wiki": "Cremona_Circuit",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Cremona Circuit",
+      "luogo": "San Martino del Lago, Italia",
+      "lat": 45.0854,
+      "lon": 10.312,
+      "record": {},
+      "dal": 2011,
+      "lunghezza": 3.768,
+      "curve": 13,
+      "storia": "Il Cremona Circuit \"Angelo Bergamonti\" è un circuito motoristico italiano ubicato nel comune di San Martino del Lago, in provincia di Cremona, adibito principalmente alle competizioni motociclistiche. Dista circa 26 km dal capoluogo provinciale.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Cremona_Circuit"
+    },
+    "donington": {
+      "wiki": "Donington_Park",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Donington Park",
+      "luogo": "Castle Donington, Regno Unito",
+      "lat": 52.8292,
+      "lon": -1.375,
+      "record": {
+        "f1": {
+          "chi": "Ayrton Senna",
+          "tempo": "1:18.029",
+          "anno": 1993
+        },
+        "motogp": {
+          "chi": "Dani Pedrosa",
+          "tempo": "1:28.714",
+          "anno": 2006
+        }
+      },
+      "dal": 1931,
+      "lunghezza": 4.02,
+      "curve": 12,
+      "storia": "Donington Park è un autodromo inglese ubicato a Castle Donington, nelle Midlands Orientali, nei pressi della foresta di Sherwood. Ha ospitato il Gran Premio d'Europa di Formula 1 nel 1993, ventitré edizioni del Gran Premio di Gran Bretagna del Motomondiale e attualmente ospita, anche se con alcune pause, il Gran Premio di Gran Bretagna di Superbike.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_di_Donington_Park"
+    },
+    "estoril": {
+      "wiki": "Circuito_do_Estoril",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Circuito do Estoril",
+      "luogo": "Estoril, Portogallo",
+      "lat": 38.7508,
+      "lon": -9.3942,
+      "record": {
+        "motogp": {
+          "chi": "Jorge Lorenzo",
+          "tempo": "1:36.909",
+          "anno": 2012
+        },
+        "f1": {
+          "chi": "David Coulthard",
+          "tempo": "1:22.446",
+          "anno": 1994
+        }
+      },
+      "dal": 1972,
+      "lunghezza": 4.182,
+      "curve": 14,
+      "storia": "Il circuito di Estoril è un circuito automobilistico e motociclistico del Portogallo, situato nella freguesia di Alcabideche nel municipio di Cascais.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_di_Estoril"
+    },
+    "goiania": {
+      "wiki": "Autódromo_Internacional_Ayrton_Senna_(Goiânia)",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Autódromo Internacional Ayrton Senna (Goiânia)",
+      "luogo": "Goiânia, Brasile",
+      "lat": -16.7181,
+      "lon": -49.1922,
+      "record": {
+        "motogp": {
+          "chi": "Marco Bezzecchi",
+          "tempo": "1:18.654",
+          "anno": 2026
+        }
+      },
+      "dal": 1974,
+      "lunghezza": 3.835,
+      "curve": 14,
+      "storia": "L'Autódromo Internacional Ayrton Senna o Autódromo Internacional de Goiânia è un circuito motoristico permanente situato a Goiânia, in Brasile. Inaugurato nel 1974, dopo che nel 2011 ne era stata ventilata la demolizione, nel 2014 è stato sottoposto a un rifacimento e ospita competizioni automobilistiche locali e internazionali.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Aut%C3%B3dromo_Internacional_Ayrton_Senna"
+    },
+    "hungaroring": {
+      "wiki": "Hungaroring",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Hungaroring",
+      "luogo": "Mogyoród, Ungheria",
+      "lat": 47.5822,
+      "lon": 19.2511,
+      "record": {
+        "f1": {
+          "chi": "Lewis Hamilton",
+          "tempo": "1:16.627",
+          "anno": null
+        }
+      },
+      "dal": 1986,
+      "lunghezza": 4.381,
+      "curve": 14,
+      "storia": "L'Hungaroring è un circuito automobilistico costruito a Mogyoród per ospitare il Gran Premio d'Ungheria di Formula 1 a partire dal 1986. Per l'epoca rappresentò una conquista politica e simbolica molto importante poiché, con la guerra fredda ancora in essere, consentiva alla Formula 1 di entrare per la prima volta nel blocco orientale.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Hungaroring"
+    },
+    "interlagos": {
+      "wiki": "Interlagos_Circuit",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Interlagos Circuit",
+      "luogo": "San Paolo, Brasile",
+      "lat": -23.7011,
+      "lon": -46.6972,
+      "record": {
+        "f1": {
+          "chi": "Valtteri Bottas",
+          "tempo": "1:10.540",
+          "anno": 2018
+        }
+      },
+      "dal": 1940,
+      "lunghezza": 4.309,
+      "curve": 15,
+      "storia": "L'autódromo José Carlos Pace è un circuito automobilistico di San Paolo del Brasile, noto anche come circuito di Interlagos dal nome della zona cittadina in cui sorge.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_di_Interlagos"
+    },
+    "jerez": {
+      "wiki": "Circuito_de_Jerez",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Circuito de Jerez",
+      "luogo": "Jerez de la Frontera, Spagna",
+      "lat": 36.7083,
+      "lon": -6.0342,
+      "record": {
+        "f1": {
+          "chi": "Heinz-Harald Frentzen",
+          "tempo": "1:23.135",
+          "anno": 1997
+        },
+        "motogp": {
+          "chi": "Álex Márquez",
+          "tempo": "1:37.081",
+          "anno": 2026
+        }
+      },
+      "dal": 1985,
+      "lunghezza": 4.428,
+      "curve": 15,
+      "storia": "Il circuito de Jerez-Ángel Nieto è un autodromo situato in Spagna, nelle vicinanze di Cadice, in Andalusia. È intitolato alla memoria di Ángel Nieto, motociclista spagnolo scomparso nel 2017.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_di_Jerez_de_la_Frontera"
+    },
+    "las-vegas": {
+      "wiki": "Las_Vegas_Strip_Circuit",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Las Vegas Strip Circuit",
+      "luogo": "Las Vegas, Stati Uniti",
+      "lat": 36.1099,
+      "lon": -115.1622,
+      "record": {},
+      "dal": 2023,
+      "lunghezza": 6.201,
+      "curve": 17,
+      "storia": "Il Las Vegas Strip Circuit, inizialmente noto come Las Vegas Street Circuit, è un circuito cittadino semipermanente situato a Paradise, città adiacente a Las Vegas, in Nevada, negli Stati Uniti d'America.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Las_Vegas_Strip_Circuit"
+    },
+    "le-mans": {
+      "wiki": "Bugatti_Circuit",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Circuit de la Sarthe",
+      "luogo": "Le Mans, Francia",
+      "lat": 47.9333,
+      "lon": 0.2333,
+      "record": {},
+      "dal": 1923,
+      "lunghezza": 13.626,
+      "curve": 38,
+      "storia": "Il Circuit des 24 Heures du Mans, detto anche Circuit de la Sarthe, situato in prossimità della città di Le Mans nel dipartimento della Sarthe in Francia, è un tracciato non permanente sul quale si disputa una delle gare più importanti e famose del mondo: la 24 Ore di Le Mans.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuit_des_24_Heures_du_Mans"
+    },
+    "lusail": {
+      "wiki": "Lusail_International_Circuit",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Lusail International Circuit",
+      "luogo": "Lusail, Qatar",
+      "lat": 25.49,
+      "lon": 51.4542,
+      "record": {
+        "motogp": {
+          "chi": "Enea Bastianini",
+          "tempo": "1:54.338",
+          "anno": 2022
+        }
+      },
+      "dal": 2004,
+      "lunghezza": 5.419,
+      "curve": 16,
+      "storia": "Il Lusail International Circuit, noto fino al 2021 come Losail International Circuit, è un circuito posizionato vicino al centro abitato di Lusail che sorge circa 23 km a nord del centro della città di Doha nello Stato del Qatar.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_di_Lusail"
+    },
+    "madrid": {
+      "wiki": "Madring",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Madring",
+      "luogo": "Madrid, Spagna",
+      "lat": 40.4653,
+      "lon": -3.6153,
+      "record": {},
+      "dal": 2026,
+      "lunghezza": 5.414,
+      "curve": 22,
+      "storia": "Il Madring, ufficialmente Circuito de Madring, è un circuito cittadino progettato attorno al centro espositivo IFEMA di Madrid, in Spagna. Dal Gran Premio di Spagna di Formula 1 del 2026 sostituisce il circuito di Barcellona-Catalogna, sede della gara dal 1991. La capienza prevista è di 110 000 spettatori, ampliabile a 140 000.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Madring"
+    },
+    "magny-cours": {
+      "wiki": "Circuit_de_Nevers_Magny-Cours",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Circuit de Nevers Magny-Cours",
+      "luogo": "Magny-Cours, Francia",
+      "lat": 46.8633,
+      "lon": 3.1633,
+      "record": {
+        "f1": {
+          "chi": "Michael Schumacher",
+          "tempo": "1:15.377",
+          "anno": null
+        }
+      },
+      "dal": 1960,
+      "lunghezza": 4.411,
+      "curve": 17,
+      "storia": "Il circuito di Nevers Magny-Cours, quasi sempre chiamato semplicemente Magny-Cours, è un circuito automobilistico nella campagna francese, vicino alle cittadine di Magny-Cours e Nevers, nel dipartimento della Nièvre in Borgogna. Ha ospitato diciotto edizioni del Gran Premio di Francia di Formula 1, il Gran Premio di Francia del Motomondiale nel 1992 e la Bol d'Or di Motociclismo fino al 2014. Attualmente ospita il Gran Premio di Francia di Superbike.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_di_Nevers_Magny-Cours"
+    },
+    "mandalika": {
+      "wiki": "Mandalika_International_Street_Circuit",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Mandalika International Street Circuit",
+      "luogo": "Lombok, Indonesia",
+      "lat": -8.8953,
+      "lon": 116.3058,
+      "record": {
+        "motogp": {
+          "chi": "Marco Bezzecchi",
+          "tempo": "1:29.960",
+          "anno": 2026
+        }
+      },
+      "dal": 2021,
+      "lunghezza": 4.301,
+      "curve": 17,
+      "storia": "Il circuito di Mandalika è un circuito indonesiano utilizzato per gli sport motoristici. Situato nel distretto di Kuta, nella Reggenza di Lombok Centrale, provincia del Nusa Tenggara Occidentale.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_di_Mandalika"
+    },
+    "melbourne": {
+      "wiki": "Albert_Park_Circuit",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Albert Park Circuit",
+      "luogo": "Melbourne, Australia",
+      "lat": -37.8497,
+      "lon": 144.9683,
+      "record": {
+        "f1": {
+          "chi": "Charles Leclerc",
+          "tempo": "1:19.813",
+          "anno": 2024
+        }
+      },
+      "dal": 1953,
+      "lunghezza": 5.278,
+      "curve": 14,
+      "storia": "Il circuito Albert Park è un circuito cittadino non permanente che si snoda nel centro della città di Melbourne, in Australia e a partire dal 1996 ospita il Gran Premio d'Australia di Formula 1.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_Albert_Park"
+    },
+    "miami": {
+      "wiki": "Miami_International_Autodrome",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Miami International Autodrome",
+      "luogo": "Miami Gardens, Stati Uniti",
+      "lat": 25.9581,
+      "lon": -80.2389,
+      "record": {},
+      "dal": 2022,
+      "lunghezza": 5.412,
+      "curve": 19,
+      "storia": "Il Miami International Autodrome è un circuito cittadino non permanente situato a Miami Gardens, in Florida, negli Stati Uniti d'America.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Miami_International_Autodrome"
+    },
+    "misano": {
+      "wiki": "Misano_World_Circuit_Marco_Simoncelli",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Misano World Circuit",
+      "luogo": "Misano Adriatico, Italia",
+      "lat": 43.9614,
+      "lon": 12.6833,
+      "record": {
+        "motogp": {
+          "chi": "Francesco Bagnaia",
+          "tempo": "1:30.877",
+          "anno": 2024
+        },
+        "sbk": {
+          "chi": "Troy Bayliss",
+          "tempo": "1:36.022",
+          "anno": 2007
+        }
+      },
+      "dal": 1972,
+      "lunghezza": 4.226,
+      "curve": 16,
+      "storia": "Il Misano World Circuit Marco Simoncelli è un circuito motociclistico situato nel comune italiano di Misano Adriatico, in provincia di Rimini, precisamente nella frazione di Santa Monica e vicino al bacino del Conca. È intitolato alla memoria di Marco Simoncelli, pilota motociclistico italiano deceduto nel 2011.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Misano_World_Circuit_Marco_Simoncelli"
+    },
+    "monaco": {
+      "wiki": "Circuit_de_Monaco",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Circuit de Monaco",
+      "luogo": "Monte Carlo, Monaco",
+      "lat": 43.7347,
+      "lon": 7.4206,
+      "record": {
+        "f1": {
+          "chi": "Lewis Hamilton",
+          "tempo": "1:12.909",
+          "anno": null
+        }
+      },
+      "dal": 1929,
+      "lunghezza": 3.337,
+      "curve": 19,
+      "storia": "Il circuito di Monte Carlo è il circuito cittadino non permanente sulle strade del Principato di Monaco su cui si svolge l'annuale Gran Premio di Monaco di Formula 1 e le gare di contorno come la Formula 2 e la Porsche Supercup. Dal 2015 vi si tiene anche l'ePrix di Monaco valevole per il Campionato Mondiale FIA di Formula E.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_di_Monte_Carlo"
+    },
+    "montreal": {
+      "wiki": "Circuit_Gilles_Villeneuve",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Circuit Gilles Villeneuve",
+      "luogo": "Montréal, Canada",
+      "lat": 45.5006,
+      "lon": -73.5225,
+      "record": {
+        "f1": {
+          "chi": "Ralf Schumacher",
+          "tempo": "1:17.205",
+          "anno": 2001
+        }
+      },
+      "dal": 1978,
+      "lunghezza": 4.361,
+      "curve": 14,
+      "storia": "Il circuito di Montréal, intitolato a Gilles Villeneuve, è un circuito cittadino semipermanente che sorge nel Parc Jean-Drapeau sull'Isola Notre-Dame, costruita per le Olimpiadi del 1976 nell'estuario del fiume San Lorenzo.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_di_Montr%C3%A9al"
+    },
+    "monza": {
+      "wiki": "Monza_Circuit",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Monza Circuit",
+      "luogo": "Monza, Italia",
+      "lat": 45.6206,
+      "lon": 9.2894,
+      "record": {
+        "f1": {
+          "chi": "Lando Norris",
+          "tempo": "1:20.901",
+          "anno": 2025
+        },
+        "sbk": {
+          "chi": "Michel Fabrizio",
+          "tempo": "1:45.336",
+          "anno": 2009
+        }
+      },
+      "dal": 1922,
+      "curve": 11,
+      "lunghezza": 5.777,
+      "storia": "L'Autodromo nazionale Monza è un circuito automobilistico italiano, situato all'interno del parco di Monza.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Autodromo_nazionale_di_Monza"
+    },
+    "most": {
+      "wiki": "Autodrom_Most",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Autodrom Most",
+      "luogo": "Most, Repubblica Ceca",
+      "lat": 50.5225,
+      "lon": 13.6006,
+      "record": {},
+      "dal": 1983,
+      "lunghezza": 4.212,
+      "curve": 21,
+      "storia": "L'autodromo di Most è un circuito automobilistico situato vicino alla città di Most, nel nord-ovest della Repubblica Ceca.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Autodromo_di_Most"
+    },
+    "motegi": {
+      "wiki": "Mobility_Resort_Motegi",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Motegi Circuit",
+      "luogo": "Motegi, Giappone",
+      "lat": 36.5333,
+      "lon": 140.2283,
+      "record": {
+        "motogp": {
+          "chi": "Enea Bastianini",
+          "tempo": "1:43.041",
+          "anno": 2026
+        }
+      },
+      "dal": 1997,
+      "lunghezza": 4.801,
+      "curve": 14,
+      "storia": "Il circuito di Motegi è un circuito giapponese costruito nel 1997 nelle vicinanze della città di Motegi.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_di_Motegi"
+    },
+    "mugello": {
+      "wiki": "Mugello_Circuit",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Mugello Circuit",
+      "luogo": "Scarperia e San Piero, Italia",
+      "lat": 43.9975,
+      "lon": 11.3719,
+      "record": {
+        "motogp": {
+          "chi": "Francesco Bagnaia",
+          "tempo": "1:45.470",
+          "anno": 2026
+        }
+      },
+      "dal": 1974,
+      "lunghezza": 5.245,
+      "curve": 15,
+      "storia": "L'autodromo internazionale del Mugello, noto anche come Mugello Circuit, è un circuito automobilistico e motociclistico italiano. Si trova nel comune di Scarperia e San Piero, nella città metropolitana di Firenze, ed è di proprietà della Ferrari. Il tracciato della pista è lungo 5245 m, e si snoda attraverso 15 curve.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Autodromo_internazionale_del_Mugello"
+    },
+    "phillip-island": {
+      "wiki": "Phillip_Island_Grand_Prix_Circuit",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Phillip Island Grand Prix Circuit",
+      "luogo": "Phillip Island, Australia",
+      "lat": -38.5031,
+      "lon": 145.236,
+      "record": {},
+      "dal": 1928,
+      "lunghezza": 4.448,
+      "curve": 12,
+      "storia": "Il circuito per competizioni motociclistiche e automobilistiche di Phillip Island è situato sull'omonima isola, nei pressi della località di Ventnor, nella Regione di Victoria in Australia; fu costruito nel 1956 ed è lungo 4448 m. Tra gli appassionati di moto è celebre perché dal 1997 vi si corre il Gran Premio motociclistico d'Australia per il motomondiale, mentre fin dal 1990 vi corre il Campionato mondiale Superbike, poi affiancato dalla Supersport.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_di_Phillip_Island"
+    },
+    "portimao": {
+      "wiki": "Algarve_International_Circuit",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Algarve International Circuit",
+      "luogo": "Portimão, Portogallo",
+      "lat": 37.2319,
+      "lon": -8.6319,
+      "record": {
+        "motogp": {
+          "chi": "Pedro Acosta",
+          "tempo": "1:38.237",
+          "anno": 2025
+        }
+      },
+      "dal": 2008,
+      "lunghezza": 4.653,
+      "curve": 15,
+      "storia": "L'autódromo internacional do Algarve è un circuito per competizioni automobilistiche e motociclistiche situato nella omonima regione nel sud del Portogallo, nei pressi della località di Portimão.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Aut%C3%B3dromo_Internacional_do_Algarve"
+    },
+    "sachsenring": {
+      "wiki": "Sachsenring",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Sachsenring",
+      "luogo": "Hohenstein-Ernstthal, Germania",
+      "lat": 50.7917,
+      "lon": 12.6889,
+      "record": {
+        "motogp": {
+          "chi": "Jorge Martín",
+          "tempo": "1:20.667",
+          "anno": 2024
+        }
+      },
+      "dal": 1927,
+      "lunghezza": 3.671,
+      "curve": 13,
+      "storia": "Il Sachsenring è un circuito motoristico tedesco situato alla periferia di Hohenstein-Ernstthal, nel Land della Sassonia, a circa cento chilometri dalla capitale regionale Dresda. Fino al 1990 esso ricadeva nel territorio dell'allora Repubblica Democratica Tedesca, ospitandone il Gran Premio motociclistico per anni.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Sachsenring"
+    },
+    "sepang": {
+      "wiki": "Sepang_International_Circuit",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Sepang International Circuit",
+      "luogo": "Sepang, Malesia",
+      "lat": 2.7606,
+      "lon": 101.7375,
+      "record": {
+        "motogp": {
+          "chi": "Álex Márquez",
+          "tempo": "1:58.873",
+          "anno": 2025
+        }
+      },
+      "dal": 1999,
+      "lunghezza": 5.543,
+      "curve": 15,
+      "storia": "Il circuito di Sepang è la sede del Gran Premio della Malesia del Motomondiale, ma è anche usato per altre competizioni di motociclismo e automobilismo, come la Formula 1 che ha corso qui dal 1999 al 2017 e nel 2026. Sorge a breve distanza dalla capitale della Malaysia Kuala Lumpur, nel distretto di Sepang dello stato del Selangor.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_di_Sepang"
+    },
+    "shanghai": {
+      "wiki": "Shanghai_International_Circuit",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Shanghai International Circuit",
+      "luogo": "Shanghai, Cina",
+      "lat": 31.3389,
+      "lon": 121.2197,
+      "record": {
+        "motogp": {
+          "chi": "5.281 km (3.281 mi)",
+          "tempo": "1:59.273",
+          "anno": 2008
+        }
+      },
+      "dal": 2004,
+      "lunghezza": 5.451,
+      "curve": 16,
+      "storia": "Il circuito di Shanghai (上海奥迪国际赛车场) è un autodromo situato nella periferia della metropoli cinese di Shanghai, sede del Gran Premio di Cina di Formula 1. Circuito costruito nel 2003, le sue strutture ebbero caratteristiche innovative per l'epoca, come le fondamenta in polistirene impiegate per far fronte al terreno paludoso.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_di_Shanghai"
+    },
+    "silverstone": {
+      "wiki": "Silverstone_Circuit",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Silverstone Circuit",
+      "luogo": "Silverstone, Regno Unito",
+      "lat": 52.071,
+      "lon": -1.016,
+      "record": {
+        "f1": {
+          "chi": "Max Verstappen",
+          "tempo": "1:27.097",
+          "anno": 2020
+        },
+        "motogp": {
+          "chi": "Raúl Fernández",
+          "tempo": "1:58.457",
+          "anno": 2026
+        },
+        "sbk": {
+          "chi": "Troy Bayliss",
+          "tempo": "1:26.299",
+          "anno": 2006
+        }
+      },
+      "dal": 1948,
+      "curve": 18,
+      "lunghezza": 5.9,
+      "storia": "Il circuito di Silverstone è un tracciato per competizioni automobilistiche situato a breve distanza dal villaggio omonimo nella contea di Northamptonshire in Inghilterra. Fu su questo circuito che si svolse, il 13 maggio 1950, la prima gara del campionato del mondo di Formula 1. È la sede storica del Gran Premio di Gran Bretagna di Formula 1.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_di_Silverstone"
+    },
+    "singapore": {
+      "wiki": "Marina_Bay_Street_Circuit",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Marina Bay Street Circuit",
+      "luogo": "Singapore",
+      "lat": 1.2915,
+      "lon": 103.8638,
+      "record": {
+        "f1": {
+          "chi": "Lewis Hamilton",
+          "tempo": "1:33.808",
+          "anno": 2025
+        }
+      },
+      "dal": 2008,
+      "lunghezza": 4.927,
+      "curve": 19,
+      "storia": "Il Singapore Street Circuit, anche denominato Marina Bay Street Circuit, è il circuito cittadino non permanente sito a Marina Bay, Singapore, che ospita il Gran Premio di Singapore di Formula 1. Il senso di marcia è antiorario, come a Baku, Interlagos, Abu Dhabi ed Austin. La pista attraversa alcune delle parti più belle e suggestive della città, come avviene per quello del Principato di Monaco. La realizzazione è stata curata dal progettista di fiducia di Bernie Ecclestone, Hermann Tilke.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Singapore_Street_Circuit"
+    },
+    "spa": {
+      "wiki": "Circuit_de_Spa-Francorchamps",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Circuit de Spa-Francorchamps",
+      "luogo": "Stavelot, Belgio",
+      "lat": 50.4372,
+      "lon": 5.9714,
+      "record": {
+        "f1": {
+          "chi": "Sergio Pérez",
+          "tempo": "1:44.701",
+          "anno": 2024
+        }
+      },
+      "dal": 1921,
+      "lunghezza": 7.004,
+      "curve": 19,
+      "storia": "Il circuito di Spa-Francorchamps è il più antico e famoso autodromo del Belgio. Situato nelle vicinanze di Francorchamps, una cittadina della municipalità di Stavelot ai confini con la municipalità di Spa, nelle Ardenne, il circuito è sede del Gran Premio del Belgio di Formula 1, la cui prima edizione si svolse nel 1924, e inoltre della 24 Ore di Spa e di altre gare del calendario internazionale. Viene spesso indicato da appassionati e addetti ai lavori come \"l'università della Formula 1\", per la varietà di curve, rettilinei, salite e discese che i piloti affrontano. È il circuito preferito di Kimi Räikkönen e Max Verstappen.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_di_Spa-Francorchamps"
+    },
+    "spielberg": {
+      "wiki": "Red_Bull_Ring",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Red Bull Ring",
+      "luogo": "Spielberg, Austria",
+      "lat": 47.2197,
+      "lon": 14.7647,
+      "record": {
+        "motogp": {
+          "chi": "Francesco Bagnaia",
+          "tempo": "1:29.519",
+          "anno": 2024
+        },
+        "f1": {
+          "chi": "Carlos Sainz Jr.",
+          "tempo": "1:05.619",
+          "anno": 2020
+        }
+      },
+      "dal": 1969,
+      "lunghezza": 4.326,
+      "curve": 10,
+      "storia": "Il Red Bull Ring è un circuito automobilistico e motociclistico situato a Spielberg bei Knittelfeld, in Stiria (Austria).",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Red_Bull_Ring"
+    },
+    "suzuka": {
+      "wiki": "Suzuka_International_Racing_Course",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Suzuka Circuit",
+      "luogo": "Suzuka, Giappone",
+      "lat": 34.8417,
+      "lon": 136.5389,
+      "record": {
+        "motogp": {
+          "chi": "Valentino Rossi",
+          "tempo": "2:04.970",
+          "anno": 2003
+        },
+        "f1": {
+          "chi": "Michael Schumacher",
+          "tempo": "1:36.125",
+          "anno": 2002
+        }
+      },
+      "dal": 1962,
+      "lunghezza": 5.807,
+      "curve": 18,
+      "storia": "Il circuito di Suzuka è un autodromo giapponese, tra i più importanti e originali al mondo, grazie ad alcune caratteristiche che l'hanno reso inconfondibile. È la sede del Gran Premio del Giappone di Formula 1 dal 1987, con l'eccezione dei campionati 2007 e 2008 in cui è stato sostituito dal rinnovato Fuji Speedway.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_di_Suzuka"
+    },
+    "valencia": {
+      "wiki": "Circuit_Ricardo_Tormo",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Circuit Ricardo Tormo",
+      "luogo": "Cheste, Spagna",
+      "lat": 39.4858,
+      "lon": -0.6281,
+      "record": {
+        "motogp": {
+          "chi": "Raúl Fernández",
+          "tempo": "1:29.976",
+          "anno": 2025
+        },
+        "sbk": {
+          "chi": "Noriyuki Haga",
+          "tempo": "1:34.618",
+          "anno": 2009
+        }
+      },
+      "dal": 1999,
+      "lunghezza": 4.005,
+      "curve": 14,
+      "storia": "Il circuito Ricardo Tormo è un circuito motoristico posizionato a Cheste, vicino a Valencia, in Spagna, dedicato al pilota spagnolo deceduto nel 1998.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_di_Valencia"
+    },
+    "yas-marina": {
+      "wiki": "Yas_Marina_Circuit",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Yas Marina Circuit",
+      "luogo": "Abu Dhabi, Emirati Arabi Uniti",
+      "lat": 24.4672,
+      "lon": 54.6031,
+      "record": {},
+      "dal": 2009,
+      "lunghezza": 5.281,
+      "curve": 16,
+      "storia": "Il circuito Yas Marina è un circuito automobilistico degli Emirati Arabi Uniti entrato a far parte del calendario del mondiale di Formula 1 a partire dalla stagione 2009; dal 2014 ospita la gara conclusiva della stagione. Il tracciato, disegnato dall'architetto tedesco Hermann Tilke, è posto sull'Isola Yas, a circa 30 minuti dalla città di Abu Dhabi, e si snoda tra campi da golf, parchi a tema e hotel extralusso. Ha ospitato il secondo Gran Premio nel Medio Oriente di sempre, dopo quello del Bahrein.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_di_Yas_Marina"
+    },
+    "zandvoort": {
+      "wiki": "Circuit_Zandvoort",
+      "letto": "2026-10-25T12:58:28.561Z",
+      "nome": "Circuit Zandvoort",
+      "luogo": "Zandvoort, Paesi Bassi",
+      "lat": 52.3889,
+      "lon": 4.5408,
+      "record": {
+        "f1": {
+          "chi": "Lewis Hamilton",
+          "tempo": "1:11.097",
+          "anno": 2021
+        }
+      },
+      "dal": 1948,
+      "lunghezza": 4.259,
+      "curve": 14,
+      "storia": "Il circuito di Zandvoort è un tracciato per competizioni automobilistiche che si trova nelle vicinanze dell'omonima cittadina, stazione balneare sulla costa olandese del Mare del Nord. In questa città si erano già tenute competizioni motoristiche nel 1939 su un circuito cittadino e il successo di tali manifestazioni aveva convinto il sindaco a realizzare un tracciato permanente nell'immediata periferia della città, ma lo scoppio della Seconda guerra mondiale fece sì che esso venisse completato solo nel 1948. Ha ospitato tutte le trentasei edizioni del Gran Premio d'Olanda di Formula 1, oltre alle due edizioni del Gran Premio di Zandvoort nel 1948 e nel 1949.",
+      "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_di_Zandvoort"
+    }
+  }
+}
