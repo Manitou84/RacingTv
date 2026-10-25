@@ -20,7 +20,7 @@ const eGara = nome => /^Gara( [12])?$/.test(nome);
 const eSprint = nome => nome === 'Sprint' || nome === 'Superpole Race';
 const eQualifica = nome => /^Qualifiche/.test(nome) || nome === 'Superpole';
 const tutteLeSerie = v => Object.fromEntries(ELENCO_SERIE.map(k => [k, v]));
-const VISTE = ['tv8', 'notizie', 'piloti', 'classifiche', 'test'];
+const VISTE = ['tv8', 'calendario', 'notizie', 'piloti', 'classifiche', 'test'];
 
 /* ---------- Memoria locale (può mancare: l'app funziona lo stesso) ---------- */
 const memoria = {
@@ -88,15 +88,16 @@ async function carica(nome) {
 }
 async function caricaTutto() {
   const [p, n, pi, c, ca, ri, ci, gr, te, ma, hf, ar, st, cia] = await Promise.allSettled(['palinsesto', 'notizie', 'piloti', 'classifica', 'calendario', 'risultati', 'circuiti', 'griglie', 'test', 'mappe', 'hall-of-fame', 'arrivi', 'storico', 'circuiti-auto'].map(carica));
-  // schede automatiche (Wikipedia) completate da quelle scritte a mano, che hanno la precedenza
-  const auto = cia.status === 'fulfilled' ? cia.value.circuiti || {} : {};
-  for (const [k, v] of Object.entries(auto)) D.circuiti[k] = { ...v, ...(D.circuiti[k] || {}), record: { ...(v.record || {}), ...(D.circuiti[k]?.record || {}) } };
+
   if (st.status === 'fulfilled') D.storico = st.value.piloti || {};
   if (hf.status === 'fulfilled') D.hof = hf.value;
   if (ar.status === 'fulfilled') D.arrivi = ar.value.arrivi || {};
   if (ma.status === 'fulfilled') D.mappe = ma.value;
   if (te.status === 'fulfilled') D.test = te.value;
   if (ci.status === 'fulfilled') D.circuiti = ci.value.circuiti || {};
+  // schede automatiche (Wikipedia) completate da quelle scritte a mano, che hanno la precedenza
+  const auto = cia.status === 'fulfilled' ? cia.value.circuiti || {} : {};
+  for (const [k, v] of Object.entries(auto)) D.circuiti[k] = { ...v, ...(D.circuiti[k] || {}), record: { ...(v.record || {}), ...(D.circuiti[k]?.record || {}) } };
   if (gr.status === 'fulfilled') D.griglie = gr.value.griglie || {};
   if (ri.status === 'fulfilled') D.risultati = ri.value;
   if (ca.status === 'fulfilled') D.calendario = ca.value;
@@ -555,7 +556,7 @@ function disegnaCalendario() {
     // vincitore della gara, solo se non è coperto dall'anti-spoiler
     const ris = passata && gareRis.find(r => Math.abs(new Date(r.data + 'T12:00:00Z') - new Date(g.data + 'T12:00:00Z')) < 2 * 864e5);
     const coperto = dal && new Date(g.data + 'T23:59:00Z') >= dal;
-    const vinc = ris?.podio?.[0] && !coperto ? (p => p ? p.cognome : '')(pilotiSerie().find(p => corrisponde(p, ris.podio[0]))) : '';
+    const vinc = ris?.podio?.[0] && !coperto ? (p => !p ? '' : pilotiSerie().filter(x => x.cognome === p.cognome).length > 1 ? `${p.nome[0]}. ${p.cognome}` : p.cognome)(pilotiSerie().find(p => corrisponde(p, ris.podio[0]))) : '';
     const stato_ = questa ? '<em class="cal-chip ora">Questo weekend</em>' : g === prossima ? '<em class="cal-chip ora">Prossimo</em>' : passata ? '<em class="cal-chip">Corso</em>' : '';
     html += `<li class="cal-gp${passata ? ' passato' : ''}${g === prossima ? ' prossimo' : ''}">
       <button type="button" class="cal-apri" data-circuito="${esc(g.circuito)}" data-cal-gp="${esc(g.gp)}" data-cal-data="${esc(g.data)}">
