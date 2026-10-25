@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-10-25T04:00:11.182Z",
+  "aggiornato": "2026-10-25T04:59:01.294Z",
   "articoli": [
+    {
+      "id": "9bf4a580b162",
+      "serie": "motogp",
+      "titolo": "ULTIM'ORA - Il Gran Premio di Australia è stato cancellato",
+      "link": "https://www.gpone.com/it/2026/10/25/motogp/ultimora-il-gran-premio-di-australia-e-stato-cancellato.html",
+      "fonte": "GPOne",
+      "data": "2026-10-25T04:40:20.000Z",
+      "immagine": "",
+      "sommario": "La scarsa visibilità non consente all'elicottero medico di volare. I piloti faranno un giro dietro alla Safety Car per salutare i tifosi"
+    },
+    {
+      "id": "b2bc32808585",
+      "serie": "sbk",
+      "titolo": "Infortunio Martín, l'avvertimento di Phillip Island: da Fogarty al precedente Márquez",
+      "link": "https://www.gpone.com/it/2026/10/25/wsbk/phillip-island-da-fogarty-a-martin-quando-una-caduta-puo-cambiare-una-carriera.html",
+      "fonte": "GPOne",
+      "data": "2026-10-25T03:49:30.000Z",
+      "immagine": "",
+      "sommario": "Nel 2000 Carl Fogarty si fratturò l'omero sinistro a Phillip Island. Ventisei anni dopo, sullo stesso circuito, Jorge Martín deve fare i conti con un'altra grave frattura"
+    },
     {
       "id": "ab0fef20b76a",
       "serie": "motogp",

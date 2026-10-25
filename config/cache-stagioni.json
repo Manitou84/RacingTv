@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-25T04:00:11.182Z",
+  "aggiornato": "2026-10-25T04:59:01.294Z",
   "_fonte": "Wikipedia (inglese)",
   "stagioni": {
     "2021|MotoGP World Championship": {
@@ -10041,18 +10041,18 @@
       "piloti": [
         {
           "pos": 1,
+          "nome": "Marc Márquez",
+          "punti": 365
+        },
+        {
+          "pos": 2,
           "nome": "Jorge Martín",
           "punti": 355
         },
         {
-          "pos": 2,
-          "nome": "Marc Márquez",
-          "punti": 353
-        },
-        {
           "pos": 3,
           "nome": "Marco Bezzecchi",
-          "punti": 309
+          "punti": 315
         },
         {
           "pos": 4,
@@ -10062,12 +10062,12 @@
         {
           "pos": 5,
           "nome": "Pedro Acosta",
-          "punti": 258
+          "punti": 263
         },
         {
           "pos": 6,
           "nome": "Fabio Di Giannantonio",
-          "punti": 245
+          "punti": 252
         },
         {
           "pos": 7,
@@ -10077,7 +10077,7 @@
         {
           "pos": 8,
           "nome": "Álex Márquez",
-          "punti": 172
+          "punti": 181
         },
         {
           "pos": 9,
@@ -10102,16 +10102,16 @@
         {
           "pos": 13,
           "nome": "Brad Binder",
-          "punti": 104
+          "punti": 108
         },
         {
           "pos": 14,
-          "nome": "Fabio Quartararo",
-          "punti": 74
+          "nome": "Diogo Moreira",
+          "punti": 76
         },
         {
           "pos": 15,
-          "nome": "Diogo Moreira",
+          "nome": "Fabio Quartararo",
           "punti": 74
         },
         {
@@ -10132,7 +10132,7 @@
         {
           "pos": 19,
           "nome": "Jack Miller",
-          "punti": 28
+          "punti": 31
         },
         {
           "pos": 20,
@@ -10152,7 +10152,7 @@
         {
           "pos": 23,
           "nome": "Iker Lecuona",
-          "punti": 9
+          "punti": 10
         },
         {
           "pos": 24,
@@ -10257,7 +10257,7 @@
           "punti": 46
         }
       ],
-      "letta": "2026-10-25T01:56:40.181Z",
+      "letta": "2026-10-25T04:59:01.294Z",
       "tentativi": 0
     },
     "2026|Moto2 World Championship": {
@@ -10476,7 +10476,7 @@
         },
         {
           "pos": 12,
-          "nome": "KLINT Racing Team",
+          "nome": "Klint Racing Team",
           "punti": 63
         },
         {
@@ -10485,7 +10485,7 @@
           "punti": 38
         }
       ],
-      "letta": "2026-10-25T01:56:40.181Z",
+      "letta": "2026-10-25T04:59:01.294Z",
       "tentativi": 0
     },
     "2026|Moto3 World Championship": {
@@ -10683,7 +10683,7 @@
           "punti": 68
         }
       ],
-      "letta": "2026-10-25T01:56:40.181Z",
+      "letta": "2026-10-25T04:59:01.294Z",
       "tentativi": 0
     },
     "2026|Superbike World Championship": {
@@ -10840,7 +10840,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-10-25T01:56:40.181Z",
+      "letta": "2026-10-25T04:59:01.294Z",
       "tentativi": 0
     },
     "2026|Formula One World Championship": {
@@ -11018,7 +11018,7 @@
           "punti": 0
         }
       ],
-      "letta": "2026-10-25T01:56:40.181Z",
+      "letta": "2026-10-25T04:59:01.294Z",
       "tentativi": 0
     },
     "2026|FIA Formula 2 Championship": {
@@ -11140,7 +11140,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-10-25T01:56:40.181Z",
+      "letta": "2026-10-25T04:59:01.294Z",
       "tentativi": 0
     },
     "2026|FIA Formula 3 Championship": {
@@ -11322,7 +11322,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-10-25T01:56:40.181Z",
+      "letta": "2026-10-25T04:59:01.294Z",
       "tentativi": 0
     },
     "2026|Super Formula Championship": {
@@ -11459,7 +11459,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-10-25T01:56:40.181Z",
+      "letta": "2026-10-25T04:59:01.294Z",
       "tentativi": 0
     },
     "2026|Supersport World Championship": {
@@ -11742,7 +11742,7 @@
           "punti": 5
         }
       ],
-      "letta": "2026-10-25T01:56:40.181Z",
+      "letta": "2026-10-25T04:59:01.294Z",
       "tentativi": 0
     },
     "2026|British Superbike Championship": {
@@ -11879,7 +11879,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-10-25T01:56:40.181Z",
+      "letta": "2026-10-25T04:59:01.294Z",
       "tentativi": 0
     }
   },
