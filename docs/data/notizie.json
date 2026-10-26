@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-10-26T11:06:05.034Z",
+  "aggiornato": "2026-10-26T13:45:06.553Z",
   "articoli": [
+    {
+      "id": "0ea94b590062",
+      "serie": "motogp",
+      "titolo": "Acosta: “Marquez è il miglior pilota degli ultimi 15 anni, è al livello di Rossi”",
+      "link": "https://www.gpone.com/it/2026/10/26/motogp/acosta-marquez-e-il-miglior-pilota-degli-ultimi-15-anni-e-al-livello-di-rossi.html",
+      "fonte": "GPOne",
+      "data": "2026-10-26T12:47:35.000Z",
+      "immagine": "",
+      "sommario": "“Li metto sullo stesso piano: Valentino ha fatto molto a livello mediatico, mentre Marc ha dato il massimo in pista, battendo tutti i grandi piloti che ha affrontato. Lorenzo? Mi hanno detto spesso che gli somiglio”"
+    },
+    {
+      "id": "38cfc5f8ff53",
+      "serie": "motogp",
+      "titolo": "Martin, rientro lampo a Sepang: ecco il piano di Aitor Tomas, fisioterapista del pilota",
+      "link": "https://www.gpone.com/it/2026/10/26/motogp/ecco-il-piano-per-il-rientro-lampo-di-martin-parla-aigor-tomas-fisioterapista-dello-spangolo.html",
+      "fonte": "GPOne",
+      "data": "2026-10-26T12:22:09.000Z",
+      "immagine": "",
+      "sommario": "Il percorso per provare a correre in Malesia avrà due fasi: \"Crioterapia e massaggi per ridurre l'infiammazione e recuperare mobilità\". E poi: \"Magnetoterapia per rigenerare l'osso\""
+    },
+    {
+      "id": "9c095823cbb5",
+      "serie": "motogp",
+      "titolo": "Malesia a Sepang: tutti gli orari TV su Sky, TV8 e NOW",
+      "link": "https://www.gpone.com/it/2026/10/26/motogp/malesia-a-sepang-tutti-gli-orari-tv-su-sky-tv8-e-now.html",
+      "fonte": "GPOne",
+      "data": "2026-10-26T11:29:37.000Z",
+      "immagine": "",
+      "sommario": "Il secondo weekend del trittico della MotoGP sarà trasmesso in diretta su Sky Sport MotoGP e su Now. Su TV8 in chiaro qualifiche delle tre classi e gara Sprint, mentre le gare delle tre classi domenica saranno in differi"
+    },
     {
       "id": "4e29fa8e10ca",
       "serie": "motogp",
