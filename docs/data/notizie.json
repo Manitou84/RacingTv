@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-10-26T09:10:55.564Z",
+  "aggiornato": "2026-10-26T10:10:28.826Z",
   "articoli": [
+    {
+      "id": "b405a62d2996",
+      "serie": "motogp",
+      "titolo": "La MotoGP ha salutato Phillip Island, ma non è stato un addio per tutti",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/26-9232341/la_motogp_ha_salutato_phillip_island_ma_non_stato_un_addio_per_tutti",
+      "fonte": "Motosprint",
+      "data": "2026-10-26T10:10:28.826Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/26/081812400-549fb8d0-4d1e-44f1-a913-40bf067ba315.jpg",
+      "sommario": "L’ultimo GP sul circuito australiano ha lasciato del comprensibile amaro in bocca vista la cancellazione, ma diversi piloti della top class ci torneranno tra pochi mesi"
+    },
+    {
+      "id": "931deb27c142",
+      "serie": "motogp",
+      "titolo": "Il maltempo vince su Phillip Island e la MotoGP non si corre, ma non è la prima volta",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/26-9230240/il_maltempo_vince_su_phillip_island_e_la_motogp_non_si_corre_ma_non_la_prima_volta",
+      "fonte": "Motosprint",
+      "data": "2026-10-26T10:10:28.826Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/25/100330142-b4f0f9e5-7816-4728-9d8b-95de7693d3dc.jpg",
+      "sommario": "Triste la notizia della mancata disputa dell'ultima gara sull'iconico tracciato ma, nel recente passato, sono diversi i GP che sono stati interrotti per cause al di fuori del controllo umano"
+    },
+    {
+      "id": "6623c7ea5cd8",
+      "serie": "motogp",
+      "titolo": "Il Bello e il Brutto di Phillip Island: la conferma Márquez, l'errore Martín e la delusione Miller",
+      "link": "https://www.gpone.com/it/2026/10/26/motogp/gran-premio-di-phillip-island-il-bello-il-brutto-e-il-cattivo.html",
+      "fonte": "GPOne",
+      "data": "2026-10-26T09:37:14.000Z",
+      "immagine": "",
+      "sommario": "L'Isola si arrabbia e manda tutti a casa senza gara. Nel caso di Martin, anche con un osso rotto. Intanto Marquez spiega perché abbia vinto 9 titoli"
+    },
     {
       "id": "880b1ea95f4d",
       "serie": "motogp",
