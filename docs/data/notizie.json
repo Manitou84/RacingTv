@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-10-26T21:58:33.988Z",
+  "aggiornato": "2026-10-26T22:28:49.757Z",
   "articoli": [
+    {
+      "id": "dffc27c4d049",
+      "serie": "f1",
+      "titolo": "Allarme mal di schiena in F1. Verstappen: \"La mia colonna vertebrale è messa male\"",
+      "link": "https://www.autosprint.it/news/formula1/2026/10/26-9234355/allarme_mal_di_schiena_in_f1_verstappen_la_mia_colonna_vertebrale_messa_male",
+      "fonte": "Autosprint",
+      "data": "2026-10-26T22:28:49.757Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/26/125407364-1d4de6e1-7443-4975-b902-c4cd33607d26.jpg",
+      "sommario": "Diversi piloti si sono uniti per denunciare una situazione che potrebbe aggravarsi se non si trovasse una soluzione. Hamilton, però, prende le distanze"
+    },
     {
       "id": "4cbd4bfdeb2b",
       "serie": "motogp",
