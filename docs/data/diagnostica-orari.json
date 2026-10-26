@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-26T04:04:12.343Z",
+  "aggiornato": "2026-10-26T05:04:43.754Z",
   "articoli": [
     {
       "fonte": "Sky Sport",
@@ -8,6 +8,35 @@
       "gp": "GP Australia",
       "serie": "motogp",
       "sessioni": []
+    },
+    {
+      "fonte": "OA Sport",
+      "titolo": "MotoGP, GP Malesia 2026: programma, orari, tv, streaming, guida SKY e TV8",
+      "url": "https://www.oasport.it/2026/10/motogp-gp-malesia-2026-programma-orari-tv-streaming-guida-sky-e-tv8/",
+      "gp": "GP Malesia",
+      "serie": "motogp",
+      "sessioni": [
+        "Moto3 Prove libere 1 2026-10-30T01:00:00.000Z",
+        "Moto2 Prove libere 1 2026-10-30T01:50:00.000Z",
+        "MotoGP Prove libere 1 2026-10-30T02:45:00.000Z",
+        "Moto3 Pre-qualifiche 2026-10-30T05:15:00.000Z",
+        "Moto2 Pre-qualifiche 2026-10-30T06:05:00.000Z",
+        "MotoGP Pre-qualifiche 2026-10-30T07:00:00.000Z",
+        "Moto3 Prove libere 2 2026-10-31T00:40:00.000Z",
+        "Moto2 Prove libere 2 2026-10-31T01:25:00.000Z",
+        "MotoGP Prove libere 2 2026-10-31T02:10:00.000Z",
+        "MotoGP Qualifiche Q1 2026-10-31T02:50:00.000Z",
+        "MotoGP Qualifiche Q2 2026-10-31T03:15:00.000Z",
+        "Moto3 Qualifiche Q1 2026-10-31T04:45:00.000Z",
+        "Moto3 Qualifiche Q2 2026-10-31T05:10:00.000Z",
+        "Moto2 Qualifiche Q1 2026-10-31T05:40:00.000Z",
+        "Moto2 Qualifiche Q2 2026-10-31T06:05:00.000Z",
+        "MotoGP Sprint 2026-10-31T07:00:00.000Z",
+        "MotoGP Warm up 2026-10-31T02:40:00.000Z",
+        "Moto3 Gara 2026-10-31T04:00:00.000Z",
+        "Moto2 Gara 2026-10-31T05:15:00.000Z",
+        "MotoGP Gara 2026-10-31T07:00:00.000Z"
+      ]
     },
     {
       "fonte": "OA Sport",
@@ -107,28 +136,16 @@
     },
     {
       "fonte": "OA Sport",
-      "titolo": "MotoGP, GP Australia 2026 su TV8: orari in chiaro fine settimana, qualifiche, Sprint e gara",
-      "url": "https://www.oasport.it/2026/10/motogp-gp-australia-2026-su-tv8-orari-in-chiaro-fine-settimana-qualifiche-sprint-e-gara/",
-      "gp": "GP Australia",
-      "serie": "motogp",
+      "titolo": "F1, GP Messico 2026: programma, orari, tv, streaming, guida SKY e TV8",
+      "url": "https://www.oasport.it/2026/10/f1-gp-messico-2026-programma-orari-tv-streaming-guida-sky-e-tv8/",
+      "gp": "GP Messico",
+      "serie": "f1",
       "sessioni": [
-        "Moto3 Prove libere 1 2026-10-22T22:00:00.000Z",
-        "Moto2 Prove libere 1 2026-10-22T22:50:00.000Z",
-        "MotoGP Prove libere 1 2026-10-22T23:45:00.000Z",
-        "Moto3 Pre-qualifiche 2026-10-23T02:15:00.000Z",
-        "Moto2 Pre-qualifiche 2026-10-23T03:05:00.000Z",
-        "MotoGP Pre-qualifiche 2026-10-23T04:00:00.000Z",
-        "Moto3 Prove libere 2 2026-10-23T21:40:00.000Z",
-        "Moto2 Prove libere 2 2026-10-23T22:25:00.000Z",
-        "MotoGP Prove libere 2 2026-10-23T23:10:00.000Z",
-        "MotoGP Qualifiche 2026-10-23T23:50:00.000Z TV8 diretta 2026-10-23T23:50:00.000Z",
-        "Moto3 Qualifiche 2026-10-24T01:45:00.000Z TV8 diretta 2026-10-24T01:45:00.000Z",
-        "Moto2 Qualifiche 2026-10-24T02:40:00.000Z TV8 diretta 2026-10-24T02:40:00.000Z",
-        "MotoGP Sprint 2026-10-24T04:00:00.000Z TV8 diretta 2026-10-24T04:00:00.000Z",
-        "MotoGP Warm up 2026-10-24T20:40:00.000Z",
-        "Moto3 Gara 2026-10-24T22:00:00.000Z TV8 differita 2026-10-25T10:00:00.000Z",
-        "Moto2 Gara 2026-10-25T01:15:00.000Z TV8 differita 2026-10-25T11:20:00.000Z",
-        "MotoGP Gara 2026-10-25T03:00:00.000Z TV8 differita 2026-10-25T13:00:00.000Z"
+        "F1 Prove libere 1 2026-10-30T18:30:00.000Z",
+        "F1 Prove libere 2 2026-10-30T22:00:00.000Z",
+        "F1 Prove libere 3 2026-10-31T17:30:00.000Z",
+        "F1 Qualifiche 2026-10-31T21:00:00.000Z",
+        "F1 Gara 2026-11-01T20:00:00.000Z"
       ]
     },
     {
@@ -204,20 +221,6 @@
       "sessioni": [
         "F1 Prove libere 1 2026-10-23T17:30:00.000Z",
         "F1 Prove libere 2 2026-10-23T21:00:00.000Z"
-      ]
-    },
-    {
-      "fonte": "OA Sport",
-      "titolo": "F1, GP USA 2026: gli orari del fine settimana dalle prove libere alla gara. Guida Sky e TV8",
-      "url": "https://www.oasport.it/2026/10/f1-gp-usa-2026-gli-orari-del-fine-settimana-dalle-prove-libere-alla-gara-guida-sky-e-tv8/",
-      "gp": "GP USA",
-      "serie": "f1",
-      "sessioni": [
-        "F1 Prove libere 1 2026-10-23T17:30:00.000Z",
-        "F1 Prove libere 2 2026-10-23T21:00:00.000Z",
-        "F1 Prove libere 3 2026-10-24T17:30:00.000Z",
-        "F1 Qualifiche 2026-10-24T21:00:00.000Z TV8 differita 2026-10-23T22:30:00.000Z",
-        "F1 Gara 2026-10-25T20:00:00.000Z"
       ]
     },
     {
