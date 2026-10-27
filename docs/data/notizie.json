@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-10-27T14:14:25.492Z",
+  "aggiornato": "2026-10-27T15:12:51.124Z",
   "articoli": [
+    {
+      "id": "34b3150f1df2",
+      "serie": "motogp",
+      "titolo": "Marquez re della qualifica: la pole di Phillip Island è stata la migliore degli ultimi 7 anni",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/27-9238970/marquez_re_della_qualifica_la_pole_di_phillip_island_stata_la_migliore_degli_ultimi_7_anni",
+      "fonte": "Motosprint",
+      "data": "2026-10-27T15:12:51.124Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/27/145037233-aedfe8f7-9306-4b11-a999-1ede0e7ae483.jpg",
+      "sommario": "In Australia, Marc è riuscito a rifilare quasi un secondo e mezzo al primo degli inseguitori in Q2. Un gap che non si vedeva da quando, nel 2019, fece un altro capolavoro sul bagnato"
+    },
+    {
+      "id": "d83004f44067",
+      "serie": "f1",
+      "titolo": "Russell, questione di feeling: Wolff si gode Antonelli e supporta George",
+      "link": "https://www.autosprint.it/news/formula1/2026/10/27-9238451/russell_questione_di_feeling_wolff_si_gode_antonelli_e_supporta_george",
+      "fonte": "Autosprint",
+      "data": "2026-10-27T15:12:51.124Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/27/150757669-046d53ff-5f2c-41b7-9dd3-d7fe0c45e586.jpg",
+      "sommario": "Per Marko le migliori chance di vincere un mondiale sono svanite con il rendimento in questa stagione e il ruolo di numero 1 guadagnato da Kimi a suon di risultati"
+    },
     {
       "id": "66a70f33f7e8",
       "serie": "motogp",
