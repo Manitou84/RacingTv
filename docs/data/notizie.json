@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-10-27T06:38:42.788Z",
+  "aggiornato": "2026-10-27T07:38:22.044Z",
   "articoli": [
+    {
+      "id": "fc470938ef5d",
+      "serie": "f1",
+      "titolo": "F1 e ciclismo sempre più vicini, un ex del Circus diventa socio di Contador e Basso",
+      "link": "https://www.autosprint.it/news/formula1/2026/10/27-9235872/f1_e_ciclismo_sempre_pi_vicini_un_ex_del_circus_diventa_socio_di_contador_e_basso",
+      "fonte": "Autosprint",
+      "data": "2026-10-27T07:38:22.044Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/27/071031258-48afa576-8bda-4787-9ff9-31f38998848b.jpeg",
+      "sommario": "Anche Alonso in passato aveva tentato di entrare nel mondo delle due ruote a pedale, mentre Bottas è ormai un habitué "
+    },
+    {
+      "id": "a03ee2fba0c5",
+      "serie": "f1",
+      "titolo": "Piloti coltelli: in F1 la solidarietà è rara, il caso Ocon ne è la prova",
+      "link": "https://www.autosprint.it/news/formula1/2026/10/27-9236289/piloti_coltelli_in_f1_la_solidariet_rara_il_caso_ocon_ne_la_prova",
+      "fonte": "Autosprint",
+      "data": "2026-10-27T07:38:22.044Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/27/070723118-058c49a3-6e6a-468c-a8fd-1e88eb8526c1.jpg",
+      "sommario": "Nel Circus le rivalità sono molto accese e il supporto tra colleghi irrilevante. Anche per questo Esteban ha voluto ringraziare l'unico che lo ha confortato"
+    },
+    {
+      "id": "5d26c42d058b",
+      "serie": "sbk",
+      "titolo": "Test top secret per Lecuona a Jerez! Nuovi forcelloni in arrivo per la Panigale?",
+      "link": "https://www.gpone.com/it/2026/10/27/wsbk/test-top-secret-per-lecuona-a-jerez-nuovi-forcelloni-in-arrivo-per-la-panigale.html",
+      "fonte": "GPOne",
+      "data": "2026-10-27T07:17:30.000Z",
+      "immagine": "",
+      "sommario": "Iker sarà in azione con la Panigale V4 insieme ai collaudatori MotoGP. Ducati punta a portare in pista la nuova componente dopo le fragilità emerse ad Assen"
+    },
     {
       "id": "dffc27c4d049",
       "serie": "f1",
