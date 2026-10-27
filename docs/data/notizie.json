@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-10-27T15:12:51.124Z",
+  "aggiornato": "2026-10-27T16:09:07.572Z",
   "articoli": [
+    {
+      "id": "2ea0e976a89b",
+      "serie": "f1",
+      "titolo": "In Messico arriva la prima volta di Minì su una Formula 1 nelle prove libere",
+      "link": "https://www.autosprint.it/news/formula1/f1-prove/2026/10/27-9239375/in_messico_arriva_la_prima_volta_di_min_su_una_formula_1_nelle_prove_libere",
+      "fonte": "Autosprint",
+      "data": "2026-10-27T16:09:07.572Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/27/153233969-b849810f-1bda-4458-b132-8ec8a9138d86.jpg",
+      "sommario": "Aspettando gli ultimi due round della Formula 2, il pilota siciliano esordirà su una monoposto dopo i primi giri completati nei test privati. Ecco al posto di chi sarà"
+    },
+    {
+      "id": "31b2910fc60d",
+      "serie": "sbk",
+      "titolo": "Dall’Igna e Ducati perdono due ingegneri di spicco in Superbike per il 2027",
+      "link": "https://www.gpone.com/it/2026/10/27/wsbk/dalligna-e-ducati-perdono-due-ingegneri-di-spicco-in-superbike-per-il-2027.html",
+      "fonte": "GPOne",
+      "data": "2026-10-27T15:58:37.000Z",
+      "immagine": "",
+      "sommario": "L’elettronico di Bulega chiude il proprio percorso nel team Ducati. Novità anche in Go Eleven: Carrieri riparte dal test team Honda"
+    },
+    {
+      "id": "efaf91443150",
+      "serie": "motogp",
+      "titolo": "Crutchlow: “I piloti sanno a cosa vanno incontro quando firmano i contratti”",
+      "link": "https://www.gpone.com/it/2026/10/27/motogp/crutchlow-i-piloti-sanno-a-cosa-vanno-incontro-quando-firmano-i-contratti.html",
+      "fonte": "GPOne",
+      "data": "2026-10-27T15:29:29.000Z",
+      "immagine": "",
+      "sommario": "“So che sono al limite, ma la MotoGP è sport, business e intrattenimento e se a loro non sta bene possono guardare le gare in TV. Marquez? Non si assume più gli stessi rischi di un tempo”"
+    },
     {
       "id": "34b3150f1df2",
       "serie": "motogp",
