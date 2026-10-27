@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-10-27T12:00:25.695Z",
+  "aggiornato": "2026-10-27T13:18:52.703Z",
   "articoli": [
+    {
+      "id": "796f2ae6e6f4",
+      "serie": "f1",
+      "titolo": "Antonelli, progetti da campione del mondo con il 12",
+      "link": "https://www.autosprint.it/news/formula1/2026/10/27-9237914/antonelli_progetti_da_campione_del_mondo_con_il_12",
+      "fonte": "Autosprint",
+      "data": "2026-10-27T13:18:52.703Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/27/120640276-8eae5b0b-166b-4559-8d72-078508766ae7.jpg",
+      "sommario": "Come Lauda e Senna si appresta a vincere il titolo con il suo numero del cuore, omaggio all'idolo di sempre, Ayrton. Nel 2027 Kimi ha le idee chiare sul numero 1"
+    },
+    {
+      "id": "af91f20a778c",
+      "serie": "f1",
+      "titolo": "Lando Norris: essere campione del mondo significa essere felici?",
+      "link": "https://www.autosprint.it/news/formula1/2026/10/27-9237761/lando_norris_essere_campione_del_mondo_significa_essere_felici_",
+      "fonte": "Autosprint",
+      "data": "2026-10-27T13:18:52.703Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/27/113324967-325171ae-d2a7-40b7-90e3-26da45f2a5e7.jpg",
+      "sommario": "Campione in carica della massima categoria e pilota McLaren, Lando Norris risponde a una domanda tanto banale quanto complicata: \"sei felice?\""
+    },
+    {
+      "id": "3c99332ac2c9",
+      "serie": "sbk",
+      "titolo": "Futuro a rischio per Roberta Ponziani: “C’è la possibilità che resti a casa”",
+      "link": "https://www.gpone.com/it/2026/10/27/wsbk/futuro-a-rischio-per-roberta-ponziani-ce-la-possibilita-che-resti-a-casa.html",
+      "fonte": "GPOne",
+      "data": "2026-10-27T12:29:31.000Z",
+      "immagine": "",
+      "sommario": "INTERVISTA - “Se non trovo sponsor o un team che mi dia una mano, rischio di non fare il Mondiale. Non vivo di questo sport, non chiedo di diventare ricca, ma almeno di poterlo fare a livello professionistico”"
+    },
     {
       "id": "1ee909c5d8ad",
       "serie": "motogp",
