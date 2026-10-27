@@ -1,6 +1,46 @@
 {
-  "aggiornato": "2026-10-27T13:18:52.703Z",
+  "aggiornato": "2026-10-27T14:14:25.492Z",
   "articoli": [
+    {
+      "id": "66a70f33f7e8",
+      "serie": "motogp",
+      "titolo": "Jack Miller saluta Phillip Island cantando “Wonderwall” al Rider Party [VIDEO]",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/27-9237917/jack_miller_saluta_phillip_island_cantando_wonderwall_al_rider_party_video_",
+      "fonte": "Motosprint",
+      "data": "2026-10-27T14:14:25.492Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/27/114703561-5fa4a2e6-53f8-4588-9268-4966f13041aa.jpg",
+      "sommario": "Alla consueta festa di fine evento, ha scaldato la serata intonando la celebre canzone degli Oasis tra risate e cori e balli "
+    },
+    {
+      "id": "a04cf495c2f9",
+      "serie": "motogp",
+      "titolo": "Dalla F1 alla MotoGP: i circuiti storici sono diventati un lusso?",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/27-9237913/dalla_f1_alla_motogp_i_circuiti_storici_sono_diventati_un_lusso_",
+      "fonte": "Motosprint",
+      "data": "2026-10-27T14:14:25.492Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/27/113614951-44700cd0-d976-48ba-a864-ed3c071fefff.jpeg",
+      "sommario": "Domenica (non) si è corsa l'ultima gara a Phillip Island, dal prossimo anno si andrà ad Adelaide: un chiaro segnale da parte di Liberty Media che pone diverse domande sul futuro"
+    },
+    {
+      "id": "0afe3155fd4d",
+      "serie": "motogp",
+      "titolo": "Martin o Bezzecchi: chi \"sceglie\" Aprilia per il titolo MotoGP?",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/27-9237336/martin_o_bezzecchi_chi_sceglie_aprilia_per_il_titolo_motogp_",
+      "fonte": "Motosprint",
+      "data": "2026-10-27T14:14:25.492Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/27/122026487-7cb1312a-baa4-4317-b413-69d8d02fe300.jpg",
+      "sommario": "Jorge sa come vincere titoli, ma lascerà Noale a fine stagione, Marco rappresenta la certezza futura: per battere Marquez, su quale pedina puntare? "
+    },
+    {
+      "id": "cf846cd97f3e",
+      "serie": "f1",
+      "titolo": "Helmut Marko presenta il suo nuovo lavoro: l'austriaco farà parlare i morti",
+      "link": "https://www.autosprint.it/news/formula1/2026/10/27-9238211/helmut_marko_presenta_il_suo_nuovo_lavoro_l_austriaco_far_parlare_i_morti",
+      "fonte": "Autosprint",
+      "data": "2026-10-27T14:14:25.492Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/27/131705257-e3eb8b44-e209-40ee-a2a5-63d0f3df5cf7.jpg",
+      "sommario": "L'ex talent scout Red Bull, di recente protagonista di un botta e risposta al vetriolo con Horner, ha deciso di supportare una start-up austriaca specializzata"
+    },
     {
       "id": "796f2ae6e6f4",
       "serie": "f1",

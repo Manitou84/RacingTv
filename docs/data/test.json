@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-27T13:18:52.703Z",
+  "aggiornato": "2026-10-27T14:14:25.492Z",
   "motogp": [
     {
       "id": "motogp-shakedown-sepang-2026",
@@ -7,8 +7,7 @@
       "circuito": "Sepang International Circuit",
       "dal": "2026-01-29",
       "al": "2026-01-31",
-      "classifiche": [],
-      "url": "https://www.motosprint.it/live/moto-gp/shakedown-test-913091"
+      "classifiche": []
     },
     {
       "id": "motogp-test-sepang-2026",
@@ -16,8 +15,7 @@
       "circuito": "Sepang International Circuit",
       "dal": "2026-02-02",
       "al": "2026-02-05",
-      "classifiche": [],
-      "url": "https://www.motosprint.it/live/moto-gp/sepang-test-913092"
+      "classifiche": []
     },
     {
       "id": "motogp-test-buriram-2026",
@@ -25,8 +23,7 @@
       "circuito": "Chang International Circuit",
       "dal": "2026-02-20",
       "al": "2026-02-22",
-      "classifiche": [],
-      "url": "https://www.motosprint.it/live/moto-gp/buriram-test-913093"
+      "classifiche": []
     },
     {
       "id": "motogp-test-jerez-2026",
