@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-10-27T09:29:13.807Z",
+  "aggiornato": "2026-10-27T10:11:43.978Z",
   "articoli": [
+    {
+      "id": "24177f32d394",
+      "serie": "motogp",
+      "titolo": "Martin incerto su Sepang: \"Impossibile fare previsioni\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/27-9237103/martin_incerto_su_sepang_impossibile_fare_previsioni",
+      "fonte": "Motosprint",
+      "data": "2026-10-27T10:11:43.978Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/27/093449863-e6d2c8f8-83d2-425a-8c7c-6c0cfb47301a.jpg",
+      "sommario": "Jorge, atteso al Gran Premio della Malesia  col team Aprilia: \"Dobbiamo valutare la situazione giorno per giorno: mi sto sottoponendo alle cure necessarie per arrivare al meglio possibile\""
+    },
+    {
+      "id": "28845aef378f",
+      "serie": "motogp",
+      "titolo": "A Sepang un'altra riunione dell'associazione piloti per parlare del Qatar",
+      "link": "https://www.gpone.com/it/2026/10/27/motogp/a-sepang-unaltra-riunione-dellassociazione-piloti-per-parlare-del-qatar.html",
+      "fonte": "GPOne",
+      "data": "2026-10-27T09:35:43.000Z",
+      "immagine": "",
+      "sommario": "A Phillip Island avevano chiesto garanzie per la sicurezza e dovrebbero ricevere una risposta in Malesia. Intanto si sta preparando un piano di evacuazione di emergenza"
+    },
     {
       "id": "f7785812d1c2",
       "serie": "f1",
