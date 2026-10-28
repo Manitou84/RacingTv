@@ -1,6 +1,46 @@
 {
-  "aggiornato": "2026-10-28T15:18:09.258Z",
+  "aggiornato": "2026-10-28T16:17:27.294Z",
   "articoli": [
+    {
+      "id": "8de3421611b6",
+      "serie": "motogp",
+      "titolo": "MotoGP e F1 in parallelo: un weekend decisivo per entrambe, ma per motivi opposti",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/28-9242257/motogp_e_f1_in_parallelo_un_weekend_decisivo_per_entrambe_ma_per_motivi_opposti",
+      "fonte": "Motosprint",
+      "data": "2026-10-28T16:17:27.294Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/28/145354680-60ced683-7849-4b86-aa0b-e337c0e645d6.jpg",
+      "sommario": "Le due ruote arrivano in Malesia con Marquez che tenterà la fuga su un Martin fisicamente non al top, mentre la Formula 1 è pronta ad incoronare Kimi Antonelli"
+    },
+    {
+      "id": "fc20e6c9fa74",
+      "serie": "motogp",
+      "titolo": "MotoGP, il Pallone d’Oro dei piloti dal 2002 al 2025: Rossi e Marquez in vetta alla classifica",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/28-9242087/motogp_il_pallone_doro_dei_piloti_dal_2002_al_2025_rossi_e_marquez_in_vetta_alla_classifica",
+      "fonte": "Motosprint",
+      "data": "2026-10-28T16:17:27.294Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/28/135023573-9e40aa64-54fc-4699-8c10-94fef9afc1e9.jpg",
+      "sommario": "Una rilettura della storia della MotoGP moderna ispirata al premio individuale più prestigioso del calcio. Con l’aiuto dell’IA, abbiamo assegnato i riconoscimenti valutando le prestazioni dei piloti al di là del titolo m"
+    },
+    {
+      "id": "d0d8796defe2",
+      "serie": "motogp",
+      "titolo": "Bezzecchi a cuore aperto: “Quando parto per una gara mi cambia la faccia”",
+      "link": "https://www.gpone.com/it/2026/10/28/motogp/bezzecchi-a-cuore-aperto-quando-parto-per-una-gara-mi-cambia-la-faccia.html",
+      "fonte": "GPOne",
+      "data": "2026-10-28T16:00:00.000Z",
+      "immagine": "",
+      "sommario": "ESCLUSIVA VIDEO - \"Mi piace andare fuori con la squadra, ma mi manca tantissimo il mio cane. Da Spider Man ho imparato che da grandi poteri , derivano grandi responsabilità. Il mondiale? C'è poco da ragionare, devo solo "
+    },
+    {
+      "id": "c8b4fd55a62d",
+      "serie": "sbk",
+      "titolo": "Yamaha fa acquisti in Ducati: arriva l’ex capotecnico di Bautista e Petrucci",
+      "link": "https://www.gpone.com/it/2026/10/28/wsbk/yamaha-fa-acquisti-in-ducati-arriva-lex-capotecnico-di-bautista-e-petrucci.html",
+      "fonte": "GPOne",
+      "data": "2026-10-28T15:54:10.000Z",
+      "immagine": "",
+      "sommario": "Per il capotecnico di Miller spicca invece un nome che intriga. Mentre Barni riparte da Reale per affiancare Vierge"
+    },
     {
       "id": "a437f93ab175",
       "serie": "motogp",
