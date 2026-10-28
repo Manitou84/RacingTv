@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-28T18:09:08.124Z",
+  "aggiornato": "2026-10-28T19:21:32.307Z",
   "articoli": [
     {
       "id": "d8d644f3cdb9",
@@ -20,6 +20,16 @@
       "data": "2026-10-28T17:16:56.603Z",
       "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/06/29/132851455-c94e1f9a-c293-4bc7-9760-64842123bdca.jpg",
       "sommario": "A lungo capo supremo del Circus moderno, il britannico è stato un personaggio contradditorio e discusso, ma dotato di un invidiabile carisma"
+    },
+    {
+      "id": "b0770216ca00",
+      "serie": "motogp",
+      "titolo": "Xaus: “Marquez è una vecchia volpe, Martin è caduto nella sua trappola”",
+      "link": "https://www.gpone.com/it/2026/10/28/motogp/xaus-marquez-e-una-vecchia-volpe-martin-e-caduto-nella-sua-trappola.html",
+      "fonte": "GPOne",
+      "data": "2026-10-28T17:15:38.000Z",
+      "immagine": "",
+      "sommario": "“Marc sapeva di non avere la moto migliore a Phillip island e ha giocato la carta dell’esperienza. Voleva innervosire Jorge e ci è riuscito. Lo ha messo alle strette e Martin ha commesso un errore”"
     },
     {
       "id": "8de3421611b6",
