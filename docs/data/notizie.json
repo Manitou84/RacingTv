@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-10-28T11:29:38.559Z",
+  "aggiornato": "2026-10-28T12:13:07.894Z",
   "articoli": [
+    {
+      "id": "01a59355fdc3",
+      "serie": "f1",
+      "titolo": "Red Bull, un motore da applausi e nessuna intenzione di fornire altri team",
+      "link": "https://www.autosprint.it/news/formula1/2026/10/28-9241985/red_bull_un_motore_da_applausi_e_nessuna_intenzione_di_fornire_altri_team",
+      "fonte": "Autosprint",
+      "data": "2026-10-28T12:13:07.894Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/28/120001894-c2b04b48-f79f-424e-9615-3b46db4a302d.jpg",
+      "sommario": "Mekies ha ribadito una linea nota da tempo nel rispondere ai rumours di un possibile accordo con Aston Martin se Honda mancasse gli obiettivi di competitività nel 2027"
+    },
     {
       "id": "e2abac8062cd",
       "serie": "motogp",
