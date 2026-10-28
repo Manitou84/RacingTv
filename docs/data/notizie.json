@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-10-28T16:17:27.294Z",
+  "aggiornato": "2026-10-28T17:16:56.603Z",
   "articoli": [
+    {
+      "id": "d8d644f3cdb9",
+      "serie": "f1",
+      "titolo": "Cadillac ha deciso, ancora a lungo con l'esperienza di Perez",
+      "link": "https://www.autosprint.it/news/formula1/2026/10/28-9242399/cadillac_ha_deciso_ancora_a_lungo_con_l_esperienza_di_perez",
+      "fonte": "Autosprint",
+      "data": "2026-10-28T17:16:56.603Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/28/155411430-9de5f7a4-f43a-432a-8029-1aab7be6e918.jpg",
+      "sommario": "Rimane in bilico il sedile di Bottas, mentre il pilota messicano ha raggiunto un accordo decisamente lungo per continuare con il team e chiudere la carriera"
+    },
+    {
+      "id": "4f8ec93d8f4d",
+      "serie": "f1",
+      "titolo": "Bernie Ecclestone compie 96 anni: ecco perché, dopotutto, manca alla F1",
+      "link": "https://www.autosprint.it/news/formula1/2026/10/28-9243343/bernie_ecclestone_compie_96_anni_ecco_perch_dopotutto_manca_alla_f1",
+      "fonte": "Autosprint",
+      "data": "2026-10-28T17:16:56.603Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/06/29/132851455-c94e1f9a-c293-4bc7-9760-64842123bdca.jpg",
+      "sommario": "A lungo capo supremo del Circus moderno, il britannico è stato un personaggio contradditorio e discusso, ma dotato di un invidiabile carisma"
+    },
     {
       "id": "8de3421611b6",
       "serie": "motogp",
