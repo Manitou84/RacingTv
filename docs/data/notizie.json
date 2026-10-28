@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-10-28T13:28:50.317Z",
+  "aggiornato": "2026-10-28T14:23:04.008Z",
   "articoli": [
+    {
+      "id": "0c8418c8067c",
+      "serie": "motogp",
+      "titolo": "MotoGP, Acosta su Marc Marquez: \"Lui e Valentino Rossi allo stesso livello, sono i migliori della storia\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/28-9242080/motogp_acosta_su_marc_marquez_lui_e_valentino_rossi_allo_stesso_livello_sono_i_migliori_della_storia",
+      "fonte": "Motosprint",
+      "data": "2026-10-28T14:23:04.008Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/28/131038154-8e532045-6c7e-4ecf-afec-077fa3b1995e.jpg",
+      "sommario": "Lo spagnolo ha parlato del raffronto tra i due campioni dell'era moderna della top class, sottolineando anche l'importanza dell'opportunitià di apprendere dal suo prossimo compagno di squadra"
+    },
+    {
+      "id": "42a75a88a9bb",
+      "serie": "motogp",
+      "titolo": "Sepang, tana del \"serpente\" Marquez: nel 2015 \"avvelenò\" Rossi",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/28-9241363/sepang_tana_del_serpente_marquez_nel_2015_avvelen_rossi",
+      "fonte": "Motosprint",
+      "data": "2026-10-28T14:23:04.008Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/28/101602789-4f0ce20b-dc50-488d-8712-337b3254deb3.jpg",
+      "sommario": "Marc in Malesia fece perdere la pazienza (e il titolo?!) a Valentino. Mai vincente con la Ducati, il leader iridato vuole marcare di Rosso il tracciato e allungare in classifica"
+    },
+    {
+      "id": "d6d7905c7154",
+      "serie": "motogp",
+      "titolo": "Jorge Martin campione dopo un infortunio al radio? Nel 2018 è già successo",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/28-9241354/jorge_martin_campione_dopo_un_infortunio_al_radio_nel_2018_gi_successo",
+      "fonte": "Motosprint",
+      "data": "2026-10-28T14:23:04.008Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/28/093203418-49834939-a0e4-4fd9-b919-ad2c318544a8.jpg",
+      "sommario": "Lo spagnolo dovrà stringere i denti in Malesia per via della frattura rimediata nell’incidente di Phillip Island, ma il precedente gli sorride e all’epoca chiuse i giochi proprio a Sepang"
+    },
     {
       "id": "01a59355fdc3",
       "serie": "f1",
