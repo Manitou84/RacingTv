@@ -1,6 +1,46 @@
 {
-  "aggiornato": "2026-10-28T09:35:43.963Z",
+  "aggiornato": "2026-10-28T10:33:54.027Z",
   "articoli": [
+    {
+      "id": "81cf2fa96e94",
+      "serie": "f1",
+      "titolo": "I motori V8 turbo prendono forma, i numeri e le discussioni intorno all'ibrido",
+      "link": "https://www.autosprint.it/news/formula1/2026/10/28-9240660/i_motori_v8_turbo_prendono_forma_i_numeri_e_le_discussioni_intorno_all_ibrido",
+      "fonte": "Autosprint",
+      "data": "2026-10-28T10:33:54.027Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/28/082147447-981f00ac-6617-4195-a9f5-026e921a6170.jpg",
+      "sommario": "Trapelano le prime caratteristiche della parte elettrica che sosterrà i cavalli del motore termico, nuovamente centrale nella prestazione. Giù anche il peso"
+    },
+    {
+      "id": "9617b9f20f10",
+      "serie": "f1",
+      "titolo": "Qatar e Abu Dhabi verso la cancellazione, Imola pronta e Kimi già Campione",
+      "link": "https://www.autosprint.it/news/formula1/2026/10/28-9241142/qatar_e_abu_dhabi_verso_la_cancellazione_imola_pronta_e_kimi_gi_campione",
+      "fonte": "Autosprint",
+      "data": "2026-10-28T10:33:54.027Z",
+      "immagine": "http://cdn-autosprint.corrieredellosport.it/images/2025/01/15/162103537-edcc7ce4-67f1-4a0b-871c-134f39900ffd.jpg",
+      "sommario": "Una nota di un Ministero britannico concede una scappatoia alla F1 per cancellare le due gare mediorentali senza penali: cosa sta succedendo e cosa cambia per il Titolo di Kimi"
+    },
+    {
+      "id": "05a5b8f10fad",
+      "serie": "sbk",
+      "titolo": "WorldWCR, quando i risultati non bastano: 2027 a rischio per Roberta Ponziani",
+      "link": "https://www.motosprint.it/news/sbk/2026/10/28-9241145/worldwcr_quando_i_risultati_non_bastano_2027_a_rischio_per_roberta_ponziani",
+      "fonte": "Motosprint",
+      "data": "2026-10-28T10:33:54.027Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/28/092450603-21c65698-efd7-4082-bf5c-c7128e49024e.jpg",
+      "sommario": "In lotta fino all’ultima gara per il terzo posto in campionato, diversi podi e vittorie in questi anni, l’abruzzese potrebbe non avere una sella nel prossimo Mondiale Femminile"
+    },
+    {
+      "id": "f626f596247d",
+      "serie": "motogp",
+      "titolo": "Qatar nel mirino: “La situazione può cambiare in un istante, questo è un precedente inaccettabile”",
+      "link": "https://www.gpone.com/it/2026/10/28/motogp/qatar-nel-mirino-la-situazione-puo-cambiare-in-un-istante-questo-e-un-precedente-inaccettabile.html",
+      "fonte": "GPOne",
+      "data": "2026-10-28T09:42:17.000Z",
+      "immagine": "",
+      "sommario": "I sauditi hanno già cancellato il lucrativo torneo di tennis \"Six Kings Slam\" a Riyadh, ed è ormai chiaro che anche il Rally Dakar, originariamente in programma per gennaio 2027, non potrà svolgersi in Arabia Saudita"
+    },
     {
       "id": "4136804856d5",
       "serie": "motogp",
