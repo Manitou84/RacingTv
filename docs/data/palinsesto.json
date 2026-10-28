@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-28T06:31:13.628Z",
+  "aggiornato": "2026-10-28T07:47:04.376Z",
   "weekend": [
     {
       "id": "motogp-gp-australia-2026",
@@ -422,6 +422,11 @@
       ],
       "fonti": [
         {
+          "nome": "Sky Sport",
+          "url": "https://sport.sky.it/motogp/2026/10/28/motogp-orari-gp-malesia-sepang-2026-dove-vedere-sky-now-tv8",
+          "titolo": "MotoGP, GP Malesia: orari tv della gara di Sepang 2026 | Sky Sport"
+        },
+        {
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/10/motogp-gp-malesia-2026-programma-orari-tv-streaming-guida-sky-e-tv8/",
           "titolo": "MotoGP, GP Malesia 2026: programma, orari, tv, streaming, guida SKY e TV8"
@@ -456,15 +461,15 @@
         },
         {
           "classe": "F1",
-          "sessione": "Qualifiche",
-          "inizio": "2026-10-31T21:00:00.000Z",
+          "sessione": "Gara",
+          "inizio": "2026-10-31T20:00:00.000Z",
           "tv8": null,
-          "fonte": "OA Sport"
+          "fonte": "Sky Sport"
         },
         {
           "classe": "F1",
-          "sessione": "Gara",
-          "inizio": "2026-11-01T20:00:00.000Z",
+          "sessione": "Qualifiche",
+          "inizio": "2026-10-31T21:00:00.000Z",
           "tv8": null,
           "fonte": "OA Sport"
         }
@@ -475,6 +480,11 @@
         "2026-11-01"
       ],
       "fonti": [
+        {
+          "nome": "Sky Sport",
+          "url": "https://sport.sky.it/formula-1/2026/10/28/f1-orari-gp-messico-2026",
+          "titolo": "Formula 1, orari GP Messico 2026 a Città del Messico: dove vedere la F1 in tv | Sky Sport"
+        },
         {
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/10/f1-gp-messico-2026-programma-orari-tv-streaming-guida-sky-e-tv8/",
