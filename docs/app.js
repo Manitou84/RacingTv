@@ -332,6 +332,37 @@ function notizieCircuito(c) {
     : `<a href="${esc(urlSicuro(a.link))}" target="_blank" rel="noopener noreferrer">${esc(a.titolo)} <small>${esc(a.fonte)}, ${quandoRelativo(a.data)}</small></a>`).join('')}</div>`;
 }
 // Scheda completa del tracciato: mappa grande e tutti i record noti (prima la serie scelta, poi l'altra)
+// Podi della stagione su questa pista: gara (dai risultati) e Sprint/gare SBK (dagli ordini d'arrivo),
+// per ogni campionato che ci ha già corso. Coperti dall'anti-spoiler se non li hai ancora visti.
+function podiStagione(id) {
+  const oggi = fIso.format(adesso());
+  const nomeDa = (se, x) => {
+    const ps = pilotiSerie(se);
+    const p = typeof x === 'string' ? ps.find(q => corrisponde(q, x)) : (x.id && ps.find(q => q.id === x.id));
+    if (p) return `${p.bandiera} ${p.nome.split(' ')[0]} ${p.cognome}`;
+    return typeof x === 'string' ? x.split('-').map(t => t[0].toUpperCase() + t.slice(1)).join(' ') : x.nome;
+  };
+  let html = '';
+  for (const se of ELENCO_SERIE) {
+    const gare = (D.calendario?.[se]?.gare || []).filter(g => g.circuito === id && g.data < oggi);
+    for (const g of gare) {
+      const anno = g.data.slice(0, 4);
+      const titolo = `Podio ${anno} · ${SERIE[se]}${gare.length > 1 ? ` · ${g.gp}` : ''}`;
+      const dal = copertoDal(se);
+      if (dal && new Date(g.data + 'T23:59:00Z') >= dal) { html += `<h3 class="pal-titolo">${esc(titolo)}</h3><p class="nota piccola">Coperto dall'anti-spoiler: lo vedi quando segni le gare come viste.</p>`; continue; }
+      const blocchi = [];
+      const wid = `${se}-${pulisci(g.gp).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}-${anno}`;
+      const arr = D.arrivi?.[wid] || {};
+      for (const sess of ['Sprint', 'Gara 1', 'Superpole Race', 'Gara 2']) if (arr[sess]) blocchi.push([sess, arr[sess].classificati.slice(0, 3)]);
+      const ris = (D.risultati?.[se]?.gare || []).find(r => Math.abs(new Date(r.data + 'T12:00:00Z') - new Date(g.data + 'T12:00:00Z')) < 2 * 864e5);
+      if (ris?.podio?.length) blocchi.push(['Gara', ris.podio.slice(0, 3)]);
+      else if (arr.Gara) blocchi.push(['Gara', arr.Gara.classificati.slice(0, 3)]);
+      if (!blocchi.length) continue;
+      html += `<h3 class="pal-titolo">${esc(titolo)}</h3>` + blocchi.map(([sess, podio]) => `<div class="trac-podio"><span class="tp-sess">${esc(sess)}</span><ol>${podio.map((x, i) => `<li><span class="medaglia m${i + 1}">${i + 1}°</span><span>${esc(nomeDa(se, x))}</span></li>`).join('')}</ol></div>`).join('');
+    }
+  }
+  return html;
+}
 let ultimoTracciato = null;
 function apriTracciato(id, gara = null) {
   ultimoTracciato = [id, gara];
@@ -368,6 +399,7 @@ function apriTracciato(id, gara = null) {
     ${c.debutto ? `<p class="nota piccola">Primo GP mondiale: ${Object.entries(c.debutto).map(([se, a]) => `${nomeSerie[se]} ${a}`).join(', ')}.</p>` : ''}
     ${c.curveCelebri?.length ? `<h3 class="pal-titolo">Curve da conoscere</h3><ul class="hof-curiosita">${c.curveCelebri.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
     ${c.curiosita?.length ? `<h3 class="pal-titolo">Curiosità</h3><ul class="hof-curiosita">${c.curiosita.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
+    ${podiStagione(id)}
     ${rec || '<p class="nota piccola">Nessun record registrato.</p>'}
     ${notizieCircuito(c)}
     <p class="nota piccola">Fonte: Wikipedia. I record non tengono conto del weekend in corso.</p>`;

@@ -513,3 +513,11 @@ button.matchpoint { width: 100%; border: 0; text-align: left; font: inherit; cur
 .slot.annullata .cosa strong { text-decoration: line-through; }
 .cal-chip.annullata { background: #ff3b3b; color: #fff; }
 .cal-gp.annullato .cal-testo strong { text-decoration: line-through; }
+
+/* Podi della stagione nella scheda del tracciato */
+.trac-podio { margin: 4px 0 10px; }
+.tp-sess { display: block; font-size: 12px; font-weight: 700; color: var(--grigio); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 4px; }
+.trac-podio ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.trac-podio li { display: flex; align-items: center; gap: 10px; font-size: 15px; }
+.trac-mappa.stile img { background: none; padding: 0; border-radius: 10px; }
+.circ-mini.stile, .cal-mappa.stile { background: #121418; padding: 0; object-fit: cover; }

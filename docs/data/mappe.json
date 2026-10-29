@@ -137,7 +137,7 @@
     "via": "pageimage",
     "immagine": "mappe/madrid.png",
     "pagina": "https://commons.wikimedia.org/wiki/File:Madring_(2026).svg",
-    "stile": null
+    "stile": "mappe/madrid-stile.png"
   },
   "magny-cours": {
     "file": "Circuit_de_Nevers_Magny-Cours.svg",
@@ -158,7 +158,7 @@
     "via": "pageimage",
     "immagine": "mappe/melbourne.png",
     "pagina": "https://commons.wikimedia.org/wiki/File:Albert_Park_Circuit_2021.svg",
-    "stile": null
+    "stile": "mappe/melbourne-stile.png"
   },
   "miami": {
     "file": "Hard_Rock_Stadium_Circuit_2022.svg",
@@ -186,7 +186,7 @@
     "via": "pageimage",
     "immagine": "mappe/montreal.png",
     "pagina": "https://commons.wikimedia.org/wiki/File:%C3%8Ele_Notre-Dame_(Circuit_Gilles_Villeneuve).svg",
-    "stile": null
+    "stile": "mappe/montreal-stile.png"
   },
   "monza": {
     "file": "Monza_track_map.svg",
@@ -200,7 +200,7 @@
     "via": "pageimage",
     "immagine": "mappe/most.png",
     "pagina": "https://commons.wikimedia.org/wiki/File:Autodrom_Most_layout.svg",
-    "stile": null
+    "stile": "mappe/most-stile.png"
   },
   "motegi": {
     "file": "Twin_Ring_Motegi_map-2.svg",
@@ -263,7 +263,7 @@
     "via": "pageimage",
     "immagine": "mappe/singapore.png",
     "pagina": "https://commons.wikimedia.org/wiki/File:Marina_Bay_circuit_2023.svg",
-    "stile": null
+    "stile": "mappe/singapore-stile.png"
   },
   "spa": {
     "file": "Spa-Francorchamps_of_Belgium.svg",

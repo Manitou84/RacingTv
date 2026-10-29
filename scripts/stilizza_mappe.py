@@ -1,5 +1,5 @@
-"""Ridisegna le mappe dei circuiti in stile «grafica TV»: solo il nastro della pista,
-chiaro su fondo trasparente con un alone rosso, senza scritte, numeri delle curve o legende.
+"""Ridisegna le mappe dei circuiti in stile racing: fondo scuro, pista chiara con alone rosso,
+nomi e numeri delle curve conservati (chiari sul fondo scuro).
 Uso: python3 scripts/stilizza_mappe.py [--tutte]
 Legge docs/mappe/<id>.png e scrive docs/mappe/<id>-stile.png (salta quelle già fatte, se non --tutte)."""
 import sys, os, json
@@ -11,7 +11,7 @@ RADICE = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 CARTELLA = os.path.join(RADICE, 'docs', 'mappe')
 # mappe in cui il disegno automatico non riesce a separare la pista da strade, acqua o colori:
 # per queste si tiene la mappa originale (aggiungi qui l'id se un ridisegno esce sbagliato)
-ORIGINALE = {'baku', 'madrid', 'most', 'singapore', 'montreal', 'melbourne'}
+ORIGINALE = {'baku'}   # foto aerea: resta com'è
 
 def nastro(im):
     """Maschera del tracciato: il componente lungo e sottile più grande tra le linee scure o colorate."""
@@ -38,29 +38,42 @@ def nastro(im):
     m = ndimage.binary_closing(m, iterations=2)
     return m
 
-def stilizza(src, dst, lato=640):
+def stilizza(src, dst, lato=900):
+    """Versione «racing» della mappa originale: fondo scuro, scritte e nomi delle curve chiari,
+    colori originali conservati, nastro della pista chiaro con un alone rosso."""
     im = Image.open(src).convert('RGBA')
     bianco = Image.new('RGBA', im.size, 'white'); bianco.alpha_composite(im)
+    rgb = np.asarray(bianco.convert('RGB')).astype(float)
+    lum = rgb.mean(axis=2); sat = rgb.max(axis=2) - rgb.min(axis=2)
+    # grigi invertiti: il bianco diventa il fondo scuro, il nero diventa chiaro
+    fondo = np.array([18, 20, 24], float); chiaro = np.array([238, 236, 230], float)
+    t = (1 - lum / 255)[..., None]
+    out = fondo + (chiaro - fondo) * t
+    # i colori (frecce, settori, acqua, cordoli) restano, un po' ravvivati sul fondo scuro
+    colore = (sat > 60)[..., None]
+    out = np.where(colore, np.clip(rgb * 1.1, 0, 255), out)
+    # le grandi campiture chiare colorate (acqua, parchi) diventano tinte scure, per non accecare
+    campitura = ((sat > 60) & (lum > 165))[..., None]
+    out = np.where(campitura, rgb * 0.32 + fondo * 0.68, out)
+    base = Image.fromarray(out.astype(np.uint8)).convert('RGBA')
     m = nastro(bianco)
-    if m is None or m.sum() < 500: return False
-    ys, xs = np.where(m)
-    pad = 24
-    y0, y1, x0, x1 = max(ys.min() - pad, 0), min(ys.max() + pad, m.shape[0]), max(xs.min() - pad, 0), min(xs.max() + pad, m.shape[1])
-    m = m[y0:y1, x0:x1]
-    # spessore uniforme: scheletro allargato, così tutte le piste hanno lo stesso tratto
-    spessore = max(3, round(min(m.shape) / 70))
-    linea = ndimage.binary_dilation(ndimage.binary_erosion(m, iterations=1) | m, iterations=max(0, spessore - 3))
-    mask = Image.fromarray((linea * 255).astype(np.uint8))
-    alone = mask.filter(ImageFilter.MaxFilter(9)).filter(ImageFilter.GaussianBlur(10))
-    out = Image.new('RGBA', mask.size, (0, 0, 0, 0))
-    rosso = Image.new('RGBA', mask.size, (228, 0, 43, 255)); rosso.putalpha(alone.point(lambda v: int(v * 0.85)))
-    out.alpha_composite(rosso)
-    bordo = Image.new('RGBA', mask.size, (228, 0, 43, 255)); bordo.putalpha(mask.filter(ImageFilter.MaxFilter(5)))
-    out.alpha_composite(bordo)
-    chiaro = Image.new('RGBA', mask.size, (242, 240, 235, 255)); chiaro.putalpha(mask)
-    out.alpha_composite(chiaro)
-    out.thumbnail((lato, lato), Image.LANCZOS)
-    out.save(dst, optimize=True)
+    if m is not None and m.sum() > 500:
+        mask = Image.fromarray((m * 255).astype(np.uint8))
+        alone = mask.filter(ImageFilter.MaxFilter(9)).filter(ImageFilter.GaussianBlur(9))
+        tela = Image.new('RGBA', base.size, tuple(fondo.astype(int)) + (255,))
+        rosso = Image.new('RGBA', base.size, (228, 0, 43, 255)); rosso.putalpha(alone.point(lambda v: int(v * 0.9)))
+        tela.alpha_composite(rosso)
+        # sopra l'alone rimetto la mappa schiarita, con il fondo trasparente
+        a = np.asarray(base).copy()
+        trasp = (lum > 235) & (sat < 30)
+        a[..., 3] = np.where(trasp, 0, 255)
+        tela.alpha_composite(Image.fromarray(a))
+        # il nastro della pista in bianco pieno
+        pista = Image.new('RGBA', base.size, (250, 248, 242, 255)); pista.putalpha(mask)
+        tela.alpha_composite(pista)
+        base = tela
+    base.thumbnail((lato, lato), Image.LANCZOS)
+    base.convert('RGB').save(dst, optimize=True)
     return True
 
 if __name__ == '__main__':
