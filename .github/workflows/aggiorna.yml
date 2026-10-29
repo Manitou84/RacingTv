@@ -25,8 +25,13 @@ jobs:
           node-version: 20
       - name: Prova dei lettori
         run: node scripts/test.mjs
-      - name: Scarica notizie, orari TV8 e classifiche (MotoGP e F1)
+      - name: Scarica notizie, orari TV8 e classifiche (MotoGP, F1 e Superbike)
         run: node scripts/aggiorna.mjs
+      - name: Ridisegna le mappe nuove in stile grafica TV
+        run: |
+          if ls docs/mappe/*.png >/dev/null 2>&1 && python3 -c "import json,os,sys; m=json.load(open('docs/data/mappe.json')); sys.exit(0 if any('stile' not in v for v in m.values()) else 1)"; then
+            pip install --quiet --disable-pip-version-check pillow numpy scipy && python3 scripts/stilizza_mappe.py
+          fi
       - name: Salva i dati se sono cambiati
         run: |
           git config user.name "aggiornamento-automatico"

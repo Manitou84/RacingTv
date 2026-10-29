@@ -117,6 +117,20 @@ async function caricaTutto() {
 const pilotiSerie = (serie = stato.serie) => D.piloti.filter(p => p.serie === serie);
 const weekendSerie = (serie = stato.serie) => D.palinsesto.weekend.filter(w => w.serie === serie);
 
+/* ---------- Gare annullate ---------- */
+// Un GP è annullato se lo dice il calendario ("annullata": true) o se lo ha rilevato l'aggiornamento
+// (correzioni manuali o titoli delle notizie). Restituisce { motivo, url } oppure null.
+function annullamento(w, s) {
+  if (!w) return null;
+  const gc = garaCalendario(w, w.serie);
+  if (gc?.annullata) return { motivo: gc.motivo || 'Il GP è stato annullato.', url: gc.url || null, tutto: true };
+  const x = (w.annullate || []).find(a => a.sessione === '*' || (s && a.sessione === s.sessione));
+  if (!x) return null;
+  return { motivo: x.titolo, url: x.url, tutto: x.sessione === '*' };
+}
+// le sessioni toccate: con tutto il GP annullato anche prove e qualifiche, altrimenti solo la gara indicata
+const annullataSess = (w, s) => { const a = annullamento(w, s); return a && (a.tutto || eGara(s.sessione) || eSprint(s.sessione)) ? a : null; };
+
 /* ---------- Anti-spoiler ---------- */
 // Ogni gara, Sprint, qualifica della classe regina e ogni sessione che TV8 manda in differita apre una finestra:
 // dal via in pista finché non dici di averla vista. Se non lo dici, si chiude da sola
@@ -131,6 +145,7 @@ function finestre() {
   const out = [];
   for (const w of D.palinsesto.weekend) for (const s of w.sessioni) {
     if (!s.inizio || !daCoprire(s)) continue;
+    if (annullataSess(w, s)) continue;
     const fineTv = new Date((s.tv8 || s).inizio).getTime() + durataTv(s) * 60000;
     out.push({ id: `${w.id}|${s.classe}|${s.sessione}`, serie: w.serie, inizio: new Date(s.inizio), fine: new Date(fineTv + SCADENZA) });
   }
@@ -190,7 +205,7 @@ const principale = s => eRegina(s) && (eGara(s.sessione) || eSprint(s.sessione))
 function matchpoint(w) {
   const cal = D.calendario?.[w.serie], cl = D.classifica?.[w.serie];
   if (!w || !cal?.gare || !cl?.piloti?.length) return null;
-  const corse = w.sessioni.filter(principale).sort((a, b) => a.inizio.localeCompare(b.inizio));
+  const corse = w.sessioni.filter(principale).filter(s => !annullamento(w, s)).sort((a, b) => a.inizio.localeCompare(b.inizio));
   const gara = corse.filter(s => eGara(s.sessione)).at(-1);
   if (!gara) return null;
   const chiave = `matchpoint-${w.id}`;
@@ -298,7 +313,7 @@ function schedaCircuito(gc) {
   const mappa = D.mappe[gc.circuito];
   return `<section class="circuito"><h2 class="sezione-titolo">Il circuito</h2>
     <button type="button" class="circ-apri" data-circuito="${esc(gc.circuito)}" aria-label="Mappa del tracciato e record di ${esc(c.nome)}">
-      ${mappa ? `<img class="circ-mini" src="${esc(mappa.immagine)}" alt="" loading="lazy">` : ''}
+      ${mappa ? `<img class="circ-mini${mappa.stile ? ' stile' : ''}" src="${esc(mappa.stile || mappa.immagine)}" alt="" loading="lazy">` : ''}
       <span class="circ-nome"><strong>${esc(c.nome)}</strong><small>${esc(c.luogo)}</small></span>
       <span class="circ-freccia">Mappa e record ›</span>
     </button>
@@ -344,7 +359,7 @@ function apriTracciato(id, gara = null) {
   $('#tracciatoContenuto').innerHTML = `
     ${gara ? `<p class="trac-gp">${esc(gara.gp)} · ${esc(fData(gara.data))}</p>` : ''}
     <p class="circ-nome"><strong>${esc(c.nome)}</strong><small>${esc(c.luogo || '')}</small></p>
-    ${mappa ? `<figure class="trac-mappa"><img src="${esc(mappa.immagine)}" alt="Mappa del tracciato di ${esc(c.nome)}"><figcaption>Mappa: <a href="${esc(urlSicuro(mappa.pagina))}" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a></figcaption></figure>`
+    ${mappa ? `<figure class="trac-mappa${mappa.stile ? ' stile' : ''}"><img src="${esc(mappa.stile || mappa.immagine)}" alt="Mappa del tracciato di ${esc(c.nome)}"><figcaption>${mappa.stile ? "Ridisegnata da una mappa di " : "Mappa: "}<a href="${esc(urlSicuro(mappa.pagina))}" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a></figcaption></figure>`
       : '<p class="nota piccola">Mappa del tracciato non ancora disponibile: arriva con il prossimo aggiornamento dei dati.</p>'}
     <div class="pal-numeri">${dato(c.lunghezza?.toLocaleString('it-IT', { minimumFractionDigits: 3 }), 'km al giro')}${dato(c.curve, 'curve')}${dato(c.rettilineo?.toLocaleString('it-IT'), 'km di rettilineo')}${dato(c.dal, 'inaugurato')}</div>
     ${gara && c.lat != null ? bloccoMeteo(null, { circuito: id, data: gara.data }) : ''}
@@ -556,12 +571,14 @@ function disegnaCalendario() {
     // vincitore della gara, solo se non è coperto dall'anti-spoiler
     const ris = passata && gareRis.find(r => Math.abs(new Date(r.data + 'T12:00:00Z') - new Date(g.data + 'T12:00:00Z')) < 2 * 864e5);
     const coperto = dal && new Date(g.data + 'T23:59:00Z') >= dal;
-    const vinc = ris?.podio?.[0] && !coperto ? (p => !p ? '' : pilotiSerie().filter(x => x.cognome === p.cognome).length > 1 ? `${p.nome[0]}. ${p.cognome}` : p.cognome)(pilotiSerie().find(p => corrisponde(p, ris.podio[0]))) : '';
-    const stato_ = questa ? '<em class="cal-chip ora">Questo weekend</em>' : g === prossima ? '<em class="cal-chip ora">Prossimo</em>' : passata ? '<em class="cal-chip">Corso</em>' : '';
-    html += `<li class="cal-gp${passata ? ' passato' : ''}${g === prossima ? ' prossimo' : ''}">
+    const vinc = ris?.podio?.[0] && !coperto ? (p => !p ? '' : pilotiSerie().filter(x => compatto(x.cognome) === compatto(p.cognome)).length > 1 ? `${p.nome[0]}. ${p.cognome}` : p.cognome)(pilotiSerie().find(p => corrisponde(p, ris.podio[0]))) : '';
+    const wCal = D.palinsesto.weekend.find(x => x.serie === stato.serie && x.gp === g.gp && Math.abs(new Date(g.data + 'T12:00:00Z') - new Date((x.sessioni[0]?.inizio || x.sessioni[0]?.tv8?.inizio) || 0)) < 6 * 864e5);
+    const annCal = g.annullata || wCal?.annullate?.some(a => a.sessione === '*');
+    const stato_ = annCal ? '<em class="cal-chip annullata">Annullato</em>' : questa ? '<em class="cal-chip ora">Questo weekend</em>' : g === prossima ? '<em class="cal-chip ora">Prossimo</em>' : passata ? '<em class="cal-chip">Corso</em>' : '';
+    html += `<li class="cal-gp${passata ? ' passato' : ''}${g === prossima ? ' prossimo' : ''}${annCal ? ' annullato' : ''}">
       <button type="button" class="cal-apri" data-circuito="${esc(g.circuito)}" data-cal-gp="${esc(g.gp)}" data-cal-data="${esc(g.data)}">
         <span class="cal-round">${i + 1}</span>
-        ${mappa ? `<img class="cal-mappa" src="${esc(mappa.immagine)}" alt="" loading="lazy">` : '<span class="cal-mappa vuota"></span>'}
+        ${mappa ? `<img class="cal-mappa${mappa.stile ? ' stile' : ''}" src="${esc(mappa.stile || mappa.immagine)}" alt="" loading="lazy">` : '<span class="cal-mappa vuota"></span>'}
         <span class="cal-testo">
           <strong>${esc(g.gp)}</strong>
           <small>${esc(c.nome || g.circuito)}${c.luogo ? ` · ${esc(c.luogo)}` : ''}</small>
@@ -680,6 +697,37 @@ function cifre(ms) {
   if (g >= 1) return `${g}<small>g</small> ${due(h)}<small>h</small>`;
   return `${due(h)}:${due(m)}<small>:${due(s)}</small>`;
 }
+// In cima alla home: «Prossimo GP», il nome del GP e le date del weekend (dal calendario)
+function prossimoGp(serie) {
+  const cal = D.calendario?.[serie];
+  if (!cal?.gare?.length) return null;
+  const oggi = fIso.format(adesso());
+  const venerdi = d => new Date(new Date(d + 'T12:00:00Z').getTime() - 2 * 864e5).toISOString().slice(0, 10);
+  const mese = fmt({ month: 'long', timeZone: 'UTC' });
+  const date = (a, b) => { const d1 = new Date(a + 'T12:00:00Z'), d2 = new Date(b + 'T12:00:00Z');
+    return d1.getUTCMonth() === d2.getUTCMonth() ? `${d1.getUTCDate()}–${d2.getUTCDate()} ${mese.format(d2)}` : `${d1.getUTCDate()} ${mese.format(d1)} – ${d2.getUTCDate()} ${mese.format(d2)}`; };
+  let g = cal.gare.find(x => x.data >= oggi), nuova = false;
+  if (!g) { g = cal.prossimoCalendario?.gare?.[0] || (cal.prossimaStagione && { gp: cal.prossimaStagione.gp, data: cal.prossimaStagione.data }); nuova = true; }
+  if (!g) return null;
+  const w = D.palinsesto.weekend.find(x => x.serie === serie && x.gp === g.gp);
+  const annullato = !!(g.annullata || w?.annullate?.some(a => a.sessione === '*'));
+  const n = nuova ? -1 : cal.gare.indexOf(g);
+  const c = g.circuito && D.circuiti[g.circuito];
+  const etichetta = (annullato ? 'GP annullato' : venerdi(g.data) <= oggi && !nuova ? 'Questo weekend' : nuova ? `Prossima stagione · ${g.data.slice(0, 4)}` : 'Prossimo GP')
+    + (n >= 0 ? ` · round ${n + 1} di ${cal.gare.length}` : '');
+  return { g, etichetta, annullato, ora: venerdi(g.data) <= oggi && !nuova, date: date(venerdi(g.data), g.data) + (c?.nome ? ` · ${c.nome}` : '') };
+}
+function testataProssimoGp(serie) {
+  const p = prossimoGp(serie), e = $('#etichettaGp');
+  e.hidden = !p;
+  document.querySelector('.testata').classList.toggle('annullato', !!p?.annullato);
+  if (!p) return false;
+  e.textContent = p.etichetta;
+  e.classList.toggle('ora', p.ora);
+  $('#titoloGp').textContent = p.g.gp;
+  $('#dateGp').textContent = `${SERIE[serie]} · ${p.date}`;
+  return true;
+}
 let timer = null;
 function disegnaTv8() {
   const el = $('#vista-tv8');
@@ -692,7 +740,7 @@ function disegnaTv8() {
       <span><strong>${esc(SERIE[altra])} su TV8</strong>${esc(['F1', 'SBK'].includes(prossimaAltra.s.classe) ? '' : prossimaAltra.s.classe + ' ')}${esc(prossimaAltra.s.sessione)}, ${esc(fGiornoBreve.format(prossimaAltra.da))} alle ${ora(prossimaAltra.s.tv8.inizio)}</span>
       <span aria-hidden="true" class="freccia">›</span></button>` : '';
   if (!w && stagioneFinita(stato.serie)) {
-    $('#titoloGp').textContent = SERIE[stato.serie]; $('#dateGp').textContent = 'Stagione conclusa';
+    if (!testataProssimoGp(stato.serie)) { $('#titoloGp').textContent = SERIE[stato.serie]; $('#dateGp').textContent = 'Stagione conclusa'; }
     el.innerHTML = bloccoCampione(stato.serie) + rimando;
     const via = D.calendario[stato.serie].prossimaStagione;
     if (via && !oraFinta) timer = setInterval(() => { const c = $('#contoStagione'); if (!c) return clearInterval(timer); c.innerHTML = cifre(new Date(via.data + 'T12:00:00Z') - adesso()); }, 1000);
@@ -701,25 +749,35 @@ function disegnaTv8() {
   if (!w) {
     const oggi = fIso.format(adesso());
     const prossimo = (D.calendario?.[stato.serie]?.gare || []).find(g => g.data >= oggi);
-    $('#titoloGp').textContent = prossimo ? prossimo.gp : SERIE[stato.serie];
-    $('#dateGp').textContent = SERIE[stato.serie] + (prossimo ? `, gara ${fGiorno.format(new Date(prossimo.data + 'T12:00:00Z'))}` : '');
+    if (!testataProssimoGp(stato.serie)) { $('#titoloGp').textContent = SERIE[stato.serie]; $('#dateGp').textContent = ''; }
     el.innerHTML = `<div class="lavagna"><div class="lav-riga"><span class="marchio-tv8">TV8</span><span class="gomma attesa">In attesa</span></div>
       <div class="lav-evento">Orari non ancora disponibili</div>
       <div class="lav-quando">${prossimo ? `Il ${esc(prossimo.gp)} si corre ${esc(fGiorno.format(new Date(prossimo.data + 'T12:00:00Z')))}.` : 'La stagione è finita.'}</div>
       <div class="lav-nota">Sky Sport e OA Sport pubblicano gli orari di solito tra lunedì e giovedì della settimana di gara. L'app controlla ogni mezz'ora e li mostra appena escono.</div></div>${prossimo ? bloccoMeteo(null, prossimo) + schedaCircuito(prossimo) : ''}${rimando}`;
     return;
   }
-  $('#titoloGp').textContent = w.gp;
-  const giorni = w.sessioni.map(s => new Date(s.inizio || s.tv8.inizio));
-  const primo = new Date(Math.min(...giorni)), ultimo = new Date(Math.max(...giorni));
-  $('#dateGp').textContent = `${SERIE[stato.serie]}, ${fmt({ day: 'numeric' }).format(primo)}–${fmt({ day: 'numeric', month: 'long' }).format(ultimo)}`;
+  if (!testataProssimoGp(stato.serie)) {
+    $('#titoloGp').textContent = w.gp;
+    const giorni = w.sessioni.map(s => new Date(s.inizio || s.tv8.inizio));
+    const primo = new Date(Math.min(...giorni)), ultimo = new Date(Math.max(...giorni));
+    $('#dateGp').textContent = `${SERIE[stato.serie]}, ${fmt({ day: 'numeric' }).format(primo)}–${fmt({ day: 'numeric', month: 'long' }).format(ultimo)}`;
+  }
 
   const prossima = prossimaTv8(w);
   const mp = matchpoint(w);
   const conMp = s => mp && mp.sessioni.includes(s.classe + '|' + s.sessione);
   const chipMp = '<span class="gomma mp">Matchpoint</span>';
   let html = '';
-  if (prossima) {
+  const annProssima = prossima ? annullataSess(w, prossima.s) : null;
+  if (annProssima) {
+    const { s } = prossima;
+    html += `<div class="lavagna annullata">
+      <div class="lav-riga"><span class="marchio-tv8">TV8</span><span class="gomma annullata">Annullata</span></div>
+      <div class="lav-evento">${s.classe === 'F1' ? 'Formula 1' : s.classe === 'SBK' ? 'Superbike' : esc(s.classe)} ${esc(s.sessione)}</div>
+      <div class="lav-cifre">${annProssima.tutto ? 'GP annullato' : 'Gara annullata'}</div>
+      <div class="lav-nota">${esc(annProssima.motivo)}${annProssima.url ? ` <a href="${esc(urlSicuro(annProssima.url))}" target="_blank" rel="noopener noreferrer">Leggi la notizia</a>` : ''}</div>
+    </div>`;
+  } else if (prossima) {
     const { s } = prossima;
     const inOnda = prossima.da <= adesso();
     const diretta = s.tv8.tipo === 'diretta';
@@ -769,7 +827,9 @@ function disegnaTv8() {
     const inOnda = tvDa && tvDa <= adesso() && adesso() < new Date(tvDa.getTime() + durataTv(s) * 60000);
     const idF = `${w.id}|${s.classe}|${s.sessione}`;
     let tv;
-    if (!s.tv8) tv = daConfermare(s) ? '<span class="gomma attesa">TV8 da confermare</span>' : '<span class="gomma sky">Solo Sky</span>';
+    const ann = annullataSess(w, s);
+    if (ann) tv = '<span class="gomma annullata">Annullata</span>';
+    else if (!s.tv8) tv = daConfermare(s) ? '<span class="gomma attesa">TV8 da confermare</span>' : '<span class="gomma sky">Solo Sky</span>';
     else if (s.tv8.tipo === 'diretta') tv = gomma('diretta', inOnda);
     else {
       const altroGiorno = fChiave.format(tvDa) !== k ? `<em>${esc(fmt({ weekday: 'short' }).format(tvDa))}</em> ` : '';
@@ -777,7 +837,7 @@ function disegnaTv8() {
     }
     const classe = s.classe === 'F1' || s.classe === 'SBK' ? '' : `<span class="classe ${esc(s.classe)}">${esc(s.classe)}</span>`;
     const sotto = !s.inizio ? 'Orario della diretta non indicato' : s.tv8?.tipo === 'diretta' ? 'Su TV8 e Sky' : daConfermare(s) ? 'Su Sky; TV8 non ha ancora pubblicato il programma' : 'Su Sky';
-    html += `<li class="slot${passato ? ' passato' : ''}${s.tv8 ? '' : ' solo-sky'}">
+    html += `<li class="slot${passato ? ' passato' : ''}${s.tv8 ? '' : ' solo-sky'}${ann ? ' annullata' : ''}">
       <span class="ora">${s.inizio ? ora(s.inizio) : '–'}</span>
       <span class="cosa"><strong>${classe}${esc(s.sessione)}${conMp(s) ? ' ' + chipMp : ''}</strong><small>${sotto}</small></span>
       ${tv}
@@ -1109,6 +1169,7 @@ function disegna() {
   document.querySelectorAll('[data-spoiler]').forEach(b => { const on = stato.antiSpoiler[b.dataset.spoiler]; b.setAttribute('aria-pressed', on); b.querySelector('em').textContent = on ? 'ON' : 'OFF'; });
   if (stato.vista === 'tv8') disegnaTv8();
   else {
+    $('#etichettaGp').hidden = true; document.querySelector('.testata').classList.remove('annullato');
     $('#titoloGp').textContent = TITOLI[stato.vista];
     const w = weekendCorrente();
     $('#dateGp').textContent = SERIE[stato.serie] + (w ? `, ${w.gp}` : '');

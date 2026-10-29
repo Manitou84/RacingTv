@@ -62,6 +62,31 @@ const tenta = async (nome, fn, def) => { try { return await fn(); } catch (e) { 
 const recente = (iso, giorni) => iso && ADESSO - new Date(iso) < giorni * 864e5;
 
 /* ---------- Palinsesto TV8 ---------- */
+/* ---------- Gare annullate ---------- */
+// Controllo prudente sui titoli delle notizie della stessa serie, usciti nei giorni del weekend:
+// devono dire chiaramente che la gara (o la Sprint, o tutto il GP) è annullata, e nominare il GP.
+// Le prove libere o le qualifiche annullate non contano; frasi dubbie («rischio», «potrebbe») nemmeno.
+function rilevaAnnullate(w, sessioni, notizie) {
+  const tempi = sessioni.map(x => new Date(x.inizio || x.tv8.inizio).getTime());
+  const dal = Math.min(...tempi) - 3 * 864e5, al = Math.max(...tempi) + 864e5;
+  const paese = L.pulisci(w.gp.replace(/^GP\s+/, ''));
+  const out = [];
+  for (const a of notizie) {
+    if (a.serie !== w.serie) continue;
+    const t = new Date(a.data).getTime();
+    if (t < dal || t > al) continue;
+    const ti = L.pulisci(a.titolo);
+    if (!/\b(annullat[oaie]|cancellat[oaie])\b/.test(ti)) continue;
+    if (/\b(prove|libere|fp\d|qualific|warm|test|giro|tempi?|sessione|q1|q2|superpole\b(?! race))/.test(ti)) continue;
+    if (/\bmoto ?[23]\b|motoe|\bf[23]\b|supersport|ssp|wcr/.test(ti)) continue;
+    if (/rischi|potrebbe|ipotesi|\?|non sar|nessun|smentit|evitat|scongiurat|in dubbio|verso l/.test(ti)) continue;
+    if (!ti.includes(paese) && !/\b(gara|gran premio|gp|sprint|superpole race)\b/.test(ti)) continue;
+    const sessione = /superpole race/.test(ti) ? 'Superpole Race' : /\bsprint\b/.test(ti) ? 'Sprint' : /gara[ -]?1\b/.test(ti) ? 'Gara 1' : /gara[ -]?2\b/.test(ti) ? 'Gara 2' : '*';
+    if (!out.some(x => x.sessione === sessione)) out.push({ sessione, titolo: a.titolo, url: a.link });
+  }
+  return out;
+}
+
 async function articoliOA(s) {
   const api = `https://www.oasport.it/wp-json/wp/v2/posts?search=${encodeURIComponent(s.oaCerca)}&per_page=15&_fields=title,link,content,date`;
   const daApi = await tenta(`OA Sport ${s.nome} (API)`, async () => JSON.parse(await scarica(api))
@@ -99,6 +124,7 @@ async function aggiornaPalinsesto() {
     if (!perWeekend.has(id)) perWeekend.set(id, { id, serie, gp, sessioni: [], fonti: [], tv8Confermati: [], sky: [], oa: [] });
     return perWeekend.get(id);
   };
+  const notizieVecchie = (await leggiJson(DATI + 'notizie.json', { articoli: [] })).articoli || [];
   const diagnostica = []; // cosa ha letto ogni articolo: serve a capire da dove arriva un orario sbagliato
   const annota = (p, url) => diagnostica.push({ fonte: p.fonte.nome, titolo: p.fonte.titolo, url, gp: p.gp, serie: p.serie,
     sessioni: p.sessioni.map(x => `${x.classe} ${x.sessione} ${x.inizio || '-'}${x.tv8 ? ` TV8 ${x.tv8.tipo} ${x.tv8.inizio}` : ''}`) });
@@ -130,7 +156,9 @@ async function aggiornaPalinsesto() {
     if (!nuovi) w.tv8Confermati = w.confermatiVecchi || w.tv8Confermati;
     // giorni per cui una fonte ha già pubblicato il programma TV8: lì una sessione senza TV8 è davvero solo su Sky
     const tv8Confermati = [...new Set([...(w.tv8Confermati || []), ...manuali.map(m => L.dataRoma(m.inizio || m.tv8.inizio))])].sort();
-    weekend.push({ id: w.id, serie: w.serie, gp: w.gp, sessioni, tv8Confermati, fonti });
+    const annullate = [...(correzioni.annullate || []).filter(x => x === w.id || x.startsWith(w.id + '|'))
+      .map(x => ({ sessione: x.split('|')[2] || '*', titolo: 'Segnalato a mano in config/correzioni.json', url: null })), ...rilevaAnnullate(w, sessioni, notizieVecchie)];
+    weekend.push({ id: w.id, serie: w.serie, gp: w.gp, sessioni, tv8Confermati, fonti, ...(annullate.length ? { annullate } : {}) });
   }
   const primo = w => w.sessioni.map(s => s.inizio || s.tv8?.inizio).sort()[0] || '';
   weekend.sort((a, b) => primo(a).localeCompare(primo(b)));
@@ -438,7 +466,7 @@ async function aggiornaMappe() {
   const pausa = ms => new Promise(r => setTimeout(r, ms));
   let scaricate = 0;
   for (const [id, c] of Object.entries(circuiti)) {
-    if (vecchie[id] && existsSync(RADICE + 'docs/' + vecchie[id].immagine) && !c.mappaFile) { out[id] = vecchie[id]; continue; }
+    if (vecchie[id] && existsSync(RADICE + 'docs/' + vecchie[id].immagine)) { out[id] = vecchie[id]; continue; }
     if (scaricate >= 15) { if (vecchie[id]) out[id] = vecchie[id]; continue; }   // Wikimedia limita le richieste: le altre al prossimo giro
     scaricate++;
     await pausa(1500);

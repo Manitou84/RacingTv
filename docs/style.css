@@ -495,3 +495,21 @@ button.matchpoint { width: 100%; border: 0; text-align: left; font: inherit; cur
 .trac-gp { margin: 0 0 4px; font-weight: 700; color: var(--giallo); }
 .schede button { font-size: 11px; }
 .schede svg { width: 24px; height: 24px; }
+
+/* Mappe ridisegnate: pista chiara con alone rosso su fondo scuro, come le grafiche TV */
+.circ-mini.stile, .cal-mappa.stile { background: #0e0f11; padding: 4px; }
+.trac-mappa.stile img { background: radial-gradient(circle at 50% 40%, #23262c, #0e0f11 75%); padding: 18px; }
+
+/* Prossimo GP in cima alla home */
+.etichetta-gp { display: inline-block; margin: 0 0 2px; padding: 3px 8px; border-radius: 4px; background: var(--rosso); color: #fff; font-size: 12px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.etichetta-gp.ora { background: var(--giallo); color: var(--lavagna); }
+.testata.annullato .etichetta-gp { background: #ff3b3b; color: #fff; }
+.testata.annullato #titoloGp { text-decoration: line-through; text-decoration-color: #ff3b3b; text-decoration-thickness: 4px; }
+/* Gara annullata */
+.lavagna.annullata { background: #3a0a0f; border-color: #ff3b3b; }
+.lavagna.annullata .lav-cifre { color: #ff3b3b; font-size: 52px; line-height: 1; text-transform: uppercase; }
+.lavagna.annullata a { color: var(--gesso); }
+.gomma.annullata { color: #ff5a5a; }
+.slot.annullata .cosa strong { text-decoration: line-through; }
+.cal-chip.annullata { background: #ff3b3b; color: #fff; }
+.cal-gp.annullato .cal-testo strong { text-decoration: line-through; }

@@ -1,5 +1,6 @@
 {
-  "_istruzioni": "Usa 'aggiungi' per inserire o correggere una trasmissione, 'rimuovi' per toglierne una (formato: idWeekend|Classe|Sessione, es. f1-gp-usa-2026|F1|Gara). Esempio di aggiunta: {\"weekend\": \"motogp-gp-australia-2026\", \"classe\": \"MotoGP\", \"sessione\": \"Sprint\", \"inizio\": \"2026-10-24T04:00:00Z\", \"tv8\": {\"tipo\": \"diretta\", \"inizio\": \"2026-10-24T04:00:00Z\"}}. Gli orari sono in UTC (ora italiana meno 1 d'inverno, meno 2 d'estate).",
+  "_istruzioni": "Usa 'aggiungi' per inserire o correggere una trasmissione, 'rimuovi' per toglierne una (formato: idWeekend|Classe|Sessione, es. f1-gp-usa-2026|F1|Gara). Esempio di aggiunta: {\"weekend\": \"motogp-gp-australia-2026\", \"classe\": \"MotoGP\", \"sessione\": \"Sprint\", \"inizio\": \"2026-10-24T04:00:00Z\", \"tv8\": {\"tipo\": \"diretta\", \"inizio\": \"2026-10-24T04:00:00Z\"}}. Gli orari sono in UTC (ora italiana meno 1 d'inverno, meno 2 d'estate). Usa 'annullate' per segnare una gara annullata: l'id del weekend (tutto il GP, es. motogp-gp-qatar-2026) oppure idWeekend|Classe|Sessione (es. motogp-gp-qatar-2026|MotoGP|Sprint). Puoi anche scrivere \"annullata\": true sul GP in docs/data/calendario.json.",
   "aggiungi": [],
-  "rimuovi": []
+  "rimuovi": [],
+  "annullate": []
 }
