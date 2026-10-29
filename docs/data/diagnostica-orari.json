@@ -1,6 +1,32 @@
 {
-  "aggiornato": "2026-10-29T18:33:34.228Z",
+  "aggiornato": "2026-10-29T19:39:31.793Z",
   "articoli": [
+    {
+      "fonte": "Sky Sport",
+      "titolo": "Orari MotoGp: Gp Malesia Sepang 2026 in tv e streaming su Sky, Now e TV8 | Sky Sport",
+      "url": "https://sport.sky.it/motogp/2026/10/30/orari-motogp-gp-malesia-sepang-sky-now-tv8",
+      "gp": "GP Malesia",
+      "serie": "motogp",
+      "sessioni": [
+        "Moto3 Prove libere 1 2026-10-30T00:55:00.000Z",
+        "Moto2 Prove libere 1 2026-10-30T01:45:00.000Z",
+        "MotoGP Prove libere 1 2026-10-30T02:40:00.000Z",
+        "Moto3 Pre-qualifiche 2026-10-30T05:10:00.000Z",
+        "Moto2 Pre-qualifiche 2026-10-30T06:00:00.000Z",
+        "MotoGP Pre-qualifiche 2026-10-30T06:55:00.000Z",
+        "Moto3 Prove libere 2 2026-10-31T00:35:00.000Z",
+        "Moto2 Prove libere 2 2026-10-31T01:20:00.000Z",
+        "MotoGP Prove libere 2 2026-10-31T02:05:00.000Z",
+        "MotoGP Qualifiche 2026-10-31T02:45:00.000Z",
+        "Moto3 Qualifiche 2026-10-31T04:40:00.000Z",
+        "Moto2 Qualifiche 2026-10-31T05:40:00.000Z",
+        "MotoGP Sprint 2026-10-31T06:55:00.000Z",
+        "MotoGP Warm up 2026-10-31T02:35:00.000Z",
+        "Moto3 Gara 2026-10-31T04:00:00.000Z",
+        "Moto2 Gara 2026-10-31T05:15:00.000Z",
+        "MotoGP Gara 2026-10-31T07:00:00.000Z"
+      ]
+    },
     {
       "fonte": "Sky Sport",
       "titolo": "MotoGP, GP Malesia: orari tv della gara di Sepang 2026 | Sky Sport",
