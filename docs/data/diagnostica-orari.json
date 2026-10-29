@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-29T03:34:40.877Z",
+  "aggiornato": "2026-10-29T04:35:18.490Z",
   "articoli": [
     {
       "fonte": "Sky Sport",
@@ -34,6 +34,32 @@
       "gp": "GP Australia",
       "serie": "motogp",
       "sessioni": []
+    },
+    {
+      "fonte": "OA Sport",
+      "titolo": "MotoGP, GP Malesia 2026 su TV8: orari in chiaro fine settimana, qualifiche e gara",
+      "url": "https://www.oasport.it/2026/10/motogp-gp-malesia-2026-su-tv8-orari-in-chiaro-fine-settimana-qualifiche-e-gara/",
+      "gp": "GP Malesia",
+      "serie": "motogp",
+      "sessioni": [
+        "Moto3 Prove libere 1 2026-10-30T01:00:00.000Z",
+        "Moto2 Prove libere 1 2026-10-30T01:50:00.000Z",
+        "MotoGP Prove libere 1 2026-10-30T02:45:00.000Z",
+        "Moto3 Pre-qualifiche 2026-10-30T05:15:00.000Z",
+        "Moto2 Pre-qualifiche 2026-10-30T06:05:00.000Z",
+        "MotoGP Pre-qualifiche 2026-10-30T07:00:00.000Z",
+        "Moto3 Prove libere 2 2026-10-31T00:40:00.000Z",
+        "Moto2 Prove libere 2 2026-10-31T01:25:00.000Z",
+        "MotoGP Prove libere 2 2026-10-31T02:10:00.000Z",
+        "MotoGP Qualifiche 2026-10-31T02:50:00.000Z TV8 diretta 2026-10-31T02:50:00.000Z",
+        "Moto3 Qualifiche 2026-10-31T04:45:00.000Z TV8 diretta 2026-10-31T04:45:00.000Z",
+        "Moto2 Qualifiche 2026-10-31T05:40:00.000Z TV8 diretta 2026-10-31T05:40:00.000Z",
+        "MotoGP Sprint 2026-10-31T07:00:00.000Z TV8 diretta 2026-10-31T07:00:00.000Z",
+        "MotoGP Warm up 2026-11-01T02:40:00.000Z",
+        "Moto3 Gara 2026-11-01T04:00:00.000Z TV8 differita 2026-11-01T10:00:00.000Z",
+        "Moto2 Gara 2026-11-01T05:15:00.000Z TV8 differita 2026-11-01T11:15:00.000Z",
+        "MotoGP Gara 2026-11-01T07:00:00.000Z TV8 differita 2026-11-01T13:00:00.000Z"
+      ]
     },
     {
       "fonte": "OA Sport",
@@ -172,6 +198,20 @@
         "F1 Prove libere 3 2026-10-31T17:30:00.000Z",
         "F1 Qualifiche 2026-10-31T21:00:00.000Z",
         "F1 Gara 2026-10-31T20:00:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
+      "titolo": "F1, GP Messico 2026 su TV8: orari in chiaro fine settimana, qualifiche e gara",
+      "url": "https://www.oasport.it/2026/10/f1-gp-messico-2026-su-tv8-orari-in-chiaro-fine-settimana-qualifiche-e-gara/",
+      "gp": "GP Messico",
+      "serie": "f1",
+      "sessioni": [
+        "F1 Prove libere 1 2026-10-30T18:30:00.000Z",
+        "F1 Prove libere 2 2026-10-30T22:00:00.000Z",
+        "F1 Prove libere 3 2026-10-31T17:30:00.000Z",
+        "F1 Qualifiche 2026-10-31T21:00:00.000Z TV8 differita 2026-10-31T22:30:00.000Z",
+        "F1 Gara 2026-11-01T20:00:00.000Z TV8 differita 2026-11-01T21:30:00.000Z"
       ]
     },
     {

@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-29T03:34:40.877Z",
+  "aggiornato": "2026-10-29T04:35:18.490Z",
   "weekend": [
     {
       "id": "motogp-gp-australia-2026",
@@ -349,14 +349,20 @@
           "classe": "MotoGP",
           "sessione": "Qualifiche Q1",
           "inizio": "2026-10-31T02:50:00.000Z",
-          "tv8": null,
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-10-31T02:50:00.000Z"
+          },
           "fonte": "OA Sport"
         },
         {
           "classe": "MotoGP",
           "sessione": "Qualifiche Q2",
           "inizio": "2026-10-31T03:15:00.000Z",
-          "tv8": null,
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-10-31T03:15:00.000Z"
+          },
           "fonte": "OA Sport"
         },
         {
@@ -370,14 +376,20 @@
           "classe": "Moto3",
           "sessione": "Qualifiche Q1",
           "inizio": "2026-10-31T04:45:00.000Z",
-          "tv8": null,
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-10-31T04:45:00.000Z"
+          },
           "fonte": "OA Sport"
         },
         {
           "classe": "Moto3",
           "sessione": "Qualifiche Q2",
           "inizio": "2026-10-31T05:10:00.000Z",
-          "tv8": null,
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-10-31T05:10:00.000Z"
+          },
           "fonte": "OA Sport"
         },
         {
@@ -391,21 +403,30 @@
           "classe": "Moto2",
           "sessione": "Qualifiche Q1",
           "inizio": "2026-10-31T05:40:00.000Z",
-          "tv8": null,
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-10-31T05:40:00.000Z"
+          },
           "fonte": "OA Sport"
         },
         {
           "classe": "Moto2",
           "sessione": "Qualifiche Q2",
           "inizio": "2026-10-31T06:05:00.000Z",
-          "tv8": null,
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-10-31T06:05:00.000Z"
+          },
           "fonte": "OA Sport"
         },
         {
           "classe": "MotoGP",
           "sessione": "Sprint",
           "inizio": "2026-10-31T07:00:00.000Z",
-          "tv8": null,
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-10-31T07:00:00.000Z"
+          },
           "fonte": "OA Sport"
         },
         {
@@ -418,13 +439,19 @@
       ],
       "tv8Confermati": [
         "2026-10-30",
-        "2026-10-31"
+        "2026-10-31",
+        "2026-11-01"
       ],
       "fonti": [
         {
           "nome": "Sky Sport",
           "url": "https://sport.sky.it/motogp/2026/10/28/motogp-orari-gp-malesia-sepang-2026-dove-vedere-sky-now-tv8",
           "titolo": "MotoGP, GP Malesia: orari tv della gara di Sepang 2026 | Sky Sport"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/motogp-gp-malesia-2026-su-tv8-orari-in-chiaro-fine-settimana-qualifiche-e-gara/",
+          "titolo": "MotoGP, GP Malesia 2026 su TV8: orari in chiaro fine settimana, qualifiche e gara"
         },
         {
           "nome": "OA Sport",
@@ -461,16 +488,22 @@
         },
         {
           "classe": "F1",
-          "sessione": "Gara",
-          "inizio": "2026-10-31T20:00:00.000Z",
-          "tv8": null,
-          "fonte": "Sky Sport"
+          "sessione": "Qualifiche",
+          "inizio": "2026-10-31T21:00:00.000Z",
+          "tv8": {
+            "tipo": "differita",
+            "inizio": "2026-10-31T22:30:00.000Z"
+          },
+          "fonte": "OA Sport"
         },
         {
           "classe": "F1",
-          "sessione": "Qualifiche",
-          "inizio": "2026-10-31T21:00:00.000Z",
-          "tv8": null,
+          "sessione": "Gara",
+          "inizio": "2026-11-01T20:00:00.000Z",
+          "tv8": {
+            "tipo": "differita",
+            "inizio": "2026-11-01T21:30:00.000Z"
+          },
           "fonte": "OA Sport"
         }
       ],
@@ -484,6 +517,11 @@
           "nome": "Sky Sport",
           "url": "https://sport.sky.it/formula-1/2026/10/28/f1-orari-gp-messico-2026",
           "titolo": "Formula 1, orari GP Messico 2026 a Città del Messico: dove vedere la F1 in tv | Sky Sport"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/f1-gp-messico-2026-su-tv8-orari-in-chiaro-fine-settimana-qualifiche-e-gara/",
+          "titolo": "F1, GP Messico 2026 su TV8: orari in chiaro fine settimana, qualifiche e gara"
         },
         {
           "nome": "OA Sport",
