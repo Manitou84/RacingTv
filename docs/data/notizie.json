@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-10-29T09:39:05.347Z",
+  "aggiornato": "2026-10-29T10:35:42.796Z",
   "articoli": [
+    {
+      "id": "d1f067d9f972",
+      "serie": "motogp",
+      "titolo": "Bastianini: \"La situazione del Qatar è un beneficio, perché sta unendo noi piloti\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/29-9244249/bastianini_la_situazione_del_qatar_un_beneficio_perch_sta_unendo_noi_piloti",
+      "fonte": "Motosprint",
+      "data": "2026-10-29T10:35:42.796Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/29/091558214-6f82de2a-3434-4f94-bca5-763e59110b56.jpg",
+      "sommario": "Enea: \"Siamo ancora campati per aria e senza voce in capitolo: a Phillip Island nemmeno sapevamo che non avremmo corso\""
+    },
+    {
+      "id": "f98ff79def36",
+      "serie": "motogp",
+      "titolo": "MotoGP, Bezzecchi sicuro: “Correre in Qatar? Mi fido dell’organizzazione”",
+      "link": "https://www.motosprint.it/news/eventi/gp-malesia/2026/10/29-9244390/motogp_bezzecchi_sicuro_correre_in_qatar_mi_fido_dellorganizzazione",
+      "fonte": "Motosprint",
+      "data": "2026-10-29T10:35:42.796Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/29/090201405-ca26d42a-333f-41ac-af8d-8eeb45749174.jpg",
+      "sommario": "Marco si è detto tranquillo: “La decisione verrà presa considerando molti aspetti. Il titolo? 50 punti sono tanti. Se Marc e Alex faranno giochi di squadra, proverò a stare in mezzo”"
+    },
     {
       "id": "085939466d95",
       "serie": "motogp",
@@ -30,6 +50,16 @@
       "data": "2026-10-29T09:39:05.347Z",
       "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/29/090439538-441c340b-058d-490b-8e38-fd9f0dbbe101.jpg",
       "sommario": "Il Carlos tifoso fa un confronto tra il calendario a 24 GP e quello a 18 gare, con pro e contro; la sbornia di 3 gare di fila può portare qualche GP a essere meno seguito"
+    },
+    {
+      "id": "83e654033797",
+      "serie": "motogp",
+      "titolo": "Marc Marquez: \"Gioco di squadra con Alex? Tra fratelli non c'è bisogno di parlarne\"",
+      "link": "https://www.gpone.com/it/2026/10/29/motogp/marc-marquez-gioco-di-squadra-con-alex-tra-fratelli-non-ce-bisogno-di-parlarne.html",
+      "fonte": "GPOne",
+      "data": "2026-10-29T09:23:17.000Z",
+      "immagine": "",
+      "sommario": "Sul fit di Martin: \"Un pilota ci proverà sempre, se sarà in pista sono sicuro che sarà veloce, anzi lo temo. L'adrenalina è il miglior analgesico, ha già dimostrato in passato di essere un combattente\""
     },
     {
       "id": "181486bc77a8",
