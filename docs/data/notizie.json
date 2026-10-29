@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-10-29T15:41:44.228Z",
+  "aggiornato": "2026-10-29T16:41:10.482Z",
   "articoli": [
+    {
+      "id": "9e1c9d3da274",
+      "serie": "f1",
+      "titolo": "In F1 ci sono troppi vecchi? Schumacher in allarme: \"Si rischia di far chiudere la F2\"",
+      "link": "https://www.autosprint.it/news/formula1/2026/10/29-9225744/in_f1_ci_sono_troppi_vecchi_schumacher_in_allarme_si_rischia_di_far_chiudere_la_f2",
+      "fonte": "Autosprint",
+      "data": "2026-10-29T16:41:10.482Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/23/165308767-9e07cb87-f822-4599-bbfa-80cde621cb39.jpg",
+      "sommario": "L'ex pilota tedesco, dopo aver criticato la permanenza di Alonso nei mesi scorsi, ha portato alla luce una tendenza che potrebbe diventare problematica"
+    },
     {
       "id": "6f4f47116fcf",
       "serie": "motogp",
