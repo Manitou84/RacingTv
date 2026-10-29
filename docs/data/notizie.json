@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-10-29T07:49:58.635Z",
+  "aggiornato": "2026-10-29T08:42:04.415Z",
   "articoli": [
+    {
+      "id": "575e7c533a3c",
+      "serie": "motogp",
+      "titolo": "Martin: “Mi lavo i denti con la mano sinistra, ma c’è il titolo in ballo quindi ci provo”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/29-9243844/martin_mi_lavo_i_denti_con_la_mano_sinistra_ma_c_il_titolo_in_ballo_quindi_ci_provo",
+      "fonte": "Motosprint",
+      "data": "2026-10-29T08:42:04.415Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/29/075105871-03a33151-adb5-4c43-a706-9d0dc0c3de73.jpeg",
+      "sommario": "Jorge realista: “Il quadro non è dei migliori, se non fossi in lotta per il mondiale sarei a casa. Non sono ottimista ma nemmeno pessimista: dopo pochi giorni sono qui e posso tentare\"\n"
+    },
+    {
+      "id": "f873eb2c2190",
+      "serie": "motogp",
+      "titolo": "Bagnaia: \"Giochi di squadra? Io non ho mai chiesto né ricevuto aiuti\"",
+      "link": "https://www.gpone.com/it/2026/10/29/motogp/bagnaia-giochi-di-squadra-io-non-ho-mai-chiesto-ne-ricevuto-aiuti.html",
+      "fonte": "GPOne",
+      "data": "2026-10-29T08:33:31.000Z",
+      "immagine": "",
+      "sommario": "\"Sul Qatar preferisco non commentare. Sono contento di essere a Sepang, è la mia migliore opportunità per divertirmi, prenderò dei rischi\""
+    },
     {
       "id": "b3243ac583cb",
       "serie": "motogp",
