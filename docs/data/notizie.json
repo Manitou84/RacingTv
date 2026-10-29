@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-10-29T05:33:09.680Z",
+  "aggiornato": "2026-10-29T06:33:54.325Z",
   "articoli": [
+    {
+      "id": "5f92ed2779b8",
+      "serie": "motogp",
+      "titolo": "ULTIM'ORA - Jorge Martin è stato dichiarato fit: correrà a Sepang!",
+      "link": "https://www.gpone.com/it/2026/10/29/motogp/ultimora-jorge-martin-e-stato-dichiarato-fit-correra-a-sepang.html",
+      "fonte": "GPOne",
+      "data": "2026-10-29T05:43:59.000Z",
+      "immagine": "",
+      "sommario": "Il pilota spagnolo ha ricevuto il benestare da parte dei medici per scendere in pista e le sue condizioni verranno rivalutate dopo la FP1"
+    },
+    {
+      "id": "2e45d56f1193",
+      "serie": "motogp",
+      "titolo": "Alex Rins: “Yamaha è l'unica Casa a non essere certa di andare in Qatar”",
+      "link": "https://www.gpone.com/it/2026/10/29/motogp/rins-siamo-uniti-piu-che-mai-yamaha-non-sa-se-andra-in-qatar.html",
+      "fonte": "GPOne",
+      "data": "2026-10-29T05:35:30.000Z",
+      "immagine": "",
+      "sommario": "“Noi piloti siamo uniti. Abbiamo parlato con Ezpeleta: ci ha chiesto quali sono le nostre preoccupazioni e di fare tutte le domande sul caso”"
+    },
     {
       "id": "b4efed906d3b",
       "serie": "motogp",
