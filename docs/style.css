@@ -522,3 +522,10 @@ button.matchpoint { width: 100%; border: 0; text-align: left; font: inherit; cur
 .trac-mappa.stile img { background: none; padding: 0; border-radius: 10px; }
 .circ-mini.stile, .cal-mappa.stile { background: #121418; padding: 0; object-fit: cover; }
 .annullata-testo { color: #ff5a5a; font-weight: 700; margin: 0; }
+
+/* Lente sulla mappa del tracciato */
+.trac-mappa img { touch-action: none; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; cursor: zoom-in; }
+.lente { position: fixed; z-index: 50; width: 150px; height: 150px; border-radius: 50%; border: 3px solid var(--gesso);
+  box-shadow: 0 0 0 2px var(--rosso), 0 10px 30px rgba(0,0,0,.6); background-color: #121418; background-repeat: no-repeat; pointer-events: none; }
+.lente[hidden] { display: none; }
+.trac-mappa figcaption::before { content: "Tieni il dito sulla mappa per ingrandire · "; }

@@ -1283,3 +1283,43 @@ $('#apriAdmin').addEventListener('click', () => { $('#impostazioni').close(); wi
   mostra(VISTE.includes(parametri.get('vista')) ? parametri.get('vista') : VISTE.includes(stato.vista) ? stato.vista : 'tv8');
   if ('serviceWorker' in navigator && !oraFinta) navigator.serviceWorker.register('sw.js').catch(() => {});
 })();
+
+/* ---------- Lente d'ingrandimento sulla mappa del tracciato ---------- */
+// Tieni il dito sulla mappa: sopra il dito compare una lente che ingrandisce la zona, per leggere i nomi delle curve.
+(function lente() {
+  const ZOOM = 2.6, LATO = 150;
+  let lente = null, img = null;
+  const sposta = e => {
+    if (!img) return;
+    // l'immagine è «contain» dentro il riquadro (con eventuale bordo interno): calcolo dove sta davvero il disegno
+    const b = img.getBoundingClientRect(), cs = getComputedStyle(img);
+    const pl = parseFloat(cs.paddingLeft) || 0, pt = parseFloat(cs.paddingTop) || 0;
+    const bw = b.width - pl - (parseFloat(cs.paddingRight) || 0), bh = b.height - pt - (parseFloat(cs.paddingBottom) || 0);
+    const k = Math.min(bw / img.naturalWidth, bh / img.naturalHeight);
+    const r = { width: img.naturalWidth * k, height: img.naturalHeight * k };
+    r.left = b.left + pl + (bw - r.width) / 2; r.top = b.top + pt + (bh - r.height) / 2;
+    const x = Math.min(Math.max(e.clientX - r.left, 0), r.width), y = Math.min(Math.max(e.clientY - r.top, 0), r.height);
+    lente.style.left = `${Math.min(Math.max(e.clientX - LATO / 2, 6), window.innerWidth - LATO - 6)}px`;
+    // sopra il dito, così non lo copre; se non c'è spazio, sotto
+    const sopra = e.clientY - LATO - 30;
+    lente.style.top = `${sopra > 8 ? sopra : e.clientY + 30}px`;
+    lente.style.backgroundSize = `${r.width * ZOOM}px ${r.height * ZOOM}px`;
+    lente.style.backgroundPosition = `${-(x * ZOOM - LATO / 2)}px ${-(y * ZOOM - LATO / 2)}px`;
+  };
+  const chiudi = () => { if (lente) lente.hidden = true; img = null; };
+  document.addEventListener('pointerdown', e => {
+    const t = e.target.closest('.trac-mappa img');
+    if (!t) return;
+    e.preventDefault();
+    img = t;
+    if (!lente) { lente = document.createElement('div'); lente.className = 'lente'; lente.setAttribute('aria-hidden', 'true'); t.closest('dialog').append(lente); }
+    else if (lente.parentNode !== t.closest('dialog')) t.closest('dialog').append(lente);
+    lente.style.backgroundImage = `url("${t.currentSrc || t.src}")`;
+    lente.hidden = false;
+    try { t.setPointerCapture(e.pointerId); } catch { /* ignoro */ }
+    sposta(e);
+  });
+  document.addEventListener('pointermove', e => { if (img) sposta(e); });
+  document.addEventListener('pointerup', chiudi);
+  document.addEventListener('pointercancel', chiudi);
+})();
