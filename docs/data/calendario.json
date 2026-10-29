@@ -1,5 +1,5 @@
 {
-  "_istruzioni": "Calendario completo della stagione per ogni campionato, in ordine. 'data' è il giorno della gara principale (la domenica, salvo eccezioni). 'circuito' collega il GP alla scheda in circuiti.json/circuiti-auto.json. 'sprint' indica il weekend con Sprint (in Superbike la Superpole Race c'è sempre). 'punti' sono i massimi al vincitore di gara e Sprint; per la Superbike 'gareGp' è il numero di gare lunghe del weekend. 'prossimaStagione' è la prima gara del campionato successivo; 'prossimoCalendario' (facoltativo) il calendario già annunciato dell'anno dopo. Se un GP viene spostato o annullato, correggi qui.",
+  "_istruzioni": "Calendario completo della stagione per ogni campionato, in ordine. 'data' è il giorno della gara principale (la domenica, salvo eccezioni). 'circuito' collega il GP alla scheda in circuiti.json/circuiti-auto.json. 'sprint' indica il weekend con Sprint (in Superbike la Superpole Race c'è sempre). 'punti' sono i massimi al vincitore di gara e Sprint; per la Superbike 'gareGp' è il numero di gare lunghe del weekend. 'prossimaStagione' è la prima gara del campionato successivo; 'prossimoCalendario' (facoltativo) il calendario già annunciato dell'anno dopo. Se un GP viene spostato o annullato, correggi qui. Con \"garaAnnullata\": true si segna annullata solo la gara della domenica (la Sprint resta valida); \"motivo\" è il testo mostrato.",
   "motogp": {
     "punti": {
       "gara": 25,
@@ -112,7 +112,9 @@
         "gp": "GP Australia",
         "data": "2026-10-25",
         "circuito": "phillip-island",
-        "sprint": true
+        "sprint": true,
+        "garaAnnullata": true,
+        "motivo": "Gara della domenica cancellata per il maltempo; la Sprint del sabato si è corsa regolarmente."
       },
       {
         "gp": "GP Malesia",

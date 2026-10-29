@@ -82,7 +82,10 @@ function rilevaAnnullate(w, sessioni, notizie) {
     if (/rischi|potrebbe|ipotesi|\?|non sar|nessun|smentit|evitat|scongiurat|in dubbio|verso l/.test(ti)) continue;
     if (!ti.includes(paese) && !/\b(gara|gran premio|gp|sprint|superpole race)\b/.test(ti)) continue;
     const sessione = /superpole race/.test(ti) ? 'Superpole Race' : /\bsprint\b/.test(ti) ? 'Sprint' : /gara[ -]?1\b/.test(ti) ? 'Gara 1' : /gara[ -]?2\b/.test(ti) ? 'Gara 2' : '*';
-    if (!out.some(x => x.sessione === sessione)) out.push({ sessione, titolo: a.titolo, url: a.link });
+    // tengo la notizia più vecchia: da lì in poi le sessioni sono annullate (quelle già corse no)
+    const prima = out.find(x => x.sessione === sessione);
+    if (!prima) out.push({ sessione, titolo: a.titolo, url: a.link, data: a.data });
+    else if (a.data < prima.data) Object.assign(prima, { titolo: a.titolo, url: a.link, data: a.data });
   }
   return out;
 }

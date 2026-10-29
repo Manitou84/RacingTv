@@ -124,9 +124,12 @@ function annullamento(w, s) {
   if (!w) return null;
   const gc = garaCalendario(w, w.serie);
   if (gc?.annullata) return { motivo: gc.motivo || 'Il GP è stato annullato.', url: gc.url || null, tutto: true };
+  if (gc?.garaAnnullata && s && eGara(s.sessione) && eRegina(s)) return { motivo: gc.motivo || 'La gara è stata annullata.', url: gc.url || null, tutto: false };
   const x = (w.annullate || []).find(a => a.sessione === '*' || (s && a.sessione === s.sessione));
   if (!x) return null;
-  return { motivo: x.titolo, url: x.url, tutto: x.sessione === '*' };
+  // le sessioni corse prima della notizia (con mezza giornata di margine per i ritardi) non sono annullate
+  if (s && x.data && s.inizio && new Date(s.inizio) < new Date(new Date(x.data).getTime() - 12 * 3600e3)) return null;
+  return { motivo: x.titolo, url: x.url, tutto: x.sessione === '*' && !(x.data && w.sessioni.some(q => eRegina(q) && (eGara(q.sessione) || eSprint(q.sessione)) && q.inizio && new Date(q.inizio) < new Date(new Date(x.data).getTime() - 12 * 3600e3))) };
 }
 // le sessioni toccate: con tutto il GP annullato anche prove e qualifiche, altrimenti solo la gara indicata
 const annullataSess = (w, s) => { const a = annullamento(w, s); return a && (a.tutto || eGara(s.sessione) || eSprint(s.sessione)) ? a : null; };
@@ -357,8 +360,12 @@ function podiStagione(id) {
       const ris = (D.risultati?.[se]?.gare || []).find(r => Math.abs(new Date(r.data + 'T12:00:00Z') - new Date(g.data + 'T12:00:00Z')) < 2 * 864e5);
       if (ris?.podio?.length) blocchi.push(['Gara', ris.podio.slice(0, 3)]);
       else if (arr.Gara) blocchi.push(['Gara', arr.Gara.classificati.slice(0, 3)]);
+      const wG = D.palinsesto.weekend.find(x => x.id === wid);
+      const garaG = wG?.sessioni.filter(x => eRegina(x) && eGara(x.sessione)).at(-1);
+      const annG = g.annullata || (wG && garaG && annullamento(wG, garaG));
+      if ((annG || g.garaAnnullata) && !blocchi.some(b => b[0] === 'Gara')) blocchi.push(['Gara', null]);
       if (!blocchi.length) continue;
-      html += `<h3 class="pal-titolo">${esc(titolo)}</h3>` + blocchi.map(([sess, podio]) => `<div class="trac-podio"><span class="tp-sess">${esc(sess)}</span><ol>${podio.map((x, i) => `<li><span class="medaglia m${i + 1}">${i + 1}°</span><span>${esc(nomeDa(se, x))}</span></li>`).join('')}</ol></div>`).join('');
+      html += `<h3 class="pal-titolo">${esc(titolo)}</h3>` + blocchi.map(([sess, podio]) => !podio ? `<div class="trac-podio"><span class="tp-sess">${esc(sess)}</span><p class="nota piccola annullata-testo">Gara annullata</p></div>` : `<div class="trac-podio"><span class="tp-sess">${esc(sess)}</span><ol>${podio.map((x, i) => `<li><span class="medaglia m${i + 1}">${i + 1}°</span><span>${esc(nomeDa(se, x))}</span></li>`).join('')}</ol></div>`).join('');
     }
   }
   return html;
@@ -605,8 +612,11 @@ function disegnaCalendario() {
     const coperto = dal && new Date(g.data + 'T23:59:00Z') >= dal;
     const vinc = ris?.podio?.[0] && !coperto ? (p => !p ? '' : pilotiSerie().filter(x => compatto(x.cognome) === compatto(p.cognome)).length > 1 ? `${p.nome[0]}. ${p.cognome}` : p.cognome)(pilotiSerie().find(p => corrisponde(p, ris.podio[0]))) : '';
     const wCal = D.palinsesto.weekend.find(x => x.serie === stato.serie && x.gp === g.gp && Math.abs(new Date(g.data + 'T12:00:00Z') - new Date((x.sessioni[0]?.inizio || x.sessioni[0]?.tv8?.inizio) || 0)) < 6 * 864e5);
-    const annCal = g.annullata || wCal?.annullate?.some(a => a.sessione === '*');
-    const stato_ = annCal ? '<em class="cal-chip annullata">Annullato</em>' : questa ? '<em class="cal-chip ora">Questo weekend</em>' : g === prossima ? '<em class="cal-chip ora">Prossimo</em>' : passata ? '<em class="cal-chip">Corso</em>' : '';
+    const garaW = wCal?.sessioni.filter(x => eRegina(x) && eGara(x.sessione)).at(-1);
+    const annW = wCal && garaW ? annullamento(wCal, garaW) : null;
+    const annCal = g.annullata || g.garaAnnullata || !!annW;
+    const testoAnn = g.annullata || annW?.tutto ? 'Annullato' : 'Gara annullata';
+    const stato_ = annCal ? `<em class="cal-chip annullata">${testoAnn}</em>` : questa ? '<em class="cal-chip ora">Questo weekend</em>' : g === prossima ? '<em class="cal-chip ora">Prossimo</em>' : passata ? '<em class="cal-chip">Corso</em>' : '';
     html += `<li class="cal-gp${passata ? ' passato' : ''}${g === prossima ? ' prossimo' : ''}${annCal ? ' annullato' : ''}">
       <button type="button" class="cal-apri" data-circuito="${esc(g.circuito)}" data-cal-gp="${esc(g.gp)}" data-cal-data="${esc(g.data)}">
         <span class="cal-round">${i + 1}</span>
@@ -742,7 +752,8 @@ function prossimoGp(serie) {
   if (!g) { g = cal.prossimoCalendario?.gare?.[0] || (cal.prossimaStagione && { gp: cal.prossimaStagione.gp, data: cal.prossimaStagione.data }); nuova = true; }
   if (!g) return null;
   const w = D.palinsesto.weekend.find(x => x.serie === serie && x.gp === g.gp);
-  const annullato = !!(g.annullata || w?.annullate?.some(a => a.sessione === '*'));
+  const garaW = w?.sessioni.filter(x => eRegina(x) && eGara(x.sessione)).at(-1);
+  const annullato = !!(g.annullata || (w && garaW && annullamento(w, garaW)?.tutto));
   const n = nuova ? -1 : cal.gare.indexOf(g);
   const c = g.circuito && D.circuiti[g.circuito];
   const etichetta = (annullato ? 'GP annullato' : venerdi(g.data) <= oggi && !nuova ? 'Questo weekend' : nuova ? `Prossima stagione · ${g.data.slice(0, 4)}` : 'Prossimo GP')

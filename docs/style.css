@@ -521,3 +521,4 @@ button.matchpoint { width: 100%; border: 0; text-align: left; font: inherit; cur
 .trac-podio li { display: flex; align-items: center; gap: 10px; font-size: 15px; }
 .trac-mappa.stile img { background: none; padding: 0; border-radius: 10px; }
 .circ-mini.stile, .cal-mappa.stile { background: #121418; padding: 0; object-fit: cover; }
+.annullata-testo { color: #ff5a5a; font-weight: 700; margin: 0; }
