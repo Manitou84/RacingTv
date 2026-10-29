@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-29T06:33:54.325Z",
+  "aggiornato": "2026-10-29T07:49:58.635Z",
   "weekend": [
     {
       "id": "motogp-gp-australia-2026",
@@ -177,11 +177,6 @@
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/10/motogp-in-tv-gp-australia-2026-orari-23-ottobre-streaming-programma-sky-e-tv8/",
           "titolo": "MotoGP in tv, GP Australia 2026: orari 23 ottobre, streaming, programma Sky e TV8"
-        },
-        {
-          "nome": "OA Sport",
-          "url": "https://www.oasport.it/2026/10/motogp-gp-australia-2026-gli-orari-del-fine-settimana-dalle-prove-libere-alla-gara-guida-sky-e-tv8/",
-          "titolo": "MotoGP, GP Australia 2026: gli orari del fine settimana dalle prove libere alla gara. Guida Sky e TV8"
         }
       ]
     },
@@ -190,20 +185,6 @@
       "serie": "f1",
       "gp": "GP USA",
       "sessioni": [
-        {
-          "classe": "F1",
-          "sessione": "Prove libere 1",
-          "inizio": "2026-10-23T17:30:00.000Z",
-          "tv8": null,
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "F1",
-          "sessione": "Prove libere 2",
-          "inizio": "2026-10-23T21:00:00.000Z",
-          "tv8": null,
-          "fonte": "OA Sport"
-        },
         {
           "classe": "F1",
           "sessione": "Prove libere 3",
@@ -233,11 +214,15 @@
         }
       ],
       "tv8Confermati": [
-        "2026-10-23",
         "2026-10-24",
         "2026-10-25"
       ],
       "fonti": [
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/a-che-ora-la-f1-su-tv8-oggi-gp-usa-2026-programma-gara-differita-in-chiaro/",
+          "titolo": "Quando la F1 su TV8 oggi, GP USA 2026: orario differita gara in chiaro"
+        },
         {
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/10/dove-vedere-la-f1-stasera-in-tv-gp-usa-2026-orario-gara-differita-tv8-streaming/",
@@ -262,11 +247,6 @@
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/10/a-che-ora-la-f1-su-tv8-oggi-gp-usa-2026-programma-qualifiche-differita-in-chiaro/",
           "titolo": "A che ora la F1 su TV8 oggi, GP USA 2026: programma differita qualifiche in chiaro"
-        },
-        {
-          "nome": "OA Sport",
-          "url": "https://www.oasport.it/2026/10/f1-oggi-in-tv-gp-usa-2026-orari-prove-prove-libere-streaming-programma-sky-e-tv8/",
-          "titolo": "F1 oggi in tv, GP USA 2026: orari prove prove libere, streaming, programma Sky e TV8"
         }
       ]
     },
@@ -488,21 +468,18 @@
         },
         {
           "classe": "F1",
+          "sessione": "Gara",
+          "inizio": "2026-10-31T20:00:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "F1",
           "sessione": "Qualifiche",
           "inizio": "2026-10-31T21:00:00.000Z",
           "tv8": {
             "tipo": "differita",
             "inizio": "2026-10-31T22:30:00.000Z"
-          },
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "F1",
-          "sessione": "Gara",
-          "inizio": "2026-11-01T20:00:00.000Z",
-          "tv8": {
-            "tipo": "differita",
-            "inizio": "2026-11-01T21:30:00.000Z"
           },
           "fonte": "OA Sport"
         }
@@ -517,6 +494,11 @@
           "nome": "Sky Sport",
           "url": "https://sport.sky.it/formula-1/2026/10/28/f1-orari-gp-messico-2026",
           "titolo": "Formula 1, orari GP Messico 2026 a Città del Messico: dove vedere la F1 in tv | Sky Sport"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/f1-gp-messico-2026-gli-orari-del-fine-settimana-dalle-prove-libere-alla-gara-guida-sky-e-tv8/",
+          "titolo": "F1, GP Messico 2026: gli orari del fine settimana dalle prove libere alla gara. Guida Sky e TV8"
         },
         {
           "nome": "OA Sport",

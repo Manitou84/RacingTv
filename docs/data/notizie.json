@@ -1,6 +1,56 @@
 {
-  "aggiornato": "2026-10-29T06:33:54.325Z",
+  "aggiornato": "2026-10-29T07:49:58.635Z",
   "articoli": [
+    {
+      "id": "b3243ac583cb",
+      "serie": "motogp",
+      "titolo": "MotoGP, ufficiale: Jorge Martin fit, disputerà le FP1 a Sepang!",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/29-9243618/motogp_ufficiale_jorge_martin_fit_disputer_le_fp1_a_sepang_",
+      "fonte": "Motosprint",
+      "data": "2026-10-29T07:49:58.635Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/29/062826263-cbdcff73-f2c2-4e29-b3ae-20ef645a7f88.jpg",
+      "sommario": "Il pilota Aprilia si è sottoposto ai controlli medici ricevendo il “fit” per disputare la prima sessione di prove libere. Verrà poi rivalutato al termine del turno"
+    },
+    {
+      "id": "a37f0861fd69",
+      "serie": "motogp",
+      "titolo": "Alex Marquez: \"Il Qatar? non lottiamo solo per i piloti, ma per tutto il paddock\"",
+      "link": "https://www.gpone.com/it/2026/10/29/motogp/alex-marquez-il-qatar-non-lottiamo-solo-per-i-piloti-ma-per-tutto-il-paddock.html",
+      "fonte": "GPOne",
+      "data": "2026-10-29T07:38:07.000Z",
+      "immagine": "",
+      "sommario": "\"In questo momento non abbiamo alcun potere. Penso che il 70% del paddock non voglia andare, ma io sono più tranquillo dei primi tre. Il weekend di gara? Punto a sopravvivere\""
+    },
+    {
+      "id": "766b7e83d6ee",
+      "serie": "motogp",
+      "titolo": "Mir: “Mi sono dovuto fermare per dei problemi alla vista peggiorati dallo stress”",
+      "link": "https://www.gpone.com/it/2026/10/29/motogp/mir-mi-sono-dovuto-fermare-per-dei-problemi-alla-vista-peggiorati-dallo-stress.html",
+      "fonte": "GPOne",
+      "data": "2026-10-29T07:29:35.000Z",
+      "immagine": "",
+      "sommario": "“Ci sono voluti molti esami per capire cosa stesse accadendo. Adesso ho parecchie risposte a diverse cose che sono successe. Guardare il Giappone da casa è stato doloroso, le altre gare...”"
+    },
+    {
+      "id": "bc400fcc3a98",
+      "serie": "motogp",
+      "titolo": "Martin: \"Se non fossi in lotta per il titolo non proverei a correre a Sepang\"",
+      "link": "https://www.gpone.com/it/2026/10/29/motogp/martin-se-non-fossi-in-lotta-per-il-titolo-non-proverei-a-correre-a-sepang.html",
+      "fonte": "GPOne",
+      "data": "2026-10-29T07:27:43.000Z",
+      "immagine": "",
+      "sommario": "\"Con la mano destra non riesco nemmeno a lavarmi i denti. Non sono ottimista sul potere correre domenica, ma l'unica cosa che posso fare è provarci\""
+    },
+    {
+      "id": "1d868648b3d6",
+      "serie": "motogp",
+      "titolo": "Acosta: \"Martin ha dimostrato coraggio, darà tutto\"",
+      "link": "https://www.gpone.com/it/2026/10/29/motogp/acosta-qatar-devo-rispettare-il-contratto-col-team-e-con-il-campionato.html",
+      "fonte": "GPOne",
+      "data": "2026-10-29T07:03:22.000Z",
+      "immagine": "",
+      "sommario": "\"Jorge ha vinto un Mondiale con un guanto aperto. La KTM è la stessa dei test invernali: Marquez lo scorso anno qua non c'era\""
+    },
     {
       "id": "5f92ed2779b8",
       "serie": "motogp",
