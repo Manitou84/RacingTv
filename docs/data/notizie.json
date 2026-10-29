@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-10-29T11:30:04.341Z",
+  "aggiornato": "2026-10-29T12:13:39.650Z",
   "articoli": [
+    {
+      "id": "e57c63c825e1",
+      "serie": "motogp",
+      "titolo": "Acosta: \"Correre in Qatar? Devo rispettare il mio contratto e gli obblighi con KTM\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/29-9245734/acosta_correre_in_qatar_devo_rispettare_il_mio_contratto_e_gli_obblighi_con_ktm",
+      "fonte": "Motosprint",
+      "data": "2026-10-29T12:13:39.650Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/29/103853199-df768b32-7d4a-467e-a66d-653d6a12493a.jpg",
+      "sommario": "Pedro: \"Se vogliono farci andare, significa che la situazione sarà controllata e in sicurezza. Cosa farò a Sepang? Dipenderà dalle Aprilia\""
+    },
+    {
+      "id": "73cbbcc1de05",
+      "serie": "motogp",
+      "titolo": "TGPOne Sepang - Caos Qatar: Yamaha pensa di non correre!",
+      "link": "https://www.gpone.com/it/2026/10/29/motogp/tgpone-sepang-caos-qatar-yamaha-minaccia-di-non-correre.html",
+      "fonte": "GPOne",
+      "data": "2026-10-29T11:47:00.000Z",
+      "immagine": "",
+      "sommario": "VIDEO - Nel paddock cresce la tensione per Losail: Marquez è tra i più contrari alla trasferta e Yamaha valuta se partecipare. Intanto Martín tenta il miracolo per non perdere il Mondiale."
+    },
+    {
+      "id": "1ee4e56ac7b7",
+      "serie": "motogp",
+      "titolo": "Fernandez: “Sto peggio che in Australia. Ci proverò, ma senza fare sciocchezze”",
+      "link": "https://www.gpone.com/it/2026/10/29/motogp/fernandez-sto-peggio-che-in-australia-ci-provero-ma-senza-fare-sciocchezze.html",
+      "fonte": "GPOne",
+      "data": "2026-10-29T11:40:47.000Z",
+      "immagine": "",
+      "sommario": "“Non so come ho fatto 27 giri in Indonesia, a Phillip island mi si irrigidiva il braccio dopo 5. Se ce la farò andrò avanti, altrimenti mi fermerò: non voglio ricominciare il recupero da capo e saltare le ultime gare”"
+    },
     {
       "id": "2c4ec9dbad67",
       "serie": "motogp",
