@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-29T19:39:31.793Z",
+  "aggiornato": "2026-10-29T20:06:42.188Z",
   "weekend": [
     {
       "id": "motogp-gp-australia-2026",
@@ -130,6 +130,13 @@
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/10/motogp-in-tv-gp-australia-2026-orari-24-ottobre-streaming-programma-sky-e-tv8/",
           "titolo": "MotoGP in tv, GP Australia 2026: orari 24 ottobre, streaming, programma Sky e TV8"
+        }
+      ],
+      "annullate": [
+        {
+          "sessione": "*",
+          "titolo": "GP cancellato, i piloti salutano Phillip Island dopo la parata: “Peccato finire così”",
+          "url": "https://www.gpone.com/it/2026/10/25/motogp/gp-cancellato-i-piloti-salutano-phillip-island-dopo-la-parata-peccato-finire-cosi.html"
         }
       ]
     },
