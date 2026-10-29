@@ -395,11 +395,11 @@ function apriTracciato(id, gara = null) {
     <div class="pal-numeri">${dato(c.lunghezza?.toLocaleString('it-IT', { minimumFractionDigits: 3 }), 'km al giro')}${dato(c.curve, 'curve')}${dato(c.rettilineo?.toLocaleString('it-IT'), 'km di rettilineo')}${dato(c.dal, 'inaugurato')}</div>
     ${gara && c.lat != null ? bloccoMeteo(null, { circuito: id, data: gara.data }) : ''}
     ${qui.length ? `<h3 class="pal-titolo">In calendario</h3><ul class="hof-curiosita">${qui.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
+    ${podiStagione(id)}
     ${c.storia ? `<h3 class="pal-titolo">La storia</h3><p class="hof-bio">${esc(c.storia)}</p>${c.fonteStoria ? `<p class="nota piccola">Da <a href="${esc(urlSicuro(c.fonteStoria))}" target="_blank" rel="noopener noreferrer">Wikipedia</a></p>` : ''}` : ''}
     ${c.debutto ? `<p class="nota piccola">Primo GP mondiale: ${Object.entries(c.debutto).map(([se, a]) => `${nomeSerie[se]} ${a}`).join(', ')}.</p>` : ''}
     ${c.curveCelebri?.length ? `<h3 class="pal-titolo">Curve da conoscere</h3><ul class="hof-curiosita">${c.curveCelebri.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
     ${c.curiosita?.length ? `<h3 class="pal-titolo">Curiosità</h3><ul class="hof-curiosita">${c.curiosita.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : ''}
-    ${podiStagione(id)}
     ${rec || '<p class="nota piccola">Nessun record registrato.</p>'}
     ${notizieCircuito(c)}
     <p class="nota piccola">Fonte: Wikipedia. I record non tengono conto del weekend in corso.</p>`;
