@@ -1,53 +1,11 @@
 {
-  "aggiornato": "2026-10-29T12:13:39.650Z",
+  "aggiornato": "2026-10-29T13:31:58.348Z",
   "weekend": [
     {
       "id": "motogp-gp-australia-2026",
       "serie": "motogp",
       "gp": "GP Australia",
       "sessioni": [
-        {
-          "classe": "Moto3",
-          "sessione": "Prove libere 1",
-          "inizio": "2026-10-22T22:00:00.000Z",
-          "tv8": null,
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "Moto2",
-          "sessione": "Prove libere 1",
-          "inizio": "2026-10-22T22:50:00.000Z",
-          "tv8": null,
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "MotoGP",
-          "sessione": "Prove libere 1",
-          "inizio": "2026-10-22T23:45:00.000Z",
-          "tv8": null,
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "Moto3",
-          "sessione": "Pre-qualifiche",
-          "inizio": "2026-10-23T02:15:00.000Z",
-          "tv8": null,
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "Moto2",
-          "sessione": "Pre-qualifiche",
-          "inizio": "2026-10-23T03:05:00.000Z",
-          "tv8": null,
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "MotoGP",
-          "sessione": "Pre-qualifiche",
-          "inizio": "2026-10-23T04:00:00.000Z",
-          "tv8": null,
-          "fonte": "OA Sport"
-        },
         {
           "classe": "Moto3",
           "sessione": "Prove libere 2",
@@ -172,11 +130,6 @@
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/10/motogp-in-tv-gp-australia-2026-orari-24-ottobre-streaming-programma-sky-e-tv8/",
           "titolo": "MotoGP in tv, GP Australia 2026: orari 24 ottobre, streaming, programma Sky e TV8"
-        },
-        {
-          "nome": "OA Sport",
-          "url": "https://www.oasport.it/2026/10/motogp-in-tv-gp-australia-2026-orari-23-ottobre-streaming-programma-sky-e-tv8/",
-          "titolo": "MotoGP in tv, GP Australia 2026: orari 23 ottobre, streaming, programma Sky e TV8"
         }
       ]
     },
@@ -427,6 +380,11 @@
           "nome": "Sky Sport",
           "url": "https://sport.sky.it/motogp/2026/10/28/motogp-orari-gp-malesia-sepang-2026-dove-vedere-sky-now-tv8",
           "titolo": "MotoGP, GP Malesia: orari tv della gara di Sepang 2026 | Sky Sport"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/motogp-in-tv-gp-malesia-2026-orari-30-ottobre-streaming-programma-sky-e-tv8/",
+          "titolo": "MotoGP in tv, GP Malesia 2026: orari 30 ottobre, streaming, programma Sky e TV8"
         },
         {
           "nome": "OA Sport",

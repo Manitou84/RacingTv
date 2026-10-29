@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-29T12:13:39.650Z",
+  "aggiornato": "2026-10-29T13:31:58.348Z",
   "articoli": [
     {
       "fonte": "Sky Sport",
@@ -25,6 +25,21 @@
         "Moto3 Gara 2026-10-31T04:00:00.000Z",
         "Moto2 Gara 2026-10-31T05:15:00.000Z",
         "MotoGP Gara 2026-10-31T07:00:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
+      "titolo": "MotoGP in tv, GP Malesia 2026: orari 30 ottobre, streaming, programma Sky e TV8",
+      "url": "https://www.oasport.it/2026/10/motogp-in-tv-gp-malesia-2026-orari-30-ottobre-streaming-programma-sky-e-tv8/",
+      "gp": "GP Malesia",
+      "serie": "motogp",
+      "sessioni": [
+        "Moto3 Prove libere 1 2026-10-30T01:00:00.000Z",
+        "Moto2 Prove libere 1 2026-10-30T01:50:00.000Z",
+        "MotoGP Prove libere 1 2026-10-30T02:45:00.000Z",
+        "Moto3 Pre-qualifiche 2026-10-30T05:15:00.000Z",
+        "Moto2 Pre-qualifiche 2026-10-30T06:05:00.000Z",
+        "MotoGP Pre-qualifiche 2026-10-30T07:00:00.000Z"
       ]
     },
     {
@@ -143,21 +158,6 @@
         "Moto3 Qualifiche 2026-10-24T01:45:00.000Z TV8 diretta 2026-10-24T01:45:00.000Z",
         "Moto2 Qualifiche 2026-10-24T02:40:00.000Z TV8 diretta 2026-10-24T02:40:00.000Z",
         "MotoGP Sprint 2026-10-24T04:00:00.000Z TV8 diretta 2026-10-24T04:00:00.000Z"
-      ]
-    },
-    {
-      "fonte": "OA Sport",
-      "titolo": "MotoGP in tv, GP Australia 2026: orari 23 ottobre, streaming, programma Sky e TV8",
-      "url": "https://www.oasport.it/2026/10/motogp-in-tv-gp-australia-2026-orari-23-ottobre-streaming-programma-sky-e-tv8/",
-      "gp": "GP Australia",
-      "serie": "motogp",
-      "sessioni": [
-        "Moto3 Prove libere 1 2026-10-22T22:00:00.000Z",
-        "Moto2 Prove libere 1 2026-10-22T22:50:00.000Z",
-        "MotoGP Prove libere 1 2026-10-22T23:45:00.000Z",
-        "Moto3 Pre-qualifiche 2026-10-23T02:15:00.000Z",
-        "Moto2 Pre-qualifiche 2026-10-23T03:05:00.000Z",
-        "MotoGP Pre-qualifiche 2026-10-23T04:00:00.000Z"
       ]
     },
     {
