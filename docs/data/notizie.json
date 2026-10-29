@@ -1,6 +1,56 @@
 {
-  "aggiornato": "2026-10-29T08:42:04.415Z",
+  "aggiornato": "2026-10-29T09:39:05.347Z",
   "articoli": [
+    {
+      "id": "085939466d95",
+      "serie": "motogp",
+      "titolo": "Caso Qatar, Rins lancia l'allarme: \"Yamaha non è sicura di esserci a Lusail\"",
+      "link": "https://www.motosprint.it/news/eventi/gp-malesia/2026/10/29-9244096/caso_qatar_rins_lancia_l_allarme_yamaha_non_sicura_di_esserci_a_lusail",
+      "fonte": "Motosprint",
+      "data": "2026-10-29T09:39:05.347Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/29/085417017-3d848e74-ddd7-4d9a-860a-d42a3996f5c3.jpg",
+      "sommario": "Il pilota spagnolo, alle ultime gare in MotoGP prima del ritiro, rivela: \"Non posso parlare del Qatar, ma sono veramente contento di vedere tutti i piloti così uniti sul tema\""
+    },
+    {
+      "id": "1c42a1a1eefc",
+      "serie": "f1",
+      "titolo": "Felipe Massa, continua il processo contro la F1 e intanto vince con il figlio Pipo",
+      "link": "https://www.autosprint.it/news/formula1/2026/10/29-9243610/felipe_massa_continua_il_processo_contro_la_f1_e_intanto_vince_con_il_figlio_pipo",
+      "fonte": "Autosprint",
+      "data": "2026-10-29T09:39:05.347Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/28/221120390-88b33e88-e2d2-43d8-98ed-9f436567e786.jpg",
+      "sommario": "L'ex Ferrari tornerà in tribunale il prossimo febbraio per il dibattimento legato allo scandalo di Singapore 2008"
+    },
+    {
+      "id": "ee9137129826",
+      "serie": "f1",
+      "titolo": "Sainz: la F1 corre un \"rischio\" con tante gare una dopo l'altra",
+      "link": "https://www.autosprint.it/news/formula1/2026/10/29-9244043/sainz_la_f1_corre_un_rischio_con_tante_gare_una_dopo_l_altra",
+      "fonte": "Autosprint",
+      "data": "2026-10-29T09:39:05.347Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/29/090439538-441c340b-058d-490b-8e38-fd9f0dbbe101.jpg",
+      "sommario": "Il Carlos tifoso fa un confronto tra il calendario a 24 GP e quello a 18 gare, con pro e contro; la sbornia di 3 gare di fila può portare qualche GP a essere meno seguito"
+    },
+    {
+      "id": "181486bc77a8",
+      "serie": "motogp",
+      "titolo": "Di Giannantonio: “Aiutare Marc Marquez? Io penso al mio campionato”",
+      "link": "https://www.gpone.com/it/2026/10/29/motogp/di-giannantonio-aiutare-marc-marquez-io-penso-al-mio-di-campionato.html",
+      "fonte": "GPOne",
+      "data": "2026-10-29T09:10:17.000Z",
+      "immagine": "",
+      "sommario": "“Alla fine, vesto di giallo e faccio gli interessi miei e della mia squadra. Il Qatar? Stiamo collaborando con Dorna e la MotoGP, con l’obiettivo di migliorare le condizioni di tutti per provare a correre”"
+    },
+    {
+      "id": "3b165e42666b",
+      "serie": "motogp",
+      "titolo": "Bezzecchi: \"Ho più da guadagnare che da perdere? Non è vero un ca**o\"",
+      "link": "https://www.gpone.com/it/2026/10/29/motogp/bezzecchi-ho-piu-da-guadagnare-che-da-perdere-non-e-vero-un-cao.html",
+      "fonte": "GPOne",
+      "data": "2026-10-29T08:46:16.000Z",
+      "immagine": "",
+      "sommario": "\"Da un certo punto di vista c’è più da guadagnare che da perdere, sono situazioni particolari. Giochi tra Alex e Marc? Non voglio pensarci, non spreco energie a pensare agli altri\""
+    },
     {
       "id": "575e7c533a3c",
       "serie": "motogp",
@@ -20,6 +70,16 @@
       "data": "2026-10-29T08:33:31.000Z",
       "immagine": "",
       "sommario": "\"Sul Qatar preferisco non commentare. Sono contento di essere a Sepang, è la mia migliore opportunità per divertirmi, prenderò dei rischi\""
+    },
+    {
+      "id": "4301599463bb",
+      "serie": "motogp",
+      "titolo": "Bastianini: \"Dobbiamo creare un'associazione piloti fatta come si deve\"",
+      "link": "https://www.gpone.com/it/2026/10/29/motogp/bastianini-dobbiamo-creare-unassociazione-piloti-fatta-come-si-deve.html",
+      "fonte": "GPOne",
+      "data": "2026-10-29T08:19:02.000Z",
+      "immagine": "",
+      "sommario": "\"Tutti i piloti hanno capito che ne trarremmo benefici. Uniti possiamo avere più voce in capitolo su certe decisioni. Per il Qatar aspettiamo risposte concrete entro questo week-end\""
     },
     {
       "id": "b3243ac583cb",
@@ -60,6 +120,16 @@
       "data": "2026-10-29T07:27:43.000Z",
       "immagine": "",
       "sommario": "\"Con la mano destra non riesco nemmeno a lavarmi i denti. Non sono ottimista sul potere correre domenica, ma l'unica cosa che posso fare è provarci\""
+    },
+    {
+      "id": "3cb31e54f248",
+      "serie": "motogp",
+      "titolo": "Marini: “In Australia ero con zero energie: facevo fatica persino a scrivere un messaggio\"",
+      "link": "https://www.gpone.com/it/2026/10/29/motogp/marini-in-australia-ero-con-zero-energie-facevo-fatica-persino-a-scrivere-un-messaggio.html",
+      "fonte": "GPOne",
+      "data": "2026-10-29T07:03:32.000Z",
+      "immagine": "",
+      "sommario": "\"Una cosa strana, mai avuta prima. Non riuscivo a muovere mani, dita e piedi. Ora sto molto meglio. Riunione piloti per il Qatar? Ci facciamo portavoce di tutta la gente del paddock\""
     },
     {
       "id": "1d868648b3d6",
