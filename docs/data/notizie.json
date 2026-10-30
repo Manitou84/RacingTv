@@ -1,6 +1,76 @@
 {
-  "aggiornato": "2026-10-30T09:39:53.761Z",
+  "aggiornato": "2026-10-30T10:36:51.505Z",
   "articoli": [
+    {
+      "id": "2bd2b1f6411f",
+      "serie": "motogp",
+      "titolo": "Márquez sull'infortunio di Martín: \"Sicuramente ha dolore, ma se gli hanno dato il fit...\"",
+      "link": "https://www.motosprint.it/news/eventi/gp-malesia/2026/10/30-9249630/mrquez_sull_infortunio_di_martn_sicuramente_ha_dolore_ma_se_gli_hanno_dato_il_fit_",
+      "fonte": "Motosprint",
+      "data": "2026-10-30T10:36:51.505Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/30/095055286-dba1e91f-de21-49df-b2e5-680c066b981a.jpeg",
+      "sommario": "Marc si esprime dopo il primo tempo: \"Mi fido del protocollo medico e non conosco la situazione, ma se la frattura dovesse essere completa ha già fatto troppo\""
+    },
+    {
+      "id": "80d5266c8c83",
+      "serie": "motogp",
+      "titolo": "MotoGP Malesia, Di Giannantonio convince in pista ma attacca l’asfalto di Sepang: \"Sembra motocross\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/30-9249596/motogp_malesia_di_giannantonio_convince_in_pista_ma_attacca_lasfalto_di_sepang_sembra_motocross",
+      "fonte": "Motosprint",
+      "data": "2026-10-30T10:36:51.505Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/30/085432448-8d412a50-1d67-4665-910f-b9410f98279a.jpg",
+      "sommario": "Il pilota del team VR46 ha chiuso in quinta posizione mostrando una prestazione particolarmente convincente sia sul giro secco che per ciò che riguarda il passo gara"
+    },
+    {
+      "id": "f2ecdf69eed3",
+      "serie": "motogp",
+      "titolo": "Bezzecchi: \"L'Aprilia è cresciuta ma Sepang ci fa ancora faticare. Marc è il più veloce\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/30-9249636/bezzecchi_l_aprilia_cresciuta_ma_sepang_ci_fa_ancora_faticare_marc_il_pi_veloce",
+      "fonte": "Motosprint",
+      "data": "2026-10-30T10:36:51.505Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/30/100200046-4f0325fb-1831-4127-a705-bff62e439c8e.jpg",
+      "sommario": "Marco spiega: \"Sono ancora un po’ più lento rispetto ai migliori e nel time attack potevo fare di più, ma sono positivo. Tolti i Marquez siamo tutti lì. Martin? Non mi sorprende che ci provi\""
+    },
+    {
+      "id": "076e0ba27eb2",
+      "serie": "motogp",
+      "titolo": "Acosta loda Marquez: “Non siamo lontani, ma lui è sempre il pilota da battere”",
+      "link": "https://www.motosprint.it/news/eventi/gp-malesia/2026/10/30-9249613/acosta_loda_marquez_non_siamo_lontani_ma_lui_sempre_il_pilota_da_battere",
+      "fonte": "Motosprint",
+      "data": "2026-10-30T10:36:51.505Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/30/094708639-0ca59667-cb79-4493-a6a9-df4ea8ebf53e.jpg",
+      "sommario": "Pedro ha chiuso il venerdì al 4° posto: “Siamo stati veloci, ma non ho feeling e l’asfalto è terribile. Vinales? Bello ritrovarlo nelle posizioni che contano”"
+    },
+    {
+      "id": "f1fa09689eec",
+      "serie": "motogp",
+      "titolo": "Bagnaia fuori dalla Q2, ma filosofizza: \"Finché c'è delusione, c'è speranza\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/30-9249605/bagnaia_fuori_dalla_q2_ma_filosofizza_finch_c_delusione_c_speranza",
+      "fonte": "Motosprint",
+      "data": "2026-10-30T10:36:51.505Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/30/094019750-234f5f86-74db-41a1-9f19-51d21e639c06.jpg",
+      "sommario": "Pecco autore di una caduta a Sepang e dodicesimo crono su ventuno: \"Forse sono stato ottimista verso i miei problemi\""
+    },
+    {
+      "id": "ebf607c2b21f",
+      "serie": "motogp",
+      "titolo": "Bezzecchi: \"Sepang fa faticare l'Aprilia, e fatico anch'io col ginocchio\"",
+      "link": "https://www.gpone.com/it/2026/10/30/motogp/bezzecchi-sepang-fa-faticare-laprilia-ma-siamo-migliorati-molto.html",
+      "fonte": "GPOne",
+      "data": "2026-10-30T10:02:04.000Z",
+      "immagine": "",
+      "sommario": "\"Continua a formarmisi liquido. Qui hanno raschiato l'asfalto per la F1 ma solo sul rettilineo, non è peggiorato così tanto. Martin? Oggi non l'ho visto\""
+    },
+    {
+      "id": "a7afe72a11aa",
+      "serie": "motogp",
+      "titolo": "Alex Marquez: \"Senza la gomma giusta qui vai un secondo più lento\"",
+      "link": "https://www.gpone.com/it/2026/10/30/motogp/alex-marquez-senza-la-gomma-giusta-qui-vai-un-secondo-piu-lento.html",
+      "fonte": "GPOne",
+      "data": "2026-10-30T09:40:49.000Z",
+      "immagine": "",
+      "sommario": "\"Così diventa difficile capire come va la moto. Sepang? mi aspettavo di peggio, la 14 è la curva peggiore. Preoccupato per la borsite, speravo di stare meglio, per domenica valuterò cosa fare coi medici\""
+    },
     {
       "id": "7599790a839d",
       "serie": "motogp",
@@ -10,6 +80,16 @@
       "data": "2026-10-30T09:39:53.761Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/30/084822637-2136d5eb-2638-430b-a750-4f7f2c0f92ca.jpeg",
       "sommario": "Il 2027 è dietro l’angolo ma a Borgo Panigale hanno ancora cartucce da sparare: Iker primo pilota a provare questa novità\n"
+    },
+    {
+      "id": "3d551f425253",
+      "serie": "motogp",
+      "titolo": "Bagnaia in Q1 a Sepang: “La mia moto funziona soltanto quando è dritta”",
+      "link": "https://www.gpone.com/it/2026/10/30/motogp/bagnaia-la-mia-moto-va-bene-solo-da-dritta-e-ridicolo.html",
+      "fonte": "GPOne",
+      "data": "2026-10-30T08:53:23.000Z",
+      "immagine": "",
+      "sommario": "\"Sono deluso, non ho performance. Forse nel venire a Sepang sono stato troppo ottimista rispetto ai problemi che abbiamo, è veramente tosta\""
     },
     {
       "id": "90b4a836b525",
