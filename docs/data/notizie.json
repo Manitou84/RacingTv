@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-10-30T07:49:19.996Z",
+  "aggiornato": "2026-10-30T08:42:23.300Z",
   "articoli": [
+    {
+      "id": "90b4a836b525",
+      "serie": "motogp",
+      "titolo": "Practice già finite per Martin a Sepang: lo spagnolo “rimandato” a domani",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/30-9248578/practice_gi_finite_per_martin_a_sepang_lo_spagnolo_rimandato_a_domani",
+      "fonte": "Motosprint",
+      "data": "2026-10-30T08:42:23.300Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/30/074835300-f3a9a478-3449-4a6a-8ae7-7c638e879f07.jpg",
+      "sommario": "La sessione pomeridiana dello spagnolo è durata appena venti minuti, dopo i quali lo stop è divenuta la scelta più logica\n"
+    },
+    {
+      "id": "0aa463dca3df",
+      "serie": "motogp",
+      "titolo": "MotoGP: Bastianini e Morbidelli pronti a festeggiare il titolo di Antonelli in F1",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/30-9248770/motogp_bastianini_e_morbidelli_pronti_a_festeggiare_il_titolo_di_antonelli_in_f1",
+      "fonte": "Motosprint",
+      "data": "2026-10-30T08:42:23.300Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/30/080527034-cbee5216-e6dc-4f2f-a0b1-68f021ec8498.jpg",
+      "sommario": "Sia Enea che Franco hanno parlato del bolognese che questo weekend dovrebbe laurearsi campione nelle quattro ruote, dicendosi pronti a festeggiare con lui"
+    },
+    {
+      "id": "b690caf4ea98",
+      "serie": "motogp",
+      "titolo": "Il “solito” Marquez nelle Practice di Sepang: cade e chiude 1°. Bezzecchi 6°",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/30-9248935/il_solito_marquez_nelle_practice_di_sepang_cade_e_chiude_1_bezzecchi_6",
+      "fonte": "Motosprint",
+      "data": "2026-10-30T08:42:23.300Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/30/081508177-752dfe1c-cff1-4bd6-8282-e30982255340.jpeg",
+      "sommario": "Una scivolata nelle prime fasi non impedisce a Marc di comandare, precedendo il fratello e Ogura. 5° Di Giannantonio, sorpresa Vinales 8°\n"
+    },
     {
       "id": "5978284bc284",
       "serie": "motogp",
@@ -30,6 +60,16 @@
       "data": "2026-10-30T07:20:15.000Z",
       "immagine": "",
       "sommario": "Jorge si è consultato con il dottor Charte e ha deciso di interrompere la sua giornata. Ulteriori valutazioni verranno fatte prima delle FP3"
+    },
+    {
+      "id": "fafd470da1cf",
+      "serie": "motogp",
+      "titolo": "Gonzalez fa la voce grossa nelle prequalifiche di Sepang. Guevara 4°",
+      "link": "https://www.gpone.com/it/2026/10/30/motogp/gonzalez-fa-la-voce-grossa-nelle-prequalifiche-di-sepang-4deg-guevara.html",
+      "fonte": "GPOne",
+      "data": "2026-10-30T07:09:22.000Z",
+      "immagine": "",
+      "sommario": "Dopo la pole position in Australia, il pilota Intact è davanti a tutti anche nel venerdì malese. Lo seguono Alonso Lopez e Dani Holgado. Bene Arbolino, 5°"
     },
     {
       "id": "f54bd53a8b75",
