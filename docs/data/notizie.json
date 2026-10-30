@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-10-30T16:14:05.821Z",
+  "aggiornato": "2026-10-30T17:10:34.855Z",
   "articoli": [
+    {
+      "id": "9b99958d2ac2",
+      "serie": "f1",
+      "titolo": "F1 LIVE GP Messico: segui le prove libere del venerdì in diretta",
+      "link": "https://www.autosprint.it/news/formula1/f1-prove/2026/10/30-9250643/gp_messico_segui_le_prove_libere_del_venerd_in_diretta",
+      "fonte": "Autosprint",
+      "data": "2026-10-30T17:10:34.855Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/30/131209459-305a3811-0418-4c54-8ab2-e4903c23f26c.jpg",
+      "sommario": "Venerdì all'insegna delle due sessioni di prove libere all'Autodromo intitolato ai due fratelli Rodriguez. Primo appuntamento alle 19:30 italiane"
+    },
+    {
+      "id": "2bf457c89032",
+      "serie": "f1",
+      "titolo": "GP del Messico 1964, il Mondiale deciso all’ultimo giro",
+      "link": "https://www.autosprint.it/news/formula1/2026/10/30-9251431/gp_del_messico_1964_il_mondiale_deciso_allultimo_giro",
+      "fonte": "Autosprint",
+      "data": "2026-10-30T17:10:34.855Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/30/150122442-1a34f76f-1fce-46af-8a61-9901f2168ea3.jpeg",
+      "sommario": "3 piloti in lotta per il titolo, un finale ricco di colpi di scena e un sorpasso a pochi chilometri dalla bandiera a scacchi: una delle gare più incredibili della F1"
+    },
     {
       "id": "8f6ec9850912",
       "serie": "sbk",
