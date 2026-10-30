@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-10-30T06:34:00.323Z",
+  "aggiornato": "2026-10-30T07:49:19.996Z",
   "articoli": [
+    {
+      "id": "5978284bc284",
+      "serie": "motogp",
+      "titolo": "Fernandez KO, Martin “non molla l’osso”: ha l’ok per correre il GP!",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/30-9248553/fernandez_ko_martin_non_molla_losso_ha_lok_per_correre_il_gp_",
+      "fonte": "Motosprint",
+      "data": "2026-10-30T07:49:19.996Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/30/042344084-f5ab8882-7d0a-4b13-816a-f5f1dba977a1.jpg",
+      "sommario": "Raul alza bandiera bianca, mentre Jorge ha apparentemente ottenuto risposte confortanti nelle FP1, passando il secondo controllo. Ora la palla passa a lui ed Aprilia\n"
+    },
+    {
+      "id": "1922fe75bfc5",
+      "serie": "motogp",
+      "titolo": "Ruote carenate o appendici aerodinamiche? Aprilia sfida il confine sottile del regolamento",
+      "link": "https://www.gpone.com/it/2026/10/30/motogp/ruote-carenate-o-appendici-aerodinamiche-aprilia-sfida-il-confine-sottile-del-regolamento.html",
+      "fonte": "GPOne",
+      "data": "2026-10-30T07:28:15.000Z",
+      "immagine": "",
+      "sommario": "Le turbolenze delle ruote sono un nemico dell'efficienza aerodinamica. A Sepang la RS-GP mostra nuove soluzioni che guardano al 2027. Fino a quanto sono consentite?"
+    },
+    {
+      "id": "c4f1bd37f3ac",
+      "serie": "motogp",
+      "titolo": "Martin si ferma dopo 3 giri nelle prequalifiche, domani mattina deciderà se continuare",
+      "link": "https://www.gpone.com/it/2026/10/30/motogp/martin-si-ferma-dopo-3-giri-nelle-prequalifiche-domani-mattina-decidera-se-continuare.html",
+      "fonte": "GPOne",
+      "data": "2026-10-30T07:20:15.000Z",
+      "immagine": "",
+      "sommario": "Jorge si è consultato con il dottor Charte e ha deciso di interrompere la sua giornata. Ulteriori valutazioni verranno fatte prima delle FP3"
+    },
     {
       "id": "f54bd53a8b75",
       "serie": "motogp",
