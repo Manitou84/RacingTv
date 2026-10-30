@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-29T23:59:15.577Z",
+  "aggiornato": "2026-10-30T00:45:27.438Z",
   "griglie": {
     "motogp-gp-australia-2026": {
       "serie": "motogp",
@@ -134,14 +134,13 @@
       "serie": "f1",
       "gp": "GP USA",
       "fonte": "OA Sport",
-      "url": "https://www.oasport.it/2026/10/live-f1-gp-usa-2026-in-diretta-antonelli-sfida-verstappen-e-russell-per-la-pole/",
-      "aggiornato": "2026-10-29T23:59:15.577Z",
+      "url": "https://www.oasport.it/2026/10/griglia-di-partenza-f1-gp-usa-2026-risultati-e-classifica-qualifiche/",
+      "aggiornato": "2026-10-30T00:45:27.438Z",
       "righe": [
         {
           "pos": 1,
           "id": "f1-antonelli",
-          "nome": "Andrea Kimi Antonelli",
-          "tempo": "1:34.035"
+          "nome": "Andrea Kimi Antonelli"
         },
         {
           "pos": 2,
@@ -180,13 +179,73 @@
         },
         {
           "pos": 9,
-          "id": "f1-lindblad",
-          "nome": "Arvid Lindblad"
+          "id": "f1-lawson",
+          "nome": "Liam Lawson"
         },
         {
           "pos": 10,
-          "id": "f1-lawson",
-          "nome": "Liam Lawson"
+          "id": "f1-gasly",
+          "nome": "Pierre Gasly"
+        },
+        {
+          "pos": 11,
+          "id": "f1-hulkenberg",
+          "nome": "Nico Hülkenberg"
+        },
+        {
+          "pos": 12,
+          "id": "f1-alonso",
+          "nome": "Fernando Alonso"
+        },
+        {
+          "pos": 13,
+          "id": "f1-bearman",
+          "nome": "Oliver Bearman"
+        },
+        {
+          "pos": 14,
+          "id": null,
+          "nome": "Arvid Lindbland"
+        },
+        {
+          "pos": 15,
+          "id": "f1-ocon",
+          "nome": "Esteban Ocon"
+        },
+        {
+          "pos": 16,
+          "id": "f1-sainz",
+          "nome": "Carlos Sainz"
+        },
+        {
+          "pos": 17,
+          "id": "f1-albon",
+          "nome": "Alexander Albon"
+        },
+        {
+          "pos": 18,
+          "id": "f1-perez",
+          "nome": "Sergio Pérez"
+        },
+        {
+          "pos": 19,
+          "id": "f1-bottas",
+          "nome": "Valtteri Bottas"
+        },
+        {
+          "pos": 20,
+          "id": "f1-colapinto",
+          "nome": "Franco Colapinto"
+        },
+        {
+          "pos": 21,
+          "id": "f1-bortoleto",
+          "nome": "Gabriel Bortoleto"
+        },
+        {
+          "pos": 22,
+          "id": "f1-stroll",
+          "nome": "Lance Stroll"
         }
       ]
     }
