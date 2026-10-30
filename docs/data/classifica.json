@@ -1,7 +1,7 @@
 {
-  "aggiornato": "2026-10-30T03:34:37.425Z",
+  "aggiornato": "2026-10-30T04:35:24.892Z",
   "motogp": {
-    "aggiornato": "2026-10-30T03:34:37.425Z",
+    "aggiornato": "2026-10-30T04:35:24.892Z",
     "fonte": "Motosprint",
     "piloti": [
       {
@@ -284,6 +284,21 @@
         "pos": 11,
         "nome": "Prima Pramac Yamaha",
         "punti": 49
+      },
+      {
+        "pos": 12,
+        "nome": "Yamaha Factory Racing Team",
+        "punti": 2
+      },
+      {
+        "pos": 13,
+        "nome": "Team HRC",
+        "punti": 0
+      },
+      {
+        "pos": 14,
+        "nome": "Red Bull GASGAS Tech3",
+        "punti": 0
       }
     ],
     "costruttori": [
@@ -315,7 +330,7 @@
     ]
   },
   "f1": {
-    "aggiornato": "2026-10-30T03:34:37.425Z",
+    "aggiornato": "2026-10-30T04:35:24.892Z",
     "fonte": "Autosprint",
     "piloti": [
       {
@@ -540,7 +555,7 @@
     ]
   },
   "sbk": {
-    "aggiornato": "2026-10-30T03:34:37.425Z",
+    "aggiornato": "2026-10-30T04:35:24.892Z",
     "fonte": "Wikipedia",
     "piloti": [
       {

@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-30T03:34:37.425Z",
+  "aggiornato": "2026-10-30T04:35:24.892Z",
   "articoli": [
     {
       "fonte": "Sky Sport",
@@ -202,6 +202,17 @@
     },
     {
       "fonte": "OA Sport",
+      "titolo": "F1 oggi in tv, GP Messico 2026: orari prove libere, streaming, programma Sky e TV8",
+      "url": "https://www.oasport.it/2026/10/f1-oggi-in-tv-gp-messico-2026-orari-prove-libere-streaming-programma-sky-e-tv8/",
+      "gp": "GP Messico",
+      "serie": "f1",
+      "sessioni": [
+        "F1 Prove libere 1 2026-10-30T18:30:00.000Z",
+        "F1 Prove libere 2 2026-10-30T22:00:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
       "titolo": "F1, GP Messico 2026: gli orari del fine settimana dalle prove libere alla gara. Guida Sky e TV8",
       "url": "https://www.oasport.it/2026/10/f1-gp-messico-2026-gli-orari-del-fine-settimana-dalle-prove-libere-alla-gara-guida-sky-e-tv8/",
       "gp": "GP Messico",
@@ -288,17 +299,6 @@
       "fonte": "OA Sport",
       "titolo": "F1 oggi in tv, GP USA 2026: orari FP3 e qualifiche, streaming, programma, differita TV8",
       "url": "https://www.oasport.it/2026/10/f1-oggi-in-tv-gp-usa-2026-orari-fp3-e-qualifiche-streaming-programma-sky-e-tv8/",
-      "gp": "GP USA",
-      "serie": "f1",
-      "sessioni": [
-        "F1 Prove libere 3 2026-10-24T17:30:00.000Z",
-        "F1 Qualifiche 2026-10-24T21:00:00.000Z TV8 differita 2026-10-24T22:25:00.000Z"
-      ]
-    },
-    {
-      "fonte": "OA Sport",
-      "titolo": "A che ora la F1 su TV8 oggi, GP USA 2026: programma differita qualifiche in chiaro",
-      "url": "https://www.oasport.it/2026/10/a-che-ora-la-f1-su-tv8-oggi-gp-usa-2026-programma-qualifiche-differita-in-chiaro/",
       "gp": "GP USA",
       "serie": "f1",
       "sessioni": [

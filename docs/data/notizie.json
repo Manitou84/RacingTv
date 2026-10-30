@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-10-30T03:34:37.425Z",
+  "aggiornato": "2026-10-30T04:35:24.892Z",
   "articoli": [
+    {
+      "id": "87f5fe8e0fcc",
+      "serie": "motogp",
+      "titolo": "Martin ha l'OK dai medici: potrà continuare il Gran Premio di Sepang",
+      "link": "https://www.gpone.com/it/2026/10/30/motogp/martin-ha-lok-dai-medici-potra-continuare-il-gran-premio-di-sepang.html",
+      "fonte": "GPOne",
+      "data": "2026-10-30T04:05:10.000Z",
+      "immagine": "",
+      "sommario": "I dottori hanno visitato Jorge al termine delle FP1 e gli hanno dato il via libera per il resto del fine settimana in Malesia"
+    },
+    {
+      "id": "034a76e6e606",
+      "serie": "motogp",
+      "titolo": "Il Gran Premio di Sepang è già finito per Raul Fernandez",
+      "link": "https://www.gpone.com/it/2026/10/30/motogp/il-gran-premio-di-sepang-e-gia-finito-per-raul-fernandez.html",
+      "fonte": "GPOne",
+      "data": "2026-10-30T03:55:17.000Z",
+      "immagine": "",
+      "sommario": "Lo spagnolo del team Trackhouse ha provato a scendere in pista nelle FP1, ma dopo 5 giri il dolore lo ha costretto a fermarsi e i medici lo hanno dichiarato unfit"
+    },
     {
       "id": "5a838c2be032",
       "serie": "motogp",
