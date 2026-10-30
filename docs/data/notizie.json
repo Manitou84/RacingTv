@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-10-30T10:36:51.505Z",
+  "aggiornato": "2026-10-30T11:26:29.481Z",
   "articoli": [
+    {
+      "id": "01a40f77aaeb",
+      "serie": "motogp",
+      "titolo": "Mir: \"Una Q2 inaspettata, è la ricompensa di tutto il lavoro che ho fatto\"",
+      "link": "https://www.gpone.com/it/2026/10/30/motogp/mir-una-q2-inaspettata-e-la-ricompensa-di-tutto-il-lavoro-che-ho-fatto.html",
+      "fonte": "GPOne",
+      "data": "2026-10-30T11:19:57.000Z",
+      "immagine": "",
+      "sommario": "\"Non sapete quanto significhi per me\". Marini 17°: \"la pista è in condizioni inaccettabili, un sasso mi ha rotto il radiatore\""
+    },
+    {
+      "id": "c4e93742fa16",
+      "serie": "motogp",
+      "titolo": "TGPOne Sepang - Uccio: “Qatar non sicuro, qualcuno dei nostri resterà a casa”",
+      "link": "https://www.gpone.com/it/2026/10/30/motogp/tgpone-sepang-uccio-qatar-non-sicuro-qualcuno-dei-nostri-restera-a-casa.html",
+      "fonte": "GPOne",
+      "data": "2026-10-30T10:50:00.000Z",
+      "immagine": "",
+      "sommario": "VIDEO - Il team director VR46 parla senza filtri della sicurezza in Qatar, degli ordini Ducati e del futuro della squadra: “Chi non vuole partire è libero di scegliere. Marc vuole chiudere il Mondiale psicologicamente, m"
+    },
     {
       "id": "2bd2b1f6411f",
       "serie": "motogp",
@@ -50,6 +70,26 @@
       "data": "2026-10-30T10:36:51.505Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/30/094019750-234f5f86-74db-41a1-9f19-51d21e639c06.jpg",
       "sommario": "Pecco autore di una caduta a Sepang e dodicesimo crono su ventuno: \"Forse sono stato ottimista verso i miei problemi\""
+    },
+    {
+      "id": "6107fd4dcba2",
+      "serie": "motogp",
+      "titolo": "Acosta: “Non siamo lontani da Marquez, ma ho sensazioni terribili”",
+      "link": "https://www.gpone.com/it/2026/10/30/motogp/acosta-non-siamo-lontani-da-marquez-ma-ho-sensazioni-terribili.html",
+      "fonte": "GPOne",
+      "data": "2026-10-30T10:10:57.000Z",
+      "immagine": "",
+      "sommario": "“Serve trovare quella fiducia che ancora manca. L’asfalto peggiora di anno in anno, si staccano i pezzi e li trovi in giro”"
+    },
+    {
+      "id": "25b5f00a3d78",
+      "serie": "motogp",
+      "titolo": "Di Giannantonio: “Sepang ora è una pista da motocross. Dovrò studiare i Marquez”",
+      "link": "https://www.gpone.com/it/2026/10/30/motogp/di-giannantonio-sepang-ora-e-una-pista-da-motocross-dovro-studiare-i-marquez.html",
+      "fonte": "GPOne",
+      "data": "2026-10-30T10:05:51.000Z",
+      "immagine": "",
+      "sommario": "“Alex è andato molto forte, Marc ha il passo migliore, ma ci sono anche le Aprilia”. Morbidelli: “Con la Q2 abbiamo raggiunto il sogno di ogni venerdì. La pista? Tempi complicati, anche per gli asfalti”"
     },
     {
       "id": "ebf607c2b21f",
