@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-10-30T11:26:29.481Z",
+  "aggiornato": "2026-10-30T12:08:10.776Z",
   "articoli": [
+    {
+      "id": "2b1591743019",
+      "serie": "motogp",
+      "titolo": "Marco Melandri attacca: “L'infortunio di Martín? The show must go on”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/30-9249970/marco_melandri_attacca_l_infortunio_di_martn_the_show_must_go_on",
+      "fonte": "Motosprint",
+      "data": "2026-10-30T12:08:10.776Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/30/105408640-896f3b2f-ff0f-41a6-82ca-8c52024c3a35.jpeg",
+      "sommario": "L'ex iridato 250cc al veleno: \"Sto dalla parte dei piloti e, nei panni di Martín avrei fatto peggio, ma non è possibile che venga fatto correre quando Fernández è stato dichiarato unfit\""
+    },
+    {
+      "id": "0a3e1c2ca20a",
+      "serie": "motogp",
+      "titolo": "Bastianini acciaccato ma felice: “È stata una delle giornate migliori dell’anno”",
+      "link": "https://www.gpone.com/it/2026/10/30/motogp/bastianini-acciaccato-ma-felice-e-stata-una-delle-giornate-migliori-dellanno.html",
+      "fonte": "GPOne",
+      "data": "2026-10-30T11:35:49.000Z",
+      "immagine": "",
+      "sommario": "“Ho preso una distorsione, ma correrò tranquillamente. Sognare in grande? Sono un sognatore, lo faccio sempre”. Vinales: “Il mio unico limite è il dolore, le prestazioni arriveranno appena potrò spingere di più”"
+    },
+    {
+      "id": "2991c61b2139",
+      "serie": "motogp",
+      "titolo": "Marc Marquez: \"Ora è tutto nelle mie mani, è il momento di assumersi dei rischi\"",
+      "link": "https://www.gpone.com/it/2026/10/30/motogp/marc-marquez-ora-e-tutto-nelle-mie-mani-e-il-momento-di-assumersi-dei-rischi.html",
+      "fonte": "GPOne",
+      "data": "2026-10-30T11:20:38.000Z",
+      "immagine": "",
+      "sommario": "\"Un venerdì perfetto, a questo punto del calendario è il momento di dare tutto. Ducati qui è competitiva, cercherò i 37 punti. Martin? un pilota forte, oggi ha avuto difficoltà ma credo nel protocollo medico\""
+    },
     {
       "id": "01a40f77aaeb",
       "serie": "motogp",
