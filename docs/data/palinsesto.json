@@ -1,72 +1,71 @@
 {
-  "aggiornato": "2026-10-30T22:37:14.673Z",
+  "aggiornato": "2026-10-30T23:24:27.264Z",
   "weekend": [
+    {
+      "id": "f1-gp-usa-2026",
+      "serie": "f1",
+      "gp": "GP USA",
+      "sessioni": [
+        {
+          "classe": "F1",
+          "sessione": "Prove libere 3",
+          "inizio": "2026-10-24T17:30:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "F1",
+          "sessione": "Qualifiche",
+          "inizio": "2026-10-24T21:00:00.000Z",
+          "tv8": {
+            "tipo": "differita",
+            "inizio": "2026-10-23T22:25:00.000Z"
+          },
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "F1",
+          "sessione": "Gara",
+          "inizio": "2026-10-25T20:00:00.000Z",
+          "tv8": {
+            "tipo": "differita",
+            "inizio": "2026-10-25T21:25:00.000Z"
+          },
+          "fonte": "OA Sport"
+        }
+      ],
+      "tv8Confermati": [
+        "2026-10-24",
+        "2026-10-25"
+      ],
+      "fonti": [
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/a-che-ora-la-f1-su-tv8-oggi-gp-usa-2026-programma-gara-differita-in-chiaro/",
+          "titolo": "Quando la F1 su TV8 oggi, GP USA 2026: orario differita gara in chiaro"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/dove-vedere-la-f1-stasera-in-tv-gp-usa-2026-orario-gara-differita-tv8-streaming/",
+          "titolo": "Dove vedere la F1 stasera in tv, GP USA 2026: orario d’inizio gara, differita TV8, streaming"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/f1-oggi-in-tv-gp-usa-2026-orario-gara-streaming-programma-sky-e-tv8/",
+          "titolo": "Su che canale la F1 oggi in tv, GP USA 2026: orario gara, streaming, differita TV8 in chiaro"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/dove-vedere-la-f1-stasera-in-tv-gp-usa-2026-orari-fp3-e-qualifiche-differita-tv8-streaming/",
+          "titolo": "Dove vedere la F1 stasera in tv, GP USA 2026: orari FP3 e qualifiche, differita TV8, streaming"
+        }
+      ]
+    },
     {
       "id": "motogp-gp-australia-2026",
       "serie": "motogp",
       "gp": "GP Australia",
       "sessioni": [
-        {
-          "classe": "Moto3",
-          "sessione": "Prove libere 2",
-          "inizio": "2026-10-23T21:40:00.000Z",
-          "tv8": null,
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "Moto2",
-          "sessione": "Prove libere 2",
-          "inizio": "2026-10-23T22:25:00.000Z",
-          "tv8": null,
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "MotoGP",
-          "sessione": "Prove libere 2",
-          "inizio": "2026-10-23T23:10:00.000Z",
-          "tv8": null,
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "MotoGP",
-          "sessione": "Qualifiche",
-          "inizio": "2026-10-23T23:50:00.000Z",
-          "tv8": {
-            "tipo": "diretta",
-            "inizio": "2026-10-23T23:50:00.000Z"
-          },
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "Moto3",
-          "sessione": "Qualifiche",
-          "inizio": "2026-10-24T01:45:00.000Z",
-          "tv8": {
-            "tipo": "diretta",
-            "inizio": "2026-10-24T01:45:00.000Z"
-          },
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "Moto2",
-          "sessione": "Qualifiche",
-          "inizio": "2026-10-24T02:40:00.000Z",
-          "tv8": {
-            "tipo": "diretta",
-            "inizio": "2026-10-24T02:40:00.000Z"
-          },
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "MotoGP",
-          "sessione": "Sprint",
-          "inizio": "2026-10-24T04:00:00.000Z",
-          "tv8": {
-            "tipo": "diretta",
-            "inizio": "2026-10-24T04:00:00.000Z"
-          },
-          "fonte": "OA Sport"
-        },
         {
           "classe": "MotoGP",
           "sessione": "Warm up",
@@ -106,7 +105,6 @@
         }
       ],
       "tv8Confermati": [
-        "2026-10-23",
         "2026-10-24",
         "2026-10-25"
       ],
@@ -125,11 +123,6 @@
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/10/motogp-in-tv-gp-australia-2026-orario-gara-25-ottobre-streaming-programma-sky-differita-tv8/",
           "titolo": "MotoGP in tv, GP Australia 2026: orario gara 25 ottobre, streaming, programma Sky, differita TV8"
-        },
-        {
-          "nome": "OA Sport",
-          "url": "https://www.oasport.it/2026/10/motogp-in-tv-gp-australia-2026-orari-24-ottobre-streaming-programma-sky-e-tv8/",
-          "titolo": "MotoGP in tv, GP Australia 2026: orari 24 ottobre, streaming, programma Sky e TV8"
         }
       ],
       "annullate": [
@@ -138,71 +131,6 @@
           "titolo": "ULTIM'ORA - Il Gran Premio di Australia è stato cancellato",
           "url": "https://www.gpone.com/it/2026/10/25/motogp/ultimora-il-gran-premio-di-australia-e-stato-cancellato.html",
           "data": "2026-10-25T04:40:20.000Z"
-        }
-      ]
-    },
-    {
-      "id": "f1-gp-usa-2026",
-      "serie": "f1",
-      "gp": "GP USA",
-      "sessioni": [
-        {
-          "classe": "F1",
-          "sessione": "Prove libere 3",
-          "inizio": "2026-10-24T17:30:00.000Z",
-          "tv8": null,
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "F1",
-          "sessione": "Qualifiche",
-          "inizio": "2026-10-24T21:00:00.000Z",
-          "tv8": {
-            "tipo": "differita",
-            "inizio": "2026-10-24T22:25:00.000Z"
-          },
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "F1",
-          "sessione": "Gara",
-          "inizio": "2026-10-25T20:00:00.000Z",
-          "tv8": {
-            "tipo": "differita",
-            "inizio": "2026-10-25T21:25:00.000Z"
-          },
-          "fonte": "OA Sport"
-        }
-      ],
-      "tv8Confermati": [
-        "2026-10-24",
-        "2026-10-25"
-      ],
-      "fonti": [
-        {
-          "nome": "OA Sport",
-          "url": "https://www.oasport.it/2026/10/a-che-ora-la-f1-su-tv8-oggi-gp-usa-2026-programma-gara-differita-in-chiaro/",
-          "titolo": "Quando la F1 su TV8 oggi, GP USA 2026: orario differita gara in chiaro"
-        },
-        {
-          "nome": "OA Sport",
-          "url": "https://www.oasport.it/2026/10/dove-vedere-la-f1-stasera-in-tv-gp-usa-2026-orario-gara-differita-tv8-streaming/",
-          "titolo": "Dove vedere la F1 stasera in tv, GP USA 2026: orario d’inizio gara, differita TV8, streaming"
-        },
-        {
-          "nome": "OA Sport",
-          "url": "https://www.oasport.it/2026/10/f1-oggi-in-tv-gp-usa-2026-orario-gara-streaming-programma-sky-e-tv8/",
-          "titolo": "Su che canale la F1 oggi in tv, GP USA 2026: orario gara, streaming, differita TV8 in chiaro"
-        },
-        {
-          "nome": "OA Sport",
-          "url": "https://www.oasport.it/2026/10/dove-vedere-la-f1-stasera-in-tv-gp-usa-2026-orari-fp3-e-qualifiche-differita-tv8-streaming/",
-          "titolo": "Dove vedere la F1 stasera in tv, GP USA 2026: orari FP3 e qualifiche, differita TV8, streaming"
-        },
-        {
-          "nome": "OA Sport",
-          "url": "https://www.oasport.it/2026/10/f1-oggi-in-tv-gp-usa-2026-orari-fp3-e-qualifiche-streaming-programma-sky-e-tv8/",
-          "titolo": "F1 oggi in tv, GP USA 2026: orari FP3 e qualifiche, streaming, programma, differita TV8"
         }
       ]
     },
