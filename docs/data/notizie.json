@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-31T23:00:14.969Z",
+  "aggiornato": "2026-10-31T23:56:23.361Z",
   "articoli": [
     {
       "id": "78670e2867d2",
@@ -150,6 +150,26 @@
       "data": "2026-10-31T10:04:07.098Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/31/093722697-d6e3284a-91fd-460c-8e22-5bfa0ec27688.jpg",
       "sommario": "Il ducatista ringrazia la pioggia che gli ha consentito di conservare la sesta piazza, così come ha conservato il record della pista anche se ammette “Si poteva battere”"
+    },
+    {
+      "id": "e00ee4778a54",
+      "serie": "f1",
+      "titolo": "Vasseur dopo la pole di Hamilton: \"Dobbiamo mantenere la calma\"",
+      "link": "https://www.autosprint.it/news/formula1/f1-qualifiche/2026/10/31-9254823/vasseur_dopo_la_pole_di_hamilton_dobbiamo_mantenere_la_calma",
+      "fonte": "Autosprint",
+      "data": "2026-10-31T10:00:00Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/31/222603412-78eaf161-2fbd-49bc-bdae-bd0077ffbc23.jpg",
+      "sommario": "La Ferrari ritrova il sorriso in Messico con la pole position di Lewis Hamilton. Una prestazione importante anche per Charles Leclerc, che ha chiuso in terza posizione"
+    },
+    {
+      "id": "b466a63a3529",
+      "serie": "f1",
+      "titolo": "Antonelli: \"Ho faticato un po' a far funzionare le gomme\"",
+      "link": "https://www.autosprint.it/news/formula1/f1-qualifiche/2026/10/31-9254923/antonelli_ho_faticato_un_po_a_far_funzionare_le_gomme",
+      "fonte": "Autosprint",
+      "data": "2026-10-31T10:00:00Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/31/225641397-d1cbfab9-4671-4185-8391-47ded3b40922.jpg",
+      "sommario": "Una qualifica leggermente in salita per il leader di campionato, che taglia il traguardo in quinta posizione ma sale quarto per la penalità di Max"
     },
     {
       "id": "ddc68cdc057d",
