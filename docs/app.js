@@ -80,14 +80,15 @@ function quandoRelativo(iso) {
 }
 
 /* ---------- Dati ---------- */
-const D = { palinsesto: { weekend: [] }, notizie: { articoli: [] }, piloti: [], classifica: {}, calendario: {}, risultati: {}, circuiti: {}, griglie: {}, test: {}, mappe: {}, hof: {}, arrivi: {}, storico: {}, calendarioAnno: {}, gpDettagli: {} };
+const D = { palinsesto: { weekend: [] }, notizie: { articoli: [] }, piloti: [], classifica: {}, calendario: {}, risultati: {}, circuiti: {}, griglie: {}, test: {}, mappe: {}, hof: {}, arrivi: {}, storico: {}, calendarioAnno: {}, gpDettagli: {}, caschi: {} };
 async function carica(nome) {
   const r = await fetch(`data/${nome}.json`, { cache: 'no-cache' });
   if (!r.ok) throw new Error(nome);
   return r.json();
 }
 async function caricaTutto() {
-  const [p, n, pi, c, ca, ri, ci, gr, te, ma, hf, ar, st, cia, gpd] = await Promise.allSettled(['palinsesto', 'notizie', 'piloti', 'classifica', 'calendario', 'risultati', 'circuiti', 'griglie', 'test', 'mappe', 'hall-of-fame', 'arrivi', 'storico', 'circuiti-auto', 'gp-dettagli'].map(carica));
+  const [p, n, pi, c, ca, ri, ci, gr, te, ma, hf, ar, st, cia, gpd, cas] = await Promise.allSettled(['palinsesto', 'notizie', 'piloti', 'classifica', 'calendario', 'risultati', 'circuiti', 'griglie', 'test', 'mappe', 'hall-of-fame', 'arrivi', 'storico', 'circuiti-auto', 'gp-dettagli', 'caschi'].map(carica));
+  if (cas.status === 'fulfilled') D.caschi = cas.value.caschi || {};
   if (gpd.status === 'fulfilled') D.gpDettagli = gpd.value;
 
   if (st.status === 'fulfilled') D.storico = st.value.piloti || {};
@@ -1026,6 +1027,15 @@ function palmares(p) {
   return { carriera: base.vittorie + vinteDopo, titoli: base.titoli || [], tipo: base.tipoVittorie, podi, vittorieAnno: podi.filter(x => x.pos === 1).length, gareLette: gare.length, conAnno };
 }
 // Posizione finale nei campionati delle ultime cinque stagioni (anche categorie minori), da Wikipedia
+// Foto del casco (Wikimedia Commons): la più recente trovata, con autore e licenza
+function cascoPilota(p) {
+  const c = D.caschi?.[p.id];
+  const anno = adesso().getFullYear();
+  if (!c?.url) return `<h3 class="pal-titolo">Il casco</h3><p class="nota piccola">Nessuna foto del casco con licenza libera su Wikimedia Commons, per ora.</p>`;
+  return `<h3 class="pal-titolo">Il casco${c.anno ? ` ${c.anno}` : ''}</h3>
+    <figure class="casco-pilota"><img src="${esc(urlSicuro(c.url))}" alt="Casco di ${esc(p.nome)} ${esc(p.cognome)}" loading="lazy">
+    <figcaption>${c.anno && c.anno < anno ? `Foto del ${c.anno}, non della stagione in corso. ` : ''}${c.autore ? `Foto di ${esc(c.autore)}` : 'Foto'}${c.licenza ? `, ${esc(c.licenza)}` : ''}, <a href="${esc(urlSicuro(c.pagina))}" target="_blank" rel="noopener noreferrer">Wikimedia Commons</a></figcaption></figure>`;
+}
 function storicoPilota(p) {
   const anno = adesso().getFullYear();
   const righe = (D.storico?.[p.id] || []).filter(r => r.anno < anno).slice(-5).reverse();
@@ -1055,6 +1065,7 @@ function schedaPalmares(p) {
       ${pm.conAnno ? `<div><b>${pm.podi.length}</b><small>podi ${anno}</small></div>` : ''}
     </div>
     ${titoli}
+    ${cascoPilota(p)}
     ${storicoPilota(p)}
     ${pm.conAnno ? `<h3 class="pal-titolo">Migliori risultati ${anno}</h3>${elenco}` : ''}
     <p class="nota piccola">${esc(pm.tipo || '')}. ${pm.conAnno ? `I podi sono quelli della gara della domenica${p.serie === 'motogp' ? ', Sprint escluse' : ''}.` : ''}</p>
