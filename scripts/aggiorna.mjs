@@ -456,6 +456,19 @@ async function aggiornaCircuiti() {
   log(`circuiti: ${Object.keys(out).length} schede, ${letti} lette ora`);
 }
 
+/* ---------- DIAGNOSTICA TEMPORANEA: formato delle pagine dei GP su Wikipedia ---------- */
+async function diagnosticaGp() {
+  const UA = { 'User-Agent': 'RacingTv/1.0 (https://github.com/Manitou84/RacingTv)' };
+  let out = '';
+  for (const t of ['2025_Malaysian_motorcycle_Grand_Prix', '2025_Italian_Grand_Prix', '2025_Chinese_Grand_Prix', '2025_MotoGP_World_Championship']) {
+    const r = await fetch(`https://en.wikipedia.org/api/rest_v1/page/html/${t}`, { headers: UA });
+    const h = (await r.text()).replace(/ (id|about|typeof|data-mw|style|class="mw-[^"]*")=("[^"]*"|'[^']*')/g, '');
+    const i = h.search(/class="infobox/);
+    out += `\n\n===== ${t} (${h.length}) infobox a ${i}\n` + (t.includes('World_Championship') ? [...new Set([...h.matchAll(/href="\.\/(2025_[^"]*motorcycle_Grand_Prix|2025_Dutch_TT)"/g)].map(m => m[1]))].join('\n') : h.slice(i, i + 30000).replace(/<img[^>]*>/g, ''));
+  }
+  await writeFile(RADICE + 'config/debug-gp.html', out);
+}
+
 /* ---------- Mappe dei tracciati ---------- */
 // Per ogni circuito cerca su Wikidata la «mappa del percorso» (proprietà P15) e la scarica da Wikimedia Commons
 // in docs/mappe/: così l'app la mostra dal proprio sito, senza far contattare altri server al telefono.
@@ -523,3 +536,4 @@ await tenta('arrivi', aggiornaArrivi);
 await aggiornaTest();
 await tenta('circuiti', aggiornaCircuiti);
 await aggiornaMappe();
+if (!FIXTURES) await tenta('diagnostica gp', diagnosticaGp);
