@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-31T04:31:48.152Z",
+  "aggiornato": "2026-10-31T05:28:29.848Z",
   "weekend": [
     {
       "id": "f1-gp-usa-2026",
@@ -314,6 +314,11 @@
         },
         {
           "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/a-che-ora-la-motogp-su-tv8-oggi-gp-malesia-2026-programma-qualifiche-in-chiaro/",
+          "titolo": "A che ora la MotoGP su TV8 oggi, GP Malesia 2026: programma qualifiche in chiaro"
+        },
+        {
+          "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/10/motogp-domani-in-tv-gp-malesia-2026-orari-31-ottobre-streaming-programma-sky-e-tv8/",
           "titolo": "MotoGP domani in tv, GP Malesia 2026: orari 31 ottobre, streaming, programma Sky e TV8"
         },
@@ -387,6 +392,11 @@
         "2026-11-01"
       ],
       "fonti": [
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/a-che-ora-la-f1-su-tv8-oggi-gp-messico-2026-programma-qualifiche-differita-in-chiaro/",
+          "titolo": "A che ora la F1 su TV8 oggi, GP Messico 2026: programma qualifiche, differita in chiaro"
+        },
         {
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/10/f1-oggi-in-tv-gp-messico-2026-orari-fp3-e-qualifiche-streaming-programma-sky-e-tv8/",

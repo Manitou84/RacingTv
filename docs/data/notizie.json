@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-10-31T04:31:48.152Z",
+  "aggiornato": "2026-10-31T05:28:29.848Z",
   "articoli": [
+    {
+      "id": "fd2672b03de1",
+      "serie": "motogp",
+      "titolo": "Diretta Sprint MotoGP Malesia: risultati Q1, Q2 e gara LIVE",
+      "link": "https://www.motosprint.it/news/eventi/gp-malesia/2026/10/31-9252904/diretta_sprint_motogp_malesia_risultati_q1_q2_e_gara_live",
+      "fonte": "Motosprint",
+      "data": "2026-10-31T05:28:29.848Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/31/052234221-1eba146e-d461-4d5c-8ad5-6de2ba64f76a.jpg",
+      "sommario": "Seguite con noi la gara del sabato sul circuito di Sepang: grande chance di allungare in classifica per Marc Marquez, visto il forfait di Jorge Martin"
+    },
+    {
+      "id": "a3d240ae5d5e",
+      "serie": "motogp",
+      "titolo": "Martin: \"Per me il titolo è già perso, ma continuerò a lottare fino alla fine\"",
+      "link": "https://www.gpone.com/it/2026/10/31/motogp/martin-per-me-il-titolo-e-gia-perso-ma-continuero-a-lottare-fino-alla-fine.html",
+      "fonte": "GPOne",
+      "data": "2026-10-31T04:44:03.000Z",
+      "immagine": "",
+      "sommario": "\"Non lo farò solo per me, ma per la mia squadra e per le persone che mi sostengono. Ci ho provato, ma non avevo forza. Ho imparato dal passato, continuare non aveva senso\""
+    },
     {
       "id": "19f89c9e2114",
       "serie": "motogp",
