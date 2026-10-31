@@ -1,6 +1,56 @@
 {
-  "aggiornato": "2026-10-31T09:06:37.291Z",
+  "aggiornato": "2026-10-31T10:04:07.098Z",
   "articoli": [
+    {
+      "id": "d6229b2114e7",
+      "serie": "motogp",
+      "titolo": "Di Giannantonio: \"Il duello con Bagnaia? Una posizione in più non era il goal di entrambi\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/31-9253193/di_giannantonio_il_duello_con_bagnaia_una_posizione_in_pi_non_era_il_goal_di_entrambi",
+      "fonte": "Motosprint",
+      "data": "2026-10-31T10:04:07.098Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/31/091729274-7b0491dd-f4f7-43d9-a244-0a00d74c8cd8.jpg",
+      "sommario": "Fabio: \"Io e Pecco eravamo quinto e sesto: neanche una grossa consolazione. In un paio di giri ero il più veloce, ma a chance ormai persa\""
+    },
+    {
+      "id": "68d912440262",
+      "serie": "motogp",
+      "titolo": "L’intelligenza di Marquez nella Sprint: “Un rischio eccessivo non avrebbe pagato”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/31-9253268/lintelligenza_di_marquez_nella_sprint_un_rischio_eccessivo_non_avrebbe_pagato",
+      "fonte": "Motosprint",
+      "data": "2026-10-31T10:04:07.098Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/31/093607337-9b0cfc99-62de-42aa-b52b-caee6c2b8500.jpeg",
+      "sommario": "Lo spagnolo chiude la gara corta dietro al futuro team mate Acosta ma: “la mia mentalità non cambia anche con Martin fuori”\n"
+    },
+    {
+      "id": "421d8826a5d6",
+      "serie": "motogp",
+      "titolo": "Bagnaia sesto e frustrato: “Ci provo ma non posso fare le cose che ho sempre fatto”",
+      "link": "https://www.motosprint.it/news/eventi/gp-malesia/2026/10/31-9253269/bagnaia_sesto_e_frustrato_ci_provo_ma_non_posso_fare_le_cose_che_ho_sempre_fatto",
+      "fonte": "Motosprint",
+      "data": "2026-10-31T10:04:07.098Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/31/093722697-d6e3284a-91fd-460c-8e22-5bfa0ec27688.jpg",
+      "sommario": "Il ducatista ringrazia la pioggia che gli ha consentito di conservare la sesta piazza, così come ha conservato il record della pista anche se ammette “Si poteva battere”"
+    },
+    {
+      "id": "ddc68cdc057d",
+      "serie": "motogp",
+      "titolo": "Marquez: “Avevo una sola strategia: non prendere il comando della corsa”",
+      "link": "https://www.gpone.com/it/2026/10/31/motogp/marquez-avevo-una-sola-strategia-non-prendere-il-comando-della-corsa.html",
+      "fonte": "GPOne",
+      "data": "2026-10-31T09:21:13.000Z",
+      "immagine": "",
+      "sommario": "“Mi sono divertito zero, ma il mio approccio non cambierà senza Martin: perché è questo che mi ha portato ad essere in testa al Campionato”"
+    },
+    {
+      "id": "076dabf7a70a",
+      "serie": "motogp",
+      "titolo": "Bezzecchi: \"Appena ha avuto trenta metri liberi si è vista la velocità di Marc\"",
+      "link": "https://www.gpone.com/it/2026/10/31/motogp/bezzecchi-appena-ha-avuto-trenta-metri-liberi-si-e-vista-la-velocita-di-marc.html",
+      "fonte": "GPOne",
+      "data": "2026-10-31T09:06:57.000Z",
+      "immagine": "",
+      "sommario": "\"Credo che Alex e Marc abbiano ancora qualcosa in più, ma nella gara lunga si dovrà gestire. Oggi non sono riuscito a crearmi l'occasione di battagliare davvero, domani ci riproviamo\""
+    },
     {
       "id": "77d39488ed29",
       "serie": "motogp",
@@ -10,6 +60,26 @@
       "data": "2026-10-31T09:06:37.291Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/31/085113127-57bf68ec-97a1-460d-a374-5d78d0214759.jpeg",
       "sommario": "Il romagnolo porta l'Aprilia sul podio: \"Sono soddisfatto, anche se fatico con le gomme nuove. Ho commesso qualche errore di troppo, ma non ho mai pensato di poter combattere con Marc\""
+    },
+    {
+      "id": "dfbb41de6998",
+      "serie": "motogp",
+      "titolo": "Acosta: “Non mi aspettavo Ogura così veloce, sembravo una chicane mobile a confronto”",
+      "link": "https://www.gpone.com/it/2026/10/31/motogp/acosta-non-mi-aspettavo-ogura-cosi-veloce-sembravo-una-chicane-mobile-a-confronto.html",
+      "fonte": "GPOne",
+      "data": "2026-10-31T09:00:09.000Z",
+      "immagine": "",
+      "sommario": "“Mi è passato davvero vicino al via, ma per fortuna è andato tutto bene. Noi eravamo gli unici a non essere in lotta per nulla e ci siamo presi i rischi necessari. È una vittoria che sembra la prima”"
+    },
+    {
+      "id": "00ec3fa11388",
+      "serie": "motogp",
+      "titolo": "Bagnaia: \"Quando guardo i dati della mia guida, nemmeno mi riconosco più\"",
+      "link": "https://www.gpone.com/it/2026/10/31/motogp/bagnaia-quando-guardo-i-dati-della-mia-guida-nemmeno-mi-riconosco-piu.html",
+      "fonte": "GPOne",
+      "data": "2026-10-31T08:58:21.000Z",
+      "immagine": "",
+      "sommario": "Il 6° posto nella Sprint non consola Pecco: \"Posso fare meglio di così, l'ho fatto su questa pista 8 mesi fa. Il cupolino rotto in Q2? E' frustrazione, io ci provo e continuo a vedermi indietro\""
     },
     {
       "id": "09299a08886d",
