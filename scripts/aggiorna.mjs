@@ -340,6 +340,7 @@ async function aggiornaArrivi() {
   const vecchi = await leggiJson(DATI + 'arrivi.json', { arrivi: {} });
   const arrivi = Object.fromEntries(Object.entries(vecchi.arrivi || {}).filter(([, w]) => Object.values(w).some(x => recente(x.aggiornato, 14))));
   const piloti = (await leggiJson(DATI + 'piloti.json', { piloti: [] })).piloti;
+  const diagArrivi = {};
   for (const s of SERIE) {
     // più ricerche, ordinate per data (la ricerca per pertinenza a volte lascia fuori l'articolo più recente)
     const ricerche = s.id === 'sbk' ? ['Superbike classifica gara', 'Superbike ordine d\'arrivo']
@@ -350,6 +351,7 @@ async function aggiornaArrivi() {
       for (const p of await tenta(`Arrivi ${s.nome}`, async () => JSON.parse(await scarica(api)), [])) perLink.set(p.link, p);
     }
     const articoli = [...perLink.values()].sort((a, b) => b.date.localeCompare(a.date));
+    diagArrivi[s.id] = articoli.slice(0, 12).map(p => `${(p.date || '').slice(0, 16)} ${L.decodifica(p.title?.rendered || '')}`);
     for (const p of articoli.reverse()) {   // dal più vecchio: se ci sono correzioni vince l'ultimo articolo
       const titolo = L.decodifica(p.title?.rendered || '');
       const eArrivo = s.id === 'sbk' ? /ordine d.arrivo|classifica|risultat/i.test(titolo) && /gara[ -]?[12]|superpole race|race[ -]?[12]/i.test(titolo) : /ordine d.arrivo/i.test(titolo);
@@ -365,7 +367,7 @@ async function aggiornaArrivi() {
       log(`Arrivo ${s.nome} ${sessione}: ${r.classificati.length} classificati per ${gp}`);
     }
   }
-  await scriviJson(DATI + 'arrivi.json', { aggiornato: ADESSO.toISOString(), arrivi });
+  await scriviJson(DATI + 'arrivi.json', { aggiornato: ADESSO.toISOString(), arrivi, _ultimiArticoliLetti: diagArrivi });
 }
 
 /* ---------- Risultati in campionato degli ultimi anni (Wikipedia) ---------- */
