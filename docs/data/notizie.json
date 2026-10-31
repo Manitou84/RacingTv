@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-10-31T12:29:37.333Z",
+  "aggiornato": "2026-10-31T12:55:34.353Z",
   "articoli": [
+    {
+      "id": "973cec5a1862",
+      "serie": "motogp",
+      "titolo": "LIVE Bar Sport alle 18:00 - Marquez allunga a Sepang, ma il Qatar è un'incognita!",
+      "link": "https://www.gpone.com/it/2026/10/31/motogp/live-bar-sport-alle-18-00-marquez-allunga-a-sepang-ma-il-qatar-e-unincognita.html",
+      "fonte": "GPOne",
+      "data": "2026-10-31T12:55:00.000Z",
+      "immagine": "",
+      "sommario": "VIDEO - Acosta vince la Sprint, Marc vola a +19 su Martín, costretto al forfait. Ma sul Mondiale pesa l'incertezza di Lusail. Ne parliamo questa sera nel Bar Sport con Carletto Pernat"
+    },
+    {
+      "id": "4b77d6270ee3",
+      "serie": "motogp",
+      "titolo": "Petrucci: \"La MotoGP è diventata estrema, non invidio i piloti\"",
+      "link": "https://www.gpone.com/it/2026/10/31/motogp/petrucci-la-motogp-e-diventata-estrema-non-invidio-i-piloti.html",
+      "fonte": "GPOne",
+      "data": "2026-10-31T12:42:03.000Z",
+      "immagine": "",
+      "sommario": "VIDEO - Petrucci torna nel paddock della MotoGP da spettatore e racconta le sue impressioni su Bagnaia, Marquez e Bezzecchi. Poi parla del futuro: niente più SBK, ma sul tavolo ci sono MotoAmerica, BSB e persino la Dakar"
+    },
     {
       "id": "ffa2618328c4",
       "serie": "motogp",
