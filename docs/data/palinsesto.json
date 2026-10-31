@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-31T12:58:24.333Z",
+  "aggiornato": "2026-10-31T13:09:25.274Z",
   "weekend": [
     {
       "id": "motogp-gp-australia-2026",
@@ -117,6 +117,220 @@
       ]
     },
     {
+      "id": "motogp-gp-malesia-2026",
+      "serie": "motogp",
+      "gp": "GP Malesia",
+      "sessioni": [
+        {
+          "classe": "Moto3",
+          "sessione": "Prove libere 1",
+          "inizio": "2026-10-30T01:00:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "Moto2",
+          "sessione": "Prove libere 1",
+          "inizio": "2026-10-30T01:50:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "MotoGP",
+          "sessione": "Prove libere 1",
+          "inizio": "2026-10-30T02:45:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "Moto3",
+          "sessione": "Pre-qualifiche",
+          "inizio": "2026-10-30T05:15:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "Moto2",
+          "sessione": "Pre-qualifiche",
+          "inizio": "2026-10-30T06:05:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "MotoGP",
+          "sessione": "Pre-qualifiche",
+          "inizio": "2026-10-30T07:00:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "Moto3",
+          "sessione": "Prove libere 2",
+          "inizio": "2026-10-31T00:40:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "Moto2",
+          "sessione": "Prove libere 2",
+          "inizio": "2026-10-31T01:25:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "MotoGP",
+          "sessione": "Prove libere 2",
+          "inizio": "2026-10-31T02:10:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "MotoGP",
+          "sessione": "Qualifiche Q1",
+          "inizio": "2026-10-31T02:50:00.000Z",
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-10-31T02:50:00.000Z"
+          },
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "MotoGP",
+          "sessione": "Qualifiche Q2",
+          "inizio": "2026-10-31T03:15:00.000Z",
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-10-31T03:15:00.000Z"
+          },
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "Moto3",
+          "sessione": "Qualifiche Q1",
+          "inizio": "2026-10-31T04:45:00.000Z",
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-10-31T04:45:00.000Z"
+          },
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "Moto3",
+          "sessione": "Qualifiche Q2",
+          "inizio": "2026-10-31T05:10:00.000Z",
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-10-31T05:10:00.000Z"
+          },
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "Moto2",
+          "sessione": "Qualifiche Q1",
+          "inizio": "2026-10-31T05:40:00.000Z",
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-10-31T05:40:00.000Z"
+          },
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "Moto2",
+          "sessione": "Qualifiche Q2",
+          "inizio": "2026-10-31T06:05:00.000Z",
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-10-31T06:05:00.000Z"
+          },
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "MotoGP",
+          "sessione": "Sprint",
+          "inizio": "2026-10-31T07:00:00.000Z",
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-10-31T07:00:00.000Z"
+          },
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "MotoGP",
+          "sessione": "Warm up",
+          "inizio": "2026-11-01T02:40:00.000Z",
+          "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "Moto3",
+          "sessione": "Gara",
+          "inizio": "2026-11-01T04:00:00.000Z",
+          "tv8": {
+            "tipo": "differita",
+            "inizio": "2026-11-01T10:00:00.000Z"
+          },
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "Moto2",
+          "sessione": "Gara",
+          "inizio": "2026-11-01T05:15:00.000Z",
+          "tv8": {
+            "tipo": "differita",
+            "inizio": "2026-11-01T11:15:00.000Z"
+          },
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "MotoGP",
+          "sessione": "Gara",
+          "inizio": "2026-11-01T07:00:00.000Z",
+          "tv8": {
+            "tipo": "differita",
+            "inizio": "2026-11-01T13:00:00.000Z"
+          },
+          "fonte": "OA Sport"
+        }
+      ],
+      "tv8Confermati": [
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01"
+      ],
+      "fonti": [
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/motogp-in-tv-domani-gp-malesia-2026-orari-1-novembre-streaming-programma-sky-differita-tv8/",
+          "titolo": "MotoGP in tv domani, GP Malesia 2026: orari 1° novembre, streaming, programma Sky, differita TV8"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/a-che-ora-la-motogp-su-tv8-oggi-gp-malesia-2026-programma-qualifiche-in-chiaro/",
+          "titolo": "A che ora la MotoGP su TV8 oggi, GP Malesia 2026: programma qualifiche in chiaro"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/motogp-domani-in-tv-gp-malesia-2026-orari-31-ottobre-streaming-programma-sky-e-tv8/",
+          "titolo": "MotoGP domani in tv, GP Malesia 2026: orari 31 ottobre, streaming, programma Sky e TV8"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/motogp-in-tv-gp-malesia-2026-orari-30-ottobre-streaming-programma-sky-e-tv8/",
+          "titolo": "MotoGP in tv, GP Malesia 2026: orari 30 ottobre, streaming, programma Sky e TV8"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/motogp-gp-malesia-2026-su-tv8-orari-in-chiaro-fine-settimana-qualifiche-e-gara/",
+          "titolo": "MotoGP, GP Malesia 2026 su TV8: orari in chiaro fine settimana, qualifiche e gara"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/motogp-gp-malesia-2026-programma-orari-tv-streaming-guida-sky-e-tv8/",
+          "titolo": "MotoGP, GP Malesia 2026: programma, orari, tv, streaming, guida SKY e TV8"
+        }
+      ]
+    },
+    {
       "id": "f1-gp-messico-2026",
       "serie": "f1",
       "gp": "GP Messico",
@@ -126,91 +340,78 @@
           "sessione": "Prove libere 1",
           "inizio": "2026-10-30T18:30:00.000Z",
           "tv8": null,
-          "fonte": "Sky Sport"
+          "fonte": "OA Sport"
         },
         {
           "classe": "F1",
           "sessione": "Prove libere 2",
           "inizio": "2026-10-30T22:00:00.000Z",
           "tv8": null,
-          "fonte": "Sky Sport"
+          "fonte": "OA Sport"
         },
         {
           "classe": "F1",
           "sessione": "Prove libere 3",
           "inizio": "2026-10-31T17:30:00.000Z",
           "tv8": null,
-          "fonte": "Sky Sport"
+          "fonte": "OA Sport"
         },
         {
           "classe": "F1",
           "sessione": "Qualifiche",
           "inizio": "2026-10-31T21:00:00.000Z",
-          "tv8": null,
-          "fonte": "Sky Sport"
+          "tv8": {
+            "tipo": "differita",
+            "inizio": "2026-10-31T22:30:00.000Z"
+          },
+          "fonte": "OA Sport"
         },
         {
           "classe": "F1",
           "sessione": "Gara",
           "inizio": "2026-11-01T20:00:00.000Z",
-          "tv8": null,
-          "fonte": "Sky Sport"
+          "tv8": {
+            "tipo": "differita",
+            "inizio": "2026-11-01T21:30:00.000Z"
+          },
+          "fonte": "OA Sport"
         }
       ],
-      "tv8Confermati": [],
-      "fonti": [
-        {
-          "nome": "Sky Sport",
-          "url": "https://sport.sky.it/formula-1/2026/10/30/formula-1-orari-gp-messico-2026",
-          "titolo": "F1, orari GP Messico: dove vederlo su Sky e Now in tv, streaming e repliche | Sky Sport"
-        },
-        {
-          "nome": "Sky Sport",
-          "url": "https://sport.sky.it/formula-1/2026/10/28/f1-orari-gp-messico-2026",
-          "titolo": "Formula 1, orari GP Messico 2026 a Città del Messico: dove vedere la F1 in tv | Sky Sport"
-        }
-      ]
-    },
-    {
-      "id": "motogp-gp-malesia-2026",
-      "serie": "motogp",
-      "gp": "GP Malesia",
-      "sessioni": [
-        {
-          "classe": "MotoGP",
-          "sessione": "Warm up",
-          "inizio": "2026-11-01T02:35:00.000Z",
-          "tv8": null,
-          "fonte": "Sky Sport"
-        },
-        {
-          "classe": "Moto3",
-          "sessione": "Gara",
-          "inizio": "2026-11-01T04:00:00.000Z",
-          "tv8": null,
-          "fonte": "Sky Sport"
-        },
-        {
-          "classe": "Moto2",
-          "sessione": "Gara",
-          "inizio": "2026-11-01T05:15:00.000Z",
-          "tv8": null,
-          "fonte": "Sky Sport"
-        },
-        {
-          "classe": "MotoGP",
-          "sessione": "Gara",
-          "inizio": "2026-11-01T07:00:00.000Z",
-          "tv8": null,
-          "fonte": "Sky Sport"
-        }
+      "tv8Confermati": [
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01"
       ],
-      "tv8Confermati": [],
       "fonti": [
         {
-          "nome": "Sky Sport",
-          "url": "https://sport.sky.it/motogp/2026/10/30/orari-motogp-gp-malesia-sepang-sky-now-tv8",
-          "titolo": "Orari MotoGp: Gp Malesia Sepang 2026 in tv e streaming su Sky, Now e TV8 | Sky Sport"
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/a-che-ora-la-f1-su-tv8-oggi-gp-messico-2026-programma-qualifiche-differita-in-chiaro/",
+          "titolo": "Quando la F1 su TV8 oggi, GP Messico 2026: orario qualifiche, differita in chiaro"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/f1-oggi-in-tv-gp-messico-2026-orari-fp3-e-qualifiche-streaming-programma-sky-e-tv8/",
+          "titolo": "F1 oggi in tv, GP Messico 2026: orari FP3 e qualifiche, streaming, programma, differita TV8"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/f1-oggi-in-tv-gp-messico-2026-orari-prove-libere-streaming-programma-sky-e-tv8/",
+          "titolo": "F1 stasera in tv, GP Messico 2026: orari prove libere, streaming, programma Sky e TV8"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/f1-gp-messico-2026-gli-orari-del-fine-settimana-dalle-prove-libere-alla-gara-guida-sky-e-tv8/",
+          "titolo": "F1, GP Messico 2026: gli orari del fine settimana dalle prove libere alla gara. Guida Sky e TV8"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/f1-gp-messico-2026-su-tv8-orari-in-chiaro-fine-settimana-qualifiche-e-gara/",
+          "titolo": "F1, GP Messico 2026 su TV8: orari in chiaro fine settimana, qualifiche e gara"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/f1-gp-messico-2026-programma-orari-tv-streaming-guida-sky-e-tv8/",
+          "titolo": "F1, GP Messico 2026: programma, orari, tv, streaming, guida SKY e TV8"
         }
       ]
     }
