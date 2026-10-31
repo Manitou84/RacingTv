@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-31T14:03:07.063Z",
+  "aggiornato": "2026-10-31T14:59:28.289Z",
   "_fonte": "Wikipedia (inglese), pagine dei singoli GP",
   "motogp": {
     "2025": {
@@ -1706,6 +1706,17 @@
         "futuro": false,
         "letto": "2026-10-31T06:49:31.286Z"
       },
+      "2026_Mexico_City_Grand_Prix": {
+        "data": "2026-11-01",
+        "circuito": "citta-del-messico",
+        "luogo": "Autódromo Hermanos Rodríguez Mexico City, Mexico",
+        "pole": null,
+        "giroVeloce": null,
+        "podio": [],
+        "sprint": [],
+        "futuro": true,
+        "letto": "2026-10-31T14:03:07.063Z"
+      },
       "2026_Bahrain_Grand_Prix": {
         "data": "2026-10-04",
         "circuito": "sepang",
@@ -1952,17 +1963,6 @@
         "sprint": [],
         "futuro": false,
         "letto": "2026-10-31T07:02:27.524Z"
-      },
-      "2026_Mexico_City_Grand_Prix": {
-        "data": "2026-11-01",
-        "circuito": "citta-del-messico",
-        "luogo": "Autódromo Hermanos Rodríguez Mexico City, Mexico",
-        "pole": null,
-        "giroVeloce": null,
-        "podio": [],
-        "sprint": [],
-        "futuro": true,
-        "letto": "2026-10-31T14:03:07.063Z"
       },
       "2026_São_Paulo_Grand_Prix": {
         "data": null,
