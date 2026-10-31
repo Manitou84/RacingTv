@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-10-31T08:12:33.670Z",
+  "aggiornato": "2026-10-31T09:06:37.291Z",
   "articoli": [
+    {
+      "id": "77d39488ed29",
+      "serie": "motogp",
+      "titolo": "Bezzecchi, Sprint di bronzo e pronto alla battaglia: \"Ma i Márquez rimangono favoriti\"",
+      "link": "https://www.motosprint.it/news/eventi/gp-malesia/2026/10/31-9253192/bezzecchi_sprint_di_bronzo_e_pronto_alla_battaglia_ma_i_mrquez_rimangono_favoriti",
+      "fonte": "Motosprint",
+      "data": "2026-10-31T09:06:37.291Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/31/085113127-57bf68ec-97a1-460d-a374-5d78d0214759.jpeg",
+      "sommario": "Il romagnolo porta l'Aprilia sul podio: \"Sono soddisfatto, anche se fatico con le gomme nuove. Ho commesso qualche errore di troppo, ma non ho mai pensato di poter combattere con Marc\""
+    },
     {
       "id": "09299a08886d",
       "serie": "motogp",
@@ -10,6 +20,16 @@
       "data": "2026-10-31T08:12:33.670Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/31/073913104-33c8d025-4603-49f1-b7bb-0f0b3552d394.jpg",
       "sommario": "Lo spagnolo doma le gocce cadute nel finale precedendo M. Marquez e Marco. 5° Di Giannantonio davanti a Bagnaia, a terra A.Marquez\n"
+    },
+    {
+      "id": "d461515d8412",
+      "serie": "motogp",
+      "titolo": "Alex Marquez: “Ho corso con il cuore, non con la testa, non sono caduto per la pioggia\"",
+      "link": "https://www.gpone.com/it/2026/10/31/motogp/alex-marquez-non-sono-caduto-per-la-pioggia-ho-commesso-un-piccolo-errore.html",
+      "fonte": "GPOne",
+      "data": "2026-10-31T08:09:27.000Z",
+      "immagine": "",
+      "sommario": "\" Ho commesso un piccolo errore. La pole non serve a niente se non porti a casa punti. Con la spalla soffro ancora ma non sono caduto per quello, ho avuto troppo fiducia dopo le qualifiche\""
     },
     {
       "id": "575a238691af",
