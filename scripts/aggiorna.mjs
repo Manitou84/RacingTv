@@ -503,43 +503,6 @@ async function aggiornaDettagliGp() {
   log(`dettagli GP: ${letture} pagine lette`);
 }
 
-/* ---------- Foto del casco dei piloti (Wikimedia Commons, licenze libere) ---------- */
-// Cerco per ogni pilota le foto il cui nome di file parla di casco; tengo la più recente.
-async function aggiornaCaschi() {
-  const piloti = (await leggiJson(DATI + 'piloti.json', { piloti: [] })).piloti;
-  const vecchi = (await leggiJson(DATI + 'caschi.json', { caschi: {} })).caschi || {};
-  const out = {}, UA = { 'User-Agent': 'RacingTv/1.0 (https://github.com/Manitou84/RacingTv)' };
-  const pulito = h => String(h || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim().slice(0, 80);
-  let letti = 0;
-  for (const p of piloti) {
-    const v = vecchi[p.id];
-    if (v && recente(v.letto, 7)) { out[p.id] = v; continue; }
-    if (letti >= 30) { if (v) out[p.id] = v; continue; }
-    letti++;
-    await new Promise(r => setTimeout(r, 400));
-    const cog = L.pulisci(p.cognome).replace(/[^a-z]/g, '');
-    const r = await tenta(`casco ${p.id}`, async () => {
-      const q = encodeURIComponent(`${p.nome.split(' ')[0]} ${p.cognome} helmet`);
-      const res = await fetch(`https://commons.wikimedia.org/w/api.php?action=query&format=json&generator=search&gsrnamespace=6&gsrlimit=20&gsrsearch=${q}&prop=imageinfo&iiprop=url|extmetadata&iiurlwidth=700`, { headers: UA, signal: AbortSignal.timeout(30000) });
-      if (!res.ok) throw new Error(`${res.status}`);
-      const pagine = Object.values((await res.json())?.query?.pages || {});
-      const buone = pagine.map(x => {
-        const nome = L.pulisci(x.title).replace(/[^a-z0-9 ]/g, ' ');
-        const ii = x.imageinfo?.[0], m = ii?.extmetadata || {};
-        const data = pulito(m.DateTimeOriginal?.value || m.DateTime?.value);
-        const anno = +((data.match(/(19|20)\d\d/) || [])[0] || (nome.match(/\b(20\d\d)\b/) || [])[1] || 0);
-        return { nome, anno, url: ii?.thumburl || ii?.url, pagina: ii?.descriptionurl, autore: pulito(m.Artist?.value), licenza: pulito(m.LicenseShortName?.value) };
-      }).filter(x => x.url && /\.(jpe?g|png|webp)/i.test(x.url) && x.nome.replace(/ /g, '').includes(cog) && /helmet|casco|casque|helm\b/.test(x.nome));
-      buone.sort((a, b) => b.anno - a.anno);
-      return buone[0] || null;
-    }, undefined);
-    if (r === undefined) { if (v) out[p.id] = v; continue; }
-    out[p.id] = r ? { ...r, nome: undefined, letto: ADESSO.toISOString() } : { letto: ADESSO.toISOString() };
-  }
-  await scriviJson(DATI + 'caschi.json', { aggiornato: ADESSO.toISOString(), _fonte: 'Wikimedia Commons', caschi: out });
-  log(`caschi: ${Object.values(out).filter(x => x.url).length} foto, ${letti} piloti cercati ora`);
-}
-
 /* ---------- Mappe dei tracciati ---------- */
 // Per ogni circuito cerca su Wikidata la «mappa del percorso» (proprietà P15) e la scarica da Wikimedia Commons
 // in docs/mappe/: così l'app la mostra dal proprio sito, senza far contattare altri server al telefono.
@@ -608,4 +571,3 @@ await aggiornaTest();
 await tenta('circuiti', aggiornaCircuiti);
 await aggiornaMappe();
 if (!FIXTURES) await tenta('dettagli gp', aggiornaDettagliGp);
-if (!FIXTURES) await tenta('caschi', aggiornaCaschi);

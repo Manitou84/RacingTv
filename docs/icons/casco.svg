@@ -1,21 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 56">
-  <!-- casco da moto in vista laterale, disegno originale nei colori di RacingTv -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 96">
+  <!-- casco integrale da pista visto di lato, disegno originale nei colori di RacingTv -->
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff3355"/><stop offset="1" stop-color="#b8001f"/></linearGradient>
-    <linearGradient id="v" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b4250"/><stop offset=".5" stop-color="#0d0f13"/><stop offset="1" stop-color="#1f8fa8"/></linearGradient>
+    <linearGradient id="calotta" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff4d68"/><stop offset=".55" stop-color="#e4002b"/><stop offset="1" stop-color="#9e0019"/>
+    </linearGradient>
+    <linearGradient id="visiera" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5a6372"/><stop offset=".35" stop-color="#14171c"/><stop offset=".75" stop-color="#0b0d10"/><stop offset="1" stop-color="#2aa4c0"/>
+    </linearGradient>
+    <linearGradient id="nero" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a2d33"/><stop offset="1" stop-color="#0c0d10"/></linearGradient>
+    <clipPath id="forma"><path d="M16 80 C6 72 3 56 8 40 C13 24 30 9 56 6 C76 4 96 10 107 26 C111 32 113 38 114 44 C117 50 119 57 118 64 C117 72 113 78 106 80 L90 82 C84 82 80 84 76 86 L42 88 C30 88 22 86 16 80 Z"/></clipPath>
   </defs>
+  <!-- ombra -->
+  <ellipse cx="62" cy="91" rx="46" ry="3.5" fill="#000" opacity=".35"/>
+  <!-- spoiler posteriore -->
+  <path d="M26 16 C18 16 8 18 1 22 C4 28 9 34 14 38 C14 30 18 22 26 16 Z" fill="url(#nero)" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/>
   <!-- calotta -->
-  <path d="M6 38 C4 20 18 4 36 4 C52 4 61 15 61 29 L61 36 C61 41 58 44 53 45 L44 46 L40 52 L14 52 C9 52 6 47 6 38 Z" fill="url(#g)" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/>
-  <!-- banda gialla e filetto bianco -->
-  <path d="M9 30 C14 18 26 10 40 10 C48 10 54 13 57 17" fill="none" stroke="#ffd23f" stroke-width="5" stroke-linecap="round"/>
-  <path d="M10 36 C16 25 27 18 40 18" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" opacity=".9"/>
+  <path d="M16 80 C6 72 3 56 8 40 C13 24 30 9 56 6 C76 4 96 10 107 26 C111 32 113 38 114 44 C117 50 119 57 118 64 C117 72 113 78 106 80 L90 82 C84 82 80 84 76 86 L42 88 C30 88 22 86 16 80 Z" fill="url(#calotta)"/>
+  <g clip-path="url(#forma)">
+    <!-- grafica: fascia gialla e filetti bianchi che corrono verso la visiera -->
+    <path d="M-4 70 C18 52 40 30 74 22 C88 19 100 20 112 24 L112 32 C98 28 86 28 74 31 C46 38 26 58 4 80 Z" fill="#ffd23f"/>
+    <path d="M-4 82 C20 62 42 42 72 35" fill="none" stroke="#fff" stroke-width="2.4"/>
+    <path d="M30 14 C44 9 62 8 78 12" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".28"/>
+    <!-- parte bassa e mentoniera scure -->
+    <path d="M8 74 C28 79 50 80 70 76 C86 72 100 64 120 60 L120 100 L0 100 Z" fill="url(#nero)"/>
+  </g>
+  <!-- bordo della calotta -->
+  <path d="M16 80 C6 72 3 56 8 40 C13 24 30 9 56 6 C76 4 96 10 107 26 C111 32 113 38 114 44 C117 50 119 57 118 64 C117 72 113 78 106 80 L90 82 C84 82 80 84 76 86 L42 88 C30 88 22 86 16 80 Z" fill="none" stroke="#fff" stroke-width="2.2" stroke-linejoin="round"/>
   <!-- visiera -->
-  <path d="M33 22 C42 20 52 21 61 26 L61 33 C53 31 42 31 34 33 C31 33 30 23 33 22 Z" fill="url(#v)" stroke="#0d0f13" stroke-width="1.5"/>
-  <path d="M38 24 C44 23 50 23.5 56 25.5" stroke="#fff" stroke-width="1.6" stroke-linecap="round" opacity=".6"/>
-  <!-- mentoniera, presa d'aria e spoiler -->
-  <path d="M40 46 L53 45 C57 44 60 41 61 36 L50 37 C46 38 42 41 40 46 Z" fill="#14161a"/>
-  <rect x="47" y="39" width="7" height="2" rx="1" fill="#ffd23f"/>
-  <path d="M8 26 L2 24 L5 32 Z" fill="#14161a" stroke="#fff" stroke-width="1.5" stroke-linejoin="round"/>
-  <!-- bordino inferiore -->
-  <path d="M14 52 L40 52" stroke="#14161a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M54 36 C56 31 63 29 72 29 C88 29 102 33 112 40 C115 45 115 51 113 55 C100 54 84 54 68 56 C60 57 55 53 53 46 Z" fill="url(#visiera)" stroke="#0b0d10" stroke-width="1.6"/>
+  <path d="M62 36 C74 34 88 35 102 39" fill="none" stroke="#fff" stroke-width="1.6" stroke-linecap="round" opacity=".55"/>
+  <!-- perno e linguetta della visiera -->
+  <circle cx="52" cy="45" r="4.2" fill="#1a1c20" stroke="#fff" stroke-width="1.4"/>
+  <rect x="107" y="53" width="7" height="3.2" rx="1.2" fill="#ffd23f"/>
+  <!-- prese d'aria: frontale in alto e sulla mentoniera -->
+  <path d="M70 12 L84 11 L86 15 L72 16 Z" fill="#14161a"/>
+  <path d="M104 63 L114 62 M104 67 L114 66 M104 71 L112 70" stroke="#ffd23f" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- bordino del collo -->
+  <path d="M18 81 C26 86 34 88 42 88 L76 86" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round" opacity=".6"/>
 </svg>
