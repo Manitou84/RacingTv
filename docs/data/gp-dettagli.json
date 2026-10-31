@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-31T06:22:30.792Z",
+  "aggiornato": "2026-10-31T06:49:31.286Z",
   "_fonte": "Wikipedia (inglese), pagine dei singoli GP",
   "motogp": {
     "2025": {
@@ -896,7 +896,7 @@
           "Fabio Di Giannantonio"
         ],
         "futuro": true,
-        "letto": "2026-10-31T06:22:30.792Z"
+        "letto": "2026-10-31T06:49:31.286Z"
       },
       "2026_Qatar_motorcycle_Grand_Prix": {
         "data": null,
@@ -906,7 +906,7 @@
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-10-31T06:22:30.792Z"
+        "letto": "2026-10-31T06:49:31.286Z"
       },
       "2026_Thailand_motorcycle_Grand_Prix": {
         "data": "2026-03-01",
@@ -995,7 +995,7 @@
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-10-31T06:22:30.792Z"
+        "letto": "2026-10-31T06:49:31.286Z"
       },
       "2026_Portuguese_motorcycle_Grand_Prix": {
         "data": null,
@@ -1005,7 +1005,7 @@
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-10-31T06:22:30.792Z"
+        "letto": "2026-10-31T06:49:31.286Z"
       },
       "2026_Valencian_Community_motorcycle_Grand_Prix": {
         "data": null,
@@ -1015,7 +1015,7 @@
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-10-31T06:22:30.792Z"
+        "letto": "2026-10-31T06:49:31.286Z"
       }
     }
   },
@@ -1062,8 +1062,876 @@
         "sprint": [],
         "futuro": false,
         "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2025_Singapore_Grand_Prix": {
+        "data": "2025-10-05",
+        "circuito": "singapore",
+        "luogo": "Marina Bay Street Circuit Marina Bay, Singapore",
+        "pole": {
+          "chi": "George Russell",
+          "tempo": "1:29.158"
+        },
+        "giroVeloce": {
+          "chi": "Lewis Hamilton",
+          "tempo": "1:33.808"
+        },
+        "podio": [
+          "George Russell",
+          "Max Verstappen",
+          "Lando Norris"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2025_Australian_Grand_Prix": {
+        "data": "2025-03-16",
+        "circuito": "melbourne",
+        "luogo": "Albert Park Circuit, Melbourne, Victoria, Australia",
+        "pole": {
+          "chi": "Lando Norris",
+          "tempo": "1:15.096"
+        },
+        "giroVeloce": {
+          "chi": "Lando Norris",
+          "tempo": "1:22.167"
+        },
+        "podio": [
+          "Lando Norris",
+          "Max Verstappen",
+          "George Russell"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2025_Chinese_Grand_Prix": {
+        "data": "2025-03-23",
+        "circuito": "shanghai",
+        "luogo": "Shanghai International Circuit Shanghai, China",
+        "pole": {
+          "chi": "Oscar Piastri",
+          "tempo": "1:30.641"
+        },
+        "giroVeloce": {
+          "chi": "Lando Norris",
+          "tempo": "1:35.454"
+        },
+        "podio": [
+          "Oscar Piastri",
+          "Lando Norris",
+          "George Russell"
+        ],
+        "sprint": [
+          "Lewis Hamilton",
+          "Oscar Piastri",
+          "Max Verstappen"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2025_Japanese_Grand_Prix": {
+        "data": "2025-04-06",
+        "circuito": "suzuka",
+        "luogo": "Suzuka International Racing Course Suzuka, Mie Prefecture, Japan",
+        "pole": {
+          "chi": "Max Verstappen",
+          "tempo": "1:26.983"
+        },
+        "giroVeloce": {
+          "chi": "Kimi Antonelli",
+          "tempo": "1:30.965"
+        },
+        "podio": [
+          "Max Verstappen",
+          "Lando Norris",
+          "Oscar Piastri"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2025_Emilia_Romagna_Grand_Prix": {
+        "data": "2025-05-18",
+        "circuito": "buriram",
+        "luogo": "Autodromo Internazionale Enzo e Dino Ferrari Imola, Emilia-Romagna, Italy",
+        "pole": {
+          "chi": "Oscar Piastri",
+          "tempo": "1:14.670"
+        },
+        "giroVeloce": {
+          "chi": "Max Verstappen",
+          "tempo": "1:17.988"
+        },
+        "podio": [
+          "Max Verstappen",
+          "Lando Norris",
+          "Oscar Piastri"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2025_Miami_Grand_Prix": {
+        "data": null,
+        "circuito": "miami",
+        "luogo": "Miami International Autodrome, Miami Gardens, Florida, US",
+        "pole": {
+          "chi": "Max Verstappen",
+          "tempo": "1:26.204"
+        },
+        "giroVeloce": {
+          "chi": "Lando Norris",
+          "tempo": "1:29.746"
+        },
+        "podio": [
+          "Oscar Piastri",
+          "Lando Norris",
+          "George Russell"
+        ],
+        "sprint": [
+          "Lando Norris",
+          "Oscar Piastri",
+          "Lewis Hamilton"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2025_Austrian_Grand_Prix": {
+        "data": "2025-06-29",
+        "circuito": "spielberg",
+        "luogo": "Red Bull Ring, Spielberg, Styria, Austria",
+        "pole": {
+          "chi": "Lando Norris",
+          "tempo": "1:03.971"
+        },
+        "giroVeloce": {
+          "chi": "Oscar Piastri",
+          "tempo": "1:07.924"
+        },
+        "podio": [
+          "Lando Norris",
+          "Oscar Piastri",
+          "Charles Leclerc"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2025_Spanish_Grand_Prix": {
+        "data": "2025-06-01",
+        "circuito": "barcellona",
+        "luogo": "Circuit de Barcelona-Catalunya, Montmeló, Spain",
+        "pole": {
+          "chi": "Oscar Piastri",
+          "tempo": "1:11.546"
+        },
+        "giroVeloce": {
+          "chi": "Oscar Piastri",
+          "tempo": "1:15.743"
+        },
+        "podio": [
+          "Oscar Piastri",
+          "Lando Norris",
+          "Charles Leclerc"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2025_Bahrain_Grand_Prix": {
+        "data": "2025-04-13",
+        "circuito": null,
+        "luogo": "Bahrain International Circuit Sakhir, Bahrain",
+        "pole": {
+          "chi": "Oscar Piastri",
+          "tempo": "1:29.841"
+        },
+        "giroVeloce": {
+          "chi": "Oscar Piastri",
+          "tempo": "1:35.140"
+        },
+        "podio": [
+          "Oscar Piastri",
+          "George Russell",
+          "Lando Norris"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2025_Saudi_Arabian_Grand_Prix": {
+        "data": "2025-04-20",
+        "circuito": "yas-marina",
+        "luogo": "Jeddah Corniche Circuit Jeddah, Saudi Arabia",
+        "pole": {
+          "chi": "Max Verstappen",
+          "tempo": "1:27.294"
+        },
+        "giroVeloce": {
+          "chi": "Lando Norris",
+          "tempo": "1:31.778"
+        },
+        "podio": [
+          "Oscar Piastri",
+          "Max Verstappen",
+          "Charles Leclerc"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2025_Monaco_Grand_Prix": {
+        "data": "2025-05-25",
+        "circuito": "monaco",
+        "luogo": "Circuit de Monaco La Condamine and Monte Carlo, Monaco",
+        "pole": {
+          "chi": "Lando Norris",
+          "tempo": "1:09.954"
+        },
+        "giroVeloce": {
+          "chi": "Lando Norris",
+          "tempo": "1:13.221"
+        },
+        "podio": [
+          "Lando Norris",
+          "Charles Leclerc",
+          "Oscar Piastri"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2025_Canadian_Grand_Prix": {
+        "data": "2025-06-15",
+        "circuito": "montreal",
+        "luogo": "Circuit Gilles Villeneuve, Montréal, Quebec, Canada",
+        "pole": {
+          "chi": "George Russell",
+          "tempo": "1:10.899"
+        },
+        "giroVeloce": {
+          "chi": "George Russell",
+          "tempo": "1:14.119"
+        },
+        "podio": [
+          "George Russell",
+          "Max Verstappen",
+          "Kimi Antonelli"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2025_British_Grand_Prix": {
+        "data": "2025-07-06",
+        "circuito": "silverstone",
+        "luogo": "Silverstone Circuit Silverstone, United Kingdom",
+        "pole": {
+          "chi": "Max Verstappen",
+          "tempo": "1:24.892"
+        },
+        "giroVeloce": {
+          "chi": "Oscar Piastri",
+          "tempo": "1:29.337"
+        },
+        "podio": [
+          "Lando Norris",
+          "Oscar Piastri",
+          "Nico Hülkenberg"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2025_Belgian_Grand_Prix": {
+        "data": "2025-07-27",
+        "circuito": "spa",
+        "luogo": "Circuit de Spa-Francorchamps Stavelot, Belgium",
+        "pole": {
+          "chi": "Lando Norris",
+          "tempo": "1:40.562"
+        },
+        "giroVeloce": {
+          "chi": "Kimi Antonelli",
+          "tempo": "1:44.861"
+        },
+        "podio": [
+          "Oscar Piastri",
+          "Lando Norris",
+          "Charles Leclerc"
+        ],
+        "sprint": [
+          "Max Verstappen",
+          "Oscar Piastri",
+          "Lando Norris"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2025_Dutch_Grand_Prix": {
+        "data": "2025-08-31",
+        "circuito": "zandvoort",
+        "luogo": "Circuit Zandvoort Zandvoort, Netherlands",
+        "pole": {
+          "chi": "Oscar Piastri",
+          "tempo": "1:08.662"
+        },
+        "giroVeloce": {
+          "chi": "Oscar Piastri",
+          "tempo": "1:12.271"
+        },
+        "podio": [
+          "Oscar Piastri",
+          "Max Verstappen",
+          "Isack Hadjar"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2025_Italian_Grand_Prix": {
+        "data": "2025-09-07",
+        "circuito": "monza",
+        "luogo": "Monza Circuit Monza, Italy",
+        "pole": {
+          "chi": "Max Verstappen",
+          "tempo": "1:18.792"
+        },
+        "giroVeloce": {
+          "chi": "Lando Norris",
+          "tempo": "1:20.901"
+        },
+        "podio": [
+          "Max Verstappen",
+          "Lando Norris",
+          "Oscar Piastri"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2025_Mexico_City_Grand_Prix": {
+        "data": "2025-10-26",
+        "circuito": "citta-del-messico",
+        "luogo": "Autódromo Hermanos Rodríguez Mexico City, Mexico",
+        "pole": {
+          "chi": "Lando Norris",
+          "tempo": "1:15.586"
+        },
+        "giroVeloce": {
+          "chi": "George Russell",
+          "tempo": "1:20.052"
+        },
+        "podio": [
+          "Lando Norris",
+          "Charles Leclerc",
+          "Max Verstappen"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2025_Azerbaijan_Grand_Prix": {
+        "data": "2025-09-21",
+        "circuito": "baku",
+        "luogo": "Baku City Circuit Baku, Azerbaijan",
+        "pole": {
+          "chi": "Max Verstappen",
+          "tempo": "1:41.117"
+        },
+        "giroVeloce": {
+          "chi": "Max Verstappen",
+          "tempo": "1:43.388"
+        },
+        "podio": [
+          "Max Verstappen",
+          "George Russell",
+          "Carlos Sainz Jr."
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2025_United_States_Grand_Prix": {
+        "data": null,
+        "circuito": "austin",
+        "luogo": "Circuit of the Americas Austin, Texas, United States",
+        "pole": {
+          "chi": "Max Verstappen",
+          "tempo": "1:32.510"
+        },
+        "giroVeloce": {
+          "chi": "Kimi Antonelli",
+          "tempo": "1:37.577"
+        },
+        "podio": [
+          "Max Verstappen",
+          "Lando Norris",
+          "Charles Leclerc"
+        ],
+        "sprint": [
+          "Max Verstappen",
+          "George Russell",
+          "Carlos Sainz Jr."
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2025_São_Paulo_Grand_Prix": {
+        "data": "2025-11-09",
+        "circuito": "monaco",
+        "luogo": "Autódromo José Carlos Pace São Paulo, Brazil",
+        "pole": {
+          "chi": "Lando Norris",
+          "tempo": "1:09.511"
+        },
+        "giroVeloce": {
+          "chi": "Alexander Albon",
+          "tempo": "1:12.400"
+        },
+        "podio": [
+          "Lando Norris",
+          "Kimi Antonelli",
+          "Max Verstappen"
+        ],
+        "sprint": [
+          "Lando Norris",
+          "Kimi Antonelli",
+          "George Russell"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2025_Las_Vegas_Grand_Prix": {
+        "data": null,
+        "circuito": "las-vegas",
+        "luogo": "Las Vegas Strip Circuit Paradise, Nevada, United States",
+        "pole": {
+          "chi": "Lando Norris",
+          "tempo": "1:47.934"
+        },
+        "giroVeloce": {
+          "chi": "Max Verstappen",
+          "tempo": "1:33.365"
+        },
+        "podio": [
+          "Max Verstappen",
+          "George Russell",
+          "Kimi Antonelli"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2025_Qatar_Grand_Prix": {
+        "data": "2025-11-30",
+        "circuito": "lusail",
+        "luogo": "Lusail International Circuit Lusail, Qatar",
+        "pole": {
+          "chi": "Oscar Piastri",
+          "tempo": "1:19.387"
+        },
+        "giroVeloce": {
+          "chi": "Oscar Piastri",
+          "tempo": "1:22.996"
+        },
+        "podio": [
+          "Max Verstappen",
+          "Oscar Piastri",
+          "Carlos Sainz Jr."
+        ],
+        "sprint": [
+          "Oscar Piastri",
+          "George Russell",
+          "Lando Norris"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2025_Speedway_Grand_Prix": {
+        "data": null,
+        "circuito": null,
+        "pole": null,
+        "giroVeloce": null,
+        "podio": [],
+        "sprint": [],
+        "futuro": true,
+        "letto": "2026-10-31T06:49:31.286Z"
       }
     },
-    "2026": {}
+    "2026": {
+      "2026_Saudi_Arabian_Grand_Prix": {
+        "data": "2026-04-19",
+        "circuito": "yas-marina",
+        "luogo": "Jeddah Corniche Circuit Jeddah, Saudi Arabia",
+        "pole": null,
+        "giroVeloce": null,
+        "podio": [],
+        "sprint": [],
+        "futuro": true,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2026_Australian_Grand_Prix": {
+        "data": "2026-03-08",
+        "circuito": "melbourne",
+        "luogo": "Albert Park Circuit, Melbourne, Victoria, Australia",
+        "pole": {
+          "chi": "George Russell",
+          "tempo": "1:18.518"
+        },
+        "giroVeloce": {
+          "chi": "Max Verstappen",
+          "tempo": "1:22.091"
+        },
+        "podio": [
+          "George Russell",
+          "Kimi Antonelli",
+          "Charles Leclerc"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2026_Chinese_Grand_Prix": {
+        "data": "2026-03-15",
+        "circuito": "shanghai",
+        "luogo": "Shanghai International Circuit Shanghai, China",
+        "pole": {
+          "chi": "Kimi Antonelli",
+          "tempo": "1:32.064"
+        },
+        "giroVeloce": {
+          "chi": "Kimi Antonelli",
+          "tempo": "1:35.275"
+        },
+        "podio": [
+          "Kimi Antonelli",
+          "George Russell",
+          "Lewis Hamilton"
+        ],
+        "sprint": [
+          "George Russell",
+          "Charles Leclerc",
+          "Lewis Hamilton"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2026_Dutch_Grand_Prix": {
+        "data": "2026-08-23",
+        "circuito": "zandvoort",
+        "luogo": "Circuit Zandvoort Zandvoort, Netherlands",
+        "pole": {
+          "chi": "Lando Norris",
+          "tempo": "1:11.163"
+        },
+        "giroVeloce": {
+          "chi": "Charles Leclerc",
+          "tempo": "1:14.230"
+        },
+        "podio": [
+          "Lando Norris",
+          "Kimi Antonelli",
+          "George Russell"
+        ],
+        "sprint": [
+          "George Russell",
+          "Charles Leclerc",
+          "Lando Norris"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2026_Italian_Grand_Prix": {
+        "data": "2026-09-06",
+        "circuito": "monza",
+        "luogo": "Monza Circuit Monza, Italy",
+        "pole": {
+          "chi": "Pierre Gasly",
+          "tempo": "1:21.786"
+        },
+        "giroVeloce": {
+          "chi": "Kimi Antonelli",
+          "tempo": "1:23.504"
+        },
+        "podio": [
+          "Kimi Antonelli",
+          "George Russell",
+          "Max Verstappen"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2026_Spanish_Grand_Prix": {
+        "data": "2026-09-13",
+        "circuito": "madrid",
+        "luogo": "Madring, Madrid, Spain",
+        "pole": {
+          "chi": "Lando Norris",
+          "tempo": "1:31.824"
+        },
+        "giroVeloce": {
+          "chi": "George Russell",
+          "tempo": "1:35.587"
+        },
+        "podio": [
+          "Kimi Antonelli",
+          "Max Verstappen",
+          "Lando Norris"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2026_Azerbaijan_Grand_Prix": {
+        "data": "2026-09-26",
+        "circuito": "baku",
+        "luogo": "Baku City Circuit Baku, Azerbaijan",
+        "pole": {
+          "chi": "George Russell",
+          "tempo": "1:42.526"
+        },
+        "giroVeloce": {
+          "chi": "George Russell",
+          "tempo": "1:44.916"
+        },
+        "podio": [
+          "George Russell",
+          "Max Verstappen",
+          "Isack Hadjar"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2026_Bahrain_Grand_Prix": {
+        "data": "2026-10-04",
+        "circuito": "sepang",
+        "luogo": "Sepang International Circuit Sepang, Selangor, Malaysia",
+        "pole": {
+          "chi": "Max Verstappen",
+          "tempo": "1:35.130"
+        },
+        "giroVeloce": {
+          "chi": "Max Verstappen",
+          "tempo": "1:38.220"
+        },
+        "podio": [
+          "Max Verstappen",
+          "Kimi Antonelli",
+          "Lewis Hamilton"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2026_Japanese_Grand_Prix": {
+        "data": "2026-03-29",
+        "circuito": "suzuka",
+        "luogo": "Suzuka International Racing Course Suzuka, Mie Prefecture, Japan",
+        "pole": {
+          "chi": "Kimi Antonelli",
+          "tempo": "1:28.778"
+        },
+        "giroVeloce": {
+          "chi": "Kimi Antonelli",
+          "tempo": "1:32.432"
+        },
+        "podio": [
+          "Kimi Antonelli",
+          "Oscar Piastri",
+          "Charles Leclerc"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2026_Miami_Grand_Prix": {
+        "data": null,
+        "circuito": "miami",
+        "luogo": "Miami International Autodrome, Miami Gardens, Florida, US",
+        "pole": {
+          "chi": "Kimi Antonelli",
+          "tempo": "1:27.798"
+        },
+        "giroVeloce": {
+          "chi": "Lando Norris",
+          "tempo": "1:31.869"
+        },
+        "podio": [
+          "Kimi Antonelli",
+          "Lando Norris",
+          "Oscar Piastri"
+        ],
+        "sprint": [
+          "Lando Norris",
+          "Oscar Piastri",
+          "Charles Leclerc"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2026_Monaco_Grand_Prix": {
+        "data": "2026-06-07",
+        "circuito": "monaco",
+        "luogo": "Circuit de Monaco La Condamine and Monte Carlo, Monaco",
+        "pole": {
+          "chi": "Kimi Antonelli",
+          "tempo": "1:12.051"
+        },
+        "giroVeloce": {
+          "chi": "Kimi Antonelli",
+          "tempo": "1:13.481"
+        },
+        "podio": [
+          "Kimi Antonelli",
+          "Lewis Hamilton",
+          "Isack Hadjar"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2026_Canadian_Grand_Prix": {
+        "data": "2026-05-24",
+        "circuito": "montreal",
+        "luogo": "Circuit Gilles Villeneuve, Montréal, Quebec, Canada",
+        "pole": {
+          "chi": "George Russell",
+          "tempo": "1:12.578"
+        },
+        "giroVeloce": {
+          "chi": "Kimi Antonelli",
+          "tempo": "1:14.210"
+        },
+        "podio": [
+          "Kimi Antonelli",
+          "Lewis Hamilton",
+          "Max Verstappen"
+        ],
+        "sprint": [
+          "George Russell",
+          "Lando Norris",
+          "Kimi Antonelli"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2026_Austrian_Grand_Prix": {
+        "data": "2026-06-28",
+        "circuito": "spielberg",
+        "luogo": "Red Bull Ring, Spielberg, Austria",
+        "pole": {
+          "chi": "George Russell",
+          "tempo": "1:06.113"
+        },
+        "giroVeloce": {
+          "chi": "Kimi Antonelli",
+          "tempo": "1:10.374"
+        },
+        "podio": [
+          "George Russell",
+          "Max Verstappen",
+          "Kimi Antonelli"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2026_British_Grand_Prix": {
+        "data": "2026-07-05",
+        "circuito": "silverstone",
+        "luogo": "Silverstone Circuit Silverstone, United Kingdom",
+        "pole": {
+          "chi": "Kimi Antonelli",
+          "tempo": "1:28.111"
+        },
+        "giroVeloce": {
+          "chi": "Kimi Antonelli",
+          "tempo": "1:31.777"
+        },
+        "podio": [
+          "Charles Leclerc",
+          "George Russell",
+          "Lewis Hamilton"
+        ],
+        "sprint": [
+          "Kimi Antonelli",
+          "Lewis Hamilton",
+          "Lando Norris"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2026_Belgian_Grand_Prix": {
+        "data": "2026-07-19",
+        "circuito": "spa",
+        "luogo": "Circuit de Spa-Francorchamps Stavelot, Belgium",
+        "pole": {
+          "chi": "Kimi Antonelli",
+          "tempo": "1:44.361"
+        },
+        "giroVeloce": {
+          "chi": "Lando Norris",
+          "tempo": "1:48.890"
+        },
+        "podio": [
+          "Kimi Antonelli",
+          "Charles Leclerc",
+          "Max Verstappen"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2026_Hungarian_Grand_Prix": {
+        "data": "2026-07-26",
+        "circuito": "hungaroring",
+        "luogo": "Hungaroring Mogyoród, Hungary",
+        "pole": {
+          "chi": "Lando Norris",
+          "tempo": "1:17.207"
+        },
+        "giroVeloce": {
+          "chi": "Charles Leclerc",
+          "tempo": "1:22.000"
+        },
+        "podio": [
+          "Lando Norris",
+          "Max Verstappen",
+          "Kimi Antonelli"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2026_Singapore_Grand_Prix": {
+        "data": "2026-10-11",
+        "circuito": "singapore",
+        "luogo": "Marina Bay Street Circuit Marina Bay, Singapore",
+        "pole": {
+          "chi": "Max Verstappen",
+          "tempo": "1:31.373"
+        },
+        "giroVeloce": {
+          "chi": "Charles Leclerc",
+          "tempo": "1:35.202"
+        },
+        "podio": [
+          "Max Verstappen",
+          "Charles Leclerc",
+          "Kimi Antonelli"
+        ],
+        "sprint": [
+          "Max Verstappen",
+          "Lewis Hamilton",
+          "Charles Leclerc"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      }
+    }
   }
 }
