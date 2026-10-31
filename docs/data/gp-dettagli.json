@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-31T14:59:28.289Z",
+  "aggiornato": "2026-10-31T15:30:25.640Z",
   "_fonte": "Wikipedia (inglese), pagine dei singoli GP",
   "motogp": {
     "2025": {
@@ -993,9 +993,13 @@
         },
         "giroVeloce": null,
         "podio": [],
-        "sprint": [],
+        "sprint": [
+          "Pedro Acosta",
+          "Marc Márquez",
+          "Marco Bezzecchi"
+        ],
         "futuro": true,
-        "letto": "2026-10-31T14:03:07.063Z"
+        "letto": "2026-10-31T15:30:25.640Z"
       },
       "2026_Portuguese_motorcycle_Grand_Prix": {
         "data": null,
@@ -1685,6 +1689,17 @@
         "futuro": false,
         "letto": "2026-10-31T06:49:31.286Z"
       },
+      "2026_Mexico_City_Grand_Prix": {
+        "data": "2026-11-01",
+        "circuito": "citta-del-messico",
+        "luogo": "Autódromo Hermanos Rodríguez Mexico City, Mexico",
+        "pole": null,
+        "giroVeloce": null,
+        "podio": [],
+        "sprint": [],
+        "futuro": true,
+        "letto": "2026-10-31T15:30:25.640Z"
+      },
       "2026_Azerbaijan_Grand_Prix": {
         "data": "2026-09-26",
         "circuito": "baku",
@@ -1705,17 +1720,6 @@
         "sprint": [],
         "futuro": false,
         "letto": "2026-10-31T06:49:31.286Z"
-      },
-      "2026_Mexico_City_Grand_Prix": {
-        "data": "2026-11-01",
-        "circuito": "citta-del-messico",
-        "luogo": "Autódromo Hermanos Rodríguez Mexico City, Mexico",
-        "pole": null,
-        "giroVeloce": null,
-        "podio": [],
-        "sprint": [],
-        "futuro": true,
-        "letto": "2026-10-31T14:03:07.063Z"
       },
       "2026_Bahrain_Grand_Prix": {
         "data": "2026-10-04",
