@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-31T17:00:55.866Z",
+  "aggiornato": "2026-10-31T17:56:51.999Z",
   "articoli": [
     {
       "fonte": "Sky Sport",
@@ -12,6 +12,19 @@
         "Moto3 Gara 2026-11-01T04:00:00.000Z",
         "Moto2 Gara 2026-11-01T05:15:00.000Z",
         "MotoGP Gara 2026-11-01T07:00:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
+      "titolo": "MotoGP su TV8, GP Malesia 2026: quando la gara in chiaro, orario differita",
+      "url": "https://www.oasport.it/2026/10/motogp-su-tv8-gp-malesia-2026-quando-la-gara-in-chiaro-orario-differita/",
+      "gp": "GP Malesia",
+      "serie": "motogp",
+      "sessioni": [
+        "MotoGP Warm up 2026-11-01T02:40:00.000Z",
+        "Moto3 Gara 2026-11-01T04:00:00.000Z TV8 differita 2026-11-01T09:50:00.000Z",
+        "Moto2 Gara 2026-11-01T05:15:00.000Z TV8 differita 2026-11-01T11:05:00.000Z",
+        "MotoGP Gara 2026-11-01T07:00:00.000Z TV8 differita 2026-11-01T12:55:00.000Z"
       ]
     },
     {
@@ -151,19 +164,6 @@
         "Moto3 Gara 2026-10-24T22:00:00.000Z TV8 differita 2026-10-25T10:00:00.000Z",
         "Moto2 Gara 2026-10-25T01:15:00.000Z TV8 differita 2026-10-25T11:20:00.000Z",
         "MotoGP Gara 2026-10-25T03:00:00.000Z TV8 differita 2026-10-25T13:00:00.000Z"
-      ]
-    },
-    {
-      "fonte": "OA Sport",
-      "titolo": "MotoGP su TV8, GP Australia 2026: quando la gara in chiaro, orario e programma",
-      "url": "https://www.oasport.it/2026/10/motogp-su-tv8-gp-australia-2026-quando-la-gara-in-chiaro-orario-e-programma/",
-      "gp": "GP Australia",
-      "serie": "motogp",
-      "sessioni": [
-        "MotoGP Warm up 2026-10-24T22:40:00.000Z",
-        "Moto3 Gara 2026-10-25T01:00:00.000Z TV8 differita 2026-10-25T09:45:00.000Z",
-        "Moto2 Gara 2026-10-25T01:15:00.000Z TV8 differita 2026-10-25T11:00:00.000Z",
-        "MotoGP Gara 2026-10-25T03:00:00.000Z TV8 differita 2026-10-25T12:45:00.000Z"
       ]
     },
     {
