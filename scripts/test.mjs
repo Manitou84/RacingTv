@@ -121,3 +121,12 @@ console.log('Notti ok');
   assert.equal(r.classificati[5].id, null);
   console.log('Ordine d’arrivo ok');
 }
+
+// «Domenica 1° novembre»: il simbolo del grado non deve far perdere il giorno
+{
+  const html = '<p><strong>Sabato 31 ottobre</strong></p><p>Ore 08.00 Sprint MotoGP - Diretta tv su Sky Sport MotoGP e TV8</p><p><strong>Domenica 1° novembre</strong></p><p>Ore 08.00 Gara MotoGP - Diretta tv su Sky Sport MotoGP</p>';
+  const r = L.parseOA(html, 'MotoGP, GP Malesia 2026: programma, orari, tv', 'https://www.oasport.it/2026/10/x/', 'motogp');
+  const gara = r.sessioni.find(s => s.sessione === 'Gara');
+  assert.equal(gara?.inizio, '2026-11-01T07:00:00.000Z', 'gara di domenica 1° novembre: ' + JSON.stringify(r.sessioni));
+  console.log('Primo del mese ok');
+}

@@ -529,3 +529,31 @@ button.matchpoint { width: 100%; border: 0; text-align: left; font: inherit; cur
   box-shadow: 0 0 0 2px var(--rosso), 0 10px 30px rgba(0,0,0,.6); background-color: #121418; background-repeat: no-repeat; pointer-events: none; }
 .lente[hidden] { display: none; }
 .trac-mappa figcaption::before { content: "Tieni il dito sulla mappa per ingrandire · "; }
+
+/* Barra anti-spoiler: la pista con le tappe del weekend */
+.barra-spoiler { margin: 14px 0 6px; padding: 12px 12px 14px; border-radius: 12px; background: linear-gradient(180deg, #24272d, #1a1c20); border: 1px solid var(--riga); }
+.bs-testa { display: flex; flex-direction: column; gap: 2px; margin-bottom: 10px; }
+.bs-testa strong { font-family: var(--display); font-weight: 800; font-size: 18px; text-transform: uppercase; }
+.bs-testa span { font-size: 13px; color: var(--grigio); }
+.bs-pista { position: relative; padding-top: 6px; }
+/* l'asfalto con la linea tratteggiata */
+.bs-pista::before { content: ""; position: absolute; left: calc(100% / (2 * (var(--n) + 1))); right: calc(100% / (2 * (var(--n) + 1))); top: 21px; height: 10px; border-radius: 5px;
+  background: repeating-linear-gradient(90deg, transparent 0 10px, rgba(255,255,255,.35) 10px 18px) center / 100% 2px no-repeat, #3a3e45; }
+.bs-tappe { position: relative; list-style: none; display: grid; grid-template-columns: repeat(calc(var(--n) + 1), 1fr); margin: 0; padding: 0; }
+.bs-via .bs-punto { border-style: dashed; }
+.bs-tappe button { display: grid; justify-items: center; gap: 4px; width: 100%; padding: 0; border: 0; background: none; color: inherit; font: inherit; cursor: pointer; }
+.bs-punto { width: 30px; height: 30px; border-radius: 6px; border: 3px solid #555b63; background: #1d1f23; position: relative; z-index: 1; }
+/* stile casella di partenza: righe bianche ai lati */
+.bs-tappe li:not(.bs-bandiera):not(.bs-via) .bs-punto::after { content: ""; position: absolute; inset: 4px; border-top: 3px solid rgba(255,255,255,.5); }
+.bs-nome { font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .02em; text-align: center; line-height: 1.1; }
+.bs-tappe small { font-size: 11px; color: var(--grigio); min-height: 13px; }
+.bs-tappe li.bs-vista .bs-punto, .bs-tappe li.anteprima .bs-punto { border-color: #2fbf71; background: #2fbf71; }
+.bs-tappe li.bs-coperta .bs-punto { border-color: var(--giallo); }
+.bs-tappe li.bs-coperta small { color: var(--giallo); }
+.bs-tappe li.bs-futura { opacity: .55; }
+.bs-bandiera .bs-punto { border-color: var(--gesso); background: conic-gradient(#fff 0 25%, #111 0 50%, #fff 0 75%, #111 0) 0 0 / 12px 12px; }
+/* il cursore: un casco rosso che si trascina sopra la pista */
+.bs-range { position: absolute; left: calc(100% / (2 * (var(--n) + 1)) - 17px); right: calc(100% / (2 * (var(--n) + 1)) - 17px); top: 0; width: auto; height: 44px; margin: 0; background: transparent; -webkit-appearance: none; appearance: none; z-index: 2; pointer-events: none; }
+.bs-range::-webkit-slider-runnable-track { height: 44px; background: transparent; }
+.bs-range::-webkit-slider-thumb { -webkit-appearance: none; pointer-events: auto; width: 34px; height: 34px; margin-top: 2px; border-radius: 50% 50% 40% 40%; background: radial-gradient(circle at 60% 45%, #111 0 28%, transparent 30%), var(--rosso); border: 3px solid #fff; box-shadow: 0 3px 10px rgba(0,0,0,.6); cursor: grab; }
+.bs-range::-moz-range-thumb { pointer-events: auto; width: 30px; height: 30px; border-radius: 50%; background: var(--rosso); border: 3px solid #fff; }

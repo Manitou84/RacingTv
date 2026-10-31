@@ -80,14 +80,15 @@ function quandoRelativo(iso) {
 }
 
 /* ---------- Dati ---------- */
-const D = { palinsesto: { weekend: [] }, notizie: { articoli: [] }, piloti: [], classifica: {}, calendario: {}, risultati: {}, circuiti: {}, griglie: {}, test: {}, mappe: {}, hof: {}, arrivi: {}, storico: {}, calendarioAnno: {} };
+const D = { palinsesto: { weekend: [] }, notizie: { articoli: [] }, piloti: [], classifica: {}, calendario: {}, risultati: {}, circuiti: {}, griglie: {}, test: {}, mappe: {}, hof: {}, arrivi: {}, storico: {}, calendarioAnno: {}, gpDettagli: {} };
 async function carica(nome) {
   const r = await fetch(`data/${nome}.json`, { cache: 'no-cache' });
   if (!r.ok) throw new Error(nome);
   return r.json();
 }
 async function caricaTutto() {
-  const [p, n, pi, c, ca, ri, ci, gr, te, ma, hf, ar, st, cia] = await Promise.allSettled(['palinsesto', 'notizie', 'piloti', 'classifica', 'calendario', 'risultati', 'circuiti', 'griglie', 'test', 'mappe', 'hall-of-fame', 'arrivi', 'storico', 'circuiti-auto'].map(carica));
+  const [p, n, pi, c, ca, ri, ci, gr, te, ma, hf, ar, st, cia, gpd] = await Promise.allSettled(['palinsesto', 'notizie', 'piloti', 'classifica', 'calendario', 'risultati', 'circuiti', 'griglie', 'test', 'mappe', 'hall-of-fame', 'arrivi', 'storico', 'circuiti-auto', 'gp-dettagli'].map(carica));
+  if (gpd.status === 'fulfilled') D.gpDettagli = gpd.value;
 
   if (st.status === 'fulfilled') D.storico = st.value.piloti || {};
   if (hf.status === 'fulfilled') D.hof = hf.value;
@@ -179,12 +180,54 @@ function bottoniSvela(attive) {
     <button type="button" class="bottone piccolo" data-svela>Ho visto tutto</button>
   </div>`;
 }
-function avvisoSpoiler() {
-  const attive = finestreAttive(stato.serie);
-  if (!attive.length) return '';
-  const nomi = attive.map(f => f.id.split('|').slice(1).join(' ').replace(/^F1 /, ''));
-  return `<div class="avviso-spoiler colonna"><span><strong>Anti-spoiler attivo</strong> Notizie, punti e griglia restano coperti finché non hai visto: ${esc(nomi.join(', '))}.</span>${bottoniSvela(attive)}</div>`;
+// Barra «fin dove hai visto»: le tappe del weekend (qualifiche, Sprint, gara…) in fila come su una pista;
+// sposti il casco fino all'ultima che hai visto e tutto quello che c'è prima si scopre.
+function tappeWeekend(w) {
+  const tappe = [];
+  const etichetta = s => s.sessione === 'Qualifiche Sprint' ? 'Q. Sprint' : s.sessione === 'Superpole Race' ? 'Superpole Race'
+    : eQualifica(s.sessione) ? (s.classe === 'SBK' ? 'Superpole' : 'Qualifiche') : s.sessione;
+  const sess = w.sessioni.filter(s => eRegina(s) && s.inizio && (eQualifica(s.sessione) || eSprint(s.sessione) || eGara(s.sessione)) && !annullataSess(w, s))
+    .sort((a, b) => a.inizio.localeCompare(b.inizio));
+  for (const s of sess) {
+    const nome = etichetta(s), id = `${w.id}|${s.classe}|${s.sessione}`;
+    const ultima = tappe.at(-1);
+    if (ultima && ultima.nome === nome) ultima.ids.push(id);
+    else tappe.push({ nome, ids: [id], inizio: new Date(s.inizio) });
+  }
+  return tappe;
 }
+function barraSpoiler(serie = stato.serie) {
+  const w = weekendCorrente(serie);
+  if (!w || !stato.antiSpoiler[serie]) return '';
+  const tappe = tappeWeekend(w);
+  if (!tappe.length) return '';
+  const t = adesso();
+  // si vede dal giorno prima della prima tappa finché qualche finestra del weekend è ancora aperta
+  const fin = finestre().filter(f => f.id.startsWith(w.id + '|'));
+  if (t < new Date(tappe[0].inizio.getTime() - 864e5) || !fin.some(f => t < f.fine)) return '';
+  const vista = x => x.ids.every(id => stato.visti.has(id));
+  let fino = 0; while (fino < tappe.length && vista(tappe[fino])) fino++;
+  const coperte = finestreAttive(serie).length;
+  const stato_ = (x, i) => i < fino ? 'vista' : x.inizio > t ? 'futura' : 'coperta';
+  const classe_ = (x, i) => 'bs-' + stato_(x, i);
+  return `<section class="barra-spoiler" aria-label="Anti-spoiler: fin dove hai visto">
+    <div class="bs-testa"><strong>Fin dove hai visto?</strong><span>${coperte ? 'Sposta il casco: quello che c’è prima si scopre' : fino === tappe.length ? 'Hai visto tutto il weekend' : 'Niente da coprire per ora'}</span></div>
+    <div class="bs-pista" style="--n:${tappe.length}">
+      <ol class="bs-tappe">
+        <li class="bs-via"><button type="button" data-tappa="0" data-serie-barra="${serie}"><span class="bs-punto"></span><span class="bs-nome">Via</span><small>niente</small></button></li>
+        ${tappe.map((x, i) => `<li class="${classe_(x, i)}${i === tappe.length - 1 ? ' bs-bandiera' : ''}"><button type="button" data-tappa="${i + 1}" data-serie-barra="${serie}"><span class="bs-punto"></span><span class="bs-nome">${esc(x.nome)}</span><small>${stato_(x, i) === 'futura' ? esc(fGiornoBreve.format(x.inizio)) : stato_(x, i) === 'vista' ? 'vista' : 'coperta'}</small></button></li>`).join('')}</ol>
+      <input type="range" class="bs-range" min="0" max="${tappe.length}" step="1" value="${fino}" data-serie-barra="${serie}" aria-label="Ultima sessione vista">
+    </div>
+  </section>`;
+}
+function impostaVisto(serie, fino) {
+  const w = weekendCorrente(serie);
+  if (!w) return;
+  const tappe = tappeWeekend(w);
+  tappe.forEach((x, i) => x.ids.forEach(id => i < fino ? stato.visti.add(id) : stato.visti.delete(id)));
+  salva(); disegna();
+}
+function avvisoSpoiler() { return barraSpoiler(); }
 function svelaParziale(tipo) {
   const attive = finestreAttive(stato.serie);
   let scelte;
@@ -338,34 +381,48 @@ function notizieCircuito(c) {
 // Podi della stagione su questa pista: gara (dai risultati) e Sprint/gare SBK (dagli ordini d'arrivo),
 // per ogni campionato che ci ha già corso. Coperti dall'anti-spoiler se non li hai ancora visti.
 function podiStagione(id) {
-  const oggi = fIso.format(adesso());
-  const nomeDa = (se, x) => {
+  const oggi = fIso.format(adesso()), anno = +oggi.slice(0, 4);
+  const nome = (se, x) => {
+    if (!x) return '–';
     const ps = pilotiSerie(se);
-    const p = typeof x === 'string' ? ps.find(q => corrisponde(q, x)) : (x.id && ps.find(q => q.id === x.id));
+    const p = typeof x === 'string' ? ps.find(q => corrisponde(q, x) || compatto(x).includes(compatto(q.cognome)) && compatto(x).startsWith(compatto(q.nome).slice(0, 3))) : (x.id && ps.find(q => q.id === x.id));
     if (p) return `${p.bandiera} ${p.nome.split(' ')[0]} ${p.cognome}`;
-    return typeof x === 'string' ? x.split('-').map(t => t[0].toUpperCase() + t.slice(1)).join(' ') : x.nome;
+    return typeof x === 'string' ? (x.includes('-') && !x.includes(' ') ? x.split('-').map(t => t[0].toUpperCase() + t.slice(1)).join(' ') : x) : x.nome;
   };
+  const podio = (se, sess, lista) => `<div class="trac-podio"><span class="tp-sess">${esc(sess)}</span>${lista ? `<ol>${lista.slice(0, 3).map((x, i) => `<li><span class="medaglia m${i + 1}">${i + 1}°</span><span>${esc(nome(se, x))}</span></li>`).join('')}</ol>` : '<p class="nota piccola annullata-testo">Gara annullata</p>'}</div>`;
+  const riga = (t, x, se) => x?.chi ? `<li><span>${t}</span><strong>${esc(x.tempo || '')}</strong><small>${esc(nome(se, x.chi))}</small></li>` : '';
+  // dettagli Wikipedia del GP disputato su questa pista in un certo anno
+  const dettagli = (se, a) => Object.values(D.gpDettagli?.[se]?.[a] || {}).find(g => g.circuito === id);
   let html = '';
   for (const se of ELENCO_SERIE) {
-    const gare = (D.calendario?.[se]?.gare || []).filter(g => g.circuito === id && g.data < oggi);
-    for (const g of gare) {
-      const anno = g.data.slice(0, 4);
-      const titolo = `Podio ${anno} · ${SERIE[se]}${gare.length > 1 ? ` · ${g.gp}` : ''}`;
+    const gareQui = (D.calendario?.[se]?.gare || []).filter(g => g.circuito === id);
+    if (!gareQui.length) continue;
+    for (const g of gareQui) {
+      const corsa = g.data < oggi;
+      const a = corsa ? anno : anno - 1;   // GP in programma: i risultati dell'anno scorso
+      const titolo = `${SERIE[se]} ${a}${corsa ? '' : ' · edizione precedente'}${gareQui.length > 1 ? ` · ${g.gp}` : ''}`;
       const dal = copertoDal(se);
-      if (dal && new Date(g.data + 'T23:59:00Z') >= dal) { html += `<h3 class="pal-titolo">${esc(titolo)}</h3><p class="nota piccola">Coperto dall'anti-spoiler: lo vedi quando segni le gare come viste.</p>`; continue; }
-      const blocchi = [];
-      const wid = `${se}-${pulisci(g.gp).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}-${anno}`;
+      if (corsa && dal && new Date(g.data + 'T23:59:00Z') >= dal) { html += `<h3 class="pal-titolo">${esc(titolo)}</h3><p class="nota piccola">Coperto dall'anti-spoiler: lo vedi quando segni le gare come viste.</p>`; continue; }
+      const det = dettagli(se, a);
+      const wid = `${se}-${pulisci(g.gp).replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}-${a}`;
       const arr = D.arrivi?.[wid] || {};
-      for (const sess of ['Sprint', 'Gara 1', 'Superpole Race', 'Gara 2']) if (arr[sess]) blocchi.push([sess, arr[sess].classificati.slice(0, 3)]);
-      const ris = (D.risultati?.[se]?.gare || []).find(r => Math.abs(new Date(r.data + 'T12:00:00Z') - new Date(g.data + 'T12:00:00Z')) < 2 * 864e5);
-      if (ris?.podio?.length) blocchi.push(['Gara', ris.podio.slice(0, 3)]);
-      else if (arr.Gara) blocchi.push(['Gara', arr.Gara.classificati.slice(0, 3)]);
+      const blocchi = [];
+      // Sprint (o le gare della Superbike)
+      const sprint = det?.sprint?.length ? det.sprint : arr.Sprint?.classificati;
+      if (sprint?.length) blocchi.push(podio(se, se === 'f1' ? 'Sprint' : 'Sprint', sprint));
+      for (const sess of ['Gara 1', 'Superpole Race', 'Gara 2']) if (arr[sess]) blocchi.push(podio(se, sess, arr[sess].classificati));
+      // Gara
       const wG = D.palinsesto.weekend.find(x => x.id === wid);
       const garaG = wG?.sessioni.filter(x => eRegina(x) && eGara(x.sessione)).at(-1);
-      const annG = g.annullata || (wG && garaG && annullamento(wG, garaG));
-      if ((annG || g.garaAnnullata) && !blocchi.some(b => b[0] === 'Gara')) blocchi.push(['Gara', null]);
-      if (!blocchi.length) continue;
-      html += `<h3 class="pal-titolo">${esc(titolo)}</h3>` + blocchi.map(([sess, podio]) => !podio ? `<div class="trac-podio"><span class="tp-sess">${esc(sess)}</span><p class="nota piccola annullata-testo">Gara annullata</p></div>` : `<div class="trac-podio"><span class="tp-sess">${esc(sess)}</span><ol>${podio.map((x, i) => `<li><span class="medaglia m${i + 1}">${i + 1}°</span><span>${esc(nomeDa(se, x))}</span></li>`).join('')}</ol></div>`).join('');
+      const annullata = corsa && (g.annullata || g.garaAnnullata || (wG && garaG && annullamento(wG, garaG)));
+      const ris = (D.risultati?.[se]?.gare || []).find(r => corsa && Math.abs(new Date(r.data + 'T12:00:00Z') - new Date(g.data + 'T12:00:00Z')) < 2 * 864e5);
+      const gara = det?.podio?.length ? det.podio : ris?.podio?.length ? ris.podio : arr.Gara?.classificati;
+      if (annullata) blocchi.push(podio(se, 'Gara', null));
+      else if (gara?.length) blocchi.push(podio(se, 'Gara', gara));
+      const tempi = det && (det.pole?.chi || det.giroVeloce?.chi)
+        ? `<ul class="trac-record">${riga('Pole position', det.pole, se)}${annullata ? '' : riga('Giro più veloce in gara', det.giroVeloce, se)}</ul>` : '';
+      if (!blocchi.length && !tempi) continue;
+      html += `<h3 class="pal-titolo">${esc(titolo)}</h3>${tempi}${blocchi.join('')}`;
     }
   }
   return html;
@@ -1068,7 +1125,7 @@ function disegnaClassifiche() {
     el.innerHTML = html; return;
   }
   if (finestreAttive(stato.serie).length) {
-    html += `<div class="vuoto coperta-grande"><strong>Classifica coperta</strong>C'è una gara o una qualifica che non hai ancora visto: i punti potrebbero svelare il risultato.<br><br>${bottoniSvela(finestreAttive(stato.serie))}</div>`;
+    html += `<div class="vuoto coperta-grande"><strong>Classifica coperta</strong>C'è una gara o una qualifica che non hai ancora visto: i punti potrebbero svelare il risultato.<br><br></div>` + barraSpoiler();
     el.innerHTML = html; return;
   }
   const capo = righe[0].punti;
@@ -1228,6 +1285,16 @@ function cambiaSerie(serie) {
 // immagini che non si caricano: le tolgo (senza gestori inline, compatibile con la CSP)
 document.addEventListener('error', e => { if (e.target.tagName === 'IMG' && !e.target.closest('.accesso')) e.target.remove(); }, true);
 
+document.addEventListener('input', e => {
+  const r = e.target.closest('.bs-range');
+  if (!r) return;
+  // anteprima mentre trascini: coloro le tappe
+  r.closest('.bs-pista').querySelectorAll('.bs-tappe li:not(.bs-via)').forEach((li, i) => li.classList.toggle('anteprima', i < +r.value));
+});
+document.addEventListener('change', e => {
+  const r = e.target.closest('.bs-range');
+  if (r) impostaVisto(r.dataset.serieBarra, +r.value);
+});
 document.addEventListener('click', e => {
   const t = e.target.closest('button, a[data-scopri]');
   if (!t) return;
@@ -1246,6 +1313,7 @@ document.addEventListener('click', e => {
   if (d.calAnno) { D.calendarioAnno[stato.serie] = +d.calAnno; return disegna(); }
   if (d.circuito) return apriTracciato(d.circuito, d.calGp ? { gp: d.calGp, data: d.calData } : null);
   if (d.griglia) { stato.griglieViste.add(d.griglia); salva(); return disegna(); }
+  if (d.tappa !== undefined) return impostaVisto(d.serieBarra, +d.tappa);
   if (d.svelaTipo) return svelaParziale(d.svelaTipo);
   if (d.svela !== undefined) return svela();
   if (d.stella) { stato.preferiti.has(d.stella) ? stato.preferiti.delete(d.stella) : stato.preferiti.add(d.stella); salva(); return disegna(); }

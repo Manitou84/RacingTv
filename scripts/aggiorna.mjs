@@ -456,17 +456,51 @@ async function aggiornaCircuiti() {
   log(`circuiti: ${Object.keys(out).length} schede, ${letti} lette ora`);
 }
 
-/* ---------- DIAGNOSTICA TEMPORANEA: formato delle pagine dei GP su Wikipedia ---------- */
-async function diagnosticaGp() {
+/* ---------- Pole, giro veloce, podio e Sprint di ogni GP (Wikipedia) ---------- */
+// Per la stagione in corso e la precedente: servono a mostrare, nella scheda di ogni pista,
+// i risultati di quest'anno (GP già corsi) o dell'anno scorso (GP in programma).
+const STAGIONE_WIKI = { motogp: { pagina: 'MotoGP_World_Championship', link: /href="\.\/((\d{4})_[^"]*motorcycle_Grand_Prix|(\d{4})_Dutch_TT)"/g },
+  f1: { pagina: 'Formula_One_World_Championship', link: /href="\.\/((\d{4})_[A-Za-zéã_]+_Grand_Prix)"/g } };
+const MESI_EN = ['january','february','march','april','may','june','july','august','september','october','november','december'];
+const GENERICHE = new Set(['circuit','circuito','international','internacional','autodromo','autódromo','grand','prix','park','street','racing','course','motor','world','resort','the','and','city','raceway','speedway','track','mobility','petronas','chang','marco','simoncelli','ricardo','tormo']);
+async function aggiornaDettagliGp() {
+  const vecchi = await leggiJson(DATI + 'gp-dettagli.json', {});
+  const circuiti = { ...((await leggiJson(RADICE + 'config/circuiti-wiki.json', {})).circuiti || {}) };
+  const auto = (await leggiJson(DATI + 'circuiti-auto.json', { circuiti: {} })).circuiti || {};
+  // parole che riconoscono ogni circuito nel campo «Location» delle pagine Wikipedia
+  const parole = Object.entries(circuiti).map(([id, c]) => [id, [...new Set(`${c.wiki || ''} ${c.luogo || ''} ${auto[id]?.nome || ''}`
+    .replace(/[_(),]/g, ' ').split(/\s+/).map(w => L.pulisci(w)).filter(w => w.length >= 4 && !GENERICHE.has(w)))]]);
+  const circuitoDa = luogo => { const t = L.pulisci(luogo || ''); let best = null, n = 0;
+    for (const [id, ws] of parole) { const k = ws.filter(w => t.includes(w)).length; if (k > n) { n = k; best = id; } } return best; };
   const UA = { 'User-Agent': 'RacingTv/1.0 (https://github.com/Manitou84/RacingTv)' };
-  let out = '';
-  for (const t of ['2025_Malaysian_motorcycle_Grand_Prix', '2025_Italian_Grand_Prix', '2025_Chinese_Grand_Prix', '2025_MotoGP_World_Championship']) {
-    const r = await fetch(`https://en.wikipedia.org/api/rest_v1/page/html/${t}`, { headers: UA });
-    const h = (await r.text()).replace(/ (id|about|typeof|data-mw|style|class="mw-[^"]*")=("[^"]*"|'[^']*')/g, '');
-    const i = h.search(/class="infobox/);
-    out += `\n\n===== ${t} (${h.length}) infobox a ${i}\n` + (t.includes('World_Championship') ? [...new Set([...h.matchAll(/href="\.\/(2025_[^"]*motorcycle_Grand_Prix|2025_Dutch_TT)"/g)].map(m => m[1]))].join('\n') : h.slice(i, i + 30000).replace(/<img[^>]*>/g, ''));
+  const html = async t => { await new Promise(r => setTimeout(r, 300)); const r = await fetch(`https://en.wikipedia.org/api/rest_v1/page/html/${encodeURIComponent(t)}`, { headers: UA, signal: AbortSignal.timeout(30000) }); if (!r.ok) throw new Error(`${r.status} ${t}`); return r.text(); };
+  const anno = ADESSO.getFullYear();
+  const out = {};
+  let letture = 0;
+  for (const [serie, conf] of Object.entries(STAGIONE_WIKI)) {
+    out[serie] = {};
+    for (const a of [anno - 1, anno]) {
+      const prima = vecchi[serie]?.[a] || {};
+      const titoli = await tenta(`stagione ${a} ${serie}`, async () => [...new Set([...(await html(`${a}_${conf.pagina}`)).matchAll(conf.link)].map(m => m[1]).filter(t => t.startsWith(String(a))))], Object.keys(prima));
+      const gp = {};
+      for (const t of titoli) {
+        const v = prima[t];
+        // già letto e completo (o dell'anno scorso): non serve rileggerlo
+        const completo = v && v.podio?.length === 3 && (a < anno || !recente(v.data, 10));
+        if (completo || (v && v.futuro && !recente(v.letto, 1)) || letture >= 45) { if (v) gp[t] = v; continue; }
+        letture++;
+        const r = await tenta(`GP ${t}`, async () => L.parseGpWiki(await html(t)), null);
+        if (!r) { if (v) gp[t] = v; continue; }
+        const d = (r.data || '').match(/(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})/);
+        const data = d ? `${d[3]}-${String(MESI_EN.indexOf(d[2].toLowerCase()) + 1).padStart(2, '0')}-${d[1].padStart(2, '0')}` : null;
+        gp[t] = { data, circuito: circuitoDa(r.luogo), luogo: r.luogo, pole: r.pole, giroVeloce: r.giroVeloce, podio: r.podio, sprint: r.sprint,
+          futuro: !r.podio.length, letto: ADESSO.toISOString() };
+      }
+      out[serie][a] = gp;
+    }
   }
-  await writeFile(RADICE + 'config/debug-gp.html', out);
+  await scriviJson(DATI + 'gp-dettagli.json', { aggiornato: ADESSO.toISOString(), _fonte: 'Wikipedia (inglese), pagine dei singoli GP', ...out });
+  log(`dettagli GP: ${letture} pagine lette`);
 }
 
 /* ---------- Mappe dei tracciati ---------- */
@@ -536,4 +570,4 @@ await tenta('arrivi', aggiornaArrivi);
 await aggiornaTest();
 await tenta('circuiti', aggiornaCircuiti);
 await aggiornaMappe();
-if (!FIXTURES) await tenta('diagnostica gp', diagnosticaGp);
+if (!FIXTURES) await tenta('dettagli gp', aggiornaDettagliGp);

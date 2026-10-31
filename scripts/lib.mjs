@@ -43,7 +43,8 @@ export function htmlInTesto(html) {
     .replace(/<[^>]+>/g, ''))
     .split('\n').map(r => r.replace(/[ \t ]+/g, ' ').trim()).filter(Boolean).join('\n');
 }
-const trattini = s => s.replace(/[–—]/g, '-');
+// trattini lunghi e «1° novembre» → «1 novembre», così i titoletti dei giorni si riconoscono
+const trattini = s => s.replace(/[–—]/g, '-').replace(/(\d)\s*[°º]/g, '$1');
 
 /* ---------- Sessioni ---------- */
 // serie: 'motogp' oppure 'f1'. Nella F1 le righe spesso non nominano la categoria.
@@ -582,6 +583,69 @@ export function parseCircuitoWiki(html) {
       const anno = (dopo.join(' ').match(/\b(19|20)\d\d\b/) || [])[0];
       if (tempo && chi) out.record[serie] = { chi: chi.slice(0, 40), tempo, anno: anno ? +anno : null };
     }
+  }
+  return out;
+}
+
+/* ---------- Pagina di un GP su Wikipedia: pole, giro veloce, podio, Sprint ---------- */
+// Per la moto legge solo la classe regina (il primo blocco dell'infobox, «MotoGP»).
+function testoCella(c) {
+  const link = [...c.matchAll(/<a[^>]*href="([^"]*)"[^>]*>([\s\S]*?)<\/a>/gi)].find(m => !/File:|Image:/i.test(m[1]) && htmlInTesto(m[2]).trim());
+  return decodifica((link ? htmlInTesto(link[2]) : htmlInTesto(c)).replace(/\n/g, ' ').replace(/\[[a-z0-9]+\]/gi, '').trim());
+}
+// la tabella che inizia in «da», comprese quelle annidate al suo interno
+function tabellaIntera(html, da) {
+  if (da < 0) return '';
+  let livello = 0;
+  for (const m of html.slice(da).matchAll(/<table\b|<\/table>/gi)) {
+    livello += m[0][1] === '/' ? -1 : 1;
+    if (livello === 0) return html.slice(da, da + m.index + 8);
+  }
+  return html.slice(da);
+}
+export function parseGpWiki(html) {
+  html = html.replace(/<style[\s\S]*?<\/style>/gi, '');
+  const info = tabellaIntera(html, html.search(/<table[^>]*class="[^"]*infobox/i));
+  const out = { pole: null, giroVeloce: null, podio: [], sprint: [] };
+  let blocco = null, classi = 0;
+  // le sezioni per classe sono tabelline annidate: spezzo su ogni <tr> così ogni riga è letta da sola
+  for (const tr of info.split(/(?=<tr[\s>])/i).slice(1)) {
+    const celle = tr.match(/<t[hd][^>]*>[\s\S]*?<\/t[hd]>/gi) || [];
+    if (!celle.length) continue;
+    const prima = htmlInTesto(celle[0] || '').replace(/\n/g, ' ').trim();
+    if (celle.length === 1) {
+      if (/^(MotoGP|Moto2|Moto3|MotoE|500cc|250cc|125cc)$/i.test(prima)) { classi++; if (classi > 1) break; continue; }
+      if (/^pole position/i.test(prima)) blocco = 'pole';
+      else if (/^fastest lap/i.test(prima)) blocco = 'giro';
+      else if (/^podium/i.test(prima)) blocco = 'podio';
+      continue;
+    }
+    if (/^date$/i.test(prima) && !out.data) out.data = htmlInTesto(celle[1]).trim();
+    else if (/^location$/i.test(prima) && !out.luogo) out.luogo = htmlInTesto(celle[1]).replace(/\n/g, ' ').trim();
+    else if (/^(rider|driver)$/i.test(prima) && blocco === 'pole') out.pole = { chi: testoCella(celle[1]) };
+    else if (/^(rider|driver)$/i.test(prima) && blocco === 'giro') out.giroVeloce = { chi: testoCella(celle[1]) };
+    else if (/^time$/i.test(prima) && blocco === 'pole' && out.pole) out.pole.tempo = (htmlInTesto(celle[1]).match(/\d+:\d{2}\.\d{3}/) || [])[0];
+    else if (/^time$/i.test(prima) && blocco === 'giro' && out.giroVeloce) out.giroVeloce.tempo = (htmlInTesto(celle[1]).match(/\d+:\d{2}\.\d{3}/) || [])[0];
+    else if (/^(first|second|third)$/i.test(prima) && blocco === 'podio') out.podio.push(testoCella(celle[1]));
+  }
+  // Sprint: la prima tabella dopo un titolo «Sprint» (non le qualifiche Sprint)
+  for (const t of html.matchAll(/<h[2-5][^>]*>([\s\S]*?)<\/h[2-5]>/gi)) {
+    const tit = htmlInTesto(t[1]).replace(/\n/g, ' ').trim();
+    if (!/\bsprint\b/i.test(tit) || /qualif|shootout/i.test(tit)) continue;
+    const dopo = html.slice(t.index + t[0].length, t.index + t[0].length + 200000);
+    const fine = dopo.search(/<h[2-5][\s>]/i);
+    const tab = ((fine > 0 ? dopo.slice(0, fine) : dopo).match(/<table[^>]*wikitable[\s\S]*?<\/table>/i) || [])[0];
+    if (!tab) continue;
+    const righe = [];
+    for (const tr of tab.match(/<tr[\s\S]*?<\/tr>/gi) || []) {
+      const celle = tr.match(/<t[hd][^>]*>[\s\S]*?<\/t[hd]>/gi) || [];
+      const pos = parseInt(htmlInTesto(celle[0] || ''));
+      if (pos >= 1 && pos <= 3) {
+        const c = celle.slice(1, 4).find(x => /<a[^>]*href="\.\/(?!File:)/i.test(x) && !/^\d+$/.test(htmlInTesto(x).trim()));
+        if (c) righe[pos - 1] = testoCella(c);
+      }
+    }
+    if (righe.filter(Boolean).length >= 3) { out.sprint = righe.slice(0, 3); break; }
   }
   return out;
 }
