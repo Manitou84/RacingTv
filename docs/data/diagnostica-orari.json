@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-31T10:04:07.098Z",
+  "aggiornato": "2026-10-31T10:59:25.461Z",
   "articoli": [
     {
       "fonte": "Sky Sport",
@@ -12,6 +12,19 @@
         "Moto3 Gara 2026-11-01T04:00:00.000Z",
         "Moto2 Gara 2026-11-01T05:15:00.000Z",
         "MotoGP Gara 2026-11-01T07:00:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
+      "titolo": "MotoGP in tv domani, GP Malesia 2026: orari 1° novembre, streaming, programma Sky, differita TV8",
+      "url": "https://www.oasport.it/2026/10/motogp-in-tv-domani-gp-malesia-2026-orari-1-novembre-streaming-programma-sky-differita-tv8/",
+      "gp": "GP Malesia",
+      "serie": "motogp",
+      "sessioni": [
+        "MotoGP Warm up 2026-11-01T02:40:00.000Z",
+        "Moto3 Gara 2026-11-01T04:00:00.000Z TV8 differita 2026-11-01T09:50:00.000Z",
+        "Moto2 Gara 2026-11-01T05:15:00.000Z TV8 differita 2026-11-01T11:05:00.000Z",
+        "MotoGP Gara 2026-11-01T07:00:00.000Z TV8 differita 2026-11-01T12:55:00.000Z"
       ]
     },
     {
@@ -144,19 +157,6 @@
       "fonte": "OA Sport",
       "titolo": "MotoGP su TV8, GP Australia 2026: quando la gara in chiaro, orario e programma",
       "url": "https://www.oasport.it/2026/10/motogp-su-tv8-gp-australia-2026-quando-la-gara-in-chiaro-orario-e-programma/",
-      "gp": "GP Australia",
-      "serie": "motogp",
-      "sessioni": [
-        "MotoGP Warm up 2026-10-24T22:40:00.000Z",
-        "Moto3 Gara 2026-10-25T01:00:00.000Z TV8 differita 2026-10-25T09:45:00.000Z",
-        "Moto2 Gara 2026-10-25T01:15:00.000Z TV8 differita 2026-10-25T11:00:00.000Z",
-        "MotoGP Gara 2026-10-25T03:00:00.000Z TV8 differita 2026-10-25T12:45:00.000Z"
-      ]
-    },
-    {
-      "fonte": "OA Sport",
-      "titolo": "MotoGP in tv, GP Australia 2026: orario gara 25 ottobre, streaming, programma Sky, differita TV8",
-      "url": "https://www.oasport.it/2026/10/motogp-in-tv-gp-australia-2026-orario-gara-25-ottobre-streaming-programma-sky-differita-tv8/",
       "gp": "GP Australia",
       "serie": "motogp",
       "sessioni": [

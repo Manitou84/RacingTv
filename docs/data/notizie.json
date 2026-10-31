@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-10-31T10:04:07.098Z",
+  "aggiornato": "2026-10-31T10:59:25.461Z",
   "articoli": [
+    {
+      "id": "ffa2618328c4",
+      "serie": "motogp",
+      "titolo": "Di Giannantonio: “Ottime sensazioni, ma qualcosa mi impedisce di esprimermi al 100%”",
+      "link": "https://www.gpone.com/it/2026/10/31/motogp/di-giannantonio-ottime-sensazioni-ma-qualcosa-mi-impedisce-di-esprimermi-al-100.html",
+      "fonte": "GPOne",
+      "data": "2026-10-31T10:35:07.000Z",
+      "immagine": "",
+      "sommario": "“È una cosa facilmente visibile e spero la risolveremo per domani, per giocarci le nostre carte”. Morbidelli: “Scommettere sulla pioggia non ha pagato: non ho ottenuto il risultato che volevo”"
+    },
+    {
+      "id": "0933b1927ca3",
+      "serie": "motogp",
+      "titolo": "Bastianini: \"Salgo in moto e non so cosa aspettarmi: purtroppo è così\"",
+      "link": "https://www.gpone.com/it/2026/10/31/motogp/bastianini-salgo-in-moto-e-non-so-cosa-aspettarmi-purtroppo-e-cosi.html",
+      "fonte": "GPOne",
+      "data": "2026-10-31T10:28:14.000Z",
+      "immagine": "",
+      "sommario": "\"Purtroppo non riesco a esprimermi come vorrei, soprattutto su piste dove la gomma si consuma veloce. Acosta? Studieremo\""
+    },
+    {
+      "id": "a3551c0e2a64",
+      "serie": "motogp",
+      "titolo": "Miller: \"Oggi siamo sembrati dei coglioni, ma valeva la pena provarci\"",
+      "link": "https://www.gpone.com/it/2026/10/31/motogp/miller-oggi-siamo-sembrati-dei-coglioni-ma-valeva-la-pena-provarci.html",
+      "fonte": "GPOne",
+      "data": "2026-10-31T10:26:06.000Z",
+      "immagine": "",
+      "sommario": "\"Mi scuso per la mia reazione ai box, ma quando ho visto che la moto non era pronta ho capito che era game over. Ma non avrei preso quella decisione se non avessi pensato che fosse valida\""
+    },
     {
       "id": "d6229b2114e7",
       "serie": "motogp",
