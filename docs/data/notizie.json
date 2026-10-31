@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-10-31T16:25:04.674Z",
+  "aggiornato": "2026-10-31T17:00:55.866Z",
   "articoli": [
+    {
+      "id": "ac1ad61c6fd4",
+      "serie": "f1",
+      "titolo": "F1 LIVE GP Messico: segui le prove libere 3 in diretta",
+      "link": "https://www.autosprint.it/news/formula1/f1-prove/2026/10/31-9254101/gp_messico_segui_le_prove_libere_3_in_diretta",
+      "fonte": "Autosprint",
+      "data": "2026-10-31T17:00:55.866Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/31/165014233-538e8644-f01a-471d-b90f-6eb09039cd0b.jpg",
+      "sommario": "Ultima sessione di prove libere a Città del Messico. Per team e piloti la sessione prima delle qualifiche rappresenta un momento decisivo per ultimare la preparazione"
+    },
+    {
+      "id": "791d591ba17c",
+      "serie": "motogp",
+      "titolo": "LIVE MotoGP Sepang - La diretta del Gran Premio della Malesia",
+      "link": "https://www.gpone.com/it/2026/10/31/motogp/titolo-live-motogp-sepang-la-diretta-del-gran-premio-della-malesia.html",
+      "fonte": "GPOne",
+      "data": "2026-10-31T16:43:32.000Z",
+      "immagine": "",
+      "sommario": "Acosta vince una Sprint spettacolare davanti a Márquez e Bezzecchi. Marc allunga a 19 punti su Martín, assente per infortunio, e può avvicinarsi ulteriormente al titolo mondiale"
+    },
     {
       "id": "a299b60cdee6",
       "serie": "motogp",
