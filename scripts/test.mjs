@@ -130,3 +130,11 @@ console.log('Notti ok');
   assert.equal(gara?.inizio, '2026-11-01T07:00:00.000Z', 'gara di domenica 1° novembre: ' + JSON.stringify(r.sessioni));
   console.log('Primo del mese ok');
 }
+
+// Ordine d'arrivo in forma breve: «1. Pedro ACOSTA (KTM)»
+{
+  const html = '<p>Testo.</p><h2>ORDINE D’ARRIVO SPRINT GP MALESIA MOTOGP 2026</h2>' + ['Pedro ACOSTA (KTM)', 'Marc MARQUEZ (Ducati)', 'Marco BEZZECCHI (Aprilia)', 'Ai OGURA (Aprilia)', 'Fabio DI GIANNANTONIO (Ducati)', 'Francesco BAGNAIA (Ducati)'].map((x, i) => `<p>${i + 1}. ${x}</p>`).join('');
+  const r = L.parseArrivo(html, pil);
+  assert.equal(r?.classificati.length, 6, 'ordine breve');
+  console.log('Ordine breve ok');
+}

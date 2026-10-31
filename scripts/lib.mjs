@@ -466,7 +466,7 @@ export function parseArrivo(html, piloti) {
   let i = righe.findIndex(r => /ordine d.arrivo|classifica (della )?(gara|sprint|superpole race)|risultat\w* (della )?(gara|superpole race)/i.test(r) && r === r.toUpperCase());
   // titoletto diverso o assente: parto dalla prima riga «1 …» seguita da «2 …»
   if (i < 0) {
-    const k = righe.findIndex((r, j) => /^1\s+\S/.test(r) && /^2\s+\S/.test(righe[j + 1] || ''));
+    const k = righe.findIndex((r, j) => /^1[.)]?\s+\S/.test(r) && /^2[.)]?\s+\S/.test(righe[j + 1] || ''));
     if (k < 0) return null;
     i = k - 1;
   }
@@ -475,7 +475,7 @@ export function parseArrivo(html, piloti) {
   for (const r of righe.slice(i + 1)) {
     if (/^non classificat/i.test(r)) { modo = 'ritirati'; continue; }
     if (!/^\d/.test(r) && r.length > 12 && r === r.toUpperCase()) break;  // titoletto successivo
-    const m = r.match(/^(\d{1,2})\s+(.+)$/);
+    const m = r.match(/^(\d{1,2})[.)°]?\s+(.+)$/);
     if (!m) { if (classificati.length && modo === 'classificati' && r.length > 40) break; continue; }
     const t = m[2].match(RX_TEMPO);
     const secondi = t ? (+(t[1] || 0)) * 3600 + +t[2] * 60 + +t[3] + +t[4] / 1000 : null;
