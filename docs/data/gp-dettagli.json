@@ -1,0 +1,1069 @@
+{
+  "aggiornato": "2026-10-31T06:22:30.792Z",
+  "_fonte": "Wikipedia (inglese), pagine dei singoli GP",
+  "motogp": {
+    "2025": {
+      "2025_Japanese_motorcycle_Grand_Prix": {
+        "data": "2025-09-28",
+        "circuito": "motegi",
+        "luogo": "Mobility Resort Motegi Motegi, Japan",
+        "pole": {
+          "chi": "Francesco Bagnaia",
+          "tempo": "1:42.911"
+        },
+        "giroVeloce": {
+          "chi": "Francesco Bagnaia",
+          "tempo": "1:44.412"
+        },
+        "podio": [
+          "Francesco Bagnaia",
+          "Marc Márquez",
+          "Joan Mir"
+        ],
+        "sprint": [
+          "Francesco Bagnaia",
+          "Marc Márquez",
+          "Pedro Acosta"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2025_Qatar_motorcycle_Grand_Prix": {
+        "data": "2025-04-13",
+        "circuito": "lusail",
+        "luogo": "Lusail International Circuit Lusail, Qatar",
+        "pole": {
+          "chi": "Marc Márquez",
+          "tempo": "1:50.499"
+        },
+        "giroVeloce": {
+          "chi": "Marc Márquez",
+          "tempo": "1:52.561"
+        },
+        "podio": [
+          "Marc Márquez",
+          "Francesco Bagnaia",
+          "Franco Morbidelli"
+        ],
+        "sprint": [
+          "Marc Márquez",
+          "Álex Márquez",
+          "Franco Morbidelli"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2025_Czech_Republic_motorcycle_Grand_Prix": {
+        "data": "2025-07-20",
+        "circuito": "brno",
+        "luogo": "Brno Circuit Brno, Czech Republic",
+        "pole": {
+          "chi": "Francesco Bagnaia",
+          "tempo": "1:52.303"
+        },
+        "giroVeloce": {
+          "chi": "Marc Márquez",
+          "tempo": "1:53.691"
+        },
+        "podio": [
+          "Marc Márquez",
+          "Marco Bezzecchi",
+          "Pedro Acosta"
+        ],
+        "sprint": [
+          "Marc Márquez",
+          "Pedro Acosta",
+          "Enea Bastianini"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2025_Thailand_motorcycle_Grand_Prix": {
+        "data": "2025-03-02",
+        "circuito": "buriram",
+        "luogo": "Chang International Circuit Buriram, Thailand",
+        "pole": {
+          "chi": "Marc Márquez",
+          "tempo": "1:28.782"
+        },
+        "giroVeloce": {
+          "chi": "Marc Márquez",
+          "tempo": "1:30.637"
+        },
+        "podio": [
+          "Marc Márquez",
+          "Álex Márquez",
+          "Francesco Bagnaia"
+        ],
+        "sprint": [
+          "Marc Márquez",
+          "Álex Márquez",
+          "Francesco Bagnaia"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2025_Argentine_motorcycle_Grand_Prix": {
+        "data": "2025-03-16",
+        "circuito": "most",
+        "luogo": "Autódromo Termas de Río Hondo Termas de Río Hondo, Argentina",
+        "pole": {
+          "chi": "Marc Márquez",
+          "tempo": "1:36.917"
+        },
+        "giroVeloce": {
+          "chi": "Marc Márquez",
+          "tempo": "1:38.243"
+        },
+        "podio": [
+          "Marc Márquez",
+          "Álex Márquez",
+          "Franco Morbidelli"
+        ],
+        "sprint": [
+          "Marc Márquez",
+          "Álex Márquez",
+          "Francesco Bagnaia"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2025_Aragon_motorcycle_Grand_Prix": {
+        "data": "2025-06-08",
+        "circuito": "aragon",
+        "luogo": "MotorLand Aragón Alcañiz, Spain",
+        "pole": {
+          "chi": "Marc Márquez",
+          "tempo": "1:45.704"
+        },
+        "giroVeloce": {
+          "chi": "Marc Márquez",
+          "tempo": "1:46.705"
+        },
+        "podio": [
+          "Marc Márquez",
+          "Álex Márquez",
+          "Francesco Bagnaia"
+        ],
+        "sprint": [
+          "Marc Márquez",
+          "Álex Márquez",
+          "Fermín Aldeguer"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2025_Italian_motorcycle_Grand_Prix": {
+        "data": "2025-06-22",
+        "circuito": "mugello",
+        "luogo": "Autodromo Internazionale del Mugello Scarperia e San Piero, Italy",
+        "pole": {
+          "chi": "Marc Márquez",
+          "tempo": "1:44.169"
+        },
+        "giroVeloce": {
+          "chi": "Franco Morbidelli",
+          "tempo": "1:46.474"
+        },
+        "podio": [
+          "Marc Márquez",
+          "Álex Márquez",
+          "Fabio Di Giannantonio"
+        ],
+        "sprint": [
+          "Marc Márquez",
+          "Álex Márquez",
+          "Francesco Bagnaia"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2025_Dutch_TT": {
+        "data": "2025-06-29",
+        "circuito": "assen",
+        "luogo": "TT Circuit Assen Assen, Netherlands",
+        "pole": {
+          "chi": "Fabio Quartararo",
+          "tempo": "1:30.651"
+        },
+        "giroVeloce": {
+          "chi": "Francesco Bagnaia",
+          "tempo": "1:32.220"
+        },
+        "podio": [
+          "Marc Márquez",
+          "Marco Bezzecchi",
+          "Francesco Bagnaia"
+        ],
+        "sprint": [
+          "Marc Márquez",
+          "Álex Márquez",
+          "Marco Bezzecchi"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2025_Spanish_motorcycle_Grand_Prix": {
+        "data": "2025-04-27",
+        "circuito": "jerez",
+        "luogo": "Circuito de Jerez – Ángel Nieto Jerez de la Frontera, Cádiz, Spain",
+        "pole": {
+          "chi": "Fabio Quartararo",
+          "tempo": "1:35.610"
+        },
+        "giroVeloce": {
+          "chi": "Álex Márquez",
+          "tempo": "1:37.349"
+        },
+        "podio": [
+          "Álex Márquez",
+          "Fabio Quartararo",
+          "Francesco Bagnaia"
+        ],
+        "sprint": [
+          "Marc Márquez",
+          "Álex Márquez",
+          "Francesco Bagnaia"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2025_French_motorcycle_Grand_Prix": {
+        "data": "2025-05-11",
+        "circuito": "le-mans",
+        "luogo": "Bugatti Circuit Le Mans, France",
+        "pole": {
+          "chi": "Fabio Quartararo",
+          "tempo": "1:29.324"
+        },
+        "giroVeloce": {
+          "chi": "Álex Márquez",
+          "tempo": "1:34.187"
+        },
+        "podio": [
+          "Johann Zarco",
+          "Marc Márquez",
+          "Fermín Aldeguer"
+        ],
+        "sprint": [
+          "Marc Márquez",
+          "Álex Márquez",
+          "Fermín Aldeguer"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2025_British_motorcycle_Grand_Prix": {
+        "data": "2025-05-25",
+        "circuito": "silverstone",
+        "luogo": "Silverstone Circuit Silverstone, United Kingdom",
+        "pole": {
+          "chi": "Fabio Quartararo",
+          "tempo": "1:57.233"
+        },
+        "giroVeloce": {
+          "chi": "Marco Bezzecchi",
+          "tempo": "1:59.770"
+        },
+        "podio": [
+          "Marco Bezzecchi",
+          "Johann Zarco",
+          "Marc Márquez"
+        ],
+        "sprint": [
+          "Álex Márquez",
+          "Marc Márquez",
+          "Fabio Di Giannantonio"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2025_German_motorcycle_Grand_Prix": {
+        "data": "2025-07-13",
+        "circuito": "sachsenring",
+        "luogo": "Sachsenring Hohenstein-Ernstthal, Germany",
+        "pole": {
+          "chi": "Marc Márquez",
+          "tempo": "1:27.811"
+        },
+        "giroVeloce": {
+          "chi": "Marc Márquez",
+          "tempo": "1:20.704"
+        },
+        "podio": [
+          "Marc Márquez",
+          "Álex Márquez",
+          "Francesco Bagnaia"
+        ],
+        "sprint": [
+          "Marc Márquez",
+          "Marco Bezzecchi",
+          "Fabio Quartararo"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2025_Austrian_motorcycle_Grand_Prix": {
+        "data": "2025-08-17",
+        "circuito": "spielberg",
+        "luogo": "Red Bull Ring Spielberg, Styria, Austria",
+        "pole": {
+          "chi": "Marco Bezzecchi",
+          "tempo": "1:28.060"
+        },
+        "giroVeloce": {
+          "chi": "Marco Bezzecchi",
+          "tempo": "1:29.533"
+        },
+        "podio": [
+          "Marc Márquez",
+          "Fermín Aldeguer",
+          "Marco Bezzecchi"
+        ],
+        "sprint": [
+          "Marc Márquez",
+          "Álex Márquez",
+          "Pedro Acosta"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2025_Hungarian_motorcycle_Grand_Prix": {
+        "data": "2025-08-24",
+        "circuito": "balaton",
+        "luogo": "Balaton Park Circuit Balatonfőkajár, Veszprém County, Hungary",
+        "pole": {
+          "chi": "Marc Márquez",
+          "tempo": "1:36.518"
+        },
+        "giroVeloce": {
+          "chi": "Marc Márquez",
+          "tempo": "1:37.699"
+        },
+        "podio": [
+          "Marc Márquez",
+          "Pedro Acosta",
+          "Marco Bezzecchi"
+        ],
+        "sprint": [
+          "Marc Márquez",
+          "Fabio Di Giannantonio",
+          "Franco Morbidelli"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2025_Catalan_motorcycle_Grand_Prix": {
+        "data": "2025-09-07",
+        "circuito": "barcellona",
+        "luogo": "Circuit de Barcelona-Catalunya Montmeló, Spain",
+        "pole": {
+          "chi": "Álex Márquez",
+          "tempo": "1:37.536"
+        },
+        "giroVeloce": {
+          "chi": "Álex Márquez",
+          "tempo": "1:39.886"
+        },
+        "podio": [
+          "Álex Márquez",
+          "Marc Márquez",
+          "Enea Bastianini"
+        ],
+        "sprint": [
+          "Marc Márquez",
+          "Fabio Quartararo",
+          "Fabio Di Giannantonio"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2025_San_Marino_and_Rimini_Riviera_motorcycle_Grand_Prix": {
+        "data": "2025-09-14",
+        "circuito": "misano",
+        "luogo": "Misano World Circuit Marco Simoncelli Misano Adriatico, Province of Rimini, Italy",
+        "pole": {
+          "chi": "Marco Bezzecchi",
+          "tempo": "1:30.134"
+        },
+        "giroVeloce": {
+          "chi": "Marc Márquez",
+          "tempo": "1:31.290"
+        },
+        "podio": [
+          "Marc Márquez",
+          "Marco Bezzecchi",
+          "Álex Márquez"
+        ],
+        "sprint": [
+          "Marco Bezzecchi",
+          "Álex Márquez",
+          "Fabio Di Giannantonio"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2025_Indonesian_motorcycle_Grand_Prix": {
+        "data": "2025-10-05",
+        "circuito": "mandalika",
+        "luogo": "Pertamina Mandalika International Circuit Mandalika, Indonesia",
+        "pole": {
+          "chi": "Marco Bezzecchi",
+          "tempo": "1:28.832"
+        },
+        "giroVeloce": {
+          "chi": "Fermín Aldeguer",
+          "tempo": "1:30.499"
+        },
+        "podio": [
+          "Fermín Aldeguer",
+          "Pedro Acosta",
+          "Álex Márquez"
+        ],
+        "sprint": [
+          "Marco Bezzecchi",
+          "Fermín Aldeguer",
+          "Raúl Fernández"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2025_Australian_motorcycle_Grand_Prix": {
+        "data": "2025-10-19",
+        "circuito": "phillip-island",
+        "luogo": "Phillip Island Grand Prix Circuit Phillip Island, Victoria, Australia",
+        "pole": {
+          "chi": "Fabio Quartararo",
+          "tempo": "1:26.465"
+        },
+        "giroVeloce": {
+          "chi": "Álex Márquez",
+          "tempo": "1:27.782"
+        },
+        "podio": [
+          "Raúl Fernández",
+          "Fabio Di Giannantonio",
+          "Marco Bezzecchi"
+        ],
+        "sprint": [
+          "Marco Bezzecchi",
+          "Raúl Fernández",
+          "Pedro Acosta"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2025_Malaysian_motorcycle_Grand_Prix": {
+        "data": "2025-10-26",
+        "circuito": "sepang",
+        "luogo": "Petronas Sepang International Circuit Sepang, Selangor, Malaysia",
+        "pole": {
+          "chi": "Francesco Bagnaia",
+          "tempo": "1:57.001"
+        },
+        "giroVeloce": {
+          "chi": "Álex Márquez",
+          "tempo": "1:58.873"
+        },
+        "podio": [
+          "Álex Márquez",
+          "Pedro Acosta",
+          "Joan Mir"
+        ],
+        "sprint": [
+          "Francesco Bagnaia",
+          "Álex Márquez",
+          "Pedro Acosta"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2025_Portuguese_motorcycle_Grand_Prix": {
+        "data": "2025-11-09",
+        "circuito": "portimao",
+        "luogo": "Autódromo Internacional do Algarve Portimão, Algarve, Portugal",
+        "pole": {
+          "chi": "Marco Bezzecchi",
+          "tempo": "1:37.556"
+        },
+        "giroVeloce": {
+          "chi": "Pedro Acosta",
+          "tempo": "1:38.237"
+        },
+        "podio": [
+          "Marco Bezzecchi",
+          "Álex Márquez",
+          "Pedro Acosta"
+        ],
+        "sprint": [
+          "Álex Márquez",
+          "Pedro Acosta",
+          "Marco Bezzecchi"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2025_Valencian_Community_motorcycle_Grand_Prix": {
+        "data": "2025-11-16",
+        "circuito": "valencia",
+        "luogo": "Circuit Ricardo Tormo Cheste, Valencia, Spain",
+        "pole": {
+          "chi": "Marco Bezzecchi",
+          "tempo": "1:28.809"
+        },
+        "giroVeloce": {
+          "chi": "Raúl Fernández",
+          "tempo": "1:29.976"
+        },
+        "podio": [
+          "Marco Bezzecchi",
+          "Raúl Fernández",
+          "Fabio Di Giannantonio"
+        ],
+        "sprint": [
+          "Álex Márquez",
+          "Pedro Acosta",
+          "Fabio Di Giannantonio"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      }
+    },
+    "2026": {
+      "2026_Italian_motorcycle_Grand_Prix": {
+        "data": "2026-05-31",
+        "circuito": "mugello",
+        "luogo": "Autodromo Internazionale del Mugello Scarperia e San Piero, Italy",
+        "pole": {
+          "chi": "Marco Bezzecchi",
+          "tempo": "1:43.921"
+        },
+        "giroVeloce": {
+          "chi": "Francesco Bagnaia",
+          "tempo": "1:45.470"
+        },
+        "podio": [
+          "Marco Bezzecchi",
+          "Jorge Martín",
+          "Francesco Bagnaia"
+        ],
+        "sprint": [
+          "Raúl Fernández",
+          "Jorge Martín",
+          "Fabio Di Giannantonio"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2026_French_motorcycle_Grand_Prix": {
+        "data": "2026-05-10",
+        "circuito": "le-mans",
+        "luogo": "Bugatti Circuit Le Mans, France",
+        "pole": {
+          "chi": "Francesco Bagnaia",
+          "tempo": "1:29.634"
+        },
+        "giroVeloce": {
+          "chi": "Francesco Bagnaia",
+          "tempo": "1:31.164"
+        },
+        "podio": [
+          "Jorge Martín",
+          "Marco Bezzecchi",
+          "Ai Ogura"
+        ],
+        "sprint": [
+          "Jorge Martín",
+          "Francesco Bagnaia",
+          "Marco Bezzecchi"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2026_Spanish_motorcycle_Grand_Prix": {
+        "data": "2026-04-26",
+        "circuito": "jerez",
+        "luogo": "Circuito de Jerez – Ángel Nieto Jerez de la Frontera, Cádiz, Spain",
+        "pole": {
+          "chi": "Marc Márquez",
+          "tempo": "1:48.087"
+        },
+        "giroVeloce": {
+          "chi": "Álex Márquez",
+          "tempo": "1:37.081"
+        },
+        "podio": [
+          "Álex Márquez",
+          "Marco Bezzecchi",
+          "Fabio Di Giannantonio"
+        ],
+        "sprint": [
+          "Marc Márquez",
+          "Francesco Bagnaia",
+          "Franco Morbidelli"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2026_Catalan_motorcycle_Grand_Prix": {
+        "data": "2026-05-17",
+        "circuito": "barcellona",
+        "luogo": "Circuit de Barcelona-Catalunya Montmeló, Spain",
+        "pole": {
+          "chi": "Pedro Acosta",
+          "tempo": "1:38.068"
+        },
+        "giroVeloce": {
+          "chi": "Fabio Di Giannantonio",
+          "tempo": "1:39.736"
+        },
+        "podio": [
+          "Fabio Di Giannantonio",
+          "Fermín Aldeguer",
+          "Francesco Bagnaia"
+        ],
+        "sprint": [
+          "Álex Márquez",
+          "Pedro Acosta",
+          "Fabio Di Giannantonio"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2026_Hungarian_motorcycle_Grand_Prix": {
+        "data": "2026-06-07",
+        "circuito": "balaton",
+        "luogo": "Balaton Park Circuit Balatonfőkajár, Veszprém County, Hungary",
+        "pole": {
+          "chi": "Marc Márquez",
+          "tempo": "1:36.785"
+        },
+        "giroVeloce": {
+          "chi": "Marc Márquez",
+          "tempo": "1:38.313"
+        },
+        "podio": [
+          "Marc Márquez",
+          "Pedro Acosta",
+          "Francesco Bagnaia"
+        ],
+        "sprint": [
+          "Marc Márquez",
+          "Pedro Acosta",
+          "Marco Bezzecchi"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2026_Czech_Republic_motorcycle_Grand_Prix": {
+        "data": "2026-06-21",
+        "circuito": "brno",
+        "luogo": "Creditas Autodrom Brno Brno, Czech Republic",
+        "pole": {
+          "chi": "Ai Ogura",
+          "tempo": "1:51.139"
+        },
+        "giroVeloce": {
+          "chi": "Fabio Di Giannantonio",
+          "tempo": "1:53.122"
+        },
+        "podio": [
+          "Marc Márquez",
+          "Ai Ogura",
+          "Francesco Bagnaia"
+        ],
+        "sprint": [
+          "Francesco Bagnaia",
+          "Ai Ogura",
+          "Marc Márquez"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2026_Dutch_TT": {
+        "data": "2026-06-28",
+        "circuito": "assen",
+        "luogo": "TT Circuit Assen Assen, Netherlands",
+        "pole": {
+          "chi": "Jorge Martín",
+          "tempo": "1:30.812"
+        },
+        "giroVeloce": {
+          "chi": "Ai Ogura",
+          "tempo": "1:32.483"
+        },
+        "podio": [
+          "Ai Ogura",
+          "Raúl Fernández",
+          "Jorge Martín"
+        ],
+        "sprint": [
+          "Raúl Fernández",
+          "Ai Ogura",
+          "Fabio Di Giannantonio"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2026_German_motorcycle_Grand_Prix": {
+        "data": "2026-07-12",
+        "circuito": "sachsenring",
+        "luogo": "Sachsenring Hohenstein-Ernstthal, Germany",
+        "pole": {
+          "chi": "Marc Márquez",
+          "tempo": "1:19.041"
+        },
+        "giroVeloce": {
+          "chi": "Marc Márquez",
+          "tempo": "1:21.088"
+        },
+        "podio": [
+          "Marc Márquez",
+          "Ai Ogura",
+          "Raúl Fernández"
+        ],
+        "sprint": [
+          "Marc Márquez",
+          "Álex Márquez",
+          "Fabio Di Giannantonio"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2026_British_motorcycle_Grand_Prix": {
+        "data": "2026-08-09",
+        "circuito": "silverstone",
+        "luogo": "Silverstone Circuit Silverstone, United Kingdom",
+        "pole": {
+          "chi": "Jorge Martín",
+          "tempo": "1:56.160"
+        },
+        "giroVeloce": {
+          "chi": "Raúl Fernández",
+          "tempo": "1:58.457"
+        },
+        "podio": [
+          "Raúl Fernández",
+          "Jorge Martín",
+          "Marco Bezzecchi"
+        ],
+        "sprint": [
+          "Jorge Martín",
+          "Ai Ogura",
+          "Marco Bezzecchi"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2026_Aragon_motorcycle_Grand_Prix": {
+        "data": "2026-08-30",
+        "circuito": "aragon",
+        "luogo": "MotorLand Aragón Alcañiz, Spain",
+        "pole": {
+          "chi": "Marco Bezzecchi",
+          "tempo": "1:44.962"
+        },
+        "giroVeloce": {
+          "chi": "Marc Márquez",
+          "tempo": "1:46.736"
+        },
+        "podio": [
+          "Marc Márquez",
+          "Pedro Acosta",
+          "Marco Bezzecchi"
+        ],
+        "sprint": [
+          "Marc Márquez",
+          "Álex Márquez",
+          "Marco Bezzecchi"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2026_San_Marino_and_Rimini_Riviera_motorcycle_Grand_Prix": {
+        "data": "2026-09-13",
+        "circuito": "misano",
+        "luogo": "Misano World Circuit Marco Simoncelli Misano Adriatico, Province of Rimini, Italy",
+        "pole": {
+          "chi": "Marco Bezzecchi",
+          "tempo": "1:29.982"
+        },
+        "giroVeloce": {
+          "chi": "Fermín Aldeguer",
+          "tempo": "1:30.936"
+        },
+        "podio": [
+          "Marc Márquez",
+          "Álex Márquez",
+          "Pedro Acosta"
+        ],
+        "sprint": [
+          "Marc Márquez",
+          "Marco Bezzecchi",
+          "Jorge Martín"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2026_Austrian_motorcycle_Grand_Prix": {
+        "data": "2026-09-20",
+        "circuito": "spielberg",
+        "luogo": "Red Bull Ring Spielberg, Styria, Austria",
+        "pole": {
+          "chi": "Jorge Martín",
+          "tempo": "1:27.917"
+        },
+        "giroVeloce": {
+          "chi": "Pedro Acosta",
+          "tempo": "1:29.533"
+        },
+        "podio": [
+          "Pedro Acosta",
+          "Jorge Martín",
+          "Marco Bezzecchi"
+        ],
+        "sprint": [
+          "Jorge Martín",
+          "Marc Márquez",
+          "Marco Bezzecchi"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2026_Japanese_motorcycle_Grand_Prix": {
+        "data": "2026-10-04",
+        "circuito": "motegi",
+        "luogo": "Mobility Resort Motegi Motegi, Japan",
+        "pole": {
+          "chi": "Jorge Martín",
+          "tempo": "1:42.371"
+        },
+        "giroVeloce": {
+          "chi": "Enea Bastianini",
+          "tempo": "1:43.041"
+        },
+        "podio": [
+          "Marc Márquez",
+          "Jorge Martín",
+          "Marco Bezzecchi"
+        ],
+        "sprint": [
+          "Marc Márquez",
+          "Diogo Moreira",
+          "Jorge Martín"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2026_Indonesian_motorcycle_Grand_Prix": {
+        "data": "2026-10-11",
+        "circuito": "mandalika",
+        "luogo": "Pertamina Mandalika International Circuit Mandalika, Indonesia",
+        "pole": {
+          "chi": "Raúl Fernández",
+          "tempo": "1:28.852"
+        },
+        "giroVeloce": {
+          "chi": "Marco Bezzecchi",
+          "tempo": "1:29.960"
+        },
+        "podio": [
+          "Marco Bezzecchi",
+          "Raúl Fernández",
+          "Jorge Martín"
+        ],
+        "sprint": [
+          "Marc Márquez",
+          "Ai Ogura",
+          "Fabio Di Giannantonio"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2026_Australian_motorcycle_Grand_Prix": {
+        "data": "2026-10-25",
+        "circuito": "phillip-island",
+        "luogo": "Phillip Island Grand Prix Circuit Phillip Island, Victoria, Australia",
+        "pole": {
+          "chi": "Marc Márquez",
+          "tempo": "1:34.203"
+        },
+        "giroVeloce": null,
+        "podio": [],
+        "sprint": [
+          "Marc Márquez",
+          "Álex Márquez",
+          "Fabio Di Giannantonio"
+        ],
+        "futuro": true,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2026_Qatar_motorcycle_Grand_Prix": {
+        "data": null,
+        "circuito": null,
+        "pole": null,
+        "giroVeloce": null,
+        "podio": [],
+        "sprint": [],
+        "futuro": true,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2026_Thailand_motorcycle_Grand_Prix": {
+        "data": "2026-03-01",
+        "circuito": "buriram",
+        "luogo": "Chang International Circuit Buriram, Thailand",
+        "pole": {
+          "chi": "Marco Bezzecchi",
+          "tempo": "1:28.652"
+        },
+        "giroVeloce": {
+          "chi": "Marco Bezzecchi",
+          "tempo": "1:30.487"
+        },
+        "podio": [
+          "Marco Bezzecchi",
+          "Pedro Acosta",
+          "Raúl Fernández"
+        ],
+        "sprint": [
+          "Pedro Acosta",
+          "Marc Márquez",
+          "Raúl Fernández"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2026_Brazilian_motorcycle_Grand_Prix": {
+        "data": "2026-03-22",
+        "circuito": "goiania",
+        "luogo": "Autódromo Internacional de Goiânia – Ayrton Senna Goiânia, Brazil",
+        "pole": {
+          "chi": "Fabio Di Giannantonio",
+          "tempo": "1:17.410"
+        },
+        "giroVeloce": {
+          "chi": "Marco Bezzecchi",
+          "tempo": "1:18.654"
+        },
+        "podio": [
+          "Marco Bezzecchi",
+          "Jorge Martín",
+          "Fabio Di Giannantonio"
+        ],
+        "sprint": [
+          "Marc Márquez",
+          "Fabio Di Giannantonio",
+          "Jorge Martín"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2026_United_States_motorcycle_Grand_Prix": {
+        "data": null,
+        "circuito": "austin",
+        "luogo": "Circuit of the Americas Austin, Texas, United States",
+        "pole": {
+          "chi": "Fabio Di Giannantonio",
+          "tempo": "2:00.136"
+        },
+        "giroVeloce": {
+          "chi": "Ai Ogura",
+          "tempo": "2:02.037"
+        },
+        "podio": [
+          "Marco Bezzecchi",
+          "Jorge Martín",
+          "Pedro Acosta"
+        ],
+        "sprint": [
+          "Jorge Martín",
+          "Francesco Bagnaia",
+          "Enea Bastianini"
+        ],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2026_Malaysian_motorcycle_Grand_Prix": {
+        "data": "2026-11-01",
+        "circuito": "sepang",
+        "luogo": "Sepang International Circuit Sepang, Selangor, Malaysia",
+        "pole": {
+          "chi": "Álex Márquez",
+          "tempo": "1:56.493"
+        },
+        "giroVeloce": null,
+        "podio": [],
+        "sprint": [],
+        "futuro": true,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2026_Portuguese_motorcycle_Grand_Prix": {
+        "data": null,
+        "circuito": null,
+        "pole": null,
+        "giroVeloce": null,
+        "podio": [],
+        "sprint": [],
+        "futuro": true,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2026_Valencian_Community_motorcycle_Grand_Prix": {
+        "data": null,
+        "circuito": null,
+        "pole": null,
+        "giroVeloce": null,
+        "podio": [],
+        "sprint": [],
+        "futuro": true,
+        "letto": "2026-10-31T06:22:30.792Z"
+      }
+    }
+  },
+  "f1": {
+    "2025": {
+      "2025_Hungarian_Grand_Prix": {
+        "data": "2025-08-03",
+        "circuito": "hungaroring",
+        "luogo": "Hungaroring Mogyoród, Hungary",
+        "pole": {
+          "chi": "Charles Leclerc",
+          "tempo": "1:15.372"
+        },
+        "giroVeloce": {
+          "chi": "George Russell",
+          "tempo": "1:19.409"
+        },
+        "podio": [
+          "Lando Norris",
+          "Oscar Piastri",
+          "George Russell"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      },
+      "2025_Abu_Dhabi_Grand_Prix": {
+        "data": "2025-12-07",
+        "circuito": "yas-marina",
+        "luogo": "Yas Marina Circuit Abu Dhabi, United Arab Emirates",
+        "pole": {
+          "chi": "Max Verstappen",
+          "tempo": "1:22.207"
+        },
+        "giroVeloce": {
+          "chi": "Charles Leclerc",
+          "tempo": "1:26.725"
+        },
+        "podio": [
+          "Max Verstappen",
+          "Oscar Piastri",
+          "Lando Norris"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-10-31T06:22:30.792Z"
+      }
+    },
+    "2026": {}
+  }
+}

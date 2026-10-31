@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-31T06:17:25.162Z",
+  "aggiornato": "2026-10-31T06:22:30.792Z",
   "weekend": [
     {
       "id": "motogp-gp-australia-2026",
@@ -191,13 +191,6 @@
         },
         {
           "classe": "MotoGP",
-          "sessione": "Warm up",
-          "inizio": "2026-10-31T02:40:00.000Z",
-          "tv8": null,
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "MotoGP",
           "sessione": "Qualifiche Q1",
           "inizio": "2026-10-31T02:50:00.000Z",
           "tv8": {
@@ -218,13 +211,6 @@
         },
         {
           "classe": "Moto3",
-          "sessione": "Gara",
-          "inizio": "2026-10-31T04:00:00.000Z",
-          "tv8": null,
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "Moto3",
           "sessione": "Qualifiche Q1",
           "inizio": "2026-10-31T04:45:00.000Z",
           "tv8": {
@@ -241,13 +227,6 @@
             "tipo": "diretta",
             "inizio": "2026-10-31T05:10:00.000Z"
           },
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "Moto2",
-          "sessione": "Gara",
-          "inizio": "2026-10-31T05:15:00.000Z",
-          "tv8": null,
           "fonte": "OA Sport"
         },
         {
@@ -282,9 +261,39 @@
         },
         {
           "classe": "MotoGP",
-          "sessione": "Gara",
-          "inizio": "2026-10-31T07:00:00.000Z",
+          "sessione": "Warm up",
+          "inizio": "2026-11-01T02:40:00.000Z",
           "tv8": null,
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "Moto3",
+          "sessione": "Gara",
+          "inizio": "2026-11-01T04:00:00.000Z",
+          "tv8": {
+            "tipo": "differita",
+            "inizio": "2026-11-01T10:00:00.000Z"
+          },
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "Moto2",
+          "sessione": "Gara",
+          "inizio": "2026-11-01T05:15:00.000Z",
+          "tv8": {
+            "tipo": "differita",
+            "inizio": "2026-11-01T11:15:00.000Z"
+          },
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "MotoGP",
+          "sessione": "Gara",
+          "inizio": "2026-11-01T07:00:00.000Z",
+          "tv8": {
+            "tipo": "differita",
+            "inizio": "2026-11-01T13:00:00.000Z"
+          },
           "fonte": "OA Sport"
         }
       ],
