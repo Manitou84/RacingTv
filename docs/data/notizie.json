@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-10-31T07:25:16.250Z",
+  "aggiornato": "2026-10-31T08:12:33.670Z",
   "articoli": [
+    {
+      "id": "09299a08886d",
+      "serie": "motogp",
+      "titolo": "Acosta vince una Sprint complicata dalla pioggia a Sepang, 3° Bezzecchi",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/31-9252995/acosta_vince_una_sprint_complicata_dalla_pioggia_a_sepang_3_bezzecchi",
+      "fonte": "Motosprint",
+      "data": "2026-10-31T08:12:33.670Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/31/073913104-33c8d025-4603-49f1-b7bb-0f0b3552d394.jpg",
+      "sommario": "Lo spagnolo doma le gocce cadute nel finale precedendo M. Marquez e Marco. 5° Di Giannantonio davanti a Bagnaia, a terra A.Marquez\n"
+    },
     {
       "id": "575a238691af",
       "serie": "motogp",
@@ -2290,16 +2300,6 @@
       "data": "2026-10-18T10:00:00Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/18/123719413-c9924da6-360f-4d66-a392-c03b40857437.jpg",
       "sommario": "La seconda Ducati Panigale V4R sarà affidata ad Albert, che ha rifiutato una CFMoto destinata a un collaudatore: si parla di Bautista"
-    },
-    {
-      "id": "9525358a63dd",
-      "serie": "f1",
-      "titolo": "Gran Premio di Singapore: gli orari in tv su Sky, TV8 e Now",
-      "link": "https://www.gpone.com/it/2026/10/10/formula-1/gran-premio-di-singapore-gli-orari-in-tv-su-sky-tv8-e-now.html",
-      "fonte": "GPOne",
-      "data": "2026-10-10T08:00:00.000Z",
-      "immagine": "",
-      "sommario": ""
     }
   ]
 }
