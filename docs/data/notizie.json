@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-10-31T18:30:05.593Z",
+  "aggiornato": "2026-10-31T19:15:31.308Z",
   "articoli": [
+    {
+      "id": "78670e2867d2",
+      "serie": "f1",
+      "titolo": "Ascari 1953, la penultima volta di un italiano iridato in un'era incredibile",
+      "link": "https://www.autosprint.it/news/formula1/2026/10/31-9247742/ascari_1953_la_penultima_volta_di_un_italiano_iridato_in_un_era_incredibile",
+      "fonte": "Autosprint",
+      "data": "2026-10-31T19:15:31.308Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/31/055550910-3cfb80a5-3671-4997-a0c8-ee9bc3267f8a.jpeg",
+      "sommario": "C'è una buona fetta di storia d'Italia nei 73 anni che separano il titolo di Kimi Antonelli da quello di Alberto Ascari, come un mondo e una F1 che oggi si fatica a credere"
+    },
+    {
+      "id": "be49ac6d9f6f",
+      "serie": "f1",
+      "titolo": "Nino Farina: la lotta con Fangio, il dominio Alfa e il primo Mondiale F1 della storia",
+      "link": "https://www.autosprint.it/news/formula1/2026/10/31-9251831/nino_farina_la_lotta_con_fangio_il_dominio_alfa_e_il_primo_mondiale_f1_della_storia",
+      "fonte": "Autosprint",
+      "data": "2026-10-31T19:15:31.308Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/30/231216145-bccd74c8-7a34-44d2-b791-3b8af270b071.jpg",
+      "sommario": "Torinese, classe 1906, Nino Farina è il primo Campione del Mondo di Formula 1 della storia: la cronaca del suo trionfo e la battaglia iridata con Fangio"
+    },
+    {
+      "id": "563525c4f938",
+      "serie": "f1",
+      "titolo": "F1 LIVE GP Messico: segui le qualifiche in diretta",
+      "link": "https://www.autosprint.it/news/formula1/f1-qualifiche/2026/10/31-9254297/gp_messico_segui_le_qualifiche_in_diretta",
+      "fonte": "Autosprint",
+      "data": "2026-10-31T19:15:31.308Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/31/184045061-b2e60d28-6808-4a0a-b26d-e50f3f79dfd6.jpg",
+      "sommario": "Arriva il momento delle qualifiche. Q1, Q2 e Q3 da disputare a partire dalle 22:00 per determinare la griglia di partenza di domani"
+    },
     {
       "id": "ac1ad61c6fd4",
       "serie": "f1",
