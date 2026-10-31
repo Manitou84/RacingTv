@@ -355,12 +355,16 @@ async function aggiornaArrivi() {
     for (const p of articoli.reverse()) {   // dal più vecchio: se ci sono correzioni vince l'ultimo articolo
       const titolo = L.decodifica(p.title?.rendered || '');
       const eArrivo = s.id === 'sbk' ? /ordine d.arrivo|classifica|risultat/i.test(titolo) && /gara[ -]?[12]|superpole race|race[ -]?[12]/i.test(titolo) : /ordine d.arrivo/i.test(titolo);
-      if (!eArrivo || ESCLUDI_CLASSI.test(titolo) || /qualifich|prove|libere|live|diretta/i.test(titolo) || L.serieDa(titolo) !== s.id || !recente(p.date, 7)) continue;
+      const motivo = !eArrivo ? 'non è un ordine d\'arrivo' : ESCLUDI_CLASSI.test(titolo) ? 'altra classe' : /qualifich|prove|libere|live|diretta/i.test(titolo) ? 'sessione diversa' : L.serieDa(titolo) !== s.id ? 'altra serie' : !recente(p.date, 7) ? 'vecchio' : null;
+      (diagArrivi.decisioni ||= []).push(`${s.id} | ${titolo.slice(0, 70)} | ${motivo || 'letto'}`);
+      if (motivo) continue;
       const gp = L.nomeGp(titolo); if (!gp) continue;
       const sessione = s.id === 'sbk'
         ? (/superpole race/i.test(titolo) ? 'Superpole Race' : /gara[ -]?2|race[ -]?2/i.test(titolo) ? 'Gara 2' : 'Gara 1')
         : /sprint/i.test(titolo) ? 'Sprint' : 'Gara';
-      const r = L.parseArrivo(p.content?.rendered || '', piloti.filter(x => x.serie === s.id));
+      let r = null;
+      try { r = L.parseArrivo(p.content?.rendered || '', piloti.filter(x => x.serie === s.id)); }
+      catch (e) { (diagArrivi.errori ||= []).push(`${titolo}: ${e.message}`); }
       if (!r) { log(`Arrivo ${s.nome}: non letto da`, p.link); (diagArrivi.nonLetti ||= []).push({ titolo, testo: L.htmlInTesto(p.content?.rendered || '').slice(0, 2500) }); continue; }
       const id = L.idWeekend(gp, +(p.date || '').slice(0, 4) || ADESSO.getFullYear(), s.id);
       arrivi[id] = { ...(arrivi[id] || {}), [sessione]: { serie: s.id, gp, sessione, fonte: 'OA Sport', url: p.link, aggiornato: ADESSO.toISOString(), ...r } };
