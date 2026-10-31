@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-31T03:33:19.942Z",
+  "aggiornato": "2026-10-31T04:31:48.152Z",
   "articoli": [
     {
       "fonte": "Sky Sport",
@@ -155,6 +155,17 @@
         "Moto3 Gara 2026-10-25T01:00:00.000Z TV8 differita 2026-10-25T09:45:00.000Z",
         "Moto2 Gara 2026-10-25T01:15:00.000Z TV8 differita 2026-10-25T11:00:00.000Z",
         "MotoGP Gara 2026-10-25T03:00:00.000Z TV8 differita 2026-10-25T12:45:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
+      "titolo": "F1 oggi in tv, GP Messico 2026: orari FP3 e qualifiche, streaming, programma Sky e TV8",
+      "url": "https://www.oasport.it/2026/10/f1-oggi-in-tv-gp-messico-2026-orari-fp3-e-qualifiche-streaming-programma-sky-e-tv8/",
+      "gp": "GP Messico",
+      "serie": "f1",
+      "sessioni": [
+        "F1 Prove libere 3 2026-10-31T17:30:00.000Z",
+        "F1 Qualifiche 2026-10-31T21:00:00.000Z TV8 differita 2026-10-31T22:25:00.000Z"
       ]
     },
     {

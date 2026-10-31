@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-31T03:33:19.942Z",
+  "aggiornato": "2026-10-31T04:31:48.152Z",
   "griglie": {
     "motogp-gp-australia-2026": {
       "serie": "motogp",
@@ -246,6 +246,115 @@
           "pos": 22,
           "id": "f1-stroll",
           "nome": "Lance Stroll"
+        }
+      ]
+    },
+    "motogp-gp-malesia-2026": {
+      "serie": "motogp",
+      "gp": "GP Malesia",
+      "fonte": "OA Sport",
+      "url": "https://www.oasport.it/2026/10/griglia-di-partenza-motogp-gp-malesia-2026-dominio-della-famiglia-marquez-bezzecchi-in-top-5-martin-si-arrende/",
+      "aggiornato": "2026-10-31T04:31:48.152Z",
+      "righe": [
+        {
+          "pos": 1,
+          "id": "alex-marquez",
+          "nome": "Álex Márquez"
+        },
+        {
+          "pos": 2,
+          "id": "marc-marquez",
+          "nome": "Marc Marquez"
+        },
+        {
+          "pos": 3,
+          "id": "acosta",
+          "nome": "Pedro Acosta"
+        },
+        {
+          "pos": 4,
+          "id": "ogura",
+          "nome": "Ai Ogura"
+        },
+        {
+          "pos": 5,
+          "id": "bezzecchi",
+          "nome": "Marco Bezzecchi"
+        },
+        {
+          "pos": 6,
+          "id": "di-giannantonio",
+          "nome": "Fabio Di Giannantonio"
+        },
+        {
+          "pos": 7,
+          "id": "bastianini",
+          "nome": "Enea Bastianini"
+        },
+        {
+          "pos": 8,
+          "id": "zarco",
+          "nome": "Johann Zarco"
+        },
+        {
+          "pos": 9,
+          "id": "morbidelli",
+          "nome": "Franco Morbidelli"
+        },
+        {
+          "pos": 10,
+          "id": "bagnaia",
+          "nome": "Francesco Bagnaia"
+        },
+        {
+          "pos": 11,
+          "id": "mir",
+          "nome": "Joan Mir"
+        },
+        {
+          "pos": 12,
+          "id": "vinales",
+          "nome": "Maverick Viñales"
+        },
+        {
+          "pos": 13,
+          "id": "marini",
+          "nome": "Luca Marini"
+        },
+        {
+          "pos": 14,
+          "id": "moreira",
+          "nome": "Diogo Moreira"
+        },
+        {
+          "pos": 15,
+          "id": "binder",
+          "nome": "Brad Binder"
+        },
+        {
+          "pos": 16,
+          "id": "miller",
+          "nome": "Jack Miller"
+        },
+        {
+          "pos": 17,
+          "id": "rins",
+          "nome": "Álex Rins"
+        },
+        {
+          "pos": 18,
+          "id": "quartararo",
+          "nome": "Fabio Quartararo"
+        },
+        {
+          "pos": 19,
+          "id": null,
+          "nome": "Iker Lecuona"
+        },
+        {
+          "pos": 20,
+          "id": null,
+          "nome": "Augusto Fernandez"
         }
       ]
     }
