@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-31T00:49:58.300Z",
+  "aggiornato": "2026-10-31T01:46:11.839Z",
   "weekend": [
     {
       "id": "f1-gp-usa-2026",
@@ -362,18 +362,21 @@
         },
         {
           "classe": "F1",
-          "sessione": "Gara",
-          "inizio": "2026-10-31T20:00:00.000Z",
-          "tv8": null,
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "F1",
           "sessione": "Qualifiche",
           "inizio": "2026-10-31T21:00:00.000Z",
           "tv8": {
             "tipo": "differita",
             "inizio": "2026-10-31T22:30:00.000Z"
+          },
+          "fonte": "OA Sport"
+        },
+        {
+          "classe": "F1",
+          "sessione": "Gara",
+          "inizio": "2026-11-01T20:00:00.000Z",
+          "tv8": {
+            "tipo": "differita",
+            "inizio": "2026-11-01T21:30:00.000Z"
           },
           "fonte": "OA Sport"
         }
@@ -384,16 +387,6 @@
         "2026-11-01"
       ],
       "fonti": [
-        {
-          "nome": "Sky Sport",
-          "url": "https://sport.sky.it/formula-1/2026/10/30/formula-1-orari-gp-messico-2026",
-          "titolo": "F1, orari GP Messico: dove vederlo su Sky e Now in tv, streaming e repliche | Sky Sport"
-        },
-        {
-          "nome": "Sky Sport",
-          "url": "https://sport.sky.it/formula-1/2026/10/28/f1-orari-gp-messico-2026",
-          "titolo": "Formula 1, orari GP Messico 2026 a Città del Messico: dove vedere la F1 in tv | Sky Sport"
-        },
         {
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/10/f1-oggi-in-tv-gp-messico-2026-orari-prove-libere-streaming-programma-sky-e-tv8/",
