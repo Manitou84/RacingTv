@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-31T21:58:01.888Z",
+  "aggiornato": "2026-10-31T22:28:06.627Z",
   "griglie": {
     "motogp-gp-australia-2026": {
       "serie": "motogp",
@@ -254,7 +254,7 @@
       "gp": "GP Malesia",
       "fonte": "OA Sport",
       "url": "https://www.oasport.it/2026/10/griglia-di-partenza-motogp-gp-malesia-2026-dominio-della-famiglia-marquez-bezzecchi-in-top-5-martin-si-arrende/",
-      "aggiornato": "2026-10-31T21:58:01.888Z",
+      "aggiornato": "2026-10-31T22:28:06.627Z",
       "righe": [
         {
           "pos": 1,
@@ -363,18 +363,17 @@
       "gp": "GP Messico",
       "fonte": "OA Sport",
       "url": "https://www.oasport.it/2026/10/griglia-di-partenza-f1-gp-messico-2026-risultati-e-classifica-qualifiche/",
-      "aggiornato": "2026-10-31T21:58:01.888Z",
+      "aggiornato": "2026-10-31T22:28:06.627Z",
       "righe": [
         {
           "pos": 1,
-          "id": "f1-norris",
-          "nome": "Lando Norris",
-          "tempo": "1:16.728"
+          "id": "f1-hamilton",
+          "nome": "Lewis Hamilton"
         },
         {
           "pos": 2,
-          "id": "f1-verstappen",
-          "nome": "Max Verstappen"
+          "id": "f1-russell",
+          "nome": "George Russell"
         },
         {
           "pos": 3,
@@ -383,23 +382,23 @@
         },
         {
           "pos": 4,
-          "id": "f1-hamilton",
-          "nome": "Lewis Hamilton"
+          "id": "f1-antonelli",
+          "nome": "Andrea Kimi Antonelli"
         },
         {
           "pos": 5,
-          "id": "f1-russell",
-          "nome": "George Russell"
+          "id": "f1-verstappen",
+          "nome": "Max Verstappen"
         },
         {
           "pos": 6,
-          "id": "f1-hadjar",
-          "nome": "Isack Hadjar"
+          "id": "f1-norris",
+          "nome": "Lando Norris"
         },
         {
           "pos": 7,
-          "id": "f1-antonelli",
-          "nome": "Andrea Kimi Antonelli"
+          "id": "f1-hadjar",
+          "nome": "Isack Hadjar"
         },
         {
           "pos": 8,
@@ -433,13 +432,48 @@
         },
         {
           "pos": 14,
+          "id": "f1-bearman",
+          "nome": "Oliver Bearman"
+        },
+        {
+          "pos": 15,
+          "id": "f1-sainz",
+          "nome": "Carlos Sainz"
+        },
+        {
+          "pos": 16,
+          "id": "f1-albon",
+          "nome": "Alexander Albon"
+        },
+        {
+          "pos": 17,
+          "id": "f1-alonso",
+          "nome": "Fernando Alonso"
+        },
+        {
+          "pos": 18,
+          "id": null,
+          "nome": "Ryo Hirakawa"
+        },
+        {
+          "pos": 19,
           "id": "f1-bortoleto",
           "nome": "Gabriel Bortoleto"
         },
         {
-          "pos": 15,
-          "id": "f1-bearman",
-          "nome": "Oliver Bearman"
+          "pos": 20,
+          "id": "f1-stroll",
+          "nome": "Lance Stroll"
+        },
+        {
+          "pos": 21,
+          "id": "f1-perez",
+          "nome": "Sergio Pérez"
+        },
+        {
+          "pos": 22,
+          "id": "f1-bottas",
+          "nome": "Valtteri Bottas"
         }
       ]
     }

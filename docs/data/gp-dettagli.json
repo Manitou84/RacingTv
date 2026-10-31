@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-10-31T21:58:01.888Z",
+  "aggiornato": "2026-10-31T22:28:06.627Z",
   "_fonte": "Wikipedia (inglese), pagine dei singoli GP",
   "motogp": {
     "2025": {
@@ -999,7 +999,7 @@
           "Marco Bezzecchi"
         ],
         "futuro": true,
-        "letto": "2026-10-31T21:01:31.849Z"
+        "letto": "2026-10-31T22:28:06.627Z"
       },
       "2026_Portuguese_motorcycle_Grand_Prix": {
         "data": null,
@@ -1693,12 +1693,15 @@
         "data": "2026-11-01",
         "circuito": "citta-del-messico",
         "luogo": "Autódromo Hermanos Rodríguez Mexico City, Mexico",
-        "pole": null,
+        "pole": {
+          "chi": "Lewis Hamilton",
+          "tempo": "1:16.514"
+        },
         "giroVeloce": null,
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-10-31T21:01:31.849Z"
+        "letto": "2026-10-31T22:28:06.627Z"
       },
       "2026_Azerbaijan_Grand_Prix": {
         "data": "2026-09-26",
