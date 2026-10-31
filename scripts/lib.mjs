@@ -463,8 +463,13 @@ function abbina(raw, piloti, usati) {
 const RX_TEMPO = /(?:(\d{1,2})[h:])?(\d{1,2})[:'’](\d{2})[.,](\d{3})/;
 export function parseArrivo(html, piloti) {
   const righe = htmlInTesto(html).split('\n').map(r => r.trim()).filter(Boolean);
-  const i = righe.findIndex(r => /ordine d.arrivo|classifica (della )?(gara|sprint|superpole race)|risultat\w* (della )?(gara|superpole race)/i.test(r) && r === r.toUpperCase());
-  if (i < 0) return null;
+  let i = righe.findIndex(r => /ordine d.arrivo|classifica (della )?(gara|sprint|superpole race)|risultat\w* (della )?(gara|superpole race)/i.test(r) && r === r.toUpperCase());
+  // titoletto diverso o assente: parto dalla prima riga «1 …» seguita da «2 …»
+  if (i < 0) {
+    const k = righe.findIndex((r, j) => /^1\s+\S/.test(r) && /^2\s+\S/.test(righe[j + 1] || ''));
+    if (k < 0) return null;
+    i = k - 1;
+  }
   const classificati = [], ritirati = [], usati = new Set();
   let modo = 'classificati';
   for (const r of righe.slice(i + 1)) {
