@@ -571,17 +571,26 @@ const tempoGara = x => { const h = Math.floor(x / 3600), m = Math.floor(x % 3600
   return h ? `${h}h ${String(m).padStart(2, '0')}'${sec}` : `${m}'${sec}`; };
 const distaccoGara = x => x >= 60 ? `+${Math.floor(x / 60)}'${(x % 60).toFixed(3).padStart(6, '0').replace('.', ',')}` : `+${x.toFixed(3).replace('.', ',')}`;
 function bloccoArrivi(w) {
-  const tutti = D.arrivi?.[w.id];
-  if (!tutti) return '';
+  const tutti = D.arrivi?.[w.id] || {};
   const classe = CLASSE[w.serie];
   const attive = new Set(finestreAttive(w.serie).map(f => f.id));
   const ordine = w.serie === 'sbk' ? ['Gara 1', 'Superpole Race', 'Gara 2'] : ['Sprint', 'Gara'];
   const nomeSess = x => x === 'Gara' ? 'gara' : x;
   let html = '';
   const viste = [];
+  // se l'ordine d'arrivo completo non è ancora uscito, uso il podio dalla pagina Wikipedia del GP
+  const det = Object.values(D.gpDettagli?.[w.serie]?.[w.id.slice(-4)] || {}).find(g => g.circuito && g.circuito === garaCalendario(w)?.circuito);
   for (const sessione of ordine) {
-    const a = tutti[sessione];
-    if (!a) continue;
+    let a = tutti?.[sessione];
+    const podioWiki = sessione === 'Sprint' ? det?.sprint : sessione === 'Gara' ? det?.podio : null;
+    if (!a && podioWiki?.length) a = { classificati: podioWiki.map((nome, i) => { const p = pilotiSerie(w.serie).find(q => compatto(nome).includes(compatto(q.cognome)) && compatto(nome).startsWith(compatto(q.nome).slice(0, 3))); return { pos: i + 1, id: p?.id || null, nome }; }), ritirati: [], url: `https://en.wikipedia.org/wiki/${Object.keys(D.gpDettagli[w.serie][w.id.slice(-4)]).find(k => D.gpDettagli[w.serie][w.id.slice(-4)][k] === det)}`, fonte: 'Wikipedia (solo podio)' };
+    const sessW = w.sessioni.find(x => x.classe === classe && x.sessione === sessione);
+    if (!a) {
+      // la sessione è finita ma il risultato non è ancora stato pubblicato dalle fonti
+      if (sessW?.inizio && new Date(sessW.inizio).getTime() + durataTv(sessW) * 60000 < adesso().getTime() && !annullataSess(w, sessW))
+        html += `<section class="griglia arrivo"><h2 class="sezione-titolo">Ordine d'arrivo ${sessione === 'Gara' ? 'gara' : esc(sessione)}</h2><p class="nota piccola">In arrivo: l'app lo mostra appena OA Sport o Wikipedia lo pubblicano (controllo ogni mezz'ora).</p></section>`;
+      continue;
+    }
     const idF = `${w.id}|${classe}|${sessione}`;
     const titolo = `Ordine d'arrivo ${nomeSess(sessione)}`;
     if (attive.has(idF)) {

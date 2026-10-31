@@ -341,9 +341,15 @@ async function aggiornaArrivi() {
   const arrivi = Object.fromEntries(Object.entries(vecchi.arrivi || {}).filter(([, w]) => Object.values(w).some(x => recente(x.aggiornato, 14))));
   const piloti = (await leggiJson(DATI + 'piloti.json', { piloti: [] })).piloti;
   for (const s of SERIE) {
-    const cerca = s.id === 'sbk' ? 'Superbike classifica gara' : `ordine d'arrivo ${NOME_CERCA[s.id]}`;
-    const api = `https://www.oasport.it/wp-json/wp/v2/posts?search=${encodeURIComponent(cerca)}&per_page=15&_fields=title,link,content,date`;
-    const articoli = await tenta(`Arrivi ${s.nome}`, async () => JSON.parse(await scarica(api)), []);
+    // più ricerche, ordinate per data (la ricerca per pertinenza a volte lascia fuori l'articolo più recente)
+    const ricerche = s.id === 'sbk' ? ['Superbike classifica gara', 'Superbike ordine d\'arrivo']
+      : s.id === 'f1' ? ["ordine d'arrivo F1", "ordine d'arrivo F1 Sprint"] : ["ordine d'arrivo MotoGP", "ordine d'arrivo MotoGP Sprint", 'MotoGP Sprint risultati classifica'];
+    const perLink = new Map();
+    for (const cerca of ricerche) {
+      const api = `https://www.oasport.it/wp-json/wp/v2/posts?search=${encodeURIComponent(cerca)}&per_page=20&orderby=date&order=desc&_fields=title,link,content,date`;
+      for (const p of await tenta(`Arrivi ${s.nome}`, async () => JSON.parse(await scarica(api)), [])) perLink.set(p.link, p);
+    }
+    const articoli = [...perLink.values()].sort((a, b) => b.date.localeCompare(a.date));
     for (const p of articoli.reverse()) {   // dal più vecchio: se ci sono correzioni vince l'ultimo articolo
       const titolo = L.decodifica(p.title?.rendered || '');
       const eArrivo = s.id === 'sbk' ? /ordine d.arrivo|classifica|risultat/i.test(titolo) && /gara[ -]?[12]|superpole race|race[ -]?[12]/i.test(titolo) : /ordine d.arrivo/i.test(titolo);
@@ -487,7 +493,9 @@ async function aggiornaDettagliGp() {
         const v = prima[t];
         // già letto e completo (o dell'anno scorso): non serve rileggerlo
         const completo = v && v.podio?.length === 3 && (a < anno || !recente(v.data, 10));
-        if (completo || (v && v.futuro && !recente(v.letto, 1)) || letture >= 45) { if (v) gp[t] = v; continue; }
+        // GP in corso o appena finito: rileggo ogni ora; quelli lontani una volta al giorno
+        const vicino = v?.data && Math.abs(ADESSO - new Date(v.data + 'T12:00:00Z')) < 4 * 864e5;
+        if (completo || (v && v.futuro && recente(v.letto, vicino ? 1 / 24 : 1)) || letture >= 45) { if (v) gp[t] = v; continue; }
         letture++;
         const r = await tenta(`GP ${t}`, async () => L.parseGpWiki(await html(t)), null);
         if (!r) { if (v) gp[t] = v; continue; }
