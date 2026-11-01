@@ -1,48 +1,6 @@
 {
-  "aggiornato": "2026-11-01T21:06:08.287Z",
+  "aggiornato": "2026-11-01T21:58:52.321Z",
   "weekend": [
-    {
-      "id": "f1-gp-usa-2026",
-      "serie": "f1",
-      "gp": "GP USA",
-      "sessioni": [
-        {
-          "classe": "F1",
-          "sessione": "Qualifiche",
-          "inizio": null,
-          "tv8": {
-            "tipo": "differita",
-            "inizio": "2026-10-25T18:45:00.000Z"
-          },
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "F1",
-          "sessione": "Gara",
-          "inizio": "2026-10-25T20:00:00.000Z",
-          "tv8": {
-            "tipo": "differita",
-            "inizio": "2026-10-25T21:25:00.000Z"
-          },
-          "fonte": "OA Sport"
-        }
-      ],
-      "tv8Confermati": [
-        "2026-10-25"
-      ],
-      "fonti": [
-        {
-          "nome": "OA Sport",
-          "url": "https://www.oasport.it/2026/10/a-che-ora-la-f1-su-tv8-oggi-gp-usa-2026-programma-gara-differita-in-chiaro/",
-          "titolo": "Quando la F1 su TV8 oggi, GP USA 2026: orario differita gara in chiaro"
-        },
-        {
-          "nome": "OA Sport",
-          "url": "https://www.oasport.it/2026/10/dove-vedere-la-f1-stasera-in-tv-gp-usa-2026-orario-gara-differita-tv8-streaming/",
-          "titolo": "Dove vedere la F1 stasera in tv, GP USA 2026: orario d’inizio gara, differita TV8, streaming"
-        }
-      ]
-    },
     {
       "id": "motogp-gp-malesia-2026",
       "serie": "motogp",
