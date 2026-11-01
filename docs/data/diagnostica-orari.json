@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-01T05:35:31.500Z",
+  "aggiornato": "2026-11-01T06:39:00.789Z",
   "articoli": [
     {
       "fonte": "Sky Sport",
@@ -16,7 +16,7 @@
     },
     {
       "fonte": "OA Sport",
-      "titolo": "A che ora la MotoGP su TV8 oggi, GP Malesia 2026: programma gara, differita in chiaro",
+      "titolo": "Quando la MotoGP su TV8 oggi, GP Malesia 2026: orario gara, differita in chiaro",
       "url": "https://www.oasport.it/2026/11/a-che-ora-la-motogp-su-tv8-oggi-gp-malesia-2026-programma-gara-differita-in-chiaro/",
       "gp": "GP Malesia",
       "serie": "motogp",
@@ -194,23 +194,23 @@
     },
     {
       "fonte": "OA Sport",
-      "titolo": "A che ora la F1 su TV8 oggi, GP Messico 2026: programma gara, differita in chiaro",
-      "url": "https://www.oasport.it/2026/11/a-che-ora-la-f1-su-tv8-oggi-gp-messico-2026-programma-gara-differita-in-chiaro/",
-      "gp": "GP Messico",
-      "serie": "f1",
-      "sessioni": [
-        "F1 Gara 2026-11-01T20:00:00.000Z TV8 differita 2026-11-01T21:30:00.000Z",
-        "F1 Qualifiche - TV8 differita 2026-11-01T18:45:00.000Z"
-      ]
-    },
-    {
-      "fonte": "OA Sport",
-      "titolo": "F1 oggi in tv, GP Messico 2026: orario gara, streaming, programma Sky e TV8",
+      "titolo": "F1 oggi in tv, GP Messico 2026: orario gara, streaming, programma, differita TV8",
       "url": "https://www.oasport.it/2026/11/f1-oggi-in-tv-gp-messico-2026-orario-gara-streaming-programma-sky-e-tv8/",
       "gp": "GP Messico",
       "serie": "f1",
       "sessioni": [
         "F1 Gara 2026-11-01T20:00:00.000Z TV8 differita 2026-11-01T21:00:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
+      "titolo": "Quando la F1 su TV8 oggi, GP Messico 2026: orario gara, differita in chiaro",
+      "url": "https://www.oasport.it/2026/11/a-che-ora-la-f1-su-tv8-oggi-gp-messico-2026-programma-gara-differita-in-chiaro/",
+      "gp": "GP Messico",
+      "serie": "f1",
+      "sessioni": [
+        "F1 Gara 2026-11-01T20:00:00.000Z TV8 differita 2026-11-01T21:00:00.000Z",
+        "F1 Qualifiche - TV8 differita 2026-11-01T18:45:00.000Z"
       ]
     },
     {
