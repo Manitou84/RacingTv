@@ -1,6 +1,46 @@
 {
-  "aggiornato": "2026-11-01T08:37:07.825Z",
+  "aggiornato": "2026-11-01T09:31:48.315Z",
   "articoli": [
+    {
+      "id": "be90634544fb",
+      "serie": "motogp",
+      "titolo": "Marini, settimo nella MotoGP di Sepang: \"Credevo di ritirarmi, invece... un miracolo\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/01-9255552/marini_settimo_nella_motogp_di_sepang_credevo_di_ritirarmi_invece_un_miracolo",
+      "fonte": "Motosprint",
+      "data": "2026-11-01T09:31:48.315Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/01/090059804-e566cf8e-38a7-4d78-98a6-ef940bf8210c.jpg",
+      "sommario": "Luca in Malesia: \"Non me l'aspettavo: ho fatto il primo giro da matti, rischiando tutto. Nemmeno io ci avrei scommesso. Il Qatar? Non c'è da parlarne\""
+    },
+    {
+      "id": "5312f23e8963",
+      "serie": "motogp",
+      "titolo": "Bagnaia alza bandiera bianca: “Conto i minuti alla fine della stagione”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/01-9255555/bagnaia_alza_bandiera_bianca_conto_i_minuti_alla_fine_della_stagione",
+      "fonte": "Motosprint",
+      "data": "2026-11-01T09:31:48.315Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/01/090642057-6c229458-645d-48ac-9263-b2183da6d605.jpg",
+      "sommario": "Il torinese dopo la gara accusa sibillinamente Ducati “Al test di Misano e in Giappone 2025 sono state cambiate cose che poi sono sparite”"
+    },
+    {
+      "id": "c46731b6b792",
+      "serie": "motogp",
+      "titolo": "Marquez: \"Vincere con Martìn fermo ai box ha un valore extra\"",
+      "link": "https://www.gpone.com/it/2026/11/01/motogp/marquez-vincere-con-martin-fermo-ai-box-ha-un-valore-extra.html",
+      "fonte": "GPOne",
+      "data": "2026-11-01T09:20:00.000Z",
+      "immagine": "",
+      "sommario": "\"Oggi non ci sono stati ordini in Aprilia, ma qualcuno si beccherà una tirata d'orecchie. Se mi avessero detto che avrei lottato per il titolo, avrei chiesto quanta birra avevano bevuto!\""
+    },
+    {
+      "id": "6162214f0745",
+      "serie": "motogp",
+      "titolo": "Bagnaia: \"Sto contando i minuti che mi separano dalla fine di questa stagione\"",
+      "link": "https://www.gpone.com/it/2026/11/01/motogp/bagnaia-sto-contando-i-minuti-che-mi-separano-dalla-fine-di-questa-stagione.html",
+      "fonte": "GPOne",
+      "data": "2026-11-01T08:49:22.000Z",
+      "immagine": "",
+      "sommario": "\"Ho fatto l'ultimo giro senza nemmeno toccare col ginocchio nelle curve a destra. Andremo in Qatar con un bel sorriso (ironizza)\""
+    },
     {
       "id": "6a0b54e74e85",
       "serie": "motogp",
