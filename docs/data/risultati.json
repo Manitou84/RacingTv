@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-01T22:30:12.706Z",
+  "aggiornato": "2026-11-01T23:05:53.734Z",
   "motogp": {
     "fonte": "Motosprint",
     "gare": [
@@ -369,6 +369,17 @@
           "kimi-antonelli",
           "charles-leclerc",
           "max-verstappen"
+        ]
+      },
+      {
+        "url": "https://www.autosprint.it/live/formula-1/gran-premio-del-messico-900066",
+        "gp": "Gran Premio del Messico",
+        "circuito": "Autodromo Hermanos Rodriguez",
+        "data": "2026-11-01",
+        "podio": [
+          "max-verstappen",
+          "lewis-hamilton",
+          "kimi-antonelli"
         ]
       }
     ]
