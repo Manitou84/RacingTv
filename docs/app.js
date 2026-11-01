@@ -136,22 +136,47 @@ function annullamento(w, s) {
 const annullataSess = (w, s) => { const a = annullamento(w, s); return a && (a.tutto || eGara(s.sessione) || eSprint(s.sessione)) ? a : null; };
 
 /* ---------- Anti-spoiler ---------- */
-// Ogni gara, Sprint, qualifica della classe regina e ogni sessione che TV8 manda in differita apre una finestra:
-// dal via in pista finché non dici di averla vista. Se non lo dici, si chiude da sola
-// tre giorni dopo la messa in onda su TV8, così le notizie non restano coperte per sempre.
+// L'anti-spoiler lavora solo nel weekend di gara: si accende il venerdì sera (18:00, ora italiana)
+// e si spegne la domenica, appena finisce su TV8 la gara (se TV8 non ha l'orario, qualche ora dopo il via),
+// al più tardi a mezzanotte. Prima puoi scoprire a mano con la barra «Fin dove hai visto».
 const durataTv = s => s.classe === 'F1'
   ? ({ Gara: 120, Sprint: 45 }[s.sessione] || 60)
   : s.classe === 'SBK' ? ({ 'Gara 1': 45, 'Gara 2': 45, 'Superpole Race': 25, Superpole: 30 }[s.sessione] || 45)
   : s.classe === 'MotoGP' && s.sessione === 'Gara' ? 80 : s.sessione === 'Sprint' ? 40 : /Q[12]/.test(s.sessione) ? 15 : s.sessione === 'Gara' ? 60 : 45;
-const SCADENZA = 72 * 3600e3;
 const daCoprire = s => eGara(s.sessione) || eSprint(s.sessione) || s.tv8?.tipo === 'differita' || (eRegina(s) && eQualifica(s.sessione));
+// un orario italiano (giorno «AAAA-MM-GG» + ore) come istante
+function oraItalia(giorno, ore, minuti = 0) {
+  const [a, m, g] = giorno.split('-').map(Number);
+  const prova = Date.UTC(a, m - 1, g, ore, minuti);
+  const parti = Object.fromEntries(new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Rome', hourCycle: 'h23', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' })
+    .formatToParts(new Date(prova)).map(x => [x.type, x.value]));
+  const comeLetto = Date.UTC(+parti.year, +parti.month - 1, +parti.day, +parti.hour, +parti.minute);
+  return new Date(prova - (comeLetto - prova));
+}
+const giornoItalia = d => new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Rome' }).format(d);
+const spostaGiorno = (giorno, n) => new Date(Date.parse(giorno + 'T12:00:00Z') + n * 864e5).toISOString().slice(0, 10);
+function limitiWeekend(w, sess) {
+  const gare = sess.filter(s => eRegina(s) && eGara(s.sessione));
+  const ultima = (gare.length ? gare : sess).reduce((a, b) => (a.inizio > b.inizio ? a : b));
+  const giornoGara = giornoItalia(new Date(ultima.inizio));
+  const fineTv = ultima.tv8?.inizio
+    ? new Date(ultima.tv8.inizio).getTime() + durataTv(ultima) * 60000
+    : new Date(ultima.inizio).getTime() + (durataTv(ultima) + 6 * 60) * 60000;
+  return {
+    inizio: oraItalia(spostaGiorno(giornoGara, -2), 18),
+    fine: new Date(Math.min(fineTv + 30 * 60000, oraItalia(spostaGiorno(giornoGara, 1), 0).getTime()))
+  };
+}
 function finestre() {
   const out = [];
-  for (const w of D.palinsesto.weekend) for (const s of w.sessioni) {
-    if (!s.inizio || !daCoprire(s)) continue;
-    if (annullataSess(w, s)) continue;
-    const fineTv = new Date((s.tv8 || s).inizio).getTime() + durataTv(s) * 60000;
-    out.push({ id: `${w.id}|${s.classe}|${s.sessione}`, serie: w.serie, inizio: new Date(s.inizio), fine: new Date(fineTv + SCADENZA) });
+  for (const w of D.palinsesto.weekend) {
+    const sess = w.sessioni.filter(s => s.inizio && daCoprire(s) && !annullataSess(w, s));
+    if (!sess.length) continue;
+    const lim = limitiWeekend(w, sess);
+    for (const s of sess) {
+      const via = new Date(s.inizio);
+      out.push({ id: `${w.id}|${s.classe}|${s.sessione}`, serie: w.serie, inizio: via < lim.inizio ? via : lim.inizio, via, fine: lim.fine });
+    }
   }
   return out;
 }
@@ -236,8 +261,8 @@ function svelaParziale(tipo) {
     // la Sprint e tutte le qualifiche che la precedono
     // in Superbike la Superpole Race arriva dopo Gara 1: segnarla come vista vuol dire aver visto anche Gara 1
     const sp = attive.filter(f => eSprint(sessioneDi(f)));
-    const ultima = Math.max(...sp.map(f => f.inizio.getTime()));
-    scelte = [...sp, ...attive.filter(f => (eQuali(f) || eGara(sessioneDi(f))) && f.inizio.getTime() <= ultima)];
+    const ultima = Math.max(...sp.map(f => f.via.getTime()));
+    scelte = [...sp, ...attive.filter(f => (eQuali(f) || eGara(sessioneDi(f))) && f.via.getTime() <= ultima)];
   }
   scelte.forEach(f => stato.visti.add(f.id));
   salva(); disegna();
@@ -1342,7 +1367,7 @@ $('#apriImpostazioni').addEventListener('click', () => {
   $('#infoAggiornamento').textContent = `Dati aggiornati ${quandoRelativo(D.palinsesto.aggiornato || new Date().toISOString())}. L'app si aggiorna da sola ogni mezz'ora.`;
   $('#impostazioni').showModal();
 });
-$('#svelaTutto').addEventListener('click', () => { finestre().forEach(f => { if (f.inizio <= adesso()) stato.visti.add(f.id); }); salva(); $('#impostazioni').close(); disegna(); });
+$('#svelaTutto').addEventListener('click', () => { finestre().forEach(f => { if (f.via <= adesso()) stato.visti.add(f.id); }); salva(); $('#impostazioni').close(); disegna(); });
 document.addEventListener('visibilitychange', async () => { if (!document.hidden) { await caricaTutto(); disegna(); } });
 
 $('#esci').addEventListener('click', () => { if (confirm('Uscire da RacingTv su questo dispositivo?')) window.Account.esci(); });
