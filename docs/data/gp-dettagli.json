@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-01T21:58:52.321Z",
+  "aggiornato": "2026-11-01T22:30:12.706Z",
   "_fonte": "Wikipedia (inglese), pagine dei singoli GP",
   "motogp": {
     "2025": {
@@ -1006,7 +1006,7 @@
           "Marco Bezzecchi"
         ],
         "futuro": false,
-        "letto": "2026-11-01T21:58:52.321Z"
+        "letto": "2026-11-01T22:30:12.706Z"
       },
       "2026_Portuguese_motorcycle_Grand_Prix": {
         "data": null,
@@ -1705,10 +1705,14 @@
           "tempo": "1:16.514"
         },
         "giroVeloce": null,
-        "podio": [],
+        "podio": [
+          "Max Verstappen",
+          "Lewis Hamilton",
+          "Kimi Antonelli"
+        ],
         "sprint": [],
-        "futuro": true,
-        "letto": "2026-11-01T21:06:08.287Z"
+        "futuro": false,
+        "letto": "2026-11-01T22:30:12.706Z"
       },
       "2026_Azerbaijan_Grand_Prix": {
         "data": "2026-09-26",
