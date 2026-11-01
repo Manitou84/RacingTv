@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-01T04:39:49.289Z",
+  "aggiornato": "2026-11-01T05:35:31.500Z",
   "articoli": [
     {
       "fonte": "Sky Sport",
@@ -194,6 +194,17 @@
     },
     {
       "fonte": "OA Sport",
+      "titolo": "A che ora la F1 su TV8 oggi, GP Messico 2026: programma gara, differita in chiaro",
+      "url": "https://www.oasport.it/2026/11/a-che-ora-la-f1-su-tv8-oggi-gp-messico-2026-programma-gara-differita-in-chiaro/",
+      "gp": "GP Messico",
+      "serie": "f1",
+      "sessioni": [
+        "F1 Gara 2026-11-01T20:00:00.000Z TV8 differita 2026-11-01T21:30:00.000Z",
+        "F1 Qualifiche - TV8 differita 2026-11-01T18:45:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
       "titolo": "F1 oggi in tv, GP Messico 2026: orario gara, streaming, programma Sky e TV8",
       "url": "https://www.oasport.it/2026/11/f1-oggi-in-tv-gp-messico-2026-orario-gara-streaming-programma-sky-e-tv8/",
       "gp": "GP Messico",
@@ -286,27 +297,6 @@
         "F1 Prove libere 3 2026-10-31T17:30:00.000Z",
         "F1 Qualifiche 2026-10-31T21:00:00.000Z",
         "F1 Gara 2026-11-01T20:00:00.000Z"
-      ]
-    },
-    {
-      "fonte": "OA Sport",
-      "titolo": "Quando la F1 su TV8 oggi, GP USA 2026: orario differita gara in chiaro",
-      "url": "https://www.oasport.it/2026/10/a-che-ora-la-f1-su-tv8-oggi-gp-usa-2026-programma-gara-differita-in-chiaro/",
-      "gp": "GP USA",
-      "serie": "f1",
-      "sessioni": [
-        "F1 Gara 2026-10-25T20:00:00.000Z TV8 differita 2026-10-25T21:30:00.000Z",
-        "F1 Qualifiche - TV8 differita 2026-10-25T18:45:00.000Z"
-      ]
-    },
-    {
-      "fonte": "OA Sport",
-      "titolo": "Dove vedere la F1 stasera in tv, GP USA 2026: orario d’inizio gara, differita TV8, streaming",
-      "url": "https://www.oasport.it/2026/10/dove-vedere-la-f1-stasera-in-tv-gp-usa-2026-orario-gara-differita-tv8-streaming/",
-      "gp": "GP USA",
-      "serie": "f1",
-      "sessioni": [
-        "F1 Gara 2026-10-25T20:00:00.000Z TV8 differita 2026-10-25T21:25:00.000Z"
       ]
     }
   ]
