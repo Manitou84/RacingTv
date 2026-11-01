@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-01T07:46:51.867Z",
+  "aggiornato": "2026-11-01T08:37:07.825Z",
   "motogp": {
     "fonte": "Motosprint",
     "gare": [
@@ -177,6 +177,17 @@
           "marco-bezzecchi",
           "raul-fernandez",
           "jorge-martin"
+        ]
+      },
+      {
+        "url": "https://www.motosprint.it/live/moto-gp/gran-premio-di-malesia-901816",
+        "gp": "Gran Premio di Malesia",
+        "circuito": "Sepang IC",
+        "data": "2026-11-01",
+        "podio": [
+          "marc-marquez",
+          "pedro-acosta",
+          "alex-marquez"
         ]
       }
     ]
