@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-01T09:31:48.315Z",
+  "aggiornato": "2026-11-01T10:27:34.162Z",
   "articoli": [
     {
       "fonte": "Sky Sport",
@@ -190,6 +190,16 @@
         "F1 Prove libere 3 2026-10-31T17:30:00.000Z",
         "F1 Qualifiche 2026-10-31T21:00:00.000Z",
         "F1 Gara 2026-11-01T20:00:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
+      "titolo": "Dove vedere la F1 stasera in tv, GP Messico 2026: orario gara, differita TV8, streaming",
+      "url": "https://www.oasport.it/2026/11/dove-vedere-la-f1-stasera-in-tv-gp-messico-2026-orario-gara-differita-tv8-streaming/",
+      "gp": "GP Messico",
+      "serie": "f1",
+      "sessioni": [
+        "F1 Gara 2026-11-01T20:00:00.000Z TV8 differita 2026-11-01T21:00:00.000Z"
       ]
     },
     {

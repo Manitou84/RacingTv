@@ -1,6 +1,56 @@
 {
-  "aggiornato": "2026-11-01T09:31:48.315Z",
+  "aggiornato": "2026-11-01T10:27:34.162Z",
   "articoli": [
+    {
+      "id": "00da183a7dfb",
+      "serie": "motogp",
+      "titolo": "Márquez al galoppo verso il decimo: \"Titolo? Sono come un cavallo, guardo solo avanti\"",
+      "link": "https://www.motosprint.it/news/eventi/gp-malesia/2026/11/01-9255694/mrquez_al_galoppo_verso_il_decimo_titolo_sono_come_un_cavallo_guardo_solo_avanti",
+      "fonte": "Motosprint",
+      "data": "2026-11-01T10:27:34.162Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/01/094321209-b96530fa-3e23-471b-b335-c83a0f8d50a0.jpg",
+      "sommario": "Nonostante la vittoria in Malesia, il ducatista predica calma: \"Non voglio nemmeno pensare al titolo, anche se mancano ancora poche gare. Dedico il successo alle famiglie di Toledo\""
+    },
+    {
+      "id": "2a2c00c94c19",
+      "serie": "motogp",
+      "titolo": "Rivola stuzzica Marquez: “I giochi di squadra li fanno loro in famiglia”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/01-9255691/rivola_stuzzica_marquez_i_giochi_di_squadra_li_fanno_loro_in_famiglia",
+      "fonte": "Motosprint",
+      "data": "2026-11-01T10:27:34.162Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/01/093204555-96c0022f-ed32-4d9e-9a95-1ed0cbce6b00.jpg",
+      "sommario": "Il CEO Aprilia Racing ai microfoni di Dazn Spagna replica all’accusa del leader del Mondiale relativa ai presunti aiuti tra i piloti di Noale"
+    },
+    {
+      "id": "2948cc9602a9",
+      "serie": "motogp",
+      "titolo": "CLAMOROSO: Yamaha non prenderà parte al Gran Premio del Qatar",
+      "link": "https://www.gpone.com/it/2026/11/01/motogp/clamoroso-yamaha-non-prendera-parte-al-gran-premio-del-qatar.html",
+      "fonte": "GPOne",
+      "data": "2026-11-01T10:07:02.000Z",
+      "immagine": "",
+      "sommario": "È arrivata la comunicazione ufficiale: \"Yamaha non ha individuato motivi sufficienti per modificare le attuali restrizioni di viaggio in vigore a livello azienda\". Quartararo e Rins non correranno"
+    },
+    {
+      "id": "9084a6e4a2e9",
+      "serie": "motogp",
+      "titolo": "Alex Marquez: “Domani mi aspetta un’altra gara: mi opererò alla spalla destra”",
+      "link": "https://www.gpone.com/it/2026/11/01/motogp/alex-marquez-domani-mi-aspetta-unaltra-gara-mi-operero-alla-spalla-destra.html",
+      "fonte": "GPOne",
+      "data": "2026-11-01T09:55:34.000Z",
+      "immagine": "",
+      "sommario": "“Ho sofferto molto dopo l’incidente in Catalunya. Fare tre gare di fila sarebbe stato impossibile, quindi ho deciso di operarmi e tornare a Portimao. Il match point di Marc? Se qualcuno poteva riuscirci, era lui”"
+    },
+    {
+      "id": "560db9e920d1",
+      "serie": "motogp",
+      "titolo": "Acosta: \"Marc oggi era imbattibile. Ora Bezzecchi è la mia battaglia più vicina\"",
+      "link": "https://www.gpone.com/it/2026/11/01/motogp/acosta-marc-oggi-era-imbattibile-ora-bezzecchi-e-la-mia-battaglia-piu-vicina.html",
+      "fonte": "GPOne",
+      "data": "2026-11-01T09:44:33.000Z",
+      "immagine": "",
+      "sommario": "\"Io miglior KTM? porto tutto alla perfezione, voglio solo stare davanti. Fino all'ultimo giorno giorno darò il massimo su questa moto, è il miglior modo per chiudere la mia storia con KTM\""
+    },
     {
       "id": "be90634544fb",
       "serie": "motogp",
@@ -30,6 +80,16 @@
       "data": "2026-11-01T09:20:00.000Z",
       "immagine": "",
       "sommario": "\"Oggi non ci sono stati ordini in Aprilia, ma qualcuno si beccherà una tirata d'orecchie. Se mi avessero detto che avrei lottato per il titolo, avrei chiesto quanta birra avevano bevuto!\""
+    },
+    {
+      "id": "d1e7d6665e51",
+      "serie": "motogp",
+      "titolo": "Miller si espone sul Qatar: \"Io non voglio andarci, e come me altri 19 piloti\"",
+      "link": "https://www.gpone.com/it/2026/11/01/motogp/miller-si-espone-sul-qatar-io-non-voglio-andarci-e-come-me-altri-19-piloti.html",
+      "fonte": "GPOne",
+      "data": "2026-11-01T08:57:05.000Z",
+      "immagine": "",
+      "sommario": "\"Nella mia testa, non ci sto andando. Tutti sapranno dove saremo e a che ora saremo lì... Non possiamo essere costretti ad andare dove non vogliamo\""
     },
     {
       "id": "6162214f0745",
