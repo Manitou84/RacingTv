@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-01T06:39:00.789Z",
+  "aggiornato": "2026-11-01T07:46:51.867Z",
   "articoli": [
     {
       "id": "cbf10dd9329f",
@@ -10,6 +10,16 @@
       "data": "2026-11-01T06:39:00.789Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/01/052827599-350a2a15-22a4-4b26-bb12-6858880cfcf1.jpg",
       "sommario": "Tra le televisioni che seguono con costanza la MotoGP in loco, solo una è intenzionata a mandare delle persone in pista. Nulla da fare per le altre\n"
+    },
+    {
+      "id": "5a48b21e3a21",
+      "serie": "motogp",
+      "titolo": "Una lettere firmata dai piloti per dire 'no' al Gran Premio del Qatar",
+      "link": "https://www.gpone.com/it/2026/11/01/motogp/una-lettere-firmata-dai-piloti-per-dire-no-al-gran-premio-del-qatar.html",
+      "fonte": "GPOne",
+      "data": "2026-11-01T06:38:14.000Z",
+      "immagine": "",
+      "sommario": "La quasi totalità ha sottoscritto il documento inviato al MotoGP Group che, in una riunione con i team manager, ha confermato che la gara si farà. Alex Marquez si opererà alla clavicola"
     },
     {
       "id": "e58869f041d2",
