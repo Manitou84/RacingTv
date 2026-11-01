@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-01T17:22:08.859Z",
+  "aggiornato": "2026-11-01T17:56:48.125Z",
   "articoli": [
+    {
+      "id": "d8ac3e1e7ea3",
+      "serie": "f1",
+      "titolo": "Michele Alboreto e il Mondiale sfiorato con la Ferrari",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/01-9249608/michele_alboreto_e_il_mondiale_sfiorato_con_la_ferrari",
+      "fonte": "Autosprint",
+      "data": "2026-11-01T17:56:48.125Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/30/162508226-6670782d-c389-4166-9c07-2215b3e974a7.jpeg",
+      "sommario": "Due vittorie, la vetta del campionato e un finale amaro: Alboreto arrivò a un passo dal titolo, prima che i problemi della Ferrari consegnassero il Mondiale ad Alain Prost"
+    },
+    {
+      "id": "0281a8a01581",
+      "serie": "f1",
+      "titolo": "Da Riccardo Patrese al mondiale di Antonelli: l’Italia torna a inseguire la storia",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/01-9245962/da_riccardo_patrese_al_mondiale_di_antonelli_litalia_torna_a_inseguire_la_storia",
+      "fonte": "Autosprint",
+      "data": "2026-11-01T17:56:48.125Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/30/180627354-9ff583e5-1bf1-458a-97ba-aafdc84aa205.jpg",
+      "sommario": "Dal trionfo di Riccardo Patrese in Messico nel 1991 al sogno mondiale di Kimi Antonelli: 35 anni dopo, la Formula 1 italiana può tornare nella storia"
+    },
     {
       "id": "1de4bf0c8de3",
       "serie": "f1",
