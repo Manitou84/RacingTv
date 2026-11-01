@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-01T15:03:11.764Z",
+  "aggiornato": "2026-11-01T15:58:51.990Z",
   "weekend": [
     {
       "id": "f1-gp-usa-2026",
@@ -312,6 +312,11 @@
       "fonti": [
         {
           "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/10/dove-vedere-la-f1-stasera-in-tv-gp-messico-2026-orario-qualifiche-differita-tv8-streaming/",
+          "titolo": "Dove vedere la F1 stasera in tv, GP Messico 2026: orario qualifiche, differita TV8, streaming"
+        },
+        {
+          "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/10/a-che-ora-la-f1-su-tv8-oggi-gp-messico-2026-programma-qualifiche-differita-in-chiaro/",
           "titolo": "Quando la F1 su TV8 oggi, GP Messico 2026: orario qualifiche, differita in chiaro"
         },
@@ -334,11 +339,6 @@
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/10/f1-gp-messico-2026-su-tv8-orari-in-chiaro-fine-settimana-qualifiche-e-gara/",
           "titolo": "F1, GP Messico 2026 su TV8: orari in chiaro fine settimana, qualifiche e gara"
-        },
-        {
-          "nome": "OA Sport",
-          "url": "https://www.oasport.it/2026/10/f1-gp-messico-2026-programma-orari-tv-streaming-guida-sky-e-tv8/",
-          "titolo": "F1, GP Messico 2026: programma, orari, tv, streaming, guida SKY e TV8"
         }
       ]
     }

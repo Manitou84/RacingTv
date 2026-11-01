@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-01T15:03:11.764Z",
+  "aggiornato": "2026-11-01T15:58:51.990Z",
   "articoli": [
+    {
+      "id": "1de4bf0c8de3",
+      "serie": "f1",
+      "titolo": "Ocon e Hadjar nel mirino in Messico, perché i loro casi dimostrano che la F1 è confusa",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/01-9255684/ocon_e_hadjar_nel_mirino_in_messico_perch_i_loro_casi_dimostrano_che_la_f1_confusa",
+      "fonte": "Autosprint",
+      "data": "2026-11-01T15:58:51.990Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/01/155821889-96b4a313-14a0-42b9-a54e-232a1d398cf4.jpg",
+      "sommario": "Nel Circus attuale si sta vivendo un cortocircuito tra la volontà, spesso fasulla, di essere di buon esempio e quella di aprire le porte a chiunque"
+    },
     {
       "id": "ead5d2ba39b3",
       "serie": "motogp",
