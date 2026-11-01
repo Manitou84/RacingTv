@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-01T10:27:34.162Z",
+  "aggiornato": "2026-11-01T11:06:18.326Z",
   "griglie": {
     "motogp-gp-australia-2026": {
       "serie": "motogp",
@@ -254,7 +254,7 @@
       "gp": "GP Malesia",
       "fonte": "OA Sport",
       "url": "https://www.oasport.it/2026/10/griglia-di-partenza-motogp-gp-malesia-2026-dominio-della-famiglia-marquez-bezzecchi-in-top-5-martin-si-arrende/",
-      "aggiornato": "2026-11-01T10:27:34.162Z",
+      "aggiornato": "2026-11-01T11:06:18.326Z",
       "righe": [
         {
           "pos": 1,
@@ -363,7 +363,7 @@
       "gp": "GP Messico",
       "fonte": "OA Sport",
       "url": "https://www.oasport.it/2026/11/griglia-di-partenza-f1-gp-messico-2026-risultati-e-classifica-qualifiche/",
-      "aggiornato": "2026-11-01T10:27:34.162Z",
+      "aggiornato": "2026-11-01T11:06:18.326Z",
       "righe": [
         {
           "pos": 1,
@@ -407,28 +407,28 @@
         },
         {
           "pos": 9,
-          "id": "f1-lawson",
-          "nome": "Liam Lawson"
-        },
-        {
-          "pos": 10,
           "id": "f1-gasly",
           "nome": "Pierre Gasly"
         },
         {
-          "pos": 11,
+          "pos": 10,
           "id": "f1-hulkenberg",
           "nome": "Nico Hülkenberg"
         },
         {
-          "pos": 12,
+          "pos": 11,
           "id": "f1-colapinto",
           "nome": "Franco Colapinto"
         },
         {
-          "pos": 13,
+          "pos": 12,
           "id": "f1-piastri",
           "nome": "Oscar Piastri"
+        },
+        {
+          "pos": 13,
+          "id": "f1-bortoleto",
+          "nome": "Gabriel Bortoleto"
         },
         {
           "pos": 14,
@@ -457,23 +457,23 @@
         },
         {
           "pos": 19,
-          "id": "f1-bortoleto",
-          "nome": "Gabriel Bortoleto"
-        },
-        {
-          "pos": 20,
           "id": "f1-stroll",
           "nome": "Lance Stroll"
         },
         {
-          "pos": 21,
+          "pos": 20,
           "id": "f1-perez",
           "nome": "Sergio Pérez"
         },
         {
-          "pos": 22,
+          "pos": 21,
           "id": "f1-bottas",
           "nome": "Valtteri Bottas"
+        },
+        {
+          "pos": 22,
+          "id": "f1-lawson",
+          "nome": "Liam Lawson"
         }
       ]
     }
