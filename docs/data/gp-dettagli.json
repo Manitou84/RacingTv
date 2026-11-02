@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-02T18:43:49.009Z",
+  "aggiornato": "2026-11-02T19:44:22.213Z",
   "_fonte": "Wikipedia (inglese), pagine dei singoli GP",
   "motogp": {
     "2025": {
@@ -898,6 +898,31 @@
         "futuro": true,
         "letto": "2026-11-02T12:47:03.478Z"
       },
+      "2026_Malaysian_motorcycle_Grand_Prix": {
+        "data": "2026-11-01",
+        "circuito": "sepang",
+        "luogo": "Sepang International Circuit Sepang, Selangor, Malaysia",
+        "pole": {
+          "chi": "Álex Márquez",
+          "tempo": "1:56.493"
+        },
+        "giroVeloce": {
+          "chi": "Pedro Acosta",
+          "tempo": "1:59.261"
+        },
+        "podio": [
+          "Marc Márquez",
+          "Pedro Acosta",
+          "Álex Márquez"
+        ],
+        "sprint": [
+          "Pedro Acosta",
+          "Marc Márquez",
+          "Marco Bezzecchi"
+        ],
+        "futuro": false,
+        "letto": "2026-11-02T19:44:22.213Z"
+      },
       "2026_Qatar_motorcycle_Grand_Prix": {
         "data": null,
         "circuito": null,
@@ -982,31 +1007,6 @@
         ],
         "futuro": false,
         "letto": "2026-10-31T06:22:30.792Z"
-      },
-      "2026_Malaysian_motorcycle_Grand_Prix": {
-        "data": "2026-11-01",
-        "circuito": "sepang",
-        "luogo": "Sepang International Circuit Sepang, Selangor, Malaysia",
-        "pole": {
-          "chi": "Álex Márquez",
-          "tempo": "1:56.493"
-        },
-        "giroVeloce": {
-          "chi": "Pedro Acosta",
-          "tempo": "1:59.261"
-        },
-        "podio": [
-          "Marc Márquez",
-          "Pedro Acosta",
-          "Álex Márquez"
-        ],
-        "sprint": [
-          "Pedro Acosta",
-          "Marc Márquez",
-          "Marco Bezzecchi"
-        ],
-        "futuro": false,
-        "letto": "2026-11-02T18:43:49.009Z"
       },
       "2026_Portuguese_motorcycle_Grand_Prix": {
         "data": null,
@@ -1715,7 +1715,7 @@
         ],
         "sprint": [],
         "futuro": false,
-        "letto": "2026-11-02T18:43:49.009Z"
+        "letto": "2026-11-02T19:44:22.213Z"
       },
       "2026_Azerbaijan_Grand_Prix": {
         "data": "2026-09-26",
@@ -1984,27 +1984,6 @@
         "sprint": [],
         "futuro": false,
         "letto": "2026-10-31T07:02:27.524Z"
-      },
-      "2026_Mexican_Grand_Prix": {
-        "data": "2026-11-01",
-        "circuito": "citta-del-messico",
-        "luogo": "Autódromo Hermanos Rodríguez Mexico City, Mexico",
-        "pole": {
-          "chi": "Lewis Hamilton",
-          "tempo": "1:16.514"
-        },
-        "giroVeloce": {
-          "chi": "Lewis Hamilton",
-          "tempo": "1:19.268"
-        },
-        "podio": [
-          "Max Verstappen",
-          "Lewis Hamilton",
-          "Kimi Antonelli"
-        ],
-        "sprint": [],
-        "futuro": false,
-        "letto": "2026-11-02T18:43:49.009Z"
       },
       "2026_São_Paulo_Grand_Prix": {
         "data": null,
