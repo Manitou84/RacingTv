@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-02T09:31:30.232Z",
+  "aggiornato": "2026-11-02T10:48:11.600Z",
   "articoli": [
     {
       "id": "07f0b38e92af",
@@ -80,6 +80,16 @@
       "data": "2026-11-02T09:13:09.000Z",
       "immagine": "",
       "sommario": "Ecco la programmazione completa del terzultimo appuntamento stagionale del Motomondiale, in diretta su Sky e sul digitale con TV8"
+    },
+    {
+      "id": "48c84f2d63be",
+      "serie": "motogp",
+      "titolo": "Márquez campione già in Qatar? Ecco tutte le combinazioni del primo match point mondiale",
+      "link": "https://www.gpone.com/it/2026/11/02/motogp/marquez-campione-gia-in-qatar-ecco-tutte-le-combinazioni-del-primo-match-point-mondiale.html",
+      "fonte": "GPOne",
+      "data": "2026-11-02T08:59:41.000Z",
+      "immagine": "",
+      "sommario": "A Lusail Marc può conquistare il titolo con due gare d'anticipo, ma dovrà guadagnare almeno 30 punti su Jorge Martín e 8 su Marco Bezzecchi nel weekend. Ecco tutti i calcoli"
     },
     {
       "id": "61f1270fc6ff",
@@ -350,6 +360,16 @@
       "data": "2026-11-01T08:57:05.000Z",
       "immagine": "",
       "sommario": "\"Nella mia testa, non ci sto andando. Tutti sapranno dove saremo e a che ora saremo lì... Non possiamo essere costretti ad andare dove non vogliamo\""
+    },
+    {
+      "id": "8355397d9e93",
+      "serie": "motogp",
+      "titolo": "SHOW YOUR TRIUMPH: a EICMA GPOne cerca un nuovo tester. Potresti essere tu!",
+      "link": "https://www.gpone.com/it/2026/11/01/motogp/show-your-triumph-a-eicma-gpone-cerca-il-suo-nuovo-videomaker-potresti-essere-tu.html",
+      "fonte": "GPOne",
+      "data": "2026-11-01T08:51:39.000Z",
+      "immagine": "",
+      "sommario": "Hai una passione per le moto, uno smartphone e ti piace raccontare storie attraverso le immagini? Triumph e GPOne lanciano a EICMA 2026 un contest che potrebbe trasformare la tua passione in un'opportunità"
     },
     {
       "id": "6162214f0745",
