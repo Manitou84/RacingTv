@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-02T14:55:49.261Z",
+  "aggiornato": "2026-11-02T15:49:28.165Z",
   "articoli": [
+    {
+      "id": "0f85323116ad",
+      "serie": "motogp",
+      "titolo": "Le pagelle di Sepang: Marquez scatta verso il titolo, Bezzecchi in difesa, Bagnaia amaro",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/02-9257207/le_pagelle_di_sepang_marquez_scatta_verso_il_titolo_bezzecchi_in_difesa_bagnaia_amaro",
+      "fonte": "Motosprint",
+      "data": "2026-11-02T15:49:28.165Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/02/141444895-56571ac9-4d9c-437d-9aa5-d09801da085c.jpg",
+      "sommario": "Marc indirizza la lotta mondiale con un altro successo, mentre Marco e Aprilia lottano ma perdono terreno. Bilancio agrodolce per gli italiani"
+    },
+    {
+      "id": "a43037cac3fe",
+      "serie": "motogp",
+      "titolo": "Dovizioso loda Kimi Antonelli: “Un campione, ma anche un esempio di normalità”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/02-9259623/dovizioso_loda_kimi_antonelli_un_campione_ma_anche_un_esempio_di_normalit",
+      "fonte": "Motosprint",
+      "data": "2026-11-02T15:49:28.165Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/02/144235288-1f49e647-4059-4b22-9c8d-5b1883f5cb88.jpg",
+      "sommario": "“dovi” è stato trai piloti delle due ruote “stregati” dal bolognese che ha appena conquistato il titolo in Formula 1: “Un ragazzo straordinariamente semplice, ma con un talento raro”"
+    },
     {
       "id": "832ee19b6749",
       "serie": "f1",

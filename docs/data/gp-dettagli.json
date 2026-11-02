@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-02T14:55:49.261Z",
+  "aggiornato": "2026-11-02T15:49:28.165Z",
   "_fonte": "Wikipedia (inglese), pagine dei singoli GP",
   "motogp": {
     "2025": {
@@ -1006,7 +1006,7 @@
           "Marco Bezzecchi"
         ],
         "futuro": false,
-        "letto": "2026-11-02T14:55:49.261Z"
+        "letto": "2026-11-02T15:49:28.165Z"
       },
       "2026_Portuguese_motorcycle_Grand_Prix": {
         "data": null,
@@ -1715,7 +1715,7 @@
         ],
         "sprint": [],
         "futuro": false,
-        "letto": "2026-11-02T14:55:49.261Z"
+        "letto": "2026-11-02T15:49:28.165Z"
       },
       "2026_Azerbaijan_Grand_Prix": {
         "data": "2026-09-26",
@@ -1984,6 +1984,27 @@
         "sprint": [],
         "futuro": false,
         "letto": "2026-10-31T07:02:27.524Z"
+      },
+      "2026_Mexican_Grand_Prix": {
+        "data": "2026-11-01",
+        "circuito": "citta-del-messico",
+        "luogo": "Autódromo Hermanos Rodríguez Mexico City, Mexico",
+        "pole": {
+          "chi": "Lewis Hamilton",
+          "tempo": "1:16.514"
+        },
+        "giroVeloce": {
+          "chi": "Lewis Hamilton",
+          "tempo": "1:19.268"
+        },
+        "podio": [
+          "Max Verstappen",
+          "Lewis Hamilton",
+          "Kimi Antonelli"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-11-02T15:49:28.165Z"
       },
       "2026_São_Paulo_Grand_Prix": {
         "data": null,
