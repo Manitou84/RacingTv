@@ -1,6 +1,86 @@
 {
-  "aggiornato": "2026-11-02T08:22:47.830Z",
+  "aggiornato": "2026-11-02T09:31:30.232Z",
   "articoli": [
+    {
+      "id": "07f0b38e92af",
+      "serie": "motogp",
+      "titolo": "Kimi Antonelli campione, Rossi lo incorona: “Mi rivedo in lui quando avevo la sua età”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/02-9257677/kimi_antonelli_campione_rossi_lo_incorona_mi_rivedo_in_lui_quando_avevo_la_sua_et",
+      "fonte": "Motosprint",
+      "data": "2026-11-02T09:31:30.232Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/02/085904658-ac225e0f-657c-4830-a76a-408631196fa8.jpg",
+      "sommario": "Il \"Dottore\" si sbilancia: \"Può diventare uno dei più grandi campioni della storia e vincere quattro, cinque o sei titoli. In pista è un cannibale, ma è anche un ragazzo semplice\""
+    },
+    {
+      "id": "98c3626bb037",
+      "serie": "motogp",
+      "titolo": "Gresini senza piloti: Lecuona in Qatar a prendere un posto",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/02-9256349/gresini_senza_piloti_lecuona_in_qatar_a_prendere_un_posto",
+      "fonte": "Motosprint",
+      "data": "2026-11-02T09:31:30.232Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/01/162226528-6b01d960-e18e-4fa1-a2b1-cfe08b8f154a.jpg",
+      "sommario": "Iker, sostituito di Aldeguer in Australia e Malesia, andrà pure a Lusail. Alex Marquez fuori, Pirro in allerta"
+    },
+    {
+      "id": "3205a7a1d1bc",
+      "serie": "motogp",
+      "titolo": "Bezzecchi festeggia il titolo di Antonelli: “La sua arma vincente? La spensieratezza”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/02-9257479/bezzecchi_festeggia_il_titolo_di_antonelli_la_sua_arma_vincente_la_spensieratezza",
+      "fonte": "Motosprint",
+      "data": "2026-11-02T09:31:30.232Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/02/084429569-f739ec56-bd34-488a-b4fd-c841536a8fee.jpg",
+      "sommario": "Marco ha parlato del mondiale F1 vinto dal suo grande amico Kimi: “Affronta le gare con una serenità da vero campione, è un ragazzo di cuore e questo titolo non lo cambierà”"
+    },
+    {
+      "id": "570819bd0cda",
+      "serie": "motogp",
+      "titolo": "Un altro allarme per Mir: “Ho avuto problemi alla vista, sono preoccupato”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/02-9255888/un_altro_allarme_per_mir_ho_avuto_problemi_alla_vista_sono_preoccupato",
+      "fonte": "Motosprint",
+      "data": "2026-11-02T09:31:30.232Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/01/111342618-4c700054-7a61-45e7-bc3c-a9d9cae7201c.jpg",
+      "sommario": "Il weekend di Joan si è concluso con un ritiro, accusando gli stessi problemi che l’avevano tenuto lontano dalle gare nelle scorse settimane. In forse la sua presenza in Qatar"
+    },
+    {
+      "id": "37e7d4cb7ed3",
+      "serie": "motogp",
+      "titolo": "Tutto quello che c’è da sapere su Lusail: l’analisi delle criticità per la MotoGP",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/02-9256095/tutto_quello_che_c_da_sapere_su_lusail_lanalisi_delle_criticit_per_la_motogp",
+      "fonte": "Motosprint",
+      "data": "2026-11-02T09:31:30.232Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/01/140244726-8f73e43c-ffa2-4fbb-81f0-d547745209c1.jpg",
+      "sommario": "Ecco tutto quello che c’è da sapere sul tracciato di qatariota, palcoscenico del terz’ultimo atto del Motomondiale 2026, nel fine settimana del 6-8 novembre\n"
+    },
+    {
+      "id": "247abe78694d",
+      "serie": "motogp",
+      "titolo": "Altro che Rossi e Marquez: stavolta la MotoGP è davvero spezzata in due",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/02-9256016/altro_che_rossi_e_marquez_stavolta_la_motogp_davvero_spezzata_in_due",
+      "fonte": "Motosprint",
+      "data": "2026-11-02T09:31:30.232Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/01/134832764-512b05ff-02f4-4dab-aa4b-e60e53b5c686.jpg",
+      "sommario": "La \"guerra\" tra Valentino e Marc divise il paddock, ma il conflitto in Medio Oriente e il Gran Premio del Qatar potrebbero fare peggio: il \"gentleman's agreement\" rischia di saltare"
+    },
+    {
+      "id": "5e87aa7a7f80",
+      "serie": "f1",
+      "titolo": "Antonelli stellare, un Campione che appassiona: \"Costanza e divertimento decisivi\"",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/02-9257379/antonelli_stellare_un_campione_che_appassiona_costanza_e_divertimento_decisivi",
+      "fonte": "Autosprint",
+      "data": "2026-11-02T09:31:30.232Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/02/092443549-65342523-c8af-4265-8108-41a55a987cb6.jpg",
+      "sommario": "Dall'emozione vissuta negli ultimi giri del GP, all'incoronazione accanto a Max e Lewis, passando per le difficoltà dell'esordio in F1 nel 2025: parla il campione"
+    },
+    {
+      "id": "62fc8d757c8b",
+      "serie": "motogp",
+      "titolo": "GP Qatar, Losail: gli orari in tv su Sky, NOW e TV8",
+      "link": "https://www.gpone.com/it/2026/11/02/motogp/gp-qatar-losail-gli-orari-in-tv-su-sky-now-e-tv8.html",
+      "fonte": "GPOne",
+      "data": "2026-11-02T09:13:09.000Z",
+      "immagine": "",
+      "sommario": "Ecco la programmazione completa del terzultimo appuntamento stagionale del Motomondiale, in diretta su Sky e sul digitale con TV8"
+    },
     {
       "id": "61f1270fc6ff",
       "serie": "f1",
