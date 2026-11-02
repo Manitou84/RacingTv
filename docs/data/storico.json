@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-02T04:48:38.453Z",
+  "aggiornato": "2026-11-02T05:49:37.271Z",
   "fonte": "Wikipedia",
   "piloti": {
     "martin": [
@@ -1276,7 +1276,7 @@
         "anno": 2026,
         "campionato": "Formula 1",
         "pos": 8,
-        "punti": 105,
+        "punti": 107,
         "inCorso": true
       }
     ],
@@ -1320,7 +1320,7 @@
         "anno": 2026,
         "campionato": "Formula 1",
         "pos": 9,
-        "punti": 81,
+        "punti": 83,
         "inCorso": true
       }
     ],
@@ -1430,7 +1430,7 @@
       {
         "anno": 2026,
         "campionato": "Formula 1",
-        "pos": 21,
+        "pos": 22,
         "punti": 0,
         "inCorso": true
       }
@@ -1548,7 +1548,7 @@
       {
         "anno": 2026,
         "campionato": "Formula 1",
-        "pos": 14,
+        "pos": 15,
         "punti": 13,
         "inCorso": true
       }
@@ -1578,8 +1578,8 @@
       {
         "anno": 2026,
         "campionato": "Formula 1",
-        "pos": 15,
-        "punti": 11,
+        "pos": 14,
+        "punti": 14,
         "inCorso": true
       }
     ],
@@ -1623,7 +1623,7 @@
         "anno": 2026,
         "campionato": "Formula 1",
         "pos": 10,
-        "punti": 44,
+        "punti": 42,
         "inCorso": true
       }
     ],
@@ -1660,7 +1660,7 @@
         "anno": 2026,
         "campionato": "Formula 1",
         "pos": 12,
-        "punti": 33,
+        "punti": 27,
         "inCorso": true
       }
     ],
