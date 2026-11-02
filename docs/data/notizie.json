@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-02T16:52:29.955Z",
+  "aggiornato": "2026-11-02T17:47:41.692Z",
   "articoli": [
+    {
+      "id": "5553bce6ae46",
+      "serie": "motogp",
+      "titolo": "il ricatto del GP del Qatar: correre nonostante la guerra o rischiare una squalifica?",
+      "link": "https://www.gpone.com/it/2026/11/02/motogp/il-ricatto-del-gp-del-qatar-correre-nonostante-la-guerra-o-rischiare-una-squalifica.html",
+      "fonte": "GPOne",
+      "data": "2026-11-02T17:18:53.000Z",
+      "immagine": "",
+      "sommario": "Non è ancora chiaro se la spettacolare gara notturna sul circuito di Lusail potrà svolgersi come previsto questo fine settimana. Solo tre piloti della MotoGP non hanno firmato una lettera indirizzata agli organizzatori d"
+    },
     {
       "id": "c6ab7cb8ae2b",
       "serie": "motogp",
@@ -10,6 +20,16 @@
       "data": "2026-11-02T16:41:00.000Z",
       "immagine": "",
       "sommario": "VIDEO - Dopo la dimostrazione di forza di Marc a Sepang, Carlo Pernat guarda al futuro del campione Ducati: “Ancora un anno o due, poi potrebbe andarsene”. Nel mirino anche Aprilia, la gestione del Qatar e il silenzio de"
+    },
+    {
+      "id": "27333c4e5900",
+      "serie": "motogp",
+      "titolo": "Vinales: “Il Qatar? Dobbiamo andarci, non abbiamo altra scelta”",
+      "link": "https://www.gpone.com/it/2026/11/02/motogp/vinales-il-qatar-dobbiamo-andarci-non-abbiamo-altra-scelta.html",
+      "fonte": "GPOne",
+      "data": "2026-11-02T16:33:56.000Z",
+      "immagine": "",
+      "sommario": "“Se non ci andremo, dovremo affrontare una penalità. Ho paura di andarci: le sensazioni saranno completamente diverse dall’anno scorso. Non sarò nelle stesse condizioni e con la stessa fiducia”"
     },
     {
       "id": "0f85323116ad",
