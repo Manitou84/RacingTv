@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-02T05:49:37.271Z",
+  "aggiornato": "2026-11-02T06:58:35.167Z",
   "articoli": [
+    {
+      "id": "61f1270fc6ff",
+      "serie": "f1",
+      "titolo": "Antonelli nella leggenda: è Campione del Mondo a 20 anni! Verstappen vince in Messico",
+      "link": "https://www.gpone.com/it/2026/11/02/formula-1/antonelli-nella-leggenda-e-campione-del-mondo-a-20-anni-verstappen-vince-in-messico.html",
+      "fonte": "GPOne",
+      "data": "2026-11-02T06:50:36.000Z",
+      "immagine": "",
+      "sommario": "Il terzo posto a Città del Messico consegna a Kimi il titolo iridato con quattro gare d'anticipo. È il più giovane campione della storia e il primo italiano dopo Alberto Ascari nel 1953. Verstappen batte Hamilton, mentre"
+    },
+    {
+      "id": "b16c2c032457",
+      "serie": "motogp",
+      "titolo": "Gran Premio di Sepang: il Bello, il Brutto e il Cattivo",
+      "link": "https://www.gpone.com/it/2026/11/02/motogp/gran-premio-di-sepang-il-bello-il-brutto-e-il-cattivo.html",
+      "fonte": "GPOne",
+      "data": "2026-11-02T06:00:00.000Z",
+      "immagine": "",
+      "sommario": "Marc Marquez vince correndo, Yamaha rifiutandosi di farlo. Gli altri perdono tutti: l'Aprilia il Mondiale e la MotoGP la faccia"
+    },
     {
       "id": "d8ac3e1e7ea3",
       "serie": "f1",

@@ -1,7 +1,7 @@
 {
-  "aggiornato": "2026-11-02T05:49:37.271Z",
+  "aggiornato": "2026-11-02T06:58:35.167Z",
   "motogp": {
-    "aggiornato": "2026-11-02T05:49:37.271Z",
+    "aggiornato": "2026-11-02T06:58:35.167Z",
     "fonte": "Motosprint",
     "piloti": [
       {
@@ -315,7 +315,7 @@
     ]
   },
   "f1": {
-    "aggiornato": "2026-11-02T05:49:37.271Z",
+    "aggiornato": "2026-11-02T06:58:35.167Z",
     "fonte": "Autosprint",
     "piloti": [
       {
@@ -365,28 +365,28 @@
         "slug": "oscar-piastri",
         "nome": "O. Piastri",
         "team": "McLaren Mastercard F1 Team",
-        "punti": 150
+        "punti": 144
       },
       {
         "pos": 8,
         "slug": "isack-hadjar",
         "nome": "I. Hadjar",
         "team": "Oracle Red Bull Racing",
-        "punti": 105
+        "punti": 107
       },
       {
         "pos": 9,
         "slug": "liam-lawson",
         "nome": "L. Lawson",
         "team": "Visa Cash App Racing Bulls Formula One Team",
-        "punti": 79
+        "punti": 83
       },
       {
         "pos": 10,
         "slug": "pierre-gasly",
         "nome": "P. Gasly",
         "team": "BWT Alpine F1 Team",
-        "punti": 43
+        "punti": 42
       },
       {
         "pos": 11,
@@ -400,7 +400,7 @@
         "slug": "franco-colapinto",
         "nome": "F. Colapinto",
         "team": "BWT Alpine F1 Team",
-        "punti": 31
+        "punti": 27
       },
       {
         "pos": 13,
@@ -411,17 +411,17 @@
       },
       {
         "pos": 14,
+        "slug": "gabriel-bortoleto",
+        "nome": "G. Bortoleto",
+        "team": "Audi Revolut F1 Team",
+        "punti": 14
+      },
+      {
+        "pos": 15,
         "slug": "nico-hulkenberg",
         "nome": "N. Hülkenberg",
         "team": "Audi Revolut F1 Team",
         "punti": 13
-      },
-      {
-        "pos": 15,
-        "slug": "gabriel-bortoleto",
-        "nome": "G. Bortoleto",
-        "team": "Audi Revolut F1 Team",
-        "punti": 10
       },
       {
         "pos": 16,
@@ -460,23 +460,23 @@
       },
       {
         "pos": 21,
+        "slug": "ryo-hirakawa",
+        "nome": "R. Hirakawa",
+        "team": "Haas F1 Team",
+        "punti": 1
+      },
+      {
+        "pos": 22,
         "slug": "lance-stroll",
         "nome": "L. Stroll",
         "team": "Aston Martin Aramco F1 Team",
         "punti": 0
       },
       {
-        "pos": 22,
+        "pos": 23,
         "slug": "valtteri-bottas",
         "nome": "V. Bottas",
         "team": "Cadillac Formula 1 Team",
-        "punti": 0
-      },
-      {
-        "pos": 23,
-        "slug": "ryo-hirakawa",
-        "nome": "R. Hirakawa",
-        "team": "Haas F1 Team",
         "punti": 0
       },
       {
@@ -502,32 +502,32 @@
       {
         "pos": 3,
         "nome": "Oracle Red Bull Racing",
-        "punti": 380
+        "punti": 382
       },
       {
         "pos": 4,
         "nome": "McLaren Mastercard F1 Team",
-        "punti": 371
+        "punti": 365
       },
       {
         "pos": 5,
         "nome": "Visa Cash App Racing Bulls Formula One Team",
-        "punti": 104
+        "punti": 108
       },
       {
         "pos": 6,
         "nome": "BWT Alpine F1 Team",
-        "punti": 74
+        "punti": 69
       },
       {
         "pos": 7,
         "nome": "Haas F1 Team",
-        "punti": 30
+        "punti": 31
       },
       {
         "pos": 8,
         "nome": "Audi Revolut F1 Team",
-        "punti": 23
+        "punti": 27
       },
       {
         "pos": 9,
@@ -547,7 +547,7 @@
     ]
   },
   "sbk": {
-    "aggiornato": "2026-11-02T05:49:37.271Z",
+    "aggiornato": "2026-11-02T06:58:35.167Z",
     "fonte": "Wikipedia",
     "piloti": [
       {
