@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-02T12:47:03.478Z",
+  "aggiornato": "2026-11-02T13:59:15.680Z",
   "articoli": [
+    {
+      "id": "cdefe67506a4",
+      "serie": "f1",
+      "titolo": "Leclerc-Hamilton, altro che collaborazione: \"Anch'io scontento, ma sono le corse\"",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/02-9259068/leclerc-hamilton_altro_che_collaborazione_anch_io_scontento_ma_sono_le_corse",
+      "fonte": "Autosprint",
+      "data": "2026-11-02T13:59:15.680Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/02/131348328-613a4e02-8ad5-4b51-a5bc-c7fd492a170f.jpg",
+      "sommario": "La condotta di Charles al primo giro ha riaperto il tema dei limiti che i due piloti Ferrari non devono superare nel lottare in pista. In Messico è sfumata la vittoria"
+    },
     {
       "id": "07f0b38e92af",
       "serie": "motogp",
