@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-03T21:31:35.062Z",
+  "aggiornato": "2026-11-03T22:29:41.380Z",
   "articoli": [
+    {
+      "id": "c68f249012f6",
+      "serie": "f1",
+      "titolo": "Niente Ocon né Hirakawa: negli ultimi GP per Haas ci sarà Câmara",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/03-9265499/niente_ocon_n_hirakawa_negli_ultimi_gp_per_haas_ci_sar_cmara",
+      "fonte": "Autosprint",
+      "data": "2026-11-03T22:29:41.380Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/03/215020440-16c48780-03e0-4b50-99fb-3ef259b49c08.jpg",
+      "sommario": "Il team statunitense ha deciso chi sarà il compagno di squadra di Ollie Bearman negli ultimi gran premi della stagione 2026"
+    },
     {
       "id": "63add5075352",
       "serie": "motogp",
