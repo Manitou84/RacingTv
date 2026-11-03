@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-03T14:44:07.666Z",
+  "aggiornato": "2026-11-03T15:37:07.257Z",
   "articoli": [
+    {
+      "id": "7a6f48fe18ad",
+      "serie": "f1",
+      "titolo": "Antonelli: il significato di Suzuka nella corsa al titolo",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/03-9263814/antonelli_il_significato_di_suzuka_nella_corsa_al_titolo",
+      "fonte": "Autosprint",
+      "data": "2026-11-03T15:37:07.257Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/03/144402498-01d52e9d-2482-4286-9a12-a1a8997b0fac.jpg",
+      "sommario": "Il rendimento su altissimi livelli, insieme a un avvio di stagione monumentale, formano le fondamenta sulle quali Kimi ha costruito la vittoria"
+    },
+    {
+      "id": "8997059bb012",
+      "serie": "motogp",
+      "titolo": "Tardozzi: “Marc Marquez non è solo il suo talento, ha la testa migliore di tutti”",
+      "link": "https://www.gpone.com/it/2026/11/03/motogp/tardozzi-marc-marquez-non-e-solo-il-suo-talento-ha-la-testa-migliore-di-tutti.html",
+      "fonte": "GPOne",
+      "data": "2026-11-03T14:57:19.000Z",
+      "immagine": "",
+      "sommario": "Il Team Manager elogia la rimonta del catalano: “Era inimmaginabile dopo il Mugello, ma quello che è successo lì è stato il carburante di cui avevamo bisogno. Il Qatar? Ci fidiamo degli organizzatori”"
+    },
     {
       "id": "158f64c94475",
       "serie": "f1",
