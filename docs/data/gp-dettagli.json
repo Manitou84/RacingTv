@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-03T12:10:45.396Z",
+  "aggiornato": "2026-11-03T13:34:55.396Z",
   "_fonte": "Wikipedia (inglese), pagine dei singoli GP",
   "motogp": {
     "2025": {
@@ -896,7 +896,7 @@
           "Fabio Di Giannantonio"
         ],
         "futuro": true,
-        "letto": "2026-11-02T12:47:03.478Z"
+        "letto": "2026-11-03T13:34:55.396Z"
       },
       "2026_Malaysian_motorcycle_Grand_Prix": {
         "data": "2026-11-01",
@@ -921,7 +921,7 @@
           "Marco Bezzecchi"
         ],
         "futuro": false,
-        "letto": "2026-11-03T12:10:45.396Z"
+        "letto": "2026-11-03T13:34:55.396Z"
       },
       "2026_Qatar_motorcycle_Grand_Prix": {
         "data": null,
@@ -931,7 +931,7 @@
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-11-02T12:47:03.478Z"
+        "letto": "2026-11-03T13:34:55.396Z"
       },
       "2026_Thailand_motorcycle_Grand_Prix": {
         "data": "2026-03-01",
@@ -1016,7 +1016,7 @@
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-11-02T12:47:03.478Z"
+        "letto": "2026-11-03T13:34:55.396Z"
       },
       "2026_Valencian_Community_motorcycle_Grand_Prix": {
         "data": null,
@@ -1026,7 +1026,7 @@
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-11-02T12:47:03.478Z"
+        "letto": "2026-11-03T13:34:55.396Z"
       }
     }
   },
@@ -1568,7 +1568,7 @@
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-11-02T12:47:03.478Z"
+        "letto": "2026-11-03T13:34:55.396Z"
       }
     },
     "2026": {
@@ -1591,7 +1591,7 @@
         ],
         "sprint": [],
         "futuro": false,
-        "letto": "2026-11-03T12:10:45.396Z"
+        "letto": "2026-11-03T13:34:55.396Z"
       },
       "2026_Saudi_Arabian_Grand_Prix": {
         "data": "2026-04-19",
@@ -1602,7 +1602,7 @@
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-11-02T12:47:03.478Z"
+        "letto": "2026-11-03T13:34:55.396Z"
       },
       "2026_Australian_Grand_Prix": {
         "data": "2026-03-08",
@@ -1986,14 +1986,15 @@
         "letto": "2026-10-31T07:02:27.524Z"
       },
       "2026_São_Paulo_Grand_Prix": {
-        "data": null,
-        "circuito": null,
+        "data": "2026-11-08",
+        "circuito": "monaco",
+        "luogo": "Autódromo José Carlos Pace São Paulo, Brazil",
         "pole": null,
         "giroVeloce": null,
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-11-02T12:47:03.478Z"
+        "letto": "2026-11-03T13:34:55.396Z"
       },
       "2026_Las_Vegas_Grand_Prix": {
         "data": null,
@@ -2003,7 +2004,7 @@
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-11-02T12:47:03.478Z"
+        "letto": "2026-11-03T13:34:55.396Z"
       },
       "2026_Qatar_Grand_Prix": {
         "data": null,
@@ -2013,7 +2014,7 @@
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-11-02T12:47:03.478Z"
+        "letto": "2026-11-03T13:34:55.396Z"
       },
       "2026_Abu_Dhabi_Grand_Prix": {
         "data": null,
@@ -2023,7 +2024,7 @@
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-11-02T12:47:03.478Z"
+        "letto": "2026-11-03T13:34:55.396Z"
       },
       "2026_Speedway_Grand_Prix": {
         "data": null,
@@ -2033,7 +2034,7 @@
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-11-02T12:47:03.478Z"
+        "letto": "2026-11-03T13:34:55.396Z"
       }
     }
   }

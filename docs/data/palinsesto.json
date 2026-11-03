@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-03T12:10:45.396Z",
+  "aggiornato": "2026-11-03T13:34:55.396Z",
   "weekend": [
     {
       "id": "motogp-gp-malesia-2026",
@@ -308,119 +308,119 @@
         {
           "classe": "Moto3",
           "sessione": "Prove libere 1",
-          "inizio": "2026-11-06T11:00:00.000Z",
+          "inizio": "2026-11-06T10:00:00.000Z",
           "tv8": null,
           "fonte": "OA Sport"
         },
         {
           "classe": "Moto2",
           "sessione": "Prove libere 1",
-          "inizio": "2026-11-06T11:50:00.000Z",
+          "inizio": "2026-11-06T10:50:00.000Z",
           "tv8": null,
           "fonte": "OA Sport"
         },
         {
           "classe": "MotoGP",
           "sessione": "Prove libere 1",
-          "inizio": "2026-11-06T12:45:00.000Z",
+          "inizio": "2026-11-06T11:45:00.000Z",
           "tv8": null,
           "fonte": "OA Sport"
         },
         {
           "classe": "Moto3",
           "sessione": "Pre-qualifiche",
-          "inizio": "2026-11-06T15:15:00.000Z",
+          "inizio": "2026-11-06T14:15:00.000Z",
           "tv8": null,
           "fonte": "OA Sport"
         },
         {
           "classe": "Moto2",
           "sessione": "Pre-qualifiche",
-          "inizio": "2026-11-06T16:05:00.000Z",
+          "inizio": "2026-11-06T15:05:00.000Z",
           "tv8": null,
           "fonte": "OA Sport"
         },
         {
           "classe": "MotoGP",
           "sessione": "Pre-qualifiche",
-          "inizio": "2026-11-06T17:00:00.000Z",
+          "inizio": "2026-11-06T16:00:00.000Z",
           "tv8": null,
           "fonte": "OA Sport"
         },
         {
           "classe": "Moto3",
           "sessione": "Prove libere 2",
-          "inizio": "2026-11-07T10:30:00.000Z",
+          "inizio": "2026-11-07T09:30:00.000Z",
           "tv8": null,
           "fonte": "OA Sport"
         },
         {
           "classe": "Moto2",
           "sessione": "Prove libere 2",
-          "inizio": "2026-11-07T11:15:00.000Z",
+          "inizio": "2026-11-07T10:15:00.000Z",
           "tv8": null,
           "fonte": "OA Sport"
         },
         {
           "classe": "MotoGP",
           "sessione": "Prove libere 2",
-          "inizio": "2026-11-07T12:00:00.000Z",
+          "inizio": "2026-11-07T11:00:00.000Z",
           "tv8": null,
           "fonte": "OA Sport"
         },
         {
           "classe": "MotoGP",
           "sessione": "Qualifiche Q1",
-          "inizio": "2026-11-07T12:40:00.000Z",
+          "inizio": "2026-11-07T11:40:00.000Z",
           "tv8": null,
           "fonte": "OA Sport"
         },
         {
           "classe": "MotoGP",
           "sessione": "Qualifiche Q2",
-          "inizio": "2026-11-07T13:05:00.000Z",
+          "inizio": "2026-11-07T12:05:00.000Z",
           "tv8": null,
           "fonte": "OA Sport"
         },
         {
           "classe": "Moto2",
           "sessione": "Qualifiche Q1",
-          "inizio": "2026-11-07T15:40:00.000Z",
+          "inizio": "2026-11-07T14:45:00.000Z",
           "tv8": null,
           "fonte": "OA Sport"
         },
         {
           "classe": "Moto2",
           "sessione": "Qualifiche Q2",
-          "inizio": "2026-11-07T16:05:00.000Z",
+          "inizio": "2026-11-07T15:10:00.000Z",
           "tv8": null,
           "fonte": "OA Sport"
         },
         {
           "classe": "MotoGP",
           "sessione": "Sprint",
-          "inizio": "2026-11-07T17:00:00.000Z",
+          "inizio": "2026-11-07T16:00:00.000Z",
           "tv8": null,
           "fonte": "OA Sport"
         },
         {
           "classe": "Moto3",
           "sessione": "Gara",
-          "inizio": "2026-11-08T14:00:00.000Z",
+          "inizio": "2026-11-08T13:00:00.000Z",
           "tv8": null,
           "fonte": "OA Sport"
         },
         {
           "classe": "Moto2",
           "sessione": "Gara",
-          "inizio": "2026-11-08T15:15:00.000Z",
+          "inizio": "2026-11-08T14:15:00.000Z",
           "tv8": null,
           "fonte": "OA Sport"
         },
         {
           "classe": "MotoGP",
           "sessione": "Gara",
-          "inizio": "2026-11-08T17:00:00.000Z",
+          "inizio": "2026-11-08T16:00:00.000Z",
           "tv8": null,
           "fonte": "OA Sport"
         }
