@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-03T09:15:28.769Z",
+  "aggiornato": "2026-11-03T10:19:09.519Z",
   "articoli": [
+    {
+      "id": "77aeeec72e4b",
+      "serie": "f1",
+      "titolo": "Qatar e Abu Dhabi, giovedì una posizione aggiornata dalla Formula 1?",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/03-9262094/qatar_e_abu_dhabi_gioved_una_posizione_aggiornata_dalla_formula_1_",
+      "fonte": "Autosprint",
+      "data": "2026-11-03T10:19:09.519Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/03/092702588-c46ad21f-96ad-44c4-9af0-40066dbbd1dd.jpg",
+      "sommario": "Un appuntamento finanziario potrebbe diramare un aggiornamento sulle sorti del finale di campionato, a oggi confermato nei GP di Qatar e Abu Dhabi"
+    },
+    {
+      "id": "fd0266f05990",
+      "serie": "motogp",
+      "titolo": "Alex Marquez: \"Intervento senza complicazioni, ora inizio il recupero a casa\"",
+      "link": "https://www.gpone.com/it/2026/11/03/motogp/alex-marquez-intervento-senza-complicazioni-ora-inizio-il-recupero-a-casa.html",
+      "fonte": "GPOne",
+      "data": "2026-11-03T09:45:53.000Z",
+      "immagine": "",
+      "sommario": "I medici hanno asportato le placche da spalla e mano e rimosso una borsa. Il pilota del team Gresini dovrebbe tornare in pista a Portimao"
+    },
     {
       "id": "047d4ab7da65",
       "serie": "f1",
