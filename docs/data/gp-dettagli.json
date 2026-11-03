@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-03T20:36:03.889Z",
+  "aggiornato": "2026-11-03T21:31:35.062Z",
   "_fonte": "Wikipedia (inglese), pagine dei singoli GP",
   "motogp": {
     "2025": {
@@ -921,7 +921,7 @@
           "Marco Bezzecchi"
         ],
         "futuro": false,
-        "letto": "2026-11-03T20:36:03.889Z"
+        "letto": "2026-11-03T21:31:35.062Z"
       },
       "2026_Qatar_motorcycle_Grand_Prix": {
         "data": null,
@@ -1591,7 +1591,7 @@
         ],
         "sprint": [],
         "futuro": false,
-        "letto": "2026-11-03T20:36:03.889Z"
+        "letto": "2026-11-03T21:31:35.062Z"
       },
       "2026_Saudi_Arabian_Grand_Prix": {
         "data": "2026-04-19",
@@ -1716,6 +1716,17 @@
         "sprint": [],
         "futuro": false,
         "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2026_São_Paulo_Grand_Prix": {
+        "data": "2026-11-08",
+        "circuito": "monaco",
+        "luogo": "Autódromo José Carlos Pace São Paulo, Brazil",
+        "pole": null,
+        "giroVeloce": null,
+        "podio": [],
+        "sprint": [],
+        "futuro": true,
+        "letto": "2026-11-03T13:34:55.396Z"
       },
       "2026_Azerbaijan_Grand_Prix": {
         "data": "2026-09-26",
@@ -1984,17 +1995,6 @@
         "sprint": [],
         "futuro": false,
         "letto": "2026-10-31T07:02:27.524Z"
-      },
-      "2026_São_Paulo_Grand_Prix": {
-        "data": "2026-11-08",
-        "circuito": "monaco",
-        "luogo": "Autódromo José Carlos Pace São Paulo, Brazil",
-        "pole": null,
-        "giroVeloce": null,
-        "podio": [],
-        "sprint": [],
-        "futuro": true,
-        "letto": "2026-11-03T13:34:55.396Z"
       },
       "2026_Las_Vegas_Grand_Prix": {
         "data": null,
