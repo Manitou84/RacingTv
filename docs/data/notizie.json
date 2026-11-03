@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-11-03T10:19:09.519Z",
+  "aggiornato": "2026-11-03T11:19:14.623Z",
   "articoli": [
+    {
+      "id": "adb1b2dc0fc4",
+      "serie": "motogp",
+      "titolo": "Kimi Antonelli campione del mondo: ecco com'era il motomondiale l'ultima volta che un italiano vinse in F1",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/03-9259878/kimi_antonelli_campione_del_mondo_ecco_com_era_il_motomondiale_l_ultima_volta_che_un_italiano_vinse_in_f1",
+      "fonte": "Motosprint",
+      "data": "2026-11-03T11:19:14.623Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/02/154458931-76f9ce21-0173-4900-aa49-95c854b12298.jpg",
+      "sommario": "L'Italia torna a festeggiare un iridato in Formula 1 dopo 73 anni: l'ultimo fu Alberto Ascari nel 1953. In quella stagione il Motomondiale viveva un'epoca completamente diversa"
+    },
+    {
+      "id": "cd71b8ecaa0f",
+      "serie": "sbk",
+      "titolo": "Rebus elettronico per Morbidelli: Yamaha blocca il passaggio di Gentile in Ducati",
+      "link": "https://www.gpone.com/it/2026/11/03/wsbk/rebus-elettronico-per-morbidelli-yamaha-blocca-il-passaggio-di-gentile-in-ducati.html",
+      "fonte": "GPOne",
+      "data": "2026-11-03T11:13:35.000Z",
+      "immagine": "",
+      "sommario": "IL RETROSCENA – Aruba aveva messo nel mirino Davide Gentile, ex elettronico di Toprak e Rea, ma Yamaha si è messa di mezzo, bloccando la trattativa"
+    },
+    {
+      "id": "39f213dfa94f",
+      "serie": "sbk",
+      "titolo": "Iker Lecuona: una clausola way out per la MotoGP nel 2028!",
+      "link": "https://www.gpone.com/it/2026/11/03/wsbk/iker-lecuona-una-clausola-way-out-per-la-motogp-nel-2028.html",
+      "fonte": "GPOne",
+      "data": "2026-11-03T10:58:35.000Z",
+      "immagine": "",
+      "sommario": "Lo spagnolo ha già disputato quattro gare con Gresini quest’anno, ma il suo contratto lo vincola ad Aruba in SBK fino al 2028. Ci sarebbe però un escamotage per uscirne"
+    },
     {
       "id": "77aeeec72e4b",
       "serie": "f1",
