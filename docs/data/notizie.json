@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-03T08:00:41.431Z",
+  "aggiornato": "2026-11-03T09:15:28.769Z",
   "articoli": [
+    {
+      "id": "047d4ab7da65",
+      "serie": "f1",
+      "titolo": "GP Brasile: orari TV e dove vedere la F1",
+      "link": "https://www.autosprint.it/news/formula1/f1-orari-tv/2026/11/03-9249612/gp_brasile_orari_tv_e_dove_vedere_la_f1",
+      "fonte": "Autosprint",
+      "data": "2026-11-03T09:15:28.769Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/30/095132741-34e2b98a-bed4-4579-aec5-6beff3c857cb.jpg",
+      "sommario": "Ventesimo appuntamento della stagione 2026 per la nuova Formula 1. Tutti gli orari di prove libere, qualifiche e gara in diretta su Sky, Now e in differita su TV8"
+    },
     {
       "id": "5553bce6ae46",
       "serie": "motogp",
