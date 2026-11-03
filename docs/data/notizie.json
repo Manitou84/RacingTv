@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-03T11:19:14.623Z",
+  "aggiornato": "2026-11-03T12:10:45.396Z",
   "articoli": [
+    {
+      "id": "158f64c94475",
+      "serie": "f1",
+      "titolo": "Antonelli, la Rossa e il desiderio di Piero Ferrari",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/03-9263052/antonelli_la_rossa_e_il_desiderio_di_piero_ferrari",
+      "fonte": "Autosprint",
+      "data": "2026-11-03T12:10:45.396Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/03/120535865-c75dddda-ef63-45db-9085-9ebdcf205cbb.jpg",
+      "sommario": "Il legame tra Kimi e Mercedes è duraturo e destinato a continuare ancora a lungo, rinviando altri scenari probabilmente al lungo periodo"
+    },
     {
       "id": "adb1b2dc0fc4",
       "serie": "motogp",
