@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-11-04T09:22:53.709Z",
+  "aggiornato": "2026-11-04T10:31:23.201Z",
   "articoli": [
+    {
+      "id": "a34e5fe4b446",
+      "serie": "f1",
+      "titolo": "Montezemolo celebra la \"normalità\" di Kimi: piedi per terra e farà la carriera dei grandi",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/04-9265764/montezemolo_celebra_la_normalit_di_kimi_piedi_per_terra_e_far_la_carriera_dei_grandi",
+      "fonte": "Autosprint",
+      "data": "2026-11-04T10:31:23.201Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/04/092714020-b8537a01-5c21-4d07-a9df-b28d5418e425.jpg",
+      "sommario": ""
+    },
+    {
+      "id": "0f3a088a8992",
+      "serie": "f1",
+      "titolo": "Gran Premio del Brasile, Interlagos: gli orari in tv su Sky, NOW e TV8",
+      "link": "https://www.gpone.com/it/2026/11/04/formula-1/gran-premio-del-brasile-interlagos-gli-orari-in-tv-su-sky-now-e-tv8.html",
+      "fonte": "GPOne",
+      "data": "2026-11-04T09:36:44.000Z",
+      "immagine": "",
+      "sommario": "Archiviata la conquista del titolo mondiale di Kimi Antonelli, la Formula 1 torna in pista. Tutto in diretta sulla Pay-Tv, in chiaro differita di qualifiche e gara"
+    },
+    {
+      "id": "df64de14c1c1",
+      "serie": "motogp",
+      "titolo": "Aldeguer e Fernandez proveranno a correre nel Gran Premio del Qatar",
+      "link": "https://www.gpone.com/it/2026/11/04/motogp/aldeguer-e-fernandez-proveranno-a-correre-nel-gran-premio-del-qatar.html",
+      "fonte": "GPOne",
+      "data": "2026-11-04T09:23:11.000Z",
+      "immagine": "",
+      "sommario": "Il team Gresini ha confermato la presenza di Fermin accanto a Lecuona, che sostituirà Alex Marquez. Raul sarà a Losail dopo essere stato dichiarato 'unfit' in Australia e in Malesia"
+    },
     {
       "id": "617e383a993b",
       "serie": "motogp",
