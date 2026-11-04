@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-04T06:53:16.038Z",
+  "aggiornato": "2026-11-04T08:09:37.338Z",
   "weekend": [
     {
       "id": "motogp-gp-malesia-2026",
@@ -383,6 +383,13 @@
           "fonte": "OA Sport"
         },
         {
+          "classe": "Moto3",
+          "sessione": "Qualifiche",
+          "inizio": "2026-11-07T13:50:00.000Z",
+          "tv8": null,
+          "fonte": "Sky Sport"
+        },
+        {
           "classe": "Moto2",
           "sessione": "Qualifiche Q1",
           "inizio": "2026-11-07T14:45:00.000Z",
@@ -402,6 +409,13 @@
           "inizio": "2026-11-07T16:00:00.000Z",
           "tv8": null,
           "fonte": "OA Sport"
+        },
+        {
+          "classe": "MotoGP",
+          "sessione": "Warm up",
+          "inizio": "2026-11-08T11:35:00.000Z",
+          "tv8": null,
+          "fonte": "Sky Sport"
         },
         {
           "classe": "Moto3",
@@ -431,6 +445,11 @@
         "2026-11-08"
       ],
       "fonti": [
+        {
+          "nome": "Sky Sport",
+          "url": "https://sport.sky.it/motogp/2026/11/04/motogp-orari-gp-qatar-losail-2026-dove-vedere-sky-now-tv8",
+          "titolo": "MotoGP, GP Qatar: orari tv della gara di Losail 2026 | Sky Sport"
+        },
         {
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/11/motogp-gp-qatar-2026-programma-orari-tv-streaming-guida-sky-e-tv8/",
@@ -485,6 +504,11 @@
         "2026-11-08"
       ],
       "fonti": [
+        {
+          "nome": "Sky Sport",
+          "url": "https://sport.sky.it/formula-1/2026/11/04/f1-orari-gp-brasile-2026-interlagos",
+          "titolo": "Formula 1, orari GP Brasile 2026 a Interlagos: dove vedere la F1 in tv | Sky Sport"
+        },
         {
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/11/f1-gp-brasile-2026-programma-orari-tv-streaming-guida-sky-e-tv8/",

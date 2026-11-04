@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-04T06:53:16.038Z",
+  "aggiornato": "2026-11-04T08:09:37.338Z",
   "articoli": [
+    {
+      "id": "617e383a993b",
+      "serie": "motogp",
+      "titolo": "Gli USA bombardano l’Iran che minaccia attacchi sugli Hotel in Qatar",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/04-9265498/gli_usa_bombardano_liran_che_minaccia_attacchi_sugli_hotel_in_qatar",
+      "fonte": "Motosprint",
+      "data": "2026-11-04T08:09:37.338Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/03/202223004-89e6f10f-1ed5-4fad-862c-f51d659253f2.jpg",
+      "sommario": "Secondo quanto riportato dal Wall Street Journal, l’esercito statunitense nelle scorse ore bombardato l'isola iraniana di Qeshm, il GP nel frattempo è sempre più vicino"
+    },
     {
       "id": "c68f249012f6",
       "serie": "f1",
