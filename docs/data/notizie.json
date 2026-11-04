@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-11-04T15:45:12.344Z",
+  "aggiornato": "2026-11-04T16:44:12.587Z",
   "articoli": [
+    {
+      "id": "f4bf02dec617",
+      "serie": "f1",
+      "titolo": "Fisichella su Antonelli: \"Ha battuto tutti i miei record, sono felice per lui\"",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/04-9266602/fisichella_su_antonelli_ha_battuto_tutti_i_miei_record_sono_felice_per_lui",
+      "fonte": "Autosprint",
+      "data": "2026-11-04T16:44:12.587Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/04/121100986-bcdbe151-50bc-45c6-8354-bc8919c54055.jpeg",
+      "sommario": ""
+    },
+    {
+      "id": "82819294a136",
+      "serie": "motogp",
+      "titolo": "Dall'Igna: \"Marquez ha dato una dimostrazione di forza, intelligenza e talento\"",
+      "link": "https://www.gpone.com/it/2026/11/04/motogp/dalligna-marquez-ha-dato-una-dimostrazione-di-forza-intelligenza-e-talento.html",
+      "fonte": "GPOne",
+      "data": "2026-11-04T15:54:19.000Z",
+      "immagine": "",
+      "sommario": "\"Il vantaggio di Marc è ora significativo, ma non abbiamo finito il nostro lavoro. Un augurio di pronte guarigione a Martin, preferiamo battere i nostri avversari in pista\""
+    },
+    {
+      "id": "eb560614cc74",
+      "serie": "motogp",
+      "titolo": "Marquez: “In Malesia abbiamo gestito al meglio, in Qatar non cambieremo strategia”",
+      "link": "https://www.gpone.com/it/2026/11/04/motogp/marquez-in-malesia-abbiamo-gestito-al-meglio-in-qatar-non-cambieremo-strategia.html",
+      "fonte": "GPOne",
+      "data": "2026-11-04T15:47:04.000Z",
+      "immagine": "",
+      "sommario": "“Questa non è tra le mie piste preferite, ma l’anno scorso siamo stati competitivi. Puntiamo ad arrivare al massimo al GP”. Bagnaia: “Lusail sarà tosta, ma ha sempre esaltato la Desmosedici”"
+    },
     {
       "id": "3ec1443441b2",
       "serie": "motogp",
