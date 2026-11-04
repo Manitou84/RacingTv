@@ -1,6 +1,46 @@
 {
-  "aggiornato": "2026-11-04T10:31:23.201Z",
+  "aggiornato": "2026-11-04T11:46:35.367Z",
   "articoli": [
+    {
+      "id": "90f37bd4ec5a",
+      "serie": "f1",
+      "titolo": "GP del Messico, il weekend social tra il mondiale di Antonelli e il Día de Muertos",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/04-9258832/gp_del_messico_il_weekend_social_tra_il_mondiale_di_antonelli_e_il_da_de_muertos",
+      "fonte": "Autosprint",
+      "data": "2026-11-04T11:46:35.367Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/02/113931465-c0fe46a7-9dea-4281-966f-142190a59a75.jpeg",
+      "sommario": "La festa per Kimi, le celebrazioni della tradizione messicana, gli omaggi alle leggende della F1 e i travestimenti di Halloween: il racconto social del weekend"
+    },
+    {
+      "id": "588ab8638f19",
+      "serie": "sbk",
+      "titolo": "CFMoto svela la sua prima Superbike: ma quando debutterà in pista la V4SR-RR?",
+      "link": "https://www.gpone.com/it/2026/11/04/wsbk/cfmoto-svela-la-sua-prima-superbike-ma-quando-debuttera-in-pista-la-v4sr-rr.html",
+      "fonte": "GPOne",
+      "data": "2026-11-04T11:39:43.000Z",
+      "immagine": "",
+      "sommario": "A Modena prosegue lo sviluppo della V4SR-RR con Matteo Ferrari ad oggi unico tester. Per la Superbike il progetto verrà gestito da Aspar e pare ci sia già una deadline riguardante il debutto ufficiale"
+    },
+    {
+      "id": "4f03ac14e198",
+      "serie": "sbk",
+      "titolo": "Dixon: “Impressionante la nuova Honda: con la vecchia non si percepiva nulla”",
+      "link": "https://www.gpone.com/it/2026/11/04/wsbk/dixon-impressionante-la-nuova-honda-con-la-vecchia-non-si-percepiva-nulla.html",
+      "fonte": "GPOne",
+      "data": "2026-11-04T11:05:35.000Z",
+      "immagine": "",
+      "sommario": "“Questa CBR è un enorme passo avanti, cambia tutto rispetto a prima: so che possiamo giocarci la vittoria”"
+    },
+    {
+      "id": "70983d4a02dd",
+      "serie": "motogp",
+      "titolo": "Qatar, i piloti MotoGP arriveranno all’ultimo: conferenza stampa spostata alle 20",
+      "link": "https://www.gpone.com/it/2026/11/04/motogp/i-piloti-ritardano-il-loro-arrivo-in-qatar-slitta-la-conferenza-stampa.html",
+      "fonte": "GPOne",
+      "data": "2026-11-04T10:46:39.000Z",
+      "immagine": "",
+      "sommario": "Molti arriveranno a Doha solo domani e l'organizzatore è stato costretto a posticipare alle 20 il tradizionale incontro con i giornalisti"
+    },
     {
       "id": "a34e5fe4b446",
       "serie": "f1",
