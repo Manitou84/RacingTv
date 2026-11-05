@@ -1,6 +1,46 @@
 {
-  "aggiornato": "2026-11-05T17:49:10.692Z",
+  "aggiornato": "2026-11-05T18:40:36.266Z",
   "articoli": [
+    {
+      "id": "3e5cb273109e",
+      "serie": "motogp",
+      "titolo": "Marc Márquez si espone: “Qatar? Prenderò il primo aereo per andarmene, ma rimango concentrato”",
+      "link": "https://www.motosprint.it/news/eventi/gp-qatar/2026/11/05-9270137/marc_mrquez_si_espone_qatar_prender_il_primo_aereo_per_andarmene_ma_rimango_concentrato",
+      "fonte": "Motosprint",
+      "data": "2026-11-05T18:40:36.266Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/05/173124742-f2458ff6-2c00-4f69-9db8-51923a506e73.jpeg",
+      "sommario": "Il ducatista nella conferenza del giovedì: \"Mi piacerebbe essere da un'altra parte, ma siamo pronti a correre. Per me il titolo è ancora molto lontano, continuerò ad attaccare\""
+    },
+    {
+      "id": "9c7cbfdb9c95",
+      "serie": "f1",
+      "titolo": "Interlagos ’91, l’impresa di Senna: prima vittoria in casa con una marcia sola",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/05-9269479/interlagos_91_limpresa_di_senna_prima_vittoria_in_casa_con_una_marcia_sola",
+      "fonte": "Autosprint",
+      "data": "2026-11-05T18:40:36.266Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/05/140744130-caf0eff9-1628-4835-b30b-2ba540caf43c.jpeg",
+      "sommario": "Gran Premio di Interlagos 1991. Mansell si ritira, Patrese rimonta sotto la pioggia. Ayrton Senna, con la McLaren bloccata in sesta, vince in casa per 2,991 secondi"
+    },
+    {
+      "id": "cbbd512341fd",
+      "serie": "f1",
+      "titolo": "Liberty Media, F1 avanti come da programma con Qatar e Abu Dhabi",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/05-9269807/liberty_media_f1_avanti_come_da_programma_con_qatar_e_abu_dhabi",
+      "fonte": "Autosprint",
+      "data": "2026-11-05T18:40:36.266Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/05/160652594-f5db6e0e-47b4-4ccc-8b6d-606f9d871e4a.jpg",
+      "sommario": "Continuerà il monitoraggio delle condizioni di sicurezza nei due Paesi e il \"piano B\" (Imola) è pronto: la decisione verrà presa razionalmente"
+    },
+    {
+      "id": "8d29eabdfa91",
+      "serie": "motogp",
+      "titolo": "Marquez a Bezzecchi: \"Non potevo non venire in Qatar o ti avrei regalato punti\"",
+      "link": "https://www.gpone.com/it/2026/11/05/motogp/marquez-a-bezzecchi-non-potevo-non-venire-in-qatar-o-ti-avrei-regalo-punti.html",
+      "fonte": "GPOne",
+      "data": "2026-11-05T17:58:01.000Z",
+      "immagine": "",
+      "sommario": "\"Martin dice che solo io posso vincere o perdere il titolo? Lo hanno perso loro. Vorrei essere in un altro posto, ma abbiamo capito che dobbiamo rispettare i contratti\""
+    },
     {
       "id": "5e11d285a9b1",
       "serie": "motogp",
