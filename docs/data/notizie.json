@@ -1,6 +1,66 @@
 {
-  "aggiornato": "2026-11-05T15:48:42.313Z",
+  "aggiornato": "2026-11-05T16:56:21.429Z",
   "articoli": [
+    {
+      "id": "f64dfa2d793a",
+      "serie": "motogp",
+      "titolo": "Bagnaia: \"La cosa che non c'è più sulla mia Ducati? Volevo fare parlare di me\"",
+      "link": "https://www.gpone.com/it/2026/11/05/motogp/bagnaia-la-cosa-che-non-ce-piu-sulla-mia-ducati-volevo-fare-parlare-di-me.html",
+      "fonte": "GPOne",
+      "data": "2026-11-05T16:28:39.000Z",
+      "immagine": "",
+      "sommario": "\"Non posso farlo per i risultati e ho scelto un'altra strada. Comunque finirà, nessuno potrà togliermi quanto ho fatto in questi anni. Ero preoccupato di venire in Qatar, ma ho deciso di fidarmi\""
+    },
+    {
+      "id": "a04248c3ac8b",
+      "serie": "motogp",
+      "titolo": "Dixon: \"È stato un anno sulle montagne russe: ho solo da guadagnarci a correre in Qatar\"",
+      "link": "https://www.gpone.com/it/2026/11/05/motogp/dixon-e-stato-un-anno-sulle-montagne-russe-ho-solo-da-guadagnarci-a-correre-in-qatar.html",
+      "fonte": "GPOne",
+      "data": "2026-11-05T16:18:56.000Z",
+      "immagine": "",
+      "sommario": "\"Per via dell'incidente di inizio stagione ho rischiato di fermarmi: volevo che la mia stagione continuasse, poi è arrivato il messaggio sul telefono\""
+    },
+    {
+      "id": "e7ccb8d1f128",
+      "serie": "motogp",
+      "titolo": "Lecuona: “Non penso a tornare a tempo pieno in MotoGP, sono felice in Superbike”",
+      "link": "https://www.gpone.com/it/2026/11/05/motogp/lecuona-non-penso-a-tornare-a-tempo-pieno-in-motogp-sono-felice-in-superbike.html",
+      "fonte": "GPOne",
+      "data": "2026-11-05T16:11:00.000Z",
+      "immagine": "",
+      "sommario": "“Sto vivendo una delle migliori pre-stagioni della mia vita e sto imparando cose che mi saranno utili l’anno prossimo. Seguire le orme di Bulega? Non ne so nulla, il mio manager non mi ha detto niente”"
+    },
+    {
+      "id": "b3ec8e2bb8a0",
+      "serie": "motogp",
+      "titolo": "Pirro: “Toto Wolff ha investito su Antonelli, Ducati lancia la Pre-Future Champ con il 250 Desmo\"",
+      "link": "https://www.gpone.com/it/2026/11/05/motogp/pirro-bagnaia-ce-poco-da-dire-la-situazione-la-vedete-tutti.html",
+      "fonte": "GPOne",
+      "data": "2026-11-05T16:00:00.000Z",
+      "immagine": "",
+      "sommario": "“E' dedicata ai ragazzi dai 13 ai 16 anni. Il mondiale di Aprilia? Vince sempre il migliore. Nel futuro Marc sarà intelligente con Acosta. Bagnaia? C’è poco da dire: la situazione la vedete tutti”"
+    },
+    {
+      "id": "c9b81ff433d7",
+      "serie": "motogp",
+      "titolo": "Aldeguer: \"Per me è meglio essere in Qatar che starmene a casa\"",
+      "link": "https://www.gpone.com/it/2026/11/05/motogp/aldeguer-per-me-e-meglio-essere-in-qatar-che-starmene-a-casa.html",
+      "fonte": "GPOne",
+      "data": "2026-11-05T15:58:44.000Z",
+      "immagine": "",
+      "sommario": "\"Potevo non venire dicendo che la mano non stava vene, ma è più importante essere qui. L'infortunio di Mandalika? Il più stupido della mia vita. A fine stagione mi riopero alla gamba\""
+    },
+    {
+      "id": "0f581edbe3a4",
+      "serie": "motogp",
+      "titolo": "Acosta: \"In Qatar sembra tutto normale e abbiamo dei contratti da rispettare\"",
+      "link": "https://www.gpone.com/it/2026/11/05/motogp/acosta-in-qatar-sembra-tutto-normale-e-abbiamo-dei-contratti-da-rispettare.html",
+      "fonte": "GPOne",
+      "data": "2026-11-05T15:46:59.000Z",
+      "immagine": "",
+      "sommario": "\"In passato KTM è stato veloce a Losail, il punto interrogativo è Aprilia. Il mio obiettivo è recuperare punti su Bezzecchi per il 3° posto in campionato\""
+    },
     {
       "id": "c5ff95f22b17",
       "serie": "motogp",
