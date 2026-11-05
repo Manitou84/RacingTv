@@ -1,6 +1,66 @@
 {
-  "aggiornato": "2026-11-05T16:56:21.429Z",
+  "aggiornato": "2026-11-05T17:49:10.692Z",
   "articoli": [
+    {
+      "id": "5e11d285a9b1",
+      "serie": "motogp",
+      "titolo": "MotoGP, Marquez risponde duro a Nieto: \"Vincere il decimo titolo non mi cambierà la vita\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/05-9269517/motogp_marquez_risponde_duro_a_nieto_vincere_il_decimo_titolo_non_mi_cambier_la_vita",
+      "fonte": "Motosprint",
+      "data": "2026-11-05T17:49:10.692Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/05/132032750-143205c0-c0e3-4b04-a974-627870e6ed94.jpg",
+      "sommario": "Il pilota Ducati è sempre più vicino al decimo titolo della sua carriera, un risultato che gli permetterebbe di superare Valentino Rossi, fermo a quota nove"
+    },
+    {
+      "id": "e39a5a3ad72f",
+      "serie": "motogp",
+      "titolo": "Dixon torna in MotoGP: Honda dell'assente Mir in Qatar",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/05-9268013/dixon_torna_in_motogp_honda_dell_assente_mir_in_qatar",
+      "fonte": "Motosprint",
+      "data": "2026-11-05T17:49:10.692Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/05/082601665-fb838f5b-6264-42f7-9fc7-13f3ccba09aa.jpg",
+      "sommario": "Jake a Lusail sulla RC213 V di Joan: l'inglese ritrova i prototipi della classe regina dopo 5 anni"
+    },
+    {
+      "id": "71b27b15f277",
+      "serie": "motogp",
+      "titolo": "Martin: “Solo Marc può vincere o perdere il titolo, ma voglio continuare a lottare”",
+      "link": "https://www.gpone.com/it/2026/11/05/motogp/martin-solo-marc-puo-vincere-o-perdere-il-titolo-ma-voglio-continuare-a-lottare.html",
+      "fonte": "GPOne",
+      "data": "2026-11-05T17:37:24.000Z",
+      "immagine": "",
+      "sommario": "“Non sono qui per rimandare la festa a Marquez, ma per cercare di portare la lotta fino all’ultima gara. Mi sento meglio rispetto alla Malesia e io voglio cogliere qualsiasi opportunità dovesse presentarsi”"
+    },
+    {
+      "id": "ca05bbdb0b5a",
+      "serie": "motogp",
+      "titolo": "Bezzecchi: \"Nel 2025 a Lusail ero ancora fidanzato con la RS-GP. Ora siamo sposati!\"",
+      "link": "https://www.gpone.com/it/2026/11/05/motogp/bezzecchi-nel-2025-a-lusail-ero-ancora-fidanzato-con-la-rs-gp-ora-siamo-sposati.html",
+      "fonte": "GPOne",
+      "data": "2026-11-05T17:19:07.000Z",
+      "immagine": "",
+      "sommario": "Marco racconta con ironia l'evoluzione del rapporto con la RS-GP, ma quando si parla del Mondiale torna serio: \"Vorrei tenere aperto il mondiale contro Marc, ma so che sarà dura. Darò tutto per riuscirci\""
+    },
+    {
+      "id": "1071aaf05b45",
+      "serie": "motogp",
+      "titolo": "Di Giannantonio, 10-12 km/h in meno: \"Non dipende da me, non ho preso chili\"",
+      "link": "https://www.gpone.com/it/2026/11/05/motogp/di-giannantonio-la-differenza-di-velocita-bisogna-chiedere-a-qualcun-altro.html",
+      "fonte": "GPOne",
+      "data": "2026-11-05T17:08:30.000Z",
+      "immagine": "",
+      "sommario": "\"Ho 10-12 chilometri orari in meno delle altre Ducati sul rettilineo, bisogna chiedere a qualcun altro il perchè della differenza. Il Qatar? spero un weekend normale\". Morbidelli: \"Concentriamoci sullo sport\""
+    },
+    {
+      "id": "05c7f38bd2b4",
+      "serie": "motogp",
+      "titolo": "Bastianini riapre il tema shakedown: \"Non è giusto avere così pochi test\"",
+      "link": "https://www.gpone.com/it/2026/11/05/motogp/bastianini-riapre-il-tema-shakedown-non-e-giusto-avere-cosi-pochi-test.html",
+      "fonte": "GPOne",
+      "data": "2026-11-05T16:42:22.000Z",
+      "immagine": "",
+      "sommario": "Chi cambierà costruttore \"avrà pochissimi giri a disposizione per prendere confidenza con le moto nuove. Mentre altri faranno un sacco di test. Dobbiamo aprire un confronto\""
+    },
     {
       "id": "f64dfa2d793a",
       "serie": "motogp",
