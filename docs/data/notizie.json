@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-05T11:26:45.613Z",
+  "aggiornato": "2026-11-05T12:21:38.127Z",
   "articoli": [
+    {
+      "id": "62bcf3458534",
+      "serie": "f1",
+      "titolo": "Brasile 2003: Giancarlo Fisichella e la vittoria consegnata a Imola",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/05-9269037/brasile_2003_giancarlo_fisichella_e_la_vittoria_consegnata_a_imola",
+      "fonte": "Autosprint",
+      "data": "2026-11-05T12:21:38.127Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/05/114044239-20033fc1-b044-41e7-9ebd-7426b1a02f48.jpeg",
+      "sommario": "La pioggia di Interlagos, una Jordan capace di sorprendere e un premio consegnato a...Imola: Giancarlo Fisichella conquistò il suo primo successo in Formula 1"
+    },
     {
       "id": "8756d4558ef3",
       "serie": "motogp",
