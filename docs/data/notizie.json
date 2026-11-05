@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-05T12:21:38.127Z",
+  "aggiornato": "2026-11-05T13:42:53.040Z",
   "articoli": [
+    {
+      "id": "1ef10e9791b4",
+      "serie": "f1",
+      "titolo": "Da Schumacher ad Antonelli: Alessandro Benetton racconta il nuovo re della Formula 1",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/05-9269392/da_schumacher_ad_antonelli_alessandro_benetton_racconta_il_nuovo_re_della_formula_1",
+      "fonte": "Autosprint",
+      "data": "2026-11-05T13:42:53.040Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/05/132654395-719f5f84-1b97-42ff-a58c-04e534e29295.jpg",
+      "sommario": "Il trionfo iridato del ventenne bolognese riaccende i ricordi dell'epopea Benetton. L'ex presidente del team mette a confronto il talento di Michael e Kimi: «Hanno la stessa fame e naturalezza, ma oggi c'è più pressione."
+    },
+    {
+      "id": "bf45c60c90d3",
+      "serie": "f1",
+      "titolo": "Antonelli a sorpresa: c'è un'altra gara (Monza a parte) da incorniciare",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/05-9269376/antonelli_a_sorpresa_c_un_altra_gara_monza_a_parte_da_incorniciare",
+      "fonte": "Autosprint",
+      "data": "2026-11-05T13:42:53.040Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/05/114711074-1567f2f2-4182-4b2d-97ae-7690005949f2.jpg",
+      "sommario": ""
+    },
     {
       "id": "62bcf3458534",
       "serie": "f1",
