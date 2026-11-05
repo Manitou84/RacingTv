@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-11-05T09:28:02.708Z",
+  "aggiornato": "2026-11-05T10:29:16.970Z",
   "articoli": [
+    {
+      "id": "a3b5b1835c6e",
+      "serie": "f1",
+      "titolo": "È scomparso a 80 anni Alan Jones, fu il primo campione del mondo per la Williams",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/05-9268014/scomparso_a_80_anni_alan_jones_fu_il_primo_campione_del_mondo_per_la_williams",
+      "fonte": "Autosprint",
+      "data": "2026-11-05T10:29:16.970Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/05/102003402-a973faf8-969e-4be9-bb0d-ff6ac5b210e0.jpg",
+      "sommario": "Ad oggi resta l'ultimo pilota australiano ad aver vinto il GP di casa. Fu convinto sostenitore delle gare animate contro i \"trenini in coda\"\n\n \n"
+    },
+    {
+      "id": "b135ecb9d4a8",
+      "serie": "f1",
+      "titolo": "F1 in lutto, è morto Alan Jones: regalò alla Williams il suo primo titolo mondiale",
+      "link": "https://www.gpone.com/it/2026/11/05/formula-1/f1-in-lutto-e-morto-alan-jones-regalo-alla-williams-il-suo-primo-titolo-mondiale.html",
+      "fonte": "GPOne",
+      "data": "2026-11-05T10:06:14.000Z",
+      "immagine": "",
+      "sommario": "L'australiano si è spento a 80 anni, pochi giorni dopo il suo compleanno. Nel 1980 portò la squadra di Frank Williams sul tetto del mondo, scrivendo una delle pagine più importanti della storia della Formula 1"
+    },
+    {
+      "id": "a70bbf85af37",
+      "serie": "motogp",
+      "titolo": "Pedro Acosta lascia KTM e anche Red Bull: nel 2027 sarà un pilota Monster",
+      "link": "https://www.gpone.com/it/2026/11/05/motogp/pedro-acosta-lasciata-ktm-e-anche-red-bull-nel-2027-sara-un-pilota-monster.html",
+      "fonte": "GPOne",
+      "data": "2026-11-05T09:49:43.000Z",
+      "immagine": "",
+      "sommario": "A differenza di quanto fatto da Marc Marquez, Pedro ha scelto di passare al marchio concorrente che è anche sponsor di Ducati"
+    },
     {
       "id": "c9c4156969bc",
       "serie": "motogp",
