@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-06T16:40:03.037Z",
+  "aggiornato": "2026-11-06T17:39:33.172Z",
   "articoli": [
+    {
+      "id": "1fe6d82fdb56",
+      "serie": "motogp",
+      "titolo": "Lampo per Di Giannantonio, Márquez e Bezzecchi inseguono. Anche Martín in Q2!",
+      "link": "https://www.motosprint.it/news/eventi/gp-qatar/2026/11/06-9273752/lampo_per_di_giannantonio_mrquez_e_bezzecchi_inseguono_anche_martn_in_q2_",
+      "fonte": "Motosprint",
+      "data": "2026-11-06T17:39:33.172Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/06/172029085-7a9f4d13-486b-4685-a0b4-a921a5d6b76c.jpeg",
+      "sommario": "Il romano stabilisce il nuovo record a Lusail, ma la lotta è tutta dietro. Márquez e Bezzecchi si studiano, Bagnaia risorge ed è 4° mentre Martín stringe i denti ed è 7°"
+    },
+    {
+      "id": "f4b5cce634bf",
+      "serie": "motogp",
+      "titolo": "Di Giannantonio da record, Ducati davanti ma Aprilia resta vicina",
+      "link": "https://www.gpone.com/it/2026/11/06/motogp/di-giannantonio-da-record-ducati-davanti-ma-aprilia-resta-vicina.html",
+      "fonte": "GPOne",
+      "data": "2026-11-06T17:15:01.000Z",
+      "immagine": "",
+      "sommario": "Fabio firma 1'50.406 a Lusail e precede Marc Marquez di 0,142 secondi, con Bezzecchi terzo e protagonista anche prima dei time attack. Ducati occupa tre delle prime quattro posizioni, Aprilia porta tutte le sue moto in Q"
+    },
     {
       "id": "cb82073b0482",
       "serie": "f1",
