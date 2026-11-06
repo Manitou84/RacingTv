@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-06T22:13:34.682Z",
+  "aggiornato": "2026-11-06T23:06:52.902Z",
   "articoli": [
     {
       "id": "2b80a1c2b87e",
@@ -180,6 +180,16 @@
       "data": "2026-11-06T10:31:09.000Z",
       "immagine": "",
       "sommario": "Come previsto dal nuovo protocollo, il dottor Angel Charte ha visitato questa mattina il pilota di Aprilia prima di dichiararlo 'fit'"
+    },
+    {
+      "id": "d878cebd7c9b",
+      "serie": "f1",
+      "titolo": "Lo status perso manda in crisi Hamilton e su Leclerc non si trattiene più",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/06-9270960/lo_status_perso_manda_in_crisi_hamilton_e_su_leclerc_non_si_trattiene_pi",
+      "fonte": "Autosprint",
+      "data": "2026-11-06T10:00:00Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/05/215937378-2bf99fd7-fb5f-4d16-b02c-da317fdd41b2.jpg",
+      "sommario": "Malgrado i risultati Lewis pare non riuscire ancora ad inserirsi in Ferrari e dopo quanto successo in Messico non nasconde le tensioni con Charles"
     },
     {
       "id": "8dd5ab3849a7",
