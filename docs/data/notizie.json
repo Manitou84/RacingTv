@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-06T17:39:33.172Z",
+  "aggiornato": "2026-11-06T18:39:36.585Z",
   "articoli": [
+    {
+      "id": "90ceedf18f91",
+      "serie": "motogp",
+      "titolo": "Bezzecchi: “La nuova MotoGP è molto figa, ma mi mancheranno i 370 km/h”",
+      "link": "https://www.gpone.com/it/2026/11/06/motogp/bezzecchi-la-nuova-motogp-e-molto-figa-ma-mi-mancheranno-i-370-kmh.html",
+      "fonte": "GPOne",
+      "data": "2026-11-06T18:30:12.000Z",
+      "immagine": "",
+      "sommario": "\"Con queste moto per me è stato amore a prima vista, ma so che ci saranno cose belle anche con le prossime. Io forte sul passo? Si, ma serve un passo in avanti in qualifica, perché partire dietro può diventare un problem"
+    },
+    {
+      "id": "26d6f0509414",
+      "serie": "motogp",
+      "titolo": "Di Giannantonio: \"Un peccato, negli ultimi GP avremmo potuto lavorare meglio\"",
+      "link": "https://www.gpone.com/it/2026/11/06/motogp/di-giannantonio-un-peccato-negli-ultimi-gp-avremmo-potuto-lavorare-meglio.html",
+      "fonte": "GPOne",
+      "data": "2026-11-06T18:12:26.000Z",
+      "immagine": "",
+      "sommario": "\"Sono bastate poche modifiche per ritrovare buone sensazioni\". I problemi al motore non sono risolti: 6 Km/h in meno di Lecuona in velocità massima"
+    },
     {
       "id": "1fe6d82fdb56",
       "serie": "motogp",
