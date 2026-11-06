@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-06T02:47:16.924Z",
+  "aggiornato": "2026-11-06T03:41:58.768Z",
   "articoli": [
     {
       "fonte": "Sky Sport",
@@ -180,21 +180,6 @@
       ]
     },
     {
-      "fonte": "OA Sport",
-      "titolo": "MotoGP in tv, GP Malesia 2026: orari 30 ottobre, streaming, programma Sky e TV8",
-      "url": "https://www.oasport.it/2026/10/motogp-in-tv-gp-malesia-2026-orari-30-ottobre-streaming-programma-sky-e-tv8/",
-      "gp": "GP Malesia",
-      "serie": "motogp",
-      "sessioni": [
-        "Moto3 Prove libere 1 2026-10-30T01:00:00.000Z",
-        "Moto2 Prove libere 1 2026-10-30T01:50:00.000Z",
-        "MotoGP Prove libere 1 2026-10-30T02:45:00.000Z",
-        "Moto3 Pre-qualifiche 2026-10-30T05:15:00.000Z",
-        "Moto2 Pre-qualifiche 2026-10-30T06:05:00.000Z",
-        "MotoGP Pre-qualifiche 2026-10-30T07:00:00.000Z"
-      ]
-    },
-    {
       "fonte": "Sky Sport",
       "titolo": "Formula 1, orari GP Brasile 2026 a Interlagos: dove vedere la F1 in tv | Sky Sport",
       "url": "https://sport.sky.it/formula-1/2026/11/04/f1-orari-gp-brasile-2026-interlagos",
@@ -312,17 +297,6 @@
       "sessioni": [
         "F1 Prove libere 3 2026-10-31T17:30:00.000Z",
         "F1 Qualifiche 2026-10-31T21:00:00.000Z TV8 differita 2026-10-31T22:25:00.000Z"
-      ]
-    },
-    {
-      "fonte": "OA Sport",
-      "titolo": "F1 stasera in tv, GP Messico 2026: orari prove libere, streaming, programma Sky e TV8",
-      "url": "https://www.oasport.it/2026/10/f1-oggi-in-tv-gp-messico-2026-orari-prove-libere-streaming-programma-sky-e-tv8/",
-      "gp": "GP Messico",
-      "serie": "f1",
-      "sessioni": [
-        "F1 Prove libere 1 2026-10-30T18:30:00.000Z",
-        "F1 Prove libere 2 2026-10-30T22:00:00.000Z"
       ]
     }
   ]

@@ -1,53 +1,11 @@
 {
-  "aggiornato": "2026-11-06T02:47:16.924Z",
+  "aggiornato": "2026-11-06T03:41:58.768Z",
   "weekend": [
     {
       "id": "motogp-gp-malesia-2026",
       "serie": "motogp",
       "gp": "GP Malesia",
       "sessioni": [
-        {
-          "classe": "Moto3",
-          "sessione": "Prove libere 1",
-          "inizio": "2026-10-30T01:00:00.000Z",
-          "tv8": null,
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "Moto2",
-          "sessione": "Prove libere 1",
-          "inizio": "2026-10-30T01:50:00.000Z",
-          "tv8": null,
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "MotoGP",
-          "sessione": "Prove libere 1",
-          "inizio": "2026-10-30T02:45:00.000Z",
-          "tv8": null,
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "Moto3",
-          "sessione": "Pre-qualifiche",
-          "inizio": "2026-10-30T05:15:00.000Z",
-          "tv8": null,
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "Moto2",
-          "sessione": "Pre-qualifiche",
-          "inizio": "2026-10-30T06:05:00.000Z",
-          "tv8": null,
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "MotoGP",
-          "sessione": "Pre-qualifiche",
-          "inizio": "2026-10-30T07:00:00.000Z",
-          "tv8": null,
-          "fonte": "OA Sport"
-        },
         {
           "classe": "Moto3",
           "sessione": "Prove libere 2",
@@ -178,7 +136,6 @@
         }
       ],
       "tv8Confermati": [
-        "2026-10-30",
         "2026-10-31",
         "2026-11-01"
       ],
@@ -207,11 +164,6 @@
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/10/motogp-domani-in-tv-gp-malesia-2026-orari-31-ottobre-streaming-programma-sky-e-tv8/",
           "titolo": "MotoGP domani in tv, GP Malesia 2026: orari 31 ottobre, streaming, programma Sky e TV8"
-        },
-        {
-          "nome": "OA Sport",
-          "url": "https://www.oasport.it/2026/10/motogp-in-tv-gp-malesia-2026-orari-30-ottobre-streaming-programma-sky-e-tv8/",
-          "titolo": "MotoGP in tv, GP Malesia 2026: orari 30 ottobre, streaming, programma Sky e TV8"
         }
       ]
     },
@@ -220,20 +172,6 @@
       "serie": "f1",
       "gp": "GP Messico",
       "sessioni": [
-        {
-          "classe": "F1",
-          "sessione": "Prove libere 1",
-          "inizio": "2026-10-30T18:30:00.000Z",
-          "tv8": null,
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "F1",
-          "sessione": "Prove libere 2",
-          "inizio": "2026-10-30T22:00:00.000Z",
-          "tv8": null,
-          "fonte": "OA Sport"
-        },
         {
           "classe": "F1",
           "sessione": "Prove libere 3",
@@ -263,11 +201,15 @@
         }
       ],
       "tv8Confermati": [
-        "2026-10-30",
         "2026-10-31",
         "2026-11-01"
       ],
       "fonti": [
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/11/dove-vedere-la-f1-stasera-in-tv-gp-messico-2026-orario-gara-differita-tv8-streaming/",
+          "titolo": "Dove vedere la F1 stasera in tv, GP Messico 2026: orario gara, differita TV8, streaming"
+        },
         {
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/11/f1-oggi-in-tv-gp-messico-2026-orario-gara-streaming-programma-sky-e-tv8/",
@@ -292,11 +234,6 @@
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/10/f1-oggi-in-tv-gp-messico-2026-orari-fp3-e-qualifiche-streaming-programma-sky-e-tv8/",
           "titolo": "F1 oggi in tv, GP Messico 2026: orari FP3 e qualifiche, streaming, programma, differita TV8"
-        },
-        {
-          "nome": "OA Sport",
-          "url": "https://www.oasport.it/2026/10/f1-oggi-in-tv-gp-messico-2026-orari-prove-libere-streaming-programma-sky-e-tv8/",
-          "titolo": "F1 stasera in tv, GP Messico 2026: orari prove libere, streaming, programma Sky e TV8"
         }
       ]
     },
