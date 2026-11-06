@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-06T08:07:02.022Z",
+  "aggiornato": "2026-11-06T09:21:33.108Z",
   "articoli": [
+    {
+      "id": "8dd5ab3849a7",
+      "serie": "motogp",
+      "titolo": "Diretta MotoGP Qatar",
+      "link": "https://www.motosprint.it/news/eventi/gp-qatar/2026/11/06-9270978/diretta_motogp_prove_libere_gp_qatar_fp1_practice_e_tempi",
+      "fonte": "Motosprint",
+      "data": "2026-11-06T09:21:33.108Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/images/2026/11/06/082439802-d0949506-8d0d-43f1-86d8-09968cdb61a8.jpg",
+      "sommario": "Segui la cronaca testuale minuto per minuto diretamente dalla pista di Lusail"
+    },
+    {
+      "id": "6cfdc0f48765",
+      "serie": "motogp",
+      "titolo": "GP Qatar, Pecco Bagnaia spiega le parole di Sepang: \"Ho scelto un'altra strada per far parlare di me\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/06-9270943/gp_qatar_pecco_bagnaia_spiega_le_parole_di_sepang_ho_scelto_un_altra_strada_per_far_parlare_di_me",
+      "fonte": "Motosprint",
+      "data": "2026-11-06T09:21:33.108Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/05/183546204-c0f4aaff-c1ea-4d8b-9908-61a26e013e87.jpg",
+      "sommario": "Il campione Ducati è tornato sulle dichiarazioni dopo il GP della Malesia, rivendicando la scelta di esporsi sulla situazione tecnica della Ducati: \"Se ne sta parlando ancora molto, ha funzionato\"."
+    },
     {
       "id": "c0670ee688ff",
       "serie": "motogp",
