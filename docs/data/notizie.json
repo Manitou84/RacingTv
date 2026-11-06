@@ -1,6 +1,86 @@
 {
-  "aggiornato": "2026-11-06T18:39:36.585Z",
+  "aggiornato": "2026-11-06T19:42:43.014Z",
   "articoli": [
+    {
+      "id": "30ea96eb871f",
+      "serie": "motogp",
+      "titolo": "Bezzecchi tra i favoriti in Qatar: \"Mi sono trovato bene fin da subito, ma soffro con la Soft\"",
+      "link": "https://www.motosprint.it/news/eventi/gp-qatar/2026/11/06-9273845/bezzecchi_tra_i_favoriti_in_qatar_mi_sono_trovato_bene_fin_da_subito_ma_soffro_con_la_soft",
+      "fonte": "Motosprint",
+      "data": "2026-11-06T19:42:43.014Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/06/182801417-35e7aed2-eaec-4c59-99e0-6eb603d64f02.jpg",
+      "sommario": "Il romagnolo di Aprilia è terzo e autore di un ottimo passo gara: \"Sul giro secco faccio ancora fatica, ma i passi in avanti fatti da Aprilia rispetto al 2025 sono enormi\""
+    },
+    {
+      "id": "3b489aac8ec6",
+      "serie": "motogp",
+      "titolo": "Márquez gioca in difesa: “La vittoria non è l'obiettivo, Bezzecchi non ha nulla da perdere”",
+      "link": "https://www.motosprint.it/news/eventi/gp-qatar/2026/11/06-9274016/mrquez_gioca_in_difesa_la_vittoria_non_l_obiettivo_bezzecchi_non_ha_nulla_da_perdere",
+      "fonte": "Motosprint",
+      "data": "2026-11-06T19:42:43.014Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/06/190432023-5de70297-7ff4-476c-8670-468198b3a619.jpg",
+      "sommario": "Il catalano trova degli alleati: \"Mi limiterò a raccogliere il massimo dei punti possibile. Di Giannantonio? Sono contento sia veloce così potrà lottare con le Aprilia\""
+    },
+    {
+      "id": "924e7692a4e7",
+      "serie": "motogp",
+      "titolo": "Martín migliora giro dopo giro: “Di questo passo, domenica posso finire la gara”",
+      "link": "https://www.motosprint.it/news/eventi/gp-qatar/2026/11/06-9273848/martn_migliora_giro_dopo_giro_di_questo_passo_domenica_posso_finire_la_gara",
+      "fonte": "Motosprint",
+      "data": "2026-11-06T19:42:43.014Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/06/184613442-fee5bd9b-e589-43b3-b7ce-2621bd5c0036.jpg",
+      "sommario": "Il madrileno è fiducioso: \"La forza sulla mano destra è poca e nel time attack soffro, ma il miglioramento rispetto a stamattina mi fa ben sperare per domenica\""
+    },
+    {
+      "id": "0d696484f91c",
+      "serie": "motogp",
+      "titolo": "Dixon: \"Ero imbarazzato: Puig mi ha detto di non cadere e io sono subito finito a terra\"",
+      "link": "https://www.gpone.com/it/2026/11/06/motogp/dixon-ero-imbarazzato-puig-mi-ha-detto-di-non-cadere-e-io-sono-subito-finito-a-terra.html",
+      "fonte": "GPOne",
+      "data": "2026-11-06T19:28:31.000Z",
+      "immagine": "",
+      "sommario": "\"Crutchlow mi ha detto che la prestazione è stata impressionante. Il fatto è che ho poco tempo per imparare e conoscere\""
+    },
+    {
+      "id": "4be6f7971c0a",
+      "serie": "motogp",
+      "titolo": "Marc Marquez: \"La mia guerra è coi piloti, non con le case, mi basta quella in pista\"",
+      "link": "https://www.gpone.com/it/2026/11/06/motogp/marc-marquez-la-mia-guerra-e-coi-piloti-non-con-le-case-mi-basta-quella-in-pista.html",
+      "fonte": "GPOne",
+      "data": "2026-11-06T19:01:18.000Z",
+      "immagine": "",
+      "sommario": "\"Per Bezzecchi sarà tutto o niente, è scomodo perchè non puoi sbagliare, comodo perchè non hai nulla da perdere. Martin ha tirato fuori la forza di chi lotta per un mondiale. Sarà una qualifica combattuta\""
+    },
+    {
+      "id": "616c89cdd284",
+      "serie": "motogp",
+      "titolo": "Pecco Bagnaia: \"Mi sono sentito di nuovo un vero pilota ufficiale\"",
+      "link": "https://www.gpone.com/it/2026/11/06/motogp/pecco-bagnaia-mi-sono-sentito-di-nuovo-un-vero-pilota-ufficiale.html",
+      "fonte": "GPOne",
+      "data": "2026-11-06T18:53:42.000Z",
+      "immagine": "",
+      "sommario": "\"Oggi mi sono divertito e un po' me lo aspettavo per via del circuito e dell'asfalto. Nella Sprint potrei avere una buona occasione, voglio restituire qualcosa al mio team\""
+    },
+    {
+      "id": "7889c9be4507",
+      "serie": "motogp",
+      "titolo": "Acosta: “Cerco una svolta per sabato, peggio di così non poteva andare”",
+      "link": "https://www.gpone.com/it/2026/11/06/motogp/acosta-cerco-una-svolta-per-sabato-peggio-di-cosi-non-poteva-andare.html",
+      "fonte": "GPOne",
+      "data": "2026-11-06T18:44:13.000Z",
+      "immagine": "",
+      "sommario": "“La moto si è fermata per un problema elettrico. Non è normale che con la gomma nuova morbida siamo più lenti rispetto a una media usata”"
+    },
+    {
+      "id": "0c131316e040",
+      "serie": "motogp",
+      "titolo": "Martin: \"Ho tanta adrenalina che anche se sento dolore, me ne frego e spingo\"",
+      "link": "https://www.gpone.com/it/2026/11/06/motogp/martin-ho-tanta-adrenalina-che-anche-se-sento-dolore-me-ne-freno-e-spingo.html",
+      "fonte": "GPOne",
+      "data": "2026-11-06T18:42:28.000Z",
+      "immagine": "",
+      "sommario": "\"Ho imparato da Nadal: con il dolore bisogna conviverci. Attualmente soffro soprattutto nel time attack, ma sto molto meglio. Magari fossi stato così anche a Sepang...\""
+    },
     {
       "id": "90ceedf18f91",
       "serie": "motogp",
