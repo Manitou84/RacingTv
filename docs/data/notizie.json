@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-06T11:23:55.980Z",
+  "aggiornato": "2026-11-06T12:15:02.640Z",
   "articoli": [
+    {
+      "id": "e01287782eaa",
+      "serie": "f1",
+      "titolo": "Vettel ad Antonelli: \"Il titolo cambia come ti guardano gli altri. Tu non cambiare\"",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/06-9258734/vettel_ad_antonelli_il_titolo_cambia_come_ti_guardano_gli_altri_tu_non_cambiare",
+      "fonte": "Autosprint",
+      "data": "2026-11-06T12:15:02.640Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/06/120739152-dbdf705d-41bb-4750-a90a-e66a46465f02.jpg",
+      "sommario": "Dopo il Mondiale conquistato in Messico, il quattro volte campione dedica a Kimi un messaggio personale: il ricordo del primo trionfo, i compliementi e un consiglio"
+    },
     {
       "id": "00edb880e16f",
       "serie": "motogp",
