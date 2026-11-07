@@ -1,6 +1,66 @@
 {
-  "aggiornato": "2026-11-07T18:32:40.434Z",
+  "aggiornato": "2026-11-07T19:31:51.903Z",
   "articoli": [
+    {
+      "id": "390ae5c5e15e",
+      "serie": "motogp",
+      "titolo": "Bezzecchi smorza gli animi: “Il contatto con Márquez? Inutile fare polemica”",
+      "link": "https://www.motosprint.it/news/eventi/gp-qatar/2026/11/07-9275894/bezzecchi_smorza_gli_animi_il_contatto_con_mrquez_inutile_fare_polemica",
+      "fonte": "Motosprint",
+      "data": "2026-11-07T19:31:51.903Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/07/183052953-a550a847-681a-4975-bc8a-dc9351ecdbc0.jpeg",
+      "sommario": "Il romagnolo di Aprilia spiega: \"Ho semplicemente cercato di fare la mia traiettoria dopo aver visto Marc arrivare lungo, ma mi sono ritrovato a terra\""
+    },
+    {
+      "id": "873dbe6c22f1",
+      "serie": "motogp",
+      "titolo": "Márquez al centro della polemica: “Bezzecchi? Chi è dietro può vedere la situazione”",
+      "link": "https://www.motosprint.it/news/eventi/gp-qatar/2026/11/07-9275892/mrquez_al_centro_della_polemica_bezzecchi_chi_dietro_pu_vedere_la_situazione",
+      "fonte": "Motosprint",
+      "data": "2026-11-07T19:31:51.903Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/07/175803416-a22ff457-7342-4aaf-876a-96912a1d5f30.jpg",
+      "sommario": "Il leader del Mondiale si giustifica: \"Ho sempre fatto la stessa traiettoria tutti i giri, ho cercato di rialzare la moto quando ho visto una moto al mio interno. Oggi 12 punti regalati\""
+    },
+    {
+      "id": "fd380e55d451",
+      "serie": "motogp",
+      "titolo": "Di Giannantonio: “A Losail servono attributi: questa è una super prestazione”",
+      "link": "https://www.gpone.com/it/2026/11/07/motogp/di-giannantonio-a-losail-servono-attributi-questa-e-una-super-prestazione.html",
+      "fonte": "GPOne",
+      "data": "2026-11-07T19:02:41.000Z",
+      "immagine": "",
+      "sommario": "\"Le Ducati con la soft vanno molto bene. Ci siamo avvicinati alle Aprilia, riuscendo addirittura a batterle. Con la media invece loro fanno la differenza”"
+    },
+    {
+      "id": "c4350fc0c103",
+      "serie": "motogp",
+      "titolo": "Aldeguer: \"Chiedo scusa a Pecco, ma non ho fatto una manovra folle\"",
+      "link": "https://www.gpone.com/it/2026/11/07/motogp/aldeguer-chiedo-scusa-a-pecco-ma-non-ho-fatto-una-manovra-folle.html",
+      "fonte": "GPOne",
+      "data": "2026-11-07T18:43:41.000Z",
+      "immagine": "",
+      "sommario": "\"Non ho frenato tardi, anzi in quel giro io e Acosta abbiamo frenato persino prima. Pecco però ha impostato una traiettoria larga e io purtroppo l'ho toccato\""
+    },
+    {
+      "id": "63e0c7c4257f",
+      "serie": "motogp",
+      "titolo": "Bezzecchi: \"Il perchè di tanti zeri? quando lo spiegherò a me stesso ve lo saprò dire\"",
+      "link": "https://www.gpone.com/it/2026/11/07/motogp/bezzecchi-il-perche-di-tanti-zeri-quando-lo-spieghero-a-me-stesso-ve-lo-sapro-dire.html",
+      "fonte": "GPOne",
+      "data": "2026-11-07T18:41:04.000Z",
+      "immagine": "",
+      "sommario": "\"Non ha senso arrabbiarsi, è uno spreco di energie. Non era una traiettoria fuori dal normale, ma non posso entrargli in testa. Incidente come in Indonesia? episodi completamente diversi\""
+    },
+    {
+      "id": "a47fc053217f",
+      "serie": "motogp",
+      "titolo": "Martin: \"Sono al 50%, le persone malate mi hanno scritto, dandomi forza\"",
+      "link": "https://www.gpone.com/it/2026/11/07/motogp/martin-sono-al-50-le-persone-malate-mi-hanno-scritto-dandomi-forza.html",
+      "fonte": "GPOne",
+      "data": "2026-11-07T18:10:12.000Z",
+      "immagine": "",
+      "sommario": "\"Ho ricevuto tante lettere da persone che stanno combattendo le proprie battaglie e mi hanno detto che sono un'ispirazione per loro. Il Mondiale non mi interessa, la vittoria è essere qua\""
+    },
     {
       "id": "6cc245ecfb9b",
       "serie": "motogp",
