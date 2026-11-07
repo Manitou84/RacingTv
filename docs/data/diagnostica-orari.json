@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-07T10:30:26.124Z",
+  "aggiornato": "2026-11-07T11:24:51.554Z",
   "articoli": [
     {
       "fonte": "Sky Sport",
@@ -167,6 +167,17 @@
         "F1 Prove libere 3 2026-11-07T14:30:00.000Z",
         "F1 Qualifiche 2026-11-07T18:00:00.000Z",
         "F1 Gara 2026-11-08T17:00:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
+      "titolo": "Dove vedere la F1 stasera in tv, GP Brasile 2026: orari, streaming, programma TV8",
+      "url": "https://www.oasport.it/2026/11/dove-vedere-la-f1-stasera-in-tv-gp-brasile-2026-orari-streaming-programma-tv8/",
+      "gp": "GP Brasile",
+      "serie": "f1",
+      "sessioni": [
+        "F1 Prove libere 3 2026-11-07T14:30:00.000Z",
+        "F1 Qualifiche 2026-11-07T18:00:00.000Z TV8 differita 2026-11-07T20:25:00.000Z"
       ]
     },
     {
