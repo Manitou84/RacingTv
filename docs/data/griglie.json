@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-07T12:02:36.684Z",
+  "aggiornato": "2026-11-07T13:22:55.234Z",
   "griglie": {
     "motogp-gp-australia-2026": {
       "serie": "motogp",
@@ -474,6 +474,105 @@
           "pos": 22,
           "id": "f1-lawson",
           "nome": "Liam Lawson"
+        }
+      ]
+    },
+    "motogp-gp-qatar-2026": {
+      "serie": "motogp",
+      "gp": "GP Qatar",
+      "fonte": "OA Sport",
+      "url": "https://www.oasport.it/2026/11/griglia-di-partenza-motogp-gp-qatar-2026-risultati-e-classifica-qualifiche/",
+      "aggiornato": "2026-11-07T13:22:55.234Z",
+      "righe": [
+        {
+          "pos": 1,
+          "id": "bezzecchi",
+          "nome": "Marco Bezzecchi"
+        },
+        {
+          "pos": 2,
+          "id": "marc-marquez",
+          "nome": "Marc Marquez"
+        },
+        {
+          "pos": 3,
+          "id": "di-giannantonio",
+          "nome": "Fabio Di Giannantonio"
+        },
+        {
+          "pos": 4,
+          "id": "raul-fernandez",
+          "nome": "Raúl Fernández"
+        },
+        {
+          "pos": 5,
+          "id": "bagnaia",
+          "nome": "Francesco Bagnaia"
+        },
+        {
+          "pos": 6,
+          "id": "ogura",
+          "nome": "Ai Ogura"
+        },
+        {
+          "pos": 7,
+          "id": "zarco",
+          "nome": "Johann Zarco"
+        },
+        {
+          "pos": 8,
+          "id": "acosta",
+          "nome": "Pedro Acosta"
+        },
+        {
+          "pos": 9,
+          "id": "aldeguer",
+          "nome": "Fermín Aldeguer"
+        },
+        {
+          "pos": 10,
+          "id": "bastianini",
+          "nome": "Enea Bastianini"
+        },
+        {
+          "pos": 11,
+          "id": "martin",
+          "nome": "Jorge Martin"
+        },
+        {
+          "pos": 12,
+          "id": "binder",
+          "nome": "Brad Binder"
+        },
+        {
+          "pos": 13,
+          "id": "morbidelli",
+          "nome": "Franco Morbidelli"
+        },
+        {
+          "pos": 14,
+          "id": "marini",
+          "nome": "Luca Marini"
+        },
+        {
+          "pos": 15,
+          "id": null,
+          "nome": "Iker Lecuona"
+        },
+        {
+          "pos": 16,
+          "id": "moreira",
+          "nome": "Diogo Moreira"
+        },
+        {
+          "pos": 17,
+          "id": null,
+          "nome": "Jake Dixon"
+        },
+        {
+          "pos": 18,
+          "id": "vinales",
+          "nome": "Maverick Viñales"
         }
       ]
     }

@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-07T12:02:36.684Z",
+  "aggiornato": "2026-11-07T13:22:55.234Z",
   "articoli": [
+    {
+      "id": "5c31f3a4b6e6",
+      "serie": "motogp",
+      "titolo": "Bezzecchi piega Marquez e si prende la pole in Qatar, 3° Di Giannantonio",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/07-9275032/bezzecchi_piega_marquez_e_si_prende_la_pole_in_qatar_3_di_giannantonio",
+      "fonte": "Motosprint",
+      "data": "2026-11-07T13:22:55.234Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/07/123733215-f2286296-8394-4f19-8e3d-6c33e6c607cb.jpg",
+      "sommario": "Marco firma il nuovo record della pista precedendo Marc e Fabio. 5° Bagnaia, Martin solamente in quarta fila \n"
+    },
+    {
+      "id": "070bde0c158c",
+      "serie": "f1",
+      "titolo": "GP Qatar e Abu Dhabi, le TV internazionali si tirano indietro?",
+      "link": "https://www.autosprint.it/news/formula1/in-diretta/2026/11/07-9275044/gp_qatar_e_abu_dhabi_le_tv_internazionali_si_tirano_indietro_",
+      "fonte": "Autosprint",
+      "data": "2026-11-07T13:22:55.234Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/07/125451077-2995a9ec-84af-4492-806d-9d5bb4947c74.jpg",
+      "sommario": "Secondo fonti tedesche, diverse emittenti televisive internazionali sarebbero decise a dare forfait per gli ultimi 2 GP stagionali. Intanto Imola aspetta"
+    },
     {
       "id": "ad275074409f",
       "serie": "f1",
