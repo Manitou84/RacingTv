@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-07T14:11:22.763Z",
+  "aggiornato": "2026-11-07T15:04:21.568Z",
   "_fonte": "Wikipedia (inglese), pagine dei singoli GP",
   "motogp": {
     "2025": {
@@ -921,18 +921,21 @@
           "Marco Bezzecchi"
         ],
         "futuro": false,
-        "letto": "2026-11-07T14:11:22.763Z"
+        "letto": "2026-11-07T15:04:21.568Z"
       },
       "2026_Qatar_motorcycle_Grand_Prix": {
         "data": "2026-11-08",
         "circuito": "lusail",
         "luogo": "Lusail International Circuit Lusail, Qatar",
-        "pole": null,
+        "pole": {
+          "chi": "Marco Bezzecchi",
+          "tempo": "1:50.028"
+        },
         "giroVeloce": null,
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-11-07T13:22:55.234Z"
+        "letto": "2026-11-07T15:04:21.568Z"
       },
       "2026_Thailand_motorcycle_Grand_Prix": {
         "data": "2026-03-01",
@@ -1592,7 +1595,7 @@
         ],
         "sprint": [],
         "futuro": false,
-        "letto": "2026-11-07T14:11:22.763Z"
+        "letto": "2026-11-07T15:04:21.568Z"
       },
       "2026_Saudi_Arabian_Grand_Prix": {
         "data": "2026-04-19",
@@ -1727,7 +1730,7 @@
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-11-07T13:22:55.234Z"
+        "letto": "2026-11-07T15:04:21.568Z"
       },
       "2026_Azerbaijan_Grand_Prix": {
         "data": "2026-09-26",
