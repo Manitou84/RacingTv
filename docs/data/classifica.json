@@ -1,7 +1,7 @@
 {
-  "aggiornato": "2026-11-07T16:01:52.190Z",
+  "aggiornato": "2026-11-07T17:02:11.281Z",
   "motogp": {
-    "aggiornato": "2026-11-07T16:01:52.190Z",
+    "aggiornato": "2026-11-07T17:02:11.281Z",
     "fonte": "Motosprint",
     "piloti": [
       {
@@ -9,14 +9,14 @@
         "slug": "marc-marquez",
         "nome": "M. Marquez",
         "team": "Ducati Lenovo Team",
-        "punti": 399
+        "punti": 411
       },
       {
         "pos": 2,
         "slug": "jorge-martin",
         "nome": "J. Martin",
         "team": "Aprilia Racing Team",
-        "punti": 355
+        "punti": 362
       },
       {
         "pos": 3,
@@ -30,28 +30,28 @@
         "slug": "pedro-acosta",
         "nome": "P. Acosta",
         "team": "Red Bull KTM Factory Racing",
-        "punti": 295
+        "punti": 299
       },
       {
         "pos": 5,
         "slug": "ai-ogura",
         "nome": "A. Ogura",
         "team": "Trackhouse MotoGP Team",
-        "punti": 278
+        "punti": 281
       },
       {
         "pos": 6,
         "slug": "fabio-di-giannantonio",
         "nome": "F. D. Giannantonio",
         "team": "Pertamina Enduro VR46 Racing Team",
-        "punti": 265
+        "punti": 274
       },
       {
         "pos": 7,
         "slug": "raul-fernandez",
         "nome": "R. fernandez",
         "team": "Trackhouse MotoGP Team",
-        "punti": 236
+        "punti": 242
       },
       {
         "pos": 8,
@@ -72,7 +72,7 @@
         "slug": "enea-bastianini",
         "nome": "E. Bastianini",
         "team": "Red Bull KTM Tech 3",
-        "punti": 134
+        "punti": 136
       },
       {
         "pos": 11,
@@ -121,7 +121,7 @@
         "slug": "johann-zarco",
         "nome": "J. Zarco",
         "team": "LCR Honda Castrol",
-        "punti": 51
+        "punti": 56
       },
       {
         "pos": 18,
@@ -163,7 +163,7 @@
         "slug": "iker-lecuona",
         "nome": "I. Lecuona",
         "team": "BK8 Gresini Racing MotoGP",
-        "punti": 11
+        "punti": 12
       },
       {
         "pos": 24,
@@ -209,20 +209,27 @@
       },
       {
         "pos": 30,
+        "slug": "jake-dixon",
+        "nome": "J. Dixon",
+        "team": "Honda HRC Castrol",
+        "punti": 0
+      },
+      {
+        "pos": 31,
         "slug": "lorenzo-savadori",
         "nome": "L. Savadori",
         "team": "Trackhouse MotoGP Team",
         "punti": 0
       },
       {
-        "pos": 31,
+        "pos": 32,
         "slug": "michele-pirro",
         "nome": "M. Pirro",
         "team": "BK8 Gresini Racing MotoGP",
         "punti": 0
       },
       {
-        "pos": 32,
+        "pos": 33,
         "slug": "aleix-espargaro",
         "nome": "A. Espargarò",
         "team": "Honda HRC Castrol",
@@ -233,32 +240,32 @@
       {
         "pos": 1,
         "nome": "Aprilia Racing Team",
-        "punti": 687
+        "punti": 694
       },
       {
         "pos": 2,
         "nome": "Ducati Lenovo Team",
-        "punti": 572
+        "punti": 584
       },
       {
         "pos": 3,
         "nome": "Trackhouse MotoGP Team",
-        "punti": 514
+        "punti": 523
       },
       {
         "pos": 4,
         "nome": "Red Bull KTM Factory Racing",
-        "punti": 413
+        "punti": 417
       },
       {
         "pos": 5,
-        "nome": "BK8 Gresini Racing MotoGP",
-        "punti": 333
+        "nome": "Pertamina Enduro VR46 Racing Team",
+        "punti": 339
       },
       {
         "pos": 6,
-        "nome": "Pertamina Enduro VR46 Racing Team",
-        "punti": 330
+        "nome": "BK8 Gresini Racing MotoGP",
+        "punti": 334
       },
       {
         "pos": 7,
@@ -268,12 +275,12 @@
       {
         "pos": 8,
         "nome": "Red Bull KTM Tech 3",
-        "punti": 153
+        "punti": 155
       },
       {
         "pos": 9,
         "nome": "LCR Honda",
-        "punti": 129
+        "punti": 134
       },
       {
         "pos": 10,
@@ -305,22 +312,22 @@
       {
         "pos": 1,
         "nome": "Ducati",
-        "punti": 537
+        "punti": 549
       },
       {
         "pos": 2,
         "nome": "Aprilia",
-        "punti": 529
+        "punti": 536
       },
       {
         "pos": 3,
         "nome": "KTM",
-        "punti": 348
+        "punti": 352
       },
       {
         "pos": 4,
         "nome": "Honda",
-        "punti": 178
+        "punti": 183
       },
       {
         "pos": 5,
@@ -330,7 +337,7 @@
     ]
   },
   "f1": {
-    "aggiornato": "2026-11-07T16:01:52.190Z",
+    "aggiornato": "2026-11-07T17:02:11.281Z",
     "fonte": "Autosprint",
     "piloti": [
       {
@@ -562,7 +569,7 @@
     ]
   },
   "sbk": {
-    "aggiornato": "2026-11-07T16:01:52.190Z",
+    "aggiornato": "2026-11-07T17:02:11.281Z",
     "fonte": "Wikipedia",
     "piloti": [
       {
