@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-07T17:02:11.281Z",
+  "aggiornato": "2026-11-07T17:57:47.328Z",
   "arrivi": {
     "motogp-gp-australia-2026": {
       "Sprint": {
@@ -356,7 +356,7 @@
         "sessione": "Gara",
         "fonte": "OA Sport",
         "url": "https://www.oasport.it/2026/11/ordine-darrivo-motogp-gp-malesia-2026-risultati-e-classifica-gara/",
-        "aggiornato": "2026-11-07T17:02:11.281Z",
+        "aggiornato": "2026-11-07T17:57:47.328Z",
         "classificati": [
           {
             "pos": 1,
@@ -474,11 +474,125 @@
           }
         ]
       }
+    },
+    "motogp-gp-qatar-2026": {
+      "Sprint": {
+        "serie": "motogp",
+        "gp": "GP Qatar",
+        "sessione": "Sprint",
+        "fonte": "OA Sport",
+        "url": "https://www.oasport.it/2026/11/ordine-darrivo-motogp-sprint-gp-qatar-2026/",
+        "aggiornato": "2026-11-07T17:57:47.328Z",
+        "classificati": [
+          {
+            "pos": 1,
+            "id": "marc-marquez",
+            "nome": "Marc Marquez",
+            "secondi": 1126.45
+          },
+          {
+            "pos": 2,
+            "id": "di-giannantonio",
+            "nome": "Fabio Di Giannantonio",
+            "secondi": 1127.312
+          },
+          {
+            "pos": 3,
+            "id": "martin",
+            "nome": "Jorge Martin",
+            "secondi": 1127.969
+          },
+          {
+            "pos": 4,
+            "id": "raul-fernandez",
+            "nome": "Raúl Fernández",
+            "secondi": 1129.15
+          },
+          {
+            "pos": 5,
+            "id": "zarco",
+            "nome": "Johann Zarco",
+            "secondi": 1130.17
+          },
+          {
+            "pos": 6,
+            "id": "acosta",
+            "nome": "Pedro Acosta",
+            "secondi": 1131.114
+          },
+          {
+            "pos": 7,
+            "id": "ogura",
+            "nome": "Ai Ogura",
+            "secondi": 1131.308
+          },
+          {
+            "pos": 8,
+            "id": "bastianini",
+            "nome": "Enea Bastianini",
+            "secondi": 1132.032
+          },
+          {
+            "pos": 9,
+            "id": null,
+            "nome": "Iker Lecuona",
+            "secondi": 1134.532
+          },
+          {
+            "pos": 10,
+            "id": "moreira",
+            "nome": "Diogo Moreira",
+            "secondi": 1135.67
+          },
+          {
+            "pos": 11,
+            "id": "aldeguer",
+            "nome": "Fermín Aldeguer",
+            "secondi": 1135.879
+          },
+          {
+            "pos": 12,
+            "id": "binder",
+            "nome": "Brad Binder",
+            "secondi": 1135.933
+          },
+          {
+            "pos": 13,
+            "id": "marini",
+            "nome": "Luca Marini",
+            "secondi": 1139.177
+          },
+          {
+            "pos": 14,
+            "id": "morbidelli",
+            "nome": "Franco Morbidelli",
+            "secondi": 1139.324
+          },
+          {
+            "pos": 15,
+            "id": "vinales",
+            "nome": "Maverick Viñales",
+            "secondi": 1139.933
+          },
+          {
+            "pos": 16,
+            "id": null,
+            "nome": "Jake Dixon",
+            "secondi": 1145.823
+          }
+        ],
+        "ritirati": [
+          {
+            "id": "bezzecchi",
+            "nome": "Marco Bezzecchi"
+          },
+          {
+            "id": "bagnaia",
+            "nome": "Francesco Bagnaia"
+          }
+        ]
+      }
     }
   },
-  "_ultimiArticoliLetti": {
-    "nonLetti": [
-      "Ordine d’arrivo MotoGP, Sprint GP Qatar 2026: Marquez vince dopo aver fatto cadere Bezzecchi. Di Giannantonio sul podio"
-    ]
-  }
+  "_ultimiArticoliLetti": {}
 }

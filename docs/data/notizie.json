@@ -1,6 +1,46 @@
 {
-  "aggiornato": "2026-11-07T17:02:11.281Z",
+  "aggiornato": "2026-11-07T17:57:47.328Z",
   "articoli": [
+    {
+      "id": "35bf7652b6f2",
+      "serie": "motogp",
+      "titolo": "GP Qatar finito per Bagnaia: doppia frattura e ipotesi di intervento chirurgico",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/07-9275733/gp_qatar_finito_per_bagnaia_doppia_frattura_e_ipotesi_di_intervento_chirurgico",
+      "fonte": "Motosprint",
+      "data": "2026-11-07T17:57:47.328Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/07/172801929-5db48cc9-ecc6-41c8-9c56-91395c436960.jpg",
+      "sommario": "Quarto e quinto metacarpo del piede destro rotti: incidente innescato da Aldeguer duro per Pecco"
+    },
+    {
+      "id": "f05c07be89ee",
+      "serie": "motogp",
+      "titolo": "Di Giannantonio: \"Contento ma arrabbiato: volevo usare la gomma morbida pure io\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/07-9275734/di_giannantonio_contento_ma_arrabbiato_volevo_usare_la_gomma_morbida_pure_io",
+      "fonte": "Motosprint",
+      "data": "2026-11-07T17:57:47.328Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/07/175428316-f9531a1b-2259-4c4b-b9f3-7369ba1bc7e1.jpg",
+      "sommario": "Fabio, secondo nella Sprint di Lusail: \"Se tengo lo stesso ritmo di oggi, domani mi gioco il podio\""
+    },
+    {
+      "id": "8b435cac0797",
+      "serie": "motogp",
+      "titolo": "ULTIM'ORA - Bagnaia: Fratture a due dita del piede, si valuta l'operazione",
+      "link": "https://www.gpone.com/it/2026/11/07/motogp/fratture-al-quarto-e-quinto-metatarso-del-piede-destro-per-bagnaia.html",
+      "fonte": "GPOne",
+      "data": "2026-11-07T17:19:11.000Z",
+      "immagine": "",
+      "sommario": "Il pilota della Ducati sarà trasferito all'ospedale di Doha per ulteriori accertamenti. Potrebbe tornare in Italia già in serata"
+    },
+    {
+      "id": "f34d49f3f0ac",
+      "serie": "motogp",
+      "titolo": "LIVE Bar Sport alle 20:00 - Marquez: match point con polemica!",
+      "link": "https://www.gpone.com/it/2026/11/07/motogp/live-bar-sport-alle-19-00-marquez-match-point-con-polemica.html",
+      "fonte": "GPOne",
+      "data": "2026-11-07T17:14:44.000Z",
+      "immagine": "",
+      "sommario": "VIDEO - Marc vince a Lusail, ma il contatto con Bezzecchi farà discutere a lungo. Martìn stoico, brutto spavento per Bagnaia. Ne parliamo con Carlo Pernat"
+    },
     {
       "id": "2c1079b9133f",
       "serie": "motogp",
