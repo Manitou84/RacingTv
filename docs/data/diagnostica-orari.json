@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-06T23:06:52.902Z",
+  "aggiornato": "2026-11-06T23:59:27.293Z",
   "articoli": [
     {
       "fonte": "Sky Sport",
@@ -167,6 +167,32 @@
         "Moto3 Qualifiche 2026-10-31T04:45:00.000Z TV8 diretta 2026-10-31T04:45:00.000Z",
         "Moto2 Qualifiche 2026-10-31T05:40:00.000Z TV8 diretta 2026-10-31T05:40:00.000Z",
         "MotoGP Sprint 2026-10-31T07:00:00.000Z TV8 diretta 2026-10-31T07:00:00.000Z"
+      ]
+    },
+    {
+      "fonte": "Sky Sport",
+      "titolo": "F1, orari GP Brasile: dove vederlo su Sky e Now in tv, streaming e repliche | Sky Sport",
+      "url": "https://sport.sky.it/formula-1/2026/11/06/formula-1-orari-gp-brasile-2026",
+      "gp": "GP Brasile",
+      "serie": "f1",
+      "sessioni": [
+        "F1 Prove libere 3 2026-11-07T14:30:00.000Z",
+        "F1 Qualifiche 2026-11-07T18:00:00.000Z",
+        "F1 Gara 2026-11-08T17:00:00.000Z"
+      ]
+    },
+    {
+      "fonte": "Sky Sport",
+      "titolo": "Formula 1, orari GP Brasile 2026 a Interlagos: dove vedere la F1 in tv | Sky Sport",
+      "url": "https://sport.sky.it/formula-1/2026/11/04/f1-orari-gp-brasile-2026-interlagos",
+      "gp": "GP Brasile",
+      "serie": "f1",
+      "sessioni": [
+        "F1 Prove libere 1 2026-11-06T15:30:00.000Z",
+        "F1 Prove libere 2 2026-11-06T19:00:00.000Z",
+        "F1 Prove libere 3 2026-11-07T14:30:00.000Z",
+        "F1 Qualifiche 2026-11-07T18:00:00.000Z",
+        "F1 Gara 2026-11-08T17:00:00.000Z"
       ]
     },
     {
