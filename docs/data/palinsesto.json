@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-07T04:41:01.282Z",
+  "aggiornato": "2026-11-07T05:37:59.240Z",
   "weekend": [
     {
       "id": "motogp-gp-malesia-2026",
@@ -19,7 +19,7 @@
           "inizio": "2026-11-01T04:00:00.000Z",
           "tv8": {
             "tipo": "differita",
-            "inizio": "2026-11-01T09:50:00.000Z"
+            "inizio": "2026-11-01T10:00:00.000Z"
           },
           "fonte": "OA Sport"
         },
@@ -29,7 +29,7 @@
           "inizio": "2026-11-01T05:15:00.000Z",
           "tv8": {
             "tipo": "differita",
-            "inizio": "2026-11-01T11:05:00.000Z"
+            "inizio": "2026-11-01T11:20:00.000Z"
           },
           "fonte": "OA Sport"
         },
@@ -39,7 +39,7 @@
           "inizio": "2026-11-01T07:00:00.000Z",
           "tv8": {
             "tipo": "differita",
-            "inizio": "2026-11-01T12:55:00.000Z"
+            "inizio": "2026-11-01T13:00:00.000Z"
           },
           "fonte": "OA Sport"
         }
@@ -52,11 +52,6 @@
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/11/a-che-ora-la-motogp-su-tv8-oggi-gp-malesia-2026-programma-gara-differita-in-chiaro/",
           "titolo": "Quando la MotoGP su TV8 oggi, GP Malesia 2026: orario gara, differita in chiaro"
-        },
-        {
-          "nome": "OA Sport",
-          "url": "https://www.oasport.it/2026/10/motogp-su-tv8-gp-malesia-2026-quando-la-gara-in-chiaro-orario-differita/",
-          "titolo": "MotoGP su TV8, GP Malesia 2026: quando la gara in chiaro, orario differita"
         }
       ]
     },
@@ -84,11 +79,6 @@
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/11/dove-vedere-la-f1-stasera-in-tv-gp-messico-2026-orario-gara-differita-tv8-streaming/",
           "titolo": "Dove vedere la F1 stasera in tv, GP Messico 2026: orario gara, differita TV8, streaming"
-        },
-        {
-          "nome": "OA Sport",
-          "url": "https://www.oasport.it/2026/11/f1-oggi-in-tv-gp-messico-2026-orario-gara-streaming-programma-sky-e-tv8/",
-          "titolo": "F1 oggi in tv, GP Messico 2026: orario gara, streaming, programma, differita TV8"
         }
       ]
     },
@@ -259,9 +249,9 @@
       ],
       "fonti": [
         {
-          "nome": "Sky Sport",
-          "url": "https://sport.sky.it/motogp/2026/11/06/orari-motogp-gp-qatar-lusail-sky-now",
-          "titolo": "Orari MotoGp: Gp Qatar Losail 2026 in tv e streaming su Sky e Now | Sky Sport"
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/11/a-che-ora-la-motogp-su-tv8-oggi-gp-qatar-2026-programma-qualifiche-e-sprint-in-chiaro/",
+          "titolo": "A che ora la MotoGP su TV8 oggi, GP Qatar 2026: programma qualifiche e Sprint in chiaro"
         },
         {
           "nome": "OA Sport",
@@ -344,9 +334,9 @@
       ],
       "fonti": [
         {
-          "nome": "Sky Sport",
-          "url": "https://sport.sky.it/formula-1/2026/11/04/f1-orari-gp-brasile-2026-interlagos",
-          "titolo": "Formula 1, orari GP Brasile 2026 a Interlagos: dove vedere la F1 in tv | Sky Sport"
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/11/a-che-ora-la-f1-su-tv8-oggi-gp-brasile-2026-programma-qualifiche-differita-in-chiaro/",
+          "titolo": "A che ora la F1 su TV8 oggi, GP Brasile 2026: programma qualifiche, differita in chiaro"
         },
         {
           "nome": "OA Sport",
