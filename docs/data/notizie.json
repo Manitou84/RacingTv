@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-08T17:24:42.472Z",
+  "aggiornato": "2026-11-08T17:57:12.864Z",
   "articoli": [
+    {
+      "id": "ca3fa33bbb2f",
+      "serie": "motogp",
+      "titolo": "LIVE Bar Sport alle 20:00 - La sfida di Marquez ora è il mondiale marche",
+      "link": "https://www.gpone.com/it/2026/11/08/motogp/live-bar-sport-alle-20-00-la-sfida-di-marquez-ora-e-il-mondiale-marche.html",
+      "fonte": "GPOne",
+      "data": "2026-11-08T17:33:33.000Z",
+      "immagine": "",
+      "sommario": "VIDEO - Bezzecchi domina il GP, Marc ha sempre di più le mani sul titolo piloti, mentre resta aperta la sfida Aprilia Vs Ducati per il Costruttori. Ne parliamo con Carletto Pernat"
+    },
     {
       "id": "62ac6396bd15",
       "serie": "motogp",
@@ -3989,16 +3999,6 @@
       "fonte": "Autosprint",
       "data": "2026-10-22T10:00:00Z",
       "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/09/124757994-2fd73ea5-2243-42ce-b2ce-d7df9d6c290c.jpg",
-      "sommario": ""
-    },
-    {
-      "id": "ee36a811df10",
-      "serie": "f1",
-      "titolo": "Senna-Prost, 37 anni da Suzuka 1989: l'incidente che continua a dividere la Formula 1",
-      "link": "https://www.autosprint.it/news/formula1/2026/10/22-9219994/senna-prost_37_anni_da_suzuka_1989_l_incidente_che_continua_a_dividere_la_formula_1",
-      "fonte": "Autosprint",
-      "data": "2026-10-22T10:00:00Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/22/110848037-adb50d63-5d11-4105-98dd-026235362d46.jpg",
       "sommario": ""
     }
   ]
