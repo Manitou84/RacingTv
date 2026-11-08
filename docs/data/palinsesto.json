@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-08T04:41:51.856Z",
+  "aggiornato": "2026-11-08T05:38:45.782Z",
   "weekend": [
     {
       "id": "motogp-gp-malesia-2026",
@@ -335,6 +335,16 @@
       "fonti": [
         {
           "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/11/f1-su-tv8-gp-brasile-2026-quando-la-gara-in-chiaro-orario-e-programma/",
+          "titolo": "F1 su TV8, GP Brasile 2026: quando la gara in chiaro, orario e programma"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/11/dove-vedere-la-f1-stasera-in-tv-gp-brasile-2026-orari-streaming-programma-tv8/",
+          "titolo": "Dove vedere la F1 stasera in tv, GP Brasile 2026: orari, streaming, programma TV8"
+        },
+        {
+          "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/11/a-che-ora-la-f1-su-tv8-oggi-gp-brasile-2026-programma-qualifiche-differita-in-chiaro/",
           "titolo": "Quando la F1 su TV8 oggi, GP Brasile 2026: programma differita qualifiche in chiaro"
         },
@@ -352,16 +362,6 @@
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/11/f1-gp-brasile-2026-gli-orari-del-fine-settimana-dalle-prove-libere-alla-gara-guida-sky-e-tv8/",
           "titolo": "F1, GP Brasile 2026: gli orari del fine settimana dalle prove libere alla gara. Guida Sky e TV8"
-        },
-        {
-          "nome": "OA Sport",
-          "url": "https://www.oasport.it/2026/11/f1-gp-brasile-2026-su-tv8-orari-in-chiaro-fine-settimana-qualifiche-e-gara/",
-          "titolo": "F1, GP Brasile 2026 su TV8: orari in chiaro fine settimana, qualifiche e gara"
-        },
-        {
-          "nome": "OA Sport",
-          "url": "https://www.oasport.it/2026/11/f1-gp-brasile-2026-programma-orari-tv-streaming-guida-sky-e-tv8/",
-          "titolo": "F1, GP Brasile 2026: programma, orari, tv, streaming, guida SKY e TV8"
         }
       ]
     }

@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-08T04:41:51.856Z",
+  "aggiornato": "2026-11-08T05:38:45.782Z",
   "articoli": [
     {
       "fonte": "Sky Sport",
@@ -12,6 +12,19 @@
         "Moto3 Gara 2026-11-08T13:00:00.000Z",
         "Moto2 Gara 2026-11-08T14:15:00.000Z",
         "MotoGP Gara 2026-11-08T16:00:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
+      "titolo": "A che ora la MotoGP su TV8 oggi, GP Qatar 2026: programma gara, differita in chiaro",
+      "url": "https://www.oasport.it/2026/11/a-che-ora-la-motogp-su-tv8-oggi-gp-qatar-2026-programma-gara-differita-in-chiaro/",
+      "gp": "GP Qatar",
+      "serie": "motogp",
+      "sessioni": [
+        "MotoGP Warm up 2026-11-08T11:40:00.000Z",
+        "Moto3 Gara 2026-11-08T13:00:00.000Z TV8 diretta 2026-11-08T13:00:00.000Z",
+        "Moto2 Gara 2026-11-08T14:15:00.000Z TV8 diretta 2026-11-08T14:15:00.000Z",
+        "MotoGP Gara 2026-11-08T16:00:00.000Z TV8 diretta 2026-11-08T16:00:00.000Z"
       ]
     },
     {
@@ -151,6 +164,16 @@
     },
     {
       "fonte": "OA Sport",
+      "titolo": "A che ora la F1 su TV8 oggi, GP Brasile 2026: programma gara, differita in chiaro",
+      "url": "https://www.oasport.it/2026/11/a-che-ora-la-f1-su-tv8-oggi-gp-brasile-2026-programma-gara-differita-in-chiaro/",
+      "gp": "GP Brasile",
+      "serie": "f1",
+      "sessioni": [
+        "F1 Gara 2026-11-08T17:00:00.000Z TV8 differita 2026-11-08T20:30:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
       "titolo": "F1 oggi in tv, GP Brasile 2026: orario gara, streaming, programma Sky e TV8",
       "url": "https://www.oasport.it/2026/11/f1-oggi-in-tv-gp-brasile-2026-orario-gara-streaming-programma-sky-e-tv8/",
       "gp": "GP Brasile",
@@ -226,34 +249,6 @@
         "F1 Prove libere 3 2026-11-07T14:30:00.000Z",
         "F1 Qualifiche 2026-11-07T18:00:00.000Z TV8 differita 2026-11-07T20:30:00.000Z",
         "F1 Gara 2026-11-08T17:00:00.000Z TV8 differita 2026-11-08T20:30:00.000Z"
-      ]
-    },
-    {
-      "fonte": "OA Sport",
-      "titolo": "F1, GP Brasile 2026 su TV8: orari in chiaro fine settimana, qualifiche e gara",
-      "url": "https://www.oasport.it/2026/11/f1-gp-brasile-2026-su-tv8-orari-in-chiaro-fine-settimana-qualifiche-e-gara/",
-      "gp": "GP Brasile",
-      "serie": "f1",
-      "sessioni": [
-        "F1 Prove libere 1 2026-11-06T15:30:00.000Z",
-        "F1 Prove libere 2 2026-11-06T19:00:00.000Z",
-        "F1 Prove libere 3 2026-11-07T14:30:00.000Z",
-        "F1 Qualifiche 2026-11-07T18:00:00.000Z TV8 differita 2026-11-07T20:30:00.000Z",
-        "F1 Gara 2026-11-08T17:00:00.000Z TV8 differita 2026-11-08T20:30:00.000Z"
-      ]
-    },
-    {
-      "fonte": "OA Sport",
-      "titolo": "F1, GP Brasile 2026: programma, orari, tv, streaming, guida SKY e TV8",
-      "url": "https://www.oasport.it/2026/11/f1-gp-brasile-2026-programma-orari-tv-streaming-guida-sky-e-tv8/",
-      "gp": "GP Brasile",
-      "serie": "f1",
-      "sessioni": [
-        "F1 Prove libere 1 2026-11-06T15:30:00.000Z",
-        "F1 Prove libere 2 2026-11-06T19:00:00.000Z",
-        "F1 Prove libere 3 2026-11-07T14:30:00.000Z",
-        "F1 Qualifiche 2026-11-07T18:00:00.000Z",
-        "F1 Gara 2026-11-08T17:00:00.000Z"
       ]
     }
   ]
