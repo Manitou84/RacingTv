@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-11-08T10:31:43.910Z",
+  "aggiornato": "2026-11-08T11:26:10.900Z",
   "articoli": [
+    {
+      "id": "412aa8d60edb",
+      "serie": "motogp",
+      "titolo": "Brutte notizie per Bagnaia: necessaria l'operazione per le fratture al piede destro",
+      "link": "https://www.motosprint.it/news/eventi/gp-qatar/2026/11/08-9276800/brutte_notizie_per_bagnaia_necessaria_l_operazione_per_le_fratture_al_piede_destro",
+      "fonte": "Motosprint",
+      "data": "2026-11-08T11:26:10.900Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/08/104438878-da72dd56-ff45-4e61-a63c-fd74e95a8b7e.jpg",
+      "sommario": "Confermate le fratture a quarto e quinto metatarso del piede destro, il torinese rienterà in giornata in Italia e, tra domani e martedì, si sottoporrà all'intervento risolutivo"
+    },
+    {
+      "id": "53a69a863bb5",
+      "serie": "motogp",
+      "titolo": "Contatto Marquez-Bezzecchi, Rolfo: “Marco se l’è cercata”, Biaggi: “Incidente di gara”",
+      "link": "https://www.gpone.com/it/2026/11/08/motogp/contatto-marquez-bezzecchi-rolfo-marco-se-le-cercata-biaggi-incidente-di-gara.html",
+      "fonte": "GPOne",
+      "data": "2026-11-08T11:15:37.000Z",
+      "immagine": "",
+      "sommario": "I due ex piloti hanno fornito il loro parere sul discusso contatto in Curva 1 avvenuto nel corso della Sprint Race del GP del Qatar, che ha portato alla caduta del pilota Aprilia"
+    },
+    {
+      "id": "43aeb1a88708",
+      "serie": "motogp",
+      "titolo": "Márquez, titolo in Qatar solo con vittoria e zero di Martín: altrimenti verdetto in Europa",
+      "link": "https://www.gpone.com/it/2026/11/08/motogp/marquez-ha-il-primo-match-point-in-qatar-ma-il-titolo-lo-aspetta-in-europa.html",
+      "fonte": "GPOne",
+      "data": "2026-11-08T11:01:29.000Z",
+      "immagine": "",
+      "sommario": "Marc deve vincere e sperare che Martín non conquisti punti: un'ipotesi quasi impossibile con appena 18 piloti in pista. L'ottavo titolo nella classe regina lo porterebbe alla pari con Agostini e davanti a Valentino Rossi"
+    },
     {
       "id": "4979b253da0b",
       "serie": "motogp",
@@ -3970,36 +4000,6 @@
       "data": "2026-10-22T08:34:03.000Z",
       "immagine": "",
       "sommario": "\"Averla tolta è un colpo al cuore\". Marquez: \"qui puoi vedere tutte e quattro le stagioni in un fine settimana\". Acosta: \"Pista leggendaria, triste non venire il prossimo anno\""
-    },
-    {
-      "id": "bcc8e0764047",
-      "serie": "motogp",
-      "titolo": "Alex Marquez: \"Chiedono troppo ai piloti, dovrebbero prendersi cura dei giovani\"",
-      "link": "https://www.gpone.com/it/2026/10/22/motogp/alex-marquez-chiedono-troppo-ai-piloti-dovrebbero-prendersi-cura-dei-giovani.html",
-      "fonte": "GPOne",
-      "data": "2026-10-22T07:40:19.000Z",
-      "immagine": "",
-      "sommario": "\"Va bene creare eroi, ma devono essere a lungo termine, non a breve. Più spettacolo significa più rischi, dovrebbero almeno dimezzare il numero delle Sprint\""
-    },
-    {
-      "id": "2f224d85f5d4",
-      "serie": "motogp",
-      "titolo": "Bagnaia: \"Perdere Phillip Island? Pista vera, ma ormai la direzione è un'altra\"",
-      "link": "https://www.gpone.com/it/2026/10/22/motogp/bagnaia-perdere-phillip-island-pista-vera-ma-ormai-la-direzione-e-unaltra.html",
-      "fonte": "GPOne",
-      "data": "2026-10-22T06:52:00.000Z",
-      "immagine": "",
-      "sommario": "\"Una pista iconica, di velocità pura su cui noi piloti ci divertiamo. Spero nell'asciutto, perché con la pioggia i miei problemi raddoppiano\""
-    },
-    {
-      "id": "2e64c871449c",
-      "serie": "motogp",
-      "titolo": "Lecuona: \"Pesa portare il 27 a Phillip Island, ma non ci ho pensato due volte\"",
-      "link": "https://www.gpone.com/it/2026/10/22/motogp/lecuona-pesa-portare-il-27-a-phillip-island-ma-non-ci-ho-pensato-due-volte.html",
-      "fonte": "GPOne",
-      "data": "2026-10-22T06:49:52.000Z",
-      "immagine": "",
-      "sommario": "\"Sono qui per divertirmi e aiutare Gresini: quando me l'hanno detto ho preso la palla al balzo, perché questa sarà l'ultima MotoGP\""
     }
   ]
 }
