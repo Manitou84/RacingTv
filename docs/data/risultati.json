@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-08T16:36:46.198Z",
+  "aggiornato": "2026-11-08T17:24:42.472Z",
   "motogp": {
     "fonte": "Motosprint",
     "gare": [
@@ -188,6 +188,17 @@
           "marc-marquez",
           "pedro-acosta",
           "alex-marquez"
+        ]
+      },
+      {
+        "url": "https://www.motosprint.it/live/moto-gp/gran-premio-del-qatar-901790",
+        "gp": "Gran Premio del Qatar",
+        "circuito": "Lusail International Circuit",
+        "data": "2026-11-08",
+        "podio": [
+          "marco-bezzecchi",
+          "marc-marquez",
+          "raul-fernandez"
         ]
       }
     ]
