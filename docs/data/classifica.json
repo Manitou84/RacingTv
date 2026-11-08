@@ -1,7 +1,7 @@
 {
-  "aggiornato": "2026-11-08T22:00:31.354Z",
+  "aggiornato": "2026-11-08T22:59:56.610Z",
   "motogp": {
-    "aggiornato": "2026-11-08T22:00:31.354Z",
+    "aggiornato": "2026-11-08T22:59:56.610Z",
     "fonte": "Motosprint",
     "piloti": [
       {
@@ -322,7 +322,7 @@
     ]
   },
   "f1": {
-    "aggiornato": "2026-11-08T22:00:31.354Z",
+    "aggiornato": "2026-11-08T22:59:56.610Z",
     "fonte": "Autosprint",
     "piloti": [
       {
@@ -358,7 +358,7 @@
         "slug": "charles-leclerc",
         "nome": "C. Leclerc",
         "team": "Scuderia Ferrari HP",
-        "punti": 251
+        "punti": 249
       },
       {
         "pos": 6,
@@ -386,7 +386,7 @@
         "slug": "liam-lawson",
         "nome": "L. Lawson",
         "team": "Visa Cash App Racing Bulls Formula One Team",
-        "punti": 87
+        "punti": 89
       },
       {
         "pos": 10,
@@ -511,7 +511,7 @@
       {
         "pos": 2,
         "nome": "Scuderia Ferrari HP",
-        "punti": 512
+        "punti": 510
       },
       {
         "pos": 3,
@@ -526,7 +526,7 @@
       {
         "pos": 5,
         "nome": "Visa Cash App Racing Bulls Formula One Team",
-        "punti": 112
+        "punti": 114
       },
       {
         "pos": 6,
@@ -561,7 +561,7 @@
     ]
   },
   "sbk": {
-    "aggiornato": "2026-11-08T22:00:31.354Z",
+    "aggiornato": "2026-11-08T22:59:56.610Z",
     "fonte": "Wikipedia",
     "piloti": [
       {

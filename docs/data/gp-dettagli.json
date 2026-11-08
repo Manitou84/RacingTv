@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-08T22:00:31.354Z",
+  "aggiornato": "2026-11-08T22:59:56.610Z",
   "_fonte": "Wikipedia (inglese), pagine dei singoli GP",
   "motogp": {
     "2025": {
@@ -921,7 +921,7 @@
           "Marco Bezzecchi"
         ],
         "futuro": false,
-        "letto": "2026-11-08T22:00:31.354Z"
+        "letto": "2026-11-08T22:59:56.610Z"
       },
       "2026_Qatar_motorcycle_Grand_Prix": {
         "data": "2026-11-08",
@@ -940,9 +940,13 @@
           "Marc Márquez",
           "Raúl Fernández"
         ],
-        "sprint": [],
+        "sprint": [
+          "Marc Márquez",
+          "Fabio Di Giannantonio",
+          "Jorge Martín"
+        ],
         "futuro": false,
-        "letto": "2026-11-08T22:00:31.354Z"
+        "letto": "2026-11-08T22:59:56.610Z"
       },
       "2026_Thailand_motorcycle_Grand_Prix": {
         "data": "2026-03-01",
@@ -1602,7 +1606,7 @@
         ],
         "sprint": [],
         "futuro": false,
-        "letto": "2026-11-08T22:00:31.354Z"
+        "letto": "2026-11-08T22:59:56.610Z"
       },
       "2026_Saudi_Arabian_Grand_Prix": {
         "data": "2026-04-19",
@@ -1680,7 +1684,7 @@
         ],
         "sprint": [],
         "futuro": false,
-        "letto": "2026-11-08T22:00:31.354Z"
+        "letto": "2026-11-08T22:59:56.610Z"
       },
       "2026_Dutch_Grand_Prix": {
         "data": "2026-08-23",
