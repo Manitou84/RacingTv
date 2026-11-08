@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-08T17:57:12.864Z",
+  "aggiornato": "2026-11-08T18:31:13.426Z",
   "arrivi": {
     "motogp-gp-australia-2026": {
       "Sprint": {
@@ -482,7 +482,7 @@
         "sessione": "Sprint",
         "fonte": "OA Sport",
         "url": "https://www.oasport.it/2026/11/ordine-darrivo-motogp-sprint-gp-qatar-2026/",
-        "aggiornato": "2026-11-08T17:57:12.864Z",
+        "aggiornato": "2026-11-08T18:31:13.426Z",
         "classificati": [
           {
             "pos": 1,
@@ -598,7 +598,7 @@
         "sessione": "Gara",
         "fonte": "OA Sport",
         "url": "https://www.oasport.it/2026/11/ordine-darrivo-motogp-gp-qatar-2026-risultati-e-classifica-gara/",
-        "aggiornato": "2026-11-08T17:57:12.864Z",
+        "aggiornato": "2026-11-08T18:31:13.426Z",
         "classificati": [
           {
             "pos": 1,
@@ -675,5 +675,9 @@
       }
     }
   },
-  "_ultimiArticoliLetti": {}
+  "_ultimiArticoliLetti": {
+    "nonLetti": [
+      "Ordine d’arrivo F1, GP Brasile 2026: risultati e classifica gara"
+    ]
+  }
 }

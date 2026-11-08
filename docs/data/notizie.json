@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-08T17:57:12.864Z",
+  "aggiornato": "2026-11-08T18:31:13.426Z",
   "articoli": [
+    {
+      "id": "e7cffb17263b",
+      "serie": "motogp",
+      "titolo": "Márquez lascia il Qatar ad un passo dal titolo: “Era importante tarpare le ali alle Aprilia”",
+      "link": "https://www.motosprint.it/news/eventi/gp-qatar/2026/11/08-9277487/mrquez_lascia_il_qatar_ad_un_passo_dal_titolo_era_importante_tarpare_le_ali_alle_aprilia",
+      "fonte": "Motosprint",
+      "data": "2026-11-08T18:31:13.426Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/08/174940978-e6a7af94-a86b-4962-91aa-857e302ca090.jpg",
+      "sommario": "Il campione del mondo compie un altro importante passo per il campionato: \"Avrei firmato per raccogliere 32 punti. Sapevo di dover partire piano, Bezzecchi e Fernández sono stati più bravi\""
+    },
+    {
+      "id": "c30127554e12",
+      "serie": "motogp",
+      "titolo": "Bezzecchi: \"Mi servirebbe un miracolo per il titolo e sembra che per me non ce ne siano\"",
+      "link": "https://www.gpone.com/it/2026/11/08/motogp/bezzecchi-mi-servirebbe-un-miracolo-per-il-titolo-e-sembra-che-per-me-non-ce-ne-siano.html",
+      "fonte": "GPOne",
+      "data": "2026-11-08T18:13:47.000Z",
+      "immagine": "",
+      "sommario": "\"In ogni caso è bello essere in lotta ancora con Marquez e Martìn, sono due piloti velocissimi e sto imparando tanto. Tutte cose che voglio portare con me nel mio futuro\""
+    },
     {
       "id": "ca3fa33bbb2f",
       "serie": "motogp",
@@ -3979,26 +3999,6 @@
       "fonte": "Motosprint",
       "data": "2026-10-22T10:00:00Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/22/062044630-273b0c70-701e-4b0d-8ea0-de711ded1ede.jpeg",
-      "sommario": ""
-    },
-    {
-      "id": "3c46b7abc603",
-      "serie": "motogp",
-      "titolo": "Fernandez e il successo del 2025 a Phillip Island: “Il miglior momento della mia carriera”",
-      "link": "https://www.motosprint.it/news/eventi/gp-australia/2026/10/22-9218363/fernandez_e_il_successo_del_2025_a_phillip_island_il_miglior_momento_della_mia_carriera",
-      "fonte": "Motosprint",
-      "data": "2026-10-22T10:00:00Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/22/060344113-aeaf2ef3-55ce-47b7-b6ee-2f1881457b25.jpg",
-      "sommario": ""
-    },
-    {
-      "id": "2304b8991ff3",
-      "serie": "f1",
-      "titolo": "Toto Wolff si prepara all'uscita di scena, avviate le ricerche del nuovo boss Mercedes",
-      "link": "https://www.autosprint.it/news/formula1/2026/10/22-9221482/toto_wolff_si_prepara_all_uscita_di_scena_avviate_le_ricerche_del_nuovo_boss_mercedes",
-      "fonte": "Autosprint",
-      "data": "2026-10-22T10:00:00Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/09/124757994-2fd73ea5-2243-42ce-b2ce-d7df9d6c290c.jpg",
       "sommario": ""
     }
   ]
