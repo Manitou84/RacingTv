@@ -1,33 +1,6 @@
 {
-  "aggiornato": "2026-11-08T20:25:05.190Z",
+  "aggiornato": "2026-11-08T21:02:08.450Z",
   "weekend": [
-    {
-      "id": "f1-gp-messico-2026",
-      "serie": "f1",
-      "gp": "GP Messico",
-      "sessioni": [
-        {
-          "classe": "F1",
-          "sessione": "Gara",
-          "inizio": "2026-11-01T20:00:00.000Z",
-          "tv8": {
-            "tipo": "differita",
-            "inizio": "2026-11-01T21:00:00.000Z"
-          },
-          "fonte": "OA Sport"
-        }
-      ],
-      "tv8Confermati": [
-        "2026-11-01"
-      ],
-      "fonti": [
-        {
-          "nome": "OA Sport",
-          "url": "https://www.oasport.it/2026/11/dove-vedere-la-f1-stasera-in-tv-gp-messico-2026-orario-gara-differita-tv8-streaming/",
-          "titolo": "Dove vedere la F1 stasera in tv, GP Messico 2026: orario gara, differita TV8, streaming"
-        }
-      ]
-    },
     {
       "id": "motogp-gp-qatar-2026",
       "serie": "motogp",
