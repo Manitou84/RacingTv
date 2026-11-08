@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-08T18:31:13.426Z",
+  "aggiornato": "2026-11-08T19:31:23.426Z",
   "_fonte": "Wikipedia (inglese), pagine dei singoli GP",
   "motogp": {
     "2025": {
@@ -921,7 +921,7 @@
           "Marco Bezzecchi"
         ],
         "futuro": false,
-        "letto": "2026-11-08T18:31:13.426Z"
+        "letto": "2026-11-08T19:31:23.426Z"
       },
       "2026_Qatar_motorcycle_Grand_Prix": {
         "data": "2026-11-08",
@@ -931,11 +931,18 @@
           "chi": "Marco Bezzecchi",
           "tempo": "1:50.028"
         },
-        "giroVeloce": null,
-        "podio": [],
+        "giroVeloce": {
+          "chi": "Marc Márquez",
+          "tempo": "1:52.558"
+        },
+        "podio": [
+          "Marco Bezzecchi",
+          "Marc Márquez",
+          "Raul Fernandez"
+        ],
         "sprint": [],
-        "futuro": true,
-        "letto": "2026-11-08T17:57:12.864Z"
+        "futuro": false,
+        "letto": "2026-11-08T19:31:23.426Z"
       },
       "2026_Thailand_motorcycle_Grand_Prix": {
         "data": "2026-03-01",
@@ -1595,7 +1602,7 @@
         ],
         "sprint": [],
         "futuro": false,
-        "letto": "2026-11-08T18:31:13.426Z"
+        "letto": "2026-11-08T19:31:23.426Z"
       },
       "2026_Saudi_Arabian_Grand_Prix": {
         "data": "2026-04-19",
@@ -1662,11 +1669,18 @@
           "chi": "Lando Norris",
           "tempo": "1:27.470"
         },
-        "giroVeloce": null,
-        "podio": [],
+        "giroVeloce": {
+          "chi": "Kimi Antonelli",
+          "tempo": "1:12.689"
+        },
+        "podio": [
+          "Lando Norris",
+          "Max Verstappen",
+          "Isack Hadjar"
+        ],
         "sprint": [],
-        "futuro": true,
-        "letto": "2026-11-08T17:57:12.864Z"
+        "futuro": false,
+        "letto": "2026-11-08T19:31:23.426Z"
       },
       "2026_Dutch_Grand_Prix": {
         "data": "2026-08-23",
@@ -1764,11 +1778,18 @@
           "chi": "Lando Norris",
           "tempo": "1:27.470"
         },
-        "giroVeloce": null,
-        "podio": [],
+        "giroVeloce": {
+          "chi": "Kimi Antonelli",
+          "tempo": "1:12.689"
+        },
+        "podio": [
+          "Lando Norris",
+          "Max Verstappen",
+          "Isack Hadjar"
+        ],
         "sprint": [],
-        "futuro": true,
-        "letto": "2026-11-08T17:57:12.864Z"
+        "futuro": false,
+        "letto": "2026-11-08T19:31:23.426Z"
       },
       "2026_Bahrain_Grand_Prix": {
         "data": "2026-10-04",

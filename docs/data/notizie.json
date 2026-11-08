@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-11-08T18:31:13.426Z",
+  "aggiornato": "2026-11-08T19:31:23.426Z",
   "articoli": [
+    {
+      "id": "5684c71963d4",
+      "serie": "motogp",
+      "titolo": "Martín stremato: “Gli ultimi giri non ce la facevo più, ma a Portimão sarò quasi al 100%”",
+      "link": "https://www.motosprint.it/news/eventi/gp-qatar/2026/11/08-9277721/martn_stremato_gli_ultimi_giri_non_ce_la_facevo_pi_ma_a_portimo_sar_quasi_al_100_",
+      "fonte": "Motosprint",
+      "data": "2026-11-08T19:31:23.426Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/08/182625094-d2d3c85a-5f2c-4a14-88ca-09462a8910a4.jpg",
+      "sommario": "Il madrileno di Aprilia soddisfatto: \"Oggi ho fatto il massimo, ma in curva 12 pensavo sempre a cosa è successo l'anno scorso. Ora per il titolo è più difficile, ma non ho nulla da recriminare\""
+    },
+    {
+      "id": "04d48d6a5e94",
+      "serie": "motogp",
+      "titolo": "Tardozzi punge Rivola: “Non basta Marquez per vincere, serve anche la gestione sportiva”",
+      "link": "https://www.gpone.com/it/2026/11/08/motogp/tardozzi-punge-rivola-non-basta-marquez-per-vincere-serve-anche-la-gestione-sportiva.html",
+      "fonte": "GPOne",
+      "data": "2026-11-08T18:47:08.000Z",
+      "immagine": "",
+      "sommario": "Il team manager Ducati risponde al CEO Aprilia: “Per vincere servono un campione, una moto competitiva e una gestione tecnica e sportiva che funzioni”. Poi rivela: “Il Mugello ci ha dato la benzina per reagire”"
+    },
+    {
+      "id": "064b06e55bd9",
+      "serie": "motogp",
+      "titolo": "Marc Marquez: \"Non potevo permettere che Aprilia mettesse le ali\"",
+      "link": "https://www.gpone.com/it/2026/11/08/motogp/marc-marquez-non-potevo-permettere-che-aprilia-mettesse-le-ali.html",
+      "fonte": "GPOne",
+      "data": "2026-11-08T18:43:29.000Z",
+      "immagine": "",
+      "sommario": "\"Non importa dove vincerò il titolo, non è il momento di prendere rischi. Alex mi ha aiutato da casa, è bello avere un fratello che parla la tua stessa lingua\""
+    },
     {
       "id": "e7cffb17263b",
       "serie": "motogp",
@@ -10,6 +40,16 @@
       "data": "2026-11-08T18:31:13.426Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/08/174940978-e6a7af94-a86b-4962-91aa-857e302ca090.jpg",
       "sommario": "Il campione del mondo compie un altro importante passo per il campionato: \"Avrei firmato per raccogliere 32 punti. Sapevo di dover partire piano, Bezzecchi e Fernández sono stati più bravi\""
+    },
+    {
+      "id": "362d1f0bc04a",
+      "serie": "motogp",
+      "titolo": "Fernandez: \"Prima di fine stagione vorrei lottare con Marc fino alla fine\"",
+      "link": "https://www.gpone.com/it/2026/11/08/motogp/fernandez-prima-di-fine-stagione-vorrei-lottare-con-marc-fino-alla-fine.html",
+      "fonte": "GPOne",
+      "data": "2026-11-08T18:25:42.000Z",
+      "immagine": "",
+      "sommario": "\"Bezzecchi? io sono venuto qui senza aspettative, lui con una mentalità forte, anche questo ha fatto la differenza. Il dolore alla mano? quando sono in pista non ci penso\""
     },
     {
       "id": "c30127554e12",
@@ -3959,46 +3999,6 @@
       "fonte": "Motosprint",
       "data": "2026-10-22T10:00:00Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/22/095349828-8b90430b-585c-4df1-bab2-55f650fc134e.jpg",
-      "sommario": ""
-    },
-    {
-      "id": "e4a83c50d1af",
-      "serie": "motogp",
-      "titolo": "Condizioni meteo complicate a Phillip Island, Bagnaia: \"Sul bagnato i miei problemi raddoppiano\"",
-      "link": "https://www.motosprint.it/news/eventi/gp-australia/2026/10/22-9219662/condizioni_meteo_complicate_a_phillip_island_bagnaia_sul_bagnato_i_miei_problemi_raddoppiano",
-      "fonte": "Motosprint",
-      "data": "2026-10-22T10:00:00Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/22/085144786-ae18282f-44d3-45aa-8a4e-c2021fc93c65.jpeg",
-      "sommario": ""
-    },
-    {
-      "id": "df657d14d0a9",
-      "serie": "motogp",
-      "titolo": "MotoGP, Acosta alleato di Marquez nella lotta al titolo? Pedro ha le idee chiare",
-      "link": "https://www.motosprint.it/news/eventi/gp-australia/2026/10/22-9218678/motogp_acosta_alleato_di_marquez_nella_lotta_al_titolo_pedro_ha_le_idee_chiare",
-      "fonte": "Motosprint",
-      "data": "2026-10-22T10:00:00Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/22/072554558-1570f66b-90bc-4870-87cc-98053e2a2b0d.jpg",
-      "sommario": ""
-    },
-    {
-      "id": "801f5dfd9b12",
-      "serie": "motogp",
-      "titolo": "MotoGP, Marquez: “Ordini di scuderia? Se hai la velocità non ti servono”",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/22-9218677/motogp_marquez_ordini_di_scuderia_se_hai_la_velocit_non_ti_servono",
-      "fonte": "Motosprint",
-      "data": "2026-10-22T10:00:00Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/22/072609247-50e75933-b037-46de-a25c-4ece0b1edc03.jpg",
-      "sommario": ""
-    },
-    {
-      "id": "8014e9f2d893",
-      "serie": "motogp",
-      "titolo": "Bezzecchi: “Ho dimostrato che posso vincere ancora. Phillip Island speciale, fortunato ad averci corso”",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/22-9218367/bezzecchi_ho_dimostrato_che_posso_vincere_ancora_phillip_island_speciale_fortunato_ad_averci_corso",
-      "fonte": "Motosprint",
-      "data": "2026-10-22T10:00:00Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/22/062044630-273b0c70-701e-4b0d-8ea0-de711ded1ede.jpeg",
       "sommario": ""
     }
   ]

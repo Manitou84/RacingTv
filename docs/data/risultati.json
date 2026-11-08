@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-08T18:31:13.426Z",
+  "aggiornato": "2026-11-08T19:31:23.426Z",
   "motogp": {
     "fonte": "Motosprint",
     "gare": [
@@ -391,6 +391,17 @@
           "max-verstappen",
           "lewis-hamilton",
           "kimi-antonelli"
+        ]
+      },
+      {
+        "url": "https://www.autosprint.it/live/formula-1/gran-premio-del-brasile-900068",
+        "gp": "Gran Premio del Brasile",
+        "circuito": "Interlagos",
+        "data": "2026-11-08",
+        "podio": [
+          "lando-norris",
+          "max-verstappen",
+          "isac-hadjar"
         ]
       }
     ]
