@@ -1,19 +1,6 @@
 {
-  "aggiornato": "2026-11-08T14:10:13.628Z",
+  "aggiornato": "2026-11-08T15:03:34.710Z",
   "articoli": [
-    {
-      "fonte": "Sky Sport",
-      "titolo": "Orari MotoGp: Gp Qatar Losail 2026 in tv e streaming su Sky e Now | Sky Sport",
-      "url": "https://sport.sky.it/motogp/2026/11/06/orari-motogp-gp-qatar-lusail-sky-now",
-      "gp": "GP Qatar",
-      "serie": "motogp",
-      "sessioni": [
-        "MotoGP Warm up 2026-11-08T11:35:00.000Z",
-        "Moto3 Gara 2026-11-08T13:00:00.000Z",
-        "Moto2 Gara 2026-11-08T14:15:00.000Z",
-        "MotoGP Gara 2026-11-08T16:00:00.000Z"
-      ]
-    },
     {
       "fonte": "OA Sport",
       "titolo": "Quando la MotoGP su TV8 oggi, GP Qatar 2026: orario gara in chiaro",
@@ -124,32 +111,6 @@
       ]
     },
     {
-      "fonte": "OA Sport",
-      "titolo": "MotoGP, GP Qatar 2026: programma, orari, tv, streaming, guida SKY e TV8",
-      "url": "https://www.oasport.it/2026/11/motogp-gp-qatar-2026-programma-orari-tv-streaming-guida-sky-e-tv8/",
-      "gp": "GP Qatar",
-      "serie": "motogp",
-      "sessioni": [
-        "Moto3 Prove libere 1 2026-11-06T10:00:00.000Z",
-        "Moto2 Prove libere 1 2026-11-06T10:50:00.000Z",
-        "MotoGP Prove libere 1 2026-11-06T11:45:00.000Z",
-        "Moto3 Pre-qualifiche 2026-11-06T14:15:00.000Z",
-        "Moto2 Pre-qualifiche 2026-11-06T15:05:00.000Z",
-        "MotoGP Pre-qualifiche 2026-11-06T16:00:00.000Z",
-        "Moto3 Prove libere 2 2026-11-07T09:30:00.000Z",
-        "Moto2 Prove libere 2 2026-11-07T10:15:00.000Z",
-        "MotoGP Prove libere 2 2026-11-07T11:00:00.000Z",
-        "MotoGP Qualifiche Q1 2026-11-07T11:40:00.000Z",
-        "MotoGP Qualifiche Q2 2026-11-07T12:05:00.000Z",
-        "Moto2 Qualifiche Q1 2026-11-07T14:45:00.000Z",
-        "Moto2 Qualifiche Q2 2026-11-07T15:10:00.000Z",
-        "MotoGP Sprint 2026-11-07T16:00:00.000Z",
-        "Moto3 Gara 2026-11-08T13:00:00.000Z",
-        "Moto2 Gara 2026-11-08T14:15:00.000Z",
-        "MotoGP Gara 2026-11-08T16:00:00.000Z"
-      ]
-    },
-    {
       "fonte": "Sky Sport",
       "titolo": "F1, orari GP Brasile: dove vederlo su Sky e Now in tv, streaming e repliche | Sky Sport",
       "url": "https://sport.sky.it/formula-1/2026/11/06/formula-1-orari-gp-brasile-2026",
@@ -170,6 +131,16 @@
         "F1 Prove libere 2 2026-11-06T19:00:00.000Z",
         "F1 Prove libere 3 2026-11-07T14:30:00.000Z",
         "F1 Qualifiche 2026-11-07T18:00:00.000Z",
+        "F1 Gara 2026-11-08T17:00:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
+      "titolo": "F1 su TV8 in diretta o differita oggi? Orario esatto GP Brasile 2026, programma gara e streaming",
+      "url": "https://www.oasport.it/2026/11/f1-su-tv8-in-diretta-o-differita-oggi-orario-esatto-gp-brasile-2026-programma-gara-e-streaming/",
+      "gp": "GP Brasile",
+      "serie": "f1",
+      "sessioni": [
         "F1 Gara 2026-11-08T17:00:00.000Z"
       ]
     },

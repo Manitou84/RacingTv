@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-08T14:10:13.628Z",
+  "aggiornato": "2026-11-08T15:03:34.710Z",
   "articoli": [
+    {
+      "id": "62ac6396bd15",
+      "serie": "motogp",
+      "titolo": "Marini affaticato: Honda lo ritira dal Gran Premio del Qatar",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/08-9277028/marini_affaticato_honda_lo_ritira_dal_gran_premio_del_qatar",
+      "fonte": "Motosprint",
+      "data": "2026-11-08T15:03:34.710Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/08/140531002-eec82b59-fd97-42cc-af5e-892901669882.jpg",
+      "sommario": "Il team Castrol e Luca hanno deciso: riposo a Lusail. Ritorno in gara a Portimao e Valencia"
+    },
     {
       "id": "9c64a714ad41",
       "serie": "motogp",
@@ -3989,16 +3999,6 @@
       "fonte": "Autosprint",
       "data": "2026-10-22T10:00:00Z",
       "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/22/110848037-adb50d63-5d11-4105-98dd-026235362d46.jpg",
-      "sommario": ""
-    },
-    {
-      "id": "9209206c65d3",
-      "serie": "f1",
-      "titolo": "Alla fine qualcuno in Red Bull ha ringraziato Horner",
-      "link": "https://www.autosprint.it/news/formula1/2026/10/22-9220246/alla_fine_qualcuno_in_red_bull_ha_ringraziato_horner",
-      "fonte": "Autosprint",
-      "data": "2026-10-22T10:00:00Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/22/172312838-008ba44b-e09d-47c4-a304-9187353cc24f.jpg",
       "sommario": ""
     }
   ]
