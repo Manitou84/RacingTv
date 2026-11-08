@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-08T13:22:17.578Z",
+  "aggiornato": "2026-11-08T14:10:13.628Z",
   "articoli": [
+    {
+      "id": "9c64a714ad41",
+      "serie": "motogp",
+      "titolo": "Qatar, Luca Marini si ritira dal Gran Premio: la Honda HRC resta con il solo Dixon",
+      "link": "https://www.gpone.com/it/2026/11/08/motogp/qatar-luca-marini-si-ritira-dal-gran-premio-la-honda-resta-con-il-solo-dixon.html",
+      "fonte": "GPOne",
+      "data": "2026-11-08T13:36:42.000Z",
+      "immagine": "",
+      "sommario": "Il pilota italiano non prenderà parte alla gara di Lusail a causa delle persistenti condizioni di affaticamento. La decisione è stata presa insieme alla Honda HRC per recuperare in vista degli ultimi due appuntamenti del"
+    },
     {
       "id": "f8b9f204bb45",
       "serie": "motogp",
@@ -3989,16 +3999,6 @@
       "fonte": "Autosprint",
       "data": "2026-10-22T10:00:00Z",
       "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/22/172312838-008ba44b-e09d-47c4-a304-9187353cc24f.jpg",
-      "sommario": ""
-    },
-    {
-      "id": "6258c5a13021",
-      "serie": "f1",
-      "titolo": "Bottas in dubbio e Perez pronto all'addio, così Cadillac dovrà trovarsi due nuovi piloti",
-      "link": "https://www.autosprint.it/news/formula1/2026/10/22-9220416/bottas_in_dubbio_e_perez_pronto_all_addio_cos_cadillac_dovr_trovarsi_due_nuovi_piloti",
-      "fonte": "Autosprint",
-      "data": "2026-10-22T10:00:00Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/22/171712812-1714b70b-5be9-4944-8b9a-df954da7f910.jpg",
       "sommario": ""
     }
   ]
