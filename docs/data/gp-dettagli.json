@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-08T12:04:09.384Z",
+  "aggiornato": "2026-11-08T13:22:17.578Z",
   "_fonte": "Wikipedia (inglese), pagine dei singoli GP",
   "motogp": {
     "2025": {
@@ -921,7 +921,7 @@
           "Marco Bezzecchi"
         ],
         "futuro": false,
-        "letto": "2026-11-08T12:04:09.384Z"
+        "letto": "2026-11-08T13:22:17.578Z"
       },
       "2026_Qatar_motorcycle_Grand_Prix": {
         "data": "2026-11-08",
@@ -935,7 +935,7 @@
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-11-08T11:26:10.900Z"
+        "letto": "2026-11-08T13:22:17.578Z"
       },
       "2026_Thailand_motorcycle_Grand_Prix": {
         "data": "2026-03-01",
@@ -1595,7 +1595,7 @@
         ],
         "sprint": [],
         "futuro": false,
-        "letto": "2026-11-08T12:04:09.384Z"
+        "letto": "2026-11-08T13:22:17.578Z"
       },
       "2026_Saudi_Arabian_Grand_Prix": {
         "data": "2026-04-19",
@@ -1653,6 +1653,20 @@
         ],
         "futuro": false,
         "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2026_Sao_Paulo_Grand_Prix": {
+        "data": "2026-11-08",
+        "circuito": "monaco",
+        "luogo": "Autódromo José Carlos Pace São Paulo, Brazil",
+        "pole": {
+          "chi": "Lando Norris",
+          "tempo": "1:27.470"
+        },
+        "giroVeloce": null,
+        "podio": [],
+        "sprint": [],
+        "futuro": true,
+        "letto": "2026-11-08T13:22:17.578Z"
       },
       "2026_Dutch_Grand_Prix": {
         "data": "2026-08-23",
@@ -1721,20 +1735,6 @@
         "futuro": false,
         "letto": "2026-10-31T06:49:31.286Z"
       },
-      "2026_São_Paulo_Grand_Prix": {
-        "data": "2026-11-08",
-        "circuito": "monaco",
-        "luogo": "Autódromo José Carlos Pace São Paulo, Brazil",
-        "pole": {
-          "chi": "Lando Norris",
-          "tempo": "1:27.470"
-        },
-        "giroVeloce": null,
-        "podio": [],
-        "sprint": [],
-        "futuro": true,
-        "letto": "2026-11-08T11:26:10.900Z"
-      },
       "2026_Azerbaijan_Grand_Prix": {
         "data": "2026-09-26",
         "circuito": "baku",
@@ -1755,6 +1755,20 @@
         "sprint": [],
         "futuro": false,
         "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2026_São_Paulo_Grand_Prix": {
+        "data": "2026-11-08",
+        "circuito": "monaco",
+        "luogo": "Autódromo José Carlos Pace São Paulo, Brazil",
+        "pole": {
+          "chi": "Lando Norris",
+          "tempo": "1:27.470"
+        },
+        "giroVeloce": null,
+        "podio": [],
+        "sprint": [],
+        "futuro": true,
+        "letto": "2026-11-08T13:22:17.578Z"
       },
       "2026_Bahrain_Grand_Prix": {
         "data": "2026-10-04",

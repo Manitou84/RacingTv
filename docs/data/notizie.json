@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-08T12:04:09.384Z",
+  "aggiornato": "2026-11-08T13:22:17.578Z",
   "articoli": [
+    {
+      "id": "f8b9f204bb45",
+      "serie": "motogp",
+      "titolo": "Di Giannatonio rimprovera Marquez dopo il contatto con Bezzecchi",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/08-9276930/di_giannatonio_rimprovera_marquez_dopo_il_contatto_con_bezzecchi",
+      "fonte": "Motosprint",
+      "data": "2026-11-08T13:22:17.578Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/08/114739155-80e4433a-c373-4023-9516-a3b772371351.jpg",
+      "sommario": "Il pilota romano dopo la Sprint nel tragitto verso il paddock ha detto la sua sulla manovra dello spagnolo costata la caduta al pilota Aprilia"
+    },
+    {
+      "id": "bbdea6b58281",
+      "serie": "f1",
+      "titolo": "Herta ottiene la superlicenza. Ma per Schumacher \"Sta solo bruciando benzina\"",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/08-9276939/herta_ottiene_la_superlicenza_ma_per_schumacher_sta_solo_bruciando_benzina",
+      "fonte": "Autosprint",
+      "data": "2026-11-08T13:22:17.578Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/09/04/114748426-02fb78f0-d451-4012-bfd9-ae711ca9fba7.jpg",
+      "sommario": "Il pilota americano arrivato dall'IndyCar potrebbe debuttare in F1 l'anno prossimo, ma da Ralf Schumacher arriva una fortissima critica"
+    },
     {
       "id": "098ff7214548",
       "serie": "motogp",
@@ -3979,26 +3999,6 @@
       "fonte": "Autosprint",
       "data": "2026-10-22T10:00:00Z",
       "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/22/171712812-1714b70b-5be9-4944-8b9a-df954da7f910.jpg",
-      "sommario": ""
-    },
-    {
-      "id": "f8db0ac6614c",
-      "serie": "f1",
-      "titolo": "GP Brasile 2006: Schumi e Ferrari, l'ultima poesia e l'abbraccio di Pelè",
-      "link": "https://www.autosprint.it/news/formula1/2026/10/22-9211568/gp_brasile_2006_schumi_e_ferrari_l_ultima_poesia_e_l_abbraccio_di_pel",
-      "fonte": "Autosprint",
-      "data": "2026-10-22T10:00:00Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/21/151537021-4a43a195-2205-4b6b-bd29-5bf7e81a0507.jpg",
-      "sommario": ""
-    },
-    {
-      "id": "471e9185f307",
-      "serie": "f1",
-      "titolo": "Approvata l'ennesima regola per il 2027, per i team di F1 si prospettano nuove spese",
-      "link": "https://www.autosprint.it/news/formula1/2026/10/22-9217857/approvata_l_ennesima_regola_per_il_2027_per_i_team_di_f1_si_prospettano_nuove_spese",
-      "fonte": "Autosprint",
-      "data": "2026-10-22T10:00:00Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/22/044737941-3da1d4f9-2456-4c20-a6a9-fdd9ace8ee10.jpg",
       "sommario": ""
     }
   ]
