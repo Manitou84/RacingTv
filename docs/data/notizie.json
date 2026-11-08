@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-08T19:31:23.426Z",
+  "aggiornato": "2026-11-08T20:25:05.190Z",
   "articoli": [
+    {
+      "id": "17ac925487f3",
+      "serie": "motogp",
+      "titolo": "Acosta: “Problemi di pressione? Sono stati una conseguenza della gomma fredda”",
+      "link": "https://www.gpone.com/it/2026/11/08/motogp/acosta-problemi-di-pressione-sono-stati-una-conseguenza-della-gomma-fredda.html",
+      "fonte": "GPOne",
+      "data": "2026-11-08T19:53:49.000Z",
+      "immagine": "",
+      "sommario": "“Sono rientrato nei limiti per un pelo. Non so come sia possibile girare con l’anteriore così fredda: non abbiamo sbagliato la strategia. Non sarei riuscito a seguire Marquez, ma avrei potuto chiudere 4°”"
+    },
     {
       "id": "5684c71963d4",
       "serie": "motogp",
@@ -10,6 +20,26 @@
       "data": "2026-11-08T19:31:23.426Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/08/182625094-d2d3c85a-5f2c-4a14-88ca-09462a8910a4.jpg",
       "sommario": "Il madrileno di Aprilia soddisfatto: \"Oggi ho fatto il massimo, ma in curva 12 pensavo sempre a cosa è successo l'anno scorso. Ora per il titolo è più difficile, ma non ho nulla da recriminare\""
+    },
+    {
+      "id": "273ca213f23c",
+      "serie": "motogp",
+      "titolo": "Martin: \"Negli ultimi giri non ce la facevo più, ma lotterò fino alla fine\"",
+      "link": "https://www.gpone.com/it/2026/11/08/motogp/martin-negli-ultimi-giri-non-ce-la-facevo-piu-ma-lottero-fino-alla-fine.html",
+      "fonte": "GPOne",
+      "data": "2026-11-08T19:13:22.000Z",
+      "immagine": "",
+      "sommario": "\"Non sono riuscito a tirare fuori tutto il potenziale della moto, perché fisicamente ho ancora limiti. Non sapevo nemmeno se avrei corso qui. A Portimao sarò al 100%, o quasi\""
+    },
+    {
+      "id": "5c2d6cf18107",
+      "serie": "motogp",
+      "titolo": "Bastianini: “Volevo il podio, ma la mia KTM aveva continue vibrazioni”",
+      "link": "https://www.gpone.com/it/2026/11/08/motogp/bastianini-volevo-il-podio-ma-la-mia-ktm-aveva-continue-vibrazioni.html",
+      "fonte": "GPOne",
+      "data": "2026-11-08T18:55:17.000Z",
+      "immagine": "",
+      "sommario": "“Inoltre Ogura mi ha messo pressione. Speravo di arrivare a Marquez, ma nel momento in cui ha cambiato passo, non c’è stato nulla da fare”"
     },
     {
       "id": "04d48d6a5e94",
@@ -3970,36 +4000,6 @@
       "data": "2026-10-22T17:50:00.000Z",
       "immagine": "",
       "sommario": "Marc parla dell'arrivo di Pedro Acosta, della possibilità di lasciare la MotoGP e della serenità ritrovata dopo l'ultimo titolo. Poi torna sul 2015 e su Valentino Rossi: “Non userei mai la mia influenza mediatica contro "
-    },
-    {
-      "id": "07359446ea1f",
-      "serie": "motogp",
-      "titolo": "Altro allarme in Honda, Marini non è a posto: \"Non capisco cosa mi succede\"",
-      "link": "https://www.gpone.com/it/2026/10/22/motogp/altro-allarme-in-honda-marini-non-e-a-posto-non-capisco-cosa-mi-succede.html",
-      "fonte": "GPOne",
-      "data": "2026-10-22T17:17:00.000Z",
-      "immagine": "",
-      "sommario": "Dopo i forfait di Mir ed Espargarò, anche Luca accusa problemi fisici: \"Ho avuto la febbre e ora sento dolori muscolari mai provati prima. Andrò al centro medico\""
-    },
-    {
-      "id": "c1d3fb4e91bc",
-      "serie": "motogp",
-      "titolo": "Gabarrini: \"Stoner non ha mai fatto un giro al limite a Phillip Island\"",
-      "link": "https://www.gpone.com/it/2026/10/22/motogp/gabarrini-stoner-non-ha-mai-fatto-un-giro-al-limite-a-phillip-island.html",
-      "fonte": "GPOne",
-      "data": "2026-10-22T15:00:00.000Z",
-      "immagine": "",
-      "sommario": "VIDEO - L'ex capotecnico di Casey racconta il talento, le paure e il carattere dell'australiano: \"Quando si arrabbiava andava ancora più forte\"."
-    },
-    {
-      "id": "22bdbcd822cc",
-      "serie": "motogp",
-      "titolo": "Di Giannantonio chiede più test per chi cambierà moto nel 2027: “Saremo come dei rookie”",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/22-9219826/di_giannantonio_chiede_pi_test_per_chi_cambier_moto_nel_2027_saremo_come_dei_rookie",
-      "fonte": "Motosprint",
-      "data": "2026-10-22T10:00:00Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/22/095349828-8b90430b-585c-4df1-bab2-55f650fc134e.jpg",
-      "sommario": ""
     }
   ]
 }

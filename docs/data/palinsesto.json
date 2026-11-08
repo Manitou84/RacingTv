@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-08T19:31:23.426Z",
+  "aggiornato": "2026-11-08T20:25:05.190Z",
   "weekend": [
     {
       "id": "f1-gp-messico-2026",
@@ -231,20 +231,6 @@
       "serie": "f1",
       "gp": "GP Brasile",
       "sessioni": [
-        {
-          "classe": "F1",
-          "sessione": "Prove libere 1",
-          "inizio": "2026-11-06T15:30:00.000Z",
-          "tv8": null,
-          "fonte": "Sky Sport"
-        },
-        {
-          "classe": "F1",
-          "sessione": "Prove libere 2",
-          "inizio": "2026-11-06T19:00:00.000Z",
-          "tv8": null,
-          "fonte": "Sky Sport"
-        },
         {
           "classe": "F1",
           "sessione": "Prove libere 3",
