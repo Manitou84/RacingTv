@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-08T08:39:56.370Z",
+  "aggiornato": "2026-11-08T09:36:23.708Z",
   "articoli": [
+    {
+      "id": "c7af41625bd4",
+      "serie": "f1",
+      "titolo": "Qatar e Abu Dhabi fanno discutere, ma i team principal si schierano con Liberty Media",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/08-9275805/qatar_e_abu_dhabi_fanno_discutere_ma_i_team_principal_si_schierano_con_liberty_media",
+      "fonte": "Autosprint",
+      "data": "2026-11-08T09:36:23.708Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/08/092710297-1a89839a-f185-47cd-8a5d-5993f51bf477.jpg",
+      "sommario": "F1 e MotoGP sono le uniche categorie iridate ad aver confermato le trasferte in Medio Oriente a dispetto dei diffusi malumori e perfino di una raccolta firme"
+    },
     {
       "id": "0ea956e84b02",
       "serie": "motogp",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-22T06:19:14.000Z",
       "immagine": "",
       "sommario": "\"La mia è stata una lunga lista di cose da non fare! E' stata una cavalcata incredibile di 12 anni, sono fortunato. Phillip Island? ci darà un saluto come si deve, ci affideremo a madre natura!\""
-    },
-    {
-      "id": "b4b23e3edd0d",
-      "serie": "motogp",
-      "titolo": "MotoGP, Valentino Rossi incorona Antonelli e su Bezzecchi: \"Titolo? È difficile, però...\"",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/21-9216005/motogp_valentino_rossi_incorona_antonelli_e_su_bezzecchi_titolo_difficile_per_",
-      "fonte": "Motosprint",
-      "data": "2026-10-21T10:00:00Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/21/143054661-d115ff61-5258-4ec4-bbab-fac5b8f20f83.jpg",
-      "sommario": ""
     }
   ]
 }
