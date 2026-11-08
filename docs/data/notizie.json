@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-11-08T07:50:06.289Z",
+  "aggiornato": "2026-11-08T08:39:56.370Z",
   "articoli": [
+    {
+      "id": "0ea956e84b02",
+      "serie": "motogp",
+      "titolo": "LIVE - La diretta del Gran Premio del Qatar a Lusail",
+      "link": "https://www.gpone.com/it/2026/11/08/motogp/live-la-diretta-del-gran-premio-del-qatar-a-lusail.html",
+      "fonte": "GPOne",
+      "data": "2026-11-08T08:28:08.000Z",
+      "immagine": "",
+      "sommario": "Alle 17:00 italiane scatta il GP di Lusail. Márquez può conquistare il decimo titolo mondiale dopo una Sprint segnata dal controverso contatto con Bezzecchi. Martín proverà a impedirgli di festeggiare, mentre Bagnaia sar"
+    },
+    {
+      "id": "ae54386e57db",
+      "serie": "motogp",
+      "titolo": "Di Giannantonio a Marquez: “Fra, devi guardare quando rientri, cazzo”",
+      "link": "https://www.gpone.com/it/2026/11/08/motogp/di-giannantonio-a-marquez-fra-devi-guardare-quando-rientri-cazzo.html",
+      "fonte": "GPOne",
+      "data": "2026-11-08T08:21:22.000Z",
+      "immagine": "",
+      "sommario": "VIDEO - Fabio spiega a Marc cosa avrebbe dovuto fare per evitare il contatto con Bezzecchi: “Lui era dentro dentro, ha dato una botta”"
+    },
+    {
+      "id": "378861a8e67b",
+      "serie": "motogp",
+      "titolo": "Bagnaia: \"Voglio prendere il positivo, ho passato troppo tempo a sentirmi frustrato\"",
+      "link": "https://www.gpone.com/it/2026/11/08/motogp/bagnaia-voglio-prendere-il-positivo-ho-passato-troppo-tempo-a-sentirmi-frustrato.html",
+      "fonte": "GPOne",
+      "data": "2026-11-08T08:01:33.000Z",
+      "immagine": "",
+      "sommario": "Pecco è già tornato in Italia e verrà operato al piede fratturato nella Sprint. \"A volte, per quando ti sforzi, le cose semplicemente non vanno come vorresti\""
+    },
     {
       "id": "390ae5c5e15e",
       "serie": "motogp",
@@ -3970,26 +4000,6 @@
       "data": "2026-10-21T10:00:00Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/21/143054661-d115ff61-5258-4ec4-bbab-fac5b8f20f83.jpg",
       "sommario": ""
-    },
-    {
-      "id": "abf67b9b0464",
-      "serie": "motogp",
-      "titolo": "Rossi o Márquez? Jorge \"Aspar\" Martínez non ha dubbi sull'eterno dibattito",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/21-9215724/rossi_o_mrquez_jorge_aspar_martnez_non_ha_dubbi_sull_eterno_dibattito",
-      "fonte": "Motosprint",
-      "data": "2026-10-21T10:00:00Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/21/125749572-ee40898e-7bbd-49fa-b737-8bc56f74ad8e.jpg",
-      "sommario": ""
-    },
-    {
-      "id": "dcb2f250f74b",
-      "serie": "sbk",
-      "titolo": "Delbianco resta in Yamaha: Go Eleven punta su Arenas",
-      "link": "https://www.motosprint.it/news/sbk/2026/10/18-9205756/delbianco_resta_in_yamaha_go_eleven_punta_su_arenas",
-      "fonte": "Motosprint",
-      "data": "2026-10-18T10:00:00Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/18/123719413-c9924da6-360f-4d66-a392-c03b40857437.jpg",
-      "sommario": "La seconda Ducati Panigale V4R sarà affidata ad Albert, che ha rifiutato una CFMoto destinata a un collaudatore: si parla di Bautista"
     }
   ]
 }
