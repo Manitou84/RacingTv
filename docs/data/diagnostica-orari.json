@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-08T03:41:05.860Z",
+  "aggiornato": "2026-11-08T04:41:51.856Z",
   "articoli": [
     {
       "fonte": "Sky Sport",
@@ -12,6 +12,19 @@
         "Moto3 Gara 2026-11-08T13:00:00.000Z",
         "Moto2 Gara 2026-11-08T14:15:00.000Z",
         "MotoGP Gara 2026-11-08T16:00:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
+      "titolo": "MotoGP oggi in tv, GP Qatar 2026: orari warm-up e gara, streaming, programma Sky e TV8",
+      "url": "https://www.oasport.it/2026/11/motogp-oggi-in-tv-gp-qatar-2026-orari-warm-up-e-gara-streaming-programma-sky-e-tv8/",
+      "gp": "GP Qatar",
+      "serie": "motogp",
+      "sessioni": [
+        "MotoGP Warm up 2026-11-08T11:40:00.000Z",
+        "Moto3 Gara 2026-11-08T13:00:00.000Z TV8 diretta 2026-11-08T13:00:00.000Z",
+        "Moto2 Gara 2026-11-08T14:15:00.000Z TV8 diretta 2026-11-08T14:15:00.000Z",
+        "MotoGP Gara 2026-11-08T16:00:00.000Z TV8 diretta 2026-11-08T16:00:00.000Z"
       ]
     },
     {
@@ -134,6 +147,16 @@
         "Moto3 Gara 2026-11-08T13:00:00.000Z",
         "Moto2 Gara 2026-11-08T14:15:00.000Z",
         "MotoGP Gara 2026-11-08T16:00:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
+      "titolo": "F1 oggi in tv, GP Brasile 2026: orario gara, streaming, programma Sky e TV8",
+      "url": "https://www.oasport.it/2026/11/f1-oggi-in-tv-gp-brasile-2026-orario-gara-streaming-programma-sky-e-tv8/",
+      "gp": "GP Brasile",
+      "serie": "f1",
+      "sessioni": [
+        "F1 Gara 2026-11-08T17:00:00.000Z TV8 differita 2026-11-08T20:25:00.000Z"
       ]
     },
     {
