@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-08T11:26:10.900Z",
+  "aggiornato": "2026-11-08T12:04:09.384Z",
   "articoli": [
+    {
+      "id": "098ff7214548",
+      "serie": "motogp",
+      "titolo": "Qatar, Warm Up: Di Giannantonio davanti a Bezzecchi, due Honda 'in fumo'",
+      "link": "https://www.gpone.com/it/2026/11/08/motogp/qatar-warm-up-di-giannantonio-davanti-a-bezzecchi-due-honda-in-fumo.html",
+      "fonte": "GPOne",
+      "data": "2026-11-08T11:59:42.000Z",
+      "immagine": "",
+      "sommario": "Fabio ha usato la gomma morbida al posteriore a differenza di Marco. Quinto Marquez e 10° Martin. Moreira e Dixon fermati da problemi al motore"
+    },
     {
       "id": "412aa8d60edb",
       "serie": "motogp",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-22T10:00:00Z",
       "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/22/044737941-3da1d4f9-2456-4c20-a6a9-fdd9ace8ee10.jpg",
       "sommario": ""
-    },
-    {
-      "id": "fb16afc93247",
-      "serie": "motogp",
-      "titolo": "Phillip Island, addio. Di Giannantonio: \"Era la nostra Monte Carlo\"",
-      "link": "https://www.gpone.com/it/2026/10/22/motogp/il-saluto-dei-piloti-a-phillip-island-di-giannantonio-averla-tolta-un-colpo-al-cuore.html",
-      "fonte": "GPOne",
-      "data": "2026-10-22T08:34:03.000Z",
-      "immagine": "",
-      "sommario": "\"Averla tolta è un colpo al cuore\". Marquez: \"qui puoi vedere tutte e quattro le stagioni in un fine settimana\". Acosta: \"Pista leggendaria, triste non venire il prossimo anno\""
     }
   ]
 }
