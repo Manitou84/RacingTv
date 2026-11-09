@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-09T00:37:57.051Z",
+  "aggiornato": "2026-11-09T01:57:47.141Z",
   "_fonte": "Wikipedia (inglese)",
   "stagioni": {
     "2021|MotoGP World Championship": {
@@ -10262,7 +10262,7 @@
           "punti": 49
         }
       ],
-      "letta": "2026-11-08T22:00:31.354Z",
+      "letta": "2026-11-09T01:57:47.141Z",
       "tentativi": 0
     },
     "2026|Moto2 World Championship": {
@@ -10495,7 +10495,7 @@
           "punti": 38
         }
       ],
-      "letta": "2026-11-08T22:00:31.354Z",
+      "letta": "2026-11-09T01:57:47.141Z",
       "tentativi": 0
     },
     "2026|Moto3 World Championship": {
@@ -10698,7 +10698,7 @@
           "punti": 68
         }
       ],
-      "letta": "2026-11-08T22:00:31.354Z",
+      "letta": "2026-11-09T01:57:47.141Z",
       "tentativi": 0
     },
     "2026|Superbike World Championship": {
@@ -10855,7 +10855,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-08T22:00:31.354Z",
+      "letta": "2026-11-09T01:57:47.141Z",
       "tentativi": 0
     },
     "2026|Formula One World Championship": {
@@ -10990,27 +10990,27 @@
         {
           "pos": 1,
           "nome": "Mercedes",
-          "punti": 630
+          "punti": 652
         },
         {
           "pos": 2,
           "nome": "Ferrari",
-          "punti": 504
+          "punti": 510
         },
         {
           "pos": 3,
           "nome": "Red Bull Racing",
-          "punti": 382
+          "punti": 415
         },
         {
           "pos": 4,
           "nome": "McLaren",
-          "punti": 365
+          "punti": 398
         },
         {
           "pos": 5,
           "nome": "Racing Bulls",
-          "punti": 108
+          "punti": 114
         },
         {
           "pos": 6,
@@ -11025,7 +11025,7 @@
         {
           "pos": 8,
           "nome": "Audi",
-          "punti": 27
+          "punti": 28
         },
         {
           "pos": 9,
@@ -11043,7 +11043,7 @@
           "punti": 0
         }
       ],
-      "letta": "2026-11-08T22:00:31.354Z",
+      "letta": "2026-11-09T01:57:47.141Z",
       "tentativi": 0
     },
     "2026|FIA Formula 2 Championship": {
@@ -11165,7 +11165,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-08T22:00:31.354Z",
+      "letta": "2026-11-09T01:57:47.141Z",
       "tentativi": 0
     },
     "2026|FIA Formula 3 Championship": {
@@ -11347,7 +11347,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-08T22:00:31.354Z",
+      "letta": "2026-11-09T01:57:47.141Z",
       "tentativi": 0
     },
     "2026|Super Formula Championship": {
@@ -11484,7 +11484,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-08T22:00:31.354Z",
+      "letta": "2026-11-09T01:57:47.141Z",
       "tentativi": 0
     },
     "2026|Supersport World Championship": {
@@ -11767,7 +11767,7 @@
           "punti": 5
         }
       ],
-      "letta": "2026-11-08T22:00:31.354Z",
+      "letta": "2026-11-09T01:57:47.141Z",
       "tentativi": 0
     },
     "2026|British Superbike Championship": {
@@ -11904,7 +11904,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-08T22:00:31.354Z",
+      "letta": "2026-11-09T01:57:47.141Z",
       "tentativi": 0
     }
   },
