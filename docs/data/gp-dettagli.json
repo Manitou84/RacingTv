@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-08T23:33:54.447Z",
+  "aggiornato": "2026-11-09T00:37:57.051Z",
   "_fonte": "Wikipedia (inglese), pagine dei singoli GP",
   "motogp": {
     "2025": {
@@ -921,7 +921,7 @@
           "Marco Bezzecchi"
         ],
         "futuro": false,
-        "letto": "2026-11-08T23:33:54.447Z"
+        "letto": "2026-11-09T00:37:57.051Z"
       },
       "2026_Qatar_motorcycle_Grand_Prix": {
         "data": "2026-11-08",
@@ -946,7 +946,7 @@
           "Jorge Martín"
         ],
         "futuro": false,
-        "letto": "2026-11-08T23:33:54.447Z"
+        "letto": "2026-11-09T00:37:57.051Z"
       },
       "2026_Thailand_motorcycle_Grand_Prix": {
         "data": "2026-03-01",
@@ -1606,7 +1606,28 @@
         ],
         "sprint": [],
         "futuro": false,
-        "letto": "2026-11-08T23:33:54.447Z"
+        "letto": "2026-11-09T00:37:57.051Z"
+      },
+      "2026_São_Paulo_Grand_Prix": {
+        "data": "2026-11-08",
+        "circuito": "monaco",
+        "luogo": "Autódromo José Carlos Pace São Paulo, Brazil",
+        "pole": {
+          "chi": "Lando Norris",
+          "tempo": "1:27.470"
+        },
+        "giroVeloce": {
+          "chi": "Kimi Antonelli",
+          "tempo": "1:12.689"
+        },
+        "podio": [
+          "Lando Norris",
+          "Max Verstappen",
+          "Isack Hadjar"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-11-09T00:37:57.051Z"
       },
       "2026_Saudi_Arabian_Grand_Prix": {
         "data": "2026-04-19",
@@ -1664,27 +1685,6 @@
         ],
         "futuro": false,
         "letto": "2026-10-31T06:49:31.286Z"
-      },
-      "2026_São_Paulo_Grand_Prix": {
-        "data": "2026-11-08",
-        "circuito": "monaco",
-        "luogo": "Autódromo José Carlos Pace São Paulo, Brazil",
-        "pole": {
-          "chi": "Lando Norris",
-          "tempo": "1:27.470"
-        },
-        "giroVeloce": {
-          "chi": "Kimi Antonelli",
-          "tempo": "1:12.689"
-        },
-        "podio": [
-          "Lando Norris",
-          "Max Verstappen",
-          "Isack Hadjar"
-        ],
-        "sprint": [],
-        "futuro": false,
-        "letto": "2026-11-08T23:33:54.447Z"
       },
       "2026_Dutch_Grand_Prix": {
         "data": "2026-08-23",
