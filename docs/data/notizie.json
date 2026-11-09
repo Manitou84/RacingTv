@@ -1,6 +1,56 @@
 {
-  "aggiornato": "2026-11-09T12:51:38.431Z",
+  "aggiornato": "2026-11-09T14:08:24.751Z",
   "articoli": [
+    {
+      "id": "b4ed83960583",
+      "serie": "motogp",
+      "titolo": "Max Biaggi commenta l’incidente tra Marquez e Bezzecchi: le sue parole dirette",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/09-9280625/max_biaggi_commenta_lincidente_tra_marquez_e_bezzecchi_le_sue_parole_dirette",
+      "fonte": "Motosprint",
+      "data": "2026-11-09T14:08:24.751Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/09/130800615-56bc3e39-66ad-4fb6-ae0a-2a6a8c94d735.jpg",
+      "sommario": "Il romano, brand ambassador Aprilia, ha parlato dell’episodio più chiacchierato del weekend fornendo il proprio punto di vista: ecco cosa ha detto a riguardo"
+    },
+    {
+      "id": "eb0f394a71df",
+      "serie": "f1",
+      "titolo": "Leclerc come Massa, dopo otto stagioni in Ferrari non ha ancora vinto un titolo",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/09-9278893/leclerc_come_massa_dopo_otto_stagioni_in_ferrari_non_ha_ancora_vinto_un_titolo",
+      "fonte": "Autosprint",
+      "data": "2026-11-09T14:08:24.751Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/09/132203050-b0b68cfe-05b1-42fe-8311-68f0bfacaf4d.jpg",
+      "sommario": "Nonostante acclamato come il \"Predestinato\", Charles rischia di diventare il pilota più longevo del Cavallino senza però aver ottenuto niente di importante"
+    },
+    {
+      "id": "09d699ba08cc",
+      "serie": "f1",
+      "titolo": "Piastri-Webber, è addio: un anno dietro le quinte e prestazioni deludenti",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/09-9280515/piastri-webber_addio_un_anno_dietro_le_quinte_e_prestazioni_deludenti",
+      "fonte": "Autosprint",
+      "data": "2026-11-09T14:08:24.751Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/09/115759894-44cb0ba1-c4ad-4e5f-a151-4e50601b04ee.jpg",
+      "sommario": ""
+    },
+    {
+      "id": "cf0ada803e1b",
+      "serie": "motogp",
+      "titolo": "Rivola: “Il titolo non l’ha perso Aprilia, ma vinto Marquez: ha fatto la differenza”",
+      "link": "https://www.gpone.com/it/2026/11/09/motogp/rivola-il-titolo-non-lha-perso-aprilia-lha-vinto-marquez-ha-fatto-la-differenza.html",
+      "fonte": "GPOne",
+      "data": "2026-11-09T13:43:45.000Z",
+      "immagine": "",
+      "sommario": "“Abbiamo lasciato tanti punti in giro, ma preferisco essere in questa condizione che avere una moto e piloti lenti. La caduta nella Sprint è diversa: Bezzecchi non ha alcuna colpa”"
+    },
+    {
+      "id": "8c216f4ee3cd",
+      "serie": "motogp",
+      "titolo": "Salvate il soldato Toprak: in 5 gare Lecuona ha fatto i suoi stessi punti!",
+      "link": "https://www.gpone.com/it/2026/11/09/motogp/salvate-il-soldato-toprak-in-5-gare-lecuona-ha-fatto-i-suoi-stessi-punti.html",
+      "fonte": "GPOne",
+      "data": "2026-11-09T13:42:51.000Z",
+      "immagine": "",
+      "sommario": "L’ANALISI - Un anno fa era il grande atteso per il salto in MotoGP, ora il piatto piange. Toprak non è mai riuscito a digerire le Michelin e con la M1 c’è stata un’involuzione. Il 2027 sarà cruciale per il turco e Yamaha"
+    },
     {
       "id": "cdc81d77655a",
       "serie": "motogp",
@@ -3950,56 +4000,6 @@
       "data": "2026-10-23T07:13:48.000Z",
       "immagine": "",
       "sommario": "“Quando agisci devi affidarti all’istinto, ma se hai la mente pronta è tutto più facile. Doppietta? Proverò ad andarci vicino, cercherò di attaccare su ogni pista. Le Aprilia saranno veloci anche con la pioggia”"
-    },
-    {
-      "id": "270f4f6a346c",
-      "serie": "motogp",
-      "titolo": "Raul Fernandez: “A Philllip Island sto frenando... con il dito dell'amore”",
-      "link": "https://www.gpone.com/it/2026/10/23/motogp/fernandez-marquez-il-talento-fa-ancora-la-differenza-a-phillip-island.html",
-      "fonte": "GPOne",
-      "data": "2026-10-23T07:07:41.000Z",
-      "immagine": "",
-      "sommario": "“Dopo l'incidente è più complicato del previsto Marquez? Il talento fa ancora la differenza. Essere gentili tra piloti Aprilia? Non voglio rovinare il lavoro di un’intera squadra, o compromettere quello di un pilota”"
-    },
-    {
-      "id": "a7278d01d6a2",
-      "serie": "motogp",
-      "titolo": "Rea porta al debutto la nuova Honda Fireblade 2027: aerodinamica MotoGP e freni Brembo",
-      "link": "https://www.gpone.com/it/2026/10/23/motogp/honda-porta-in-pista-la-nuova-fireblade-carenatura-camuffata-e-aerodinamica-rivoluzionata.html",
-      "fonte": "GPOne",
-      "data": "2026-10-23T07:04:24.000Z",
-      "immagine": "",
-      "sommario": "Jonathan Rea ha guidato la nuova Honda con una livrea mimetica per nascondere le novità tecniche. Spuntano condotti aerodinamici ispirati alla MotoGP e debuttano le Michelin e i freni carboceramici Brembo"
-    },
-    {
-      "id": "6e3d27f48d4e",
-      "serie": "motogp",
-      "titolo": "Bezzecchi: \"La riunione tra piloti? Almeno non ci siamo scannati!\"",
-      "link": "https://www.gpone.com/it/2026/10/23/motogp/bezzecchi-la-riunione-tra-piloti-almeno-non-ci-siamo-scannati.html",
-      "fonte": "GPOne",
-      "data": "2026-10-23T06:52:00.000Z",
-      "immagine": "",
-      "sommario": "\"Quello lo facciamo in pista! Secondo me siamo stati tutti molto maturi, ma non so a cosa porterà. Oggi giornata positiva, non so cosa sia successo con Alex, c'era vento e quando mi sono trovato lì non sono riuscito ad e"
-    },
-    {
-      "id": "7b879488e1b0",
-      "serie": "motogp",
-      "titolo": "Bastianini e la riunione piloti: \"Abbiamo troppo poco potere rispetto a MotoGP e team\"",
-      "link": "https://www.gpone.com/it/2026/10/23/motogp/bastianini-e-la-riunione-piloti-abbiamo-troppo-poco-potere-rispetto-a-motogp-e-team.html",
-      "fonte": "GPOne",
-      "data": "2026-10-23T06:42:30.000Z",
-      "immagine": "",
-      "sommario": "\"Noi non ci siamo senza loro, ma neanche loro ci sono senza noi. E' importante che i piloti siano uniti. La prequalifica? Inaspettata, con il vento che c'è era difficile guidare bene\""
-    },
-    {
-      "id": "c531a8c689f6",
-      "serie": "motogp",
-      "titolo": "Bezzecchi 1° nelle prequalifiche di Phillip Island: 2° Fernandez, 3° Marc Marquez",
-      "link": "https://www.gpone.com/it/2026/10/23/motogp/la-diretta-delle-prequalifiche-del-gran-premio-daustralia-a-phillip-island.html",
-      "fonte": "GPOne",
-      "data": "2026-10-23T05:05:00.000Z",
-      "immagine": "",
-      "sommario": "A Phillip Island la moto da battere è l'Aprilia RS-GP."
     }
   ]
 }
