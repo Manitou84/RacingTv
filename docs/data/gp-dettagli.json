@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-09T15:21:05.363Z",
+  "aggiornato": "2026-11-09T16:29:39.864Z",
   "_fonte": "Wikipedia (inglese), pagine dei singoli GP",
   "motogp": {
     "2025": {
@@ -921,7 +921,7 @@
           "Marco Bezzecchi"
         ],
         "futuro": false,
-        "letto": "2026-11-09T15:21:05.363Z"
+        "letto": "2026-11-09T16:29:39.864Z"
       },
       "2026_Qatar_motorcycle_Grand_Prix": {
         "data": "2026-11-08",
@@ -946,7 +946,7 @@
           "Jorge Martín"
         ],
         "futuro": false,
-        "letto": "2026-11-09T15:21:05.363Z"
+        "letto": "2026-11-09T16:29:39.864Z"
       },
       "2026_Thailand_motorcycle_Grand_Prix": {
         "data": "2026-03-01",
@@ -1606,7 +1606,7 @@
         ],
         "sprint": [],
         "futuro": false,
-        "letto": "2026-11-09T15:21:05.363Z"
+        "letto": "2026-11-09T16:29:39.864Z"
       },
       "2026_São_Paulo_Grand_Prix": {
         "data": "2026-11-08",
@@ -1627,7 +1627,7 @@
         ],
         "sprint": [],
         "futuro": false,
-        "letto": "2026-11-09T15:21:05.363Z"
+        "letto": "2026-11-09T16:29:39.864Z"
       },
       "2026_Saudi_Arabian_Grand_Prix": {
         "data": "2026-04-19",
@@ -1887,27 +1887,6 @@
         "futuro": false,
         "letto": "2026-10-31T06:49:31.286Z"
       },
-      "2026_Austrian_Grand_Prix": {
-        "data": "2026-06-28",
-        "circuito": "spielberg",
-        "luogo": "Red Bull Ring, Spielberg, Austria",
-        "pole": {
-          "chi": "George Russell",
-          "tempo": "1:06.113"
-        },
-        "giroVeloce": {
-          "chi": "Kimi Antonelli",
-          "tempo": "1:10.374"
-        },
-        "podio": [
-          "George Russell",
-          "Max Verstappen",
-          "Kimi Antonelli"
-        ],
-        "sprint": [],
-        "futuro": false,
-        "letto": "2026-10-31T06:49:31.286Z"
-      },
       "2026_British_Grand_Prix": {
         "data": "2026-07-05",
         "circuito": "silverstone",
@@ -1930,6 +1909,27 @@
           "Lewis Hamilton",
           "Lando Norris"
         ],
+        "futuro": false,
+        "letto": "2026-10-31T06:49:31.286Z"
+      },
+      "2026_Austrian_Grand_Prix": {
+        "data": "2026-06-28",
+        "circuito": "spielberg",
+        "luogo": "Red Bull Ring, Spielberg, Austria",
+        "pole": {
+          "chi": "George Russell",
+          "tempo": "1:06.113"
+        },
+        "giroVeloce": {
+          "chi": "Kimi Antonelli",
+          "tempo": "1:10.374"
+        },
+        "podio": [
+          "George Russell",
+          "Max Verstappen",
+          "Kimi Antonelli"
+        ],
+        "sprint": [],
         "futuro": false,
         "letto": "2026-10-31T06:49:31.286Z"
       },

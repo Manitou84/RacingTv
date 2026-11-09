@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-09T15:21:05.363Z",
+  "aggiornato": "2026-11-09T16:29:39.864Z",
   "articoli": [
+    {
+      "id": "077030be2cc4",
+      "serie": "sbk",
+      "titolo": "Nuova sfida iridata per Dettwiler: correrà nel Mondiale Sportbike con BrCorse",
+      "link": "https://www.gpone.com/it/2026/11/09/wsbk/nuova-sfida-iridata-per-dettwiler-correra-nel-mondiale-sportbike-con-brcorse.html",
+      "fonte": "GPOne",
+      "data": "2026-11-09T16:21:42.000Z",
+      "immagine": "",
+      "sommario": "Il pilota svizzero tornerà a gareggiare in un Campionato del Mondo per la prima volta dal grave incidente del 2025 a Sepang, affiancando Carter Thompson su una Yamaha R7"
+    },
+    {
+      "id": "c7894ad74d23",
+      "serie": "sbk",
+      "titolo": "Il MotoAmerica lo aspetta: Petrucci a un passo dalla firma con Yamaha",
+      "link": "https://www.gpone.com/it/2026/11/09/wsbk/il-motoamerica-lo-aspetta-petrucci-a-un-passo-dalla-firma-con-yamaha.html",
+      "fonte": "GPOne",
+      "data": "2026-11-09T16:08:58.000Z",
+      "immagine": "",
+      "sommario": "Secondo quanto appreso, nelle prossime ore Danilo definirà l’accordo con il team Attack Performance: per lui si tratta di un ritorno negli States dopo l’avventura del 2022 con Ducati"
+    },
     {
       "id": "b4ed83960583",
       "serie": "motogp",
@@ -3980,26 +4000,6 @@
       "data": "2026-10-23T07:54:28.000Z",
       "immagine": "",
       "sommario": "“Sto soffrendo, guidare in queste condizioni con la spalla è un disastro. A una persona normale servirebbero anni per recuperare da un problema come il mio”"
-    },
-    {
-      "id": "446c24403c3c",
-      "serie": "motogp",
-      "titolo": "Martin: \"Ho dovuto adattare il mio stile di guida all'Aprilia, qui ero abituato alla Ducati\"",
-      "link": "https://www.gpone.com/it/2026/10/23/motogp/martin-ho-dovuto-adattare-il-mio-stile-di-guida-allaprilia-qui-ero-abituato-alla-ducati.html",
-      "fonte": "GPOne",
-      "data": "2026-10-23T07:31:37.000Z",
-      "immagine": "",
-      "sommario": "\"Spingevo tantissimo in ingresso curva, ma mettevo in crisi la gomma anteriore e finivo per ritardare l'apertura del gas. La riunione piloti? Non mi sembra siano stati fatti passi avanti\""
-    },
-    {
-      "id": "134caba4097d",
-      "serie": "motogp",
-      "titolo": "Marquez: “Condizioni difficili? Prima dell’istinto ci sono il piano A, B e C”",
-      "link": "https://www.gpone.com/it/2026/10/23/motogp/marquez-condizioni-difficili-prima-dellistinto-ci-sono-il-piano-a-b-e-c.html",
-      "fonte": "GPOne",
-      "data": "2026-10-23T07:13:48.000Z",
-      "immagine": "",
-      "sommario": "“Quando agisci devi affidarti all’istinto, ma se hai la mente pronta è tutto più facile. Doppietta? Proverò ad andarci vicino, cercherò di attaccare su ogni pista. Le Aprilia saranno veloci anche con la pioggia”"
     }
   ]
 }
