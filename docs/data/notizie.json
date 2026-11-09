@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-09T10:45:53.749Z",
+  "aggiornato": "2026-11-09T11:45:34.108Z",
   "articoli": [
     {
       "id": "cdc81d77655a",
@@ -20,6 +20,16 @@
       "data": "2026-11-09T10:45:53.749Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/09/094532878-e7a8f70f-e982-49ac-922c-03f8d8690790.jpg",
       "sommario": "L'impresa di Lusail, dove è riuscito a segnare 16 punti, ha solamente rinviato i festeggiamenti di Márquez a Portimão tra due settimane, ma il pilota Aprilia non ha rimpianti"
+    },
+    {
+      "id": "527962e91efb",
+      "serie": "motogp",
+      "titolo": "Acosta e la \"mano aperta\" nel GP del Qatar: un trucco imparato da Lorenzo",
+      "link": "https://www.gpone.com/it/2026/11/09/motogp/acosta-e-la-mano-aperta-nel-gp-del-qatar-problema-al-braccio-o-cifra-stilistica.html",
+      "fonte": "GPOne",
+      "data": "2026-11-09T10:35:28.000Z",
+      "immagine": "",
+      "sommario": "Nelle curve a destra Pedro usa distendere le dita della mano sinistra fin dal suo anno di esordio in MotoGP. Jorge Lorenzo faceva lo stesso. Ma perchè? Serve a qualcosa?"
     },
     {
       "id": "05e3caa425bb",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-23T05:05:00.000Z",
       "immagine": "",
       "sommario": "A Phillip Island la moto da battere è l'Aprilia RS-GP."
-    },
-    {
-      "id": "6367a639992e",
-      "serie": "f1",
-      "titolo": "Colapinto sulla Yamaha MotoGP ad Austin: \"La amo, è più tosta della F1\"",
-      "link": "https://www.gpone.com/it/2026/10/23/formula-1/colapinto-sulla-yamaha-motogp-ad-austin-la-amo-e-piu-tosta-della-f1.html",
-      "fonte": "GPOne",
-      "data": "2026-10-23T04:41:28.000Z",
-      "immagine": "",
-      "sommario": "“Basta guardare cosa fa Valentino: riesce a competere ai massimi livelli con i migliori piloti GT del mondo. Se un pilota di F1 salisse oggi su una MotoGP, sono sicuro che girerebbe a un minuto di distacco\""
     }
   ]
 }
