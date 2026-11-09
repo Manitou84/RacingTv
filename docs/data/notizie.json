@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-11-09T08:42:57.583Z",
+  "aggiornato": "2026-11-09T09:49:08.294Z",
   "articoli": [
+    {
+      "id": "05e3caa425bb",
+      "serie": "sbk",
+      "titolo": "Go Eleven ha scelto: la seconda Ducati V4 ad Albert Arenas per il 2027!",
+      "link": "https://www.gpone.com/it/2026/11/09/wsbk/go-eleven-ha-scelto-la-seconda-ducati-v4-ad-albert-arenas-per-il-2027.html",
+      "fonte": "GPOne",
+      "data": "2026-11-09T08:58:53.000Z",
+      "immagine": "",
+      "sommario": "Il campione in carica della SuperSport sarà il compagno di squadra di Lorenzo Baldassarri nella squadra piemontese capitanata da Gianni Ramello"
+    },
+    {
+      "id": "5236af8c9716",
+      "serie": "motogp",
+      "titolo": "Aprilia e il paradosso di Rivola: la moto migliore con il budget più piccolo",
+      "link": "https://www.gpone.com/it/2026/11/09/motogp/aprilia-e-il-paradosso-di-rivola-la-moto-migliore-con-il-budget-piu-piccolo.html",
+      "fonte": "GPOne",
+      "data": "2026-11-09T08:51:00.000Z",
+      "immagine": "",
+      "sommario": "Marquez ha il titolo Piloti a un passo, ma Ducati deve ancora difendersi dall'assalto di Noale nel Mondiale Costruttori. Prima di criticare Rivola per i punti persi, bisognerebbe riconoscere il valore di un progetto capa"
+    },
+    {
+      "id": "8179f0a5b9eb",
+      "serie": "motogp",
+      "titolo": "Rossi: “Marquez? Il 2015 non mi passa, brucia ancora dopo 10 anni\"",
+      "link": "https://www.gpone.com/it/2026/11/09/motogp/rossi-marquez-il-2015-non-mi-passa-brucia-ancora-dopo-10-anni.html",
+      "fonte": "GPOne",
+      "data": "2026-11-09T08:38:08.000Z",
+      "immagine": "",
+      "sommario": "“Marc lottava solo per farmi perdere e alla fine ce l'ha fatta. Ad oggi, quando ci penso, il mio stato d'animo è esattamente lo stesso dell’ultima gara a Valencia”"
+    },
     {
       "id": "626eebddb98e",
       "serie": "motogp",
@@ -3970,36 +4000,6 @@
       "data": "2026-10-23T03:02:33.000Z",
       "immagine": "",
       "sommario": "I piloti si sono riuniti ieri sera e sembrano essere più aperti al dialogo, ma vogliono risposte chiare sulla sicurezza"
-    },
-    {
-      "id": "5d5536be9ef3",
-      "serie": "motogp",
-      "titolo": "Stoner, Doohan, Gardner e Schwantz in pista: a Phillip Island il giro delle leggende",
-      "link": "https://www.gpone.com/it/2026/10/23/motogp/a-phillip-island-il-giro-delle-leggende-con-stoner-doohan-e-gardner.html",
-      "fonte": "GPOne",
-      "data": "2026-10-23T00:59:05.000Z",
-      "immagine": "",
-      "sommario": "I tre campioni del mondo australiani saranno protagonisti di una parata insieme a Schwantz domenica prima della partenza della gara della MotoGP"
-    },
-    {
-      "id": "06570b0d6ff5",
-      "serie": "motogp",
-      "titolo": "Phillip Island, FP1: zampata di Marc Marquez, 2° Fernandez e 3° Miller",
-      "link": "https://www.gpone.com/it/2026/10/22/motogp/live-la-diretta-della-fp1-del-gran-premio-daustralia-a-phillip-island.html",
-      "fonte": "GPOne",
-      "data": "2026-10-23T00:35:00.000Z",
-      "immagine": "",
-      "sommario": "Il mondiale MotoGP 2026 arriva a Phillip Island per un Gran Premio d'Australia dal sapore speciale."
-    },
-    {
-      "id": "d2ed6e92997e",
-      "serie": "motogp",
-      "titolo": "Qatar si o no, a chi conviene? Ducati ha i numeri più di Marquez, Martín la velocità, ma brutti ricordi",
-      "link": "https://www.gpone.com/it/2026/10/22/motogp/qatar-a-chi-conviene-ducati-ha-i-numeri-piu-di-marquez-martin-la-velocita-ma-brutti-ricordi.html",
-      "fonte": "GPOne",
-      "data": "2026-10-22T18:00:00.000Z",
-      "immagine": "",
-      "sommario": "Losail sorride a Ducati, ma non è mai stato il circuito preferito di Márquez. Martín, invece, ci va forte ma porta con sé ricordi tutt’altro che felici. Aprilia mai a podio nella gara lunga"
     }
   ]
 }
