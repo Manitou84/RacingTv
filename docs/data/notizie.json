@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-09T16:29:39.864Z",
+  "aggiornato": "2026-11-09T17:30:15.789Z",
   "articoli": [
+    {
+      "id": "22328cf6e780",
+      "serie": "f1",
+      "titolo": "Jannik Sinner e Darren Cahill, l’ultimo consiglio tra Formula 1 e cinque P",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/09-9280623/jannik_sinner_e_darren_cahill_lultimo_consiglio_tra_formula_1_e_cinque_p",
+      "fonte": "Autosprint",
+      "data": "2026-11-09T17:30:15.789Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/09/133329059-68309ccc-fa00-45f6-a7f5-3407618aa890.jpg",
+      "sommario": "Nel video d’addio, Darren Cahill paragona Jannik Sinner a un pilota di F1 e gli ricorda la regola delle cinque P. Il legame del tennista con Ferrari e il paddock"
+    },
+    {
+      "id": "a3adbcd0a3dc",
+      "serie": "motogp",
+      "titolo": "Fast By Prosecco, Lusail - Pernat: “Aprilia, quanti rimpianti!\"",
+      "link": "https://www.gpone.com/it/2026/11/09/motogp/fast-by-prosecco-lusail-pernat-aprilia-quanti-rimpianti.html",
+      "fonte": "GPOne",
+      "data": "2026-11-09T16:49:00.000Z",
+      "immagine": "",
+      "sommario": "Carlo Pernat applaude Bezzecchi, critica la mancata penalità a Marquez nella Sprint e riflette sul ruolo di Dall'Igna: “Marc era istinto puro, oggi sa gestire una moto e un Gran Premio”. Ecco il suo commento al GP del Qa"
+    },
     {
       "id": "077030be2cc4",
       "serie": "sbk",
@@ -3980,26 +4000,6 @@
       "data": "2026-10-23T08:07:30.000Z",
       "immagine": "",
       "sommario": "\"Non ho fatto un vero time attack, per fortuna sono in Q2\". Sulla riunione dei piloti: \"ora siamo tutti coscienti di avere bisogno di un'associazione\""
-    },
-    {
-      "id": "58aa3cc6e57d",
-      "serie": "motogp",
-      "titolo": "Morbidelli: “E' brutto dirlo, ma la guerra ha reso noi piloti ancora più uniti”",
-      "link": "https://www.gpone.com/it/2026/10/23/motogp/morbidelli-la-guerra-ha-reso-noi-piloti-ancora-piu-uniti.html",
-      "fonte": "GPOne",
-      "data": "2026-10-23T07:55:28.000Z",
-      "immagine": "",
-      "sommario": "“Siamo avversari ma ci sono cose che devono accomunarci e unirci tutti, come la sicurezza. Oggi ero in difficoltà per via dei soliti problemi. Rendere la moto più gestibile non è bastato per entrare in Q2”"
-    },
-    {
-      "id": "1ff06815175c",
-      "serie": "motogp",
-      "titolo": "Vinales: “Io tester Ducati? Devo trovare un modo per rimanere legato alla MotoGP”",
-      "link": "https://www.gpone.com/it/2026/10/23/motogp/vinales-io-tester-ducati-devo-trovare-un-modo-per-rimanere-legato-alla-motogp.html",
-      "fonte": "GPOne",
-      "data": "2026-10-23T07:54:28.000Z",
-      "immagine": "",
-      "sommario": "“Sto soffrendo, guidare in queste condizioni con la spalla è un disastro. A una persona normale servirebbero anni per recuperare da un problema come il mio”"
     }
   ]
 }
