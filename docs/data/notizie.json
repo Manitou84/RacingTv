@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-09T07:04:11.251Z",
+  "aggiornato": "2026-11-09T08:42:57.583Z",
   "articoli": [
+    {
+      "id": "626eebddb98e",
+      "serie": "motogp",
+      "titolo": "Gran Premio del Qatar: il Bello, il Brutto e il Cattivo",
+      "link": "https://www.gpone.com/it/2026/11/09/motogp/gran-premio-del-qatar-il-bello-il-brutto-e-il-cattivo.html",
+      "fonte": "GPOne",
+      "data": "2026-11-09T08:20:55.000Z",
+      "immagine": "",
+      "sommario": "Al traguardo arrivano in 14, Bezzecchi firma una vittoria carica di rimpianti. Marquez si accontenta e gode. Martin non si arrende"
+    },
     {
       "id": "17ac925487f3",
       "serie": "motogp",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-22T18:00:00.000Z",
       "immagine": "",
       "sommario": "Losail sorride a Ducati, ma non è mai stato il circuito preferito di Márquez. Martín, invece, ci va forte ma porta con sé ricordi tutt’altro che felici. Aprilia mai a podio nella gara lunga"
-    },
-    {
-      "id": "93a6e7bbc89a",
-      "serie": "motogp",
-      "titolo": "Márquez: “Non sono il futuro della Ducati. Fra tre anni potrei essermi ritirato”",
-      "link": "https://www.gpone.com/it/2026/10/22/motogp/marquez-non-sono-il-futuro-della-ducati-fra-tre-anni-potrei-essermi-ritirato.html",
-      "fonte": "GPOne",
-      "data": "2026-10-22T17:50:00.000Z",
-      "immagine": "",
-      "sommario": "Marc parla dell'arrivo di Pedro Acosta, della possibilità di lasciare la MotoGP e della serenità ritrovata dopo l'ultimo titolo. Poi torna sul 2015 e su Valentino Rossi: “Non userei mai la mia influenza mediatica contro "
     }
   ]
 }
