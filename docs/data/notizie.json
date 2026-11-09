@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-09T09:49:08.294Z",
+  "aggiornato": "2026-11-09T10:45:53.749Z",
   "articoli": [
+    {
+      "id": "cdc81d77655a",
+      "serie": "motogp",
+      "titolo": "Le pagelle del Qatar: Bezzecchi e Marquez al top, Martin stringe i denti",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/09-9279804/le_pagelle_del_qatar_bezzecchi_e_marquez_al_top_martin_stringe_i_denti",
+      "fonte": "Motosprint",
+      "data": "2026-11-09T10:45:53.749Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/09/102724904-3da9d84d-c37e-4eb7-970f-28266dcf3c77.jpg",
+      "sommario": "Al di là del controverso contatto nella Sprint,Marco e Marc hanno ottenuto un successo a testa. Weekend eroico per Jorge che resta matematicamente in corsa"
+    },
+    {
+      "id": "05e6951896ea",
+      "serie": "motogp",
+      "titolo": "Jorge Martín eroico in Qatar, ma il suo sforzo potrebbe risultare vano",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/09-9279805/jorge_martn_eroico_in_qatar_ma_il_suo_sforzo_potrebbe_risultare_vano",
+      "fonte": "Motosprint",
+      "data": "2026-11-09T10:45:53.749Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/09/094532878-e7a8f70f-e982-49ac-922c-03f8d8690790.jpg",
+      "sommario": "L'impresa di Lusail, dove è riuscito a segnare 16 punti, ha solamente rinviato i festeggiamenti di Márquez a Portimão tra due settimane, ma il pilota Aprilia non ha rimpianti"
+    },
     {
       "id": "05e3caa425bb",
       "serie": "sbk",
@@ -3980,26 +4000,6 @@
       "data": "2026-10-23T04:41:28.000Z",
       "immagine": "",
       "sommario": "“Basta guardare cosa fa Valentino: riesce a competere ai massimi livelli con i migliori piloti GT del mondo. Se un pilota di F1 salisse oggi su una MotoGP, sono sicuro che girerebbe a un minuto di distacco\""
-    },
-    {
-      "id": "aed558cf423a",
-      "serie": "motogp",
-      "titolo": "Marini fermato da un virus: salta le prequalifiche a Phillip Island. Box Honda chiuso",
-      "link": "https://www.gpone.com/it/2026/10/23/motogp/ultimora-marini-non-scendera-in-pista-nelle-prequalifiche-a-phillip-island.html",
-      "fonte": "GPOne",
-      "data": "2026-10-23T03:46:35.000Z",
-      "immagine": "",
-      "sommario": "Luca è stato colpito da un virus e i medici valuteranno nuovamente le sue condizioni domani mattina. Il box del team ufficiale Honda rimarrà chiuso"
-    },
-    {
-      "id": "1803e25c2106",
-      "serie": "motogp",
-      "titolo": "Marc Márquez guida il fronte del no al GP del Qatar: i piloti chiedono garanzie",
-      "link": "https://www.gpone.com/it/2026/10/23/motogp/i-piloti-chiedono-garanzie-per-il-gp-del-qatar-marc-marquez-guida-il-fronte-del-no.html",
-      "fonte": "GPOne",
-      "data": "2026-10-23T03:02:33.000Z",
-      "immagine": "",
-      "sommario": "I piloti si sono riuniti ieri sera e sembrano essere più aperti al dialogo, ma vogliono risposte chiare sulla sicurezza"
     }
   ]
 }
