@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-10T18:35:48.061Z",
+  "aggiornato": "2026-11-10T19:41:20.977Z",
   "articoli": [
+    {
+      "id": "402b0752e957",
+      "serie": "motogp",
+      "titolo": "Intervento chirurgico riuscito: parte l'operazione recupero di Bagnaia",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/10-9284757/intervento_chirurgico_riuscito_parte_l_operazione_recupero_di_bagnaia",
+      "fonte": "Motosprint",
+      "data": "2026-11-10T19:41:20.977Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/10/175511673-ecd8b3b0-92ce-498e-b914-b011d76bba6a.jpg",
+      "sommario": "Pecco è stato operato con successo al piede destro rotto in Qatar. Riuscirà a finire la stagione con la Ducati e assaggiare l'Aprilia?"
+    },
+    {
+      "id": "c87c9e2c95df",
+      "serie": "motogp",
+      "titolo": "Tester che fa vincere non si tocca: Savadori in Aprilia per altri due anni",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/10-9283807/tester_che_fa_vincere_non_si_tocca_savadori_in_aprilia_per_altri_due_anni",
+      "fonte": "Motosprint",
+      "data": "2026-11-10T19:41:20.977Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/10/151643214-899609a7-a3af-47b8-a63a-b62611dfdb72.jpg",
+      "sommario": "I risultati ottenuti dalla RS-GP sono anche merito del lavoro di Lorenzo, confermato a Noale sino a tutto il 2028\n"
+    },
     {
       "id": "bf302563a2d0",
       "serie": "motogp",
@@ -3980,26 +4000,6 @@
       "data": "2026-10-24T06:57:54.000Z",
       "immagine": "",
       "sommario": "\"Oggi non c'era molto altro da fare. La moto si muoveva dappertutto e non girava neanche così bene. Sul bagnato? Andiamo bene solo con tanta acqua\""
-    },
-    {
-      "id": "d6faf9bb3903",
-      "serie": "motogp",
-      "titolo": "Alex Marquez: \"Potevo attaccare Marc, ma il rischio era troppo grande\"",
-      "link": "https://www.gpone.com/it/2026/10/24/motogp/alex-marquez-potevo-attaccare-marc-ma-il-rischio-era-troppo-grande.html",
-      "fonte": "GPOne",
-      "data": "2026-10-24T06:38:23.000Z",
-      "immagine": "",
-      "sommario": "\"Non è che Marc non sbagli mai: siamo tutti esseri umani e anche lui può commettere errori. Il fatto è che Marc trasforma la paura in motivazione\""
-    },
-    {
-      "id": "be363aa73021",
-      "serie": "motogp",
-      "titolo": "Le prime parole di Martin dopo la caduta: \"Sono vivo, è la cosa più importante\"",
-      "link": "https://www.gpone.com/it/2026/10/24/motogp/le-prime-parole-di-martin-dopo-la-caduta-sono-vivo-e-la-cosa-piu-importante.html",
-      "fonte": "GPOne",
-      "data": "2026-10-24T06:30:37.000Z",
-      "immagine": "",
-      "sommario": "\"È stato pericoloso, per fortuna sto bene, sembra si tratti solo di un piccolo osso. Ora andrò a Melbourne e capiremo cosa succederà\""
     }
   ]
 }
