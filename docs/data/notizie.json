@@ -1,6 +1,86 @@
 {
-  "aggiornato": "2026-11-10T13:33:29.679Z",
+  "aggiornato": "2026-11-10T14:42:40.009Z",
   "articoli": [
+    {
+      "id": "685bdff80822",
+      "serie": "motogp",
+      "titolo": "Anche in Qatar Lecuona batte Morbidelli “a domicilio”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/10-9283295/anche_in_qatar_lecuona_batte_morbidelli_a_domicilio",
+      "fonte": "Motosprint",
+      "data": "2026-11-10T14:42:40.009Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/10/132927901-aed4eaa9-90fc-43f5-bbd8-5e58cea0c33a.jpg",
+      "sommario": "Futuri compagni di squadra nel box Aruba in SBK, Iker ha corso 9 volte tra Sprint e GP con la Desmosedici e il bilancio lo vede in vantaggio 5 a 4 sul romano"
+    },
+    {
+      "id": "df4bab2f16ac",
+      "serie": "motogp",
+      "titolo": "Enea Bastianini è la miglior KTM a Lusail , ma ha fatto una promessa per la fine dell'anno",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/10-9282470/enea_bastianini_la_miglior_ktm_a_lusail_ma_ha_fatto_una_promessa_per_la_fine_dell_anno",
+      "fonte": "Motosprint",
+      "data": "2026-11-10T14:42:40.009Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/10/103849617-9d23de13-9dcd-4895-b266-9b58318cde52.jpeg",
+      "sommario": "Il romagnolo ha fatto meglio anche di Pedro Acosta, centrando la seconda top 5 consecutiva: \"Ma voglio lasciare KTM con un podio entro fine stagione, ho ancora due chance\""
+    },
+    {
+      "id": "1a7694842226",
+      "serie": "motogp",
+      "titolo": "MotoGP, la prima esperienza di Dixon in HRC: “E’ finito tutto troppo in fretta”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/10-9281558/motogp_la_prima_esperienza_di_dixon_in_hrc_e_finito_tutto_troppo_in_fretta",
+      "fonte": "Motosprint",
+      "data": "2026-11-10T14:42:40.009Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/10/080445529-7a060612-4f51-44b9-b5df-d28aed6580c2.jpg",
+      "sommario": "Jake è stato chiamato dal team ufficiale Honda per sostituire Mir in Qatar, debuttando in sella alla RC213V: “Ho percorso solo 74 giri, ma con tempi che mi avrebbero permesso di lottare”"
+    },
+    {
+      "id": "59fe058e8686",
+      "serie": "motogp",
+      "titolo": "Marquez per oltre metà gara in Zona 5: gli ultimi due giri a 190 battiti",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/10-9280803/marquez_per_oltre_met_gara_in_zona_5_gli_ultimi_due_giri_a_190_battiti",
+      "fonte": "Motosprint",
+      "data": "2026-11-10T14:42:40.009Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/09/140446417-e4615b25-1b11-4d08-aeb0-9ce2105a6949.jpg",
+      "sommario": "Arrivato estremamente provato al termine del GP Qatar, il ducatista ha pubblicato i dati del proprio cardiofrequenzimetro rilevati durante il GP"
+    },
+    {
+      "id": "df172f275c94",
+      "serie": "f1",
+      "titolo": "McDonald’s porta in F1 la Golden Zone, tra offerte live e coinvolgimento dei tifosi",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/10-9282474/mcdonalds_porta_in_f1_la_golden_zone_tra_offerte_live_e_coinvolgimento_dei_tifosi",
+      "fonte": "Autosprint",
+      "data": "2026-11-10T14:42:40.009Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/10/132347264-68398f8b-7cb5-4925-abc5-cf0cd6dce8be.jpeg",
+      "sommario": "La catena di Fast Food ha sviluppato una tattica di marketing geniale per il mercato dell'America Latina. Tutto nasce dalla Golden Zone, ecco di cosa si tratta"
+    },
+    {
+      "id": "de3dda32f40f",
+      "serie": "f1",
+      "titolo": "Leclerc papà, che gioia! Dal vecchio detto di Enzo Ferrari alla festa della F1 per Bianca",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/10-9282466/leclerc_pap_che_gioia_dal_vecchio_detto_di_enzo_ferrari_alla_festa_della_f1_per_bianca",
+      "fonte": "Autosprint",
+      "data": "2026-11-10T14:42:40.009Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/10/132110342-5c682b9d-bcab-4af0-ab51-905c7934a145.jpeg",
+      "sommario": "Charles Leclerc festeggia la nascita di Bianca. Dalla frase di Enzo Ferrari al sorpasso di Fernando Alonso a Suzuka: come la Formula racconta i suoi papà"
+    },
+    {
+      "id": "c3230c1ec78b",
+      "serie": "f1",
+      "titolo": "“Grande Kimi!”La torre di controllo di Bologna saluta Antonelli campione del mondo",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/10-9282464/grande_kimi_la_torre_di_controllo_di_bologna_saluta_antonelli_campione_del_mondo",
+      "fonte": "Autosprint",
+      "data": "2026-11-10T14:42:40.009Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/10/131801522-12187579-cf79-468f-b060-e2dbf6a9075f.jpg",
+      "sommario": "Dopo il Gran Premio del Brasile, Kimi Antonelli torna a Bologna da campione del mondo di Formula 1. Il saluto della torre di controllo e le tanto desiderate tagliatelle"
+    },
+    {
+      "id": "615cca7c42f2",
+      "serie": "f1",
+      "titolo": "Aduo 3, c'è chi si avvicina ma non cambiano le chance di sviluppo",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/10-9282661/aduo_3_c_chi_si_avvicina_ma_non_cambiano_le_chance_di_sviluppo",
+      "fonte": "Autosprint",
+      "data": "2026-11-10T14:42:40.009Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/10/131526191-91d54b67-556e-4360-898d-e5650a7ff7cb.jpg",
+      "sommario": "Concluso il terzo periodo di osservazione a Austin, le possibilità di omologazione aggiuntive nel 2027 restano quelle già note per Mercedes, Audi, Ferrari e Honda"
+    },
     {
       "id": "cb6cc778431c",
       "serie": "sbk",
@@ -3920,86 +4000,6 @@
       "data": "2026-10-24T05:29:08.000Z",
       "immagine": "",
       "sommario": "La caduta in curva 8 della Sprint di Phillip Island ha presentato un conto gravissimo, tempi di recupero non brevissimi, Jorge rischia di poter tornare in sella a Portimao o Valencia"
-    },
-    {
-      "id": "91e526664cc4",
-      "serie": "motogp",
-      "titolo": "Marc Marquez trionfa nella Sprint a Phillip Island, Alex 2° su Di Giannantonio. Martìn out",
-      "link": "https://www.gpone.com/it/2026/10/24/motogp/live-motogp-phillip-island-la-diretta-della-sprint-race-del-gran-premio-daustralia.html",
-      "fonte": "GPOne",
-      "data": "2026-10-24T04:24:20.000Z",
-      "immagine": "",
-      "sommario": "Marc e Jorge danno vita ad un duello magnifico, ma l'89 sbaglia e il 93 vola a +10 nel mondiale. Bezzecchi recupera fino al 4° posto"
-    },
-    {
-      "id": "ce2e41f138e7",
-      "serie": "motogp",
-      "titolo": "I medici fermano Luca Marini: Gran Premio di Phillip Island finito per lui",
-      "link": "https://www.gpone.com/it/2026/10/24/motogp/i-medici-fermano-luca-marini-gran-premio-di-phillip-island-finito-per-lui.html",
-      "fonte": "GPOne",
-      "data": "2026-10-23T23:06:48.000Z",
-      "immagine": "",
-      "sommario": "Il pilota Honda è affetto da un virus che provoca debolezza muscolare. L'obiettivo è tornare a Sepang, ma dovrà sottoporsi a un'altra visita"
-    },
-    {
-      "id": "1ad3c9a3479c",
-      "serie": "motogp",
-      "titolo": "Primi segnali di collaborazione tra piloti: a Phillip Island una riunione per discutere del Qatar e non solo",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/23-9223456/primi_segnali_di_collaborazione_tra_piloti_a_phillip_island_una_riunione_per_discutere_del_qatar_e_non_solo",
-      "fonte": "Motosprint",
-      "data": "2026-10-23T18:15:00.000Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/23/092446513-824a0714-47e9-442f-a9f5-f9efeff764f5.jpg",
-      "sommario": ""
-    },
-    {
-      "id": "39a79bb2b521",
-      "serie": "motogp",
-      "titolo": "MotoGP: per ora niente ordini di scuderia tra Aprilia e Trackhouse, ma…",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/23-9222915/motogp_per_ora_niente_ordini_di_scuderia_tra_aprilia_e_trackhouse_ma",
-      "fonte": "Motosprint",
-      "data": "2026-10-23T18:15:00.000Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/23/082100536-da06107c-ff6e-42e5-b2c1-9ef36e291855.jpg",
-      "sommario": ""
-    },
-    {
-      "id": "5d08829a432a",
-      "serie": "motogp",
-      "titolo": "Quindici anni senza Marco Simoncelli: papà Paolo ricorda il rapporto tra Marco e Valentino",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/23-9220981/quindici_anni_senza_marco_simoncelli_pap_paolo_ricorda_il_rapporto_tra_marco_e_valentino",
-      "fonte": "Motosprint",
-      "data": "2026-10-23T18:15:00.000Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/22/164427275-8ef578bd-ac03-4ce1-abc2-87aa47ccefb5.jpg",
-      "sommario": ""
-    },
-    {
-      "id": "bcb49bca3515",
-      "serie": "motogp",
-      "titolo": "Bagnaia fa mea culpa nel venerdì di Phillip Island: “Ho sbagliato io”",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/23-9222230/bagnaia_fa_mea_culpa_nel_venerd_di_phillip_island_ho_sbagliato_io",
-      "fonte": "Motosprint",
-      "data": "2026-10-23T18:15:00.000Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/23/071216572-0fa8a45b-5592-44f9-b6b8-01b5f051924c.jpg",
-      "sommario": ""
-    },
-    {
-      "id": "a3f8601a7103",
-      "serie": "motogp",
-      "titolo": "Bezzecchi il più veloce a Phillip Island, ma l'incognita è il bagnato: \"È sempre imprevedibile\"",
-      "link": "https://www.motosprint.it/news/eventi/gp-australia/2026/10/23-9222228/bezzecchi_il_pi_veloce_a_phillip_island_ma_l_incognita_il_bagnato_sempre_imprevedibile",
-      "fonte": "Motosprint",
-      "data": "2026-10-23T18:15:00.000Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/23/070535557-a66043c6-9813-49d7-a244-ad07362cdaa5.jpg",
-      "sommario": ""
-    },
-    {
-      "id": "afa74037c286",
-      "serie": "sbk",
-      "titolo": "Sorpresa Chantra: 1° con la nuova Honda nei test di Jerez davanti a Rea",
-      "link": "https://www.gpone.com/it/2026/10/23/wsbk/sorpresa-chantra-1deg-con-la-nuova-honda-nei-test-di-jerez-davanti-a-rea.html",
-      "fonte": "GPOne",
-      "data": "2026-10-23T16:09:29.000Z",
-      "immagine": "",
-      "sommario": "Il thailandese, in sella alla CBR di ultima evoluzione gommata Michelin con livrea camouflage, chiude a due secondi dal record di Bulega. La nuova Honda però, ad oggi, non è ancora omologata. Cosa dice il regolamento?"
     }
   ]
 }
