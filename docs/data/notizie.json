@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-10T11:15:11.673Z",
+  "aggiornato": "2026-11-10T12:12:47.968Z",
   "articoli": [
+    {
+      "id": "d9313cc7e771",
+      "serie": "f1",
+      "titolo": "La Formula 1 ha deciso: niente Imola, si corre in Qatar e Abu Dhabi",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/10-9282662/la_formula_1_ha_deciso_dove_concludere_il_mondiale_2026",
+      "fonte": "Autosprint",
+      "data": "2026-11-10T12:12:47.968Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/10/120012422-59f4cbe0-e8db-4e9d-9b5d-229babc39766.jpg",
+      "sommario": "Dopo settimane di attesa, la F1 ha finalmente preso la sua decisione sulle ultime due gare di Qatar e Abu Dhabi"
+    },
+    {
+      "id": "06fc16651d32",
+      "serie": "motogp",
+      "titolo": "Vinales: “Mi sottoporrò a nuovi esami. Se non posso migliorare, mi fermerò”",
+      "link": "https://www.gpone.com/it/2026/11/10/motogp/vinales-mi-sottoporro-a-nuovi-esami-se-non-posso-migliorare-mi-fermo.html",
+      "fonte": "GPOne",
+      "data": "2026-11-10T11:47:06.000Z",
+      "immagine": "",
+      "sommario": "“Provo sempre più dolore, quindi c’è sicuramente qualcosa che non va. Non ho motivazioni per continuare: se sto così non ha senso salire in moto e guidare al 50%. Mi faccio solo male mentalmente”"
+    },
     {
       "id": "df00f4505db6",
       "serie": "f1",
@@ -3980,26 +4000,6 @@
       "data": "2026-10-23T15:32:40.000Z",
       "immagine": "",
       "sommario": "Il campione spagnolo partirà davanti al fratello Alex e a Zarco. Sul bagnato Aprilia in difficoltà: Martin è 4°, Bezzecchi solo 9° dietro a Di Giannantonio"
-    },
-    {
-      "id": "ff2dbca2a66e",
-      "serie": "motogp",
-      "titolo": "TGPOne Phillip Island - Marquez e gli altri piloti si ribellano sul Qatar, Aprilia domina in pista",
-      "link": "https://www.gpone.com/it/2026/10/23/motogp/tgpone-phillip-island-marquez-e-gli-altri-piloti-si-ribellano-sul-qatar-aprilia-domina-in-pista.html",
-      "fonte": "GPOne",
-      "data": "2026-10-23T15:00:00.000Z",
-      "immagine": "",
-      "sommario": "VIDEO - I piloti si riuniscono per chiedere garanzie sulla sicurezza in Qatar, con Marc Marquez tra i contrari alla trasferta. Intanto a Phillip Island l'Aprilia domina il venerdì."
-    },
-    {
-      "id": "93cdfd311db1",
-      "serie": "motogp",
-      "titolo": "Livrea speciale per Miller a Phillip Island: \"non so come farò a non commuovermi\"",
-      "link": "https://www.gpone.com/it/2026/10/23/motogp/livrea-speciale-per-miller-a-phillip-island-non-so-come-faro-a-non-commuovermi.html",
-      "fonte": "GPOne",
-      "data": "2026-10-23T13:24:12.000Z",
-      "immagine": "",
-      "sommario": "VIDEO - La Yamaha Pramac di Jack con i colori dell'Australia. \"Non dimenticherò mai questo Gran Premio di casa\""
     }
   ]
 }
