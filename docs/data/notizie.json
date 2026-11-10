@@ -1,6 +1,56 @@
 {
-  "aggiornato": "2026-11-10T09:16:15.129Z",
+  "aggiornato": "2026-11-10T10:19:20.477Z",
   "articoli": [
+    {
+      "id": "df00f4505db6",
+      "serie": "f1",
+      "titolo": "La Mercedes celebra il Titolo con Hamilton, mentre Russell ha i nervi a fior di pelle",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/10-9281554/la_mercedes_celebra_il_titolo_con_hamilton_mentre_russell_ha_i_nervi_a_fior_di_pelle",
+      "fonte": "Autosprint",
+      "data": "2026-11-10T10:19:20.477Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/10/092903624-4113e193-a56e-423e-9113-acf3d0ba4cbf.jpg",
+      "sommario": "Boss Wolff ha invitato Lewis alla festa per il Mondiale marche vinto al termine di un weekend del Brasile che ha visto George sbagliare e bisticciare col team"
+    },
+    {
+      "id": "27786dfce404",
+      "serie": "f1",
+      "titolo": "Hamilton ignora le indicazioni Ferrari in Brasile, poi si scusa a modo suo",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/10-9281541/hamilton_ignora_le_indicazioni_ferrari_in_brasile_poi_si_scusa_a_modo_suo",
+      "fonte": "Autosprint",
+      "data": "2026-11-10T10:19:20.477Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/10/091745679-af1d2665-37cf-44e4-981d-103956b15d1f.jpg",
+      "sommario": "Al termine del GP di Interlagos Lewis ha spiegato le ragioni che lo hanno spinto a proseguire con le slick malgrado le condizioni della pista in peggioramento"
+    },
+    {
+      "id": "ac31536d3903",
+      "serie": "f1",
+      "titolo": "Lawson attende, Mekies si smarca: decisione tutta di Racing Bulls",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/10-9281559/lawson_attende_mekies_si_smarca_decisione_tutta_di_racing_bulls",
+      "fonte": "Autosprint",
+      "data": "2026-11-10T10:19:20.477Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/10/091252221-8d9e65ab-8932-4382-9727-96803714db13.jpg",
+      "sommario": "La squadra e, soprattutto, il Gruppo Red Bull devono decidere se confermare Lawson, autore di una serie di grandi risultati, o promuovere Tsolov"
+    },
+    {
+      "id": "16421b5292ec",
+      "serie": "motogp",
+      "titolo": "Troppo bello per cambiare: Aprilia rinnova Savadori con un biennale",
+      "link": "https://www.gpone.com/it/2026/11/10/motogp/troppo-buono-per-cambiare-aprilia-rinnova-savadori-con-un-biennale.html",
+      "fonte": "GPOne",
+      "data": "2026-11-10T09:58:59.000Z",
+      "immagine": "",
+      "sommario": "Il pilota e collaudatore Aprilia continuerà a portare avanti lo sviluppo e vestire i colori di Noale fino al 2028"
+    },
+    {
+      "id": "c2b7761e7834",
+      "serie": "sbk",
+      "titolo": "Svolta per Alvaro Bautista: Battistella non è più il suo manager!",
+      "link": "https://www.gpone.com/it/2026/11/10/wsbk/svolta-per-alvaro-bautista-battistella-non-e-piu-il-suo-manager.html",
+      "fonte": "GPOne",
+      "data": "2026-11-10T09:37:24.000Z",
+      "immagine": "",
+      "sommario": "Dopo l’ultima gara a Jerez, il pilota spagnolo ha deciso di prendere una decisione cruciale per il proprio futuro. Ecco chi curerà i suoi interessi per il 2027"
+    },
     {
       "id": "a7bba9b26eb6",
       "serie": "motogp",
@@ -10,6 +60,16 @@
       "data": "2026-11-10T09:14:00.000Z",
       "immagine": "",
       "sommario": "Il Motomondiale torna in Europa per il penultimo appuntamento stagionale. Marc Márquez può laurearsi campione del mondo già nella Sprint del sabato. Ecco il programma completo del GP del Portogallo"
+    },
+    {
+      "id": "7115463e4c1d",
+      "serie": "motogp",
+      "titolo": "Carlos Ezpeleta fa autocritica sul Qatar: \"Dobbiamo migliorare i rapporti con piloti e team\"",
+      "link": "https://www.gpone.com/it/2026/11/10/motogp/ezpeleta-fa-autocritica-sul-qatar-dobbiamo-migliorare-i-rapporti-con-piloti-e-team.html",
+      "fonte": "GPOne",
+      "data": "2026-11-10T09:03:00.000Z",
+      "immagine": "",
+      "sommario": "Il Deputy CEO della MotoGP difende la decisione di correre a Lusail, ma ammette errori nella comunicazione. Sul caso Yamaha prende le distanze: \"Il nostro rapporto è commerciale, le questioni sportive spettano alla FIM\""
     },
     {
       "id": "22328cf6e780",
@@ -3940,66 +4000,6 @@
       "data": "2026-10-23T13:24:12.000Z",
       "immagine": "",
       "sommario": "VIDEO - La Yamaha Pramac di Jack con i colori dell'Australia. \"Non dimenticherò mai questo Gran Premio di casa\""
-    },
-    {
-      "id": "04b4138d65a5",
-      "serie": "motogp",
-      "titolo": "Ducati a scuola da Aprilia: sulla moto di Marquez spuntano le ali sul forcellone",
-      "link": "https://www.gpone.com/it/2026/10/23/motogp/ducati-a-scuola-da-aprilia-sulla-moto-di-marquez-spuntano-le-ali-sul-forcellone.html",
-      "fonte": "GPOne",
-      "data": "2026-10-23T10:42:00.000Z",
-      "immagine": "",
-      "sommario": "A Phillip Island una nuova soluzione aerodinamica ispirata alla RS-GP. Dopo anni da riferimento tecnico, ora è Ducati a inseguire le innovazioni dei rivali"
-    },
-    {
-      "id": "51b14b865c07",
-      "serie": "motogp",
-      "titolo": "Marquez all’attacco: “Asciutto o bagnato? Possiamo stare davanti in ogni condizione”",
-      "link": "https://www.motosprint.it/news/eventi/gp-australia/2026/10/23-9222226/marquez_allattacco_asciutto_o_bagnato_possiamo_stare_davanti_in_ogni_condizione",
-      "fonte": "Motosprint",
-      "data": "2026-10-23T10:00:00Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/23/065359615-f49b4665-d6d8-415b-86c5-2a8443817f59.jpg",
-      "sommario": ""
-    },
-    {
-      "id": "db1950d789a4",
-      "serie": "motogp",
-      "titolo": "Vinales non si arrende e pensa a un ruolo da pilota sostituto",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/23-9222175/vinales_non_si_arrende_e_pensa_a_un_ruolo_da_pilota_sostituto",
-      "fonte": "Motosprint",
-      "data": "2026-10-23T10:00:00Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/23/053816781-69aa4706-1ca1-4153-8a6b-260c874e7910.jpg",
-      "sommario": ""
-    },
-    {
-      "id": "00fce9a7d61d",
-      "serie": "motogp",
-      "titolo": "E’ Aprilia vs Marquez nelle Practice di Phillip Island: Bezzecchi 1°, Marc 3°",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/23-9222171/e_aprilia_vs_marquez_nelle_practice_di_phillip_island_bezzecchi_1_marc_3",
-      "fonte": "Motosprint",
-      "data": "2026-10-23T10:00:00Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/23/053232989-491cfb84-b5fc-4841-a6ce-41b8b7df4956.jpg",
-      "sommario": ""
-    },
-    {
-      "id": "4e7c8c8eaaa4",
-      "serie": "f1",
-      "titolo": "Rwanda accusato di sport-washing, il nuovo GP in Africa tra le polemiche",
-      "link": "https://www.autosprint.it/news/formula1/2026/10/23-9224811/rwanda_accusato_di_sport-washing_il_nuovo_gp_in_africa_tra_le_polemiche",
-      "fonte": "Autosprint",
-      "data": "2026-10-23T10:00:00Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/23/150017674-7df471d9-5aa5-45e9-aec5-f3f0014dcecc.jpg",
-      "sommario": ""
-    },
-    {
-      "id": "4071481ec32c",
-      "serie": "motogp",
-      "titolo": "I piloti cercano un sindacato. Bagnaia: “Serve un rappresentante indipendente”",
-      "link": "https://www.gpone.com/it/2026/10/23/motogp/bagnaia-dopo-la-riunione-dei-piloti-era-il-momento-giusto-per-ricominciare.html",
-      "fonte": "GPOne",
-      "data": "2026-10-23T08:08:17.000Z",
-      "immagine": "",
-      "sommario": "Pecco fuori dalla Q2 \"Dobbiamo essere uniti ed avere più voce su certe decisioni. Ora non resta che trovare chi ci rappresenti. Chi? qualcuno fuori da questo mondo, che lavori sulla sicurezza\""
     }
   ]
 }
