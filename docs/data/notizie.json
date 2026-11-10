@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-10T08:01:50.219Z",
+  "aggiornato": "2026-11-10T09:16:15.129Z",
   "articoli": [
+    {
+      "id": "a7bba9b26eb6",
+      "serie": "motogp",
+      "titolo": "GP Portogallo, Portimao: gli orari in tv su Sky, TV8 e NOW. Marquez vede il titolo",
+      "link": "https://www.gpone.com/it/2026/11/10/motogp/gp-portogallo-portimao-gli-orari-in-tv-su-sky-tv8-e-now-marquez-vede-il-titolo.html",
+      "fonte": "GPOne",
+      "data": "2026-11-10T09:14:00.000Z",
+      "immagine": "",
+      "sommario": "Il Motomondiale torna in Europa per il penultimo appuntamento stagionale. Marc Márquez può laurearsi campione del mondo già nella Sprint del sabato. Ecco il programma completo del GP del Portogallo"
+    },
     {
       "id": "22328cf6e780",
       "serie": "f1",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-23T08:08:17.000Z",
       "immagine": "",
       "sommario": "Pecco fuori dalla Q2 \"Dobbiamo essere uniti ed avere più voce su certe decisioni. Ora non resta che trovare chi ci rappresenti. Chi? qualcuno fuori da questo mondo, che lavori sulla sicurezza\""
-    },
-    {
-      "id": "a5e8a576f251",
-      "serie": "motogp",
-      "titolo": "Di Giannantonio: \" Soddisfatto a metà, ogni weekend abbiamo un problema\"",
-      "link": "https://www.gpone.com/it/2026/10/23/motogp/di-giannantonio-soddisfatto-a-meta-ogni-weekend-abbiamo-un-problema.html",
-      "fonte": "GPOne",
-      "data": "2026-10-23T08:07:30.000Z",
-      "immagine": "",
-      "sommario": "\"Non ho fatto un vero time attack, per fortuna sono in Q2\". Sulla riunione dei piloti: \"ora siamo tutti coscienti di avere bisogno di un'associazione\""
     }
   ]
 }
