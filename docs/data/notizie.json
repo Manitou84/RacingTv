@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-11-10T16:39:55.066Z",
+  "aggiornato": "2026-11-10T17:38:31.281Z",
   "articoli": [
+    {
+      "id": "bf302563a2d0",
+      "serie": "motogp",
+      "titolo": "ULTIM'ORA: Intervento riuscito per Pecco Bagnaia al piede destro",
+      "link": "https://www.gpone.com/it/2026/11/10/motogp/ultimora-intervento-riuscito-per-pecco-bagnaia-al-piede-destro.html",
+      "fonte": "GPOne",
+      "data": "2026-11-10T17:35:18.000Z",
+      "immagine": "",
+      "sommario": "Il pilota è stato operato a Torino: il dott. Milano ha applicato una placca al quarto metatarso del piede destro. Ora il recupero"
+    },
+    {
+      "id": "b7b7fedd1e7c",
+      "serie": "sbk",
+      "titolo": "Feel Racing porta in pista la nuova Ducati V2 con Oettl nel 2027",
+      "link": "https://www.gpone.com/it/2026/11/10/wsbk/feel-racing-porta-in-pista-la-nuova-ducati-v2-con-oettl-nel-2027.html",
+      "fonte": "GPOne",
+      "data": "2026-11-10T17:01:26.000Z",
+      "immagine": "",
+      "sommario": "Il 2027 segna l’arrivo della Panigale di ultima evoluzione in SuperSport e la squadra tricolore ha deciso di rinnovare fiducia nel pilota tedesco"
+    },
+    {
+      "id": "7b93b0457e6e",
+      "serie": "motogp",
+      "titolo": "Dall'Igna: \"Márquez, una gestione magistrale, il secondo posto vale come una vittoria\"",
+      "link": "https://www.gpone.com/it/2026/11/10/motogp/dalligna-marquez-una-gestione-magistrale-il-secondo-posto-vale-come-una-vittoria.html",
+      "fonte": "GPOne",
+      "data": "2026-11-10T16:50:48.000Z",
+      "immagine": "",
+      "sommario": "Il numero uno di Ducati Corse celebra la maturità dello spagnolo dopo Lusail, ma non dimentica Bagnaia: \"Non sappiamo quando tornerà in pista\""
+    },
     {
       "id": "d04a684a83fa",
       "serie": "f1",
@@ -3970,36 +4000,6 @@
       "data": "2026-10-24T06:30:37.000Z",
       "immagine": "",
       "sommario": "\"È stato pericoloso, per fortuna sto bene, sembra si tratti solo di un piccolo osso. Ora andrò a Melbourne e capiremo cosa succederà\""
-    },
-    {
-      "id": "5a34adaef933",
-      "serie": "motogp",
-      "titolo": "Bezzecchi: \"Io solo contro Marquez? non è ancora finita, è un mondiale folle\"",
-      "link": "https://www.gpone.com/it/2026/10/24/motogp/bezzecchi-io-solo-contro-marquez-non-e-ancora-finita-e-un-mondiale-folle.html",
-      "fonte": "GPOne",
-      "data": "2026-10-24T06:29:57.000Z",
-      "immagine": "",
-      "sommario": "\"Mi spiace per Martin e per Aprilia. Mi sono accorto che era caduto quando ho raggiunto il gruppo di testa e lui non c'era. Nella sprint ci ho messo una pezza, ma domani non so cosa aspettarmi\""
-    },
-    {
-      "id": "4afefd6d8290",
-      "serie": "motogp",
-      "titolo": "Colpo di scena per il Mondiale! Jorge Martín dichiarato unfit: ecco le sue condizioni",
-      "link": "https://www.motosprint.it/news/eventi/gp-australia/2026/10/24-9226624/colpo_di_scena_per_il_mondiale_jorge_martn_dichiarato_unfit_ecco_le_sue_condizioni",
-      "fonte": "Motosprint",
-      "data": "2026-10-24T06:23:15.187Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/24/053654702-c0dc68e2-7a25-4e41-a5be-9ca4a391b9f5.jpg",
-      "sommario": "Il madrileno è caduto mentre era all'inseguimento del rivale Márquez nella Sprint: confermata la frattura del radio destro e si sospetta anche un'altra all'ulna in sede distale "
-    },
-    {
-      "id": "6ff7079cf352",
-      "serie": "motogp",
-      "titolo": "Martin sbaglia, Marquez ringrazia e vince la Sprint di Phillip Island",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/24-9226609/martin_sbaglia_marquez_ringrazia_e_vince_la_sprint_di_phillip_island",
-      "fonte": "Motosprint",
-      "data": "2026-10-24T06:23:15.187Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/24/044215382-1fdfc7af-8a69-4e1a-9827-c9e63b5041d6.jpg",
-      "sommario": "Jorge finisce a terra nel corso di un bellissimo duello con Marc, che conquista così il successo davanti al fratello ed a Di Giannantonio. Bezzecchi 4°, Bagnaia ritirato"
     }
   ]
 }
