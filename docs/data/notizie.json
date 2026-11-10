@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-11-10T14:42:40.009Z",
+  "aggiornato": "2026-11-10T15:36:15.977Z",
   "articoli": [
+    {
+      "id": "d04a684a83fa",
+      "serie": "f1",
+      "titolo": "Ben Sulayem, Qatar e Abu Dhabi per un finale indimenticabile",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/10-9283390/ben_sulayem_qatar_e_abu_dhabi_per_un_finale_indimenticabile",
+      "fonte": "Autosprint",
+      "data": "2026-11-10T15:36:15.977Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/10/150229730-e2a94b3e-ab0e-4d97-80b1-34c5dfbed68c.jpg",
+      "sommario": "Il presidente ha confermato il regolare svolgimento dei due Gran Premi in un'area ad alta tensione. Per un 2026 che volge al termine c'è un inizio da 2027 da monitorare"
+    },
+    {
+      "id": "142b4c42a299",
+      "serie": "f1",
+      "titolo": "F1, addio Imola: la MotoGP in Qatar ha spianato la strada al finale del mondiale",
+      "link": "https://www.gpone.com/it/2026/11/10/formula-1/f1-addio-imola-la-motogp-in-qatar-ha-spianato-la-strada-al-finale-del-mondiale.html",
+      "fonte": "GPOne",
+      "data": "2026-11-10T15:09:11.000Z",
+      "immagine": "",
+      "sommario": "Sfuma definitivamente l'ipotesi di chiudere la stagione a Imola: la Formula 1 correrà in Qatar e Abu Dhabi. Il GP di Lusail della MotoGP, disputato senza problemi di sicurezza ma tra mille polemiche, potrebbe aver avuto "
+    },
+    {
+      "id": "f65636e18f66",
+      "serie": "motogp",
+      "titolo": "Bezzecchi ha strappato a Spencer uno dei record più curiosi del motomondiale",
+      "link": "https://www.gpone.com/it/2026/11/10/motogp/bezzecchi-ha-strappato-a-spencer-uno-dei-record-piu-curiosi-del-motomondiale.html",
+      "fonte": "GPOne",
+      "data": "2026-11-10T14:47:36.000Z",
+      "immagine": "",
+      "sommario": "Con il successo in Qatar, Marco è riuscito a vincere 12 GP su tracciati tutti diversi, Freddie si era fermato a 11"
+    },
     {
       "id": "685bdff80822",
       "serie": "motogp",
@@ -3970,36 +4000,6 @@
       "data": "2026-10-24T06:23:15.187Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/24/044215382-1fdfc7af-8a69-4e1a-9827-c9e63b5041d6.jpg",
       "sommario": "Jorge finisce a terra nel corso di un bellissimo duello con Marc, che conquista così il successo davanti al fratello ed a Di Giannantonio. Bezzecchi 4°, Bagnaia ritirato"
-    },
-    {
-      "id": "72af1bea819a",
-      "serie": "motogp",
-      "titolo": "Altro brutto colpo per Aprilia: Fernandez dichiarato 'unfit' per il GP d'Australia",
-      "link": "https://www.gpone.com/it/2026/10/24/motogp/altro-brutto-colpo-per-aprilia-fernandez-dichiarato-unfit-per-il-gp-daustralia.html",
-      "fonte": "GPOne",
-      "data": "2026-10-24T06:18:27.000Z",
-      "immagine": "",
-      "sommario": "Raul si è ritirato durante la Sprint a causa della frattura al dito rimediata in Indonesia. Gli esami hanno evidenziato un'infiammazione, le sue condizioni saranno rivalutate a Sepang"
-    },
-    {
-      "id": "dae31d8c9e52",
-      "serie": "motogp",
-      "titolo": "Di Giannantonio: \"Marc stava gestendo, Martin tradito dal vento e da una buca\"",
-      "link": "https://www.gpone.com/it/2026/10/24/motogp/di-giannantonio-marc-stava-gestendo-martin-tradito-dal-vento-e-da-una-buca.html",
-      "fonte": "GPOne",
-      "data": "2026-10-24T05:31:29.000Z",
-      "immagine": "",
-      "sommario": "\"Dopo la caduta di Jorge, Marc ha rallentato un pò, penso ne avesse di più. Dov'è caduto Martin è molto facile commettere errori, c'è una buca in ingresso curva\""
-    },
-    {
-      "id": "f8b6d357e694",
-      "serie": "motogp",
-      "titolo": "ULTIM'ORA - Martìn si è fratturato il radio e forse anche l'ulna: il sogno iridato si allontana",
-      "link": "https://www.gpone.com/it/2026/10/24/motogp/ultimora-martin-si-e-fratturato-il-radio-e-forse-anche-lulna-il-sogno-iridato-si-allontana.html",
-      "fonte": "GPOne",
-      "data": "2026-10-24T05:29:08.000Z",
-      "immagine": "",
-      "sommario": "La caduta in curva 8 della Sprint di Phillip Island ha presentato un conto gravissimo, tempi di recupero non brevissimi, Jorge rischia di poter tornare in sella a Portimao o Valencia"
     }
   ]
 }
