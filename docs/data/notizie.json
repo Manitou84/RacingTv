@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-11T15:38:52.053Z",
+  "aggiornato": "2026-11-11T16:43:02.410Z",
   "articoli": [
+    {
+      "id": "bf6bba4a8f3a",
+      "serie": "motogp",
+      "titolo": "Dovizioso: \"Quando sei il più veloce, io da pilota non me la sarei giocata così\"",
+      "link": "https://www.gpone.com/it/2026/11/11/motogp/dovizioso-se-sei-il-piu-veloce-io-come-pilota-non-me-la-sarei-giocata-cosi.html",
+      "fonte": "GPOne",
+      "data": "2026-11-11T15:45:29.000Z",
+      "immagine": "",
+      "sommario": "Dovizioso nel suo podcast torna sul contatto tra Marquez e Bezzecchi nella sprint. \"Nessuno dei due si è preoccupato dell'altro. Quando sei il più veloce, puoi giocare carte più sicure\""
+    },
     {
       "id": "2e8ae58644b0",
       "serie": "f1",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-24T23:21:41.000Z",
       "immagine": "",
       "sommario": "Gli esami a Melbourne hanno escluso lesioni all'ulna. Jorge sarà a Sepang, ma è troppo presto per sapere se potrà provare a correre"
-    },
-    {
-      "id": "919971c438e4",
-      "serie": "motogp",
-      "titolo": "Non c'è l'elicottero medico: tutto fermo a Phillip Island",
-      "link": "https://www.gpone.com/it/2026/10/25/motogp/non-ce-lelicottero-medico-tutto-fermo-a-phillip-island.html",
-      "fonte": "GPOne",
-      "data": "2026-10-24T22:52:11.000Z",
-      "immagine": "",
-      "sommario": "NOTIZIA IN AGGIORNAMENTO - A causa della pioggia e della scarsa visibilità il mezzo di soccorso non potrà raggiungere il circuito prima delle 11, ora locale"
     }
   ]
 }
