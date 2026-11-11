@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-11-11T13:40:43.501Z",
+  "aggiornato": "2026-11-11T14:43:51.617Z",
   "articoli": [
+    {
+      "id": "2e8ae58644b0",
+      "serie": "f1",
+      "titolo": "Imola oltre il sogno sfumato: \"Il percorso per far tornare la F1 non si ferma\"",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/11-9286888/imola_oltre_il_sogno_sfumato_il_percorso_per_far_tornare_la_f1_non_si_ferma",
+      "fonte": "Autosprint",
+      "data": "2026-11-11T14:43:51.617Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/11/135129955-ebdb1340-67f2-4ffd-a827-ac14df6c06fc.jpg",
+      "sommario": "Il sindaco Panieri ha commentato la decisione di Fia e F1 di correre il finale di campionato in Medio Oriente; istituzioni al lavoro per un ritorno della F1 in futuro  "
+    },
+    {
+      "id": "0f811b0ee63e",
+      "serie": "sbk",
+      "titolo": "Mackenzie saluta Ducati e la Superbike: correrà nel BSB con BMW nel 2027!",
+      "link": "https://www.gpone.com/it/2026/11/11/wsbk/mackenzie-saluta-ducati-e-la-superbike-correra-nel-bsb-con-bmw-nel-2027.html",
+      "fonte": "GPOne",
+      "data": "2026-11-11T13:54:19.000Z",
+      "immagine": "",
+      "sommario": "L’ex portacolori MGM torna a correre in patria con la M1000RR del team Scars Racing in coppia con Rory Skinner"
+    },
+    {
+      "id": "2bec03d281ac",
+      "serie": "motogp",
+      "titolo": "Rivola elogia Martin: “L’anno scorso in Qatar credeva di aver finito la sua carriera”",
+      "link": "https://www.gpone.com/it/2026/11/11/motogp/rivola-elogia-martin-lanno-scorso-in-qatar-credeva-di-aver-finito-la-sua-carriera.html",
+      "fonte": "GPOne",
+      "data": "2026-11-11T13:46:13.000Z",
+      "immagine": "",
+      "sommario": "“Tornare a Lusail era sicuramente speciale per lui, ancora di più in quelle condizioni fisiche. Quello che ha fatto domenica è stato straordinario e nella Sprint ha fatto una sorta di miracolo”"
+    },
     {
       "id": "12f95c035267",
       "serie": "f1",
@@ -30,6 +60,16 @@
       "data": "2026-11-11T13:40:43.501Z",
       "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/11/120848007-30223b99-df6a-4661-9f09-684ce8811ea3.jpg",
       "sommario": "All’evento Allianz di Milano, il tennista racconta la passione per Formula 1 e MotoGP, elogia Kimi Antonelli e svela la sua routine tra palestra e simulatore"
+    },
+    {
+      "id": "777dce30535f",
+      "serie": "sbk",
+      "titolo": "Benzina unica, gomme Michelin e freni carboceramici: a Jerez primo test 2027 per Lecuona e Ducati",
+      "link": "https://www.gpone.com/it/2026/11/11/wsbk/benzina-unica-gomme-michelin-e-freni-carboceramici-a-jerez-primo-test-2027-per-lecuona-e-ducati.html",
+      "fonte": "GPOne",
+      "data": "2026-11-11T13:37:16.000Z",
+      "immagine": "",
+      "sommario": "Per Lecuona e Ducati è già iniziato il Mondiale: in azione sul tracciato andaluso anche i tester MotoGP con Bulega all’ultima uscita con la GP27 850 prima di Valencia"
     },
     {
       "id": "0b369cbf9d93",
@@ -3960,46 +4000,6 @@
       "data": "2026-10-24T22:52:11.000Z",
       "immagine": "",
       "sommario": "NOTIZIA IN AGGIORNAMENTO - A causa della pioggia e della scarsa visibilità il mezzo di soccorso non potrà raggiungere il circuito prima delle 11, ora locale"
-    },
-    {
-      "id": "62f47dda809b",
-      "serie": "motogp",
-      "titolo": "LIVE MotoGP Phillip Island: la diretta del Gran Premio d'Australia",
-      "link": "https://www.gpone.com/it/2026/10/24/motogp/live-motogp-phillip-island-la-diretta-del-gran-premio-daustralia.html",
-      "fonte": "GPOne",
-      "data": "2026-10-24T17:11:00.000Z",
-      "immagine": "",
-      "sommario": "Márquez torna leader del mondiale dopo la Sprint, ma Martín è fuori per infortunio e rischia di saltare altri GP. Bezzecchi cerca la rimonta, Ducati sogna l'allungo"
-    },
-    {
-      "id": "e62dc7f68fd1",
-      "serie": "motogp",
-      "titolo": "La Honda ritrova finalmente Joan Mir: \"Ci vediamo a Sepang!\"",
-      "link": "https://www.gpone.com/it/2026/10/24/motogp/la-honda-ritrova-finalmente-joan-mir-ci-vediamo-a-sepang.html",
-      "fonte": "GPOne",
-      "data": "2026-10-24T15:44:39.000Z",
-      "immagine": "",
-      "sommario": "Il pilota spagnolo è pronto a tornare in pista in occasione del Gran Premio della Malesia dopo aver saltato gli ultimi quattro GP"
-    },
-    {
-      "id": "bd5b1478463a",
-      "serie": "motogp",
-      "titolo": "Doohan: \"La mentalità dei piloti non è cambiata, Marc Marquez è la dimostrazione\"",
-      "link": "https://www.gpone.com/it/2026/10/24/motogp/doohan-la-mentalita-dei-piloti-non-e-cambiata-marc-marquez-e-la-dimostrazione.html",
-      "fonte": "GPOne",
-      "data": "2026-10-24T14:00:00.000Z",
-      "immagine": "",
-      "sommario": "Mick nella Hall of Fame del motociclismo. \"Le attuali MotoGP sono bestie difficili da domare, come è sempre stato. Chi vorrei sfidare? Kenny Roberts\""
-    },
-    {
-      "id": "45daad66c2e0",
-      "serie": "f1",
-      "titolo": "GP Messico: orari TV e dove vedere la F1",
-      "link": "https://www.autosprint.it/news/formula1/f1-orari-tv/2026/10/24-9212993/gp_messico_orari_tv_e_dove_vedere_la_f1",
-      "fonte": "Autosprint",
-      "data": "2026-10-24T11:16:55.595Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/20/154355458-45b9e1eb-6207-40aa-97ae-d0005f55fa66.jpg",
-      "sommario": "Diciannovesimo appuntamento della stagione 2026 per la nuova Formula 1. Tutti gli orari di prove libere, qualifiche e gara in diretta su Sky, Now e in differita su TV8"
     }
   ]
 }
