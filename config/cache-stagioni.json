@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-11T18:41:52.628Z",
+  "aggiornato": "2026-11-11T19:49:15.438Z",
   "_fonte": "Wikipedia (inglese)",
   "stagioni": {
     "2021|MotoGP World Championship": {
@@ -10262,7 +10262,7 @@
           "punti": 49
         }
       ],
-      "letta": "2026-11-11T16:43:02.410Z",
+      "letta": "2026-11-11T19:49:15.438Z",
       "tentativi": 0
     },
     "2026|Moto2 World Championship": {
@@ -10495,7 +10495,7 @@
           "punti": 40
         }
       ],
-      "letta": "2026-11-11T16:43:02.410Z",
+      "letta": "2026-11-11T19:49:15.438Z",
       "tentativi": 0
     },
     "2026|Moto3 World Championship": {
@@ -10698,7 +10698,7 @@
           "punti": 68
         }
       ],
-      "letta": "2026-11-11T16:43:02.410Z",
+      "letta": "2026-11-11T19:49:15.438Z",
       "tentativi": 0
     },
     "2026|Superbike World Championship": {
@@ -10855,7 +10855,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-11T16:43:02.410Z",
+      "letta": "2026-11-11T19:49:15.438Z",
       "tentativi": 0
     },
     "2026|Formula One World Championship": {
@@ -11043,7 +11043,7 @@
           "punti": 0
         }
       ],
-      "letta": "2026-11-11T16:43:02.410Z",
+      "letta": "2026-11-11T19:49:15.438Z",
       "tentativi": 0
     },
     "2026|FIA Formula 2 Championship": {
@@ -11165,7 +11165,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-11T16:43:02.410Z",
+      "letta": "2026-11-11T19:49:15.438Z",
       "tentativi": 0
     },
     "2026|FIA Formula 3 Championship": {
@@ -11347,7 +11347,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-11T16:43:02.410Z",
+      "letta": "2026-11-11T19:49:15.438Z",
       "tentativi": 0
     },
     "2026|Super Formula Championship": {
@@ -11484,7 +11484,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-11T16:43:02.410Z",
+      "letta": "2026-11-11T19:49:15.438Z",
       "tentativi": 0
     },
     "2026|Supersport World Championship": {
@@ -11767,7 +11767,7 @@
           "punti": 5
         }
       ],
-      "letta": "2026-11-11T16:43:02.410Z",
+      "letta": "2026-11-11T19:49:15.438Z",
       "tentativi": 0
     },
     "2026|British Superbike Championship": {
@@ -11938,9 +11938,64 @@
           "pos": 7,
           "nome": "Cheshire Mouldings Yamaha",
           "punti": 329
+        },
+        {
+          "pos": 8,
+          "nome": "Honda",
+          "punti": 220
+        },
+        {
+          "pos": 9,
+          "nome": "Yamaha",
+          "punti": 189
+        },
+        {
+          "pos": 10,
+          "nome": "Ducati",
+          "punti": 164
+        },
+        {
+          "pos": 11,
+          "nome": "BMW",
+          "punti": 102
+        },
+        {
+          "pos": 12,
+          "nome": "Honda",
+          "punti": 80
+        },
+        {
+          "pos": 13,
+          "nome": "MasterMac Honda",
+          "punti": 39
+        },
+        {
+          "pos": 14,
+          "nome": "Ducati",
+          "punti": 20
+        },
+        {
+          "pos": 15,
+          "nome": "Honda",
+          "punti": 10
+        },
+        {
+          "pos": 16,
+          "nome": "Honda",
+          "punti": 4
+        },
+        {
+          "pos": 17,
+          "nome": "Honda",
+          "punti": 1
+        },
+        {
+          "pos": 18,
+          "nome": "BMW",
+          "punti": 0
         }
       ],
-      "letta": "2026-11-11T16:43:02.410Z",
+      "letta": "2026-11-11T19:49:15.438Z",
       "tentativi": 0
     }
   },
@@ -12004,6 +12059,6 @@
     "2026|FIA Formula 3 Championship": "35 piloti, 0 costruttori",
     "2026|Super Formula Championship": "26 piloti, 0 costruttori",
     "2026|Supersport World Championship": "47 piloti, 8 costruttori",
-    "2026|British Superbike Championship": "26 piloti, 7 costruttori"
+    "2026|British Superbike Championship": "26 piloti, 18 costruttori"
   }
 }
