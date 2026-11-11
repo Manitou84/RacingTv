@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-11T10:25:06.758Z",
+  "aggiornato": "2026-11-11T11:22:07.880Z",
   "articoli": [
+    {
+      "id": "461c448d83be",
+      "serie": "motogp",
+      "titolo": "Marquez a Portimao per entrare nella leggenda: l'ottavo titolo e il trono di Re Agostini",
+      "link": "https://www.gpone.com/it/2026/11/11/motogp/marquez-a-portimao-per-entrare-nella-leggenda-lottavo-titolo-e-il-trono-di-re-agostini.html",
+      "fonte": "GPOne",
+      "data": "2026-11-11T10:43:33.000Z",
+      "immagine": "",
+      "sommario": "Marc ha 60 punti di vantaggio su Martin e in Portogallo può conquistare l'8° Mondiale nella classe regina, raggiungendo Agostini. In ballo anche il mondiale marche fra Ducati ed Aprilia"
+    },
     {
       "id": "e19f70f7c393",
       "serie": "motogp",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-24T07:35:47.711Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/24/072733675-9413b4d6-8c87-4b1c-9bb4-46dd1dd7ef1e.jpg",
       "sommario": "Il pilota Aprilia svela i prossimi passi: \"Andremo a Melbourne per svolgere ulteriori esami. Mi dispiace molto per la caduta, ma mi sento bene nonostante il forte impatto\""
-    },
-    {
-      "id": "34227fdae15f",
-      "serie": "motogp",
-      "titolo": "Bagnaia sempre più sconsolato dopo la Sprint: “Asciutto o bagnato non cambia, sono lento uguale”",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/24-9226781/bagnaia_sempre_pi_sconsolato_dopo_la_sprint_asciutto_o_bagnato_non_cambia_sono_lento_uguale",
-      "fonte": "Motosprint",
-      "data": "2026-10-24T07:35:47.711Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/24/072839467-dfd5f7c1-a301-4cb3-a694-a5589c8ae769.jpg",
-      "sommario": "Pecco abbandona dopo pochissimi giri della gara corta per un problema tecnico ma fissa l’ipotetico risultato per domani “non la top 5, ma dal nono al dodicesimo è un obiettivo realistico”\n"
     }
   ]
 }
