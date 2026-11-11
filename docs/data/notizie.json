@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-11-11T12:19:49.850Z",
+  "aggiornato": "2026-11-11T13:40:43.501Z",
   "articoli": [
+    {
+      "id": "12f95c035267",
+      "serie": "f1",
+      "titolo": "Inseguendo Ferrari, cavallini scalpitanti: in Haas spareggio Bearman-Camara?",
+      "link": "https://www.autosprint.it/news/formula1/in-diretta/2026/11/11-9286785/inseguendo_ferrari_cavallini_scalpitanti_in_haas_spareggio_bearman-camara_",
+      "fonte": "Autosprint",
+      "data": "2026-11-11T13:40:43.501Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/11/130420365-60519cc5-b448-47d4-ae11-59dba29b28ee.jpg",
+      "sommario": "Haas per Ferrari come Racing Bulls per Red Bull? I prospetti FDA Bearman e Camara sanno di potersi giocare il posto, anche se i piani Ferrari futuri sono tutti da vedere"
+    },
+    {
+      "id": "f25ed20ad14f",
+      "serie": "f1",
+      "titolo": "Gomme da bagnato, non ci siamo ancora: Norris \"teme\" Las Vegas",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/11-9286538/gomme_da_bagnato_non_ci_siamo_ancora_norris_teme_las_vegas",
+      "fonte": "Autosprint",
+      "data": "2026-11-11T13:40:43.501Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/11/121357851-2daff281-011f-4965-bbde-838b6119a93a.jpg",
+      "sommario": "I dati raccolti in condizioni di gara in Brasile aiuteranno Pirelli a migliorare la finestra di funzionamento e la fase di attivazione delle gomme da bagnato 2027"
+    },
+    {
+      "id": "143a60aed03b",
+      "serie": "f1",
+      "titolo": "Sinner: \"Antonelli è un fenomeno\". E sul futuro scherza: \"Mi vedrete su una macchina da competizione\"",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/11-9286279/sinner_antonelli_un_fenomeno_e_sul_futuro_scherza_mi_vedrete_in_una_macchina_che_corre",
+      "fonte": "Autosprint",
+      "data": "2026-11-11T13:40:43.501Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/11/120848007-30223b99-df6a-4661-9f09-684ce8811ea3.jpg",
+      "sommario": "All’evento Allianz di Milano, il tennista racconta la passione per Formula 1 e MotoGP, elogia Kimi Antonelli e svela la sua routine tra palestra e simulatore"
+    },
     {
       "id": "0b369cbf9d93",
       "serie": "motogp",
@@ -3970,36 +4000,6 @@
       "data": "2026-10-24T11:16:55.595Z",
       "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/20/154355458-45b9e1eb-6207-40aa-97ae-d0005f55fa66.jpg",
       "sommario": "Diciannovesimo appuntamento della stagione 2026 per la nuova Formula 1. Tutti gli orari di prove libere, qualifiche e gara in diretta su Sky, Now e in differita su TV8"
-    },
-    {
-      "id": "7954a9fee960",
-      "serie": "f1",
-      "titolo": "Qualcosa bolle in pentola in Mercedes, in arrivo un astronauta della NASA",
-      "link": "https://www.autosprint.it/news/formula1/2026/10/24-9226209/qualcosa_bolle_in_pentola_in_mercedes_in_arrivo_un_astronauta_della_nasa",
-      "fonte": "Autosprint",
-      "data": "2026-10-24T10:54:05.176Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/24/104712941-9601de22-cd74-42c2-8b55-29293e0d868f.jpg",
-      "sommario": "Il comandante della missione Artemis II è stato appena ingaggiato dal team tedesco, ma non si occuperà di questioni tecniche"
-    },
-    {
-      "id": "a4aaab6d7366",
-      "serie": "motogp",
-      "titolo": "LIVE Bar Sport alle 18:00 - Marquez Vs Martín: la svolta!",
-      "link": "https://www.gpone.com/it/2026/10/24/motogp/live-bar-sport-alle-18-00-marquez-vs-martin-la-svolta.html",
-      "fonte": "GPOne",
-      "data": "2026-10-24T09:47:00.000Z",
-      "immagine": "",
-      "sommario": "VIDEO - La caduta di Martín a Phillip Island rischia di decidere il Mondiale. Marc torna leader e Jorge potrebbe saltare anche i prossimi GP, Bezzecchi è a -50. Ne parliamo con Carlo Pernat."
-    },
-    {
-      "id": "fd080d856ecf",
-      "serie": "motogp",
-      "titolo": "Miller: “Andare a punti nella Sprint è più di quanto potessimo chiedere”",
-      "link": "https://www.gpone.com/it/2026/10/24/motogp/miller-andare-a-punti-nella-sprint-e-piu-di-quanto-potessimo-chiedere.html",
-      "fonte": "GPOne",
-      "data": "2026-10-24T08:27:33.000Z",
-      "immagine": "",
-      "sommario": "“Speravo in un pomeriggio più umido. Ero un bersaglio facile in rettilineo e mi sono bloccato dietro a Binder, ma è stata una buona gara. Le previsioni per domani sembrano buone, partire davanti sarà d’aiuto”"
     }
   ]
 }
