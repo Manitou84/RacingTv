@@ -1,6 +1,56 @@
 {
-  "aggiornato": "2026-11-11T09:21:30.931Z",
+  "aggiornato": "2026-11-11T10:25:06.758Z",
   "articoli": [
+    {
+      "id": "e19f70f7c393",
+      "serie": "motogp",
+      "titolo": "Il verdetto di Lorenzo: “Marquez meglio di Agostini, Rossi nemmeno nel gruppo”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/11-9285777/il_verdetto_di_lorenzo_marquez_meglio_di_agostini_rossi_nemmeno_nel_gruppo",
+      "fonte": "Motosprint",
+      "data": "2026-11-11T10:25:06.758Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/11/090853330-ff077325-b668-4548-9ea9-6d76249f879e.jpg",
+      "sommario": "Il maiorchino esalta il recupero del catalano dall’infortunio, “se vincerà il decimo mondiale sarà senza dubbio il più grande dell’era moderna”"
+    },
+    {
+      "id": "3643dd718fc0",
+      "serie": "f1",
+      "titolo": "Alonso esalta Aston Martin: fenomenale in Brasile!",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/11-9285500/alonso_esalta_aston_martin_fenomenale_in_brasile_",
+      "fonte": "Autosprint",
+      "data": "2026-11-11T10:25:06.758Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/11/092206241-4153e810-e791-4a92-a596-7fbc5f4118d6.jpg",
+      "sommario": "In condizioni di pista bagnata la AMR26-B ha dato a Fernando sensazioni molto positive nel comportamento in curva. Resta il grande limite della power unit"
+    },
+    {
+      "id": "3b1930ce8a43",
+      "serie": "f1",
+      "titolo": "Hamilton prova a dimenticare la delusione di Interlagos recandosi a Rafah",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/11-9285159/hamilton_prova_a_dimenticare_la_delusione_di_interlagos_recandosi_a_rafah",
+      "fonte": "Autosprint",
+      "data": "2026-11-11T10:25:06.758Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/11/092048014-28109e21-5338-46b6-b875-f479b94e1cec.jpg",
+      "sommario": "Da sempre molto vicino alle problematiche sociali, il pilota Ferrari ha voluto visitare il valico al confine con la Striscia di Gaza"
+    },
+    {
+      "id": "7088b1b2b2c3",
+      "serie": "f1",
+      "titolo": "Ocon si arrende, la F1 si allontana e lui scrive sui social: \"Grazie per il sostegno\"",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/11-9284404/ocon_si_arrende_la_f1_si_allontana_e_lui_scrive_sui_social_grazie_per_il_sostegno",
+      "fonte": "Autosprint",
+      "data": "2026-11-11T10:25:06.758Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/11/091910687-e31ddaa8-c229-4efa-8f81-82f44b9f60d3.jpg",
+      "sommario": "Cacciato all'improvviso dalla Haas nel corso del weekend del Messico, Esteban sembra aver accettato di non avere prospettive per il 2027 "
+    },
+    {
+      "id": "b56a3c414f7e",
+      "serie": "motogp",
+      "titolo": "Moreira: \"Ho un problema al nervo del gomito, avevo dolore già in Malesia\"",
+      "link": "https://www.gpone.com/it/2026/11/11/motogp/moreira-ho-un-problema-al-nervo-del-gomito-avevo-dolore-gia-in-malesia.html",
+      "fonte": "GPOne",
+      "data": "2026-11-11T09:57:30.000Z",
+      "immagine": "",
+      "sommario": "Il brasiliano di LCR Honda spiega i motivi del ritiro in Qatar, legati all'infortunio al Sachsenring in Moto2 lo scorso anno"
+    },
     {
       "id": "64ed04f89d47",
       "serie": "motogp",
@@ -3950,56 +4000,6 @@
       "data": "2026-10-24T07:35:47.711Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/24/072839467-dfd5f7c1-a301-4cb3-a694-a5589c8ae769.jpg",
       "sommario": "Pecco abbandona dopo pochissimi giri della gara corta per un problema tecnico ma fissa l’ipotetico risultato per domani “non la top 5, ma dal nono al dodicesimo è un obiettivo realistico”\n"
-    },
-    {
-      "id": "353f816e8502",
-      "serie": "motogp",
-      "titolo": "Zarco: \"Quando corri coi ragazzi davanti diventa chiaro cosa manca sulla moto\"",
-      "link": "https://www.gpone.com/it/2026/10/24/motogp/zarco-quando-corri-coi-ragazzi-davanti-diventa-chiaro-cosa-manca-sulla-moto.html",
-      "fonte": "GPOne",
-      "data": "2026-10-24T07:20:23.000Z",
-      "immagine": "",
-      "sommario": "\"E' stata una sfortuna, un guasto elettronico. Mi sono fermato per non correre rischi stupidi. Domani spero si corra sul bagnato, è l'unica chance che abbiamo di fare podio da qui a fine stagione\""
-    },
-    {
-      "id": "494f16dd1e5a",
-      "serie": "motogp",
-      "titolo": "Marc Marquez: “Non avrei lottato così se non fosse stato Martin”",
-      "link": "https://www.gpone.com/it/2026/10/24/motogp/marc-marquez-non-avrei-lottato-cosi-se-non-fosse-stato-martin.html",
-      "fonte": "GPOne",
-      "data": "2026-10-24T07:17:33.000Z",
-      "immagine": "",
-      "sommario": "“Dieci anni fa mi buttavo in qualunque battaglia. Ora cerco di gestire meglio queste situazioni, ma oggi era il momento di rischiare. Alex era più veloce di me, forse non mi ha attaccato perché ero io”"
-    },
-    {
-      "id": "9ea4591dd6af",
-      "serie": "motogp",
-      "titolo": "Bagnaia: \"Non cambia niente: non ho velocità né sul bagnato, né sull'asciutto\"",
-      "link": "https://www.gpone.com/it/2026/10/24/motogp/bagnaia-non-cambia-niente-non-ho-velocita-ne-sul-bagnato-ne-sullasciutto.html",
-      "fonte": "GPOne",
-      "data": "2026-10-24T07:01:21.000Z",
-      "immagine": "",
-      "sommario": "\"Purtroppo mi sono fermato per un problema tecnico, sono cose che possono succedere. In qualifica abbiamo sbagliato strategia\""
-    },
-    {
-      "id": "daecf6037e47",
-      "serie": "motogp",
-      "titolo": "Marquez: “Forse mio fratello non mi ha passato perché ero io. Martin ha preso tanti rischi”",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/24-9226775/marquez_forse_mio_fratello_non_mi_ha_passato_perch_ero_io_martin_ha_preso_tanti_rischi",
-      "fonte": "Motosprint",
-      "data": "2026-10-24T07:00:00.270Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/24/064935114-ce9a25b6-3d41-4466-80ce-ea0bbd310b98.jpeg",
-      "sommario": "Marc racconta: “Alex era più veloce di me, forse ha capito che attaccarmi sarebbe stato troppo rischioso. Con Jorge una battaglia per il titolo: lui ha sbagliato ma anche io ci sono andato vicino”\n"
-    },
-    {
-      "id": "6cdb2b512175",
-      "serie": "motogp",
-      "titolo": "Di Giannantonio protagonista della Sprint, ma c'è sempre del rammarico",
-      "link": "https://www.motosprint.it/news/eventi/gp-australia/2026/10/24-9226773/di_giannantonio_protagonista_della_sprint_ma_c_sempre_del_rammarico",
-      "fonte": "Motosprint",
-      "data": "2026-10-24T07:00:00.270Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/24/064246419-6f9e435c-7735-4a09-90ee-2a460ac05a3f.jpg",
-      "sommario": "Il romano chiude a podio nonostante un primo giro complicato: \"Sono arrivato lungo in curva 4 e ho perso tante posizioni: peccato, rimango sempre con la sensazione di poter fare di più\""
     }
   ]
 }
