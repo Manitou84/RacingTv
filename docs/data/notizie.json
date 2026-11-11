@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-11T11:22:07.880Z",
+  "aggiornato": "2026-11-11T12:19:49.850Z",
   "articoli": [
+    {
+      "id": "0b369cbf9d93",
+      "serie": "motogp",
+      "titolo": "Bezzecchi e le Sprint, quanto gli sono costate? Aumentano i rimpianti in casa Aprilia",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/11-9286473/bezzecchi_e_le_sprint_quanto_gli_sono_costate_aumentano_i_rimpianti_in_casa_aprilia",
+      "fonte": "Motosprint",
+      "data": "2026-11-11T12:19:49.850Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/11/114029508-f02033b9-ca49-4060-8187-b9321d9917a9.jpg",
+      "sommario": "Sono sei gli \"zero\" nelle gare del sabato, che fanno da contraltare alle altrettante vittorie conquistate: come sarebbe la classifica con i soli risultati della domenica?"
+    },
     {
       "id": "461c448d83be",
       "serie": "motogp",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-24T08:27:33.000Z",
       "immagine": "",
       "sommario": "“Speravo in un pomeriggio più umido. Ero un bersaglio facile in rettilineo e mi sono bloccato dietro a Binder, ma è stata una buona gara. Le previsioni per domani sembrano buone, partire davanti sarà d’aiuto”"
-    },
-    {
-      "id": "6a29c09b2240",
-      "serie": "motogp",
-      "titolo": "Jorge Martín rassicura sull'infortunio: “Sto bene, questo è l'importante”",
-      "link": "https://www.motosprint.it/news/eventi/gp-australia/2026/10/24-9226782/jorge_martn_rassicura_sull_infortunio_sto_bene_questo_l_importante",
-      "fonte": "Motosprint",
-      "data": "2026-10-24T07:35:47.711Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/24/072733675-9413b4d6-8c87-4b1c-9bb4-46dd1dd7ef1e.jpg",
-      "sommario": "Il pilota Aprilia svela i prossimi passi: \"Andremo a Melbourne per svolgere ulteriori esami. Mi dispiace molto per la caduta, ma mi sento bene nonostante il forte impatto\""
     }
   ]
 }
