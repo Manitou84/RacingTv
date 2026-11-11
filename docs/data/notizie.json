@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-11-11T16:43:02.410Z",
+  "aggiornato": "2026-11-11T17:47:00.570Z",
   "articoli": [
+    {
+      "id": "a64a66615e87",
+      "serie": "f1",
+      "titolo": "I team di fondo classifica si sentono penalizzati, chiesta la revisione del budget cap",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/11-9287259/i_team_di_fondo_classifica_si_sentono_penalizzati_chiesta_la_revisione_del_budget_cap",
+      "fonte": "Autosprint",
+      "data": "2026-11-11T17:47:00.570Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/11/170433401-6ebcc049-5f29-4221-8a3c-ce47486aafa3.jpg",
+      "sommario": "Aston Martin e Williams si sono fatte sentire domandano regole in grado di garantire possibilità di ottenere risultati uguali per tutti"
+    },
+    {
+      "id": "5c6e8405b6bc",
+      "serie": "motogp",
+      "titolo": "Pioggia a Jerez: Pol Espargarò e KTM i più veloci sul bagnato, 2° Bulega",
+      "link": "https://www.gpone.com/it/2026/11/11/motogp/pioggia-a-jerez-pol-espargaro-e-ktm-i-piu-veloci-sul-bagnato-2deg-bulega.html",
+      "fonte": "GPOne",
+      "data": "2026-11-11T17:19:54.000Z",
+      "immagine": "",
+      "sommario": "Lo spagnolo ha preceduto la Ducati di Nicolò di quasi otto decimi, 3° Savadori con Aprilia poi Pirro con la Ducati V4. Lecuona fermo ai box"
+    },
+    {
+      "id": "692b84f6d783",
+      "serie": "sbk",
+      "titolo": "Bautista: “CFMoto? Devo parlare con i cinesi: io sono pronto”",
+      "link": "https://www.gpone.com/it/2026/11/10/wsbk/bautista-cfmoto-devo-parlare-con-i-cinesi-io-sono-pronto.html",
+      "fonte": "GPOne",
+      "data": "2026-11-11T17:00:00.000Z",
+      "immagine": "",
+      "sommario": "“Ho guidato moto diverse e penso di avere l’esperienza per contribuire a realizzare una moto competitiva. Battistella? A 41 anni vorrei essere self-manager. Marquez fortissimo, Martin mi ha sorpreso di più\""
+    },
     {
       "id": "bf6bba4a8f3a",
       "serie": "motogp",
@@ -3970,36 +4000,6 @@
       "data": "2026-10-25T04:40:20.000Z",
       "immagine": "",
       "sommario": "La scarsa visibilità non consente all'elicottero medico di volare. I piloti faranno un giro dietro alla Safety Car per salutare i tifosi"
-    },
-    {
-      "id": "b2bc32808585",
-      "serie": "sbk",
-      "titolo": "Infortunio Martín, l'avvertimento di Phillip Island: da Fogarty al precedente Márquez",
-      "link": "https://www.gpone.com/it/2026/10/25/wsbk/phillip-island-da-fogarty-a-martin-quando-una-caduta-puo-cambiare-una-carriera.html",
-      "fonte": "GPOne",
-      "data": "2026-10-25T03:49:30.000Z",
-      "immagine": "",
-      "sommario": "Nel 2000 Carl Fogarty si fratturò l'omero sinistro a Phillip Island. Ventisei anni dopo, sullo stesso circuito, Jorge Martín deve fare i conti con un'altra grave frattura"
-    },
-    {
-      "id": "ab0fef20b76a",
-      "serie": "motogp",
-      "titolo": "Phillip Island: la gara della MotoGP partirà alle 6 italiane, Moto2 e Moto3 cancellate",
-      "link": "https://www.gpone.com/it/2026/10/25/motogp/phillip-island-la-gara-della-motogp-partira-alle-6-italiane-moto2-e-moto3-cancellate.html",
-      "fonte": "GPOne",
-      "data": "2026-10-25T03:07:35.000Z",
-      "immagine": "",
-      "sommario": "L'ultimo aggiornamento ufficiale ha fissato l'orario di partenza del GP della classe regina, mentre le classi minori non correranno"
-    },
-    {
-      "id": "c2d68578c8ed",
-      "serie": "motogp",
-      "titolo": "Solo una frattura per Martin: non si opererà e volerà in Malesia",
-      "link": "https://www.gpone.com/it/2026/10/25/motogp/solo-una-frattura-per-martin-non-si-operera-e-volera-in-malesia.html",
-      "fonte": "GPOne",
-      "data": "2026-10-24T23:21:41.000Z",
-      "immagine": "",
-      "sommario": "Gli esami a Melbourne hanno escluso lesioni all'ulna. Jorge sarà a Sepang, ma è troppo presto per sapere se potrà provare a correre"
     }
   ]
 }
