@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-11-11T08:09:36.873Z",
+  "aggiornato": "2026-11-11T09:21:30.931Z",
   "articoli": [
+    {
+      "id": "64ed04f89d47",
+      "serie": "motogp",
+      "titolo": "Dai piloti che hanno segnato un’epoca ai supereroi: i due mondi dei Fantastici 4",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/11-9283809/dai_piloti_che_hanno_segnato_unepoca_ai_supereroi_i_due_mondi_dei_fantastici_4",
+      "fonte": "Motosprint",
+      "data": "2026-11-11T09:21:30.931Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/10/152033544-220be4f7-f8db-4c42-8f63-6a9c052e9315.jpg",
+      "sommario": "Rossi, Lorenzo, Pedrosa e Stoner sono stati soprannominati così per le loro gesta tra i cordoli, ma ad accomunarli con gli eroi Marvel non è soltanto tale appellativo"
+    },
+    {
+      "id": "9ffbea228b62",
+      "serie": "motogp",
+      "titolo": "Valentino Rossi contro Márquez: “Una storia assurda, ha lottato solo contro di me”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/11-9280595/valentino_rossi_contro_mrquez_una_storia_assurda_ha_lottato_solo_contro_di_me",
+      "fonte": "Motosprint",
+      "data": "2026-11-11T09:21:30.931Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/09/121642668-54bb861a-d4d7-457f-9311-bee23f98f2c9.jpg",
+      "sommario": "Il nove volte iridato ha raccontato lo spiacevole episodio: \"Nonostante siano passati tanti anni, mi brucia ancora\""
+    },
+    {
+      "id": "403ac890da1c",
+      "serie": "sbk",
+      "titolo": "Gardner: “Gli ultimi tre round sono stati molto difficili” | ESCLUSIVA",
+      "link": "https://www.motosprint.it/news/sbk/2026/11/11-9280851/gardner_gli_ultimi_tre_round_sono_stati_molto_difficili_esclusiva",
+      "fonte": "Motosprint",
+      "data": "2026-11-11T09:21:30.931Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/09/154633825-a4b59f99-f77b-4a16-9ee6-a1f6ba340c34.jpeg",
+      "sommario": "Remy si racconta ai nostri microfoni: “Naturalmente ci aspettavamo di essere più forti quest’anno a livello di prestazioni”\n"
+    },
     {
       "id": "402b0752e957",
       "serie": "motogp",
@@ -3970,36 +4000,6 @@
       "data": "2026-10-24T07:00:00.270Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/24/064246419-6f9e435c-7735-4a09-90ee-2a460ac05a3f.jpg",
       "sommario": "Il romano chiude a podio nonostante un primo giro complicato: \"Sono arrivato lungo in curva 4 e ho perso tante posizioni: peccato, rimango sempre con la sensazione di poter fare di più\""
-    },
-    {
-      "id": "76ef6ba6fb97",
-      "serie": "motogp",
-      "titolo": "I medici Aprilia su Martin: “Operazione possibile, ma speriamo di evitarla”",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/24-9226768/i_medici_aprilia_su_martin_operazione_possibile_ma_speriamo_di_evitarla",
-      "fonte": "Motosprint",
-      "data": "2026-10-24T07:00:00.270Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/24/061846964-eb7991e0-78f0-43ec-b017-30135acd5548.jpg",
-      "sommario": "Il Dottor Perona, direttore sanitario di Lifenet, ha fornito un primo quadro della situazione dello spagnolo, che ora dovrà fare i conti con una corsa contro il tempo\n"
-    },
-    {
-      "id": "6a16aa132190",
-      "serie": "motogp",
-      "titolo": "Bezzecchi limita i danni nella Sprint: “Mi girano le p***e, ma almeno mi sono divertito”",
-      "link": "https://www.motosprint.it/news/eventi/gp-australia/2026/10/24-9226772/bezzecchi_limita_i_danni_nella_sprint_mi_girano_le_p_e_ma_almeno_mi_sono_divertito",
-      "fonte": "Motosprint",
-      "data": "2026-10-24T07:00:00.270Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/24/063509841-4149bc52-ab4e-4091-92d2-9c8745bc3354.jpg",
-      "sommario": "Marco ha chiuso ai piedi del podio dopo essere partito dalla terza fila: “Mi sentivo bene sia sull’asciutto che sul bagnato, ma il mix della qualifica mi ha fregato”"
-    },
-    {
-      "id": "b6d9000eebb9",
-      "serie": "motogp",
-      "titolo": "Acosta: \"La KTM era molto instabile, mi sono limitato a portarla al traguardo\"",
-      "link": "https://www.gpone.com/it/2026/10/24/motogp/acosta-la-ktm-era-molto-instabile-mi-sono-limitato-a-portarla-al-traguardo.html",
-      "fonte": "GPOne",
-      "data": "2026-10-24T06:57:54.000Z",
-      "immagine": "",
-      "sommario": "\"Oggi non c'era molto altro da fare. La moto si muoveva dappertutto e non girava neanche così bene. Sul bagnato? Andiamo bene solo con tanta acqua\""
     }
   ]
 }
