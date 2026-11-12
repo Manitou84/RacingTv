@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-12T13:43:23.693Z",
+  "aggiornato": "2026-11-12T14:46:07.392Z",
   "articoli": [
+    {
+      "id": "a637bf5343d7",
+      "serie": "f1",
+      "titolo": "F1 in Qatar e Abu Dhabi, Fia e squadre daranno libertà di scelta al personale",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/12-9289474/f1_in_qatar_e_abu_dhabi_fia_e_squadre_daranno_libert_di_scelta_al_personale",
+      "fonte": "Autosprint",
+      "data": "2026-11-12T14:46:07.392Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/12/142223012-df7cf083-e150-46c5-807c-992950b9e607.jpg",
+      "sommario": "Il personale della Federazione potrà rinunciare alle ultime due trasferte, una linea di libertà di scelta personale anticipata anche da Ferrari e Mercedes"
+    },
+    {
+      "id": "7bff18799044",
+      "serie": "motogp",
+      "titolo": "Marquez e Acosta insieme in rosso: appuntamento il 18 gennaio per Campioni in Pista",
+      "link": "https://www.gpone.com/it/2026/11/12/motogp/marquez-e-acosta-insieme-in-rosso-appuntamento-il-18-gennaio-per-campioni-in-pista.html",
+      "fonte": "GPOne",
+      "data": "2026-11-12T14:30:12.000Z",
+      "immagine": "",
+      "sommario": "Fissata la data della presentazione del team Ducati a Madonna di Campiglio. Sul palco la nuova coppia formata da Marc e Pedro e la Desmosedici 850"
+    },
     {
       "id": "936acdd3f9ba",
       "serie": "sbk",
@@ -3980,26 +4000,6 @@
       "data": "2026-10-25T10:17:46.508Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/25/085931362-3e199f5f-67b5-4ff9-8448-9575eae4ee78.jpg",
       "sommario": "La cancellazione del GP domenicale ha lasciato tutti con l’amaro in bocca, soprattutto trattandosi dell’ultima volta sul circuito australiano: ecco cosa ha detto Marc a riguardo"
-    },
-    {
-      "id": "736470853b33",
-      "serie": "motogp",
-      "titolo": "MotoGP, Bagnaia e la soluzione con Tardozzi per correre a Phillip Island",
-      "link": "https://www.gpone.com/it/2026/10/25/motogp/pecco-bagnaia-aveva-la-soluzione-per-correre-a-phillip-island.html",
-      "fonte": "GPOne",
-      "data": "2026-10-25T09:52:39.000Z",
-      "immagine": "",
-      "sommario": "Un vero peccato aver perso l'ultima occasione di vedere un GP a Phillip Island, anche perché Bagnaia aveva trovato una soluzione perfetta, coinvolgendo Davide 'Iceman' Tardozzi."
-    },
-    {
-      "id": "514501540087",
-      "serie": "motogp",
-      "titolo": "Claudio Costa: “Martín, in Malesia è quasi impossibile. In Qatar l'impossibile diventa possibile”",
-      "link": "https://www.gpone.com/it/2026/10/25/motogp/claudio-costa-martin-in-malesia-e-quasi-impossibile-in-qatar-limpossibile-diventa-possibile.html",
-      "fonte": "GPOne",
-      "data": "2026-10-25T09:24:05.000Z",
-      "immagine": "",
-      "sommario": "\"Con il polso sinistro rotto ho fatto vincere Schwantz. Martín ha avuto la sfortuna di rompersi il destro. Al polso sinistro, avrebbe potuto correre in Malesia, naturalmente con la medicina 'eretica' di Costa\""
     }
   ]
 }
