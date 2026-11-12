@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-12T15:47:51.791Z",
+  "aggiornato": "2026-11-12T16:50:22.905Z",
   "articoli": [
+    {
+      "id": "711d5841d6ac",
+      "serie": "f1",
+      "titolo": "Kimi Antonelli: “Bezzecchi è uno dei miei migliori amici. Nel 2027 lotterà per il mondiale”",
+      "link": "https://www.gpone.com/it/2026/11/12/formula-1/kimi-antonelli-bezzecchi-e-uno-dei-miei-migliori-amici-nel-2027-lottera-per-il-mondiale.html",
+      "fonte": "GPOne",
+      "data": "2026-11-12T15:26:03.000Z",
+      "immagine": "",
+      "sommario": "\"Ne abbiamo parlato anche insieme e credo che questa stagione gli abbia insegnato tantissimo, soprattutto perché so quanto sia difficile confrontarsi con un pilota come Marc Marquez\""
+    },
     {
       "id": "bf4e4b9bbc2f",
       "serie": "sbk",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-25T11:00:25.000Z",
       "immagine": "",
       "sommario": "\"Oggi abbiamo trovato bene Jorge e questo ci dà fiducia. Rientrare sarebbe anche il suo obiettivo. Dovremo valutare giorno per giorno e attenerci al parere dei medici\""
-    },
-    {
-      "id": "b933e1388cbc",
-      "serie": "motogp",
-      "titolo": "Aldeguer rinuncia anche alla MotoGP di Sepang, Lecuona il sostituto",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/25-9230236/aldeguer_rinuncia_anche_alla_motogp_di_sepang_lecuona_il_sostituto",
-      "fonte": "Motosprint",
-      "data": "2026-10-25T10:17:46.508Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/25/085734841-71742d4a-8138-4230-80a2-1da36113e064.jpg",
-      "sommario": "Fermin salterà anche il Gran Premio di Malesia: Iker continua con la Ducati Desmosedici del team Gresini"
     }
   ]
 }
