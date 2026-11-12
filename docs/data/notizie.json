@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-12T10:28:06.889Z",
+  "aggiornato": "2026-11-12T11:26:19.911Z",
   "articoli": [
+    {
+      "id": "f6ea8aeb2db1",
+      "serie": "f1",
+      "titolo": "Russell lancia un'opportunità per i giovani kartisti",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/12-9288308/russell_lancia_un_opportunit_per_i_giovani_kartisti",
+      "fonte": "Autosprint",
+      "data": "2026-11-12T11:26:19.911Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/12/093251839-11e014e0-628d-4ba4-96f0-ea4d35b4c9aa.jpg",
+      "sommario": "Il pilota Mercedes lancia la GR63 Academy a Silverstone: 25 giovani kartisti selezionati per un campionato finanziato e un percorso verso il motorsport"
+    },
     {
       "id": "6f53a8850ead",
       "serie": "sbk",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-25T08:41:55.000Z",
       "immagine": "",
       "sommario": "\"Ma per problemi di scarsa visibilità l'elicottero non poteva volare. Decisione presa per ragioni di sicurezza. Dispiace molto per i tifosi, Phillip Island rimarrà uno dei miei circuiti preferiti\""
-    },
-    {
-      "id": "664ac61269df",
-      "serie": "motogp",
-      "titolo": "I 45 minuti che hanno fermato Phillip Island: Webber spiega perché non si è corso",
-      "link": "https://www.gpone.com/it/2026/10/25/motogp/i-45-minuti-che-hanno-fermato-phillip-island-webber-spiega-perche-non-si-e-corso.html",
-      "fonte": "GPOne",
-      "data": "2026-10-25T08:22:08.000Z",
-      "immagine": "",
-      "sommario": "PARLA IL DIRETTORE DI GARA L'ospedale è troppo lontano per il trasporto in ambulanza e il maltempo non garantiva all'elicottero medico una finestra operativa di 60 minuti tra Phillip Island e Melbourne"
     }
   ]
 }
