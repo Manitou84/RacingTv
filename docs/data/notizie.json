@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-12T08:12:33.055Z",
+  "aggiornato": "2026-11-12T09:26:31.023Z",
   "articoli": [
+    {
+      "id": "4d4d8a2fbd1b",
+      "serie": "motogp",
+      "titolo": "MotoGP, l’altro confronto: Ducati e Aprilia vicinissime nel mondiale Costruttori",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/12-9288139/motogp_laltro_confronto_ducati_e_aprilia_vicinissime_nel_mondiale_costruttori",
+      "fonte": "Motosprint",
+      "data": "2026-11-12T09:26:31.023Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/12/090032959-4a618ac3-bc65-4f20-a0ce-53207258bba7.jpg",
+      "sommario": "Mentre per il titolo piloti Marquez ha ormai preso il largo ed è prossimo a festeggiare il titolo, per quel che riguarda le Case la lotta per il primato è ancora serrata"
+    },
+    {
+      "id": "f6fadcc812c2",
+      "serie": "motogp",
+      "titolo": "MotoGP, Valentino Rossi: \"C’è stato il rischio che mia figlia nascesse nel giorno di Marquez\".",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/12-9287060/motogp_valentino_rossi_c_stato_il_rischio_che_mia_figlia_nascesse_nel_giorno_di_marquez_",
+      "fonte": "Motosprint",
+      "data": "2026-11-12T09:26:31.023Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/11/135803272-7e8e49c6-bcf9-4a8e-ae62-61b9cd4a669d.jpg",
+      "sommario": "Il nove volte campione del mondo ha raccontato con ironia il timore che la primogenita potesse nascere il 17 febbraio, condividendo così il compleanno con il suo storico rivale"
+    },
     {
       "id": "365b2fecf17f",
       "serie": "f1",
@@ -3980,26 +4000,6 @@
       "data": "2026-10-25T06:37:28.000Z",
       "immagine": "",
       "sommario": "Da Miller a Morbidelli, passando per Bagnaia, Bastianini e Bezzecchi, i piloti della MotoGP non hanno nascosto il loro dispiacere per non essersi potuti congedare dalla pista australiana con un’altra battaglia"
-    },
-    {
-      "id": "532596a3e60f",
-      "serie": "motogp",
-      "titolo": "Confermata una sola frattura per Martin: sarà presente a Sepang",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/25-9229975/confermata_una_sola_frattura_per_martin_sar_presente_a_sepang",
-      "fonte": "Motosprint",
-      "data": "2026-10-25T06:23:31.142Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/25/055758504-12fd71c1-0e61-42cd-b59b-e2373875188c.jpg",
-      "sommario": "Lo spagnolo ha cambiato i propri piani e volerà in Malesia, ma la sua presenza in pista resta ancora in forte dubbio"
-    },
-    {
-      "id": "cc63bad2336c",
-      "serie": "motogp",
-      "titolo": "A Phillip Island vince il maltempo: cancellata la gara della MotoGP",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/25-9229974/a_phillip_island_vince_il_maltempo_cancellata_la_gara_della_motogp",
-      "fonte": "Motosprint",
-      "data": "2026-10-25T06:23:31.142Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/25/053915826-e62b88de-99b7-4f5c-b4a5-702b6d97c276.jpeg",
-      "sommario": "Dopo Moto3 e Moto2, anche la classe regina deve dire addio alla sua corsa. L’ultimo saluto all’isola con un giro di parata. Un errore la mancata inversione tra Sprint e GP?\n"
     }
   ]
 }
