@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-12T16:50:22.905Z",
+  "aggiornato": "2026-11-12T17:43:30.933Z",
   "articoli": [
+    {
+      "id": "8a3aea1b4248",
+      "serie": "motogp",
+      "titolo": "Bulega e Ducati piegano Savadori e Aprilia nei test di Jerez",
+      "link": "https://www.gpone.com/it/2026/11/12/motogp/bulega-e-ducati-piegano-savadori-e-aprilia-nei-test-di-jerez.html",
+      "fonte": "GPOne",
+      "data": "2026-11-12T17:31:44.000Z",
+      "immagine": "",
+      "sommario": "Nicolò chiude davanti a tutti la seconda giornata, rifilando tre decimi alla RS-GP di Lorenzo. 3° Pol Espargarò. Pirro con la Panigale V4 a 3”7 dalla Ducati MotoGP 850. Fermo Lecuona"
+    },
     {
       "id": "711d5841d6ac",
       "serie": "f1",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-25T11:48:27.000Z",
       "immagine": "",
       "sommario": "I team dicono di fidarsi dell'organizzatore, ma intanto i Governi europei sconsigliano viaggi non necessari nell'area. Lo spettacolo non può andare avanti a tutti i costi"
-    },
-    {
-      "id": "f783aa4dec50",
-      "serie": "motogp",
-      "titolo": "Bonora apre al rientro di Martin in Malesia: \"Ci lavoreremo, siamo ottimisti\"",
-      "link": "https://www.gpone.com/it/2026/10/25/motogp/bonora-apre-al-rientro-di-martin-in-malesia-ci-lavoreremo-siamo-ottimisti.html",
-      "fonte": "GPOne",
-      "data": "2026-10-25T11:00:25.000Z",
-      "immagine": "",
-      "sommario": "\"Oggi abbiamo trovato bene Jorge e questo ci dà fiducia. Rientrare sarebbe anche il suo obiettivo. Dovremo valutare giorno per giorno e attenerci al parere dei medici\""
     }
   ]
 }
