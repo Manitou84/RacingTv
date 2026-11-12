@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-12T12:21:01.718Z",
+  "aggiornato": "2026-11-12T13:43:23.693Z",
   "articoli": [
+    {
+      "id": "936acdd3f9ba",
+      "serie": "sbk",
+      "titolo": "Doppia gara a Spa e un nuovo format: tutte le novità del Mondiale Endurance 2027",
+      "link": "https://www.gpone.com/it/2026/11/12/wsbk/doppia-gara-a-spa-e-un-nuovo-format-tutte-le-novita-del-mondiale-endurance-2027.html",
+      "fonte": "GPOne",
+      "data": "2026-11-12T13:23:57.000Z",
+      "immagine": "",
+      "sommario": "Svelato il calendario della prossima stagione dell’EWC, che passerà da quattro a cinque appuntamenti. Cambia anche il programma delle 24 Ore e delle Qualifiche, a partire dal Round a Le Mans"
+    },
     {
       "id": "28726d46538c",
       "serie": "motogp",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-25T09:24:05.000Z",
       "immagine": "",
       "sommario": "\"Con il polso sinistro rotto ho fatto vincere Schwantz. Martín ha avuto la sfortuna di rompersi il destro. Al polso sinistro, avrebbe potuto correre in Malesia, naturalmente con la medicina 'eretica' di Costa\""
-    },
-    {
-      "id": "41cf0787139d",
-      "serie": "motogp",
-      "titolo": "Bulega elogia Marquez: “E’ un fenomeno, spero di imparare molto da lui”",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/25-9230108/bulega_elogia_marquez_e_un_fenomeno_spero_di_imparare_molto_da_lui",
-      "fonte": "Motosprint",
-      "data": "2026-10-25T08:56:36.076Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/25/080427804-f81a1dee-27e3-4843-a109-a0d6167f3c4a.jpg",
-      "sommario": "Il campione del mondo SBK e futuro pilota MotoGP e ha parlato di Marc prendendolo come esempio da seguire: “Ci sono tanti avversari tosti, ma lui...”"
     }
   ]
 }
