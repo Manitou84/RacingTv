@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-12T17:43:30.933Z",
+  "aggiornato": "2026-11-12T18:40:45.922Z",
   "articoli": [
+    {
+      "id": "4f149c40759a",
+      "serie": "motogp",
+      "titolo": "ESPN trasmetterà la MotoGP negli Stati Uniti e in America Latina dal 2027",
+      "link": "https://www.gpone.com/it/2026/11/12/motogp/espn-trasmettera-la-motogp-negli-stati-uniti-e-in-america-latina-dal-2027.html",
+      "fonte": "GPOne",
+      "data": "2026-11-12T17:55:58.000Z",
+      "immagine": "",
+      "sommario": "L’emittente garantirà la copertura delle gare nel continente americano nel prossimo biennio. Carlos Ezpeleta: “È la piattaforma ideale per continuare ad ampliare la diffusione della MotoGP”"
+    },
     {
       "id": "8a3aea1b4248",
       "serie": "motogp",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-25T12:25:20.000Z",
       "immagine": "",
       "sommario": "VIDEO - La pioggia cancella il GP d'Australia, Martín evita l'operazione e sul Qatar restano molti dubbi. Il Mondiale si decide fuori dalla pista? Ne parliamo con Carlo Pernat"
-    },
-    {
-      "id": "95a01f8d9f29",
-      "serie": "motogp",
-      "titolo": "Qatar sì o no? I dubbi restano, Carlos Ezpeleta sarà a Doha mercoledì",
-      "link": "https://www.gpone.com/it/2026/10/25/motogp/qatar-si-o-no-i-dubbi-restano-carlos-ezpeleta-sara-a-doha-mercoledi.html",
-      "fonte": "GPOne",
-      "data": "2026-10-25T11:48:27.000Z",
-      "immagine": "",
-      "sommario": "I team dicono di fidarsi dell'organizzatore, ma intanto i Governi europei sconsigliano viaggi non necessari nell'area. Lo spettacolo non può andare avanti a tutti i costi"
     }
   ]
 }
