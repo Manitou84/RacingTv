@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-12T14:46:07.392Z",
+  "aggiornato": "2026-11-12T15:47:51.791Z",
   "articoli": [
+    {
+      "id": "bf4e4b9bbc2f",
+      "serie": "sbk",
+      "titolo": "Althea non si ferma e ci sarà: Giombini al via del Mondiale con la Ducati V2",
+      "link": "https://www.gpone.com/it/2026/11/12/wsbk/althea-non-si-ferma-e-ci-sara-giombini-al-via-del-mondiale-con-la-ducati-v2.html",
+      "fonte": "GPOne",
+      "data": "2026-11-12T15:23:43.000Z",
+      "immagine": "",
+      "sommario": "Nonostante la scomparsa di Genesio Bevilacqua ad inizio anno, la squadra sarà al via del prossimo mondiale SuperSport con una new entry"
+    },
     {
       "id": "a637bf5343d7",
       "serie": "f1",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-25T10:17:46.508Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/25/085734841-71742d4a-8138-4230-80a2-1da36113e064.jpg",
       "sommario": "Fermin salterà anche il Gran Premio di Malesia: Iker continua con la Ducati Desmosedici del team Gresini"
-    },
-    {
-      "id": "a37103744ee3",
-      "serie": "motogp",
-      "titolo": "Il disappunto di Marquez: “Phillip Island non meritava un addio come questo”",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/25-9230235/il_disappunto_di_marquez_phillip_island_non_meritava_un_addio_come_questo",
-      "fonte": "Motosprint",
-      "data": "2026-10-25T10:17:46.508Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/25/085931362-3e199f5f-67b5-4ff9-8448-9575eae4ee78.jpg",
-      "sommario": "La cancellazione del GP domenicale ha lasciato tutti con l’amaro in bocca, soprattutto trattandosi dell’ultima volta sul circuito australiano: ecco cosa ha detto Marc a riguardo"
     }
   ]
 }
