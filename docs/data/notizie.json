@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-11-12T06:55:22.514Z",
+  "aggiornato": "2026-11-12T08:12:33.055Z",
   "articoli": [
+    {
+      "id": "365b2fecf17f",
+      "serie": "f1",
+      "titolo": "Antonelli a Brackley per la festa Mercedes, l'omaggio all'amico Valentino e all'Italia",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/12-9287927/antonelli_a_brackley_per_la_festa_mercedes_l_omaggio_all_amico_valentino_e_all_italia",
+      "fonte": "Autosprint",
+      "data": "2026-11-12T08:12:33.055Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/12/080555688-b3582908-4681-4b5a-9bbf-07d2504c10c9.jpg",
+      "sommario": "Lo aveva promesso nelle scorse settimane e lo ha fatto. In fabbrica, in Inghilterra, Andrea Kimi si è presentato con i capelli multicolor "
+    },
+    {
+      "id": "d449ddf6a973",
+      "serie": "f1",
+      "titolo": "Formula 1, il caso Ocon non è isolato: chi non ha concluso la sua stagione?",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/12-9287757/formula_1_il_caso_ocon_non_isolato_chi_non_ha_concluso_la_sua_stagione_",
+      "fonte": "Autosprint",
+      "data": "2026-11-12T08:12:33.055Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/12/080432617-97c5533a-b3f3-4306-8b31-2d77638bb877.jpg",
+      "sommario": "L’addio anticipato di Ocon riporta alla memoria alcune delle separazioni più clamorose della storia recente della F1: chi ha perso il volante prima del previsto?"
+    },
+    {
+      "id": "695f295f8dc3",
+      "serie": "motogp",
+      "titolo": "Jorge Lorenzo furioso con i media: “Supera ogni limite di manipolazione giornalistica”",
+      "link": "https://www.gpone.com/it/2026/11/12/motogp/jorge-lorenzo-furioso-con-i-media-supera-ogni-limite-di-manipolazione-giornalistica.html",
+      "fonte": "GPOne",
+      "data": "2026-11-12T07:38:27.000Z",
+      "immagine": "",
+      "sommario": "Jorge denuncia la diffusione di notizie false e titoli che tirano in ballo Valentino Rossi, mai nominato nelle sue dichiarazioni su Márquez e Agostini: “Questo tipo di condotta dovrebbe essere severamente punito!”"
+    },
     {
       "id": "a64a66615e87",
       "serie": "f1",
@@ -3970,36 +4000,6 @@
       "data": "2026-10-25T06:23:31.142Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/25/053915826-e62b88de-99b7-4f5c-b4a5-702b6d97c276.jpeg",
       "sommario": "Dopo Moto3 e Moto2, anche la classe regina deve dire addio alla sua corsa. L’ultimo saluto all’isola con un giro di parata. Un errore la mancata inversione tra Sprint e GP?\n"
-    },
-    {
-      "id": "2f9a0fe4f302",
-      "serie": "motogp",
-      "titolo": "VIDEO - L'ultimo saluto dei piloti a Phillip Island",
-      "link": "https://www.gpone.com/it/2026/10/25/motogp/video-lultimo-saluto-dei-piloti-a-phillip-island.html",
-      "fonte": "GPOne",
-      "data": "2026-10-25T05:20:16.000Z",
-      "immagine": "",
-      "sommario": "Il maltempo cancella l'ultima gara della MotoGP a Phillip Island. I piloti salutano il pubblico con un giro d'onore: il racconto dalla griglia."
-    },
-    {
-      "id": "d8a4a38b213b",
-      "serie": "motogp",
-      "titolo": "La pioggia fa un regalo a Martín e uno a Márquez: il paradosso del Mondiale",
-      "link": "https://www.gpone.com/it/2026/10/25/motogp/la-pioggia-fa-un-regalo-a-martin-e-uno-a-marquez-il-paradosso-del-mondiale.html",
-      "fonte": "GPOne",
-      "data": "2026-10-25T04:55:25.000Z",
-      "immagine": "",
-      "sommario": "Il GP d'Australia cancellato evita a Jorge di perdere altri 25 punti contro Marc. Ma se salta anche il Qatar, resteranno soltanto 111 punti da assegnare: il vantaggio del ducatista peserà sempre di più"
-    },
-    {
-      "id": "9bf4a580b162",
-      "serie": "motogp",
-      "titolo": "ULTIM'ORA - Il Gran Premio di Australia è stato cancellato",
-      "link": "https://www.gpone.com/it/2026/10/25/motogp/ultimora-il-gran-premio-di-australia-e-stato-cancellato.html",
-      "fonte": "GPOne",
-      "data": "2026-10-25T04:40:20.000Z",
-      "immagine": "",
-      "sommario": "La scarsa visibilità non consente all'elicottero medico di volare. I piloti faranno un giro dietro alla Safety Car per salutare i tifosi"
     }
   ]
 }
