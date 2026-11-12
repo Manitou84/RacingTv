@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-12T11:26:19.911Z",
+  "aggiornato": "2026-11-12T12:21:01.718Z",
   "articoli": [
+    {
+      "id": "28726d46538c",
+      "serie": "motogp",
+      "titolo": "Ritorno con podio per Raúl Fernández, pedina importante per Aprilia in vista del gran finale",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/12-9288748/ritorno_con_podio_per_ral_fernndez_pedina_importante_per_aprilia_in_vista_del_gran_finale",
+      "fonte": "Motosprint",
+      "data": "2026-11-12T12:21:01.718Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/12/104709107-0338001d-9297-416b-bac9-21899d0fb5cb.jpeg",
+      "sommario": "Il madrileno, vista la sua conclamata velocità anche dopo l'infortunio alla mano, potrebbe rivelarsi fondamentale sia per la lotta nel Costruttori che del campionato team"
+    },
     {
       "id": "f6ea8aeb2db1",
       "serie": "f1",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-25T08:56:36.076Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/25/080427804-f81a1dee-27e3-4843-a109-a0d6167f3c4a.jpg",
       "sommario": "Il campione del mondo SBK e futuro pilota MotoGP e ha parlato di Marc prendendolo come esempio da seguire: “Ci sono tanti avversari tosti, ma lui...”"
-    },
-    {
-      "id": "3f4ffa8f1f79",
-      "serie": "motogp",
-      "titolo": "Marquez: \"Le condizioni della pista erano accettabili e noi piloti pronti a correre\"",
-      "link": "https://www.gpone.com/it/2026/10/25/motogp/marquez-le-condizioni-della-pista-erano-accettabili-e-noi-piloti-pronti-a-correre.html",
-      "fonte": "GPOne",
-      "data": "2026-10-25T08:41:55.000Z",
-      "immagine": "",
-      "sommario": "\"Ma per problemi di scarsa visibilità l'elicottero non poteva volare. Decisione presa per ragioni di sicurezza. Dispiace molto per i tifosi, Phillip Island rimarrà uno dei miei circuiti preferiti\""
     }
   ]
 }
