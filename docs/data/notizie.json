@@ -1,6 +1,46 @@
 {
-  "aggiornato": "2026-11-13T08:10:40.356Z",
+  "aggiornato": "2026-11-13T09:25:00.858Z",
   "articoli": [
+    {
+      "id": "73c542cb84f6",
+      "serie": "motogp",
+      "titolo": "MotoGP, Kimi Antonelli è sicuro: “Bezzecchi lotterà per il mondiale 2027”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/13-9290690/motogp_kimi_antonelli_sicuro_bezzecchi_lotter_per_il_mondiale_2027",
+      "fonte": "Motosprint",
+      "data": "2026-11-13T09:25:00.858Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/13/084656762-542a615a-dd8b-4ddd-8f41-a45f73f3af12.jpg",
+      "sommario": "Il campione del mondo di Formula 1, grande amico di Marco, ha parlato di lui durante un evento a San Marino: “E’ uno dei miei migliori amici, bellissimo vederlo vincere in Qatar”"
+    },
+    {
+      "id": "44bb59c90ed2",
+      "serie": "f1",
+      "titolo": "Formula 1, un business da capogiro: corre il valore degli 11 team",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/13-9290190/formula_1_un_business_da_capogiro_corre_il_valore_degli_11_team",
+      "fonte": "Autosprint",
+      "data": "2026-11-13T09:25:00.858Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/13/083842078-e48d29c8-74e0-4c43-bda2-2b68438fa24d.jpg",
+      "sommario": "L'incremento percentuale rispetto al 2025 oscilla tra il 30 e il 67% rendendo la F1 un affare secondo solo a NFL e NBA. Ferrari la squadra che vale di più"
+    },
+    {
+      "id": "dad6dff18771",
+      "serie": "f1",
+      "titolo": "Come funzionano i controlli antidoping in F1, il caso di Gasly è esemplare",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/13-9289933/come_funzionano_i_controlli_antidoping_in_f1_il_caso_di_gasly_esemplare",
+      "fonte": "Autosprint",
+      "data": "2026-11-13T09:25:00.858Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/13/082126913-5453f090-7db2-4fa7-b26a-456aedea225e.jpg",
+      "sommario": "Non se ne parla mai, ma anche nel Circus vengono effettuate le analisi per scovare l'eventuale uso di sostanze proibite da parte dei piloti. L'ultima volta è stata in Brasile"
+    },
+    {
+      "id": "9a333817a800",
+      "serie": "motogp",
+      "titolo": "VIDEO - Pedrosa re del ghiaccio: con la KTM batte anche una Formula 1",
+      "link": "https://www.gpone.com/it/2026/11/13/motogp/video-pedrosa-re-del-ghiaccio-con-la-ktm-batte-anche-una-formula-1.html",
+      "fonte": "GPOne",
+      "data": "2026-11-13T08:42:00.000Z",
+      "immagine": "",
+      "sommario": "Lo spagnolo conquista la Red Bull Ultimate Winter Race su un lago ghiacciato del Wisconsin. Una RC16 con 507 chiodi, una monoposto da F1, un’auto da rally, un truck e una motoslitta: gli ingredienti per una sfida decisam"
+    },
     {
       "id": "4f149c40759a",
       "serie": "motogp",
@@ -3960,46 +4000,6 @@
       "data": "2026-10-25T18:07:33.000Z",
       "immagine": "",
       "sommario": "“L’Australia avrebbe meritato di chiudere alla grande, ma credo che questo sia un segno per farci tornare in futuro. Avvantaggiato o no dalla cancellazione del GP, vedo difficile il fatto di esserci a Sepang”"
-    },
-    {
-      "id": "cc6337e97f6e",
-      "serie": "motogp",
-      "titolo": "Aldeguer alza bandiera bianca: Lecuona correrà anche a Sepang",
-      "link": "https://www.gpone.com/it/2026/10/25/motogp/aldeguer-alza-bandiera-bianca-lecuona-correra-anche-a-sepang.html",
-      "fonte": "GPOne",
-      "data": "2026-10-25T15:49:09.000Z",
-      "immagine": "",
-      "sommario": "Fermin non ha ancora recuperato dall’infortunio, pertanto ci sarà Iker sulla Desmosedici di Gresini in Malesia"
-    },
-    {
-      "id": "21e4d737dc15",
-      "serie": "sbk",
-      "titolo": "Mizuno e Ducati Kagayama conquistano il Campionato giapponese SBK",
-      "link": "https://www.gpone.com/it/2026/10/25/wsbk/mizuno-e-ducati-kagayama-conquistano-il-campionato-giapponese-sbk.html",
-      "fonte": "GPOne",
-      "data": "2026-10-25T15:27:41.000Z",
-      "immagine": "",
-      "sommario": "Con otto vittorie su dieci gare, la Casa di Borgo Panigale è la prima non giapponese nella storia a festeggiare il titolo in Sol Levante con la vecchia Panigale V4"
-    },
-    {
-      "id": "6a3d280755da",
-      "serie": "f1",
-      "titolo": "Saltare un GP per la nascita di suo figlio? Leclerc risponde",
-      "link": "https://www.autosprint.it/news/formula1/2026/10/25-9230573/saltare_un_gp_per_la_nascita_di_suo_figlio_leclerc_risponde",
-      "fonte": "Autosprint",
-      "data": "2026-10-25T13:54:35.653Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/25/132717064-cdaaf91c-0aca-4d9e-9f35-550fac1a2fda.jpg",
-      "sommario": "Prima del gran premio degli Stati Uniti è stato chiesto a Charles Leclerc se intendesse saltare una gara se fosse coinciso col momento in cui sarebbe diventato papà"
-    },
-    {
-      "id": "1d64bb3fdb0a",
-      "serie": "motogp",
-      "titolo": "LIVE Bar Sport alle 19:00 - Phillip Island cancellata, il Mondiale è una lotteria!",
-      "link": "https://www.gpone.com/it/2026/10/25/motogp/live-bar-sport-alle-19-00-phillip-island-cancellata-il-mondiale-e-una-lotteria.html",
-      "fonte": "GPOne",
-      "data": "2026-10-25T12:25:20.000Z",
-      "immagine": "",
-      "sommario": "VIDEO - La pioggia cancella il GP d'Australia, Martín evita l'operazione e sul Qatar restano molti dubbi. Il Mondiale si decide fuori dalla pista? Ne parliamo con Carlo Pernat"
     }
   ]
 }
