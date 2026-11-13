@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-13T11:22:22.686Z",
+  "aggiornato": "2026-11-13T12:20:07.167Z",
   "articoli": [
+    {
+      "id": "b941a9a25c4a",
+      "serie": "f1",
+      "titolo": "Hamilton dalla parte dei giovani piloti: non voglio parlarne male come fanno altri",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/13-9291601/hamilton_dalla_parte_dei_giovani_piloti_non_voglio_parlarne_male_come_fanno_altri",
+      "fonte": "Autosprint",
+      "data": "2026-11-13T12:20:07.167Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/13/121156358-97a8d8c6-59bd-42cd-85f9-7a59b8df548c.jpg",
+      "sommario": "Il giudizio di Lewis sul livello dei giovani piloti in griglia è molto positivo e le parole sembrano quasi \"rispondere\" a un giudizio molto diverso espresso da Alonso"
+    },
+    {
+      "id": "1cd642dcae15",
+      "serie": "motogp",
+      "titolo": "Aprilia 850 in video: Savadori mostra la MotoGP 2027 e ringrazia il test team",
+      "link": "https://www.gpone.com/it/2026/11/13/motogp/savadori-dice-grazie-al-test-team-e-mostra-laprilia-850-in-azione.html",
+      "fonte": "GPOne",
+      "data": "2026-11-13T11:40:04.000Z",
+      "immagine": "",
+      "sommario": "Test conclusi a Jerez, Lorenzo ha voluto rendere merito a chi lavora dietro le quinte e ha pubblicato un breve video della RS-GP 2027 in azione"
+    },
     {
       "id": "83f25376292e",
       "serie": "motogp",
@@ -3980,26 +4000,6 @@
       "data": "2026-10-26T16:22:51.576Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/26/135455518-af61451a-41f8-41a2-8d54-be412a2aa96f.jpg",
       "sommario": "Marc vince sia ul piano tecnico che mentale, mentre Jorge si lecca le ferite dopo aver però mostrato carattere. Bezzecchi tra ottimismo ed una occasione persa, Jack saluta nel modo migliore"
-    },
-    {
-      "id": "0ea94b590062",
-      "serie": "motogp",
-      "titolo": "Acosta: “Marquez è il miglior pilota degli ultimi 15 anni, è al livello di Rossi”",
-      "link": "https://www.gpone.com/it/2026/10/26/motogp/acosta-marquez-e-il-miglior-pilota-degli-ultimi-15-anni-e-al-livello-di-rossi.html",
-      "fonte": "GPOne",
-      "data": "2026-10-26T12:47:35.000Z",
-      "immagine": "",
-      "sommario": "“Li metto sullo stesso piano: Valentino ha fatto molto a livello mediatico, mentre Marc ha dato il massimo in pista, battendo tutti i grandi piloti che ha affrontato. Lorenzo? Mi hanno detto spesso che gli somiglio”"
-    },
-    {
-      "id": "38cfc5f8ff53",
-      "serie": "motogp",
-      "titolo": "Martin, rientro lampo a Sepang: ecco il piano di Aitor Tomas, fisioterapista del pilota",
-      "link": "https://www.gpone.com/it/2026/10/26/motogp/ecco-il-piano-per-il-rientro-lampo-di-martin-parla-aigor-tomas-fisioterapista-dello-spangolo.html",
-      "fonte": "GPOne",
-      "data": "2026-10-26T12:22:09.000Z",
-      "immagine": "",
-      "sommario": "Il percorso per provare a correre in Malesia avrà due fasi: \"Crioterapia e massaggi per ridurre l'infiammazione e recuperare mobilità\". E poi: \"Magnetoterapia per rigenerare l'osso\""
     }
   ]
 }
