@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-13T13:39:38.647Z",
+  "aggiornato": "2026-11-13T14:43:22.390Z",
   "articoli": [
+    {
+      "id": "2a4688ad37df",
+      "serie": "motogp",
+      "titolo": "Il GP d'Argentina prende forma: il tracciato di Buenos Aires sarà pronto a marzo",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/13-9291857/il_gp_d_argentina_prende_forma_il_tracciato_di_buenos_aires_sar_pronto_a_marzo",
+      "fonte": "Motosprint",
+      "data": "2026-11-13T14:43:22.390Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/13/133507513-7ac5a2c0-b21e-4fd9-9089-2b89239c5f83.jpeg",
+      "sommario": "Continuano i lavori all'Oscar y Juan Gálvez, dall'asfaltatura della pista fino al completamento del tunnel che porterà dall'entrata al paddock. Ma l'Argentina non vuole fermarsi alla MotoGP..."
+    },
+    {
+      "id": "6d1fe024105e",
+      "serie": "f1",
+      "titolo": "Il Commendatore Antonelli guarda al 2027: \"Novità importanti e Max mi darà più problemi\"",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/13-9291858/il_commendatore_antonelli_guarda_al_2027_novit_importanti_e_max_mi_dar_pi_problemi",
+      "fonte": "Autosprint",
+      "data": "2026-11-13T14:43:22.390Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/13/141311548-88bb1e77-20ce-4116-9185-a2263c3df5ed.jpg",
+      "sommario": "Il rientro in Italia di Kimi è stato accompagnato dall'onorificienza di Commendatore ricevuta a San Marino, dove ha parlato della popolarità e delle sfide in arrivo"
+    },
     {
       "id": "eef4ff32865f",
       "serie": "motogp",
@@ -3980,26 +4000,6 @@
       "data": "2026-10-27T07:17:30.000Z",
       "immagine": "",
       "sommario": "Iker sarà in azione con la Panigale V4 insieme ai collaudatori MotoGP. Ducati punta a portare in pista la nuova componente dopo le fragilità emerse ad Assen"
-    },
-    {
-      "id": "dffc27c4d049",
-      "serie": "f1",
-      "titolo": "Allarme mal di schiena in F1. Verstappen: \"La mia colonna vertebrale è messa male\"",
-      "link": "https://www.autosprint.it/news/formula1/2026/10/26-9234355/allarme_mal_di_schiena_in_f1_verstappen_la_mia_colonna_vertebrale_messa_male",
-      "fonte": "Autosprint",
-      "data": "2026-10-26T22:28:49.757Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/26/125407364-1d4de6e1-7443-4975-b902-c4cd33607d26.jpg",
-      "sommario": "Diversi piloti si sono uniti per denunciare una situazione che potrebbe aggravarsi se non si trovasse una soluzione. Hamilton, però, prende le distanze"
-    },
-    {
-      "id": "4cbd4bfdeb2b",
-      "serie": "motogp",
-      "titolo": "Fast By Prosecco, Phillip Island - Pernat: “Cinque piloti fuori! La MotoGP sta andando contro un muro”",
-      "link": "https://www.gpone.com/it/2026/10/26/motogp/fast-by-prosecco-phillip-island-pernat-cinque-piloti-fuori-la-motogp-sta-andando-contro-un-muro.html",
-      "fonte": "GPOne",
-      "data": "2026-10-26T19:57:40.000Z",
-      "immagine": "",
-      "sommario": "VIDEO - Carlo Pernat attacca le Sprint e il calendario MotoGP: troppi infortuni, Martín rischia il Mondiale e l'addio a Phillip Island è una vergogna"
     }
   ]
 }
