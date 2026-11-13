@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-13T16:42:25.265Z",
+  "aggiornato": "2026-11-13T17:40:18.303Z",
   "articoli": [
+    {
+      "id": "a409a39b9566",
+      "serie": "sbk",
+      "titolo": "Honda non si ferma: test incrociato MotoGP/SBK a Sepang con Espargarò e Rea",
+      "link": "https://www.gpone.com/it/2026/11/13/wsbk/honda-non-si-ferma-test-incrociato-motogpsbk-a-sepang-con-espargaro-e-rea.html",
+      "fonte": "GPOne",
+      "data": "2026-11-13T17:35:01.000Z",
+      "immagine": "",
+      "sommario": "Settimana di fuoco per HRC in Malesia: Aleix ha lavorato sulla 850 in vista di Valencia mentre Johnny è tornato nuovamente in pista con la nuova CBR 1000 RR-R"
+    },
     {
       "id": "a42c6269ff34",
       "serie": "f1",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-27T09:17:31.000Z",
       "immagine": "",
       "sommario": "È lo stesso Jorge a non farsi illusioni: \"sto seguendo tutti i trattamenti, ma dobbiamo valutare la situazione giorno per giorno\""
-    },
-    {
-      "id": "fc470938ef5d",
-      "serie": "f1",
-      "titolo": "F1 e ciclismo sempre più vicini, un ex del Circus diventa socio di Contador e Basso",
-      "link": "https://www.autosprint.it/news/formula1/2026/10/27-9235872/f1_e_ciclismo_sempre_pi_vicini_un_ex_del_circus_diventa_socio_di_contador_e_basso",
-      "fonte": "Autosprint",
-      "data": "2026-10-27T07:38:22.044Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/27/071031258-48afa576-8bda-4787-9ff9-31f38998848b.jpeg",
-      "sommario": "Anche Alonso in passato aveva tentato di entrare nel mondo delle due ruote a pedale, mentre Bottas è ormai un habitué "
     }
   ]
 }
