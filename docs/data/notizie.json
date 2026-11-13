@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-13T18:39:11.780Z",
+  "aggiornato": "2026-11-13T19:44:26.576Z",
   "articoli": [
+    {
+      "id": "c9120e0e27bf",
+      "serie": "f1",
+      "titolo": "Antonelli-Mattarella, incontro al Quirinale: Kimi invita il Presidente a Monza",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/13-9292997/antonelli-mattarella_incontro_al_quirinale_kimi_invita_il_presidente_a_monza",
+      "fonte": "Autosprint",
+      "data": "2026-11-13T19:44:26.576Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/13/191202777-e6b1b91a-e658-495c-a963-e6fc14f0d3a9.jpg",
+      "sommario": "Dopo 73 anni finalmente un italiano torna a vincere il Mondiale di F1: il Presidente della Repubblica lo accoglie a Roma con tutti gli onori insieme alla famiglia (e riceve un casco in regalo)"
+    },
     {
       "id": "a409a39b9566",
       "serie": "sbk",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-27T09:29:13.807Z",
       "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/27/083434494-c0294ad4-4188-4fad-bbdc-25bf8114a6c6.jpeg",
       "sommario": "Lewis parla delle recenti prestazioni e indica nelle scelte d'assetto il punto cruciale, negli USA le difficoltà sulle curve lente superate solo nell'ultimo stint"
-    },
-    {
-      "id": "4ecc917c4033",
-      "serie": "motogp",
-      "titolo": "Martin è a Sepang, ma correrà? \"Impossibile fare delle previsioni\"",
-      "link": "https://www.gpone.com/it/2026/10/27/motogp/martin-e-a-sepang-ma-correra-impossibile-fare-delle-previsioni.html",
-      "fonte": "GPOne",
-      "data": "2026-10-27T09:17:31.000Z",
-      "immagine": "",
-      "sommario": "È lo stesso Jorge a non farsi illusioni: \"sto seguendo tutti i trattamenti, ma dobbiamo valutare la situazione giorno per giorno\""
     }
   ]
 }
