@@ -1,6 +1,56 @@
 {
-  "aggiornato": "2026-11-13T10:26:06.709Z",
+  "aggiornato": "2026-11-13T11:22:22.686Z",
   "articoli": [
+    {
+      "id": "83f25376292e",
+      "serie": "motogp",
+      "titolo": "La folle sfida di RedBull: MotoGP, F1, Rally, Truck e Motoslitta tutti contro tutti sul ghiaccio!",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/13-9291089/la_folle_sfida_di_redbull_motogp_f1_rally_truck_e_motoslitta_tutti_contro_tutti_sul_ghiaccio_",
+      "fonte": "Motosprint",
+      "data": "2026-11-13T11:22:22.686Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/13/101438465-598546f0-8214-49f6-a2b6-ca9194e44835.jpg",
+      "sommario": "A rappresentare le due ruote è stata la KTM RC16 guidata da Dani Pedrosa che ha saputo difendersi egregiamente grazie a chiodi lunghi più di 3 cm sulle ruote"
+    },
+    {
+      "id": "5f74a618a06a",
+      "serie": "f1",
+      "titolo": "Antonelli, prima a San Siro con vittoria: maglia azzurra e capelli tricolori pronti a tornare",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/13-9290090/antonelli_prima_a_san_siro_con_vittoria_maglia_azzurra_e_capelli_tricolori_pronti_a_tornare",
+      "fonte": "Autosprint",
+      "data": "2026-11-13T11:22:22.686Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/12/232314208-c5dc59e6-b803-4549-90cd-0e1e0a0a58b4.jpeg",
+      "sommario": "Il campione del mondo di F1 ha assistito al successo dell’Italia sulla Francia insieme a Malagò. Per lui una maglia della Nazionale personalizzata con il numero 12"
+    },
+    {
+      "id": "ff16bcec0c14",
+      "serie": "f1",
+      "titolo": "GP Las Vegas: orari TV e dove vedere la F1",
+      "link": "https://www.autosprint.it/news/formula1/f1-orari-tv/2026/11/13-9290952/gp_las_vegas_orari_tv_e_dove_vedere_la_f1",
+      "fonte": "Autosprint",
+      "data": "2026-11-13T11:22:22.686Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/13/103107658-6c05045b-e900-47d3-8f6e-3871e3444e4c.jpg",
+      "sommario": "Ventunesimo appuntamento della stagione 2026 per la nuova Formula 1. Tutti gli orari di prove libere, qualifiche e gara in diretta su Sky, Now e in differita su TV8"
+    },
+    {
+      "id": "83f22d7fc975",
+      "serie": "motogp",
+      "titolo": "Addio a Piero Gagni, dalla Regolarità ai Mondiali di Lawson e Stoner: una vita per le moto",
+      "link": "https://www.gpone.com/it/2026/11/13/motogp/addio-a-piero-gagni-dalla-regolarita-ai-mondiali-di-lawson-e-stoner-una-vita-per-le-moto.html",
+      "fonte": "GPOne",
+      "data": "2026-11-13T10:51:19.000Z",
+      "immagine": "",
+      "sommario": "E' scomparso in seguito ad un incidente a 75 anni uno dei più grandi meccanici del motomondiale, ex campione lui stesso"
+    },
+    {
+      "id": "7a93396590b3",
+      "serie": "motogp",
+      "titolo": "Crutchlow: \"Col talento e l'ambizione di Marc è difficile porgli dei limiti\"",
+      "link": "https://www.gpone.com/it/2026/11/13/motogp/crutchlow-il-talento-e-lambizione-di-marc-rendono-difficile-porgli-dei-limiti.html",
+      "fonte": "GPOne",
+      "data": "2026-11-13T10:20:29.000Z",
+      "immagine": "",
+      "sommario": "In Qatar il britannico commenta la stagione di Marc, il recupero ed il suo ritorno ai massimi livelli. \"Non smette mai di stupirmi, ha saputo sfruttare le opportunità, non lo si può mai dare per spacciato\""
+    },
     {
       "id": "c3869ec04c6e",
       "serie": "motogp",
@@ -3950,56 +4000,6 @@
       "data": "2026-10-26T12:22:09.000Z",
       "immagine": "",
       "sommario": "Il percorso per provare a correre in Malesia avrà due fasi: \"Crioterapia e massaggi per ridurre l'infiammazione e recuperare mobilità\". E poi: \"Magnetoterapia per rigenerare l'osso\""
-    },
-    {
-      "id": "9c095823cbb5",
-      "serie": "motogp",
-      "titolo": "Malesia a Sepang: tutti gli orari TV su Sky, TV8 e NOW",
-      "link": "https://www.gpone.com/it/2026/10/26/motogp/malesia-a-sepang-tutti-gli-orari-tv-su-sky-tv8-e-now.html",
-      "fonte": "GPOne",
-      "data": "2026-10-26T11:29:37.000Z",
-      "immagine": "",
-      "sommario": "Il secondo weekend del trittico della MotoGP sarà trasmesso in diretta su Sky Sport MotoGP e su Now. Su TV8 in chiaro qualifiche delle tre classi e gara Sprint, mentre le gare delle tre classi domenica saranno in differi"
-    },
-    {
-      "id": "4e29fa8e10ca",
-      "serie": "motogp",
-      "titolo": "Honda verso Sepang con il rientrante Joan Mir, rimangono dei dubbi sulla condizione di Marini",
-      "link": "https://www.motosprint.it/news/eventi/gp-malesia/2026/10/26-9233788/honda_verso_sepang_con_il_rientrante_joan_mir_rimangono_dei_dubbi_sulla_condizione_di_marini",
-      "fonte": "Motosprint",
-      "data": "2026-10-26T11:06:05.034Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/26/104614277-542d98af-1bf9-487e-9ba1-870c2cdd3e57.jpg",
-      "sommario": "Il maiorchino sembra essersi messo alle spalle i problemi che hanno caratterizzato gli ultimi mesi, mentre l'italiano è stato fermato a Phillip Island a causa di un virus"
-    },
-    {
-      "id": "b405a62d2996",
-      "serie": "motogp",
-      "titolo": "La MotoGP ha salutato Phillip Island, ma non è stato un addio per tutti",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/26-9232341/la_motogp_ha_salutato_phillip_island_ma_non_stato_un_addio_per_tutti",
-      "fonte": "Motosprint",
-      "data": "2026-10-26T10:10:28.826Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/26/081812400-549fb8d0-4d1e-44f1-a913-40bf067ba315.jpg",
-      "sommario": "L’ultimo GP sul circuito australiano ha lasciato del comprensibile amaro in bocca vista la cancellazione, ma diversi piloti della top class ci torneranno tra pochi mesi"
-    },
-    {
-      "id": "931deb27c142",
-      "serie": "motogp",
-      "titolo": "Il maltempo vince su Phillip Island e la MotoGP non si corre, ma non è la prima volta",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/26-9230240/il_maltempo_vince_su_phillip_island_e_la_motogp_non_si_corre_ma_non_la_prima_volta",
-      "fonte": "Motosprint",
-      "data": "2026-10-26T10:10:28.826Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/25/100330142-b4f0f9e5-7816-4728-9d8b-95de7693d3dc.jpg",
-      "sommario": "Triste la notizia della mancata disputa dell'ultima gara sull'iconico tracciato ma, nel recente passato, sono diversi i GP che sono stati interrotti per cause al di fuori del controllo umano"
-    },
-    {
-      "id": "6623c7ea5cd8",
-      "serie": "motogp",
-      "titolo": "Il Bello e il Brutto di Phillip Island: la conferma Márquez, l'errore Martín e la delusione Miller",
-      "link": "https://www.gpone.com/it/2026/10/26/motogp/gran-premio-di-phillip-island-il-bello-il-brutto-e-il-cattivo.html",
-      "fonte": "GPOne",
-      "data": "2026-10-26T09:37:14.000Z",
-      "immagine": "",
-      "sommario": "L'Isola si arrabbia e manda tutti a casa senza gara. Nel caso di Martin, anche con un osso rotto. Intanto Marquez spiega perché abbia vinto 9 titoli"
     }
   ]
 }
