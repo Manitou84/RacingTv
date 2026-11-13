@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-13T12:20:07.167Z",
+  "aggiornato": "2026-11-13T13:39:38.647Z",
   "articoli": [
+    {
+      "id": "eef4ff32865f",
+      "serie": "motogp",
+      "titolo": "L'Autodromo di Buenos Aires prende forma: fine lavori prevista per marzo",
+      "link": "https://www.gpone.com/it/2026/11/13/motogp/lautodromo-di-buenos-aires-prende-forma-fine-lavori-prevista-per-marzo.html",
+      "fonte": "GPOne",
+      "data": "2026-11-13T12:52:55.000Z",
+      "immagine": "",
+      "sommario": "Tutto dovrebbe essere pronto in tempo per il Gran Premio della MotoGP, ma l'Argentina si prepara anche al ritorno della F1"
+    },
     {
       "id": "b941a9a25c4a",
       "serie": "f1",
@@ -10,6 +20,16 @@
       "data": "2026-11-13T12:20:07.167Z",
       "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/13/121156358-97a8d8c6-59bd-42cd-85f9-7a59b8df548c.jpg",
       "sommario": "Il giudizio di Lewis sul livello dei giovani piloti in griglia è molto positivo e le parole sembrano quasi \"rispondere\" a un giudizio molto diverso espresso da Alonso"
+    },
+    {
+      "id": "a8922843fc32",
+      "serie": "motogp",
+      "titolo": "Chicho Lorenzo: “Marquez ha qualcosa che Rossi e gli altri non avevano”",
+      "link": "https://www.gpone.com/it/2026/11/13/motogp/chicho-lorenzo-marquez-ha-qualcosa-che-rossi-e-gli-altri-non-avevano.html",
+      "fonte": "GPOne",
+      "data": "2026-11-13T12:17:55.000Z",
+      "immagine": "",
+      "sommario": "Non soltanto talento e velocità: secondo il padre di Jorge, Marc possiede un carattere eccezionale e un rapporto con il rischio che gli permette di trasformare le cadute in esperienza"
     },
     {
       "id": "1cd642dcae15",
@@ -3980,26 +4000,6 @@
       "data": "2026-10-26T19:57:40.000Z",
       "immagine": "",
       "sommario": "VIDEO - Carlo Pernat attacca le Sprint e il calendario MotoGP: troppi infortuni, Martín rischia il Mondiale e l'addio a Phillip Island è una vergogna"
-    },
-    {
-      "id": "c6f439f4dbc3",
-      "serie": "motogp",
-      "titolo": "Tutto quello che c’è da sapere su Sepang: l’analisi delle criticità per la MotoGP",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/26-9234730/tutto_quello_che_c_da_sapere_su_sepang_lanalisi_delle_criticit_per_la_motogp",
-      "fonte": "Motosprint",
-      "data": "2026-10-26T16:22:51.576Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/26/153045695-8a6a0171-abfd-4cd1-ac8d-1e7530b5bd72.jpg",
-      "sommario": "Ecco tutto quello che c’è da sapere sul Petronas Sepang International Circuit dove nel weekend si disputerà il quart’ultimo appuntamento del Motomondiale\n"
-    },
-    {
-      "id": "4dbb8746f59a",
-      "serie": "motogp",
-      "titolo": "Le pagelle di Phillip Island: Marquez perfetto, Martin coraggioso ma fallace, Miller sorprendente",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/26-9234425/le_pagelle_di_phillip_island_marquez_perfetto_martin_coraggioso_ma_fallace_miller_sorprendente",
-      "fonte": "Motosprint",
-      "data": "2026-10-26T16:22:51.576Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/26/135455518-af61451a-41f8-41a2-8d54-be412a2aa96f.jpg",
-      "sommario": "Marc vince sia ul piano tecnico che mentale, mentre Jorge si lecca le ferite dopo aver però mostrato carattere. Bezzecchi tra ottimismo ed una occasione persa, Jack saluta nel modo migliore"
     }
   ]
 }
