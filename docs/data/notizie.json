@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-11-14T09:35:11.653Z",
+  "aggiornato": "2026-11-14T10:30:07.514Z",
   "articoli": [
+    {
+      "id": "e0db62cde77b",
+      "serie": "motogp",
+      "titolo": "I test di Valencia aperti al pubblico: ecco come vedere i debutti di Bagnaia, Bulega e Acosta",
+      "link": "https://www.gpone.com/it/2026/11/14/motogp/i-test-di-valencia-aperti-al-pubblico-ecco-come-vedere-i-debutti-di-bagnaia-bulega-e-acosta.html",
+      "fonte": "GPOne",
+      "data": "2026-11-14T10:21:06.000Z",
+      "immagine": "",
+      "sommario": "Il 1° dicembre i tifosi potranno assistere alla prima uscita delle nuove MotoGP 850 cc. Biglietti a partire da 10 euro per vedere i cambi di casacca e gli esordi di Holgado, Guevara, Agius e Alonso"
+    },
+    {
+      "id": "62e5a06c993a",
+      "serie": "motogp",
+      "titolo": "Nessuna sanzione sportiva per Yamaha, Viegas: \"Forse in futuro cambieremo le regole\"",
+      "link": "https://www.gpone.com/it/2026/11/14/motogp/nessuna-sanzione-sportiva-per-yamaha-viegas-forse-in-futuro-cambieremo-le-regole.html",
+      "fonte": "GPOne",
+      "data": "2026-11-14T09:48:23.000Z",
+      "immagine": "",
+      "sommario": "La Yamaha incorrerà nella sola sanzione economica per il forfait in Qatar. Viegas: \"E' un contratto commerciale di cui la FIM non fa parte. Il codice non prevede sanzioni per l'assenza di un pilota\""
+    },
+    {
+      "id": "11db40efa36a",
+      "serie": "motogp",
+      "titolo": "Ángel Nieto, 12+1 titoli non bastano: fuori dalla Hall of Fame MotoGP, entra in quella FIM",
+      "link": "https://www.gpone.com/it/2026/11/14/motogp/angel-nieto-non-puo-entrare-nella-hall-of-fame-della-motogp-ma-interviene-la-fim.html",
+      "fonte": "GPOne",
+      "data": "2026-11-14T09:43:32.000Z",
+      "immagine": "",
+      "sommario": "Il nuovo riconoscimento del campionato è riservato solo ai campioni della classe regina. La Federazione ha però inserito Angel tra le sue leggende"
+    },
     {
       "id": "2c5f192ab912",
       "serie": "motogp",
@@ -3970,36 +4000,6 @@
       "data": "2026-10-27T13:18:52.703Z",
       "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/27/120640276-8eae5b0b-166b-4559-8d72-078508766ae7.jpg",
       "sommario": "Come Lauda e Senna si appresta a vincere il titolo con il suo numero del cuore, omaggio all'idolo di sempre, Ayrton. Nel 2027 Kimi ha le idee chiare sul numero 1"
-    },
-    {
-      "id": "af91f20a778c",
-      "serie": "f1",
-      "titolo": "Lando Norris: essere campione del mondo significa essere felici?",
-      "link": "https://www.autosprint.it/news/formula1/2026/10/27-9237761/lando_norris_essere_campione_del_mondo_significa_essere_felici_",
-      "fonte": "Autosprint",
-      "data": "2026-10-27T13:18:52.703Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/27/113324967-325171ae-d2a7-40b7-90e3-26da45f2a5e7.jpg",
-      "sommario": "Campione in carica della massima categoria e pilota McLaren, Lando Norris risponde a una domanda tanto banale quanto complicata: \"sei felice?\""
-    },
-    {
-      "id": "3c99332ac2c9",
-      "serie": "sbk",
-      "titolo": "Futuro a rischio per Roberta Ponziani: “C’è la possibilità che resti a casa”",
-      "link": "https://www.gpone.com/it/2026/10/27/wsbk/futuro-a-rischio-per-roberta-ponziani-ce-la-possibilita-che-resti-a-casa.html",
-      "fonte": "GPOne",
-      "data": "2026-10-27T12:29:31.000Z",
-      "immagine": "",
-      "sommario": "INTERVISTA - “Se non trovo sponsor o un team che mi dia una mano, rischio di non fare il Mondiale. Non vivo di questo sport, non chiedo di diventare ricca, ma almeno di poterlo fare a livello professionistico”"
-    },
-    {
-      "id": "1ee909c5d8ad",
-      "serie": "motogp",
-      "titolo": "Toprak: \"E' un momento difficile, prima volta in carriera che non chiudo la stagione\"",
-      "link": "https://www.gpone.com/it/2026/10/27/motogp/toprak-e-un-momento-difficile-prima-volta-in-carriera-che-non-chiudo-la-stagione.html",
-      "fonte": "GPOne",
-      "data": "2026-10-27T10:23:45.000Z",
-      "immagine": "",
-      "sommario": "Il turco dal letto d'ospedale dove si è operato alla spalla: \"Strano guardare le gare in televisione, spero di tornare il prima possibile, ringrazio Yamaha e chi mi supporta\""
     }
   ]
 }
