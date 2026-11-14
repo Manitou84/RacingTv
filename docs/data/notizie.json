@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-14T08:39:44.624Z",
+  "aggiornato": "2026-11-14T09:35:11.653Z",
   "articoli": [
+    {
+      "id": "2c5f192ab912",
+      "serie": "motogp",
+      "titolo": "Le regole per le MotoGP 850 2027, meno ali ma più aerodinamica: la nuova sfida da milioni di euro",
+      "link": "https://www.gpone.com/it/2026/11/14/motogp/le-regole-per-le-850-2027-meno-ali-ma-piu-aerodinamica-la-nuova-sfida-da-milioni-di-euro.html",
+      "fonte": "GPOne",
+      "data": "2026-11-14T08:20:02.000Z",
+      "immagine": "",
+      "sommario": "Il regolamento riduce le dimensioni delle appendici aerodinamiche, ma rischia di ottenere l'effetto opposto a quello desiderato: una ricerca ancora più sofisticata e costosa"
+    },
     {
       "id": "3c34093c129a",
       "serie": "motogp",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-27T10:23:45.000Z",
       "immagine": "",
       "sommario": "Il turco dal letto d'ospedale dove si è operato alla spalla: \"Strano guardare le gare in televisione, spero di tornare il prima possibile, ringrazio Yamaha e chi mi supporta\""
-    },
-    {
-      "id": "24177f32d394",
-      "serie": "motogp",
-      "titolo": "Martin incerto su Sepang: \"Impossibile fare previsioni\"",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/27-9237103/martin_incerto_su_sepang_impossibile_fare_previsioni",
-      "fonte": "Motosprint",
-      "data": "2026-10-27T10:11:43.978Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/27/093449863-e6d2c8f8-83d2-425a-8c7c-6c0cfb47301a.jpg",
-      "sommario": "Jorge, atteso al Gran Premio della Malesia  col team Aprilia: \"Dobbiamo valutare la situazione giorno per giorno: mi sto sottoponendo alle cure necessarie per arrivare al meglio possibile\""
     }
   ]
 }
