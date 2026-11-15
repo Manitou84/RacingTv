@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-15T16:06:27.671Z",
+  "aggiornato": "2026-11-15T17:07:08.901Z",
   "articoli": [
+    {
+      "id": "eb50a74b031c",
+      "serie": "sbk",
+      "titolo": "Paola Ramos all’assalto del Mondiale Femminile 2027 con il team Hadden Racing",
+      "link": "https://www.gpone.com/it/2026/11/15/wsbk/paola-ramos-allassalto-del-mondiale-femminile-2027-con-il-team-hadden-racing.html",
+      "fonte": "GPOne",
+      "data": "2026-11-15T16:37:53.000Z",
+      "immagine": "",
+      "sommario": "La 19enne spagnola entrerà a far parte del Hadden Racing Team dopo aver chiuso la stagione 2026 al terzo posto della classifica di campionato, con quattro vittorie e un totale di sette podi"
+    },
     {
       "id": "2c80429e250d",
       "serie": "motogp",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-27T15:12:51.124Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/27/145037233-aedfe8f7-9306-4b11-a999-1ede0e7ae483.jpg",
       "sommario": "In Australia, Marc è riuscito a rifilare quasi un secondo e mezzo al primo degli inseguitori in Q2. Un gap che non si vedeva da quando, nel 2019, fece un altro capolavoro sul bagnato"
-    },
-    {
-      "id": "d83004f44067",
-      "serie": "f1",
-      "titolo": "Russell, questione di feeling: Wolff si gode Antonelli e supporta George",
-      "link": "https://www.autosprint.it/news/formula1/2026/10/27-9238451/russell_questione_di_feeling_wolff_si_gode_antonelli_e_supporta_george",
-      "fonte": "Autosprint",
-      "data": "2026-10-27T15:12:51.124Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/27/150757669-046d53ff-5f2c-41b7-9dd3-d7fe0c45e586.jpg",
-      "sommario": "Per Marko le migliori chance di vincere un mondiale sono svanite con il rendimento in questa stagione e il ruolo di numero 1 guadagnato da Kimi a suon di risultati"
     }
   ]
 }
