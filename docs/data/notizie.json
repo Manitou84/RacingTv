@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-15T13:25:09.393Z",
+  "aggiornato": "2026-11-15T14:14:55.117Z",
   "articoli": [
+    {
+      "id": "2c80429e250d",
+      "serie": "motogp",
+      "titolo": "Bezzecchi e Sinner scaldano le ATP Finals di Torino",
+      "link": "https://www.gpone.com/it/2026/11/15/motogp/bezzecchi-e-sinner-scaldano-le-atp-finals-di-torino.html",
+      "fonte": "GPOne",
+      "data": "2026-11-15T14:02:38.000Z",
+      "immagine": "",
+      "sommario": "Dalla F1 a Monza alle Finals di Torino: Bezzecchi e Sinner si ritrovano in una domenica con vista su Portimao"
+    },
     {
       "id": "5d00d992ff41",
       "serie": "sbk",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-27T15:12:51.124Z",
       "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/27/150757669-046d53ff-5f2c-41b7-9dd3-d7fe0c45e586.jpg",
       "sommario": "Per Marko le migliori chance di vincere un mondiale sono svanite con il rendimento in questa stagione e il ruolo di numero 1 guadagnato da Kimi a suon di risultati"
-    },
-    {
-      "id": "66a70f33f7e8",
-      "serie": "motogp",
-      "titolo": "Jack Miller saluta Phillip Island cantando “Wonderwall” al Rider Party [VIDEO]",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/27-9237917/jack_miller_saluta_phillip_island_cantando_wonderwall_al_rider_party_video_",
-      "fonte": "Motosprint",
-      "data": "2026-10-27T14:14:25.492Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/27/114703561-5fa4a2e6-53f8-4588-9268-4966f13041aa.jpg",
-      "sommario": "Alla consueta festa di fine evento, ha scaldato la serata intonando la celebre canzone degli Oasis tra risate e cori e balli "
     }
   ]
 }
