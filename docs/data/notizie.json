@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-15T07:55:34.015Z",
+  "aggiornato": "2026-11-15T08:42:59.285Z",
   "articoli": [
+    {
+      "id": "0f296a52e5c1",
+      "serie": "motogp",
+      "titolo": "Lucchinelli senza freni: “Se avessi fatto i sacrifici di Marquez, i Mondiali sarebbero arrivati da soli”",
+      "link": "https://www.gpone.com/it/2026/11/15/motogp/lucchinelli-senza-freni-se-avessi-fatto-i-sacrifici-di-marquez-i-mondiali-sarebbero-arrivati-da-soli.html",
+      "fonte": "GPOne",
+      "data": "2026-11-15T08:05:46.000Z",
+      "immagine": "",
+      "sommario": "Al Festival dello Sport di Trento, intervistato da Lorenzo Baroni della Gazzetta dello Sport, Lucky racconta la sua vita fra moto, donne, musica e un talento che forse avrebbe meritato più di un titolo mondiale"
+    },
     {
       "id": "db77cf87a512",
       "serie": "f1",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-27T14:14:25.492Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/27/113614951-44700cd0-d976-48ba-a864-ed3c071fefff.jpeg",
       "sommario": "Domenica (non) si è corsa l'ultima gara a Phillip Island, dal prossimo anno si andrà ad Adelaide: un chiaro segnale da parte di Liberty Media che pone diverse domande sul futuro"
-    },
-    {
-      "id": "0afe3155fd4d",
-      "serie": "motogp",
-      "titolo": "Martin o Bezzecchi: chi \"sceglie\" Aprilia per il titolo MotoGP?",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/27-9237336/martin_o_bezzecchi_chi_sceglie_aprilia_per_il_titolo_motogp_",
-      "fonte": "Motosprint",
-      "data": "2026-10-27T14:14:25.492Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/27/122026487-7cb1312a-baa4-4317-b413-69d8d02fe300.jpg",
-      "sommario": "Jorge sa come vincere titoli, ma lascerà Noale a fine stagione, Marco rappresenta la certezza futura: per battere Marquez, su quale pedina puntare? "
     }
   ]
 }

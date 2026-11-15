@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-15T07:55:34.015Z",
+  "aggiornato": "2026-11-15T08:42:59.285Z",
   "weekend": [
     {
       "id": "motogp-gp-qatar-2026",
@@ -71,15 +71,8 @@
         },
         {
           "classe": "MotoGP",
-          "sessione": "Qualifiche Q1",
+          "sessione": "Qualifiche",
           "inizio": "2026-11-07T11:40:00.000Z",
-          "tv8": null,
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "MotoGP",
-          "sessione": "Qualifiche Q2",
-          "inizio": "2026-11-07T12:05:00.000Z",
           "tv8": null,
           "fonte": "OA Sport"
         },
@@ -95,21 +88,11 @@
         },
         {
           "classe": "Moto2",
-          "sessione": "Qualifiche Q1",
+          "sessione": "Qualifiche",
           "inizio": "2026-11-07T14:45:00.000Z",
           "tv8": {
             "tipo": "diretta",
             "inizio": "2026-11-07T14:45:00.000Z"
-          },
-          "fonte": "OA Sport"
-        },
-        {
-          "classe": "Moto2",
-          "sessione": "Qualifiche Q2",
-          "inizio": "2026-11-07T15:10:00.000Z",
-          "tv8": {
-            "tipo": "diretta",
-            "inizio": "2026-11-07T15:10:00.000Z"
           },
           "fonte": "OA Sport"
         },
@@ -186,11 +169,6 @@
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/11/motogp-oggi-in-tv-gp-qatar-2026-orari-prove-libere-streaming-programma-sky-e-tv8/",
           "titolo": "MotoGP oggi in tv, GP Qatar 2026: orari venerdì 6 novembre, streaming, programma Sky e TV8"
-        },
-        {
-          "nome": "OA Sport",
-          "url": "https://www.oasport.it/2026/11/motogp-gp-qatar-2026-gli-orari-del-fine-settimana-dalle-prove-libere-alla-gara-guida-sky-e-tv8/",
-          "titolo": "MotoGP, GP Qatar 2026: gli orari del fine settimana dalle prove libere alla gara. Guida Sky e TV8"
         }
       ]
     },
