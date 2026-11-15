@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-15T09:36:56.054Z",
+  "aggiornato": "2026-11-15T10:33:28.487Z",
   "articoli": [
+    {
+      "id": "5d00d992ff41",
+      "serie": "sbk",
+      "titolo": "Ducati lancia la nuova Panigale V2 in SuperSport, ma sarà per pochi",
+      "link": "https://www.gpone.com/it/2026/11/15/wsbk/ducati-lancia-la-nuova-panigale-v2-in-supersport-ma-sara-per-pochi.html",
+      "fonte": "GPOne",
+      "data": "2026-11-15T10:00:32.000Z",
+      "immagine": "",
+      "sommario": "Feel Racing ha sviluppato in questi mesi la nuova Rossa senza Desmo, ma al debutto di Valencia soltanto due squadre l’avranno. Ecco chi sono e perché"
+    },
     {
       "id": "0f296a52e5c1",
       "serie": "motogp",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-27T14:14:25.492Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/27/114703561-5fa4a2e6-53f8-4588-9268-4966f13041aa.jpg",
       "sommario": "Alla consueta festa di fine evento, ha scaldato la serata intonando la celebre canzone degli Oasis tra risate e cori e balli "
-    },
-    {
-      "id": "a04cf495c2f9",
-      "serie": "motogp",
-      "titolo": "Dalla F1 alla MotoGP: i circuiti storici sono diventati un lusso?",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/27-9237913/dalla_f1_alla_motogp_i_circuiti_storici_sono_diventati_un_lusso_",
-      "fonte": "Motosprint",
-      "data": "2026-10-27T14:14:25.492Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/27/113614951-44700cd0-d976-48ba-a864-ed3c071fefff.jpeg",
-      "sommario": "Domenica (non) si è corsa l'ultima gara a Phillip Island, dal prossimo anno si andrà ad Adelaide: un chiaro segnale da parte di Liberty Media che pone diverse domande sul futuro"
     }
   ]
 }
