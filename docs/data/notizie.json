@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-15T17:07:08.901Z",
+  "aggiornato": "2026-11-15T17:58:57.646Z",
   "articoli": [
+    {
+      "id": "ec926337b1da",
+      "serie": "f1",
+      "titolo": "La F1 di oggi è da record, ma per l'ex boss Liberty Media presto smetterà di crescere",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/15-9294455/la_f1_di_oggi_da_record_ma_per_l_ex_boss_liberty_media_presto_smetter_di_crescere",
+      "fonte": "Autosprint",
+      "data": "2026-11-15T17:58:57.646Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/15/172210685-28c01554-9b62-4ba3-a36a-b003c60d6f59.jpg",
+      "sommario": "La salute del Circus non è mai stata così buona come adesso, eppure c'è chi è convinto che entro due anni cambierà tutto "
+    },
     {
       "id": "eb50a74b031c",
       "serie": "sbk",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-27T15:29:29.000Z",
       "immagine": "",
       "sommario": "“So che sono al limite, ma la MotoGP è sport, business e intrattenimento e se a loro non sta bene possono guardare le gare in TV. Marquez? Non si assume più gli stessi rischi di un tempo”"
-    },
-    {
-      "id": "34b3150f1df2",
-      "serie": "motogp",
-      "titolo": "Marquez re della qualifica: la pole di Phillip Island è stata la migliore degli ultimi 7 anni",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/27-9238970/marquez_re_della_qualifica_la_pole_di_phillip_island_stata_la_migliore_degli_ultimi_7_anni",
-      "fonte": "Motosprint",
-      "data": "2026-10-27T15:12:51.124Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/27/145037233-aedfe8f7-9306-4b11-a999-1ede0e7ae483.jpg",
-      "sommario": "In Australia, Marc è riuscito a rifilare quasi un secondo e mezzo al primo degli inseguitori in Q2. Un gap che non si vedeva da quando, nel 2019, fece un altro capolavoro sul bagnato"
     }
   ]
 }
