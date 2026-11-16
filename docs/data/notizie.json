@@ -1,6 +1,46 @@
 {
-  "aggiornato": "2026-11-16T13:06:54.838Z",
+  "aggiornato": "2026-11-16T15:57:09.662Z",
   "articoli": [
+    {
+      "id": "2cc2f01e7051",
+      "serie": "motogp",
+      "titolo": "Esclusiva Mir: \"La gente non dà il giusto peso ai successi e dimentica in fretta. Il 2027? Gresini fa rima con riscatto\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/16-9296368/esclusiva_mir_la_gente_non_d_il_giusto_peso_ai_successi_e_dimentica_in_fretta_il_2027_gresini_fa_rima_con_riscatto",
+      "fonte": "Motosprint",
+      "data": "2026-11-16T15:57:09.662Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/16/152838245-bd266d6c-ebb8-449c-a785-84d0e2167d89.jpg",
+      "sommario": "L'INTERVISTA - Joan si racconta: \"Quando nel 2020 io e Suzuki abbiamo vinto molti hanno criticato gli altri invece che elogiare noi. Negli anni ’90 fumavano in griglia, se lo fai oggi...\"\n\n \n"
+    },
+    {
+      "id": "e7c25b07d9a4",
+      "serie": "motogp",
+      "titolo": "Rossi e la \"relazione\" con Martina Stella: \"Sei proprio una m****\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/16-9295994/rossi_e_la_relazione_con_martina_stella_sei_proprio_una_m_",
+      "fonte": "Motosprint",
+      "data": "2026-11-16T15:57:09.662Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/16/134525540-edf04c4b-439d-4e59-a9f9-8315789f7be7.jpg",
+      "sommario": "L'attrice colse Valentino in fallo, insultandolo, come fece la madre della stessa: \"Ti sembra il modo di trattare una ragazzina? Coglione\""
+    },
+    {
+      "id": "aca162b3c87c",
+      "serie": "f1",
+      "titolo": "Da Surtees a Norris: i regni iridati più brevi della storia",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/16-9295657/da_surtees_a_norris_i_regni_iridati_pi_brevi_della_storia",
+      "fonte": "Autosprint",
+      "data": "2026-11-16T15:57:09.662Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/16/112030720-d066954e-56d7-4272-9963-9616e16bf12c.jpg",
+      "sommario": "Lando Norris ha conquistato il suo primo e unico titolo nel 2025 insieme a McLaren. Ma nemmeno un anno dopo, ha dovuto cedere il trono al nuovissimo campione"
+    },
+    {
+      "id": "2fc1b75e82a5",
+      "serie": "f1",
+      "titolo": "Allison racconta un segreto della guida di Antonelli: su quest'aspetto fa scelte estreme",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/16-9296319/allison_racconta_un_segreto_della_guida_di_antonelli_su_quest_aspetto_fa_scelte_estreme",
+      "fonte": "Autosprint",
+      "data": "2026-11-16T15:57:09.662Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/16/150135039-69769720-8929-4bba-b4f9-540ab074c9f3.jpg",
+      "sommario": "Il direttore tecnico della Mercedes indica una caratteristica della guida di Kimi sulla quale, al volante della W17, ha trovato tanta prestazione in curva"
+    },
     {
       "id": "494e14de9a85",
       "serie": "motogp",
@@ -3960,46 +4000,6 @@
       "data": "2026-10-28T14:48:30.000Z",
       "immagine": "",
       "sommario": "Il Paese arabo vuole il Gran Premio e la MotoGP non può cancellarlo. Team e costruttori hanno le mani legate, i piloti l'unica speranza"
-    },
-    {
-      "id": "0c8418c8067c",
-      "serie": "motogp",
-      "titolo": "MotoGP, Acosta su Marc Marquez: \"Lui e Valentino Rossi allo stesso livello, sono i migliori della storia\"",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/28-9242080/motogp_acosta_su_marc_marquez_lui_e_valentino_rossi_allo_stesso_livello_sono_i_migliori_della_storia",
-      "fonte": "Motosprint",
-      "data": "2026-10-28T14:23:04.008Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/28/131038154-8e532045-6c7e-4ecf-afec-077fa3b1995e.jpg",
-      "sommario": "Lo spagnolo ha parlato del raffronto tra i due campioni dell'era moderna della top class, sottolineando anche l'importanza dell'opportunitià di apprendere dal suo prossimo compagno di squadra"
-    },
-    {
-      "id": "42a75a88a9bb",
-      "serie": "motogp",
-      "titolo": "Sepang, tana del \"serpente\" Marquez: nel 2015 \"avvelenò\" Rossi",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/28-9241363/sepang_tana_del_serpente_marquez_nel_2015_avvelen_rossi",
-      "fonte": "Motosprint",
-      "data": "2026-10-28T14:23:04.008Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/28/101602789-4f0ce20b-dc50-488d-8712-337b3254deb3.jpg",
-      "sommario": "Marc in Malesia fece perdere la pazienza (e il titolo?!) a Valentino. Mai vincente con la Ducati, il leader iridato vuole marcare di Rosso il tracciato e allungare in classifica"
-    },
-    {
-      "id": "d6d7905c7154",
-      "serie": "motogp",
-      "titolo": "Jorge Martin campione dopo un infortunio al radio? Nel 2018 è già successo",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/28-9241354/jorge_martin_campione_dopo_un_infortunio_al_radio_nel_2018_gi_successo",
-      "fonte": "Motosprint",
-      "data": "2026-10-28T14:23:04.008Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/28/093203418-49834939-a0e4-4fd9-b919-ad2c318544a8.jpg",
-      "sommario": "Lo spagnolo dovrà stringere i denti in Malesia per via della frattura rimediata nell’incidente di Phillip Island, ma il precedente gli sorride e all’epoca chiuse i giochi proprio a Sepang"
-    },
-    {
-      "id": "01a59355fdc3",
-      "serie": "f1",
-      "titolo": "Red Bull, un motore da applausi e nessuna intenzione di fornire altri team",
-      "link": "https://www.autosprint.it/news/formula1/2026/10/28-9241985/red_bull_un_motore_da_applausi_e_nessuna_intenzione_di_fornire_altri_team",
-      "fonte": "Autosprint",
-      "data": "2026-10-28T12:13:07.894Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/28/120001894-c2b04b48-f79f-424e-9615-3b46db4a302d.jpg",
-      "sommario": "Mekies ha ribadito una linea nota da tempo nel rispondere ai rumours di un possibile accordo con Aston Martin se Honda mancasse gli obiettivi di competitività nel 2027"
     }
   ]
 }
