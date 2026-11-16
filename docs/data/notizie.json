@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-16T09:59:13.188Z",
+  "aggiornato": "2026-11-16T11:20:14.229Z",
   "articoli": [
+    {
+      "id": "1f1d54c67681",
+      "serie": "motogp",
+      "titolo": "Bagnaia salterà il Gran Premio di Portimao, lo sostituirà Lecuona",
+      "link": "https://www.gpone.com/it/2026/11/16/motogp/bagnaia-saltera-il-gran-premio-di-portimao-lo-sostiuira-lecuona.html",
+      "fonte": "GPOne",
+      "data": "2026-11-16T11:07:31.000Z",
+      "immagine": "",
+      "sommario": "Pecco continua il recupera dopo l'operazione al piede fratturato con l'obiettivo di tornare a Valencia. Iker debutta nella squadra ufficiale dopo avere già corso 5 GP con il team Gresini"
+    },
+    {
+      "id": "d6320b7a6768",
+      "serie": "motogp",
+      "titolo": "Acosta: \"In Ducati con Marquez? La più grande fortuna e la più grande sfida\"",
+      "link": "https://www.gpone.com/it/2026/11/16/motogp/acosta-in-ducati-con-marquez-la-piu-grande-fortuna-e-la-piu-grande-sfida.html",
+      "fonte": "GPOne",
+      "data": "2026-11-16T10:08:21.000Z",
+      "immagine": "",
+      "sommario": "\"Sarà come mettermi davanti a uno specchio, senza scuse. Vincere il titolo in MotoGP sarebbe la chiusura di un cerchio, ma il mio obiettivo è rimanere me stesso\""
+    },
     {
       "id": "e866d8019ab7",
       "serie": "motogp",
@@ -3980,26 +4000,6 @@
       "data": "2026-10-28T10:33:54.027Z",
       "immagine": "http://cdn-autosprint.corrieredellosport.it/images/2025/01/15/162103537-edcc7ce4-67f1-4a0b-871c-134f39900ffd.jpg",
       "sommario": "Una nota di un Ministero britannico concede una scappatoia alla F1 per cancellare le due gare mediorentali senza penali: cosa sta succedendo e cosa cambia per il Titolo di Kimi"
-    },
-    {
-      "id": "05a5b8f10fad",
-      "serie": "sbk",
-      "titolo": "WorldWCR, quando i risultati non bastano: 2027 a rischio per Roberta Ponziani",
-      "link": "https://www.motosprint.it/news/sbk/2026/10/28-9241145/worldwcr_quando_i_risultati_non_bastano_2027_a_rischio_per_roberta_ponziani",
-      "fonte": "Motosprint",
-      "data": "2026-10-28T10:33:54.027Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/28/092450603-21c65698-efd7-4082-bf5c-c7128e49024e.jpg",
-      "sommario": "In lotta fino all’ultima gara per il terzo posto in campionato, diversi podi e vittorie in questi anni, l’abruzzese potrebbe non avere una sella nel prossimo Mondiale Femminile"
-    },
-    {
-      "id": "f626f596247d",
-      "serie": "motogp",
-      "titolo": "Qatar nel mirino: “La situazione può cambiare in un istante, questo è un precedente inaccettabile”",
-      "link": "https://www.gpone.com/it/2026/10/28/motogp/qatar-nel-mirino-la-situazione-puo-cambiare-in-un-istante-questo-e-un-precedente-inaccettabile.html",
-      "fonte": "GPOne",
-      "data": "2026-10-28T09:42:17.000Z",
-      "immagine": "",
-      "sommario": "I sauditi hanno già cancellato il lucrativo torneo di tennis \"Six Kings Slam\" a Riyadh, ed è ormai chiaro che anche il Rally Dakar, originariamente in programma per gennaio 2027, non potrà svolgersi in Arabia Saudita"
     }
   ]
 }
