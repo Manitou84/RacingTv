@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-11-16T11:20:14.229Z",
+  "aggiornato": "2026-11-16T13:06:54.838Z",
   "articoli": [
+    {
+      "id": "494e14de9a85",
+      "serie": "motogp",
+      "titolo": "Lecuona al posto di Bagnaia a Portimao: Dopo Stoner, Ducati ritrova il numero 27",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/16-9295659/lecuona_al_posto_di_bagnaia_a_portimao_dopo_stoner_ducati_ritrova_il_numero_27",
+      "fonte": "Motosprint",
+      "data": "2026-11-16T13:06:54.838Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/16/112501382-7e2dafc6-cbed-41d3-aa44-b80b628cffcd.jpg",
+      "sommario": "Iker prende il posto dell'infortunato Pecco, salendo sulla Desmosedici ufficiale. Per lo spagnolo si tratta della sesta presenza 2026 "
+    },
+    {
+      "id": "afbcee01d164",
+      "serie": "f1",
+      "titolo": "Hamilton e il coraggio di osare, così punta ad aumentare la diversità nel paddock della F1",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/16-9296077/hamilton_e_il_coraggio_di_osare_cos_punta_ad_aumentare_la_diversit_nel_paddock_della_f1",
+      "fonte": "Autosprint",
+      "data": "2026-11-16T13:06:54.838Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/16/120829418-7dd1aaad-043c-488b-9877-c2fe2c4a627d.jpg",
+      "sommario": "In occasione del prossimo GP di Las Vegas Lewis chiederà al Circus un importante investimento per coinvolgere maggiormente le minoranze "
+    },
+    {
+      "id": "86e5af2419e7",
+      "serie": "f1",
+      "titolo": "Nuovi motori V8 e ritocchi (desiderati) al budget cap: la F1 delinea il futuro",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/16-9295909/nuovi_motori_v8_e_ritocchi_desiderati_al_budget_cap_la_f1_delinea_il_futuro",
+      "fonte": "Autosprint",
+      "data": "2026-11-16T13:06:54.838Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/16/120627113-b50be30e-7478-44e5-bd92-434c7709b515.jpg",
+      "sommario": "Squadre, Fia e F1 a confronto per votare sul cambiamento radicale delle power unit e un meccanismo finanziario che aiuti il recupero di competitività delle squadre"
+    },
     {
       "id": "1f1d54c67681",
       "serie": "motogp",
@@ -3970,36 +4000,6 @@
       "data": "2026-10-28T12:13:07.894Z",
       "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/28/120001894-c2b04b48-f79f-424e-9615-3b46db4a302d.jpg",
       "sommario": "Mekies ha ribadito una linea nota da tempo nel rispondere ai rumours di un possibile accordo con Aston Martin se Honda mancasse gli obiettivi di competitività nel 2027"
-    },
-    {
-      "id": "e2abac8062cd",
-      "serie": "motogp",
-      "titolo": "Marquez: “Phillip Island mi ha dato grande carica, ma dobbiamo restare concentrati”",
-      "link": "https://www.gpone.com/it/2026/10/28/motogp/marquez-phillip-island-mi-ha-dato-grande-carica-ma-dobbiamo-restare-concentrati.html",
-      "fonte": "GPOne",
-      "data": "2026-10-28T11:25:13.000Z",
-      "immagine": "",
-      "sommario": "“Sepang è una pista totalmente diversa e il clima rende sempre tutto più impegnativo”. Bagnaia: “È uno dei tracciati che amo di più tra quelli oltreoceano, qui la Desmosedici GP ha saputo fare la differenza”"
-    },
-    {
-      "id": "81cf2fa96e94",
-      "serie": "f1",
-      "titolo": "I motori V8 turbo prendono forma, i numeri e le discussioni intorno all'ibrido",
-      "link": "https://www.autosprint.it/news/formula1/2026/10/28-9240660/i_motori_v8_turbo_prendono_forma_i_numeri_e_le_discussioni_intorno_all_ibrido",
-      "fonte": "Autosprint",
-      "data": "2026-10-28T10:33:54.027Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/28/082147447-981f00ac-6617-4195-a9f5-026e921a6170.jpg",
-      "sommario": "Trapelano le prime caratteristiche della parte elettrica che sosterrà i cavalli del motore termico, nuovamente centrale nella prestazione. Giù anche il peso"
-    },
-    {
-      "id": "9617b9f20f10",
-      "serie": "f1",
-      "titolo": "Qatar e Abu Dhabi verso la cancellazione, Imola pronta e Kimi già Campione",
-      "link": "https://www.autosprint.it/news/formula1/2026/10/28-9241142/qatar_e_abu_dhabi_verso_la_cancellazione_imola_pronta_e_kimi_gi_campione",
-      "fonte": "Autosprint",
-      "data": "2026-10-28T10:33:54.027Z",
-      "immagine": "http://cdn-autosprint.corrieredellosport.it/images/2025/01/15/162103537-edcc7ce4-67f1-4a0b-871c-134f39900ffd.jpg",
-      "sommario": "Una nota di un Ministero britannico concede una scappatoia alla F1 per cancellare le due gare mediorentali senza penali: cosa sta succedendo e cosa cambia per il Titolo di Kimi"
     }
   ]
 }
