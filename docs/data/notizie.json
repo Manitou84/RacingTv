@@ -1,6 +1,66 @@
 {
-  "aggiornato": "2026-11-16T07:00:40.901Z",
+  "aggiornato": "2026-11-16T09:59:13.188Z",
   "articoli": [
+    {
+      "id": "e866d8019ab7",
+      "serie": "motogp",
+      "titolo": "Bayliss: “Bulega sarà la sorpresa della MotoGP l’anno prossimo” | ESCLUSIVA",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/16-9294467/bayliss_bulega_sar_la_sorpresa_della_motogp_lanno_prossimo_esclusiva",
+      "fonte": "Motosprint",
+      "data": "2026-11-16T09:59:13.188Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/16/083524162-3c5c922d-83b0-4837-878f-72a0a4a7253d.jpeg",
+      "sommario": "L’australiano, tre volte iridato Superbike con Ducati, ai nostri microfoni dà le sue personali opinioni su Superbike e MotoGP del 2027\n\n \n"
+    },
+    {
+      "id": "2e5c09703dc1",
+      "serie": "motogp",
+      "titolo": "Post GP Qatar quasi da tarallucci & vino: nessuna punizione sportiva per Yamaha",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/16-9293101/post_gp_qatar_quasi_da_tarallucci_vino_nessuna_punizione_sportiva_per_yamaha",
+      "fonte": "Motosprint",
+      "data": "2026-11-16T09:59:13.188Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/14/091149816-2e6d0c16-4358-46a2-b85e-17b09b091e26.jpg",
+      "sommario": "Risultati e dinamiche inalterate per i titolari della M1. L'assenza al weekend di Lusail costerà alla Casa dei tre diapason una sanzione pecuniaria"
+    },
+    {
+      "id": "20d65154f895",
+      "serie": "f1",
+      "titolo": "Cinque piloti per un ruolo da vice, Mercedes spinge Russell",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/16-9295012/cinque_piloti_per_un_ruolo_da_vice_mercedes_spinge_russell",
+      "fonte": "Autosprint",
+      "data": "2026-11-16T09:59:13.188Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/16/084612471-a723e207-6836-434b-b649-0d41bf4d5571.jpg",
+      "sommario": "Circuiti diversissimi tra loro sposteranno gli equilibri tra 5 piloti racchiusi in poco più di 30 punti e tutti in corsa per finire al secondo posto in campionato"
+    },
+    {
+      "id": "13c480d16153",
+      "serie": "f1",
+      "titolo": "F1, GP Las Vegas 2026: tutti gli orari TV su Sky, NOW e TV8. Gara domenica alle 5",
+      "link": "https://www.gpone.com/it/2026/11/16/formula-1/f1-gp-las-vegas-2026-tutti-gli-orari-tv-su-sky-now-e-tv8-gara-domenica-alle-5.html",
+      "fonte": "GPOne",
+      "data": "2026-11-16T07:41:18.000Z",
+      "immagine": "",
+      "sommario": "La Formula 1 torna a Las Vegas per il terzultimo appuntamento della stagione. Qualifiche e gara in piena notte per il pubblico italiano, con diretta su Sky e NOW e differita su TV8. Ecco il programma completo"
+    },
+    {
+      "id": "ddd46f684f13",
+      "serie": "motogp",
+      "titolo": "Le MotoGP del narcotrafficante all'asta: le moto di Rossi, Stoner e Lorenzo vendute a prezzi shock",
+      "link": "https://www.gpone.com/it/2026/11/16/motogp/le-motogp-del-narcotrafficante-allasta-le-moto-di-rossi-stoner-e-lorenzo-vendute-a-prezzi-shock.html",
+      "fonte": "GPOne",
+      "data": "2026-11-16T07:23:19.000Z",
+      "immagine": "",
+      "sommario": "In Messico sono state vendute 57 delle 62 moto sequestrate a Ryan Wedding. La Ducati di Stoner ha raggiunto 180.000 sterline, ma molte altre sono state aggiudicate a prezzi sorprendenti. Cinque sono rimaste invendute e u"
+    },
+    {
+      "id": "03fe48410609",
+      "serie": "motogp",
+      "titolo": "Lucchinelli senza freni: “Bagnaia è un lamentino, Rossi nel 2015 doveva dare l'esempio. Bulega? La MotoGP è un'altra cosa”",
+      "link": "https://www.gpone.com/it/2026/11/16/motogp/lucchinelli-senza-freni-bagnaia-e-un-lamentino-rossi-nel-2015-doveva-dare-lesempio-bulega-la-motogp.html",
+      "fonte": "GPOne",
+      "data": "2026-11-16T07:20:30.000Z",
+      "immagine": "",
+      "sommario": "IIa Parte - Lucky non risparmia nessuno: “Pecco deve smetterla di lamentarsi, Marquez mi faceva alzare dal divano. E su Agostini: “Lo odiavo, ma è stato il primo vero atleta del motociclismo”"
+    },
     {
       "id": "ec926337b1da",
       "serie": "f1",
@@ -3940,66 +4000,6 @@
       "data": "2026-10-28T09:42:17.000Z",
       "immagine": "",
       "sommario": "I sauditi hanno già cancellato il lucrativo torneo di tennis \"Six Kings Slam\" a Riyadh, ed è ormai chiaro che anche il Rally Dakar, originariamente in programma per gennaio 2027, non potrà svolgersi in Arabia Saudita"
-    },
-    {
-      "id": "4136804856d5",
-      "serie": "motogp",
-      "titolo": "La MotoGP saluta Phillip Island, Mick Doohan elogia Adelaide: “Sarà un grande evento”",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/28-9240461/la_motogp_saluta_phillip_island_mick_doohan_elogia_adelaide_sar_un_grande_evento",
-      "fonte": "Motosprint",
-      "data": "2026-10-28T08:39:06.989Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/28/074854889-37a85399-a81a-4d94-b6ed-1ebd67281d64.jpg",
-      "sommario": "Nessuna nostalgia per l’australiano: “Come pilota adoro correre ovunque questo sport mi porti. Sarà un evento da Formula 1”"
-    },
-    {
-      "id": "4b30450846dc",
-      "serie": "motogp",
-      "titolo": "Jorge Martín ed il numero uno: doppio \"smacco\" in arrivo per Aprilia?",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/28-9240158/jorge_martn_ed_il_numero_uno_doppio_smacco_in_arrivo_per_aprilia_",
-      "fonte": "Motosprint",
-      "data": "2026-10-28T08:39:06.989Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/27/163650071-db84f8f3-e87e-4b4d-95cc-4d4b7936f311.jpeg",
-      "sommario": "Dovesse vincere il titolo, il madrileno approderebbe in Yamaha con la possibilità di indossare nuovamente il numero uno. Aprilia, invece, non potrebbe sfoggiarlo con merito"
-    },
-    {
-      "id": "babaf7a0987f",
-      "serie": "motogp",
-      "titolo": "Valentino Rossi e il legame eterno con i fan: i dati di ricerca spiegano il fenomeno",
-      "link": "https://www.gpone.com/it/2026/10/27/motogp/valentino-rossi-e-il-legame-eterno-con-i-fan-i-dati-di-ricerca-spiegano-il-fenomeno.html",
-      "fonte": "GPOne",
-      "data": "2026-10-27T18:15:00.000Z",
-      "immagine": "",
-      "sommario": "A cinque anni dal ritiro dalla MotoGP, Valentino Rossi continua ad attirare l'attenzione degli appassionati di tutto il mondo. Tra poco si torna a Sepang...quella del 2015"
-    },
-    {
-      "id": "2ea0e976a89b",
-      "serie": "f1",
-      "titolo": "In Messico arriva la prima volta di Minì su una Formula 1 nelle prove libere",
-      "link": "https://www.autosprint.it/news/formula1/f1-prove/2026/10/27-9239375/in_messico_arriva_la_prima_volta_di_min_su_una_formula_1_nelle_prove_libere",
-      "fonte": "Autosprint",
-      "data": "2026-10-27T16:09:07.572Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/27/153233969-b849810f-1bda-4458-b132-8ec8a9138d86.jpg",
-      "sommario": "Aspettando gli ultimi due round della Formula 2, il pilota siciliano esordirà su una monoposto dopo i primi giri completati nei test privati. Ecco al posto di chi sarà"
-    },
-    {
-      "id": "31b2910fc60d",
-      "serie": "sbk",
-      "titolo": "Dall’Igna e Ducati perdono due ingegneri di spicco in Superbike per il 2027",
-      "link": "https://www.gpone.com/it/2026/10/27/wsbk/dalligna-e-ducati-perdono-due-ingegneri-di-spicco-in-superbike-per-il-2027.html",
-      "fonte": "GPOne",
-      "data": "2026-10-27T15:58:37.000Z",
-      "immagine": "",
-      "sommario": "L’elettronico di Bulega chiude il proprio percorso nel team Ducati. Novità anche in Go Eleven: Carrieri riparte dal test team Honda"
-    },
-    {
-      "id": "efaf91443150",
-      "serie": "motogp",
-      "titolo": "Crutchlow: “I piloti sanno a cosa vanno incontro quando firmano i contratti”",
-      "link": "https://www.gpone.com/it/2026/10/27/motogp/crutchlow-i-piloti-sanno-a-cosa-vanno-incontro-quando-firmano-i-contratti.html",
-      "fonte": "GPOne",
-      "data": "2026-10-27T15:29:29.000Z",
-      "immagine": "",
-      "sommario": "“So che sono al limite, ma la MotoGP è sport, business e intrattenimento e se a loro non sta bene possono guardare le gare in TV. Marquez? Non si assume più gli stessi rischi di un tempo”"
     }
   ]
 }
