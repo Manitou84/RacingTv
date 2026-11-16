@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-16T17:03:43.635Z",
+  "aggiornato": "2026-11-16T18:18:55.236Z",
   "articoli": [
+    {
+      "id": "d21cc79b8cb4",
+      "serie": "motogp",
+      "titolo": "Toprak Razgatlioglu verso la rinuncia ai test di Valencia: tornerà nel 2027",
+      "link": "https://www.gpone.com/it/2026/11/16/motogp/toprak-razgatlioglu-verso-la-rinuncia-ai-test-di-valencia-tornera-nel-2027.html",
+      "fonte": "GPOne",
+      "data": "2026-11-16T17:37:55.000Z",
+      "immagine": "",
+      "sommario": "Il portacolori Pramac è in Italia per valutare il percorso post operatorio e con ogni probabilità tornerà sulla M1 a febbraio a Sepang. Ciononostante, dovrebbe essere a Valencia a seguire le operazioni"
+    },
     {
       "id": "552dc74c9dd2",
       "serie": "motogp",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-28T16:00:00.000Z",
       "immagine": "",
       "sommario": "ESCLUSIVA VIDEO - \"Mi piace andare fuori con la squadra, ma mi manca tantissimo il mio cane. Da Spider Man ho imparato che da grandi poteri , derivano grandi responsabilità. Il mondiale? C'è poco da ragionare, devo solo "
-    },
-    {
-      "id": "c8b4fd55a62d",
-      "serie": "sbk",
-      "titolo": "Yamaha fa acquisti in Ducati: arriva l’ex capotecnico di Bautista e Petrucci",
-      "link": "https://www.gpone.com/it/2026/10/28/wsbk/yamaha-fa-acquisti-in-ducati-arriva-lex-capotecnico-di-bautista-e-petrucci.html",
-      "fonte": "GPOne",
-      "data": "2026-10-28T15:54:10.000Z",
-      "immagine": "",
-      "sommario": "Per il capotecnico di Miller spicca invece un nome che intriga. Mentre Barni riparte da Reale per affiancare Vierge"
     }
   ]
 }
