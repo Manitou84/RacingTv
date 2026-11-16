@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-16T15:57:09.662Z",
+  "aggiornato": "2026-11-16T17:03:43.635Z",
   "articoli": [
+    {
+      "id": "552dc74c9dd2",
+      "serie": "motogp",
+      "titolo": "Checa: “Toprak talento enorme, ma arrivato in MotoGP nel momento sbagliato”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/16-9297304/checa_toprak_talento_enorme_ma_arrivato_in_motogp_nel_momento_sbagliato",
+      "fonte": "Motosprint",
+      "data": "2026-11-16T17:03:43.635Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/16/161618439-a7c8403a-d0b3-44f2-abbb-74d6cc7c0baa.jpg",
+      "sommario": "Il campione del Mondo SBK 2011 durante la nostra intervista ad EICMA ha parlato del turco e del suo passaggio nel Motomondiale: “La tecnologia oggi influisce troppo”"
+    },
     {
       "id": "2cc2f01e7051",
       "serie": "motogp",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-28T15:54:10.000Z",
       "immagine": "",
       "sommario": "Per il capotecnico di Miller spicca invece un nome che intriga. Mentre Barni riparte da Reale per affiancare Vierge"
-    },
-    {
-      "id": "a437f93ab175",
-      "serie": "motogp",
-      "titolo": "Perché nessuno vuole andare in Qatar e perché tutti ci andranno",
-      "link": "https://www.gpone.com/it/2026/10/28/motogp/perche-nessuno-vuole-andare-in-qatar-e-perche-tutti-ci-andranno.html",
-      "fonte": "GPOne",
-      "data": "2026-10-28T14:48:30.000Z",
-      "immagine": "",
-      "sommario": "Il Paese arabo vuole il Gran Premio e la MotoGP non può cancellarlo. Team e costruttori hanno le mani legate, i piloti l'unica speranza"
     }
   ]
 }
