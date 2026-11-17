@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-17T18:20:40.869Z",
+  "aggiornato": "2026-11-17T19:30:13.739Z",
   "articoli": [
+    {
+      "id": "aacf5efe4b93",
+      "serie": "sbk",
+      "titolo": "Aprilia, il ritorno nel Mondiale SBK passa dal BSB: Redding proverà la RSV4 a Jerez",
+      "link": "https://www.gpone.com/it/2026/11/17/wsbk/aprilia-il-ritorno-nel-mondiale-sbk-passa-dal-bsb-redding-provera-la-rsv4-a-jerez.html",
+      "fonte": "GPOne",
+      "data": "2026-11-17T18:45:15.000Z",
+      "immagine": "",
+      "sommario": "Il nuovo regolamento del BSB offrirebbe alla Casa di Noale il banco di prova perfetto per iniziare a costruire il rientro nella Superbike iridata nel 2030. Il piano è quello di supportare il team PBM in veste ufficiale"
+    },
     {
       "id": "db434ba2addd",
       "serie": "f1",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-29T09:39:05.347Z",
       "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/28/221120390-88b33e88-e2d2-43d8-98ed-9f436567e786.jpg",
       "sommario": "L'ex Ferrari tornerà in tribunale il prossimo febbraio per il dibattimento legato allo scandalo di Singapore 2008"
-    },
-    {
-      "id": "ee9137129826",
-      "serie": "f1",
-      "titolo": "Sainz: la F1 corre un \"rischio\" con tante gare una dopo l'altra",
-      "link": "https://www.autosprint.it/news/formula1/2026/10/29-9244043/sainz_la_f1_corre_un_rischio_con_tante_gare_una_dopo_l_altra",
-      "fonte": "Autosprint",
-      "data": "2026-10-29T09:39:05.347Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/29/090439538-441c340b-058d-490b-8e38-fd9f0dbbe101.jpg",
-      "sommario": "Il Carlos tifoso fa un confronto tra il calendario a 24 GP e quello a 18 gare, con pro e contro; la sbornia di 3 gare di fila può portare qualche GP a essere meno seguito"
     }
   ]
 }
