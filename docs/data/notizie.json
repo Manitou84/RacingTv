@@ -1,6 +1,46 @@
 {
-  "aggiornato": "2026-11-17T14:05:11.595Z",
+  "aggiornato": "2026-11-17T15:18:15.817Z",
   "articoli": [
+    {
+      "id": "4ae4e88769fc",
+      "serie": "motogp",
+      "titolo": "La nuova era della MotoGP è alle porte: ecco le prime immagini della Aprilia RS-GP 2027",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/17-9299952/la_nuova_era_della_motogp_alle_porte_ecco_le_prime_immagini_della_aprilia_rs-gp_2027",
+      "fonte": "Motosprint",
+      "data": "2026-11-17T15:18:15.817Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/17/121358235-996234ee-1a6e-4d29-96fc-39a3aa513be3.jpg",
+      "sommario": "Il confermato tester Lorenzo Savadori ha svelato una prima interpretazione della moto che verrà usata il prossimo anno da Bezzecchi e Bagnaia"
+    },
+    {
+      "id": "35b66c215f8f",
+      "serie": "motogp",
+      "titolo": "Riposo finito per Alex Marquez, pronto per il Gran Premio del Portogallo",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/17-9299501/riposo_finito_per_alex_marquez_pronto_per_il_gran_premio_del_portogallo",
+      "fonte": "Motosprint",
+      "data": "2026-11-17T15:18:15.817Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/17/111147335-ebd00a6a-a9dd-4513-8872-dcc268e3c559.jpg",
+      "sommario": "Il portacolori Gresini, sottoposto a intervento chirurgico, aveva saltato il Qatar. Ancora due weekend e saluterà la Ducati Desmosedici"
+    },
+    {
+      "id": "fd3d601ea2ee",
+      "serie": "f1",
+      "titolo": "Dieci anni fa la separazione tra la McLaren e Dennis. Brown: \"L'ambiente era tossico\"",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/17-9300102/dieci_anni_fa_la_separazione_tra_la_mclaren_e_dennis_brown_l_ambiente_era_tossico",
+      "fonte": "Autosprint",
+      "data": "2026-11-17T15:18:15.817Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/17/140715499-07a8bc1b-e6d0-4a49-a9d0-19faaeb496ab.jpg",
+      "sommario": "Nel 2016 si chiudeva una lunga e, in parte, gloriosa partnership tra la scuderia e il manager di Woking, dando vita ad una ristrutturazione totale in stile americano"
+    },
+    {
+      "id": "958b2197fff7",
+      "serie": "motogp",
+      "titolo": "Alex Marquez 'abile e arruolato': tornerà sulla sua Ducati a Portimao",
+      "link": "https://www.gpone.com/it/2026/11/17/motogp/alex-marquez-abile-e-arruolato-tornera-sulla-sua-ducati-a-portimao.html",
+      "fonte": "GPOne",
+      "data": "2026-11-17T15:09:32.000Z",
+      "immagine": "",
+      "sommario": "Il team Gresini ha comunicato ufficialmente che lo spagnolo prenderà parte al Gran Premio del Portogallo dopo avere saltato il Qatar per un'operazione"
+    },
     {
       "id": "d74fde5bdc20",
       "serie": "f1",
@@ -3960,46 +4000,6 @@
       "data": "2026-10-29T08:42:04.415Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/29/075105871-03a33151-adb5-4c43-a706-9d0dc0c3de73.jpeg",
       "sommario": "Jorge realista: “Il quadro non è dei migliori, se non fossi in lotta per il mondiale sarei a casa. Non sono ottimista ma nemmeno pessimista: dopo pochi giorni sono qui e posso tentare\"\n"
-    },
-    {
-      "id": "f873eb2c2190",
-      "serie": "motogp",
-      "titolo": "Bagnaia: \"Giochi di squadra? Io non ho mai chiesto né ricevuto aiuti\"",
-      "link": "https://www.gpone.com/it/2026/10/29/motogp/bagnaia-giochi-di-squadra-io-non-ho-mai-chiesto-ne-ricevuto-aiuti.html",
-      "fonte": "GPOne",
-      "data": "2026-10-29T08:33:31.000Z",
-      "immagine": "",
-      "sommario": "\"Sul Qatar preferisco non commentare. Sono contento di essere a Sepang, è la mia migliore opportunità per divertirmi, prenderò dei rischi\""
-    },
-    {
-      "id": "4301599463bb",
-      "serie": "motogp",
-      "titolo": "Bastianini: \"Dobbiamo creare un'associazione piloti fatta come si deve\"",
-      "link": "https://www.gpone.com/it/2026/10/29/motogp/bastianini-dobbiamo-creare-unassociazione-piloti-fatta-come-si-deve.html",
-      "fonte": "GPOne",
-      "data": "2026-10-29T08:19:02.000Z",
-      "immagine": "",
-      "sommario": "\"Tutti i piloti hanno capito che ne trarremmo benefici. Uniti possiamo avere più voce in capitolo su certe decisioni. Per il Qatar aspettiamo risposte concrete entro questo week-end\""
-    },
-    {
-      "id": "b3243ac583cb",
-      "serie": "motogp",
-      "titolo": "MotoGP, ufficiale: Jorge Martin fit, disputerà le FP1 a Sepang!",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/29-9243618/motogp_ufficiale_jorge_martin_fit_disputer_le_fp1_a_sepang_",
-      "fonte": "Motosprint",
-      "data": "2026-10-29T07:49:58.635Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/29/062826263-cbdcff73-f2c2-4e29-b3ae-20ef645a7f88.jpg",
-      "sommario": "Il pilota Aprilia si è sottoposto ai controlli medici ricevendo il “fit” per disputare la prima sessione di prove libere. Verrà poi rivalutato al termine del turno"
-    },
-    {
-      "id": "a37f0861fd69",
-      "serie": "motogp",
-      "titolo": "Alex Marquez: \"Il Qatar? non lottiamo solo per i piloti, ma per tutto il paddock\"",
-      "link": "https://www.gpone.com/it/2026/10/29/motogp/alex-marquez-il-qatar-non-lottiamo-solo-per-i-piloti-ma-per-tutto-il-paddock.html",
-      "fonte": "GPOne",
-      "data": "2026-10-29T07:38:07.000Z",
-      "immagine": "",
-      "sommario": "\"In questo momento non abbiamo alcun potere. Penso che il 70% del paddock non voglia andare, ma io sono più tranquillo dei primi tre. Il weekend di gara? Punto a sopravvivere\""
     }
   ]
 }
