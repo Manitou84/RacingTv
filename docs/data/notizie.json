@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-17T16:23:57.084Z",
+  "aggiornato": "2026-11-17T17:28:26.968Z",
   "articoli": [
+    {
+      "id": "db434ba2addd",
+      "serie": "f1",
+      "titolo": "F1, svolta storica: dal 2030 tornano i V8 turbo, raggiunto l'accordo sui nuovi motori",
+      "link": "https://www.gpone.com/it/2026/11/17/formula-1/f1-svolta-storica-dal-2030-tornano-i-v8-turbo-raggiunto-laccordo-sui-nuovi-motori.html",
+      "fonte": "GPOne",
+      "data": "2026-11-17T17:10:35.000Z",
+      "immagine": "",
+      "sommario": "La FIA annuncia l'intesa di massima per il ritorno dei motori a otto cilindri da 2,1 litri. Meno elettrico, monoposto più leggere e costi ridotti: la Formula 1 prepara una rivoluzione tecnica con un anno di anticipo"
+    },
     {
       "id": "cb10db70ddbc",
       "serie": "f1",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-29T09:39:05.347Z",
       "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/29/090439538-441c340b-058d-490b-8e38-fd9f0dbbe101.jpg",
       "sommario": "Il Carlos tifoso fa un confronto tra il calendario a 24 GP e quello a 18 gare, con pro e contro; la sbornia di 3 gare di fila può portare qualche GP a essere meno seguito"
-    },
-    {
-      "id": "83e654033797",
-      "serie": "motogp",
-      "titolo": "Marc Marquez: \"Gioco di squadra con Alex? Tra fratelli non c'è bisogno di parlarne\"",
-      "link": "https://www.gpone.com/it/2026/10/29/motogp/marc-marquez-gioco-di-squadra-con-alex-tra-fratelli-non-ce-bisogno-di-parlarne.html",
-      "fonte": "GPOne",
-      "data": "2026-10-29T09:23:17.000Z",
-      "immagine": "",
-      "sommario": "Sul fit di Martin: \"Un pilota ci proverà sempre, se sarà in pista sono sicuro che sarà veloce, anzi lo temo. L'adrenalina è il miglior analgesico, ha già dimostrato in passato di essere un combattente\""
     }
   ]
 }
