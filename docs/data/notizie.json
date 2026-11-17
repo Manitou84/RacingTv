@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-17T11:40:50.381Z",
+  "aggiornato": "2026-11-17T12:48:29.782Z",
   "articoli": [
+    {
+      "id": "f72ae0a48129",
+      "serie": "motogp",
+      "titolo": "Bradl: \"Il ritiro di Marc? è abbastanza intelligente da aver pianificato tutto\"",
+      "link": "https://www.gpone.com/it/2026/11/17/motogp/bradl-il-ritiro-di-marc-e-abbastanza-intelligente-da-aver-pianificato-tutto.html",
+      "fonte": "GPOne",
+      "data": "2026-11-17T11:52:51.000Z",
+      "immagine": "",
+      "sommario": "\"Ovvio che ci stia riflettendo. In Ducati avranno un piano, ma un Marquez non si può sostituire. Aprilia? dovranno chiedersi perchè hanno perso il titolo, se lo sono lasciato sfuggire e Marquez è risorto\""
+    },
     {
       "id": "a2f057ac60c7",
       "serie": "motogp",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-29T07:29:35.000Z",
       "immagine": "",
       "sommario": "“Ci sono voluti molti esami per capire cosa stesse accadendo. Adesso ho parecchie risposte a diverse cose che sono successe. Guardare il Giappone da casa è stato doloroso, le altre gare...”"
-    },
-    {
-      "id": "bc400fcc3a98",
-      "serie": "motogp",
-      "titolo": "Martin: \"Se non fossi in lotta per il titolo non proverei a correre a Sepang\"",
-      "link": "https://www.gpone.com/it/2026/10/29/motogp/martin-se-non-fossi-in-lotta-per-il-titolo-non-proverei-a-correre-a-sepang.html",
-      "fonte": "GPOne",
-      "data": "2026-10-29T07:27:43.000Z",
-      "immagine": "",
-      "sommario": "\"Con la mano destra non riesco nemmeno a lavarmi i denti. Non sono ottimista sul potere correre domenica, ma l'unica cosa che posso fare è provarci\""
     }
   ]
 }
