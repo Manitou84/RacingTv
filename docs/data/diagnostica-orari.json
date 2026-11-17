@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-17T19:30:13.739Z",
+  "aggiornato": "2026-11-17T20:43:18.137Z",
   "articoli": [
     {
       "fonte": "OA Sport",
@@ -34,19 +34,6 @@
       "fonte": "OA Sport",
       "titolo": "Quando la MotoGP su TV8 oggi, GP Qatar 2026: orario gara in chiaro",
       "url": "https://www.oasport.it/2026/11/a-che-ora-la-motogp-su-tv8-oggi-gp-qatar-2026-programma-gara-differita-in-chiaro/",
-      "gp": "GP Qatar",
-      "serie": "motogp",
-      "sessioni": [
-        "MotoGP Warm up 2026-11-08T11:40:00.000Z",
-        "Moto3 Gara 2026-11-08T13:00:00.000Z TV8 diretta 2026-11-08T13:00:00.000Z",
-        "Moto2 Gara 2026-11-08T14:15:00.000Z TV8 diretta 2026-11-08T14:15:00.000Z",
-        "MotoGP Gara 2026-11-08T16:00:00.000Z TV8 diretta 2026-11-08T16:00:00.000Z"
-      ]
-    },
-    {
-      "fonte": "OA Sport",
-      "titolo": "MotoGP su TV8, GP Qatar 2026: quando la gara in chiaro, orario e programma",
-      "url": "https://www.oasport.it/2026/11/motogp-su-tv8-gp-qatar-2026-quando-la-gara-in-chiaro-orario-e-programma/",
       "gp": "GP Qatar",
       "serie": "motogp",
       "sessioni": [
@@ -108,17 +95,6 @@
       "serie": "f1",
       "sessioni": [
         "F1 Gara 2026-11-08T17:00:00.000Z TV8 differita 2026-11-08T20:25:00.000Z"
-      ]
-    },
-    {
-      "fonte": "OA Sport",
-      "titolo": "F1 su TV8, GP Brasile 2026: quando la gara in chiaro, orario e programma",
-      "url": "https://www.oasport.it/2026/11/f1-su-tv8-gp-brasile-2026-quando-la-gara-in-chiaro-orario-e-programma/",
-      "gp": "GP Brasile",
-      "serie": "f1",
-      "sessioni": [
-        "F1 Gara 2026-11-08T17:00:00.000Z TV8 differita 2026-11-08T20:25:00.000Z",
-        "F1 Qualifiche - TV8 differita 2026-11-08T20:25:00.000Z"
       ]
     }
   ]
