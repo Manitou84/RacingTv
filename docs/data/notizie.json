@@ -1,6 +1,36 @@
 {
-  "aggiornato": "2026-11-17T10:31:59.746Z",
+  "aggiornato": "2026-11-17T11:40:50.381Z",
   "articoli": [
+    {
+      "id": "a2f057ac60c7",
+      "serie": "motogp",
+      "titolo": "Griglia MotoGP quasi ai minimi storici: solo 16 in Qatar",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/17-9277033/griglia_motogp_quasi_ai_minimi_storici_solo_16_in_qatar",
+      "fonte": "Motosprint",
+      "data": "2026-11-17T11:40:50.381Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/08/142040629-2d888232-a8db-4095-90c1-4eccf42e1099.jpg",
+      "sommario": "Piloti Yamaha a casa, Bagnaia infortunato e Marini affaticato: gara di Lusail piena di problemi"
+    },
+    {
+      "id": "129f4687363f",
+      "serie": "motogp",
+      "titolo": "Portimao, l'ultima speranza di Martin. \"Sto decisamente meglio\"",
+      "link": "https://www.gpone.com/it/2026/11/17/motogp/portimao-lultima-speranza-di-martin-sto-decisamente-meglio.html",
+      "fonte": "GPOne",
+      "data": "2026-11-17T11:10:33.000Z",
+      "immagine": "",
+      "sommario": "Per il titolo piloti i giochi sono praticamente fatti a favore di Marquez, ma Aprilia punta a quello costruttori. Bezzecchi: \"chiudiamo al meglio questa stagione\""
+    },
+    {
+      "id": "f26ec3577744",
+      "serie": "sbk",
+      "titolo": "Beatriz Neila correrà con Hadden Racing nel Mondiale Femminile 2027",
+      "link": "https://www.gpone.com/it/2026/11/17/wsbk/beatriz-neila-correra-con-hadden-racing-nel-mondiale-femminile-2027.html",
+      "fonte": "GPOne",
+      "data": "2026-11-17T10:50:49.000Z",
+      "immagine": "",
+      "sommario": "La 24enne spagnola unirà le forze con il team Hadden per la prossima stagione. Affiancherà Paola Ramos e la confermata Arianna Barale, con l’obiettivo di confermarsi ai vertici del campionato"
+    },
     {
       "id": "2c9e5960cba7",
       "serie": "motogp",
@@ -3970,36 +4000,6 @@
       "data": "2026-10-29T07:27:43.000Z",
       "immagine": "",
       "sommario": "\"Con la mano destra non riesco nemmeno a lavarmi i denti. Non sono ottimista sul potere correre domenica, ma l'unica cosa che posso fare è provarci\""
-    },
-    {
-      "id": "3cb31e54f248",
-      "serie": "motogp",
-      "titolo": "Marini: “In Australia ero con zero energie: facevo fatica persino a scrivere un messaggio\"",
-      "link": "https://www.gpone.com/it/2026/10/29/motogp/marini-in-australia-ero-con-zero-energie-facevo-fatica-persino-a-scrivere-un-messaggio.html",
-      "fonte": "GPOne",
-      "data": "2026-10-29T07:03:32.000Z",
-      "immagine": "",
-      "sommario": "\"Una cosa strana, mai avuta prima. Non riuscivo a muovere mani, dita e piedi. Ora sto molto meglio. Riunione piloti per il Qatar? Ci facciamo portavoce di tutta la gente del paddock\""
-    },
-    {
-      "id": "1d868648b3d6",
-      "serie": "motogp",
-      "titolo": "Acosta: \"Martin ha dimostrato coraggio, darà tutto\"",
-      "link": "https://www.gpone.com/it/2026/10/29/motogp/acosta-qatar-devo-rispettare-il-contratto-col-team-e-con-il-campionato.html",
-      "fonte": "GPOne",
-      "data": "2026-10-29T07:03:22.000Z",
-      "immagine": "",
-      "sommario": "\"Jorge ha vinto un Mondiale con un guanto aperto. La KTM è la stessa dei test invernali: Marquez lo scorso anno qua non c'era\""
-    },
-    {
-      "id": "5f92ed2779b8",
-      "serie": "motogp",
-      "titolo": "ULTIM'ORA - Jorge Martin è stato dichiarato fit: correrà a Sepang!",
-      "link": "https://www.gpone.com/it/2026/10/29/motogp/ultimora-jorge-martin-e-stato-dichiarato-fit-correra-a-sepang.html",
-      "fonte": "GPOne",
-      "data": "2026-10-29T05:43:59.000Z",
-      "immagine": "",
-      "sommario": "Il pilota spagnolo ha ricevuto il benestare da parte dei medici per scendere in pista e le sue condizioni verranno rivalutate dopo la FP1"
     }
   ]
 }
