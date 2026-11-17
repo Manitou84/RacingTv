@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-17T12:48:29.782Z",
+  "aggiornato": "2026-11-17T14:05:11.595Z",
   "articoli": [
+    {
+      "id": "d74fde5bdc20",
+      "serie": "f1",
+      "titolo": "Una poltrona... per cinque: ecco la volata per il 2° posto tra i Piloti",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/17-9300006/una_poltrona_per_cinque_ecco_la_volata_per_il_2_posto_tra_i_piloti",
+      "fonte": "Autosprint",
+      "data": "2026-11-17T14:05:11.595Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/17/131619953-70255e2e-e1bf-4e8b-9d94-75523fe2fa38.jpg",
+      "sommario": "Verstappen, Russell, Hamilton, Leclerc, Norris: ecco la volata per la piazza d'onore tra i Piloti. Ecco come si presentano al rush finale, uno ad uno, i protagonisti"
+    },
     {
       "id": "f72ae0a48129",
       "serie": "motogp",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-29T07:38:07.000Z",
       "immagine": "",
       "sommario": "\"In questo momento non abbiamo alcun potere. Penso che il 70% del paddock non voglia andare, ma io sono più tranquillo dei primi tre. Il weekend di gara? Punto a sopravvivere\""
-    },
-    {
-      "id": "766b7e83d6ee",
-      "serie": "motogp",
-      "titolo": "Mir: “Mi sono dovuto fermare per dei problemi alla vista peggiorati dallo stress”",
-      "link": "https://www.gpone.com/it/2026/10/29/motogp/mir-mi-sono-dovuto-fermare-per-dei-problemi-alla-vista-peggiorati-dallo-stress.html",
-      "fonte": "GPOne",
-      "data": "2026-10-29T07:29:35.000Z",
-      "immagine": "",
-      "sommario": "“Ci sono voluti molti esami per capire cosa stesse accadendo. Adesso ho parecchie risposte a diverse cose che sono successe. Guardare il Giappone da casa è stato doloroso, le altre gare...”"
     }
   ]
 }
