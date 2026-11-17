@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-17T06:57:25.154Z",
+  "aggiornato": "2026-11-17T08:15:42.734Z",
   "articoli": [
+    {
+      "id": "8ef6eb7d4d75",
+      "serie": "f1",
+      "titolo": "Wolff e Antonelli, quel rapporto padre-figlio che potrebbe indispettire Russell",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/17-9297993/wolff_e_antonelli_quel_rapporto_padre-figlio_che_potrebbe_indispettire_russell",
+      "fonte": "Autosprint",
+      "data": "2026-11-17T08:15:42.734Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/17/071244661-0023a1d0-edab-47e6-aa49-d1f7d8a97de0.jpg",
+      "sommario": "In una recente intervista alla Bild il team principal Mercedes ha voluto condividere alcuni episodi del recente passato di Kimi che lo legano a lui"
+    },
+    {
+      "id": "ac2a56334973",
+      "serie": "sbk",
+      "titolo": "Bulega dice addio all’11: quale numero avrà in MotoGP sulla Ducati?",
+      "link": "https://www.gpone.com/it/2026/11/17/wsbk/bulega-dice-addio-all11-quale-numero-avra-in-motogp-sulla-ducati.html",
+      "fonte": "GPOne",
+      "data": "2026-11-17T08:10:01.000Z",
+      "immagine": "",
+      "sommario": "Rinuncia forzata per Nicolò, visto che l’11 è già occupato da Moreira. Nicolò prenderà a breve una decisione, ma forse c’è già un numero che stuzzica il campione Superbike"
+    },
     {
       "id": "c9cee615e275",
       "serie": "motogp",
@@ -3980,26 +4000,6 @@
       "data": "2026-10-28T17:15:38.000Z",
       "immagine": "",
       "sommario": "“Marc sapeva di non avere la moto migliore a Phillip island e ha giocato la carta dell’esperienza. Voleva innervosire Jorge e ci è riuscito. Lo ha messo alle strette e Martin ha commesso un errore”"
-    },
-    {
-      "id": "8de3421611b6",
-      "serie": "motogp",
-      "titolo": "MotoGP e F1 in parallelo: un weekend decisivo per entrambe, ma per motivi opposti",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/28-9242257/motogp_e_f1_in_parallelo_un_weekend_decisivo_per_entrambe_ma_per_motivi_opposti",
-      "fonte": "Motosprint",
-      "data": "2026-10-28T16:17:27.294Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/28/145354680-60ced683-7849-4b86-aa0b-e337c0e645d6.jpg",
-      "sommario": "Le due ruote arrivano in Malesia con Marquez che tenterà la fuga su un Martin fisicamente non al top, mentre la Formula 1 è pronta ad incoronare Kimi Antonelli"
-    },
-    {
-      "id": "fc20e6c9fa74",
-      "serie": "motogp",
-      "titolo": "MotoGP, il Pallone d’Oro dei piloti dal 2002 al 2025: Rossi e Marquez in vetta alla classifica",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/28-9242087/motogp_il_pallone_doro_dei_piloti_dal_2002_al_2025_rossi_e_marquez_in_vetta_alla_classifica",
-      "fonte": "Motosprint",
-      "data": "2026-10-28T16:17:27.294Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/28/135023573-9e40aa64-54fc-4699-8c10-94fef9afc1e9.jpg",
-      "sommario": "Una rilettura della storia della MotoGP moderna ispirata al premio individuale più prestigioso del calcio. Con l’aiuto dell’IA, abbiamo assegnato i riconoscimenti valutando le prestazioni dei piloti al di là del titolo m"
     }
   ]
 }
