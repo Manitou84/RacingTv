@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-18T13:44:01.825Z",
+  "aggiornato": "2026-11-18T14:44:16.131Z",
   "articoli": [
+    {
+      "id": "16181832cff8",
+      "serie": "motogp",
+      "titolo": "MotoGP, altra chance per Dixon: Jake in azione con HRC anche a Portimao",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/18-9303408/motogp_altra_chance_per_dixon_jake_in_azione_con_hrc_anche_a_portimao",
+      "fonte": "Motosprint",
+      "data": "2026-11-18T14:44:16.131Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/18/113509525-c5fd267c-0a13-4d0d-b763-9868928cea8c.jpg",
+      "sommario": "L’inglese, già impegnato con la RC213V in Qatar, correrà anche il GP portoghese come sostituto dell’ancora convalescente Joan Mir"
+    },
+    {
+      "id": "1a96ffc15c9d",
+      "serie": "motogp",
+      "titolo": "Marquez verso Portimao: \"Bisogna restare con i piedi per terra\"",
+      "link": "https://www.gpone.com/it/2026/11/18/motogp/marquez-verso-portimao-bisogna-restare-con-i-piedi-per-terra.html",
+      "fonte": "GPOne",
+      "data": "2026-11-18T14:22:00.000Z",
+      "immagine": "",
+      "sommario": "Marc al secondo Match Point: \"Qui avremo la possibilità di chiudere i giochi, ma non dobbiamo cambiare approccio\". Lecuona pronto a sostituire Bagnaia: \"Portimao pista complessa, spero di fare bene\""
+    },
     {
       "id": "585611440859",
       "serie": "f1",
@@ -3980,26 +4000,6 @@
       "data": "2026-10-29T12:26:21.000Z",
       "immagine": "",
       "sommario": "\"Non hanno riasfaltato, e la F1 ha grattato il rettilineo. I piloti avranno più scelta, la morbida dello scorso anno ha più potenziale, ma la media simmetrica potrebbe rivelarsi una sorpresa\""
-    },
-    {
-      "id": "e57c63c825e1",
-      "serie": "motogp",
-      "titolo": "Acosta: \"Correre in Qatar? Devo rispettare il mio contratto e gli obblighi con KTM\"",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/29-9245734/acosta_correre_in_qatar_devo_rispettare_il_mio_contratto_e_gli_obblighi_con_ktm",
-      "fonte": "Motosprint",
-      "data": "2026-10-29T12:13:39.650Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/29/103853199-df768b32-7d4a-467e-a66d-653d6a12493a.jpg",
-      "sommario": "Pedro: \"Se vogliono farci andare, significa che la situazione sarà controllata e in sicurezza. Cosa farò a Sepang? Dipenderà dalle Aprilia\""
-    },
-    {
-      "id": "73cbbcc1de05",
-      "serie": "motogp",
-      "titolo": "TGPOne Sepang - Caos Qatar: Yamaha pensa di non correre!",
-      "link": "https://www.gpone.com/it/2026/10/29/motogp/tgpone-sepang-caos-qatar-yamaha-minaccia-di-non-correre.html",
-      "fonte": "GPOne",
-      "data": "2026-10-29T11:47:00.000Z",
-      "immagine": "",
-      "sommario": "VIDEO - Nel paddock cresce la tensione per Losail: Marquez è tra i più contrari alla trasferta e Yamaha valuta se partecipare. Intanto Martín tenta il miracolo per non perdere il Mondiale."
     }
   ]
 }
