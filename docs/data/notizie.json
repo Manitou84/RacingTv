@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-18T06:32:39.420Z",
+  "aggiornato": "2026-11-18T08:10:15.322Z",
   "articoli": [
+    {
+      "id": "4430eb4948aa",
+      "serie": "f1",
+      "titolo": "F1 2026: cosa resta da assegnare",
+      "link": "https://www.autosprint.it/news/formula1/in-diretta/2026/11/18-9302259/f1_2026_cosa_resta_da_assegnare",
+      "fonte": "Autosprint",
+      "data": "2026-11-18T08:10:15.322Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/18/074819036-7c9b108b-005f-4eb0-8a62-7db236a5b4c0.jpg",
+      "sommario": "Titoli andati, ma le classifiche hanno ancora qualcosa da offrire: sarà volata per il 2° posto in classifica Piloti, altre tre le sfide nella classifica Costruttori"
+    },
+    {
+      "id": "beb8f5c0ea1d",
+      "serie": "f1",
+      "titolo": "Il periodo nero di Vasseur, tra accuse di conflitto d'interessi, insulti e bocciature",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/18-9302258/il_periodo_nero_di_vasseur_tra_accuse_di_conflitto_d_interessi_insulti_e_bocciature",
+      "fonte": "Autosprint",
+      "data": "2026-11-18T08:10:15.322Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/18/080739469-533b2a10-e9d3-4c43-8192-64c518f533bd.jpg",
+      "sommario": "Quando mancano ancora poche gare alla fine della stagione 2026 della F1, il team principal Ferrari è balzato agli onori delle cronache anche per una vicenda extra GP"
+    },
     {
       "id": "aacf5efe4b93",
       "serie": "sbk",
@@ -3980,26 +4000,6 @@
       "data": "2026-10-29T10:35:42.796Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/29/090201405-ca26d42a-333f-41ac-af8d-8eeb45749174.jpg",
       "sommario": "Marco si è detto tranquillo: “La decisione verrà presa considerando molti aspetti. Il titolo? 50 punti sono tanti. Se Marc e Alex faranno giochi di squadra, proverò a stare in mezzo”"
-    },
-    {
-      "id": "085939466d95",
-      "serie": "motogp",
-      "titolo": "Caso Qatar, Rins lancia l'allarme: \"Yamaha non è sicura di esserci a Lusail\"",
-      "link": "https://www.motosprint.it/news/eventi/gp-malesia/2026/10/29-9244096/caso_qatar_rins_lancia_l_allarme_yamaha_non_sicura_di_esserci_a_lusail",
-      "fonte": "Motosprint",
-      "data": "2026-10-29T09:39:05.347Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/29/085417017-3d848e74-ddd7-4d9a-860a-d42a3996f5c3.jpg",
-      "sommario": "Il pilota spagnolo, alle ultime gare in MotoGP prima del ritiro, rivela: \"Non posso parlare del Qatar, ma sono veramente contento di vedere tutti i piloti così uniti sul tema\""
-    },
-    {
-      "id": "1c42a1a1eefc",
-      "serie": "f1",
-      "titolo": "Felipe Massa, continua il processo contro la F1 e intanto vince con il figlio Pipo",
-      "link": "https://www.autosprint.it/news/formula1/2026/10/29-9243610/felipe_massa_continua_il_processo_contro_la_f1_e_intanto_vince_con_il_figlio_pipo",
-      "fonte": "Autosprint",
-      "data": "2026-10-29T09:39:05.347Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/28/221120390-88b33e88-e2d2-43d8-98ed-9f436567e786.jpg",
-      "sommario": "L'ex Ferrari tornerà in tribunale il prossimo febbraio per il dibattimento legato allo scandalo di Singapore 2008"
     }
   ]
 }
