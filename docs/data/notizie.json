@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-18T11:26:48.364Z",
+  "aggiornato": "2026-11-18T12:22:15.469Z",
   "articoli": [
+    {
+      "id": "585611440859",
+      "serie": "f1",
+      "titolo": "Verstappen, Las Vegas e Qatar preparate al simulatore: \"Chiudiamo in bellezza\"",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/18-9303487/verstappen_las_vegas_e_qatar_preparate_al_simulatore_chiudiamo_in_bellezza",
+      "fonte": "Autosprint",
+      "data": "2026-11-18T12:22:15.469Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/18/115201146-5500de57-1f0c-47ce-b235-42d74b8f5ea4.jpg",
+      "sommario": "Red Bull è teoricamente in corsa per un difficilissimo secondo posto nel Costruttori, Max guida un gruppetto di 5 piloti che possono finire alle spalle di Antonelli"
+    },
+    {
+      "id": "42e6d5baaab0",
+      "serie": "motogp",
+      "titolo": "Dixon sulla Honda di Mir anche a Portimao: “Ripartirò da dove avevo lasciato”",
+      "link": "https://www.gpone.com/it/2026/11/18/motogp/dixon-sulla-honda-di-mir-anche-a-portimao-ripartiro-da-dove-avevo-lasciato.html",
+      "fonte": "GPOne",
+      "data": "2026-11-18T11:39:38.000Z",
+      "immagine": "",
+      "sommario": "Joan continuerà il suo percorso di recupero con l’obiettivo di rientrare a Valencia. Sarà di nuovo il pilota inglese a sostituirlo affiancando Marini, pronto per tornare in pista dopo aver saltato il GP del Qatar"
+    },
     {
       "id": "d359117fd0a2",
       "serie": "f1",
@@ -3980,26 +4000,6 @@
       "data": "2026-10-29T11:47:00.000Z",
       "immagine": "",
       "sommario": "VIDEO - Nel paddock cresce la tensione per Losail: Marquez è tra i più contrari alla trasferta e Yamaha valuta se partecipare. Intanto Martín tenta il miracolo per non perdere il Mondiale."
-    },
-    {
-      "id": "1ee4e56ac7b7",
-      "serie": "motogp",
-      "titolo": "Fernandez: “Sto peggio che in Australia. Ci proverò, ma senza fare sciocchezze”",
-      "link": "https://www.gpone.com/it/2026/10/29/motogp/fernandez-sto-peggio-che-in-australia-ci-provero-ma-senza-fare-sciocchezze.html",
-      "fonte": "GPOne",
-      "data": "2026-10-29T11:40:47.000Z",
-      "immagine": "",
-      "sommario": "“Non so come ho fatto 27 giri in Indonesia, a Phillip island mi si irrigidiva il braccio dopo 5. Se ce la farò andrò avanti, altrimenti mi fermerò: non voglio ricominciare il recupero da capo e saltare le ultime gare”"
-    },
-    {
-      "id": "2c4ec9dbad67",
-      "serie": "motogp",
-      "titolo": "A Sepang il saluto di Paolo e Rossella Simoncelli a Marco",
-      "link": "https://www.gpone.com/it/2026/10/29/motogp/a-sepang-il-saluto-di-paolo-e-rossella-simoncelli-a-marco.html",
-      "fonte": "GPOne",
-      "data": "2026-10-29T10:43:37.000Z",
-      "immagine": "",
-      "sommario": "Quindici anni fa il Sic perdeva la vita in Malesia. Oggi i due genitori si sono recati in quella curva dove una targa ricorda il proprio figlio"
     }
   ]
 }

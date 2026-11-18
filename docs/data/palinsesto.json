@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-18T11:26:48.364Z",
+  "aggiornato": "2026-11-18T12:22:15.469Z",
   "weekend": [
     {
       "id": "f1-gp-las-vegas-2026",
@@ -48,6 +48,11 @@
         "2026-11-22"
       ],
       "fonti": [
+        {
+          "nome": "Sky Sport",
+          "url": "https://sport.sky.it/formula-1/2026/11/18/f1-orari-gp-las-vegas-2026-usa",
+          "titolo": "Formula 1, orari GP Las Vegas 2026 negli Usa: dove vedere la F1 in tv | Sky Sport"
+        },
         {
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/11/f1-gp-las-vegas-2026-programma-orari-tv-streaming-guida-sky-e-tv8/",

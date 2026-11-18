@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-18T11:26:48.364Z",
+  "aggiornato": "2026-11-18T12:22:15.469Z",
   "articoli": [
     {
       "fonte": "Sky Sport",
@@ -57,6 +57,20 @@
       ]
     },
     {
+      "fonte": "Sky Sport",
+      "titolo": "Formula 1, orari GP Las Vegas 2026 negli Usa: dove vedere la F1 in tv | Sky Sport",
+      "url": "https://sport.sky.it/formula-1/2026/11/18/f1-orari-gp-las-vegas-2026-usa",
+      "gp": "GP Las Vegas",
+      "serie": "f1",
+      "sessioni": [
+        "F1 Prove libere 1 2026-11-20T00:30:00.000Z",
+        "F1 Prove libere 2 2026-11-20T04:00:00.000Z",
+        "F1 Prove libere 3 2026-11-21T00:30:00.000Z",
+        "F1 Qualifiche 2026-11-21T04:00:00.000Z",
+        "F1 Gara 2026-11-22T04:00:00.000Z"
+      ]
+    },
+    {
       "fonte": "OA Sport",
       "titolo": "F1, GP Las Vegas 2026: programma, orari, tv, streaming, guida SKY e TV8",
       "url": "https://www.oasport.it/2026/11/f1-gp-las-vegas-2026-programma-orari-tv-streaming-guida-sky-e-tv8/",
@@ -78,16 +92,6 @@
       "serie": "f1",
       "sessioni": [
         "F1 Gara 2026-11-08T17:00:00.000Z"
-      ]
-    },
-    {
-      "fonte": "OA Sport",
-      "titolo": "Dove vedere la F1 stasera in tv, GP Brasile 2026: orario gara, streaming, programma TV8",
-      "url": "https://www.oasport.it/2026/11/dove-vedere-la-f1-stasera-in-tv-gp-brasile-2026-orario-gara-streaming-programma-tv8/",
-      "gp": "GP Brasile",
-      "serie": "f1",
-      "sessioni": [
-        "F1 Gara 2026-11-08T17:00:00.000Z TV8 differita 2026-11-08T20:25:00.000Z"
       ]
     }
   ]
