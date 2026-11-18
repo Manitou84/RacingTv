@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-18T15:47:43.682Z",
+  "aggiornato": "2026-11-18T16:53:07.962Z",
   "articoli": [
+    {
+      "id": "2c0a59e8b17c",
+      "serie": "motogp",
+      "titolo": "Márquez a un passo dal 10° titolo: \"Al 70% fra tre anni sarò già in pensione\"",
+      "link": "https://www.gpone.com/it/2026/11/18/motogp/marquez-a-un-passo-dal-10deg-titolo-al-70-fra-tre-anni-saro-gia-in-pensione.html",
+      "fonte": "GPOne",
+      "data": "2026-11-18T15:51:01.000Z",
+      "immagine": "",
+      "sommario": "A Portimão Marc può raggiungere Giacomo Agostini con otto Mondiali nella classe regina. A 33 anni è nuovamente al vertice, ma ha ammesso che il contratto Ducati fino al 2028 potrebbe essere l'ultimo"
+    },
     {
       "id": "6d3896bc93b8",
       "serie": "f1",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-29T16:41:10.482Z",
       "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/23/165308767-9e07cb87-f822-4599-bbfa-80cde621cb39.jpg",
       "sommario": "L'ex pilota tedesco, dopo aver criticato la permanenza di Alonso nei mesi scorsi, ha portato alla luce una tendenza che potrebbe diventare problematica"
-    },
-    {
-      "id": "6f4f47116fcf",
-      "serie": "motogp",
-      "titolo": "Martin tra infortuni e guarigioni lampo: che risultati ha ottenuto al rientro in pista?",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/29-9246731/martin_tra_infortuni_e_guarigioni_lampo_che_risultati_ha_ottenuto_al_rientro_in_pista_",
-      "fonte": "Motosprint",
-      "data": "2026-10-29T13:31:58.348Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/29/123739762-90864b44-8ea3-493a-81e2-56ab1057e485.jpg",
-      "sommario": "Per mantenere aperto il Mondiale MotoGP 2026, Jorge avrà bisogno di correre e perdere meno terreno possibile da Marc Marquez a Sepang, per giocarsi tutto nel finale di stagione"
     }
   ]
 }
