@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-18T10:29:36.029Z",
+  "aggiornato": "2026-11-18T11:26:48.364Z",
   "_fonte": "Wikipedia (inglese), pagine dei singoli GP",
   "motogp": {
     "2025": {
@@ -53,7 +53,7 @@
         "futuro": false,
         "letto": "2026-10-31T06:22:30.792Z"
       },
-      "2025_Czech_Republic_motorcycle_Grand_Prix": {
+      "2025_Czech_motorcycle_Grand_Prix": {
         "data": "2025-07-20",
         "circuito": "brno",
         "luogo": "Brno Circuit Brno, Czech Republic",
@@ -76,7 +76,7 @@
           "Enea Bastianini"
         ],
         "futuro": false,
-        "letto": "2026-10-31T06:22:30.792Z"
+        "letto": "2026-11-18T11:26:48.364Z"
       },
       "2025_Thailand_motorcycle_Grand_Prix": {
         "data": "2025-03-02",
@@ -655,7 +655,7 @@
         "futuro": false,
         "letto": "2026-10-31T06:22:30.792Z"
       },
-      "2026_Czech_Republic_motorcycle_Grand_Prix": {
+      "2026_Czech_motorcycle_Grand_Prix": {
         "data": "2026-06-21",
         "circuito": "brno",
         "luogo": "Creditas Autodrom Brno Brno, Czech Republic",
@@ -678,7 +678,7 @@
           "Marc Márquez"
         ],
         "futuro": false,
-        "letto": "2026-10-31T06:22:30.792Z"
+        "letto": "2026-11-18T11:26:48.364Z"
       },
       "2026_Dutch_TT": {
         "data": "2026-06-28",
