@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-18T16:53:07.962Z",
+  "aggiornato": "2026-11-18T23:14:35.638Z",
   "articoli": [
     {
       "id": "2c0a59e8b17c",
@@ -80,6 +80,16 @@
       "data": "2026-11-18T10:10:50.000Z",
       "immagine": "",
       "sommario": "Dopo i contatti con Gentile, Ducati e Aruba hanno optato per un una figura di spicco per la SBK nel 2027. Ecco di chi si tratta e da dove arriva"
+    },
+    {
+      "id": "1dfeaff5ea51",
+      "serie": "f1",
+      "titolo": "La griglia della F1 2027 si completa con Bottas",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/18-9305313/la_griglia_della_f1_2027_si_completa_con_bottas",
+      "fonte": "Autosprint",
+      "data": "2026-11-18T10:00:00Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/18/213257583-a55dfa00-dd48-4df3-b20d-d6b4321eae32.jpg",
+      "sommario": "Dopo aver annunciato il rinnovo di Perez, la Cadillac prende finalmente una decisione anche su Bottas: era l'unico tassello del puzzle 2027 ancora mancante"
     },
     {
       "id": "4430eb4948aa",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-29T18:19:24.000Z",
       "immagine": "",
       "sommario": "Márquez arriva a Sepang da leader del mondiale, ma tutti gli occhi sono su Martín, che proverà a correre con il polso fratturato. Bezzecchi cerca di riaprire la corsa al titolo."
-    },
-    {
-      "id": "9e1c9d3da274",
-      "serie": "f1",
-      "titolo": "In F1 ci sono troppi vecchi? Schumacher in allarme: \"Si rischia di far chiudere la F2\"",
-      "link": "https://www.autosprint.it/news/formula1/2026/10/29-9225744/in_f1_ci_sono_troppi_vecchi_schumacher_in_allarme_si_rischia_di_far_chiudere_la_f2",
-      "fonte": "Autosprint",
-      "data": "2026-10-29T16:41:10.482Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/23/165308767-9e07cb87-f822-4599-bbfa-80cde621cb39.jpg",
-      "sommario": "L'ex pilota tedesco, dopo aver criticato la permanenza di Alonso nei mesi scorsi, ha portato alla luce una tendenza che potrebbe diventare problematica"
     }
   ]
 }
