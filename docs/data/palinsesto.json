@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-18T23:14:35.638Z",
+  "aggiornato": "2026-11-19T04:20:20.595Z",
   "weekend": [
     {
       "id": "f1-gp-las-vegas-2026",
@@ -31,14 +31,20 @@
           "classe": "F1",
           "sessione": "Qualifiche",
           "inizio": "2026-11-21T04:00:00.000Z",
-          "tv8": null,
+          "tv8": {
+            "tipo": "differita",
+            "inizio": "2026-11-21T19:15:00.000Z"
+          },
           "fonte": "OA Sport"
         },
         {
           "classe": "F1",
           "sessione": "Gara",
           "inizio": "2026-11-22T04:00:00.000Z",
-          "tv8": null,
+          "tv8": {
+            "tipo": "differita",
+            "inizio": "2026-11-22T17:00:00.000Z"
+          },
           "fonte": "OA Sport"
         }
       ],
@@ -52,6 +58,11 @@
           "nome": "Sky Sport",
           "url": "https://sport.sky.it/formula-1/2026/11/18/f1-orari-gp-las-vegas-2026-usa",
           "titolo": "Formula 1, orari GP Las Vegas 2026 negli Usa: dove vedere la F1 in tv | Sky Sport"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/11/f1-gp-las-vegas-2026-su-tv8-orari-in-chiaro-fine-settimana-qualifiche-e-gara/",
+          "titolo": "F1, GP Las Vegas 2026 su TV8: orari in chiaro fine settimana, qualifiche e gara"
         },
         {
           "nome": "OA Sport",
@@ -132,49 +143,70 @@
           "classe": "MotoGP",
           "sessione": "Qualifiche Q1",
           "inizio": "2026-11-21T10:50:00.000Z",
-          "tv8": null,
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-11-21T10:50:00.000Z"
+          },
           "fonte": "OA Sport"
         },
         {
           "classe": "MotoGP",
           "sessione": "Qualifiche Q2",
           "inizio": "2026-11-21T11:15:00.000Z",
-          "tv8": null,
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-11-21T11:15:00.000Z"
+          },
           "fonte": "OA Sport"
         },
         {
           "classe": "Moto3",
           "sessione": "Qualifiche Q1",
           "inizio": "2026-11-21T12:45:00.000Z",
-          "tv8": null,
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-11-21T12:45:00.000Z"
+          },
           "fonte": "OA Sport"
         },
         {
           "classe": "Moto3",
           "sessione": "Qualifiche Q2",
           "inizio": "2026-11-21T13:10:00.000Z",
-          "tv8": null,
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-11-21T13:10:00.000Z"
+          },
           "fonte": "OA Sport"
         },
         {
           "classe": "Moto2",
           "sessione": "Qualifiche Q1",
           "inizio": "2026-11-21T13:40:00.000Z",
-          "tv8": null,
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-11-21T13:40:00.000Z"
+          },
           "fonte": "OA Sport"
         },
         {
           "classe": "Moto2",
           "sessione": "Qualifiche Q2",
           "inizio": "2026-11-21T14:05:00.000Z",
-          "tv8": null,
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-11-21T14:05:00.000Z"
+          },
           "fonte": "OA Sport"
         },
         {
           "classe": "MotoGP",
           "sessione": "Sprint",
           "inizio": "2026-11-21T15:00:00.000Z",
-          "tv8": null,
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-11-21T15:00:00.000Z"
+          },
           "fonte": "OA Sport"
         },
         {
@@ -188,21 +220,30 @@
           "classe": "Moto2",
           "sessione": "Gara",
           "inizio": "2026-11-22T11:15:00.000Z",
-          "tv8": null,
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-11-22T11:15:00.000Z"
+          },
           "fonte": "OA Sport"
         },
         {
           "classe": "MotoGP",
           "sessione": "Gara",
           "inizio": "2026-11-22T13:00:00.000Z",
-          "tv8": null,
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-11-22T13:00:00.000Z"
+          },
           "fonte": "OA Sport"
         },
         {
           "classe": "Moto3",
           "sessione": "Gara",
           "inizio": "2026-11-22T14:30:00.000Z",
-          "tv8": null,
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-11-22T10:00:00.000Z"
+          },
           "fonte": "OA Sport"
         }
       ],
@@ -216,6 +257,11 @@
           "nome": "Sky Sport",
           "url": "https://sport.sky.it/motogp/2026/11/18/motogp-orari-gp-portogallo-portimao-2026-dove-vedere-sky-now-tv8",
           "titolo": "MotoGP, GP Portogallo: orari tv della gara di Portimao 2026 | Sky Sport"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/11/motogp-gp-portogallo-2026-su-tv8-orari-in-chiaro-fine-settimana-qualifiche-e-gara/",
+          "titolo": "MotoGP, GP Portogallo 2026 su TV8: orari in chiaro fine settimana, qualifiche e gara"
         },
         {
           "nome": "OA Sport",
