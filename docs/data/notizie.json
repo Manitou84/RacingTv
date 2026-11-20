@@ -1,6 +1,16 @@
 {
-  "aggiornato": "2026-11-19T21:57:13.558Z",
+  "aggiornato": "2026-11-20T02:52:10.724Z",
   "articoli": [
+    {
+      "id": "92ea29c8a8d0",
+      "serie": "f1",
+      "titolo": "F1 LIVE GP Las Vegas: segui le prove libere in diretta",
+      "link": "https://www.autosprint.it/news/formula1/f1-prove/2026/11/20-9310443/gp_las_vegas_segui_le_prove_libere_in_diretta",
+      "fonte": "Autosprint",
+      "data": "2026-11-20T02:52:10.724Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/20/003913998-ab89d623-b315-458a-a9ea-0b2a08a76631.jpg",
+      "sommario": "Prende avvio il primo appuntamento della tripletta che chiude la stagione 2026 della Formula 1. Prima bandiera verde alle 01:30 italiana"
+    },
     {
       "id": "6a26fd95710e",
       "serie": "motogp",
@@ -3990,16 +4000,6 @@
       "data": "2026-10-30T18:02:29.837Z",
       "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/28/121255376-29c190a7-7263-433c-83b4-f2e264e689ee.jpg",
       "sommario": "L’altitudine, il passaggio nello stadio e le gare del passato rendono unico l’appuntamento di Città del Messico e Kimi può scrivere una nuova pagina italiana"
-    },
-    {
-      "id": "891cdd713736",
-      "serie": "f1",
-      "titolo": "Messico 1986: il giorno in cui Berger e la Benetton vinsero insieme",
-      "link": "https://www.autosprint.it/news/formula1/2026/10/30-9246913/messico_1986_il_giorno_in_cui_berger_e_la_benetton_vinsero_insieme",
-      "fonte": "Autosprint",
-      "data": "2026-10-30T18:02:29.837Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/30/174432240-d149131b-8c10-4f96-b3f0-782c4b611766.jpg",
-      "sommario": "In attesa del prossimo GP, il ricordo della prima vittoria dell’austriaco: un successo costruito sulla velocità, sulla gestione e su una strategia senza soste"
     }
   ]
 }
