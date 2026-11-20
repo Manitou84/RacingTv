@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-20T02:52:10.724Z",
+  "aggiornato": "2026-11-20T10:50:32.268Z",
   "weekend": [
     {
       "id": "f1-gp-las-vegas-2026",
@@ -56,8 +56,13 @@
       "fonti": [
         {
           "nome": "Sky Sport",
-          "url": "https://sport.sky.it/formula-1/2026/11/18/f1-orari-gp-las-vegas-2026-usa",
-          "titolo": "Formula 1, orari GP Las Vegas 2026 negli Usa: dove vedere la F1 in tv | Sky Sport"
+          "url": "https://sport.sky.it/formula-1/2026/11/20/formula-1-orari-gp-las-vegas-2026",
+          "titolo": "F1, orari GP Las Vegas: dove vederlo su Sky e Now in tv, streaming e repliche | Sky Sport"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/11/f1-stanotte-in-tv-gp-las-vegas-2026-orari-fp3-e-qualifiche-21-novembre-streaming-programma-sky-e-tv8/",
+          "titolo": "F1 stanotte in tv, GP Las Vegas 2026: orari FP3 e qualifiche 21 novembre, streaming, programma Sky e TV8"
         },
         {
           "nome": "OA Sport",
@@ -265,8 +270,18 @@
       "fonti": [
         {
           "nome": "Sky Sport",
+          "url": "https://sport.sky.it/motogp/2026/11/20/orari-motogp-gp-portogallo-portimao-sky-now-tv8",
+          "titolo": "Orari MotoGp: Gp Portogallo Portimao 2026 in tv e streaming su Sky, Now e TV8 | Sky Sport"
+        },
+        {
+          "nome": "Sky Sport",
           "url": "https://sport.sky.it/motogp/2026/11/18/motogp-orari-gp-portogallo-portimao-2026-dove-vedere-sky-now-tv8",
           "titolo": "MotoGP, GP Portogallo: orari tv della gara di Portimao 2026 | Sky Sport"
+        },
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/11/motogp-oggi-in-tv-gp-portogallo-2026-orari-prove-libere-streaming-programma-sky-e-tv8/",
+          "titolo": "MotoGP oggi, in tv, GP Portogallo 2026: orari prove libere, streaming, programma Sky e TV8"
         },
         {
           "nome": "OA Sport",

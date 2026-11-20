@@ -1,6 +1,106 @@
 {
-  "aggiornato": "2026-11-20T02:52:10.724Z",
+  "aggiornato": "2026-11-20T10:50:32.268Z",
   "articoli": [
+    {
+      "id": "7e012a812264",
+      "serie": "motogp",
+      "titolo": "Morbidelli: “Ho letto il libro di Rossi in cinque giorni. Sul 2015...”",
+      "link": "https://www.motosprint.it/news/eventi/gp-portimao/2026/11/20-9310891/morbidelli_ho_letto_il_libro_di_rossi_in_cinque_giorni_sul_2015_",
+      "fonte": "Motosprint",
+      "data": "2026-11-20T10:50:32.268Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/20/094255258-9bfaf91d-1f29-4c8f-a291-814121efe965.jpeg",
+      "sommario": "Il romano tra presente e futuro a Portimão: \"Affronto le ultime gare con il sorriso ma, da quando scenderò dalla Desmosedici, sarò completamente focalizzato sulla nuova avventura\""
+    },
+    {
+      "id": "1f10c84e0948",
+      "serie": "f1",
+      "titolo": "Fia, arriva il collegio permanente in F1: dal 2027 commissari a tempo pieno",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/20-9310634/fia_arriva_il_collegio_permanente_in_f1_dal_2027_commissari_a_tempo_pien0",
+      "fonte": "Autosprint",
+      "data": "2026-11-20T10:50:32.268Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/20/083051331-4db16b9f-2e09-4e00-9fd7-60c34941f636.jpg",
+      "sommario": "Una delle richieste da più tempo avanzate dai piloti trova l'impegno della Federazione, che dal prossimo anno introdurrà un gruppo di commissari a tempo pieno"
+    },
+    {
+      "id": "cb4973148e43",
+      "serie": "f1",
+      "titolo": "Avere le spalle coperte dalla Ferrari non basta, il 2027 di Bearman è in forse",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/20-9310272/avere_le_spalle_coperte_dalla_ferrari_non_basta_il_2027_di_bearman_in_forse",
+      "fonte": "Autosprint",
+      "data": "2026-11-20T10:50:32.268Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/19/191631703-b8de8c68-38aa-40a9-bfb9-9ab4b45ab8ce.jpg",
+      "sommario": "Malgrado alcune buone prestazioni Oliver è attualmente senza contratto per l'anno prossimo e da Las Vegas non nasconde la propria frustrazione"
+    },
+    {
+      "id": "4aa20644e373",
+      "serie": "f1",
+      "titolo": "Lawson senza filtri su Marko: \"È intimidatorio. Felice che non sia più coinvolto\"",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/20-9310273/lawson_senza_filtri_su_marko_intimidatorio_felice_che_non_sia_pi_coinvolto",
+      "fonte": "Autosprint",
+      "data": "2026-11-20T10:50:32.268Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/19/215144602-09fd4d8e-5047-4e9a-a514-44b33aa937ab.jpg",
+      "sommario": "Liam ha appena rinnovato con Racing Bulls per il 2027. Un accordo che a suo avviso non sarebbe arrivato se ci fosse stato ancora il talent scout austriaco in Red Bull"
+    },
+    {
+      "id": "96a41b0e2fa3",
+      "serie": "motogp",
+      "titolo": "LIVE - La diretta della FP1 del Gran Premio del Portogallo a Portimao",
+      "link": "https://www.gpone.com/it/2026/11/20/motogp/live-la-diretta-della-fp1-del-gran-premio-del-portogallo-a-portimao.html",
+      "fonte": "GPOne",
+      "data": "2026-11-20T10:40:00.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/live-fp1.jpg?itok=ElScxD5z",
+      "sommario": "Alle 11:45 italiane scatta il primo turno di prove libere del GP del Portogallo. Marc Marquez ha il secondo match point della stagione, Martìn e Bezzecchi vogliono rimandare la sua festa a Valencia"
+    },
+    {
+      "id": "e805c1e0bb3e",
+      "serie": "motogp",
+      "titolo": "Marquez a un passo dal titolo: Marc campione dopo la Sprint di Portimao se...",
+      "link": "https://www.gpone.com/it/2026/11/20/motogp/marquez-a-un-passo-dal-titolo-marc-campione-dopo-la-sprint-di-portimao-se.html",
+      "fonte": "GPOne",
+      "data": "2026-11-20T09:50:27.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/marquez-martin-bezzecchi.jpg?itok=BK-afSHL",
+      "sommario": "Il pilota della Ducati è arrivato in Portogallo con 60 punti di vantaggio su Martin e 74 su Bezzecchi. I numeri sono tutti dalla sua parte"
+    },
+    {
+      "id": "14a0dc39eb85",
+      "serie": "motogp",
+      "titolo": "Honda promuove Stefan Bradl: dal 2027 sarà Sporting Coordinator di HRC",
+      "link": "https://www.gpone.com/it/2026/11/20/motogp/honda-promuove-stefan-bradl-dal-2027-sara-sporting-coordinator-di-hrc.html",
+      "fonte": "GPOne",
+      "data": "2026-11-20T09:08:00.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/bradl.jpg?itok=PK09b27q",
+      "sommario": "Il tedesco, campione del mondo Moto2 nel 2011 e storico collaudatore della Casa giapponese, assumerà un nuovo incarico per affiancare i piloti e rafforzare la struttura sportiva Honda"
+    },
+    {
+      "id": "794635ba98e2",
+      "serie": "sbk",
+      "titolo": "Stretta ai test in Superbike: dal 2027 giornate ridotte!",
+      "link": "https://www.gpone.com/it/2026/11/20/wsbk/stretta-ai-test-in-superbike-dal-2027-giornate-ridotte.html",
+      "fonte": "GPOne",
+      "data": "2026-11-20T08:33:22.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/WSBK/generic/test1.jpg?itok=EvcHOy_i",
+      "sommario": "Fino ad oggi, chi non godeva delle superconcessioni, disponeva di 10 uscite. A partire dal prossimo anno il numero verrà ridotto, con un’ulteriore riduzione dal 2028. Ecco cosa cambia"
+    },
+    {
+      "id": "1844a1befaa4",
+      "serie": "motogp",
+      "titolo": "Marc Marquez, il ritiro è davvero possibile? La risposta che alimenta i dubbi sul suo futuro",
+      "link": "https://www.gpone.com/it/2026/11/20/motogp/marquez-il-ritiro-e-davvero-possibile-la-risposta-che-alimenta-i-dubbi-sul-suo-futuro.html",
+      "fonte": "GPOne",
+      "data": "2026-11-20T07:51:41.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/marc-rititro.jpg?itok=BB4waVry",
+      "sommario": "A Portimão Marc non ha voluto garantire che correrà nel 2027 e 2028, nonostante il contratto con Ducati. Una risposta evasiva che lascia aperti tutti gli scenari: un addio dopo il decimo titolo oppure una raffinata strat"
+    },
+    {
+      "id": "09d1da817e37",
+      "serie": "motogp",
+      "titolo": "Eddie Lawson e l'epoca dei gladiatori: \"Non sapevamo di vivere l'età d'oro della 500\"",
+      "link": "https://www.gpone.com/it/2026/11/19/motogp/eddie-lawson-e-lepoca-dei-gladiatori-non-sapevamo-di-vivere-leta-doro-della-500.html",
+      "fonte": "GPOne",
+      "data": "2026-11-20T07:30:00.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2022/article/foto/11/SBK/generic/1989-lawson.jpg?itok=8kBDFuJc",
+      "sommario": "\"Roberts aveva l'intelligenza, Spencer un talento naturale incredibile, Gardner era pura forza, Rainey non sbagliava mai e Schwantz vedeva i sorpassi dove gli altri non ne vedevano\""
+    },
     {
       "id": "92ea29c8a8d0",
       "serie": "f1",
@@ -3900,106 +4000,6 @@
       "data": "2026-10-31T08:09:27.000Z",
       "immagine": "",
       "sommario": "\" Ho commesso un piccolo errore. La pole non serve a niente se non porti a casa punti. Con la spalla soffro ancora ma non sono caduto per quello, ho avuto troppo fiducia dopo le qualifiche\""
-    },
-    {
-      "id": "575a238691af",
-      "serie": "motogp",
-      "titolo": "Il Ministero degli Affari Esteri spagnolo avvisa: “Rinviate il viaggio in Qatar fino a nuova comunicazione”",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/31-9252016/il_ministero_degli_affari_esteri_spagnolo_avvisa_rinviate_il_viaggio_in_qatar_fino_a_nuova_comunicazione",
-      "fonte": "Motosprint",
-      "data": "2026-10-31T06:08:39.209Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/30/172958255-59e4fe65-81d6-4b2a-88a6-b95e93a30ab2.jpg",
-      "sommario": "La gara in programma la prossima settimana è confermata ma buona parte del paddock non vuole andare, affidandosi ai consigli delle rispettive autorità\n"
-    },
-    {
-      "id": "cd1b25ece782",
-      "serie": "motogp",
-      "titolo": "Martin dice basta: il suo GP di Sepang è terminato",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/31-9252891/martin_dice_basta_il_suo_gp_di_sepang_terminato",
-      "fonte": "Motosprint",
-      "data": "2026-10-31T06:08:39.209Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/31/031438318-76ac6678-d06a-4edb-a9b5-1a180278e61e.jpg",
-      "sommario": "Lo spagnolo ha provato a stringere i denti anche questa mattina, ma la ragione ha prevalso sul coraggio. Ora il prossimo obiettivo è il Qatar\n"
-    },
-    {
-      "id": "59d6108c24da",
-      "serie": "motogp",
-      "titolo": "Martin: “Continuare significava non aver imparato nulla dal passato. Il titolo? Ora tutto si complica”",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/31-9252902/martin_continuare_significava_non_aver_imparato_nulla_dal_passato_il_titolo_ora_tutto_si_complica",
-      "fonte": "Motosprint",
-      "data": "2026-10-31T06:08:39.209Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/31/045700122-cbe73cdb-84c1-4164-ab05-ae0985b9a625.jpeg",
-      "sommario": "Jorge ha detto stop: “Per un giro potevo guidare senza dolore, la frenata il problema principale. Avevo davanti a me un grande sforzo e poche speranze di ottenere una ricompensa Ora l’obiettivo è il Qatar\"\n\n \n"
-    },
-    {
-      "id": "3ff42806b99e",
-      "serie": "motogp",
-      "titolo": "LIVE MotoGP Sepang - La diretta della Sprint Race del Gran Premio della Malesia",
-      "link": "https://www.gpone.com/it/2026/10/31/motogp/live-motogp-sepang-la-diretta-della-sprint-race-del-gran-premio-della-malesia.html",
-      "fonte": "GPOne",
-      "data": "2026-10-31T05:56:48.000Z",
-      "immagine": "",
-      "sommario": "Álex Márquez beffa Marc e conquista la pole per 70 millesimi. Martín si arrende all'infortunio e salta la Sprint, Bezzecchi parte quinto: alle 8:00 la sfida mondiale"
-    },
-    {
-      "id": "fd2672b03de1",
-      "serie": "motogp",
-      "titolo": "Diretta Sprint MotoGP Malesia: risultati Q1, Q2 e gara LIVE",
-      "link": "https://www.motosprint.it/news/eventi/gp-malesia/2026/10/31-9252904/diretta_sprint_motogp_malesia_risultati_q1_q2_e_gara_live",
-      "fonte": "Motosprint",
-      "data": "2026-10-31T05:28:29.848Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/31/052234221-1eba146e-d461-4d5c-8ad5-6de2ba64f76a.jpg",
-      "sommario": "Seguite con noi la gara del sabato sul circuito di Sepang: grande chance di allungare in classifica per Marc Marquez, visto il forfait di Jorge Martin"
-    },
-    {
-      "id": "a3d240ae5d5e",
-      "serie": "motogp",
-      "titolo": "Martin: \"Per me il titolo è già perso, ma continuerò a lottare fino alla fine\"",
-      "link": "https://www.gpone.com/it/2026/10/31/motogp/martin-per-me-il-titolo-e-gia-perso-ma-continuero-a-lottare-fino-alla-fine.html",
-      "fonte": "GPOne",
-      "data": "2026-10-31T04:44:03.000Z",
-      "immagine": "",
-      "sommario": "\"Non lo farò solo per me, ma per la mia squadra e per le persone che mi sostengono. Ci ho provato, ma non avevo forza. Ho imparato dal passato, continuare non aveva senso\""
-    },
-    {
-      "id": "19f89c9e2114",
-      "serie": "motogp",
-      "titolo": "ULTIM'ORA - Martin costretto ad arrendersi: si ritira dal Gran Premio della Malesia",
-      "link": "https://www.gpone.com/it/2026/10/31/motogp/ultimora-martin-costretto-ad-arrendersi-si-ritira-dal-gran-premio-della-malesia.html",
-      "fonte": "GPOne",
-      "data": "2026-10-31T02:45:25.000Z",
-      "immagine": "",
-      "sommario": "Terminate le FP2, Aprilia ha comunicato che Jorge non continuerà il fine settimana a Sepang concentrandosi sul suo recupero"
-    },
-    {
-      "id": "da511ca32d90",
-      "serie": "f1",
-      "titolo": "Quando i big peccano di modestia. Hamilton: \"Nessuno come me in 70 anni di F1\"",
-      "link": "https://www.autosprint.it/news/formula1/2026/10/30-9252482/quando_i_big_peccano_di_modestia_hamilton_nessuno_come_me_in_70_anni_di_f1",
-      "fonte": "Autosprint",
-      "data": "2026-10-30T21:06:40.373Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/30/200457749-d39497a7-f837-444a-b41a-45696c5cdf11.jpg",
-      "sommario": "Nell'ultima settimana Lewis e Alonso ci hanno regalato delle dichiarazioni utili a far infiammare il paddock e il web"
-    },
-    {
-      "id": "4e5e32e38030",
-      "serie": "motogp",
-      "titolo": "LIVE MotoGP Sepang - La diretta delle qualifiche del Gran Premio della Malesia",
-      "link": "https://www.gpone.com/it/2026/10/30/motogp/live-motogp-sepang-la-diretta-delle-qualifiche-del-gran-premio-della-malesia.html",
-      "fonte": "GPOne",
-      "data": "2026-10-30T18:23:00.000Z",
-      "immagine": "",
-      "sommario": "Márquez domina il venerdì davanti al fratello Álex e Ogura. Martín si ferma per il dolore al polso e dovrà passare dalla Q1, come Bagnaia. Alle 3:50 la caccia alla pole"
-    },
-    {
-      "id": "c0894f63054d",
-      "serie": "f1",
-      "titolo": "Gran Premio del Messico: da Mansell al sogno mondiale di Antonelli, le curiosità",
-      "link": "https://www.autosprint.it/news/formula1/2026/10/30-9241902/gran_premio_del_messico_da_mansell_al_sogno_mondiale_di_antonelli_le_curiosit",
-      "fonte": "Autosprint",
-      "data": "2026-10-30T18:02:29.837Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/28/121255376-29c190a7-7263-433c-83b4-f2e264e689ee.jpg",
-      "sommario": "L’altitudine, il passaggio nello stadio e le gare del passato rendono unico l’appuntamento di Città del Messico e Kimi può scrivere una nuova pagina italiana"
     }
   ]
 }
