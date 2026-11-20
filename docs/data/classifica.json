@@ -1,7 +1,7 @@
 {
-  "aggiornato": "2026-11-20T10:50:32.268Z",
+  "aggiornato": "2026-11-20T18:56:25.271Z",
   "motogp": {
-    "aggiornato": "2026-11-20T10:50:32.268Z",
+    "aggiornato": "2026-11-20T18:56:25.271Z",
     "fonte": "Motosprint",
     "piloti": [
       {
@@ -148,7 +148,7 @@
         "pos": 21,
         "slug": "iker-lecuona",
         "nome": "I. Lecuona",
-        "team": "BK8 Gresini Racing MotoGP",
+        "team": "Ducati Lenovo Team",
         "punti": 18
       },
       {
@@ -169,7 +169,7 @@
         "pos": 24,
         "slug": "augusto-fernandez",
         "nome": "A. Fernandez",
-        "team": "Yamaha Factory Racing Team",
+        "team": "Prima Pramac Yamaha",
         "punti": 6
       },
       {
@@ -291,6 +291,21 @@
         "pos": 11,
         "nome": "Prima Pramac Yamaha",
         "punti": 49
+      },
+      {
+        "pos": 12,
+        "nome": "Yamaha Factory Racing Team",
+        "punti": 2
+      },
+      {
+        "pos": 13,
+        "nome": "Team HRC",
+        "punti": 0
+      },
+      {
+        "pos": 14,
+        "nome": "Red Bull GASGAS Tech3",
+        "punti": 0
       }
     ],
     "costruttori": [
@@ -322,7 +337,7 @@
     ]
   },
   "f1": {
-    "aggiornato": "2026-11-20T10:50:32.268Z",
+    "aggiornato": "2026-11-20T18:56:25.271Z",
     "fonte": "Autosprint",
     "piloti": [
       {
@@ -561,7 +576,7 @@
     ]
   },
   "sbk": {
-    "aggiornato": "2026-11-20T10:50:32.268Z",
+    "aggiornato": "2026-11-20T18:56:25.271Z",
     "fonte": "Wikipedia",
     "piloti": [
       {

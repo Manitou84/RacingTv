@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-20T10:50:32.268Z",
+  "aggiornato": "2026-11-20T18:56:25.271Z",
   "articoli": [
     {
       "fonte": "Sky Sport",
@@ -8,12 +8,6 @@
       "gp": "GP Portogallo",
       "serie": "motogp",
       "sessioni": [
-        "Moto3 Prove libere 1 2026-11-20T08:55:00.000Z",
-        "Moto2 Prove libere 1 2026-11-20T09:45:00.000Z",
-        "MotoGP Prove libere 1 2026-11-20T10:40:00.000Z",
-        "Moto3 Pre-qualifiche 2026-11-20T13:15:00.000Z",
-        "Moto2 Pre-qualifiche 2026-11-20T14:00:00.000Z",
-        "MotoGP Pre-qualifiche 2026-11-20T14:55:00.000Z",
         "Moto3 Prove libere 2 2026-11-21T08:35:00.000Z",
         "Moto2 Prove libere 2 2026-11-21T09:20:00.000Z",
         "MotoGP Prove libere 2 2026-11-21T10:05:00.000Z",
@@ -34,12 +28,6 @@
       "gp": "GP Portogallo",
       "serie": "motogp",
       "sessioni": [
-        "Moto3 Prove libere 1 2026-11-20T08:55:00.000Z",
-        "Moto2 Prove libere 1 2026-11-20T09:45:00.000Z",
-        "MotoGP Prove libere 1 2026-11-20T10:40:00.000Z",
-        "Moto3 Pre-qualifiche 2026-11-20T13:15:00.000Z",
-        "Moto2 Pre-qualifiche 2026-11-20T14:00:00.000Z",
-        "MotoGP Pre-qualifiche 2026-11-20T14:55:00.000Z",
         "Moto3 Prove libere 2 2026-11-21T08:35:00.000Z",
         "Moto2 Prove libere 2 2026-11-21T09:20:00.000Z",
         "MotoGP Prove libere 2 2026-11-21T10:05:00.000Z",
@@ -176,6 +164,17 @@
         "F1 Prove libere 3 2026-11-21T00:30:00.000Z",
         "F1 Qualifiche 2026-11-21T04:00:00.000Z",
         "F1 Gara 2026-11-22T04:00:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
+      "titolo": "Quando la F1 su TV8 domani, GP Las Vegas 2026: orario qualifiche, differita in chiaro",
+      "url": "https://www.oasport.it/2026/11/quando-la-f1-su-tv8-domani-gp-las-vegas-2026-orario-qualifiche-differita-in-chiaro/",
+      "gp": "GP Las Vegas",
+      "serie": "f1",
+      "sessioni": [
+        "F1 Prove libere 3 2026-11-21T00:30:00.000Z",
+        "F1 Qualifiche 2026-11-21T04:00:00.000Z TV8 diretta 2026-11-21T04:00:00.000Z"
       ]
     },
     {

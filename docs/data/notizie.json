@@ -1,6 +1,176 @@
 {
-  "aggiornato": "2026-11-20T10:50:32.268Z",
+  "aggiornato": "2026-11-20T18:56:25.271Z",
   "articoli": [
+    {
+      "id": "d37c6f553e8f",
+      "serie": "motogp",
+      "titolo": "Di Giannantonio veloce e sibillino: “Nelle ultime gare non c’era nulla da trovare…”",
+      "link": "https://www.motosprint.it/news/eventi/gp-portimao/2026/11/20-9313952/di_giannantonio_veloce_e_sibillino_nelle_ultime_gare_non_cera_nulla_da_trovare",
+      "fonte": "Motosprint",
+      "data": "2026-11-20T18:56:25.271Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/20/174302597-6cd99744-b317-4393-b703-3adfed1350d9.jpeg",
+      "sommario": "Il romano chiude con il secondo tempo nel venerdì e riguardando alle ultime domeniche poco fortunate fa capire che i problemi non derivavano da lui o dalla moto"
+    },
+    {
+      "id": "05a4fa2489ba",
+      "serie": "motogp",
+      "titolo": "Morbidelli filosofo: \"La peggior giornata in pista è molto meglio della mia miglior giornata a casa\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/20-9313947/morbidelli_filosofo_la_peggior_giornata_in_pista_molto_meglio_della_mia_miglior_giornata_a_casa",
+      "fonte": "Motosprint",
+      "data": "2026-11-20T18:56:25.271Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/20/173506854-28034ae2-6c60-4e95-b74a-d4e9710acadd.jpg",
+      "sommario": "Franco solo diciannovesimo a Portimao, ma con una fede grande così: \"Continuerò a crederci sino a Valencia: voglio sentrimi me stesso sulla moto\""
+    },
+    {
+      "id": "541bd060b369",
+      "serie": "motogp",
+      "titolo": "Il paradosso di Pedro Acosta: “Sono veloce ma non ho feeling”",
+      "link": "https://www.motosprint.it/news/eventi/gp-portimao/2026/11/20-9313946/il_paradosso_di_pedro_acosta_sono_veloce_ma_non_ho_feeling",
+      "fonte": "Motosprint",
+      "data": "2026-11-20T18:56:25.271Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/20/172527998-83acaa49-f00a-4930-b9f1-78408343b6a5.jpg",
+      "sommario": "A Portimão il futuro compagno di Márquez chiude al 4° posto ma ammette: \"Non capisco perché non mi senta a mio agio: con il nuovo pacchetto aerodinamico, la moto è nervosa\""
+    },
+    {
+      "id": "d25b441d4102",
+      "serie": "motogp",
+      "titolo": "GP di Portimao finito per Vinales: \"Devo evitare rischi e ascoltare il mio corpo\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/20-9313699/gp_di_portimao_finito_per_vinales_devo_evitare_rischi_e_ascoltare_il_mio_corpo",
+      "fonte": "Motosprint",
+      "data": "2026-11-20T18:56:25.271Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/20/162041133-277c0643-7482-43be-8b84-7b61ef41b8e9.jpg",
+      "sommario": "Ancora problemi alla spalla per Maverick, con Pol Espargarò a prenderne la RC16 del team Tech3"
+    },
+    {
+      "id": "937e501c911b",
+      "serie": "motogp",
+      "titolo": "Marquez al top, ma non Marc: Alex davanti a tutti nelle Practice, Bezzecchi 3°",
+      "link": "https://www.motosprint.it/news/eventi/gp-portimao/2026/11/20-9313434/marquez_al_top_ma_non_marc_alex_davanti_a_tutti_nelle_practice_bezzecchi_3",
+      "fonte": "Motosprint",
+      "data": "2026-11-20T18:56:25.271Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/20/161852224-bd7f0437-8b77-45de-8f93-a1c7d564166a.jpeg",
+      "sommario": "L’alfiere Gresini è stato il più veloce davanti a Di Giannantonio e a Marco. Sesto Marc, Martin decimo e in Q2 con il brivido, doppia caduta per Lecuona"
+    },
+    {
+      "id": "c5fa6df8004d",
+      "serie": "motogp",
+      "titolo": "Tardozzi: \"Il libro di Rossi? Valentino ha tutte le ragioni di scrivere le cose dal suo punto di vista\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/20-9312204/tardozzi_il_libro_di_rossi_valentino_ha_tutte_le_ragioni_di_scrivere_le_cose_dal_suo_punto_di_vista",
+      "fonte": "Motosprint",
+      "data": "2026-11-20T18:56:25.271Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/20/135708391-e8412a54-8fb7-40dd-ad6d-0f6ad4813984.jpg",
+      "sommario": "Il commento del Team Manager Ducati: “Poi bisogna vedere cosa ne pensano anche le altre persone. Valentino ha dato all’Italia una visibilità incredibile, dovremmo sempre ringraziarlo”\n"
+    },
+    {
+      "id": "3b0762ae3149",
+      "serie": "motogp",
+      "titolo": "Uno – due Aprilia guidato da Bezzecchi nelle FP1 di Portimao, 4° Marquez",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/20-9311448/uno_due_aprilia_guidato_da_bezzecchi_nelle_fp1_di_portimao_4_marquez",
+      "fonte": "Motosprint",
+      "data": "2026-11-20T18:56:25.271Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/20/115206460-3fae7596-b6e0-421e-a7f3-844e426e7241.jpeg",
+      "sommario": "Marco e Martin partono con il piede giusto, precedendo i fratelli Marquez. 6° Di Giannantonio, top ten per Marini\n"
+    },
+    {
+      "id": "85b73679197c",
+      "serie": "f1",
+      "titolo": "Perché in Formula 1 si sventolano due bandiere a scacchi?",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/20-9304051/perch_in_formula_1_si_sventolano_due_bandiere_a_scacchi_",
+      "fonte": "Autosprint",
+      "data": "2026-11-20T18:56:25.271Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/20/151803496-492d03e6-d2e2-40ab-9977-7682c6eecf49.jpg",
+      "sommario": "In Formula 1, al traguardo possono sventolare due bandiere a scacchi. Scopri perché e come far comparire il tuo nome su una delle due"
+    },
+    {
+      "id": "9d720ebccae6",
+      "serie": "f1",
+      "titolo": "Piastri ha perso bussola, ecco cosa lo ha spinto a separarsi da Webber",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/20-9312428/piastri_ha_perso_bussola_ecco_cosa_lo_ha_spinto_a_separarsi_da_webber",
+      "fonte": "Autosprint",
+      "data": "2026-11-20T18:56:25.271Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/20/151443327-96015759-1c99-4529-815f-f93e0f5c3799.jpg",
+      "sommario": "Il 2025 lo aveva proiettato tra i big dello schieramento, ma all'improvviso il pilota McLaren non ha più saputo vincere e anche il podio è diventata un'impresa ardua "
+    },
+    {
+      "id": "0b27f3706511",
+      "serie": "f1",
+      "titolo": "Motori V8 turbo: McLaren, idee chiare sul ruolo di motorista; Cadillac cliente anche nel '29",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/20-9311585/motori_v8_turbo_mclaren_idee_chiare_sul_ruolo_di_motorista_cadillac_cliente_anche_nel_29",
+      "fonte": "Autosprint",
+      "data": "2026-11-20T18:56:25.271Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/20/120904232-25b5c614-18cd-465b-8977-376913c8820c.jpg",
+      "sommario": "L'accordo di massima sugli otto cilindri c'è e andranno definiti i dettagli. Sarà l'opportunità per McLaren di fare tutto in proprio e lasciare Mercedes?"
+    },
+    {
+      "id": "7db3410679c8",
+      "serie": "motogp",
+      "titolo": "Alex Marquez: “Il primo posto non rispecchia la realtà, Bezzecchi era più veloce”",
+      "link": "https://www.gpone.com/it/2026/11/20/motogp/alex-marquez-il-primo-posto-non-rispecchia-la-realta-bezzecchi-era-piu-veloce.html",
+      "fonte": "GPOne",
+      "data": "2026-11-20T18:27:13.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/alex-marquez-venerdi-portimao-brunetti.jpg?itok=J-Vs9U_o",
+      "sommario": "“L’Aprilia ha qualcosa in più rispetto alla Ducati e domani anche Marc e Martin saranno più competitivi. Io riesco a essere veloce sul giro singolo, ma sono preoccupato per il GP. La pioggia? Chiederò a Tardozzi: se dice"
+    },
+    {
+      "id": "5e2f3a9a12e9",
+      "serie": "motogp",
+      "titolo": "TGPOne Portimao - Márquez: il decimo titolo fa più paura degli avversari?",
+      "link": "https://www.gpone.com/it/2026/11/20/motogp/tgpone-portimao-marquez-il-decimo-titolo-fa-piu-paura-degli-avversari.html",
+      "fonte": "GPOne",
+      "data": "2026-11-20T18:24:00.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/marquez-il-decimo-titolo-fa-paura.png?itok=ZeB4RLXh",
+      "sommario": "VIDEO - Marc ammette di vedere pericoli ovunque e chiude sesto un venerdì dominato dal fratello Alex. Bezzecchi è velocissimo, mentre Martín continua a soffrire per l'infortunio."
+    },
+    {
+      "id": "bdf7a811d262",
+      "serie": "motogp",
+      "titolo": "Bezzecchi: \"Avrei preferito sentire ancora il peso della lotta per il titolo\"",
+      "link": "https://www.gpone.com/it/2026/11/20/motogp/bezzecchi-avrei-preferito-sentire-ancora-il-peso-della-lotta-per-il-titolo.html",
+      "fonte": "GPOne",
+      "data": "2026-11-20T17:40:00.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/bez2-01.jpg?itok=LBYKL7q-",
+      "sommario": "\"Non mi sento affatto più leggero, posso fare il massimo solo con quello che controllo io. Il saluto in camera? Mi sono visto sul maxischermo mentre seguivo Marquez, ho pensato di fare un salutino a casa!\""
+    },
+    {
+      "id": "ffe0835457c7",
+      "serie": "motogp",
+      "titolo": "Di Giannantonio: \"Contro le Aprilia dobbiamo sfruttare tutto ciò che abbiamo\"",
+      "link": "https://www.gpone.com/it/2026/11/20/motogp/di-giannantonio-contro-le-aprilia-dobbiamo-sfrutta-tutto-cio-che-abbiamo.html",
+      "fonte": "GPOne",
+      "data": "2026-11-20T17:28:45.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/diggia2.jpeg?itok=DTds8Gpu",
+      "sommario": "\"Sono contento, perché a Portimao ho sempre faticato\". Morbidelli: \"La peggior giornata in pista è molto meglio della mia miglior giornata a casa\""
+    },
+    {
+      "id": "30b8748a7952",
+      "serie": "motogp",
+      "titolo": "Alex Marquez 1° in prequalifica a Portimao, 2° Di Giannantonio davanti a Bezzecchi. Marquez 6°",
+      "link": "https://www.gpone.com/it/2026/11/20/motogp/live-la-diretta-delle-prequalifiche-del-gran-premio-del-portogallo-a-portimao.html",
+      "fonte": "GPOne",
+      "data": "2026-11-20T16:05:00.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/alex-marquez.jpg?itok=ynC3DeU-",
+      "sommario": "Alex torna dopo l'intervento ed è subito davanti, Acosta e Zarco in Q2 con Binder. Martìn rischia grosso ma centra la top ten, Bastianini 12°. Due cadute per Lecuona, mentre Dixon frega Marini"
+    },
+    {
+      "id": "cc2c696eaedc",
+      "serie": "motogp",
+      "titolo": "ULTIM'ORA - Vinales si ritira dal GP di Portimao, lo sostituisce Espargarò",
+      "link": "https://www.gpone.com/it/2026/11/20/motogp/ultimora-vinales-si-ritira-dal-gp-di-portimao-lo-sostituisce-espargaro.html",
+      "fonte": "GPOne",
+      "data": "2026-11-20T14:34:00.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/10/MotoGP/generic/vinales-sachsenring-2.jpg?itok=h_1g047N",
+      "sommario": "Pol prenderà il posto di Maverick sulla KTM del team Tech3 per il resto del weekend. \"È meglio fermarsi per evitare ulteriori danni alla spalla\""
+    },
+    {
+      "id": "04fa9c6db8c3",
+      "serie": "motogp",
+      "titolo": "Tardozzi risponde alle voci sul ritiro di Marquez: \"Nel 2027 ci sarà\"",
+      "link": "https://www.gpone.com/it/2026/11/20/motogp/tardozzi-risponde-alle-voci-sul-ritiro-di-marquez-nel-2027-ci-sara.html",
+      "fonte": "GPOne",
+      "data": "2026-11-20T11:04:12.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/10/MotoGP/generic/tardozzi-01-1759660399.jpg?itok=6gyE1MvA",
+      "sommario": "\"Spero vinca il titolo, poi potrà pensare alla prossima stagione\". Sul ritorno di Bagnaia a Valencia: \"Lunedì un altro controllo medico e sapremo la risposta\""
+    },
     {
       "id": "7e012a812264",
       "serie": "motogp",
@@ -3830,176 +4000,6 @@
       "data": "2026-10-31T14:39:32.000Z",
       "immagine": "",
       "sommario": "La maggioranza dei piloti non vuole correre a Doha, ma l'organizzatore tira dritto e minaccia pesanti sanzioni per chi non si presenterà. Carlos Ezpeleta parla di garanzie e di un piano di evacuazione generale, del quale"
-    },
-    {
-      "id": "973cec5a1862",
-      "serie": "motogp",
-      "titolo": "LIVE Bar Sport alle 18:00 - Marquez allunga a Sepang, ma il Qatar è un'incognita!",
-      "link": "https://www.gpone.com/it/2026/10/31/motogp/live-bar-sport-alle-18-00-marquez-allunga-a-sepang-ma-il-qatar-e-unincognita.html",
-      "fonte": "GPOne",
-      "data": "2026-10-31T12:55:00.000Z",
-      "immagine": "",
-      "sommario": "VIDEO - Acosta vince la Sprint, Marc vola a +19 su Martín, costretto al forfait. Ma sul Mondiale pesa l'incertezza di Lusail. Ne parliamo questa sera nel Bar Sport con Carletto Pernat"
-    },
-    {
-      "id": "4b77d6270ee3",
-      "serie": "motogp",
-      "titolo": "Petrucci: \"La MotoGP è diventata estrema, non invidio i piloti\"",
-      "link": "https://www.gpone.com/it/2026/10/31/motogp/petrucci-la-motogp-e-diventata-estrema-non-invidio-i-piloti.html",
-      "fonte": "GPOne",
-      "data": "2026-10-31T12:42:03.000Z",
-      "immagine": "",
-      "sommario": "VIDEO - Petrucci torna nel paddock della MotoGP da spettatore e racconta le sue impressioni su Bagnaia, Marquez e Bezzecchi. Poi parla del futuro: niente più SBK, ma sul tavolo ci sono MotoAmerica, BSB e persino la Dakar"
-    },
-    {
-      "id": "ffa2618328c4",
-      "serie": "motogp",
-      "titolo": "Di Giannantonio: “Ottime sensazioni, ma qualcosa mi impedisce di esprimermi al 100%”",
-      "link": "https://www.gpone.com/it/2026/10/31/motogp/di-giannantonio-ottime-sensazioni-ma-qualcosa-mi-impedisce-di-esprimermi-al-100.html",
-      "fonte": "GPOne",
-      "data": "2026-10-31T10:35:07.000Z",
-      "immagine": "",
-      "sommario": "“È una cosa facilmente visibile e spero la risolveremo per domani, per giocarci le nostre carte”. Morbidelli: “Scommettere sulla pioggia non ha pagato: non ho ottenuto il risultato che volevo”"
-    },
-    {
-      "id": "0933b1927ca3",
-      "serie": "motogp",
-      "titolo": "Bastianini: \"Salgo in moto e non so cosa aspettarmi: purtroppo è così\"",
-      "link": "https://www.gpone.com/it/2026/10/31/motogp/bastianini-salgo-in-moto-e-non-so-cosa-aspettarmi-purtroppo-e-cosi.html",
-      "fonte": "GPOne",
-      "data": "2026-10-31T10:28:14.000Z",
-      "immagine": "",
-      "sommario": "\"Purtroppo non riesco a esprimermi come vorrei, soprattutto su piste dove la gomma si consuma veloce. Acosta? Studieremo\""
-    },
-    {
-      "id": "a3551c0e2a64",
-      "serie": "motogp",
-      "titolo": "Miller: \"Oggi siamo sembrati dei coglioni, ma valeva la pena provarci\"",
-      "link": "https://www.gpone.com/it/2026/10/31/motogp/miller-oggi-siamo-sembrati-dei-coglioni-ma-valeva-la-pena-provarci.html",
-      "fonte": "GPOne",
-      "data": "2026-10-31T10:26:06.000Z",
-      "immagine": "",
-      "sommario": "\"Mi scuso per la mia reazione ai box, ma quando ho visto che la moto non era pronta ho capito che era game over. Ma non avrei preso quella decisione se non avessi pensato che fosse valida\""
-    },
-    {
-      "id": "d6229b2114e7",
-      "serie": "motogp",
-      "titolo": "Di Giannantonio: \"Il duello con Bagnaia? Una posizione in più non era il goal di entrambi\"",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/31-9253193/di_giannantonio_il_duello_con_bagnaia_una_posizione_in_pi_non_era_il_goal_di_entrambi",
-      "fonte": "Motosprint",
-      "data": "2026-10-31T10:04:07.098Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/31/091729274-7b0491dd-f4f7-43d9-a244-0a00d74c8cd8.jpg",
-      "sommario": "Fabio: \"Io e Pecco eravamo quinto e sesto: neanche una grossa consolazione. In un paio di giri ero il più veloce, ma a chance ormai persa\""
-    },
-    {
-      "id": "68d912440262",
-      "serie": "motogp",
-      "titolo": "L’intelligenza di Marquez nella Sprint: “Un rischio eccessivo non avrebbe pagato”",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/31-9253268/lintelligenza_di_marquez_nella_sprint_un_rischio_eccessivo_non_avrebbe_pagato",
-      "fonte": "Motosprint",
-      "data": "2026-10-31T10:04:07.098Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/31/093607337-9b0cfc99-62de-42aa-b52b-caee6c2b8500.jpeg",
-      "sommario": "Lo spagnolo chiude la gara corta dietro al futuro team mate Acosta ma: “la mia mentalità non cambia anche con Martin fuori”\n"
-    },
-    {
-      "id": "421d8826a5d6",
-      "serie": "motogp",
-      "titolo": "Bagnaia sesto e frustrato: “Ci provo ma non posso fare le cose che ho sempre fatto”",
-      "link": "https://www.motosprint.it/news/eventi/gp-malesia/2026/10/31-9253269/bagnaia_sesto_e_frustrato_ci_provo_ma_non_posso_fare_le_cose_che_ho_sempre_fatto",
-      "fonte": "Motosprint",
-      "data": "2026-10-31T10:04:07.098Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/31/093722697-d6e3284a-91fd-460c-8e22-5bfa0ec27688.jpg",
-      "sommario": "Il ducatista ringrazia la pioggia che gli ha consentito di conservare la sesta piazza, così come ha conservato il record della pista anche se ammette “Si poteva battere”"
-    },
-    {
-      "id": "e00ee4778a54",
-      "serie": "f1",
-      "titolo": "Vasseur dopo la pole di Hamilton: \"Dobbiamo mantenere la calma\"",
-      "link": "https://www.autosprint.it/news/formula1/f1-qualifiche/2026/10/31-9254823/vasseur_dopo_la_pole_di_hamilton_dobbiamo_mantenere_la_calma",
-      "fonte": "Autosprint",
-      "data": "2026-10-31T10:00:00Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/31/222603412-78eaf161-2fbd-49bc-bdae-bd0077ffbc23.jpg",
-      "sommario": "La Ferrari ritrova il sorriso in Messico con la pole position di Lewis Hamilton. Una prestazione importante anche per Charles Leclerc, che ha chiuso in terza posizione"
-    },
-    {
-      "id": "b466a63a3529",
-      "serie": "f1",
-      "titolo": "Antonelli: \"Ho faticato un po' a far funzionare le gomme\"",
-      "link": "https://www.autosprint.it/news/formula1/f1-qualifiche/2026/10/31-9254923/antonelli_ho_faticato_un_po_a_far_funzionare_le_gomme",
-      "fonte": "Autosprint",
-      "data": "2026-10-31T10:00:00Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/31/225641397-d1cbfab9-4671-4185-8391-47ded3b40922.jpg",
-      "sommario": "Una qualifica leggermente in salita per il leader di campionato, che taglia il traguardo in quinta posizione ma sale quarto per la penalità di Max"
-    },
-    {
-      "id": "ddc68cdc057d",
-      "serie": "motogp",
-      "titolo": "Marquez: “Avevo una sola strategia: non prendere il comando della corsa”",
-      "link": "https://www.gpone.com/it/2026/10/31/motogp/marquez-avevo-una-sola-strategia-non-prendere-il-comando-della-corsa.html",
-      "fonte": "GPOne",
-      "data": "2026-10-31T09:21:13.000Z",
-      "immagine": "",
-      "sommario": "“Mi sono divertito zero, ma il mio approccio non cambierà senza Martin: perché è questo che mi ha portato ad essere in testa al Campionato”"
-    },
-    {
-      "id": "076dabf7a70a",
-      "serie": "motogp",
-      "titolo": "Bezzecchi: \"Appena ha avuto trenta metri liberi si è vista la velocità di Marc\"",
-      "link": "https://www.gpone.com/it/2026/10/31/motogp/bezzecchi-appena-ha-avuto-trenta-metri-liberi-si-e-vista-la-velocita-di-marc.html",
-      "fonte": "GPOne",
-      "data": "2026-10-31T09:06:57.000Z",
-      "immagine": "",
-      "sommario": "\"Credo che Alex e Marc abbiano ancora qualcosa in più, ma nella gara lunga si dovrà gestire. Oggi non sono riuscito a crearmi l'occasione di battagliare davvero, domani ci riproviamo\""
-    },
-    {
-      "id": "77d39488ed29",
-      "serie": "motogp",
-      "titolo": "Bezzecchi, Sprint di bronzo e pronto alla battaglia: \"Ma i Márquez rimangono favoriti\"",
-      "link": "https://www.motosprint.it/news/eventi/gp-malesia/2026/10/31-9253192/bezzecchi_sprint_di_bronzo_e_pronto_alla_battaglia_ma_i_mrquez_rimangono_favoriti",
-      "fonte": "Motosprint",
-      "data": "2026-10-31T09:06:37.291Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/10/31/085113127-57bf68ec-97a1-460d-a374-5d78d0214759.jpeg",
-      "sommario": "Il romagnolo porta l'Aprilia sul podio: \"Sono soddisfatto, anche se fatico con le gomme nuove. Ho commesso qualche errore di troppo, ma non ho mai pensato di poter combattere con Marc\""
-    },
-    {
-      "id": "dfbb41de6998",
-      "serie": "motogp",
-      "titolo": "Acosta: “Non mi aspettavo Ogura così veloce, sembravo una chicane mobile a confronto”",
-      "link": "https://www.gpone.com/it/2026/10/31/motogp/acosta-non-mi-aspettavo-ogura-cosi-veloce-sembravo-una-chicane-mobile-a-confronto.html",
-      "fonte": "GPOne",
-      "data": "2026-10-31T09:00:09.000Z",
-      "immagine": "",
-      "sommario": "“Mi è passato davvero vicino al via, ma per fortuna è andato tutto bene. Noi eravamo gli unici a non essere in lotta per nulla e ci siamo presi i rischi necessari. È una vittoria che sembra la prima”"
-    },
-    {
-      "id": "00ec3fa11388",
-      "serie": "motogp",
-      "titolo": "Bagnaia: \"Quando guardo i dati della mia guida, nemmeno mi riconosco più\"",
-      "link": "https://www.gpone.com/it/2026/10/31/motogp/bagnaia-quando-guardo-i-dati-della-mia-guida-nemmeno-mi-riconosco-piu.html",
-      "fonte": "GPOne",
-      "data": "2026-10-31T08:58:21.000Z",
-      "immagine": "",
-      "sommario": "Il 6° posto nella Sprint non consola Pecco: \"Posso fare meglio di così, l'ho fatto su questa pista 8 mesi fa. Il cupolino rotto in Q2? E' frustrazione, io ci provo e continuo a vedermi indietro\""
-    },
-    {
-      "id": "09299a08886d",
-      "serie": "motogp",
-      "titolo": "Acosta vince una Sprint complicata dalla pioggia a Sepang, 3° Bezzecchi",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/10/31-9252995/acosta_vince_una_sprint_complicata_dalla_pioggia_a_sepang_3_bezzecchi",
-      "fonte": "Motosprint",
-      "data": "2026-10-31T08:12:33.670Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/31/073913104-33c8d025-4603-49f1-b7bb-0f0b3552d394.jpg",
-      "sommario": "Lo spagnolo doma le gocce cadute nel finale precedendo M. Marquez e Marco. 5° Di Giannantonio davanti a Bagnaia, a terra A.Marquez\n"
-    },
-    {
-      "id": "d461515d8412",
-      "serie": "motogp",
-      "titolo": "Alex Marquez: “Ho corso con il cuore, non con la testa, non sono caduto per la pioggia\"",
-      "link": "https://www.gpone.com/it/2026/10/31/motogp/alex-marquez-non-sono-caduto-per-la-pioggia-ho-commesso-un-piccolo-errore.html",
-      "fonte": "GPOne",
-      "data": "2026-10-31T08:09:27.000Z",
-      "immagine": "",
-      "sommario": "\" Ho commesso un piccolo errore. La pole non serve a niente se non porti a casa punti. Con la spalla soffro ancora ma non sono caduto per quello, ho avuto troppo fiducia dopo le qualifiche\""
     }
   ]
 }
