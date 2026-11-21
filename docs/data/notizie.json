@@ -1,6 +1,86 @@
 {
-  "aggiornato": "2026-11-21T00:37:30.792Z",
+  "aggiornato": "2026-11-21T07:55:44.072Z",
   "articoli": [
+    {
+      "id": "023a0e8723cc",
+      "serie": "f1",
+      "titolo": "Cadillac e lo sgambetto inatteso ad Herta: \"Abbiamo preferito l'esperienza\"",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/21-9314327/cadillac_e_lo_sgambetto_inatteso_ad_herta_abbiamo_preferito_l_esperienza",
+      "fonte": "Autosprint",
+      "data": "2026-11-21T07:55:44.072Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/21/072409020-fd1c2a96-d081-481f-a932-f1f2ed160aee.jpg",
+      "sommario": "Convinto di essersi aggiudicato il sedile del team americano grazie alla superlicenza appena ottenuta, Colton è stato scalzato da Bottas e ora il suo futuro è incerto"
+    },
+    {
+      "id": "ff67a53dad13",
+      "serie": "f1",
+      "titolo": "Vasseur ammette: \"C'era margine per fare meglio\"",
+      "link": "https://www.autosprint.it/news/formula1/f1-qualifiche/2026/11/21-9314951/vasseur_ammette_c_era_margine_per_fare_meglio",
+      "fonte": "Autosprint",
+      "data": "2026-11-21T07:55:44.072Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/21/054044511-bf7f7944-a3e9-43f0-a833-ca747a700ebb.jpg",
+      "sommario": "Il team principal del Cavallino Rampante analizza la doppia eliminazione in Q2 a Las Vegas: \"Non avevamo il passo per la pole, ma potevamo raggiungere il Q3\""
+    },
+    {
+      "id": "d3a169301c9c",
+      "serie": "f1",
+      "titolo": "Hamilton eliminato in Q2: \"Domani dovremo dare il meglio di noi\"",
+      "link": "https://www.autosprint.it/news/formula1/f1-qualifiche/2026/11/21-9314948/hamilton_eliminato_in_q2_domani_dovremo_dare_il_meglio_di_noi",
+      "fonte": "Autosprint",
+      "data": "2026-11-21T07:55:44.072Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/21/032141985-9769d57b-2369-4d6b-a734-122322c8fd86.jpg",
+      "sommario": "Il britannico della Ferrari non va oltre la dodicesima posizione. Un danno al fondo e la conseguente perdita di carico aerodinamico hanno condizionato la sua qualifica"
+    },
+    {
+      "id": "3c9f89f413fc",
+      "serie": "f1",
+      "titolo": "Russell in terza posizione: \"Una giornata molto solida\"",
+      "link": "https://www.autosprint.it/news/formula1/f1-qualifiche/2026/11/21-9314947/russell_in_terza_posizione_una_giornata_molto_solida",
+      "fonte": "Autosprint",
+      "data": "2026-11-21T07:55:44.072Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/21/053901941-6d7f318b-3303-4e93-b526-06dc41da617b.jpg",
+      "sommario": "Il britannico della Mercedes chiude alle spalle di Antonelli e Verstappen. Nonostante il rammarico per la pole mancata, guarda con fiducia alla gara"
+    },
+    {
+      "id": "1bf980f75971",
+      "serie": "f1",
+      "titolo": "Verstappen in prima fila: \"La prima fila è un ottimo risultato per noi\"",
+      "link": "https://www.autosprint.it/news/formula1/f1-qualifiche/2026/11/21-9314945/verstappen_in_prima_fila_la_prima_fila_un_ottimo_risultato_per_noi",
+      "fonte": "Autosprint",
+      "data": "2026-11-21T07:55:44.072Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/21/053711072-b1f84091-d24c-4736-bd7e-a6337b3524a2.jpg",
+      "sommario": "L'olandese chiude le qualifiche al secondo posto, alle spalle di Antonelli. Dopo le difficoltà delle prove libere, la Red Bull ritrova competitività"
+    },
+    {
+      "id": "e04c6278652f",
+      "serie": "f1",
+      "titolo": "Antonelli conquista la pole ma partirà dietro: \"È stata inaspettata\"",
+      "link": "https://www.autosprint.it/news/formula1/f1-qualifiche/2026/11/21-9314943/antonelli_conquista_la_pole_ma_partir_dietro_stata_inaspettata",
+      "fonte": "Autosprint",
+      "data": "2026-11-21T07:55:44.072Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/21/053625116-05421164-5a91-4ea1-a4fe-2f8b2b15af91.jpg",
+      "sommario": " Il pilota Mercedes chiude le qualifiche davanti a tutti, ma la penalità di cinque posizioni lo farà arretrare in griglia. Resta una prestazione da ricordare"
+    },
+    {
+      "id": "39fc676bc690",
+      "serie": "f1",
+      "titolo": "Leclerc non nasconde la rabbia: \"Non ne abbiamo azzeccata una\"",
+      "link": "https://www.autosprint.it/news/formula1/f1-qualifiche/2026/11/21-9314940/leclerc_non_nasconde_la_rabbia_non_ne_abbiamo_azzeccata_una",
+      "fonte": "Autosprint",
+      "data": "2026-11-21T07:55:44.072Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/21/053508764-18edc9bc-586b-46e3-9528-219db931bf8d.jpg",
+      "sommario": "Il monegasco è amareggiato dopo l'eliminazione in Q2 a Las Vegas: \"Perdiamo un secondo sui rettilinei, poi diventa difficile fare qualcosa\""
+    },
+    {
+      "id": "c048319bc9c0",
+      "serie": "motogp",
+      "titolo": "LIVE - La diretta delle Qualifiche del Gran Premio del Portogallo a Portimao",
+      "link": "https://www.gpone.com/it/2026/11/21/motogp/live-la-diretta-delle-qualifiche-del-gran-premio-del-portogallo-a-portimao.html",
+      "fonte": "GPOne",
+      "data": "2026-11-21T06:58:00.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/cover-qp_0.jpg?itok=HcttgS1f",
+      "sommario": "Dopo il miglior tempo nelle prequalifiche, Alex Márquez punta alla pole davanti a Di Giannantonio e Bezzecchi. Marc non si è preso rischi ieri, mentre Martín ha conquistato la Q2 per un soffio. Alle 11:50 la battaglia pe"
+    },
     {
       "id": "c43c026566bc",
       "serie": "motogp",
@@ -3920,86 +4000,6 @@
       "data": "2026-11-01T09:31:48.315Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/01/090642057-6c229458-645d-48ac-9263-b2183da6d605.jpg",
       "sommario": "Il torinese dopo la gara accusa sibillinamente Ducati “Al test di Misano e in Giappone 2025 sono state cambiate cose che poi sono sparite”"
-    },
-    {
-      "id": "c46731b6b792",
-      "serie": "motogp",
-      "titolo": "Marquez: \"Vincere con Martìn fermo ai box ha un valore extra\"",
-      "link": "https://www.gpone.com/it/2026/11/01/motogp/marquez-vincere-con-martin-fermo-ai-box-ha-un-valore-extra.html",
-      "fonte": "GPOne",
-      "data": "2026-11-01T09:20:00.000Z",
-      "immagine": "",
-      "sommario": "\"Oggi non ci sono stati ordini in Aprilia, ma qualcuno si beccherà una tirata d'orecchie. Se mi avessero detto che avrei lottato per il titolo, avrei chiesto quanta birra avevano bevuto!\""
-    },
-    {
-      "id": "d1e7d6665e51",
-      "serie": "motogp",
-      "titolo": "Miller si espone sul Qatar: \"Io non voglio andarci, e come me altri 19 piloti\"",
-      "link": "https://www.gpone.com/it/2026/11/01/motogp/miller-si-espone-sul-qatar-io-non-voglio-andarci-e-come-me-altri-19-piloti.html",
-      "fonte": "GPOne",
-      "data": "2026-11-01T08:57:05.000Z",
-      "immagine": "",
-      "sommario": "\"Nella mia testa, non ci sto andando. Tutti sapranno dove saremo e a che ora saremo lì... Non possiamo essere costretti ad andare dove non vogliamo\""
-    },
-    {
-      "id": "8355397d9e93",
-      "serie": "motogp",
-      "titolo": "SHOW YOUR TRIUMPH: a EICMA GPOne cerca un nuovo tester. Potresti essere tu!",
-      "link": "https://www.gpone.com/it/2026/11/01/motogp/show-your-triumph-a-eicma-gpone-cerca-il-suo-nuovo-videomaker-potresti-essere-tu.html",
-      "fonte": "GPOne",
-      "data": "2026-11-01T08:51:39.000Z",
-      "immagine": "",
-      "sommario": "Hai una passione per le moto, uno smartphone e ti piace raccontare storie attraverso le immagini? Triumph e GPOne lanciano a EICMA 2026 un contest che potrebbe trasformare la tua passione in un'opportunità"
-    },
-    {
-      "id": "6162214f0745",
-      "serie": "motogp",
-      "titolo": "Bagnaia: \"Sto contando i minuti che mi separano dalla fine di questa stagione\"",
-      "link": "https://www.gpone.com/it/2026/11/01/motogp/bagnaia-sto-contando-i-minuti-che-mi-separano-dalla-fine-di-questa-stagione.html",
-      "fonte": "GPOne",
-      "data": "2026-11-01T08:49:22.000Z",
-      "immagine": "",
-      "sommario": "\"Ho fatto l'ultimo giro senza nemmeno toccare col ginocchio nelle curve a destra. Andremo in Qatar con un bel sorriso (ironizza)\""
-    },
-    {
-      "id": "6a0b54e74e85",
-      "serie": "motogp",
-      "titolo": "Marquez vince a Sepang e allunga nel mondiale, 6° Bezzecchi",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/01-9255292/marquez_vince_a_sepang_e_allunga_nel_mondiale_6_bezzecchi",
-      "fonte": "Motosprint",
-      "data": "2026-11-01T08:37:07.825Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/01/073522932-1ab91d23-f734-403a-a83f-6f395f3652ec.jpg",
-      "sommario": "Marc trionfa in solitaria e in Qatar avrà il primo match point titolato. Acosta e A.Marquez completano il podio. Marco crolla nel finale di gara e finisce alle spalle di Bastianini \n"
-    },
-    {
-      "id": "cbf10dd9329f",
-      "serie": "motogp",
-      "titolo": "Il Qatar spaventa anche le tv: tanti i broadcaster che non presenzieranno al GP",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/01-9255276/il_qatar_spaventa_anche_le_tv_tanti_i_broadcaster_che_non_presenzieranno_al_gp",
-      "fonte": "Motosprint",
-      "data": "2026-11-01T06:39:00.789Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/01/052827599-350a2a15-22a4-4b26-bb12-6858880cfcf1.jpg",
-      "sommario": "Tra le televisioni che seguono con costanza la MotoGP in loco, solo una è intenzionata a mandare delle persone in pista. Nulla da fare per le altre\n"
-    },
-    {
-      "id": "5a48b21e3a21",
-      "serie": "motogp",
-      "titolo": "Una lettere firmata dai piloti per dire 'no' al Gran Premio del Qatar",
-      "link": "https://www.gpone.com/it/2026/11/01/motogp/una-lettere-firmata-dai-piloti-per-dire-no-al-gran-premio-del-qatar.html",
-      "fonte": "GPOne",
-      "data": "2026-11-01T06:38:14.000Z",
-      "immagine": "",
-      "sommario": "La quasi totalità ha sottoscritto il documento inviato al MotoGP Group che, in una riunione con i team manager, ha confermato che la gara si farà. Alex Marquez si opererà alla clavicola"
-    },
-    {
-      "id": "e58869f041d2",
-      "serie": "motogp",
-      "titolo": "MotoGP, diretta GP Malesia: griglia di partenza, risultati e gara LIVE",
-      "link": "https://www.motosprint.it/news/eventi/gp-malesia/2026/11/01-9255273/motogp_diretta_gp_malesia_griglia_di_partenza_risultati_e_gara_live",
-      "fonte": "Motosprint",
-      "data": "2026-11-01T05:35:31.500Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/01/050633137-fcd215d8-5bf0-4a47-a5b0-738fde7fa6ab.jpg",
-      "sommario": "Seguite con noi la gara domenicale sul circuito di Sepang: Alex Marquez scatta dalla pole position, ma gli occhi saranno puntato su Marc e Bezzecchi che andranno sicuramente all'attacco"
     }
   ]
 }
