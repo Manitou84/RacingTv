@@ -1,6 +1,166 @@
 {
-  "aggiornato": "2026-11-21T15:53:25.542Z",
+  "aggiornato": "2026-11-21T21:24:43.451Z",
   "articoli": [
+    {
+      "id": "956d57044806",
+      "serie": "motogp",
+      "titolo": "Morbidelli a pezzi: “Giornata peggiore dell'anno, ma non ho disimparato a guidare”",
+      "link": "https://www.motosprint.it/news/eventi/gp-portimao/2026/11/21-9317522/morbidelli_a_pezzi_giornata_peggiore_dell_anno_ma_non_ho_disimparato_a_guidare",
+      "fonte": "Motosprint",
+      "data": "2026-11-21T21:24:43.451Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/21/172720588-61dbb8c8-320c-403f-b802-c033af579045.jpg",
+      "sommario": "Il romano continua il difficile epilogo in MotoGP: “Dopo l'incidente di Portimão ero primo. Mi prendo tutte le responsabilità, ma quello moto-pilota è pur sempre un pacchetto”"
+    },
+    {
+      "id": "edfdf08a0203",
+      "serie": "motogp",
+      "titolo": "Martin non si fa illusioni: “E’ ancora tutto nelle mani di Marquez”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/21-9317524/martin_non_si_fa_illusioni_e_ancora_tutto_nelle_mani_di_marquez",
+      "fonte": "Motosprint",
+      "data": "2026-11-21T21:24:43.451Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/21/175200439-2c9f5b38-052e-4bfe-82f9-528d26aeeee1.jpg",
+      "sommario": "Lo spagnolo di Aprilia chiude al quinto posto la Sprint portoghese “grazie” alla caduta del leader del Mondiale ma: “Mi manca ancora un po’ di velocità nonostante la lotta per il podio”\n"
+    },
+    {
+      "id": "07398fa66ce1",
+      "serie": "motogp",
+      "titolo": "Acosta quarto a Portimao: \"Per il podio avrei dovuto rischiare. Non me la sono sentita\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/21-9316941/acosta_quarto_a_portimao_per_il_podio_avrei_dovuto_rischiare_non_me_la_sono_sentita",
+      "fonte": "Motosprint",
+      "data": "2026-11-21T21:24:43.451Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/21/165526134-998ce4ad-c71d-4b0c-9a0d-de9001d6eb34.jpg",
+      "sommario": "Pedro dopo la Sprint: \"Ha cominciato a piovere e Alex Marquez ne aveva più di me. Divertito nella lotta con gli avversari? Mica tanto\""
+    },
+    {
+      "id": "33fc85d4639e",
+      "serie": "motogp",
+      "titolo": "Álex Márquez difende Marc: \"Fa parte del gioco, tutto può cambiare in un attimo\"",
+      "link": "https://www.motosprint.it/news/eventi/gp-portimao/2026/11/21-9316940/lex_mrquez_difende_marc_fa_parte_del_gioco_tutto_pu_cambiare_in_un_attimo",
+      "fonte": "Motosprint",
+      "data": "2026-11-21T21:24:43.451Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/21/164736835-6a543f56-d5b2-41be-9718-e17fcea19427.jpg",
+      "sommario": "Il fratello del leader del mondiale spiega: \"Curva 7 era la prima con la bandiera bianca esposta. Mi sono distratto ma, quando ho visto che Marc stava bene, ho pensato a difendermi\""
+    },
+    {
+      "id": "2c939109696f",
+      "serie": "motogp",
+      "titolo": "Di Giannantonio: \"Aggressivo su Marquez? Non ho mai steso nessuno: se posso ci provo\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/21-9316803/di_giannantonio_aggressivo_su_marquez_non_ho_mai_steso_nessuno_se_posso_ci_provo",
+      "fonte": "Motosprint",
+      "data": "2026-11-21T21:24:43.451Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/21/160617042-b4b0ef90-f2f1-4d0a-b6a9-6ce4a8a64c96.jpg",
+      "sommario": "Fabio settimo nella Sprint di Portimao: \"Voglio sempre superare tutti gli avversari nello stesso modo, se penso di essere più veloce. Oggi ho sbagliato io, chiedo scusa al team\""
+    },
+    {
+      "id": "cb70b6704405",
+      "serie": "motogp",
+      "titolo": "Márquez fa mea culpa: \"Ho accusato la tensione, era una giornata perfetta fino a quel momento\"",
+      "link": "https://www.motosprint.it/news/eventi/gp-portimao/2026/11/21-9316806/mrquez_fa_mea_culpa_ho_accusato_la_tensione_era_una_giornata_perfetta_fino_a_quel_momento",
+      "fonte": "Motosprint",
+      "data": "2026-11-21T21:24:43.451Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/21/161516741-ee475ef1-56a6-4903-bd3d-d9cde39683cf.jpg",
+      "sommario": "Lo spagnolo rimanda il titolo a domani dopo la caduta al penultimo giro della Sprint: \"Ho commesso un errore, sono stato troppo ottimista ad entrare così forte in quelle condizioni\""
+    },
+    {
+      "id": "e8520b253a55",
+      "serie": "f1",
+      "titolo": "Ancora scintille tra Verstappen e Russell. A Las Vegas spunta pure un dito medio",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/21-9317769/ancora_scintille_tra_verstappen_e_russell_a_las_vegas_spunta_pure_un_dito_medio",
+      "fonte": "Autosprint",
+      "data": "2026-11-21T21:24:43.451Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/21/203238460-fea8cade-59aa-42b8-b5b7-b51ac6152d49.jpg",
+      "sommario": "L'episodio si è verificato nel corso delle libere 3 ed è costato al pilota Red Bull soltanto un ammonimento che ha fatto andare su tutte le furie il rivale della Mercedes"
+    },
+    {
+      "id": "3470daa85239",
+      "serie": "motogp",
+      "titolo": "Raul Fernandez: \"Bezzecchi nell'ultimo settore è un animale, non capisco cosa faccia\"",
+      "link": "https://www.gpone.com/it/2026/11/21/motogp/raul-fernandez-bezzecchi-nellultimo-settore-e-un-animale-non-capisco-cosa-faccia.html",
+      "fonte": "GPOne",
+      "data": "2026-11-21T18:08:13.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/raul-portimao-26.jpg?itok=muziTK8T",
+      "sommario": "\"Riesce ad accelerare ma anche a gestire le gomme, capire questo compromesso sarà la chiave per domani. Le mie condizioni? sento di poter correre, nessun dolore durante la sprint\""
+    },
+    {
+      "id": "f4959d4652fd",
+      "serie": "motogp",
+      "titolo": "Di Giannantonio: “L’attacco a Marquez? Devo fare il massimo per me e il mio team”",
+      "link": "https://www.gpone.com/it/2026/11/21/motogp/di-giannantonio-lattacco-a-marquez-devo-fare-il-massimo-per-me-e-il-mio-team.html",
+      "fonte": "GPOne",
+      "data": "2026-11-21T18:05:30.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/di-giannantonio-sprint-portimao-brunetti.jpg?itok=Crvmwcrw",
+      "sommario": "“Cerco sempre di passare un avversario se penso di essere più veloce di lui e oggi era importante provare a salire sul podio. Il 7° posto è colpa mia: ho sbagliato a interpretare molte fasi della gara”"
+    },
+    {
+      "id": "0de9e4d81795",
+      "serie": "motogp",
+      "titolo": "Martin: \"Non ho tenuto vivo il Mondiale, tutto è ancora nelle mani di Marquez\"",
+      "link": "https://www.gpone.com/it/2026/11/21/motogp/martin-non-ho-tenuto-vivo-il-mondiale-tutto-e-ancora-nelle-mani-di-marquez.html",
+      "fonte": "GPOne",
+      "data": "2026-11-21T17:40:47.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/martin-grid.jpg?itok=MR90EisZ",
+      "sommario": "\"Bezzecchi mi impressiona e mi sorprende non sia riuscito a lottare per il titolo fino alla fine\". Poi scherza sulla Sprint anticipata: \"Non sono riuscito ad andare in bagno... forse è stato quello il problema!\""
+    },
+    {
+      "id": "379b9b55460e",
+      "serie": "motogp",
+      "titolo": "Bezzecchi: “Marquez che sbaglia sorprende sempre, ma ci stava in queste condizioni”",
+      "link": "https://www.gpone.com/it/2026/11/21/motogp/bezzecchi-marquez-che-sbaglia-sorprende-sempre-ma-ci-stava-in-queste-condizioni.html",
+      "fonte": "GPOne",
+      "data": "2026-11-21T17:20:11.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/bezzecchi-portimao-sprint-brunetti.jpg?itok=Pv7ALpBd",
+      "sommario": "“Poteva permetterselo e ha fatto bene a provare a chiudere la pratica. Assurdo che abbia vinto solo ora la prima Sprint 2026? Ho avuto altre occasioni: a volte ho sbagliato, altre è mancata la velocità”"
+    },
+    {
+      "id": "31e1bb97d804",
+      "serie": "motogp",
+      "titolo": "Alex Marquez: “Incredibile l’errore di Marc, ma è stato molto fortunato”",
+      "link": "https://www.gpone.com/it/2026/11/21/motogp/alex-marquez-incredibile-lerrore-di-marc-ma-e-stato-molto-fortunato.html",
+      "fonte": "GPOne",
+      "data": "2026-11-21T17:17:02.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/alex1.jpeg?itok=G1hF5utG",
+      "sommario": "“Se fosse caduto a una velocità più bassa sarebbe stato peggio. Quando è arrivato l’acqua ho cercato di difendermi, ma ero comunque pronto ad attaccare”"
+    },
+    {
+      "id": "2295a780d847",
+      "serie": "motogp",
+      "titolo": "Acosta: \"La pioggia? meglio rischiare per due giri, se è per la metà dei punti\"",
+      "link": "https://www.gpone.com/it/2026/11/21/motogp/acosta-la-pioggia-meglio-rischiare-per-due-giri-se-e-per-la-meta-dei-punti.html",
+      "fonte": "GPOne",
+      "data": "2026-11-21T17:15:30.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/pedro-acosta-red-bull-ktm-lusail.jpg?itok=QwU6xMl7",
+      "sommario": "\"Ho sofferto tutta la gara, ma Alex ne aveva di più. L'ultima curva è un disastro. L'highside di Moreira? è stato molto fortunato, ho visto cadute normali con infortuni peggiori\""
+    },
+    {
+      "id": "642195ccb83a",
+      "serie": "motogp",
+      "titolo": "LIVE Bar Sport alle 19:00 - Marquez: l'attimo fuggente!",
+      "link": "https://www.gpone.com/it/2026/11/21/motogp/live-bar-sport-alle-19-00-marquez-lattimo-fuggente.html",
+      "fonte": "GPOne",
+      "data": "2026-11-21T16:53:04.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/cover-sito-bs.jpg?itok=hq0p41bW",
+      "sommario": "VIDEO - Il decimo titolo mondiale sembrava ormai nelle mani di Marc, ma una caduta a due giri dalla fine ha cambiato tutto. Ne parliamo questa sera a Bar Sport, analizzando anche il trionfo di Bezzecchi e la sfida iridat"
+    },
+    {
+      "id": "bd595e1d79b5",
+      "serie": "motogp",
+      "titolo": "Marquez: “Non è stato un errore stupido: è come prendere gol al 90°”",
+      "link": "https://www.gpone.com/it/2026/11/21/motogp/marquez-non-e-stato-un-errore-stupido-e-come-prendere-gol-al-90deg.html",
+      "fonte": "GPOne",
+      "data": "2026-11-21T16:20:47.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/marquez-box-portimao0001.jpg?itok=WjIEm6IM",
+      "sommario": "“Qualcuno già stava festeggiando, qualcun altro invece sarà saltato dalla sedia. L’ho detto ieri: sono umano, non posso controllare tutto. Domani punto a finire la gara”"
+    },
+    {
+      "id": "5f1e396d3408",
+      "serie": "motogp",
+      "titolo": "Rivola: \"Marquez come Sinner per Alcaraz: avere un grande rivale ti rende più forte\"",
+      "link": "https://www.gpone.com/it/2026/11/21/motogp/rivola-marquez-come-sinner-per-alcaraz-avere-un-grande-rivale-ti-rende-piu-forte.html",
+      "fonte": "GPOne",
+      "data": "2026-11-21T16:07:41.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/rivola-qatar.jpeg?itok=mRjW7yIO",
+      "sommario": "Il CEO Aprilia dopo la vittoria di Bezzecchi: \"Marc è un riferimento nella storia del Motomondiale. Sono le grandi sfide che fanno crescere le squadre e i piloti\""
+    },
     {
       "id": "7a7dd6ab8103",
       "serie": "motogp",
@@ -3840,166 +4000,6 @@
       "data": "2026-11-02T09:31:30.232Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/01/140244726-8f73e43c-ffa2-4fbb-81f0-d547745209c1.jpg",
       "sommario": "Ecco tutto quello che c’è da sapere sul tracciato di qatariota, palcoscenico del terz’ultimo atto del Motomondiale 2026, nel fine settimana del 6-8 novembre\n"
-    },
-    {
-      "id": "247abe78694d",
-      "serie": "motogp",
-      "titolo": "Altro che Rossi e Marquez: stavolta la MotoGP è davvero spezzata in due",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/02-9256016/altro_che_rossi_e_marquez_stavolta_la_motogp_davvero_spezzata_in_due",
-      "fonte": "Motosprint",
-      "data": "2026-11-02T09:31:30.232Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/01/134832764-512b05ff-02f4-4dab-aa4b-e60e53b5c686.jpg",
-      "sommario": "La \"guerra\" tra Valentino e Marc divise il paddock, ma il conflitto in Medio Oriente e il Gran Premio del Qatar potrebbero fare peggio: il \"gentleman's agreement\" rischia di saltare"
-    },
-    {
-      "id": "5e87aa7a7f80",
-      "serie": "f1",
-      "titolo": "Antonelli stellare, un Campione che appassiona: \"Costanza e divertimento decisivi\"",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/02-9257379/antonelli_stellare_un_campione_che_appassiona_costanza_e_divertimento_decisivi",
-      "fonte": "Autosprint",
-      "data": "2026-11-02T09:31:30.232Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/02/092443549-65342523-c8af-4265-8108-41a55a987cb6.jpg",
-      "sommario": "Dall'emozione vissuta negli ultimi giri del GP, all'incoronazione accanto a Max e Lewis, passando per le difficoltà dell'esordio in F1 nel 2025: parla il campione"
-    },
-    {
-      "id": "62fc8d757c8b",
-      "serie": "motogp",
-      "titolo": "GP Qatar, Losail: gli orari in tv su Sky, NOW e TV8",
-      "link": "https://www.gpone.com/it/2026/11/02/motogp/gp-qatar-losail-gli-orari-in-tv-su-sky-now-e-tv8.html",
-      "fonte": "GPOne",
-      "data": "2026-11-02T09:13:09.000Z",
-      "immagine": "",
-      "sommario": "Ecco la programmazione completa del terzultimo appuntamento stagionale del Motomondiale, in diretta su Sky e sul digitale con TV8"
-    },
-    {
-      "id": "48c84f2d63be",
-      "serie": "motogp",
-      "titolo": "Márquez campione già in Qatar? Ecco tutte le combinazioni del primo match point mondiale",
-      "link": "https://www.gpone.com/it/2026/11/02/motogp/marquez-campione-gia-in-qatar-ecco-tutte-le-combinazioni-del-primo-match-point-mondiale.html",
-      "fonte": "GPOne",
-      "data": "2026-11-02T08:59:41.000Z",
-      "immagine": "",
-      "sommario": "A Lusail Marc può conquistare il titolo con due gare d'anticipo, ma dovrà guadagnare almeno 30 punti su Jorge Martín e 8 su Marco Bezzecchi nel weekend. Ecco tutti i calcoli"
-    },
-    {
-      "id": "61f1270fc6ff",
-      "serie": "f1",
-      "titolo": "Antonelli nella leggenda: è Campione del Mondo a 20 anni! Verstappen vince in Messico",
-      "link": "https://www.gpone.com/it/2026/11/02/formula-1/antonelli-nella-leggenda-e-campione-del-mondo-a-20-anni-verstappen-vince-in-messico.html",
-      "fonte": "GPOne",
-      "data": "2026-11-02T06:50:36.000Z",
-      "immagine": "",
-      "sommario": "Il terzo posto a Città del Messico consegna a Kimi il titolo iridato con quattro gare d'anticipo. È il più giovane campione della storia e il primo italiano dopo Alberto Ascari nel 1953. Verstappen batte Hamilton, mentre"
-    },
-    {
-      "id": "b16c2c032457",
-      "serie": "motogp",
-      "titolo": "Gran Premio di Sepang: il Bello, il Brutto e il Cattivo",
-      "link": "https://www.gpone.com/it/2026/11/02/motogp/gran-premio-di-sepang-il-bello-il-brutto-e-il-cattivo.html",
-      "fonte": "GPOne",
-      "data": "2026-11-02T06:00:00.000Z",
-      "immagine": "",
-      "sommario": "Marc Marquez vince correndo, Yamaha rifiutandosi di farlo. Gli altri perdono tutti: l'Aprilia il Mondiale e la MotoGP la faccia"
-    },
-    {
-      "id": "d8ac3e1e7ea3",
-      "serie": "f1",
-      "titolo": "Michele Alboreto e il Mondiale sfiorato con la Ferrari",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/01-9249608/michele_alboreto_e_il_mondiale_sfiorato_con_la_ferrari",
-      "fonte": "Autosprint",
-      "data": "2026-11-01T17:56:48.125Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/30/162508226-6670782d-c389-4166-9c07-2215b3e974a7.jpeg",
-      "sommario": "Due vittorie, la vetta del campionato e un finale amaro: Alboreto arrivò a un passo dal titolo, prima che i problemi della Ferrari consegnassero il Mondiale ad Alain Prost"
-    },
-    {
-      "id": "0281a8a01581",
-      "serie": "f1",
-      "titolo": "Da Riccardo Patrese al mondiale di Antonelli: l’Italia torna a inseguire la storia",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/01-9245962/da_riccardo_patrese_al_mondiale_di_antonelli_litalia_torna_a_inseguire_la_storia",
-      "fonte": "Autosprint",
-      "data": "2026-11-01T17:56:48.125Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/30/180627354-9ff583e5-1bf1-458a-97ba-aafdc84aa205.jpg",
-      "sommario": "Dal trionfo di Riccardo Patrese in Messico nel 1991 al sogno mondiale di Kimi Antonelli: 35 anni dopo, la Formula 1 italiana può tornare nella storia"
-    },
-    {
-      "id": "1de4bf0c8de3",
-      "serie": "f1",
-      "titolo": "Ocon e Hadjar nel mirino in Messico, perché i loro casi dimostrano che la F1 è confusa",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/01-9255684/ocon_e_hadjar_nel_mirino_in_messico_perch_i_loro_casi_dimostrano_che_la_f1_confusa",
-      "fonte": "Autosprint",
-      "data": "2026-11-01T15:58:51.990Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/01/155821889-96b4a313-14a0-42b9-a54e-232a1d398cf4.jpg",
-      "sommario": "Nel Circus attuale si sta vivendo un cortocircuito tra la volontà, spesso fasulla, di essere di buon esempio e quella di aprire le porte a chiunque"
-    },
-    {
-      "id": "ead5d2ba39b3",
-      "serie": "motogp",
-      "titolo": "Tardozzi: \"Quella cosa lì non c'è più? non so a cosa si riferisse Bagnaia\"",
-      "link": "https://www.gpone.com/it/2026/11/01/motogp/tardozzi-quella-cosa-li-non-ce-piu-non-so-a-cosa-si-riferisse-bagnaia.html",
-      "fonte": "GPOne",
-      "data": "2026-11-01T13:49:53.000Z",
-      "immagine": "",
-      "sommario": "Dopo il GP della malesia, Bagnaia ha rivelato che nei test di Misano e a Motegi 2025 aveva ritrovato la competitività grazie a una modifica tecnica oggi scomparsa"
-    },
-    {
-      "id": "6d92352ff724",
-      "serie": "motogp",
-      "titolo": "Bezzecchi: \"Ogura non deve scusarsi, era più veloce di me\"",
-      "link": "https://www.gpone.com/it/2026/11/01/motogp/bezzecchi-ogura-non-deve-scusarsi-era-piu-veloce-di-me.html",
-      "fonte": "GPOne",
-      "data": "2026-11-01T12:56:26.000Z",
-      "immagine": "",
-      "sommario": "\"Non mi aspettavo di faticare così dopo la Sprint, ma Aprilia è migliorata tanto rispetto all'anno scorso. Mi manca ancora esplosività, può succedere dopo un infortunio\""
-    },
-    {
-      "id": "ef6696faded9",
-      "serie": "motogp",
-      "titolo": "Marini: “Non avrei scommesso sul 7° posto: è un miracolo, pensavo di ritirarmi”",
-      "link": "https://www.gpone.com/it/2026/11/01/motogp/marini-non-avrei-scommesso-sul-7deg-posto-e-un-miracolo-pensavo-di-ritirarmi.html",
-      "fonte": "GPOne",
-      "data": "2026-11-01T12:17:09.000Z",
-      "immagine": "",
-      "sommario": "“Nei primi giri ho dato tutto. Sono morto, ma sono talmente contento che va bene così”. Mir: “Mi sono fermato perché iniziavo ad avere le vertigini. Se andremo in Qatar non sarà perché lo vogliamo”."
-    },
-    {
-      "id": "5c35848f842d",
-      "serie": "motogp",
-      "titolo": "LIVE Bar Sport alle 18:00 - Yamaha dice NO al Qatar: la MotoGP va in pezzi!",
-      "link": "https://www.gpone.com/it/2026/11/01/motogp/live-bar-sport-alle-18-00-yamaha-dice-no-al-qatar-la-motogp-va-in-pezzi.html",
-      "fonte": "GPOne",
-      "data": "2026-11-01T12:05:31.000Z",
-      "immagine": "",
-      "sommario": "VIDEO - La Casa di Iwata annuncia che non correrà a Lusail, lasciando quattro caselle vuote sulla griglia. MotoGP Group risponde duramente, mentre Miller rivela che 19 piloti non vogliono andare in Qatar. E adesso cosa s"
-    },
-    {
-      "id": "ee069cd7e50c",
-      "serie": "motogp",
-      "titolo": "MotoGP tuona, possibili ripercussioni sportive sulla decisione di Yamaha",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/01-9255702/motogp_tuona_possibili_ripercussioni_sportive_sulla_decisione_di_yamaha",
-      "fonte": "Motosprint",
-      "data": "2026-11-01T11:06:18.326Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/01/103224038-7b687fca-bea7-45a1-87e4-9cbf5bcf5453.jpg",
-      "sommario": "E’ quanto si legge nella nota rilasciata dalla MotoGP subito dopo il comunicato della Casa di Iwata che non si presenterà in Qatar\n"
-    },
-    {
-      "id": "677fdf8aebea",
-      "serie": "motogp",
-      "titolo": "UFFICIALE: Yamaha non sarà in Qatar settimana prossima",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/01-9255700/ufficiale_yamaha_non_sar_in_qatar_settimana_prossima",
-      "fonte": "Motosprint",
-      "data": "2026-11-01T11:06:18.326Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/01/101942379-b7da9a35-67de-4f54-975b-baa3ade3441b.jpg",
-      "sommario": "La Casa di Iwata ha comunicato a MotoGP Sports Entertainment Group che non prenderà parte alla trasferta nell’emiro "
-    },
-    {
-      "id": "6eafb3e949c5",
-      "serie": "motogp",
-      "titolo": "Tutta l’onestà di Alex Marquez: “Già prima della partenza non avevo speranze di vincere”",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/01-9255697/tutta_lonest_di_alex_marquez_gi_prima_della_partenza_non_avevo_speranze_di_vincere",
-      "fonte": "Motosprint",
-      "data": "2026-11-01T11:06:18.326Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/01/095823230-c26e626d-c25e-409b-be11-d2f20aefb2b0.jpg",
-      "sommario": "Lo spagnolo si prende il terzo gradino del podio dietro al fratello e ad Acosta ma “per come sto fisicamente è impossibile fare tre gare di seguito”\n"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-21T15:53:25.542Z",
+  "aggiornato": "2026-11-21T21:24:43.451Z",
   "articoli": [
     {
       "fonte": "Sky Sport",
@@ -8,13 +8,23 @@
       "gp": "GP Portogallo",
       "serie": "motogp",
       "sessioni": [
-        "Moto3 Qualifiche 2026-11-21T12:15:00.000Z",
-        "Moto2 Qualifiche 2026-11-21T13:10:00.000Z",
-        "MotoGP Sprint 2026-11-21T14:30:00.000Z",
         "MotoGP Warm up 2026-11-22T08:55:00.000Z",
         "Moto3 Gara 2026-11-22T10:00:00.000Z",
         "Moto2 Gara 2026-11-22T11:15:00.000Z",
         "MotoGP Gara 2026-11-22T13:00:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
+      "titolo": "Quando la MotoGP su TV8 domani, GP Portogallo 2026: orario gara, differita in chiaro",
+      "url": "https://www.oasport.it/2026/11/quando-la-motogp-su-tv8-domani-gp-portogallo-2026-orario-gara-differita-in-chiaro/",
+      "gp": "GP Portogallo",
+      "serie": "motogp",
+      "sessioni": [
+        "MotoGP Warm up 2026-11-22T09:00:00.000Z",
+        "Moto3 Gara 2026-11-22T10:00:00.000Z TV8 diretta 2026-11-22T10:00:00.000Z",
+        "Moto2 Gara 2026-11-22T11:15:00.000Z TV8 diretta 2026-11-22T11:15:00.000Z",
+        "MotoGP Gara 2026-11-22T13:00:00.000Z TV8 diretta 2026-11-22T13:00:00.000Z"
       ]
     },
     {

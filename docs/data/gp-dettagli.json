@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-21T15:53:25.542Z",
+  "aggiornato": "2026-11-21T21:24:43.451Z",
   "_fonte": "Wikipedia (inglese), pagine dei singoli GP",
   "motogp": {
     "2025": {
@@ -1027,12 +1027,15 @@
         "data": "2026-11-22",
         "circuito": "portimao",
         "luogo": "Algarve International Circuit Portimão, Algarve, Portugal",
-        "pole": null,
+        "pole": {
+          "chi": "Marco Bezzecchi",
+          "tempo": "1:37.201"
+        },
         "giroVeloce": null,
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-11-21T15:53:25.542Z"
+        "letto": "2026-11-21T21:24:43.451Z"
       },
       "2026_Valencian_motorcycle_Grand_Prix": {
         "data": null,
@@ -1042,7 +1045,7 @@
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-11-20T18:56:25.271Z"
+        "letto": "2026-11-21T21:24:43.451Z"
       }
     }
   },
