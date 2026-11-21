@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-21T07:55:44.072Z",
+  "aggiornato": "2026-11-21T15:53:25.542Z",
   "articoli": [
     {
       "fonte": "Sky Sport",
@@ -8,33 +8,9 @@
       "gp": "GP Portogallo",
       "serie": "motogp",
       "sessioni": [
-        "Moto3 Prove libere 2 2026-11-21T08:35:00.000Z",
-        "Moto2 Prove libere 2 2026-11-21T09:20:00.000Z",
-        "MotoGP Prove libere 2 2026-11-21T10:05:00.000Z",
-        "MotoGP Qualifiche 2026-11-21T10:45:00.000Z",
-        "Moto3 Qualifiche 2026-11-21T12:45:00.000Z",
-        "Moto2 Qualifiche 2026-11-21T13:40:00.000Z",
-        "MotoGP Sprint 2026-11-21T14:55:00.000Z",
-        "MotoGP Warm up 2026-11-22T08:55:00.000Z",
-        "Moto3 Gara 2026-11-22T10:00:00.000Z",
-        "Moto2 Gara 2026-11-22T11:15:00.000Z",
-        "MotoGP Gara 2026-11-22T13:00:00.000Z"
-      ]
-    },
-    {
-      "fonte": "Sky Sport",
-      "titolo": "MotoGP, GP Portogallo: orari tv della gara di Portimao 2026 | Sky Sport",
-      "url": "https://sport.sky.it/motogp/2026/11/18/motogp-orari-gp-portogallo-portimao-2026-dove-vedere-sky-now-tv8",
-      "gp": "GP Portogallo",
-      "serie": "motogp",
-      "sessioni": [
-        "Moto3 Prove libere 2 2026-11-21T08:35:00.000Z",
-        "Moto2 Prove libere 2 2026-11-21T09:20:00.000Z",
-        "MotoGP Prove libere 2 2026-11-21T10:05:00.000Z",
-        "MotoGP Qualifiche 2026-11-21T10:45:00.000Z",
-        "Moto3 Qualifiche 2026-11-21T12:45:00.000Z",
-        "Moto2 Qualifiche 2026-11-21T13:40:00.000Z",
-        "MotoGP Sprint 2026-11-21T14:55:00.000Z",
+        "Moto3 Qualifiche 2026-11-21T12:15:00.000Z",
+        "Moto2 Qualifiche 2026-11-21T13:10:00.000Z",
+        "MotoGP Sprint 2026-11-21T14:30:00.000Z",
         "MotoGP Warm up 2026-11-22T08:55:00.000Z",
         "Moto3 Gara 2026-11-22T10:00:00.000Z",
         "Moto2 Gara 2026-11-22T11:15:00.000Z",
@@ -53,8 +29,7 @@
         "MotoGP Prove libere 2 2026-11-21T10:10:00.000Z",
         "MotoGP Qualifiche 2026-11-21T10:50:00.000Z TV8 diretta 2026-11-21T10:50:00.000Z",
         "Moto3 Qualifiche 2026-11-21T12:45:00.000Z TV8 diretta 2026-11-21T12:45:00.000Z",
-        "Moto2 Qualifiche 2026-11-21T13:40:00.000Z TV8 diretta 2026-11-21T13:40:00.000Z",
-        "MotoGP Sprint 2026-11-21T15:00:00.000Z TV8 diretta 2026-11-21T15:00:00.000Z"
+        "Moto2 Qualifiche 2026-11-21T13:40:00.000Z TV8 diretta 2026-11-21T13:40:00.000Z"
       ]
     },
     {
@@ -168,6 +143,26 @@
         "F1 Prove libere 3 2026-11-21T00:30:00.000Z",
         "F1 Qualifiche 2026-11-21T04:00:00.000Z",
         "F1 Gara 2026-11-22T04:00:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
+      "titolo": "Quando la F1 su TV8 domani, GP Las Vegas 2026: orario gara, differita in chiaro",
+      "url": "https://www.oasport.it/2026/11/quando-la-f1-su-tv8-domani-gp-las-vegas-2026-orario-gara-differita-in-chiaro/",
+      "gp": "GP Las Vegas",
+      "serie": "f1",
+      "sessioni": [
+        "F1 Gara 2026-11-22T04:00:00.000Z TV8 differita 2026-11-22T16:10:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
+      "titolo": "F1 stanotte in tv, GP Las Vegas 2026: orario gara 22 novembre, streaming, programma Sky e TV8",
+      "url": "https://www.oasport.it/2026/11/f1-stanotte-in-tv-gp-las-vegas-2026-orario-gara-22-novembre-streaming-programma-sky-e-tv8/",
+      "gp": "GP Las Vegas",
+      "serie": "f1",
+      "sessioni": [
+        "F1 Gara 2026-11-22T04:00:00.000Z TV8 differita 2026-11-22T16:10:00.000Z"
       ]
     },
     {

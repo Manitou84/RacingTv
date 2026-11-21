@@ -1,6 +1,136 @@
 {
-  "aggiornato": "2026-11-21T07:55:44.072Z",
+  "aggiornato": "2026-11-21T15:53:25.542Z",
   "articoli": [
+    {
+      "id": "7a7dd6ab8103",
+      "serie": "motogp",
+      "titolo": "Colpo di scena nella Sprint di Portimao: Marquez cade, Bezzecchi vince e il Mondiale resta aperto",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/21-9316301/colpo_di_scena_nella_sprint_di_portimao_marquez_cade_bezzecchi_vince_e_il_mondiale_resta_aperto",
+      "fonte": "Motosprint",
+      "data": "2026-11-21T15:53:25.542Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/21/151505171-b84e9073-b71a-492d-96e6-e1031001eb4b.jpg",
+      "sommario": "Lo spagnolo scivola a due giri dalla fine e riapre la lotta al titolo. Bezzecchi domina davanti a Raul Fernandez e Alex Marquez\n"
+    },
+    {
+      "id": "0de2e829e420",
+      "serie": "motogp",
+      "titolo": "MotoGP, il maltempo anticipa la Sprint di Portimao: ecco il nuovo programma",
+      "link": "https://www.motosprint.it/news/eventi/gp-portimao/2026/11/21-9315981/motogp_il_maltempo_anticipa_la_sprint_di_portimao_ecco_il_nuovo_programma",
+      "fonte": "Motosprint",
+      "data": "2026-11-21T15:53:25.542Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/21/120043649-45b45cea-747d-452b-a94d-e91a96974b7e.jpg",
+      "sommario": "Dopo la pioggia caduta in mattinata che ha reso insidiosa le sessioni di libere, l’organizzazione ha deciso di modificare gli orari del pomeriggio per evitare la pioggia"
+    },
+    {
+      "id": "a873510a71d8",
+      "serie": "motogp",
+      "titolo": "Record e pole per Bezzecchi a Portimao! Marquez in prima fila",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/21-9315844/record_e_pole_per_bezzecchi_a_portimao_marquez_in_prima_fila",
+      "fonte": "Motosprint",
+      "data": "2026-11-21T15:53:25.542Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/21/115311729-23fc077b-eb95-4587-825b-4bee9f99d0fb.jpg",
+      "sommario": "Marco firma il primato davanti a Marc e Di Giannantonio, terza fila per Martin. Paura per Moreira\n"
+    },
+    {
+      "id": "20f2ad0d9941",
+      "serie": "motogp",
+      "titolo": "Diretta Sprint MotoGP Portimao: risultati Q1, Q2 e gara LIVE",
+      "link": "https://www.motosprint.it/news/eventi/gp-portimao/2026/11/21-9315754/diretta_sprint_motogp_portimao_risultati_q1_q2_e_gara_live",
+      "fonte": "Motosprint",
+      "data": "2026-11-21T15:53:25.542Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/21/111757814-97b31b31-24ff-4538-9996-542df6033acb.jpg",
+      "sommario": "Seguite con noi la corsa breve sul circuito portoghese, con l'incognita meteo e la possibilità che Marquez chiuda i giochi vincendo il decimo titolo in carriera"
+    },
+    {
+      "id": "dab828af03cf",
+      "serie": "motogp",
+      "titolo": "CLAMOROSO: Marc Marquez cade nella Sprint di Portimao, Mondiale ancora aperto!",
+      "link": "https://www.gpone.com/it/2026/11/21/motogp/clamoroso-marc-marquez-cade-nella-sprint-di-portimao-mondiale-ancora-aperto.html",
+      "fonte": "GPOne",
+      "data": "2026-11-21T15:06:16.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/caduta-2.jpg?itok=qxxhFbgQ",
+      "sommario": "Marc era terzo ed aveva entrambe le mani sul titolo, ma una scivolata quando mancavano tre giri al traguardo rimanda la festa a domani e lascia vive le speranze di Martìn e Bezzecchi"
+    },
+    {
+      "id": "e3764202f1d4",
+      "serie": "motogp",
+      "titolo": "Festa rimandata: Marquez cade nella Sprint a Portimao, Bezzecchi trionfa!",
+      "link": "https://www.gpone.com/it/2026/11/21/motogp/live-la-diretta-della-sprint-race-del-gran-premio-del-portogallo-a-portimao.html",
+      "fonte": "GPOne",
+      "data": "2026-11-21T14:57:00.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/bez-win_0.jpg?itok=Ae1fszbR",
+      "sommario": "Marc commette un errore a due giri dal traguardo mentre è terzo e campione, dovrà aspettare almeno domani. Doppietta Aprilia con Fernandez 2° su Alex Marquez. Martìn 5° resta in gioco per il titolo"
+    },
+    {
+      "id": "4239016edd3d",
+      "serie": "motogp",
+      "titolo": "Marquez cade nella Sprint, Bezzecchi vince: ma a Marc basta un 9° posto nel GP",
+      "link": "https://www.gpone.com/it/2026/11/21/motogp/clamoroso-marquez-cade-nella-sprint-bezzecchi-vince-ma-a-marc-basta-un-9deg-posto-nel-gp.html",
+      "fonte": "GPOne",
+      "data": "2026-11-21T14:56:10.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/cover-scenari-mondiali-marquez.jpg?itok=rwYkBEAu",
+      "sommario": "La caduta di Marc a Portimão riapre parzialmente i giochi. Bezzecchi conquista la Sprint davanti a Raul Fernandez e Alex Marquez, mentre Martin chiude quinto. Il vantaggio del pilota Ducati scende a 55 punti su Jorge e 6"
+    },
+    {
+      "id": "832aa47568ec",
+      "serie": "motogp",
+      "titolo": "MotoGP 2027, Liberty sposta le gare per non disturbare la F1. Ma chi pensa agli ascolti?",
+      "link": "https://www.gpone.com/it/2026/11/21/motogp/motogp-2027-liberty-sposta-le-gare-per-non-disturbare-la-f1-ma-chi-pensa-agli-ascolti.html",
+      "fonte": "GPOne",
+      "data": "2026-11-21T14:09:22.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/02/MotoGP/generic/motogp-start-ungheria-1771588863.jpg?itok=kKkSCcnl",
+      "sommario": "Dal prossimo anno i GP partiranno alle 15, con la possibilità di slittare fino alle 16 per evitare sovrapposizioni con la Formula 1. Anche le Sprint saranno posticipate. Una scelta che rischia di penalizzare gli ascolti "
+    },
+    {
+      "id": "8d344ff1cf60",
+      "serie": "motogp",
+      "titolo": "Controlli tecnici post-gara relativi a componenti danneggiati o mancanti",
+      "link": "https://www.gpone.com/it/2026/11/21/motogp/controlli-tecnici-post-gara-relativi-a-componenti-danneggiati-o-mancanti.html",
+      "fonte": "GPOne",
+      "data": "2026-11-21T13:48:37.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/01/MotoGP/generic/ducati-aero002_0.jpg?itok=pqm-Meso",
+      "sommario": "Durante la riunione della Grand Prix Commission del 20 novembre 2026, tenutasi a Portimão, è stato approvato con effetto immediato il seguente aggiornamento regolamentare"
+    },
+    {
+      "id": "388a66dbd6ac",
+      "serie": "motogp",
+      "titolo": "Paolo Pavesio: “dell’assenza di Yamaha in Qatar parleremo dietro le quinte con MotoGP SEG”",
+      "link": "https://www.gpone.com/it/2026/11/21/motogp/pavesio-dellassenza-in-qatar-ne-parleremo-dietro-le-quinte.html",
+      "fonte": "GPOne",
+      "data": "2026-11-21T11:48:01.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/06/MotoGP/generic/paolo-pavesio.JPG?itok=nMuzT2h6",
+      "sommario": "“Ci sono aspetti che si possono chiarire e altri no. A Valencia vedrete una anticipazione di quella che sarà la moto che porteremo a Sepang”"
+    },
+    {
+      "id": "ac0c81c9e64a",
+      "serie": "motogp",
+      "titolo": "ULTIM'ORA: La sprint della MotoGP anticipata alle 15.30 ora italiana",
+      "link": "https://www.gpone.com/it/2026/11/21/motogp/ultimora-la-sprint-della-motogp-anticipata-alle-15-30.html",
+      "fonte": "GPOne",
+      "data": "2026-11-21T11:35:24.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/portimao-ambience.jpg?itok=UoXtT3YQ",
+      "sommario": "A causa della possibilità di maltempo la direzione gara ha deciso di anticipare tutte le sessioni di mezz'ora"
+    },
+    {
+      "id": "49cd2ba369c4",
+      "serie": "motogp",
+      "titolo": "VIDEO - Lo spaventoso volo di Diogo Moreira nelle qualifiche di Portimao",
+      "link": "https://www.gpone.com/it/2026/11/21/motogp/video-lo-spaventoso-volo-di-diogo-moreira-nella-qualifiche-di-portimao.html",
+      "fonte": "GPOne",
+      "data": "2026-11-21T11:08:29.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/moreira-crash-screen.JPG?itok=hfkUykbU",
+      "sommario": "Il brasiliano è stato scaraventato in aria dalla sua Honda all'uscita dell'ultima curva. Per fortuna si è rialzato senza gravi conseguenze"
+    },
+    {
+      "id": "cf926a9be159",
+      "serie": "motogp",
+      "titolo": "Alex Marquez e Aldeguer si travestono da Melandri ed Elias a Portimao",
+      "link": "https://www.gpone.com/it/2026/11/21/motogp/alex-marquez-e-aldeguer-si-travestono-da-melandri-ed-elias-a-portimao.html",
+      "fonte": "GPOne",
+      "data": "2026-11-21T09:33:50.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/gresini-fortuna.jpg?itok=rgHAJ8Dw",
+      "sommario": "FOTO - Il team Gresini celebra i suoi 30 anni con una livrea ispirata a quella usata nel 2006"
+    },
     {
       "id": "023a0e8723cc",
       "serie": "f1",
@@ -3870,136 +4000,6 @@
       "data": "2026-11-01T11:06:18.326Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/01/095823230-c26e626d-c25e-409b-be11-d2f20aefb2b0.jpg",
       "sommario": "Lo spagnolo si prende il terzo gradino del podio dietro al fratello e ad Acosta ma “per come sto fisicamente è impossibile fare tre gare di seguito”\n"
-    },
-    {
-      "id": "dd6e678839d8",
-      "serie": "motogp",
-      "titolo": "Di Giannantonio: \"Nemmeno toccavo col ginocchio destro, ho pensato solo a finire la gara\"",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/01-9255692/di_giannantonio_nemmeno_toccavo_col_ginocchio_destro_ho_pensato_solo_a_finire_la_gara",
-      "fonte": "Motosprint",
-      "data": "2026-11-01T11:06:18.326Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/01/095257943-792b5cb6-b57b-49fb-b9cd-d7f10c1fee6f.jpg",
-      "sommario": "Fabio: \"Problemi del sabato sommati alle noie di oggi: weekend praticamente distrutto. Qatar? Posto fantastico, ma momento sbagliato\""
-    },
-    {
-      "id": "6603ef2d6998",
-      "serie": "motogp",
-      "titolo": "GP Qatar: il silenzio assordante della FIM. Jorge Viegas, dove sei?",
-      "link": "https://www.gpone.com/it/2026/11/01/motogp/gp-qatar-il-silenzio-assordante-della-fim-jorge-viegas-dove-sei.html",
-      "fonte": "GPOne",
-      "data": "2026-11-01T11:00:00.000Z",
-      "immagine": "",
-      "sommario": "L'assenza di una presa di posizione del Presidente FIM solleva una domanda grave: la Federazione internazionale è ancora in grado di esercitare il proprio ruolo di garante?"
-    },
-    {
-      "id": "9e4ab93488d8",
-      "serie": "motogp",
-      "titolo": "Di Giannantonio: \"Frustrato e deluso, ero seduto in moto cercando di finire la gara\"",
-      "link": "https://www.gpone.com/it/2026/11/01/motogp/di-giannantonio-frustrato-e-deluso-ero-seduto-in-moto-cercando-di-finire-la-gara.html",
-      "fonte": "GPOne",
-      "data": "2026-11-01T10:51:57.000Z",
-      "immagine": "",
-      "sommario": "\"Mi aspettavo di più dalle asiatiche, incredibile quanti problemi abbiamo avuto. Il Qatar per voltare pagina? posto incredibile, ma nel momento sbagliato\". Morbidelli: \"la squadra ha lavorato il doppio per la top dieci\""
-    },
-    {
-      "id": "a4cef4e1cd98",
-      "serie": "motogp",
-      "titolo": "Ogura: “Mi scuserò con Bezzecchi, il contatto è stato tutta colpa mia”",
-      "link": "https://www.gpone.com/it/2026/11/01/motogp/ogura-mi-scusero-con-bezzecchi-il-contatto-e-stato-tutta-colpa-mia.html",
-      "fonte": "GPOne",
-      "data": "2026-11-01T10:49:41.000Z",
-      "immagine": "",
-      "sommario": "“Non mi aspettavo che avrebbe cercato il punto di corda, ho mal interpretato la situazione. Due quarti posti sono un buon risultato, ma la gara sarebbe potuta andare meglio. Ho sentimenti contrastanti”"
-    },
-    {
-      "id": "2f2a6769fb20",
-      "serie": "motogp",
-      "titolo": "MotoGP sull'orlo di una crisi: Yamaha sfida il Qatar, SEG minaccia sanzioni",
-      "link": "https://www.gpone.com/it/2026/11/01/motogp/motogp-sullorlo-di-una-crisi-yamaha-sfida-il-qatar-seg-minaccia-sanzioni.html",
-      "fonte": "GPOne",
-      "data": "2026-11-01T10:32:34.000Z",
-      "immagine": "",
-      "sommario": "La decisione della Yamaha di non correre in Qatar scatena la dura reazione del detentore dei diritti commerciali della MotoGP, che chiama in causa la FIM per possibili sanzioni sportive. È davvero così che Liberty Media "
-    },
-    {
-      "id": "00da183a7dfb",
-      "serie": "motogp",
-      "titolo": "Márquez al galoppo verso il decimo: \"Titolo? Sono come un cavallo, guardo solo avanti\"",
-      "link": "https://www.motosprint.it/news/eventi/gp-malesia/2026/11/01-9255694/mrquez_al_galoppo_verso_il_decimo_titolo_sono_come_un_cavallo_guardo_solo_avanti",
-      "fonte": "Motosprint",
-      "data": "2026-11-01T10:27:34.162Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/01/094321209-b96530fa-3e23-471b-b335-c83a0f8d50a0.jpg",
-      "sommario": "Nonostante la vittoria in Malesia, il ducatista predica calma: \"Non voglio nemmeno pensare al titolo, anche se mancano ancora poche gare. Dedico il successo alle famiglie di Toledo\""
-    },
-    {
-      "id": "2a2c00c94c19",
-      "serie": "motogp",
-      "titolo": "Rivola stuzzica Marquez: “I giochi di squadra li fanno loro in famiglia”",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/01-9255691/rivola_stuzzica_marquez_i_giochi_di_squadra_li_fanno_loro_in_famiglia",
-      "fonte": "Motosprint",
-      "data": "2026-11-01T10:27:34.162Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/01/093204555-96c0022f-ed32-4d9e-9a95-1ed0cbce6b00.jpg",
-      "sommario": "Il CEO Aprilia Racing ai microfoni di Dazn Spagna replica all’accusa del leader del Mondiale relativa ai presunti aiuti tra i piloti di Noale"
-    },
-    {
-      "id": "6b03aa7604af",
-      "serie": "motogp",
-      "titolo": "Dall'Igna: \"E' il miglior Marc: nessun pilota sa minimizzare i rischi come lui\"",
-      "link": "https://www.gpone.com/it/2026/11/01/motogp/dalligna-e-il-miglior-marc-nessun-pilota-sa-minimizzare-i-rischi-come-lui.html",
-      "fonte": "GPOne",
-      "data": "2026-11-01T10:22:53.000Z",
-      "immagine": "",
-      "sommario": "\"Al titolo è ancora stupido pensarci. Sono gare di moto, possono succedere tante cose. Bagnaia conta i giorni che mancano alla fine? Umanamente lo capisco\""
-    },
-    {
-      "id": "2948cc9602a9",
-      "serie": "motogp",
-      "titolo": "CLAMOROSO: Yamaha non prenderà parte al Gran Premio del Qatar",
-      "link": "https://www.gpone.com/it/2026/11/01/motogp/clamoroso-yamaha-non-prendera-parte-al-gran-premio-del-qatar.html",
-      "fonte": "GPOne",
-      "data": "2026-11-01T10:07:02.000Z",
-      "immagine": "",
-      "sommario": "È arrivata la comunicazione ufficiale: \"Yamaha non ha individuato motivi sufficienti per modificare le attuali restrizioni di viaggio in vigore a livello azienda\". Quartararo e Rins non correranno"
-    },
-    {
-      "id": "9084a6e4a2e9",
-      "serie": "motogp",
-      "titolo": "Alex Marquez: “Domani mi aspetta un’altra gara: mi opererò alla spalla destra”",
-      "link": "https://www.gpone.com/it/2026/11/01/motogp/alex-marquez-domani-mi-aspetta-unaltra-gara-mi-operero-alla-spalla-destra.html",
-      "fonte": "GPOne",
-      "data": "2026-11-01T09:55:34.000Z",
-      "immagine": "",
-      "sommario": "“Ho sofferto molto dopo l’incidente in Catalunya. Fare tre gare di fila sarebbe stato impossibile, quindi ho deciso di operarmi e tornare a Portimao. Il match point di Marc? Se qualcuno poteva riuscirci, era lui”"
-    },
-    {
-      "id": "560db9e920d1",
-      "serie": "motogp",
-      "titolo": "Acosta: \"Marc oggi era imbattibile. Ora Bezzecchi è la mia battaglia più vicina\"",
-      "link": "https://www.gpone.com/it/2026/11/01/motogp/acosta-marc-oggi-era-imbattibile-ora-bezzecchi-e-la-mia-battaglia-piu-vicina.html",
-      "fonte": "GPOne",
-      "data": "2026-11-01T09:44:33.000Z",
-      "immagine": "",
-      "sommario": "\"Io miglior KTM? porto tutto alla perfezione, voglio solo stare davanti. Fino all'ultimo giorno giorno darò il massimo su questa moto, è il miglior modo per chiudere la mia storia con KTM\""
-    },
-    {
-      "id": "be90634544fb",
-      "serie": "motogp",
-      "titolo": "Marini, settimo nella MotoGP di Sepang: \"Credevo di ritirarmi, invece... un miracolo\"",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/01-9255552/marini_settimo_nella_motogp_di_sepang_credevo_di_ritirarmi_invece_un_miracolo",
-      "fonte": "Motosprint",
-      "data": "2026-11-01T09:31:48.315Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/01/090059804-e566cf8e-38a7-4d78-98a6-ef940bf8210c.jpg",
-      "sommario": "Luca in Malesia: \"Non me l'aspettavo: ho fatto il primo giro da matti, rischiando tutto. Nemmeno io ci avrei scommesso. Il Qatar? Non c'è da parlarne\""
-    },
-    {
-      "id": "5312f23e8963",
-      "serie": "motogp",
-      "titolo": "Bagnaia alza bandiera bianca: “Conto i minuti alla fine della stagione”",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/01-9255555/bagnaia_alza_bandiera_bianca_conto_i_minuti_alla_fine_della_stagione",
-      "fonte": "Motosprint",
-      "data": "2026-11-01T09:31:48.315Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/01/090642057-6c229458-645d-48ac-9263-b2183da6d605.jpg",
-      "sommario": "Il torinese dopo la gara accusa sibillinamente Ducati “Al test di Misano e in Giappone 2025 sono state cambiate cose che poi sono sparite”"
     }
   ]
 }

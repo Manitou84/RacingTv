@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-21T07:55:44.072Z",
+  "aggiornato": "2026-11-21T15:53:25.542Z",
   "griglie": {
     "motogp-gp-qatar-2026": {
       "serie": "motogp",
@@ -224,7 +224,7 @@
       "gp": "GP Las Vegas",
       "fonte": "OA Sport",
       "url": "https://www.oasport.it/2026/11/griglia-di-partenza-f1-gp-las-vegas-2026-risultati-e-classifica-qualifiche/",
-      "aggiornato": "2026-11-21T07:55:44.072Z",
+      "aggiornato": "2026-11-21T15:53:25.542Z",
       "righe": [
         {
           "pos": 1,
@@ -335,6 +335,125 @@
           "pos": 22,
           "id": "f1-bearman",
           "nome": "Oliver Bearman"
+        }
+      ]
+    },
+    "motogp-gp-portogallo-2026": {
+      "serie": "motogp",
+      "gp": "GP Portogallo",
+      "fonte": "OA Sport",
+      "url": "https://www.oasport.it/2026/11/griglia-di-partenza-motogp-gp-portogallo-2026-risultati-e-classifica-qualifiche/",
+      "aggiornato": "2026-11-21T15:53:25.542Z",
+      "righe": [
+        {
+          "pos": 1,
+          "id": "bezzecchi",
+          "nome": "Marco Bezzecchi"
+        },
+        {
+          "pos": 2,
+          "id": "marc-marquez",
+          "nome": "Marc Marquez"
+        },
+        {
+          "pos": 3,
+          "id": "di-giannantonio",
+          "nome": "Fabio Di Giannantonio"
+        },
+        {
+          "pos": 4,
+          "id": "raul-fernandez",
+          "nome": "Raúl Fernández"
+        },
+        {
+          "pos": 5,
+          "id": "alex-marquez",
+          "nome": "Álex Márquez"
+        },
+        {
+          "pos": 6,
+          "id": "acosta",
+          "nome": "Pedro Acosta"
+        },
+        {
+          "pos": 7,
+          "id": "martin",
+          "nome": "Jorge Martin"
+        },
+        {
+          "pos": 8,
+          "id": "zarco",
+          "nome": "Johann Zarco"
+        },
+        {
+          "pos": 9,
+          "id": "binder",
+          "nome": "Brad Binder"
+        },
+        {
+          "pos": 10,
+          "id": "aldeguer",
+          "nome": "Fermín Aldeguer"
+        },
+        {
+          "pos": 11,
+          "id": "moreira",
+          "nome": "Diogo Moreira"
+        },
+        {
+          "pos": 12,
+          "id": null,
+          "nome": "I. Lecuona"
+        },
+        {
+          "pos": 13,
+          "id": "miller",
+          "nome": "Jack Miller"
+        },
+        {
+          "pos": 14,
+          "id": "marini",
+          "nome": "Luca Marini"
+        },
+        {
+          "pos": 15,
+          "id": "ogura",
+          "nome": "Ai Ogura"
+        },
+        {
+          "pos": 16,
+          "id": null,
+          "nome": "A. Fernandez"
+        },
+        {
+          "pos": 17,
+          "id": null,
+          "nome": "J. Dixon"
+        },
+        {
+          "pos": 18,
+          "id": null,
+          "nome": "P. Espargarò"
+        },
+        {
+          "pos": 19,
+          "id": "rins",
+          "nome": "Álex Rins"
+        },
+        {
+          "pos": 20,
+          "id": "quartararo",
+          "nome": "Fabio Quartararo"
+        },
+        {
+          "pos": 21,
+          "id": "morbidelli",
+          "nome": "Franco Morbidelli"
+        },
+        {
+          "pos": 22,
+          "id": "bastianini",
+          "nome": "Enea Bastianini"
         }
       ]
     }

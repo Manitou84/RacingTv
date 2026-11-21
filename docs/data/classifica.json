@@ -1,7 +1,7 @@
 {
-  "aggiornato": "2026-11-21T07:55:44.072Z",
+  "aggiornato": "2026-11-21T15:53:25.542Z",
   "motogp": {
-    "aggiornato": "2026-11-21T07:55:44.072Z",
+    "aggiornato": "2026-11-21T15:53:25.542Z",
     "fonte": "Motosprint",
     "piloti": [
       {
@@ -16,49 +16,49 @@
         "slug": "jorge-martin",
         "nome": "J. Martin",
         "team": "Aprilia Racing Team",
-        "punti": 371
+        "punti": 376
       },
       {
         "pos": 3,
         "slug": "marco-bezzecchi",
         "nome": "M. Bezzecchi",
         "team": "Aprilia Racing Team",
-        "punti": 357
+        "punti": 369
       },
       {
         "pos": 4,
         "slug": "pedro-acosta",
         "nome": "P. Acosta",
         "team": "Red Bull KTM Factory Racing",
-        "punti": 309
+        "punti": 315
       },
       {
         "pos": 5,
         "slug": "ai-ogura",
         "nome": "A. Ogura",
         "team": "Trackhouse MotoGP Team",
-        "punti": 294
+        "punti": 298
       },
       {
         "pos": 6,
         "slug": "fabio-di-giannantonio",
         "nome": "F. D. Giannantonio",
         "team": "Pertamina Enduro VR46 Racing Team",
-        "punti": 282
+        "punti": 285
       },
       {
         "pos": 7,
         "slug": "raul-fernandez",
         "nome": "R. fernandez",
         "team": "Trackhouse MotoGP Team",
-        "punti": 258
+        "punti": 267
       },
       {
         "pos": 8,
         "slug": "alex-marquez",
         "nome": "A. Marquez",
         "team": "BK8 Gresini Racing MotoGP",
-        "punti": 197
+        "punti": 204
       },
       {
         "pos": 9,
@@ -100,7 +100,7 @@
         "slug": "fabio-quartararo",
         "nome": "F. Quartararo",
         "team": "Monster Energy Yamaha MotoGP",
-        "punti": 79
+        "punti": 81
       },
       {
         "pos": 15,
@@ -149,7 +149,7 @@
         "slug": "iker-lecuona",
         "nome": "I. Lecuona",
         "team": "Ducati Lenovo Team",
-        "punti": 18
+        "punti": 19
       },
       {
         "pos": 22,
@@ -240,32 +240,32 @@
       {
         "pos": 1,
         "nome": "Aprilia Racing Team",
-        "punti": 728
+        "punti": 745
       },
       {
         "pos": 2,
         "nome": "Ducati Lenovo Team",
-        "punti": 604
+        "punti": 605
       },
       {
         "pos": 3,
         "nome": "Trackhouse MotoGP Team",
-        "punti": 552
+        "punti": 565
       },
       {
         "pos": 4,
         "nome": "Red Bull KTM Factory Racing",
-        "punti": 427
+        "punti": 433
       },
       {
         "pos": 5,
         "nome": "Pertamina Enduro VR46 Racing Team",
-        "punti": 352
+        "punti": 355
       },
       {
         "pos": 6,
         "nome": "BK8 Gresini Racing MotoGP",
-        "punti": 344
+        "punti": 351
       },
       {
         "pos": 7,
@@ -285,7 +285,7 @@
       {
         "pos": 10,
         "nome": "Monster Energy Yamaha MotoGP",
-        "punti": 108
+        "punti": 110
       },
       {
         "pos": 11,
@@ -312,17 +312,17 @@
       {
         "pos": 1,
         "nome": "Ducati",
-        "punti": 569
+        "punti": 576
       },
       {
         "pos": 2,
         "nome": "Aprilia",
-        "punti": 561
+        "punti": 573
       },
       {
         "pos": 3,
         "nome": "KTM",
-        "punti": 363
+        "punti": 369
       },
       {
         "pos": 4,
@@ -332,12 +332,12 @@
       {
         "pos": 5,
         "nome": "Yamaha",
-        "punti": 105
+        "punti": 107
       }
     ]
   },
   "f1": {
-    "aggiornato": "2026-11-21T07:55:44.072Z",
+    "aggiornato": "2026-11-21T15:53:25.542Z",
     "fonte": "Autosprint",
     "piloti": [
       {
@@ -576,7 +576,7 @@
     ]
   },
   "sbk": {
-    "aggiornato": "2026-11-21T07:55:44.072Z",
+    "aggiornato": "2026-11-21T15:53:25.542Z",
     "fonte": "Wikipedia",
     "piloti": [
       {

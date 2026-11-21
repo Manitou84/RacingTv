@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-21T07:55:44.072Z",
+  "aggiornato": "2026-11-21T15:53:25.542Z",
   "_fonte": "Wikipedia (inglese)",
   "stagioni": {
     "2021|MotoGP World Championship": {
@@ -10262,7 +10262,7 @@
           "punti": 49
         }
       ],
-      "letta": "2026-11-21T07:55:44.072Z",
+      "letta": "2026-11-21T15:53:25.542Z",
       "tentativi": 0
     },
     "2026|Moto2 World Championship": {
@@ -10495,7 +10495,7 @@
           "punti": 40
         }
       ],
-      "letta": "2026-11-21T07:55:44.072Z",
+      "letta": "2026-11-21T15:53:25.542Z",
       "tentativi": 0
     },
     "2026|Moto3 World Championship": {
@@ -10698,7 +10698,7 @@
           "punti": 68
         }
       ],
-      "letta": "2026-11-21T07:55:44.072Z",
+      "letta": "2026-11-21T15:53:25.542Z",
       "tentativi": 0
     },
     "2026|Superbike World Championship": {
@@ -10855,7 +10855,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-21T07:55:44.072Z",
+      "letta": "2026-11-21T15:53:25.542Z",
       "tentativi": 0
     },
     "2026|Formula One World Championship": {
@@ -11043,7 +11043,7 @@
           "punti": 0
         }
       ],
-      "letta": "2026-11-21T07:55:44.072Z",
+      "letta": "2026-11-21T15:53:25.542Z",
       "tentativi": 0
     },
     "2026|FIA Formula 2 Championship": {
@@ -11165,7 +11165,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-21T07:55:44.072Z",
+      "letta": "2026-11-21T15:53:25.542Z",
       "tentativi": 0
     },
     "2026|FIA Formula 3 Championship": {
@@ -11347,7 +11347,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-21T07:55:44.072Z",
+      "letta": "2026-11-21T15:53:25.542Z",
       "tentativi": 0
     },
     "2026|Super Formula Championship": {
@@ -11355,17 +11355,17 @@
         {
           "pos": 1,
           "nome": "Kakunoshin Ohta",
-          "punti": 123
+          "punti": 138
         },
         {
           "pos": 2,
           "nome": "Ayumu Iwasa",
-          "punti": 92.5
+          "punti": 112.5
         },
         {
           "pos": 3,
           "nome": "Igor Omura Fraga",
-          "punti": 77
+          "punti": 79
         },
         {
           "pos": 4,
@@ -11380,36 +11380,36 @@
         {
           "pos": 6,
           "nome": "Tadasuke Makino",
-          "punti": 46
+          "punti": 54
         },
         {
           "pos": 7,
-          "nome": "Sho Tsuboi",
-          "punti": 43
+          "nome": "Toshiki Oyu",
+          "punti": 48
         },
         {
           "pos": 8,
-          "nome": "Toshiki Oyu",
-          "punti": 43
+          "nome": "Tomoki Nojiri",
+          "punti": 47.5
         },
         {
           "pos": 9,
           "nome": "Sacha Fenestraz",
-          "punti": 40.5
+          "punti": 43.5
         },
         {
           "pos": 10,
-          "nome": "Tomoki Nojiri",
-          "punti": 36.5
+          "nome": "Sho Tsuboi",
+          "punti": 43
         },
         {
           "pos": 11,
-          "nome": "Nobuharu Matsushita",
-          "punti": 27
+          "nome": "Sena Sakaguchi",
+          "punti": 28
         },
         {
           "pos": 12,
-          "nome": "Sena Sakaguchi",
+          "nome": "Nobuharu Matsushita",
           "punti": 27
         },
         {
@@ -11419,37 +11419,37 @@
         },
         {
           "pos": 14,
+          "nome": "Syun Koide",
+          "punti": 15
+        },
+        {
+          "pos": 15,
           "nome": "Ren Sato",
           "punti": 11.5
         },
         {
-          "pos": 15,
-          "nome": "Syun Koide",
+          "pos": 16,
+          "nome": "Kamui Kobayashi",
           "punti": 11
         },
         {
-          "pos": 16,
+          "pos": 17,
           "nome": "Charlie Wurz",
           "punti": 9
         },
         {
-          "pos": 17,
+          "pos": 18,
           "nome": "Rikuto Kobayashi",
           "punti": 6
         },
         {
-          "pos": 18,
+          "pos": 19,
           "nome": "Yuto Nomura",
           "punti": 6
         },
         {
           "pos": 19,
           "nome": "Kenta Yamashita",
-          "punti": 5
-        },
-        {
-          "pos": 20,
-          "nome": "Kamui Kobayashi",
           "punti": 5
         },
         {
@@ -11484,7 +11484,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-21T07:55:44.072Z",
+      "letta": "2026-11-21T15:53:25.542Z",
       "tentativi": 0
     },
     "2026|Supersport World Championship": {
@@ -11767,7 +11767,7 @@
           "punti": 5
         }
       ],
-      "letta": "2026-11-21T07:55:44.072Z",
+      "letta": "2026-11-21T15:53:25.542Z",
       "tentativi": 0
     },
     "2026|British Superbike Championship": {
@@ -11995,7 +11995,7 @@
           "punti": 0
         }
       ],
-      "letta": "2026-11-21T07:55:44.072Z",
+      "letta": "2026-11-21T15:53:25.542Z",
       "tentativi": 0
     }
   },
