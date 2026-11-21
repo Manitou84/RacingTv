@@ -1,6 +1,26 @@
 {
-  "aggiornato": "2026-11-20T18:56:25.271Z",
+  "aggiornato": "2026-11-21T00:37:30.792Z",
   "articoli": [
+    {
+      "id": "c43c026566bc",
+      "serie": "motogp",
+      "titolo": "Pol Espargaró sostituto in corsa: “È spaventoso, è stato come lanciarsi nel vuoto”",
+      "link": "https://www.gpone.com/it/2026/11/20/motogp/pol-espargaro-sostituto-in-corsa-e-spaventoso-e-stato-come-lanciarsi-nel-vuoto.html",
+      "fonte": "GPOne",
+      "data": "2026-11-20T19:39:31.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/pol-espargaro-venerdi-portimao.jpg?itok=0fd147Ge",
+      "sommario": "“Quando sai che dovrai correre ti prepari nei giorni precedenti, ma non ne ho avuto il tempo: l’ho saputo un’ora e mezza prima. È stata una situazione folle: non pensavo di correre, ero qui per DAZN”"
+    },
+    {
+      "id": "3b19d2759f22",
+      "serie": "motogp",
+      "titolo": "Martin: \"Marquez vede rischi ovunque? Lui può permettersi di essere rigido\"",
+      "link": "https://www.gpone.com/it/2026/11/20/motogp/martin-marquez-vede-rischi-ovunque-lui-puo-permettersi-di-essere-rigido.html",
+      "fonte": "GPOne",
+      "data": "2026-11-20T19:03:54.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/martin-action-portimao.jpg?itok=jILA6REz",
+      "sommario": "\"Io non mi sento pronto per vincere, mi mancano 4 decimi. Pago le conseguenze delle ultime settimane, ho male ovunque. L'incidente del 2021? Ogni volta che passo da quella curva ci ripenso\""
+    },
     {
       "id": "d37c6f553e8f",
       "serie": "motogp",
@@ -102,6 +122,16 @@
       "sommario": "L'accordo di massima sugli otto cilindri c'è e andranno definiti i dettagli. Sarà l'opportunità per McLaren di fare tutto in proprio e lasciare Mercedes?"
     },
     {
+      "id": "6b3c1347afc9",
+      "serie": "motogp",
+      "titolo": "Acosta come Stoner? \"Per ora gli somiglio solo perché sono un po' scontroso\"",
+      "link": "https://www.gpone.com/it/2026/11/20/motogp/acosta-ridicolo-che-alex-sia-gia-ad-un-decimo-dal-record-della-pista-al-venerdi.html",
+      "fonte": "GPOne",
+      "data": "2026-11-20T18:32:22.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/acosta-box-indonesia.jpg?itok=B3XyJxa_",
+      "sommario": "Pedro scherza sul paragone con Casey e guarda al futuro con Gabarrini: \"Ha lavorato con tante leggende, non potevo chiedere di meglio\". Intanto la KTM continua a dargli problemi"
+    },
+    {
       "id": "7db3410679c8",
       "serie": "motogp",
       "titolo": "Alex Marquez: “Il primo posto non rispecchia la realtà, Bezzecchi era più veloce”",
@@ -110,6 +140,16 @@
       "data": "2026-11-20T18:27:13.000Z",
       "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/alex-marquez-venerdi-portimao-brunetti.jpg?itok=J-Vs9U_o",
       "sommario": "“L’Aprilia ha qualcosa in più rispetto alla Ducati e domani anche Marc e Martin saranno più competitivi. Io riesco a essere veloce sul giro singolo, ma sono preoccupato per il GP. La pioggia? Chiederò a Tardozzi: se dice"
+    },
+    {
+      "id": "8846840400cb",
+      "serie": "motogp",
+      "titolo": "Marquez: “Sono umano: ho tutto da perdere. Oggi ero rigido e ho la testa iperattiva\"",
+      "link": "https://www.gpone.com/it/2026/11/20/motogp/marquez-ho-tutto-da-perdere-domani-dovro-fare-un-punto-domenica-14.html",
+      "fonte": "GPOne",
+      "data": "2026-11-20T18:24:37.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/marquez.jpeg?itok=gCAzHSab",
+      "sommario": "“Domani dovrò fare un punto su Bezzecchi, domenica 14 su Martin. La tensione è dettata dal fatto che devo controllare tutti i rischi che dipendono da me. Conto i giorni davanti a me”"
     },
     {
       "id": "5e2f3a9a12e9",
@@ -220,6 +260,46 @@
       "data": "2026-11-20T10:40:00.000Z",
       "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/live-fp1.jpg?itok=ElScxD5z",
       "sommario": "Alle 11:45 italiane scatta il primo turno di prove libere del GP del Portogallo. Marc Marquez ha il secondo match point della stagione, Martìn e Bezzecchi vogliono rimandare la sua festa a Valencia"
+    },
+    {
+      "id": "61a62803173b",
+      "serie": "motogp",
+      "titolo": "Christian Bale non ha dubbi: “Se potessi scegliere vorrei interpretare Rossi, Agostini e Marquez”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/20-9312434/christian_bale_non_ha_dubbi_se_potessi_scegliere_vorrei_interpretare_rossi_agostini_e_marquez",
+      "fonte": "Motosprint",
+      "data": "2026-11-20T10:00:00Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/20/145456172-47ee2928-26b0-4200-bb2b-eb10cc4d1d1c.jpg",
+      "sommario": "L’attore americano svela: “Sono dei del motociclismo. Sono stato un motociclista, ma ora ho troppo metallo in corpo”\n"
+    },
+    {
+      "id": "9bdc25d113d4",
+      "serie": "motogp",
+      "titolo": "GP Portimao, Marco Bezzecchi: \"Sono veloce ma alcune cose posso controllarle, altre no\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/20-9314119/gp_portimao_marco_bezzecchi_sono_veloce_ma_alcune_cose_posso_controllarle_altre_no",
+      "fonte": "Motosprint",
+      "data": "2026-11-20T10:00:00Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/20/174445193-95b4276c-378c-4b98-8170-34afa2b7ab27.jpg",
+      "sommario": "L'italiano è il riferimento sul passo gara a Portimao, ma deve ancora trovare il feeling ideale nella seconda metà del tracciato e sul giro secco"
+    },
+    {
+      "id": "3cb95c920a61",
+      "serie": "motogp",
+      "titolo": "Jorge Martín schietto: “Marc è rigido? Sono io quello con le spalle al muro”",
+      "link": "https://www.motosprint.it/news/eventi/gp-portimao/2026/11/20-9314122/jorge_martn_schietto_marc_rigido_sono_io_quello_con_le_spalle_al_muro",
+      "fonte": "Motosprint",
+      "data": "2026-11-20T10:00:00Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/20/184051875-f515487b-fe20-4d5b-b25d-b2f9b7a7c864.jpg",
+      "sommario": "Il madrileno di Aprilia entra nel Q2 per un soffio: \"Fisicamente non sono ancora al massimo, speravo meglio. Ma non è una scusa, cercherò di vincere domani\""
+    },
+    {
+      "id": "4da355ea20f1",
+      "serie": "motogp",
+      "titolo": "Marc Márquez calcolatore: “Oggi potevo perdere molto senza guadagnare nulla”",
+      "link": "https://www.motosprint.it/news/eventi/gp-portimao/2026/11/20-9314117/marc_mrquez_calcolatore_oggi_potevo_perdere_molto_senza_guadagnare_nulla",
+      "fonte": "Motosprint",
+      "data": "2026-11-20T10:00:00Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/20/180730896-f92b2825-39a1-4428-9f8b-6709d7cfd6e7.jpg",
+      "sommario": "Il ducatista sicuro: \"Mi sento rigido sulla moto perché so che posso solamente perdere, non voglio che finisca come lo scorso anno: ogni piccolo errore può trasformarsi in una grande caduta\""
     },
     {
       "id": "e805c1e0bb3e",
@@ -3920,86 +4000,6 @@
       "data": "2026-11-01T05:35:31.500Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/01/050633137-fcd215d8-5bf0-4a47-a5b0-738fde7fa6ab.jpg",
       "sommario": "Seguite con noi la gara domenicale sul circuito di Sepang: Alex Marquez scatta dalla pole position, ma gli occhi saranno puntato su Marc e Bezzecchi che andranno sicuramente all'attacco"
-    },
-    {
-      "id": "2ac4eac4b414",
-      "serie": "motogp",
-      "titolo": "Sepang: Marc Marquez fa mezzo Warm Up e rifila mezzo secondo ad Alex",
-      "link": "https://www.gpone.com/it/2026/11/01/motogp/sepang-marc-marquez-fa-mezzo-warm-up-e-rifila-mezzo-secondo-ad-alex.html",
-      "fonte": "GPOne",
-      "data": "2026-11-01T03:00:34.000Z",
-      "immagine": "",
-      "sommario": "Il campione della Ducati ha deciso di risparmiare le forze. Terzo tempo per Acosta davanti a Ogura, Bezzecchi è 6°. Scivolata per Morbidelli"
-    },
-    {
-      "id": "78670e2867d2",
-      "serie": "f1",
-      "titolo": "Ascari 1953, la penultima volta di un italiano iridato in un'era incredibile",
-      "link": "https://www.autosprint.it/news/formula1/2026/10/31-9247742/ascari_1953_la_penultima_volta_di_un_italiano_iridato_in_un_era_incredibile",
-      "fonte": "Autosprint",
-      "data": "2026-10-31T19:15:31.308Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/31/055550910-3cfb80a5-3671-4997-a0c8-ee9bc3267f8a.jpeg",
-      "sommario": "C'è una buona fetta di storia d'Italia nei 73 anni che separano il titolo di Kimi Antonelli da quello di Alberto Ascari, come un mondo e una F1 che oggi si fatica a credere"
-    },
-    {
-      "id": "be49ac6d9f6f",
-      "serie": "f1",
-      "titolo": "Nino Farina: la lotta con Fangio, il dominio Alfa e il primo Mondiale F1 della storia",
-      "link": "https://www.autosprint.it/news/formula1/2026/10/31-9251831/nino_farina_la_lotta_con_fangio_il_dominio_alfa_e_il_primo_mondiale_f1_della_storia",
-      "fonte": "Autosprint",
-      "data": "2026-10-31T19:15:31.308Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/10/30/231216145-bccd74c8-7a34-44d2-b791-3b8af270b071.jpg",
-      "sommario": "Torinese, classe 1906, Nino Farina è il primo Campione del Mondo di Formula 1 della storia: la cronaca del suo trionfo e la battaglia iridata con Fangio"
-    },
-    {
-      "id": "563525c4f938",
-      "serie": "f1",
-      "titolo": "F1 LIVE GP Messico: segui le qualifiche in diretta",
-      "link": "https://www.autosprint.it/news/formula1/f1-qualifiche/2026/10/31-9254297/gp_messico_segui_le_qualifiche_in_diretta",
-      "fonte": "Autosprint",
-      "data": "2026-10-31T19:15:31.308Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/31/184045061-b2e60d28-6808-4a0a-b26d-e50f3f79dfd6.jpg",
-      "sommario": "Arriva il momento delle qualifiche. Q1, Q2 e Q3 da disputare a partire dalle 22:00 per determinare la griglia di partenza di domani"
-    },
-    {
-      "id": "ac1ad61c6fd4",
-      "serie": "f1",
-      "titolo": "F1 LIVE GP Messico: segui le prove libere 3 in diretta",
-      "link": "https://www.autosprint.it/news/formula1/f1-prove/2026/10/31-9254101/gp_messico_segui_le_prove_libere_3_in_diretta",
-      "fonte": "Autosprint",
-      "data": "2026-10-31T17:00:55.866Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/31/165014233-538e8644-f01a-471d-b90f-6eb09039cd0b.jpg",
-      "sommario": "Ultima sessione di prove libere a Città del Messico. Per team e piloti la sessione prima delle qualifiche rappresenta un momento decisivo per ultimare la preparazione"
-    },
-    {
-      "id": "791d591ba17c",
-      "serie": "motogp",
-      "titolo": "LIVE MotoGP Sepang - La diretta del Gran Premio della Malesia",
-      "link": "https://www.gpone.com/it/2026/10/31/motogp/titolo-live-motogp-sepang-la-diretta-del-gran-premio-della-malesia.html",
-      "fonte": "GPOne",
-      "data": "2026-10-31T16:43:32.000Z",
-      "immagine": "",
-      "sommario": "Acosta vince una Sprint spettacolare davanti a Márquez e Bezzecchi. Marc allunga a 19 punti su Martín, assente per infortunio, e può avvicinarsi ulteriormente al titolo mondiale"
-    },
-    {
-      "id": "a299b60cdee6",
-      "serie": "motogp",
-      "titolo": "Miller spiega la scenata nella Sprint: \"Pensavo di poter vincere, valeva la pena provare\"",
-      "link": "https://www.motosprint.it/news/eventi/gp-malesia/2026/10/31-9253525/miller_spiega_la_scenata_nella_sprint_pensavo_di_poter_vincere_valeva_la_pena_provare",
-      "fonte": "Motosprint",
-      "data": "2026-10-31T14:59:28.289Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/10/31/142307335-8f059571-8f03-4de9-8b2c-afa197e0a60d.jpg",
-      "sommario": "Il pilota ha inveito contro il box Pramac che non gli aveva preparato la moto da bagnato: \"Ne avevo parlato prima della gara: in quel momento sei ancora in gara, mi scuso per la reazione\""
-    },
-    {
-      "id": "41e28a8e0bb1",
-      "serie": "motogp",
-      "titolo": "Qatar: Dorna usa il pugno duro contro i piloti. Ma dov'è il piano di evacuazione?",
-      "link": "https://www.gpone.com/it/2026/10/31/motogp/qatar-dorna-usa-il-pugno-duro-contro-i-piloti-ma-dove-il-piano-di-evacuazione.html",
-      "fonte": "GPOne",
-      "data": "2026-10-31T14:39:32.000Z",
-      "immagine": "",
-      "sommario": "La maggioranza dei piloti non vuole correre a Doha, ma l'organizzatore tira dritto e minaccia pesanti sanzioni per chi non si presenterà. Carlos Ezpeleta parla di garanzie e di un piano di evacuazione generale, del quale"
     }
   ]
 }
