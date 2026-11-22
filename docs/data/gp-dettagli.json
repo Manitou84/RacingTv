@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-22T16:50:36.763Z",
+  "aggiornato": "2026-11-22T22:16:48.642Z",
   "_fonte": "Wikipedia (inglese), pagine dei singoli GP",
   "motogp": {
     "2025": {
@@ -948,6 +948,27 @@
         "futuro": false,
         "letto": "2026-11-17T23:40:27.668Z"
       },
+      "2026_Portuguese_motorcycle_Grand_Prix": {
+        "data": "2026-11-22",
+        "circuito": "portimao",
+        "luogo": "Algarve International Circuit Portimão, Algarve, Portugal",
+        "pole": {
+          "chi": "Marco Bezzecchi",
+          "tempo": "1:37.201"
+        },
+        "giroVeloce": {
+          "chi": "Marco Bezzecchi",
+          "tempo": "1:39.121"
+        },
+        "podio": [
+          "Marco Bezzecchi",
+          "Jorge Martín",
+          "Raúl Fernández"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-11-22T22:16:48.642Z"
+      },
       "2026_Thailand_motorcycle_Grand_Prix": {
         "data": "2026-03-01",
         "circuito": "buriram",
@@ -1023,27 +1044,6 @@
         "futuro": false,
         "letto": "2026-10-31T06:22:30.792Z"
       },
-      "2026_Portuguese_motorcycle_Grand_Prix": {
-        "data": "2026-11-22",
-        "circuito": "portimao",
-        "luogo": "Algarve International Circuit Portimão, Algarve, Portugal",
-        "pole": {
-          "chi": "Marco Bezzecchi",
-          "tempo": "1:37.201"
-        },
-        "giroVeloce": {
-          "chi": "Marco Bezzecchi",
-          "tempo": "1:39.121"
-        },
-        "podio": [
-          "Marco Bezzecchi",
-          "Jorge Martín",
-          "Raúl Fernández"
-        ],
-        "sprint": [],
-        "futuro": false,
-        "letto": "2026-11-22T16:50:36.763Z"
-      },
       "2026_Valencian_motorcycle_Grand_Prix": {
         "data": null,
         "circuito": null,
@@ -1052,7 +1052,7 @@
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-11-21T21:24:43.451Z"
+        "letto": "2026-11-22T22:16:48.642Z"
       }
     }
   },
@@ -1697,27 +1697,6 @@
         "futuro": false,
         "letto": "2026-10-31T06:49:31.286Z"
       },
-      "2026_Las_Vegas_Grand_Prix": {
-        "data": null,
-        "circuito": "las-vegas",
-        "luogo": "Las Vegas Strip Circuit Las Vegas, USA",
-        "pole": {
-          "chi": "Max Verstappen",
-          "tempo": "1:34.151"
-        },
-        "giroVeloce": {
-          "chi": "Liam Lawson",
-          "tempo": "1:35.591"
-        },
-        "podio": [
-          "Max Verstappen",
-          "Lando Norris",
-          "Oscar Piastri"
-        ],
-        "sprint": [],
-        "futuro": false,
-        "letto": "2026-11-22T08:37:18.049Z"
-      },
       "2026_Dutch_Grand_Prix": {
         "data": "2026-08-23",
         "circuito": "zandvoort",
@@ -2052,6 +2031,27 @@
         "sprint": [],
         "futuro": false,
         "letto": "2026-10-31T07:02:27.524Z"
+      },
+      "2026_Las_Vegas_Grand_Prix": {
+        "data": null,
+        "circuito": "las-vegas",
+        "luogo": "Las Vegas Strip Circuit Las Vegas, USA",
+        "pole": {
+          "chi": "Max Verstappen",
+          "tempo": "1:34.151"
+        },
+        "giroVeloce": {
+          "chi": "Liam Lawson",
+          "tempo": "1:35.591"
+        },
+        "podio": [
+          "Max Verstappen",
+          "Lando Norris",
+          "Oscar Piastri"
+        ],
+        "sprint": [],
+        "futuro": false,
+        "letto": "2026-11-22T08:37:18.049Z"
       },
       "2026_Qatar_Grand_Prix": {
         "data": null,

@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-22T16:50:36.763Z",
+  "aggiornato": "2026-11-22T22:16:48.642Z",
   "fonte": "Wikipedia",
   "piloti": {
     "martin": [
@@ -42,7 +42,7 @@
         "anno": 2026,
         "campionato": "MotoGP",
         "pos": 2,
-        "punti": 376,
+        "punti": 396,
         "inCorso": true
       }
     ],
@@ -86,7 +86,7 @@
         "anno": 2026,
         "campionato": "MotoGP",
         "pos": 1,
-        "punti": 431,
+        "punti": 439,
         "inCorso": true
       }
     ],
@@ -130,7 +130,7 @@
         "anno": 2026,
         "campionato": "MotoGP",
         "pos": 3,
-        "punti": 369,
+        "punti": 394,
         "inCorso": true
       }
     ],
@@ -174,7 +174,7 @@
         "anno": 2026,
         "campionato": "MotoGP",
         "pos": 5,
-        "punti": 298,
+        "punti": 309,
         "inCorso": true
       }
     ],
@@ -262,7 +262,7 @@
         "anno": 2026,
         "campionato": "MotoGP",
         "pos": 6,
-        "punti": 285,
+        "punti": 298,
         "inCorso": true
       }
     ],
@@ -306,7 +306,7 @@
         "anno": 2026,
         "campionato": "MotoGP",
         "pos": 7,
-        "punti": 267,
+        "punti": 283,
         "inCorso": true
       }
     ],
@@ -438,7 +438,7 @@
         "anno": 2026,
         "campionato": "MotoGP",
         "pos": 11,
-        "punti": 129,
+        "punti": 139,
         "inCorso": true
       }
     ],
@@ -482,7 +482,7 @@
         "anno": 2026,
         "campionato": "MotoGP",
         "pos": 10,
-        "punti": 147,
+        "punti": 152,
         "inCorso": true
       }
     ],
@@ -526,7 +526,7 @@
         "anno": 2026,
         "campionato": "MotoGP",
         "pos": 13,
-        "punti": 117,
+        "punti": 124,
         "inCorso": true
       }
     ],
@@ -570,7 +570,7 @@
         "anno": 2026,
         "campionato": "MotoGP",
         "pos": 12,
-        "punti": 118,
+        "punti": 127,
         "inCorso": true
       }
     ],
@@ -651,7 +651,7 @@
         "anno": 2026,
         "campionato": "MotoGP",
         "pos": 14,
-        "punti": 81,
+        "punti": 85,
         "inCorso": true
       }
     ],
@@ -695,7 +695,7 @@
         "anno": 2026,
         "campionato": "MotoGP",
         "pos": 16,
-        "punti": 70,
+        "punti": 71,
         "inCorso": true
       }
     ],
@@ -782,7 +782,7 @@
       {
         "anno": 2026,
         "campionato": "MotoGP",
-        "pos": 18,
+        "pos": 19,
         "punti": 33,
         "inCorso": true
       }
@@ -826,8 +826,8 @@
       {
         "anno": 2026,
         "campionato": "MotoGP",
-        "pos": 19,
-        "punti": 31,
+        "pos": 18,
+        "punti": 34,
         "inCorso": true
       }
     ],
@@ -871,7 +871,7 @@
         "anno": 2026,
         "campionato": "MotoGP",
         "pos": 20,
-        "punti": 29,
+        "punti": 31,
         "inCorso": true
       }
     ],

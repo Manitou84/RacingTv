@@ -1,6 +1,66 @@
 {
-  "aggiornato": "2026-11-22T16:50:36.763Z",
+  "aggiornato": "2026-11-22T22:16:48.642Z",
   "articoli": [
+    {
+      "id": "01a93cd19a27",
+      "serie": "motogp",
+      "titolo": "GP Portimao, Jorge Martin: \"Mi è mancato un anno, sarei arrivato molto più preparato. Marquez? Il migliore\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/22-9320343/gp_portimao_jorge_martin_mi_mancato_un_anno_sarei_arrivato_molto_pi_preparato_marquez_il_migliore",
+      "fonte": "Motosprint",
+      "data": "2026-11-22T22:16:48.642Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/22/155739059-59a54390-7934-4c89-be16-3962922ecd51.jpg",
+      "sommario": "Secondo alle spalle di Bezzecchi nel giorno del titolo iridato di Marquez, il pilota Aprilia ha lottato fino alla fine per tenere aperto il mondiale"
+    },
+    {
+      "id": "bb2a6d5a6acb",
+      "serie": "motogp",
+      "titolo": "Martin sfida Marquez: \"È il migliore dell'era MotoGP, ma il mio nome tornerà su quel trofeo\"",
+      "link": "https://www.gpone.com/it/2026/11/22/motogp/martin-sfida-marquez-e-il-migliore-dellera-motogp-ma-il-mio-nome-tornera-su-quel-trofeo.html",
+      "fonte": "GPOne",
+      "data": "2026-11-22T17:18:47.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/martin-marquez-portimao0001.jpg?itok=1kbOZkXZ",
+      "sommario": "Jorge rende omaggio al nuovo campione del mondo, ma promette di tornare sul trono: \"Ne sono sicuro al 100%, diventerà la mia ossessione\". Dopo aver sfiorato il titolo con Aprilia, lo spagnolo guarda alla nuova avventura "
+    },
+    {
+      "id": "835cc1eafecd",
+      "serie": "motogp",
+      "titolo": "Gigi Dall'Igna: \"Ho perso dei Mondiali per colpa di Marquez, vincerne uno grazie a lui non è rubare nulla\"",
+      "link": "https://www.gpone.com/it/2026/11/22/motogp/dalligna-ho-perso-dei-mondiali-per-colpa-di-marquez-vincerne-uno-grazie-a-lui-non-e-rubare-nulla.html",
+      "fonte": "GPOne",
+      "data": "2026-11-22T17:00:00.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/marquez-dalligna-portimao0001.jpeg?itok=2_byGMcU",
+      "sommario": "Il direttore generale di Ducati Corse celebra il decimo titolo dello spagnolo e rivendica una scelta che aveva suscitato molte critiche: \"Non è stata una lotteria, abbiamo deciso noi di prenderlo\""
+    },
+    {
+      "id": "43433edc1dfb",
+      "serie": "motogp",
+      "titolo": "Domenicali: \"Come Marquez ce ne sono pochi, fa la differenza anche come uomo\"",
+      "link": "https://www.gpone.com/it/2026/11/22/motogp/domenicali-come-marquez-ce-ne-sono-pochi-fa-la-differenza-anche-come-uomo.html",
+      "fonte": "GPOne",
+      "data": "2026-11-22T16:59:17.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/marquez-domenicali-titolo.jpeg?itok=c5vAPOyn",
+      "sommario": "Parla l'ad di Ducati: \"È stato il primo a non mollare e a dare a tutti la motivazione per questa rincorsa incredibile. Questa vittoria è un motivo di orgoglio per noi e per l'Italia\""
+    },
+    {
+      "id": "2dac5373edd2",
+      "serie": "motogp",
+      "titolo": "Raul Fernandez: \"Tutti vogliamo la vittoria, ma oggi non ho rotto le scatole a Martin\"",
+      "link": "https://www.gpone.com/it/2026/11/22/motogp/fernandez-tutti-vogliamo-la-vittoria-ma-oggi-non-ho-rotto-le-scatole-a-martin.html",
+      "fonte": "GPOne",
+      "data": "2026-11-22T16:53:20.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/aprilia-fernandez-portimao.jpg?itok=3WABS3KT",
+      "sommario": "\"L'ho rispettato, eravamo già al limite. Tre Aprilia sul podio, e sono il pilota indipendente con più podi, penso che in questa stagione abbiamo fatto un buon lavoro\""
+    },
+    {
+      "id": "818dbf907434",
+      "serie": "motogp",
+      "titolo": "LIVE Bar Sport alle 19:00 - Marquez, il più grande di sempre?",
+      "link": "https://www.gpone.com/it/2026/11/22/motogp/live-bar-sport-alle-19-00-marquez-il-piu-grande-di-sempre.html",
+      "fonte": "GPOne",
+      "data": "2026-11-22T16:51:25.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/bar-sport-2.jpg?itok=fs3ol8WP",
+      "sommario": "Marc Márquez conquista il decimo titolo mondiale ed entra definitivamente nella leggenda. È davvero il più grande di tutti i tempi? Ne parliamo questa sera alle 19:00 con Carlo Pernat in studio, tra il trionfo di Portimã"
+    },
     {
       "id": "6c882eda7e4a",
       "serie": "motogp",
@@ -3940,66 +4000,6 @@
       "data": "2026-11-04T09:23:11.000Z",
       "immagine": "",
       "sommario": "Il team Gresini ha confermato la presenza di Fermin accanto a Lecuona, che sostituirà Alex Marquez. Raul sarà a Losail dopo essere stato dichiarato 'unfit' in Australia e in Malesia"
-    },
-    {
-      "id": "617e383a993b",
-      "serie": "motogp",
-      "titolo": "Gli USA bombardano l’Iran che minaccia attacchi sugli Hotel in Qatar",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/04-9265498/gli_usa_bombardano_liran_che_minaccia_attacchi_sugli_hotel_in_qatar",
-      "fonte": "Motosprint",
-      "data": "2026-11-04T08:09:37.338Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/03/202223004-89e6f10f-1ed5-4fad-862c-f51d659253f2.jpg",
-      "sommario": "Secondo quanto riportato dal Wall Street Journal, l’esercito statunitense nelle scorse ore bombardato l'isola iraniana di Qeshm, il GP nel frattempo è sempre più vicino"
-    },
-    {
-      "id": "c68f249012f6",
-      "serie": "f1",
-      "titolo": "Niente Ocon né Hirakawa: negli ultimi GP per Haas ci sarà Câmara",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/03-9265499/niente_ocon_n_hirakawa_negli_ultimi_gp_per_haas_ci_sar_cmara",
-      "fonte": "Autosprint",
-      "data": "2026-11-03T22:29:41.380Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/03/215020440-16c48780-03e0-4b50-99fb-3ef259b49c08.jpg",
-      "sommario": "Il team statunitense ha deciso chi sarà il compagno di squadra di Ollie Bearman negli ultimi gran premi della stagione 2026"
-    },
-    {
-      "id": "63add5075352",
-      "serie": "motogp",
-      "titolo": "Ancora problemi per Joan Mir: Jake Dixon è pronto a sostituirlo in Qatar",
-      "link": "https://www.gpone.com/it/2026/11/03/motogp/ancora-problemi-per-joan-mir-jake-dixon-e-pronto-per-sostituirlo-in-qatar.html",
-      "fonte": "GPOne",
-      "data": "2026-11-03T18:49:58.000Z",
-      "immagine": "",
-      "sommario": "In caso di forfait del maiorchino per problemi di salute, Honda sarebbe pronta ad affidare la sua RC213V al britannico in occasione della gara a Lusail"
-    },
-    {
-      "id": "6360402183ad",
-      "serie": "f1",
-      "titolo": "Da erede di Hamilton a secondo di Antonelli, l'amaro calice toccato a Russell",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/03-9264388/da_erede_di_hamilton_a_secondo_di_antonelli_l_amaro_calice_toccato_a_russell",
-      "fonte": "Autosprint",
-      "data": "2026-11-03T17:40:36.889Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/03/170918825-db294a9d-3695-43b9-bb36-db53652134e1.jpg",
-      "sommario": "Ferito nell'orgoglio per il trionfo iridato di Kimi, George si è fatto prendere dall'emotività consapevole di essere ad un bivio in termini di carriera"
-    },
-    {
-      "id": "7a6f48fe18ad",
-      "serie": "f1",
-      "titolo": "Antonelli: il significato di Suzuka nella corsa al titolo",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/03-9263814/antonelli_il_significato_di_suzuka_nella_corsa_al_titolo",
-      "fonte": "Autosprint",
-      "data": "2026-11-03T15:37:07.257Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/03/144402498-01d52e9d-2482-4286-9a12-a1a8997b0fac.jpg",
-      "sommario": "Il rendimento su altissimi livelli, insieme a un avvio di stagione monumentale, formano le fondamenta sulle quali Kimi ha costruito la vittoria"
-    },
-    {
-      "id": "8997059bb012",
-      "serie": "motogp",
-      "titolo": "Tardozzi: “Marc Marquez non è solo il suo talento, ha la testa migliore di tutti”",
-      "link": "https://www.gpone.com/it/2026/11/03/motogp/tardozzi-marc-marquez-non-e-solo-il-suo-talento-ha-la-testa-migliore-di-tutti.html",
-      "fonte": "GPOne",
-      "data": "2026-11-03T14:57:19.000Z",
-      "immagine": "",
-      "sommario": "Il Team Manager elogia la rimonta del catalano: “Era inimmaginabile dopo il Mugello, ma quello che è successo lì è stato il carburante di cui avevamo bisogno. Il Qatar? Ci fidiamo degli organizzatori”"
     }
   ]
 }

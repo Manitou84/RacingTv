@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-22T16:50:36.763Z",
+  "aggiornato": "2026-11-22T22:16:48.642Z",
   "_fonte": "Wikipedia (inglese)",
   "stagioni": {
     "2021|MotoGP World Championship": {
@@ -10042,17 +10042,17 @@
         {
           "pos": 1,
           "nome": "Marc Márquez",
-          "punti": 431
+          "punti": 439
         },
         {
           "pos": 2,
           "nome": "Jorge Martín",
-          "punti": 376
+          "punti": 396
         },
         {
           "pos": 3,
           "nome": "Marco Bezzecchi",
-          "punti": 369
+          "punti": 394
         },
         {
           "pos": 4,
@@ -10062,17 +10062,17 @@
         {
           "pos": 5,
           "nome": "Ai Ogura",
-          "punti": 298
+          "punti": 309
         },
         {
           "pos": 6,
           "nome": "Fabio Di Giannantonio",
-          "punti": 285
+          "punti": 298
         },
         {
           "pos": 7,
           "nome": "Raúl Fernández",
-          "punti": 267
+          "punti": 283
         },
         {
           "pos": 8,
@@ -10087,27 +10087,27 @@
         {
           "pos": 10,
           "nome": "Enea Bastianini",
-          "punti": 147
+          "punti": 152
         },
         {
           "pos": 11,
           "nome": "Fermín Aldeguer",
-          "punti": 129
+          "punti": 139
         },
         {
           "pos": 12,
           "nome": "Brad Binder",
-          "punti": 118
+          "punti": 127
         },
         {
           "pos": 13,
           "nome": "Luca Marini",
-          "punti": 117
+          "punti": 124
         },
         {
           "pos": 14,
           "nome": "Fabio Quartararo",
-          "punti": 81
+          "punti": 85
         },
         {
           "pos": 15,
@@ -10117,7 +10117,7 @@
         {
           "pos": 16,
           "nome": "Franco Morbidelli",
-          "punti": 70
+          "punti": 71
         },
         {
           "pos": 17,
@@ -10126,23 +10126,23 @@
         },
         {
           "pos": 18,
+          "nome": "Jack Miller",
+          "punti": 34
+        },
+        {
+          "pos": 19,
           "nome": "Joan Mir",
           "punti": 33
         },
         {
-          "pos": 19,
-          "nome": "Jack Miller",
-          "punti": 31
-        },
-        {
           "pos": 20,
           "nome": "Álex Rins",
-          "punti": 29
+          "punti": 31
         },
         {
           "pos": 21,
           "nome": "Iker Lecuona",
-          "punti": 19
+          "punti": 25
         },
         {
           "pos": 22,
@@ -10209,42 +10209,42 @@
         {
           "pos": 1,
           "nome": "Aprilia Racing",
-          "punti": 728
+          "punti": 790
         },
         {
           "pos": 2,
           "nome": "Ducati Lenovo Team",
-          "punti": 604
+          "punti": 619
         },
         {
           "pos": 3,
           "nome": "SuperFile Trackhouse MotoGP Team",
-          "punti": 552
+          "punti": 592
         },
         {
           "pos": 4,
           "nome": "Red Bull KTM Factory Racing",
-          "punti": 427
+          "punti": 442
         },
         {
           "pos": 5,
           "nome": "Pertamina Enduro VR46 Racing Team",
-          "punti": 352
+          "punti": 369
         },
         {
           "pos": 6,
           "nome": "BK8 Gresini Racing MotoGP",
-          "punti": 344
+          "punti": 361
         },
         {
           "pos": 7,
           "nome": "Red Bull KTM Tech3",
-          "punti": 169
+          "punti": 174
         },
         {
           "pos": 8,
           "nome": "Honda HRC Castrol",
-          "punti": 158
+          "punti": 165
         },
         {
           "pos": 9,
@@ -10254,15 +10254,15 @@
         {
           "pos": 10,
           "nome": "Monster Energy Yamaha MotoGP Team",
-          "punti": 108
+          "punti": 116
         },
         {
           "pos": 11,
           "nome": "Prima Pramac Yamaha MotoGP",
-          "punti": 49
+          "punti": 52
         }
       ],
-      "letta": "2026-11-22T16:50:36.763Z",
+      "letta": "2026-11-22T22:16:48.642Z",
       "tentativi": 0
     },
     "2026|Moto2 World Championship": {
@@ -10275,27 +10275,27 @@
         {
           "pos": 2,
           "nome": "Izan Guevara",
-          "punti": 273
+          "punti": 282
         },
         {
           "pos": 3,
           "nome": "Iván Ortolá",
-          "punti": 219.5
+          "punti": 230.5
         },
         {
           "pos": 4,
           "nome": "Daniel Holgado",
-          "punti": 215
+          "punti": 225
         },
         {
           "pos": 5,
           "nome": "David Alonso",
-          "punti": 204
+          "punti": 217
         },
         {
           "pos": 6,
           "nome": "Senna Agius",
-          "punti": 175
+          "punti": 191
         },
         {
           "pos": 7,
@@ -10304,28 +10304,28 @@
         },
         {
           "pos": 8,
+          "nome": "Alonso López",
+          "punti": 154.5
+        },
+        {
+          "pos": 9,
           "nome": "Celestino Vietti",
           "punti": 146
         },
         {
-          "pos": 9,
-          "nome": "Alonso López",
-          "punti": 134.5
-        },
-        {
           "pos": 10,
           "nome": "Daniel Muñoz",
-          "punti": 97
+          "punti": 122
         },
         {
           "pos": 11,
           "nome": "Collin Veijer",
-          "punti": 89.5
+          "punti": 96.5
         },
         {
           "pos": 12,
           "nome": "Álex Escrig",
-          "punti": 85
+          "punti": 90
         },
         {
           "pos": 13,
@@ -10334,13 +10334,13 @@
         },
         {
           "pos": 14,
-          "nome": "Barry Baltus",
-          "punti": 61
+          "nome": "Adrián Huertas",
+          "punti": 64
         },
         {
           "pos": 15,
-          "nome": "Adrián Huertas",
-          "punti": 56
+          "nome": "Barry Baltus",
+          "punti": 61
         },
         {
           "pos": 16,
@@ -10370,27 +10370,27 @@
         {
           "pos": 21,
           "nome": "Ángel Piqueras",
-          "punti": 20
+          "punti": 24
         },
         {
           "pos": 22,
           "nome": "Alberto Ferrández",
-          "punti": 17.5
+          "punti": 20.5
         },
         {
           "pos": 23,
-          "nome": "Arón Canet",
-          "punti": 17.5
+          "nome": "Zonta van den Goorbergh",
+          "punti": 20
         },
         {
           "pos": 24,
-          "nome": "Taiyo Furusato",
-          "punti": 17
+          "nome": "Arón Canet",
+          "punti": 19.5
         },
         {
           "pos": 25,
-          "nome": "Zonta van den Goorbergh",
-          "punti": 14
+          "nome": "Taiyo Furusato",
+          "punti": 17
         },
         {
           "pos": 26,
@@ -10404,12 +10404,12 @@
         },
         {
           "pos": 28,
-          "nome": "Marcos Ramírez",
-          "punti": 0
+          "nome": "Xabi Zurutuza",
+          "punti": 1
         },
         {
           "pos": 29,
-          "nome": "Xabi Zurutuza",
+          "nome": "Marcos Ramírez",
           "punti": 0
         },
         {
@@ -10429,12 +10429,12 @@
         },
         {
           "pos": 33,
-          "nome": "Jacob Roulstone",
+          "nome": "Matteo Ferrari",
           "punti": 0
         },
         {
           "pos": 34,
-          "nome": "Matteo Ferrari",
+          "nome": "Jacob Roulstone",
           "punti": 0
         },
         {
@@ -10495,7 +10495,7 @@
           "punti": 40
         }
       ],
-      "letta": "2026-11-22T16:50:36.763Z",
+      "letta": "2026-11-22T22:16:48.642Z",
       "tentativi": 0
     },
     "2026|Moto3 World Championship": {
@@ -10703,7 +10703,7 @@
           "punti": 68
         }
       ],
-      "letta": "2026-11-22T16:50:36.763Z",
+      "letta": "2026-11-22T22:16:48.642Z",
       "tentativi": 0
     },
     "2026|Superbike World Championship": {
@@ -10860,7 +10860,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-22T16:50:36.763Z",
+      "letta": "2026-11-22T22:16:48.642Z",
       "tentativi": 0
     },
     "2026|Formula One World Championship": {
@@ -11048,7 +11048,7 @@
           "punti": 0
         }
       ],
-      "letta": "2026-11-22T16:50:36.763Z",
+      "letta": "2026-11-22T22:16:48.642Z",
       "tentativi": 0
     },
     "2026|FIA Formula 2 Championship": {
@@ -11170,7 +11170,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-22T16:50:36.763Z",
+      "letta": "2026-11-22T22:16:48.642Z",
       "tentativi": 0
     },
     "2026|FIA Formula 3 Championship": {
@@ -11352,7 +11352,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-22T16:50:36.763Z",
+      "letta": "2026-11-22T22:16:48.642Z",
       "tentativi": 0
     },
     "2026|Super Formula Championship": {
@@ -11489,7 +11489,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-22T16:50:36.763Z",
+      "letta": "2026-11-22T22:16:48.642Z",
       "tentativi": 0
     },
     "2026|Supersport World Championship": {
@@ -11772,7 +11772,7 @@
           "punti": 5
         }
       ],
-      "letta": "2026-11-22T16:50:36.763Z",
+      "letta": "2026-11-22T22:16:48.642Z",
       "tentativi": 0
     },
     "2026|British Superbike Championship": {
@@ -12000,7 +12000,7 @@
           "punti": 0
         }
       ],
-      "letta": "2026-11-22T16:50:36.763Z",
+      "letta": "2026-11-22T22:16:48.642Z",
       "tentativi": 0
     }
   },
