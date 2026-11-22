@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-22T01:28:27.546Z",
+  "aggiornato": "2026-11-22T08:37:18.049Z",
   "fonte": "Wikipedia",
   "piloti": {
     "martin": [
@@ -1002,8 +1002,8 @@
       {
         "anno": 2026,
         "campionato": "Formula 1",
-        "pos": 6,
-        "punti": 246,
+        "pos": 5,
+        "punti": 264,
         "inCorso": true
       }
     ],
@@ -1040,7 +1040,7 @@
         "anno": 2026,
         "campionato": "Formula 1",
         "pos": 7,
-        "punti": 152,
+        "punti": 167,
         "inCorso": true
       }
     ],
@@ -1083,8 +1083,8 @@
       {
         "anno": 2026,
         "campionato": "Formula 1",
-        "pos": 5,
-        "punti": 249,
+        "pos": 6,
+        "punti": 250,
         "inCorso": true
       }
     ],
@@ -1127,8 +1127,8 @@
       {
         "anno": 2026,
         "campionato": "Formula 1",
-        "pos": 4,
-        "punti": 261,
+        "pos": 3,
+        "punti": 267,
         "inCorso": true
       }
     ],
@@ -1171,8 +1171,8 @@
       {
         "anno": 2026,
         "campionato": "Formula 1",
-        "pos": 3,
-        "punti": 262,
+        "pos": 4,
+        "punti": 264,
         "inCorso": true
       }
     ],
@@ -1195,7 +1195,7 @@
         "anno": 2026,
         "campionato": "Formula 1",
         "pos": 1,
-        "punti": 390,
+        "punti": 402,
         "inCorso": true
       }
     ],
@@ -1239,7 +1239,7 @@
         "anno": 2026,
         "campionato": "Formula 1",
         "pos": 2,
-        "punti": 279,
+        "punti": 304,
         "inCorso": true
       }
     ],
@@ -1386,7 +1386,7 @@
       {
         "anno": 2026,
         "campionato": "Formula 1",
-        "pos": 17,
+        "pos": 18,
         "punti": 7,
         "inCorso": true
       }
@@ -1511,8 +1511,8 @@
       {
         "anno": 2026,
         "campionato": "Formula 1",
-        "pos": 18,
-        "punti": 7,
+        "pos": 16,
+        "punti": 11,
         "inCorso": true
       }
     ],
@@ -1623,7 +1623,7 @@
         "anno": 2026,
         "campionato": "Formula 1",
         "pos": 10,
-        "punti": 42,
+        "punti": 52,
         "inCorso": true
       }
     ],
@@ -1660,7 +1660,7 @@
         "anno": 2026,
         "campionato": "Formula 1",
         "pos": 12,
-        "punti": 27,
+        "punti": 35,
         "inCorso": true
       }
     ],
@@ -1703,7 +1703,7 @@
       {
         "anno": 2026,
         "campionato": "Formula 1",
-        "pos": 16,
+        "pos": 17,
         "punti": 7,
         "inCorso": true
       }

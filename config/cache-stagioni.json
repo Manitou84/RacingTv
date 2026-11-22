@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-22T01:28:27.546Z",
+  "aggiornato": "2026-11-22T08:37:18.049Z",
   "_fonte": "Wikipedia (inglese)",
   "stagioni": {
     "2021|MotoGP World Championship": {
@@ -10262,7 +10262,7 @@
           "punti": 49
         }
       ],
-      "letta": "2026-11-22T01:28:27.546Z",
+      "letta": "2026-11-22T08:37:18.049Z",
       "tentativi": 0
     },
     "2026|Moto2 World Championship": {
@@ -10495,7 +10495,7 @@
           "punti": 40
         }
       ],
-      "letta": "2026-11-22T01:28:27.546Z",
+      "letta": "2026-11-22T08:37:18.049Z",
       "tentativi": 0
     },
     "2026|Moto3 World Championship": {
@@ -10698,7 +10698,7 @@
           "punti": 68
         }
       ],
-      "letta": "2026-11-22T01:28:27.546Z",
+      "letta": "2026-11-22T08:37:18.049Z",
       "tentativi": 0
     },
     "2026|Superbike World Championship": {
@@ -10855,7 +10855,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-22T01:28:27.546Z",
+      "letta": "2026-11-22T08:37:18.049Z",
       "tentativi": 0
     },
     "2026|Formula One World Championship": {
@@ -10863,37 +10863,37 @@
         {
           "pos": 1,
           "nome": "Kimi Antonelli",
-          "punti": 390
+          "punti": 402
         },
         {
           "pos": 2,
           "nome": "Max Verstappen",
-          "punti": 279
+          "punti": 304
         },
         {
           "pos": 3,
-          "nome": "George Russell",
-          "punti": 262
+          "nome": "Lewis Hamilton",
+          "punti": 267
         },
         {
           "pos": 4,
-          "nome": "Lewis Hamilton",
-          "punti": 261
+          "nome": "George Russell",
+          "punti": 264
         },
         {
           "pos": 5,
-          "nome": "Charles Leclerc",
-          "punti": 249
+          "nome": "Lando Norris",
+          "punti": 264
         },
         {
           "pos": 6,
-          "nome": "Lando Norris",
-          "punti": 246
+          "nome": "Charles Leclerc",
+          "punti": 250
         },
         {
           "pos": 7,
           "nome": "Oscar Piastri",
-          "punti": 152
+          "punti": 167
         },
         {
           "pos": 8,
@@ -10908,7 +10908,7 @@
         {
           "pos": 10,
           "nome": "Pierre Gasly",
-          "punti": 42
+          "punti": 52
         },
         {
           "pos": 11,
@@ -10918,7 +10918,7 @@
         {
           "pos": 12,
           "nome": "Franco Colapinto",
-          "punti": 27
+          "punti": 35
         },
         {
           "pos": 13,
@@ -10937,17 +10937,17 @@
         },
         {
           "pos": 16,
+          "nome": "Carlos Sainz Jr.",
+          "punti": 11
+        },
+        {
+          "pos": 17,
           "nome": "Esteban Ocon",
           "punti": 7
         },
         {
-          "pos": 17,
-          "nome": "Fernando Alonso",
-          "punti": 7
-        },
-        {
           "pos": 18,
-          "nome": "Carlos Sainz Jr.",
+          "nome": "Fernando Alonso",
           "punti": 7
         },
         {
@@ -11043,7 +11043,7 @@
           "punti": 0
         }
       ],
-      "letta": "2026-11-22T01:28:27.546Z",
+      "letta": "2026-11-22T08:37:18.049Z",
       "tentativi": 0
     },
     "2026|FIA Formula 2 Championship": {
@@ -11165,7 +11165,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-22T01:28:27.546Z",
+      "letta": "2026-11-22T08:37:18.049Z",
       "tentativi": 0
     },
     "2026|FIA Formula 3 Championship": {
@@ -11347,7 +11347,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-22T01:28:27.546Z",
+      "letta": "2026-11-22T08:37:18.049Z",
       "tentativi": 0
     },
     "2026|Super Formula Championship": {
@@ -11355,12 +11355,12 @@
         {
           "pos": 1,
           "nome": "Kakunoshin Ohta",
-          "punti": 138
+          "punti": 153
         },
         {
           "pos": 2,
           "nome": "Ayumu Iwasa",
-          "punti": 112.5
+          "punti": 123.5
         },
         {
           "pos": 3,
@@ -11370,27 +11370,27 @@
         {
           "pos": 4,
           "nome": "Nirei Fukuzumi",
-          "punti": 63
+          "punti": 71
         },
         {
           "pos": 5,
-          "nome": "Zak O'Sullivan",
-          "punti": 54
+          "nome": "Tomoki Nojiri",
+          "punti": 67.5
         },
         {
           "pos": 6,
           "nome": "Tadasuke Makino",
+          "punti": 60
+        },
+        {
+          "pos": 7,
+          "nome": "Zak O'Sullivan",
           "punti": 54
         },
         {
           "pos": 7,
           "nome": "Toshiki Oyu",
-          "punti": 48
-        },
-        {
-          "pos": 8,
-          "nome": "Tomoki Nojiri",
-          "punti": 47.5
+          "punti": 50
         },
         {
           "pos": 9,
@@ -11405,7 +11405,7 @@
         {
           "pos": 11,
           "nome": "Sena Sakaguchi",
-          "punti": 28
+          "punti": 31
         },
         {
           "pos": 12,
@@ -11415,7 +11415,12 @@
         {
           "pos": 13,
           "nome": "Luke Browning",
-          "punti": 20
+          "punti": 24
+        },
+        {
+          "pos": 16,
+          "nome": "Kamui Kobayashi",
+          "punti": 16
         },
         {
           "pos": 14,
@@ -11425,12 +11430,7 @@
         {
           "pos": 15,
           "nome": "Ren Sato",
-          "punti": 11.5
-        },
-        {
-          "pos": 16,
-          "nome": "Kamui Kobayashi",
-          "punti": 11
+          "punti": 12.5
         },
         {
           "pos": 17,
@@ -11484,7 +11484,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-22T01:28:27.546Z",
+      "letta": "2026-11-22T08:37:18.049Z",
       "tentativi": 0
     },
     "2026|Supersport World Championship": {
@@ -11767,7 +11767,7 @@
           "punti": 5
         }
       ],
-      "letta": "2026-11-22T01:28:27.546Z",
+      "letta": "2026-11-22T08:37:18.049Z",
       "tentativi": 0
     },
     "2026|British Superbike Championship": {
@@ -11995,7 +11995,7 @@
           "punti": 0
         }
       ],
-      "letta": "2026-11-22T01:28:27.546Z",
+      "letta": "2026-11-22T08:37:18.049Z",
       "tentativi": 0
     }
   },

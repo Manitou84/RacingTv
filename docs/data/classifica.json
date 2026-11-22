@@ -1,7 +1,7 @@
 {
-  "aggiornato": "2026-11-22T01:28:27.546Z",
+  "aggiornato": "2026-11-22T08:37:18.049Z",
   "motogp": {
-    "aggiornato": "2026-11-22T01:28:27.546Z",
+    "aggiornato": "2026-11-22T08:37:18.049Z",
     "fonte": "Motosprint",
     "piloti": [
       {
@@ -291,21 +291,6 @@
         "pos": 11,
         "nome": "Prima Pramac Yamaha",
         "punti": 49
-      },
-      {
-        "pos": 12,
-        "nome": "Yamaha Factory Racing Team",
-        "punti": 2
-      },
-      {
-        "pos": 13,
-        "nome": "Team HRC",
-        "punti": 0
-      },
-      {
-        "pos": 14,
-        "nome": "Red Bull GASGAS Tech3",
-        "punti": 0
       }
     ],
     "costruttori": [
@@ -337,7 +322,7 @@
     ]
   },
   "f1": {
-    "aggiornato": "2026-11-22T01:28:27.546Z",
+    "aggiornato": "2026-11-22T08:37:18.049Z",
     "fonte": "Autosprint",
     "piloti": [
       {
@@ -345,49 +330,49 @@
         "slug": "kimi-antonelli",
         "nome": "A. K. Antonelli",
         "team": "Mercedes-AMG Petronas F1 Team",
-        "punti": 390
+        "punti": 402
       },
       {
         "pos": 2,
         "slug": "max-verstappen",
         "nome": "M. Verstappen",
         "team": "Oracle Red Bull Racing",
-        "punti": 279
+        "punti": 304
       },
       {
         "pos": 3,
-        "slug": "george-russell",
-        "nome": "G. Russell",
-        "team": "Mercedes-AMG Petronas F1 Team",
-        "punti": 262
-      },
-      {
-        "pos": 4,
         "slug": "lewis-hamilton",
         "nome": "L. Hamilton",
         "team": "Scuderia Ferrari HP",
-        "punti": 261
+        "punti": 267
+      },
+      {
+        "pos": 4,
+        "slug": "george-russell",
+        "nome": "G. Russell",
+        "team": "Mercedes-AMG Petronas F1 Team",
+        "punti": 264
       },
       {
         "pos": 5,
-        "slug": "charles-leclerc",
-        "nome": "C. Leclerc",
-        "team": "Scuderia Ferrari HP",
-        "punti": 249
-      },
-      {
-        "pos": 6,
         "slug": "lando-norris",
         "nome": "L. Norris",
         "team": "McLaren Mastercard F1 Team",
-        "punti": 246
+        "punti": 264
+      },
+      {
+        "pos": 6,
+        "slug": "charles-leclerc",
+        "nome": "C. Leclerc",
+        "team": "Scuderia Ferrari HP",
+        "punti": 250
       },
       {
         "pos": 7,
         "slug": "oscar-piastri",
         "nome": "O. Piastri",
         "team": "McLaren Mastercard F1 Team",
-        "punti": 152
+        "punti": 167
       },
       {
         "pos": 8,
@@ -408,7 +393,7 @@
         "slug": "pierre-gasly",
         "nome": "P. Gasly",
         "team": "BWT Alpine F1 Team",
-        "punti": 42
+        "punti": 52
       },
       {
         "pos": 11,
@@ -422,7 +407,7 @@
         "slug": "franco-colapinto",
         "nome": "F. Colapinto",
         "team": "BWT Alpine F1 Team",
-        "punti": 27
+        "punti": 35
       },
       {
         "pos": 13,
@@ -447,23 +432,23 @@
       },
       {
         "pos": 16,
+        "slug": "carlos-sainz-jr",
+        "nome": "C. Sainz",
+        "team": "Atlassian Williams Racing",
+        "punti": 11
+      },
+      {
+        "pos": 17,
         "slug": "esteban-ocon",
         "nome": "E. Ocon",
         "team": "Haas F1 Team",
         "punti": 7
       },
       {
-        "pos": 17,
+        "pos": 18,
         "slug": "fernando-alonso",
         "nome": "F. Alonso",
         "team": "Aston Martin Aramco F1 Team",
-        "punti": 7
-      },
-      {
-        "pos": 18,
-        "slug": "carlos-sainz-jr",
-        "nome": "C. Sainz",
-        "team": "Atlassian Williams Racing",
         "punti": 7
       },
       {
@@ -521,22 +506,22 @@
       {
         "pos": 1,
         "nome": "Mercedes-AMG Petronas F1 Team",
-        "punti": 652
+        "punti": 666
       },
       {
         "pos": 2,
         "nome": "Scuderia Ferrari HP",
-        "punti": 510
+        "punti": 517
       },
       {
         "pos": 3,
         "nome": "Oracle Red Bull Racing",
-        "punti": 415
+        "punti": 440
       },
       {
         "pos": 4,
         "nome": "McLaren Mastercard F1 Team",
-        "punti": 398
+        "punti": 431
       },
       {
         "pos": 5,
@@ -546,7 +531,7 @@
       {
         "pos": 6,
         "nome": "BWT Alpine F1 Team",
-        "punti": 69
+        "punti": 87
       },
       {
         "pos": 7,
@@ -561,7 +546,7 @@
       {
         "pos": 9,
         "nome": "Atlassian Williams Racing",
-        "punti": 12
+        "punti": 16
       },
       {
         "pos": 10,
@@ -576,7 +561,7 @@
     ]
   },
   "sbk": {
-    "aggiornato": "2026-11-22T01:28:27.546Z",
+    "aggiornato": "2026-11-22T08:37:18.049Z",
     "fonte": "Wikipedia",
     "piloti": [
       {

@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-22T01:28:27.546Z",
+  "aggiornato": "2026-11-22T08:37:18.049Z",
   "_fonte": "Wikipedia (inglese), pagine dei singoli GP",
   "motogp": {
     "2025": {
@@ -896,7 +896,7 @@
           "Fabio Di Giannantonio"
         ],
         "futuro": true,
-        "letto": "2026-11-21T07:55:44.072Z"
+        "letto": "2026-11-22T08:37:18.049Z"
       },
       "2026_Malaysian_motorcycle_Grand_Prix": {
         "data": "2026-11-01",
@@ -1035,7 +1035,7 @@
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-11-22T01:28:27.546Z"
+        "letto": "2026-11-22T08:37:18.049Z"
       },
       "2026_Valencian_motorcycle_Grand_Prix": {
         "data": null,
@@ -1587,7 +1587,7 @@
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-11-21T07:55:44.072Z"
+        "letto": "2026-11-22T08:37:18.049Z"
       }
     },
     "2026": {
@@ -1642,7 +1642,7 @@
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-11-21T07:55:44.072Z"
+        "letto": "2026-11-22T08:37:18.049Z"
       },
       "2026_Australian_Grand_Prix": {
         "data": "2026-03-08",
@@ -1698,11 +1698,18 @@
           "chi": "Max Verstappen",
           "tempo": "1:34.151"
         },
-        "giroVeloce": null,
-        "podio": [],
+        "giroVeloce": {
+          "chi": "Liam Lawson",
+          "tempo": "1:35.591"
+        },
+        "podio": [
+          "Max Verstappen",
+          "Lando Norris",
+          "Oscar Piastri"
+        ],
         "sprint": [],
-        "futuro": true,
-        "letto": "2026-11-21T07:55:44.072Z"
+        "futuro": false,
+        "letto": "2026-11-22T08:37:18.049Z"
       },
       "2026_Dutch_Grand_Prix": {
         "data": "2026-08-23",
@@ -2047,7 +2054,7 @@
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-11-21T07:55:44.072Z"
+        "letto": "2026-11-22T08:37:18.049Z"
       },
       "2026_Abu_Dhabi_Grand_Prix": {
         "data": null,
@@ -2057,7 +2064,7 @@
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-11-21T07:55:44.072Z"
+        "letto": "2026-11-22T08:37:18.049Z"
       },
       "2026_Speedway_Grand_Prix": {
         "data": null,
@@ -2067,7 +2074,7 @@
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-11-21T07:55:44.072Z"
+        "letto": "2026-11-22T08:37:18.049Z"
       }
     }
   }

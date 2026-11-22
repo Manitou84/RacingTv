@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-22T01:28:27.546Z",
+  "aggiornato": "2026-11-22T08:37:18.049Z",
   "motogp": {
     "fonte": "Motosprint",
     "gare": [
@@ -402,6 +402,17 @@
           "lando-norris",
           "max-verstappen",
           "isac-hadjar"
+        ]
+      },
+      {
+        "url": "https://www.autosprint.it/live/formula-1/gran-premio-di-las-vegas-900069",
+        "gp": "Gran Premio di Las Vegas",
+        "circuito": "Las Vegas Street Circuit",
+        "data": "2026-11-22",
+        "podio": [
+          "max-verstappen",
+          "lando-norris",
+          "oscar-piastri"
         ]
       }
     ]
