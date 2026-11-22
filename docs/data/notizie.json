@@ -1,6 +1,196 @@
 {
-  "aggiornato": "2026-11-22T08:37:18.049Z",
+  "aggiornato": "2026-11-22T16:50:36.763Z",
   "articoli": [
+    {
+      "id": "6c882eda7e4a",
+      "serie": "motogp",
+      "titolo": "Bezzecchi posa le armi: “Marc ha vinto perché è stato il più forte”",
+      "link": "https://www.motosprint.it/news/eventi/gp-portimao/2026/11/22-9320274/bezzecchi_posa_le_armi_marc_ha_vinto_perch_stato_il_pi_forte",
+      "fonte": "Motosprint",
+      "data": "2026-11-22T16:50:36.763Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/22/155337509-adbb081c-c70f-495a-9b00-6e25f61f810f.jpg",
+      "sommario": "A margine della sua prima doppietta in MotoGP, il romagnolo ammette: \"Provo un mix di emozioni, ma sono orgoglioso di aver lottato contro un Márquez così in forma\""
+    },
+    {
+      "id": "0ca4a22caa6a",
+      "serie": "motogp",
+      "titolo": "Marini su Marquez: \"Si ritira? Non fatevi prendere in giro da Marc\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/22-9320180/marini_su_marquez_si_ritira_non_fatevi_prendere_in_giro_da_marc",
+      "fonte": "Motosprint",
+      "data": "2026-11-22T16:50:36.763Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/22/141501919-b00dcb17-ef77-4175-a3b9-c9c8a1bf7e8d.jpg",
+      "sommario": "Luca parla del decimo titolo numero 93: \"Sapeva di non essere il più forte e veloce, ma ha messo molto di sé stesso. Io soddisfatto: ho vinto la Coppa Giappone\""
+    },
+    {
+      "id": "b76ab4a764a3",
+      "serie": "motogp",
+      "titolo": "Bezzecchi domina e vince a Portimao, ma Marquez è campione del mondo!",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/22-9319627/bezzecchi_domina_e_vince_a_portimao_ma_marquez_campione_del_mondo_",
+      "fonte": "Motosprint",
+      "data": "2026-11-22T16:50:36.763Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/22/140605448-8c62b853-f4a9-4642-afa8-8026c2fa2cc2.jpg",
+      "sommario": "Marco regala un’altra prova di forza e guida la tripletta Aprilia insieme a Martin e Fernandez. Quarto Di Giannantonio, top ten per Marini\n"
+    },
+    {
+      "id": "2aaefe1bcaa6",
+      "serie": "motogp",
+      "titolo": "MotoGP, i piloti più vincenti senza un titolo: Pedrosa guarda tutti dall'alto, Bezzecchi in top 5",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/22-9308048/motogp_i_piloti_pi_vincenti_senza_un_titolo_pedrosa_guarda_tutti_dall_alto_bezzecchi_in_top_5",
+      "fonte": "Motosprint",
+      "data": "2026-11-22T16:50:36.763Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/19/133519658-0e8a17b2-8822-410f-9300-a70c0c609105.jpg",
+      "sommario": "Il successo in Qatar ha portato il pilota Aprilia a quota 12 vittorie nella classe regina, a una sola lunghezza da Randy Mamola e Max Biaggi, vincendo a Portimao potrebbe raggiungerli\n"
+    },
+    {
+      "id": "5c5d2ab5b00c",
+      "serie": "motogp",
+      "titolo": "MotoGP, da -102 al decimo titolo: l’incredibile stagione di Marc Marquez",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/22-9303031/motogp_da_-102_al_decimo_titolo_lincredibile_stagione_di_marc_marquez",
+      "fonte": "Motosprint",
+      "data": "2026-11-22T16:50:36.763Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/18/104219149-aa7ea5c6-8f27-4dbd-89d6-b91d9dc0268e.jpg",
+      "sommario": "Dalle difficoltà di inizio anno e l’ennesima operazione ad una costanza senza eguali: il catalano è salito sul tetto del mondo dopo un’annata da “montagne russe”"
+    },
+    {
+      "id": "44b5123a9ebb",
+      "serie": "motogp",
+      "titolo": "Marquez nella storia: 10 titoli mondiali, Rossi superato e Agostini raggiunto in top class. E sul ritiro...",
+      "link": "https://www.motosprint.it/news/eventi/gp-portimao/2026/11/22-9310638/marquez_nella_storia_10_titoli_mondiali_rossi_superato_e_agostini_raggiunto_e_sul_ritiro_",
+      "fonte": "Motosprint",
+      "data": "2026-11-22T16:50:36.763Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/20/081922880-7123a354-fc13-4a62-a5f8-7f4ee5dac17d.jpg",
+      "sommario": "Il catalano “sfida” sua maestà Ago: riuscirà a superarlo, vista l'età che avanza ed un contratto biennale fino al 2028 che sa di ultimo ballo?"
+    },
+    {
+      "id": "0c0d4d7aa0ce",
+      "serie": "motogp",
+      "titolo": "Marquez ha superato Rossi nei titoli mondiali: ora punta a due nuovi record del Dottore",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/22-9312437/marquez_ha_superato_rossi_nei_titoli_mondiali_ora_punta_a_due_nuovi_record_del_dottore",
+      "fonte": "Motosprint",
+      "data": "2026-11-22T16:50:36.763Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/20/151402962-731c7e61-6e13-4cda-9ad8-52f81f096e12.jpg",
+      "sommario": "Marc ha riscritto la storia, ora il prossimo obiettivo è avvicinarsi ai primati di successi del Dottore e di Giacomo Agostini\n\n \n"
+    },
+    {
+      "id": "eaee16629705",
+      "serie": "motogp",
+      "titolo": "MotoGP, diretta GP Portimao: griglia di partenza, risultati e gara live",
+      "link": "https://www.motosprint.it/news/eventi/gp-portimao/2026/11/22-9319192/motogp_diretta_gp_portimao_griglia_di_partenza_risultati_e_gara_live",
+      "fonte": "Motosprint",
+      "data": "2026-11-22T16:50:36.763Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/22/110213440-ffcbd758-9803-4a71-986e-db42a3aee197.jpg",
+      "sommario": "Seguite con noi la gara domenicale sul tracciato portoghese. Le Aprilia andranno all'attacco, ma Marquez potrebbe conquistare il decimo titolo in carriera"
+    },
+    {
+      "id": "3431087d490a",
+      "serie": "motogp",
+      "titolo": "Tardozzi: \"Marquez non è divisivo e non si fa costruire una Ducati su misura\"",
+      "link": "https://www.gpone.com/it/2026/11/22/motogp/tardozzi-marquez-non-e-divisivo-e-non-si-fa-costruire-una-ducati-su-misura.html",
+      "fonte": "GPOne",
+      "data": "2026-11-22T16:23:42.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/whatsapp-image-2026-11-22-at-17-21-09.jpeg?itok=AuV2gD7_",
+      "sommario": "Il team manager Ducati respinge due accuse rivolte al campione del mondo: \"Marc fa squadra, aiuta il compagno e tutti i piloti ufficiali possono scegliere la propria strada tecnica\"."
+    },
+    {
+      "id": "ccf0cc733575",
+      "serie": "motogp",
+      "titolo": "Marquez: “La mia era? Ho 33 anni, prima o poi qualcuno mi dirà di farmi da parte”",
+      "link": "https://www.gpone.com/it/2026/11/22/motogp/marquez-la-mia-era-ho-33-anni-prima-o-poi-qualcuno-mi-dira-di-farmi-da-parte.html",
+      "fonte": "GPOne",
+      "data": "2026-11-22T16:18:00.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/whatsapp-image-2026-11-22-at-17-03-30.jpeg?itok=qnDDaqoW",
+      "sommario": "Dopo aver conquistato il decimo Mondiale, Marc riflette sul futuro: \"Ho 33 anni, il prossimo saranno 34\". Poi la confessione: \"Quest'anno non credevo di poter vincere, ma ho imparato a controllare il mio istinto\"."
+    },
+    {
+      "id": "f65917f7287a",
+      "serie": "motogp",
+      "titolo": "Acosta: “Marquez ha dimostrato cos’è un campione, l’Aprilia ha fatto un disastro”",
+      "link": "https://www.gpone.com/it/2026/11/22/motogp/acosta-marquez-ha-dimostrato-cose-un-campione-laprilia-ha-fatto-un-disastro.html",
+      "fonte": "GPOne",
+      "data": "2026-11-22T16:17:36.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/acosta-portimao.jpg?itok=wHHkXJVv",
+      "sommario": "“Marc ha meritato il titolo più di chiunque altro. Gli renderò più difficile la riconferma? Non si preoccuperà per uno che ha vinto una sola gara in MotoGP. La caduta? Ero praticamente senza freni”"
+    },
+    {
+      "id": "65727fcf7ffd",
+      "serie": "motogp",
+      "titolo": "Bezzecchi: “Fa male vedere il titolo scivolare via, ma Marc ha meritato di vincere”",
+      "link": "https://www.gpone.com/it/2026/11/22/motogp/bezzecchi-fa-male-vedere-il-titolo-scivolare-via-ma-marc-ha-meritato-di-vincere.html",
+      "fonte": "GPOne",
+      "data": "2026-11-22T15:47:00.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/bez-podio-sun.jpg?itok=loUeaTXg",
+      "sommario": "Weekend perfetto a Portimao per il pilota Aprilia, che però deve arrendersi a Márquez nella corsa al Mondiale: “È stato il più forte, lottare con lui è stato un onore. Ho commesso troppi errori, ma questa è stata la mia "
+    },
+    {
+      "id": "1d3a4af6c479",
+      "serie": "motogp",
+      "titolo": "Johann Zarco penalizzato per il contatto con Alex Marquez: Long Lap Penalty a Valencia",
+      "link": "https://www.gpone.com/it/2026/11/22/motogp/johann-zarco-penalizzato-per-il-contatto-con-alex-marquez-long-lap-penalty-a-valencia.html",
+      "fonte": "GPOne",
+      "data": "2026-11-22T15:10:32.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/zarco-portimao0001.jpg?itok=PZzqcOde",
+      "sommario": "L'episodio è stato classificato come MGP-CC2 (Opening Lap), relativo a un contatto durante un sorpasso nel primo giro che comporta conseguenze negative per un altro pilota."
+    },
+    {
+      "id": "7be23ed2c868",
+      "serie": "motogp",
+      "titolo": "Quartararo: “Marquez è il più grande: non è soltanto veloce, è il più intelligente”",
+      "link": "https://www.gpone.com/it/2026/11/22/motogp/quartararo-marquez-e-il-piu-grande-non-e-soltanto-veloce-e-il-piu-intelligente.html",
+      "fonte": "GPOne",
+      "data": "2026-11-22T14:47:01.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/quartararo-portimao.jpg?itok=9YY2wh5m",
+      "sommario": "“Vinceva quando avevo 14 anni e continua a farlo anche ora che ne ho 27. In passato la velocità era la sua caratteristica, oggi sa giocare mentalmente con tutti. L’avrei battuto con un’Aprilia? È una grossa affermazione”"
+    },
+    {
+      "id": "422bef55ff65",
+      "serie": "motogp",
+      "titolo": "Marquez, il decimo titolo divide il paddock: \"Aprilia più forte, ma Marc ha fatto la differenza\"",
+      "link": "https://www.gpone.com/it/2026/11/21/motogp/marquez-il-decimo-titolo-divide-il-paddock-aprilia-piu-forte-ma-marc-ha-fatto-la-differenza.html",
+      "fonte": "GPOne",
+      "data": "2026-11-22T14:28:00.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/marquez-portimao0001_0.jpg?itok=FAlbdzwF",
+      "sommario": "PARLANO I MANAGER Boscoscuro esalta il talento di Marc, Beirer lo considera imbattibile e Cecchinello riflette sulle cicatrici di una carriera straordinaria. Cinque manager raccontano il nuovo re della MotoGP"
+    },
+    {
+      "id": "602b419fdc33",
+      "serie": "motogp",
+      "titolo": "Agostini incorona Marquez: \"Ora siamo pari, ma i miei 15 titoli non si cancellano\"",
+      "link": "https://www.gpone.com/it/2026/11/22/motogp/agostini-incorona-marquez-ora-siamo-pari-ma-i-miei-15-titoli-non-si-cancellano.html",
+      "fonte": "GPOne",
+      "data": "2026-11-22T14:09:00.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/cover-ago.jpg?itok=8NwmTdha",
+      "sommario": "VIDEO - \"Ha fatto una grande rimonta, ha saputo vincere e anche accontentarsi. Il titolo è meritato\". Ma critica la MotoGP moderna: \"Troppa elettronica, troppi cavalli e troppe ali. Lo spettacolo devono farlo i piloti\""
+    },
+    {
+      "id": "0fa4f0fe2043",
+      "serie": "motogp",
+      "titolo": "Marc Marquez, il campione eterno. Vincere è tutto e mai abbastanza",
+      "link": "https://www.gpone.com/it/2026/11/21/motogp/marc-marquez-il-campione-eterno-vincere-e-tutto-e-mai-abbastanza.html",
+      "fonte": "GPOne",
+      "data": "2026-11-22T14:06:00.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/bbc-marquez-ambience-1794212618.jpg?itok=pTW8v_3u",
+      "sommario": "Il 10° titolo mondiale lo mette ancora più in alto nell'Olimpo del motociclismo in cui ha casa da tempo. Una leggenda che non accenna a fermarsi"
+    },
+    {
+      "id": "5c92e4f10dbb",
+      "serie": "motogp",
+      "titolo": "Bezzecchi trionfa a Portimao su Martìn, Marquez solo 8° vince il titolo",
+      "link": "https://www.gpone.com/it/2026/11/22/motogp/live-la-diretta-del-gran-premio-del-portogallo-a-portimao-3deg-match-point-per-marquez.html",
+      "fonte": "GPOne",
+      "data": "2026-11-22T13:46:00.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/bez-win-sun.jpg?itok=wIRasr0q",
+      "sommario": "Tre Aprilia sul podio con Fernandez 3°, Marc Marquez chiude 8° e gli basta per fare suo il decimo titolo iridato della sua carriera"
+    },
+    {
+      "id": "90a5e92fb4e9",
+      "serie": "motogp",
+      "titolo": "Portimao, Warm Up: pista umida e gomme rain, Aldeguer il più veloce",
+      "link": "https://www.gpone.com/it/2026/11/22/motogp/portimao-warm-up-pista-e-umida-e-gomme-rain-aldeguer-il-piu-veloce.html",
+      "fonte": "GPOne",
+      "data": "2026-11-22T09:16:30.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/aldeguer-rain.jpg?itok=2ThcyzYr",
+      "sommario": "Pochi piloti in pista per l'ultimo turno di prove a causa delle condizioni dell'asfalto. Marc Marquez non chiude nemmeno un giro"
+    },
     {
       "id": "956d57044806",
       "serie": "motogp",
@@ -3810,196 +4000,6 @@
       "data": "2026-11-03T14:57:19.000Z",
       "immagine": "",
       "sommario": "Il Team Manager elogia la rimonta del catalano: “Era inimmaginabile dopo il Mugello, ma quello che è successo lì è stato il carburante di cui avevamo bisogno. Il Qatar? Ci fidiamo degli organizzatori”"
-    },
-    {
-      "id": "158f64c94475",
-      "serie": "f1",
-      "titolo": "Antonelli, la Rossa e il desiderio di Piero Ferrari",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/03-9263052/antonelli_la_rossa_e_il_desiderio_di_piero_ferrari",
-      "fonte": "Autosprint",
-      "data": "2026-11-03T12:10:45.396Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/03/120535865-c75dddda-ef63-45db-9085-9ebdcf205cbb.jpg",
-      "sommario": "Il legame tra Kimi e Mercedes è duraturo e destinato a continuare ancora a lungo, rinviando altri scenari probabilmente al lungo periodo"
-    },
-    {
-      "id": "adb1b2dc0fc4",
-      "serie": "motogp",
-      "titolo": "Kimi Antonelli campione del mondo: ecco com'era il motomondiale l'ultima volta che un italiano vinse in F1",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/03-9259878/kimi_antonelli_campione_del_mondo_ecco_com_era_il_motomondiale_l_ultima_volta_che_un_italiano_vinse_in_f1",
-      "fonte": "Motosprint",
-      "data": "2026-11-03T11:19:14.623Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/02/154458931-76f9ce21-0173-4900-aa49-95c854b12298.jpg",
-      "sommario": "L'Italia torna a festeggiare un iridato in Formula 1 dopo 73 anni: l'ultimo fu Alberto Ascari nel 1953. In quella stagione il Motomondiale viveva un'epoca completamente diversa"
-    },
-    {
-      "id": "cd71b8ecaa0f",
-      "serie": "sbk",
-      "titolo": "Rebus elettronico per Morbidelli: Yamaha blocca il passaggio di Gentile in Ducati",
-      "link": "https://www.gpone.com/it/2026/11/03/wsbk/rebus-elettronico-per-morbidelli-yamaha-blocca-il-passaggio-di-gentile-in-ducati.html",
-      "fonte": "GPOne",
-      "data": "2026-11-03T11:13:35.000Z",
-      "immagine": "",
-      "sommario": "IL RETROSCENA – Aruba aveva messo nel mirino Davide Gentile, ex elettronico di Toprak e Rea, ma Yamaha si è messa di mezzo, bloccando la trattativa"
-    },
-    {
-      "id": "39f213dfa94f",
-      "serie": "sbk",
-      "titolo": "Iker Lecuona: una clausola way out per la MotoGP nel 2028!",
-      "link": "https://www.gpone.com/it/2026/11/03/wsbk/iker-lecuona-una-clausola-way-out-per-la-motogp-nel-2028.html",
-      "fonte": "GPOne",
-      "data": "2026-11-03T10:58:35.000Z",
-      "immagine": "",
-      "sommario": "Lo spagnolo ha già disputato quattro gare con Gresini quest’anno, ma il suo contratto lo vincola ad Aruba in SBK fino al 2028. Ci sarebbe però un escamotage per uscirne"
-    },
-    {
-      "id": "77aeeec72e4b",
-      "serie": "f1",
-      "titolo": "Qatar e Abu Dhabi, giovedì una posizione aggiornata dalla Formula 1?",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/03-9262094/qatar_e_abu_dhabi_gioved_una_posizione_aggiornata_dalla_formula_1_",
-      "fonte": "Autosprint",
-      "data": "2026-11-03T10:19:09.519Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/03/092702588-c46ad21f-96ad-44c4-9af0-40066dbbd1dd.jpg",
-      "sommario": "Un appuntamento finanziario potrebbe diramare un aggiornamento sulle sorti del finale di campionato, a oggi confermato nei GP di Qatar e Abu Dhabi"
-    },
-    {
-      "id": "fd0266f05990",
-      "serie": "motogp",
-      "titolo": "Alex Marquez: \"Intervento senza complicazioni, ora inizio il recupero a casa\"",
-      "link": "https://www.gpone.com/it/2026/11/03/motogp/alex-marquez-intervento-senza-complicazioni-ora-inizio-il-recupero-a-casa.html",
-      "fonte": "GPOne",
-      "data": "2026-11-03T09:45:53.000Z",
-      "immagine": "",
-      "sommario": "I medici hanno asportato le placche da spalla e mano e rimosso una borsa. Il pilota del team Gresini dovrebbe tornare in pista a Portimao"
-    },
-    {
-      "id": "047d4ab7da65",
-      "serie": "f1",
-      "titolo": "GP Brasile: orari TV e dove vedere la F1",
-      "link": "https://www.autosprint.it/news/formula1/f1-orari-tv/2026/11/03-9249612/gp_brasile_orari_tv_e_dove_vedere_la_f1",
-      "fonte": "Autosprint",
-      "data": "2026-11-03T09:15:28.769Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/10/30/095132741-34e2b98a-bed4-4579-aec5-6beff3c857cb.jpg",
-      "sommario": "Ventesimo appuntamento della stagione 2026 per la nuova Formula 1. Tutti gli orari di prove libere, qualifiche e gara in diretta su Sky, Now e in differita su TV8"
-    },
-    {
-      "id": "5553bce6ae46",
-      "serie": "motogp",
-      "titolo": "il ricatto del GP del Qatar: correre nonostante la guerra o rischiare una squalifica?",
-      "link": "https://www.gpone.com/it/2026/11/02/motogp/il-ricatto-del-gp-del-qatar-correre-nonostante-la-guerra-o-rischiare-una-squalifica.html",
-      "fonte": "GPOne",
-      "data": "2026-11-02T17:18:53.000Z",
-      "immagine": "",
-      "sommario": "Non è ancora chiaro se la spettacolare gara notturna sul circuito di Lusail potrà svolgersi come previsto questo fine settimana. Solo tre piloti della MotoGP non hanno firmato una lettera indirizzata agli organizzatori d"
-    },
-    {
-      "id": "c6ab7cb8ae2b",
-      "serie": "motogp",
-      "titolo": "Fast by Prosecco, Pernat: “Marquez se ne andrà con l'astronave, la MotoGP è una vita da reclusi”",
-      "link": "https://www.gpone.com/it/2026/11/02/motogp/fast-by-prosecco-pernat-marquez-se-ne-andra-con-lastronave-la-motogp-e-una-vita-da-reclusi.html",
-      "fonte": "GPOne",
-      "data": "2026-11-02T16:41:00.000Z",
-      "immagine": "",
-      "sommario": "VIDEO - Dopo la dimostrazione di forza di Marc a Sepang, Carlo Pernat guarda al futuro del campione Ducati: “Ancora un anno o due, poi potrebbe andarsene”. Nel mirino anche Aprilia, la gestione del Qatar e il silenzio de"
-    },
-    {
-      "id": "27333c4e5900",
-      "serie": "motogp",
-      "titolo": "Vinales: “Il Qatar? Dobbiamo andarci, non abbiamo altra scelta”",
-      "link": "https://www.gpone.com/it/2026/11/02/motogp/vinales-il-qatar-dobbiamo-andarci-non-abbiamo-altra-scelta.html",
-      "fonte": "GPOne",
-      "data": "2026-11-02T16:33:56.000Z",
-      "immagine": "",
-      "sommario": "“Se non ci andremo, dovremo affrontare una penalità. Ho paura di andarci: le sensazioni saranno completamente diverse dall’anno scorso. Non sarò nelle stesse condizioni e con la stessa fiducia”"
-    },
-    {
-      "id": "0f85323116ad",
-      "serie": "motogp",
-      "titolo": "Le pagelle di Sepang: Marquez scatta verso il titolo, Bezzecchi in difesa, Bagnaia amaro",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/02-9257207/le_pagelle_di_sepang_marquez_scatta_verso_il_titolo_bezzecchi_in_difesa_bagnaia_amaro",
-      "fonte": "Motosprint",
-      "data": "2026-11-02T15:49:28.165Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/02/141444895-56571ac9-4d9c-437d-9aa5-d09801da085c.jpg",
-      "sommario": "Marc indirizza la lotta mondiale con un altro successo, mentre Marco e Aprilia lottano ma perdono terreno. Bilancio agrodolce per gli italiani"
-    },
-    {
-      "id": "a43037cac3fe",
-      "serie": "motogp",
-      "titolo": "Dovizioso loda Kimi Antonelli: “Un campione, ma anche un esempio di normalità”",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/02-9259623/dovizioso_loda_kimi_antonelli_un_campione_ma_anche_un_esempio_di_normalit",
-      "fonte": "Motosprint",
-      "data": "2026-11-02T15:49:28.165Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/02/144235288-1f49e647-4059-4b22-9c8d-5b1883f5cb88.jpg",
-      "sommario": "“dovi” è stato trai piloti delle due ruote “stregati” dal bolognese che ha appena conquistato il titolo in Formula 1: “Un ragazzo straordinariamente semplice, ma con un talento raro”"
-    },
-    {
-      "id": "832ee19b6749",
-      "serie": "f1",
-      "titolo": "Maretta in Ferrari, Hamilton attacca Leclerc: \"Ha una mentalità sbagliata\"",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/02-9259244/maretta_in_ferrari_hamilton_attacca_leclerc_ha_una_mentalit_sbagliata",
-      "fonte": "Autosprint",
-      "data": "2026-11-02T14:55:49.261Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/02/135857852-f7b2203d-cec9-4f0a-af19-c3bc73f1ad4e.jpg",
-      "sommario": ""
-    },
-    {
-      "id": "cdefe67506a4",
-      "serie": "f1",
-      "titolo": "Leclerc-Hamilton, altro che collaborazione: \"Anch'io scontento, ma sono le corse\"",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/02-9259068/leclerc-hamilton_altro_che_collaborazione_anch_io_scontento_ma_sono_le_corse",
-      "fonte": "Autosprint",
-      "data": "2026-11-02T13:59:15.680Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/02/131348328-613a4e02-8ad5-4b51-a5bc-c7fd492a170f.jpg",
-      "sommario": "La condotta di Charles al primo giro ha riaperto il tema dei limiti che i due piloti Ferrari non devono superare nel lottare in pista. In Messico è sfumata la vittoria"
-    },
-    {
-      "id": "07f0b38e92af",
-      "serie": "motogp",
-      "titolo": "Kimi Antonelli campione, Rossi lo incorona: “Mi rivedo in lui quando avevo la sua età”",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/02-9257677/kimi_antonelli_campione_rossi_lo_incorona_mi_rivedo_in_lui_quando_avevo_la_sua_et",
-      "fonte": "Motosprint",
-      "data": "2026-11-02T09:31:30.232Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/02/085904658-ac225e0f-657c-4830-a76a-408631196fa8.jpg",
-      "sommario": "Il \"Dottore\" si sbilancia: \"Può diventare uno dei più grandi campioni della storia e vincere quattro, cinque o sei titoli. In pista è un cannibale, ma è anche un ragazzo semplice\""
-    },
-    {
-      "id": "98c3626bb037",
-      "serie": "motogp",
-      "titolo": "Gresini senza piloti: Lecuona in Qatar a prendere un posto",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/02-9256349/gresini_senza_piloti_lecuona_in_qatar_a_prendere_un_posto",
-      "fonte": "Motosprint",
-      "data": "2026-11-02T09:31:30.232Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/01/162226528-6b01d960-e18e-4fa1-a2b1-cfe08b8f154a.jpg",
-      "sommario": "Iker, sostituito di Aldeguer in Australia e Malesia, andrà pure a Lusail. Alex Marquez fuori, Pirro in allerta"
-    },
-    {
-      "id": "3205a7a1d1bc",
-      "serie": "motogp",
-      "titolo": "Bezzecchi festeggia il titolo di Antonelli: “La sua arma vincente? La spensieratezza”",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/02-9257479/bezzecchi_festeggia_il_titolo_di_antonelli_la_sua_arma_vincente_la_spensieratezza",
-      "fonte": "Motosprint",
-      "data": "2026-11-02T09:31:30.232Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/02/084429569-f739ec56-bd34-488a-b4fd-c841536a8fee.jpg",
-      "sommario": "Marco ha parlato del mondiale F1 vinto dal suo grande amico Kimi: “Affronta le gare con una serenità da vero campione, è un ragazzo di cuore e questo titolo non lo cambierà”"
-    },
-    {
-      "id": "570819bd0cda",
-      "serie": "motogp",
-      "titolo": "Un altro allarme per Mir: “Ho avuto problemi alla vista, sono preoccupato”",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/02-9255888/un_altro_allarme_per_mir_ho_avuto_problemi_alla_vista_sono_preoccupato",
-      "fonte": "Motosprint",
-      "data": "2026-11-02T09:31:30.232Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/01/111342618-4c700054-7a61-45e7-bc3c-a9d9cae7201c.jpg",
-      "sommario": "Il weekend di Joan si è concluso con un ritiro, accusando gli stessi problemi che l’avevano tenuto lontano dalle gare nelle scorse settimane. In forse la sua presenza in Qatar"
-    },
-    {
-      "id": "37e7d4cb7ed3",
-      "serie": "motogp",
-      "titolo": "Tutto quello che c’è da sapere su Lusail: l’analisi delle criticità per la MotoGP",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/02-9256095/tutto_quello_che_c_da_sapere_su_lusail_lanalisi_delle_criticit_per_la_motogp",
-      "fonte": "Motosprint",
-      "data": "2026-11-02T09:31:30.232Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/01/140244726-8f73e43c-ffa2-4fbb-81f0-d547745209c1.jpg",
-      "sommario": "Ecco tutto quello che c’è da sapere sul tracciato di qatariota, palcoscenico del terz’ultimo atto del Motomondiale 2026, nel fine settimana del 6-8 novembre\n"
     }
   ]
 }

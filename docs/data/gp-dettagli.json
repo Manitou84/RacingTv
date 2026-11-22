@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-22T08:37:18.049Z",
+  "aggiornato": "2026-11-22T16:50:36.763Z",
   "_fonte": "Wikipedia (inglese), pagine dei singoli GP",
   "motogp": {
     "2025": {
@@ -1031,11 +1031,18 @@
           "chi": "Marco Bezzecchi",
           "tempo": "1:37.201"
         },
-        "giroVeloce": null,
-        "podio": [],
+        "giroVeloce": {
+          "chi": "Marco Bezzecchi",
+          "tempo": "1:39.121"
+        },
+        "podio": [
+          "Marco Bezzecchi",
+          "Jorge Martín",
+          "Raúl Fernández"
+        ],
         "sprint": [],
-        "futuro": true,
-        "letto": "2026-11-22T08:37:18.049Z"
+        "futuro": false,
+        "letto": "2026-11-22T16:50:36.763Z"
       },
       "2026_Valencian_motorcycle_Grand_Prix": {
         "data": null,

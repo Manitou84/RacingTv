@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-22T08:37:18.049Z",
+  "aggiornato": "2026-11-22T16:50:36.763Z",
   "motogp": {
     "fonte": "Motosprint",
     "gare": [
@@ -198,6 +198,17 @@
         "podio": [
           "marco-bezzecchi",
           "marc-marquez",
+          "raul-fernandez"
+        ]
+      },
+      {
+        "url": "https://www.motosprint.it/live/moto-gp/gran-premio-del-portogallo-901817",
+        "gp": "Gran Premio del Portogallo",
+        "circuito": "Algarve International Circuit",
+        "data": "2026-11-22",
+        "podio": [
+          "marco-bezzecchi",
+          "jorge-martin",
           "raul-fernandez"
         ]
       }

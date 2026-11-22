@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-22T08:37:18.049Z",
+  "aggiornato": "2026-11-22T16:50:36.763Z",
   "weekend": [
     {
       "id": "f1-gp-las-vegas-2026",
@@ -232,6 +232,16 @@
           "fonte": "OA Sport"
         },
         {
+          "classe": "Moto3",
+          "sessione": "Gara",
+          "inizio": "2026-11-22T10:00:00.000Z",
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-11-22T10:00:00.000Z"
+          },
+          "fonte": "OA Sport"
+        },
+        {
           "classe": "Moto2",
           "sessione": "Gara",
           "inizio": "2026-11-22T11:15:00.000Z",
@@ -250,16 +260,6 @@
             "inizio": "2026-11-22T13:00:00.000Z"
           },
           "fonte": "OA Sport"
-        },
-        {
-          "classe": "Moto3",
-          "sessione": "Gara",
-          "inizio": "2026-11-22T14:30:00.000Z",
-          "tv8": {
-            "tipo": "diretta",
-            "inizio": "2026-11-22T10:00:00.000Z"
-          },
-          "fonte": "OA Sport"
         }
       ],
       "tv8Confermati": [
@@ -268,6 +268,11 @@
         "2026-11-22"
       ],
       "fonti": [
+        {
+          "nome": "OA Sport",
+          "url": "https://www.oasport.it/2026/11/a-che-ora-la-motogp-su-tv8-oggi-gp-portogallo-2026-programma-gara-differita-in-chiaro/",
+          "titolo": "Quando la MotoGP su TV8 oggi, GP Portogallo 2026: programma gara in chiaro"
+        },
         {
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/11/quando-la-motogp-su-tv8-domani-gp-portogallo-2026-orario-gara-differita-in-chiaro/",
@@ -292,11 +297,6 @@
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/11/motogp-gp-portogallo-2026-su-tv8-orari-in-chiaro-fine-settimana-qualifiche-e-gara/",
           "titolo": "MotoGP, GP Portogallo 2026 su TV8: orari in chiaro fine settimana, qualifiche e gara"
-        },
-        {
-          "nome": "OA Sport",
-          "url": "https://www.oasport.it/2026/11/motogp-gp-portogallo-2026-programma-orari-tv-streaming-guida-sky-e-tv8/",
-          "titolo": "MotoGP, GP Portogallo 2026: programma, orari, tv, streaming, guida SKY e TV8"
         }
       ]
     }

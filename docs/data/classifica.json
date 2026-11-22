@@ -1,7 +1,7 @@
 {
-  "aggiornato": "2026-11-22T08:37:18.049Z",
+  "aggiornato": "2026-11-22T16:50:36.763Z",
   "motogp": {
-    "aggiornato": "2026-11-22T08:37:18.049Z",
+    "aggiornato": "2026-11-22T16:50:36.763Z",
     "fonte": "Motosprint",
     "piloti": [
       {
@@ -9,21 +9,21 @@
         "slug": "marc-marquez",
         "nome": "M. Marquez",
         "team": "Ducati Lenovo Team",
-        "punti": 431
+        "punti": 439
       },
       {
         "pos": 2,
         "slug": "jorge-martin",
         "nome": "J. Martin",
         "team": "Aprilia Racing Team",
-        "punti": 376
+        "punti": 396
       },
       {
         "pos": 3,
         "slug": "marco-bezzecchi",
         "nome": "M. Bezzecchi",
         "team": "Aprilia Racing Team",
-        "punti": 369
+        "punti": 394
       },
       {
         "pos": 4,
@@ -37,21 +37,21 @@
         "slug": "ai-ogura",
         "nome": "A. Ogura",
         "team": "Trackhouse MotoGP Team",
-        "punti": 298
+        "punti": 309
       },
       {
         "pos": 6,
         "slug": "fabio-di-giannantonio",
         "nome": "F. D. Giannantonio",
         "team": "Pertamina Enduro VR46 Racing Team",
-        "punti": 285
+        "punti": 298
       },
       {
         "pos": 7,
         "slug": "raul-fernandez",
         "nome": "R. fernandez",
         "team": "Trackhouse MotoGP Team",
-        "punti": 267
+        "punti": 283
       },
       {
         "pos": 8,
@@ -72,35 +72,35 @@
         "slug": "enea-bastianini",
         "nome": "E. Bastianini",
         "team": "Red Bull KTM Tech 3",
-        "punti": 147
+        "punti": 152
       },
       {
         "pos": 11,
         "slug": "fermin-aldeguer",
         "nome": "F. Aldeguer",
         "team": "BK8 Gresini Racing MotoGP",
-        "punti": 129
+        "punti": 139
       },
       {
         "pos": 12,
         "slug": "brad-binder",
         "nome": "B. Binder",
         "team": "Red Bull KTM Factory Racing",
-        "punti": 118
+        "punti": 127
       },
       {
         "pos": 13,
         "slug": "luca-marini",
         "nome": "L. Marini",
         "team": "Honda HRC Castrol",
-        "punti": 117
+        "punti": 124
       },
       {
         "pos": 14,
         "slug": "fabio-quartararo",
         "nome": "F. Quartararo",
         "team": "Monster Energy Yamaha MotoGP",
-        "punti": 81
+        "punti": 85
       },
       {
         "pos": 15,
@@ -114,7 +114,7 @@
         "slug": "franco-morbidelli",
         "nome": "F. Morbidelli",
         "team": "Pertamina Enduro VR46 Racing Team",
-        "punti": 70
+        "punti": 71
       },
       {
         "pos": 17,
@@ -125,31 +125,31 @@
       },
       {
         "pos": 18,
+        "slug": "jack-miller",
+        "nome": "J. Miller",
+        "team": "Prima Pramac Yamaha",
+        "punti": 34
+      },
+      {
+        "pos": 19,
         "slug": "joan-mir",
         "nome": "J. Mir",
         "team": "Honda HRC Castrol",
         "punti": 33
       },
       {
-        "pos": 19,
-        "slug": "jack-miller",
-        "nome": "J. Miller",
-        "team": "Prima Pramac Yamaha",
-        "punti": 31
-      },
-      {
         "pos": 20,
         "slug": "alex-rins",
         "nome": "A. Rins",
         "team": "Monster Energy Yamaha MotoGP",
-        "punti": 29
+        "punti": 31
       },
       {
         "pos": 21,
         "slug": "iker-lecuona",
         "nome": "I. Lecuona",
         "team": "Ducati Lenovo Team",
-        "punti": 19
+        "punti": 25
       },
       {
         "pos": 22,
@@ -240,42 +240,42 @@
       {
         "pos": 1,
         "nome": "Aprilia Racing Team",
-        "punti": 745
+        "punti": 790
       },
       {
         "pos": 2,
         "nome": "Ducati Lenovo Team",
-        "punti": 605
+        "punti": 619
       },
       {
         "pos": 3,
         "nome": "Trackhouse MotoGP Team",
-        "punti": 565
+        "punti": 592
       },
       {
         "pos": 4,
         "nome": "Red Bull KTM Factory Racing",
-        "punti": 433
+        "punti": 442
       },
       {
         "pos": 5,
         "nome": "Pertamina Enduro VR46 Racing Team",
-        "punti": 355
+        "punti": 369
       },
       {
         "pos": 6,
         "nome": "BK8 Gresini Racing MotoGP",
-        "punti": 351
+        "punti": 361
       },
       {
         "pos": 7,
         "nome": "Red Bull KTM Tech 3",
-        "punti": 169
+        "punti": 174
       },
       {
         "pos": 8,
         "nome": "Honda HRC Castrol",
-        "punti": 158
+        "punti": 165
       },
       {
         "pos": 9,
@@ -285,44 +285,59 @@
       {
         "pos": 10,
         "nome": "Monster Energy Yamaha MotoGP",
-        "punti": 110
+        "punti": 116
       },
       {
         "pos": 11,
         "nome": "Prima Pramac Yamaha",
-        "punti": 49
+        "punti": 52
+      },
+      {
+        "pos": 12,
+        "nome": "Yamaha Factory Racing Team",
+        "punti": 2
+      },
+      {
+        "pos": 13,
+        "nome": "Team HRC",
+        "punti": 0
+      },
+      {
+        "pos": 14,
+        "nome": "Red Bull GASGAS Tech3",
+        "punti": 0
       }
     ],
     "costruttori": [
       {
         "pos": 1,
-        "nome": "Ducati",
-        "punti": 576
+        "nome": "Aprilia",
+        "punti": 598
       },
       {
         "pos": 2,
-        "nome": "Aprilia",
-        "punti": 573
+        "nome": "Ducati",
+        "punti": 589
       },
       {
         "pos": 3,
         "nome": "KTM",
-        "punti": 369
+        "punti": 378
       },
       {
         "pos": 4,
         "nome": "Honda",
-        "punti": 190
+        "punti": 197
       },
       {
         "pos": 5,
         "nome": "Yamaha",
-        "punti": 107
+        "punti": 111
       }
     ]
   },
   "f1": {
-    "aggiornato": "2026-11-22T08:37:18.049Z",
+    "aggiornato": "2026-11-22T16:50:36.763Z",
     "fonte": "Autosprint",
     "piloti": [
       {
@@ -561,7 +576,7 @@
     ]
   },
   "sbk": {
-    "aggiornato": "2026-11-22T08:37:18.049Z",
+    "aggiornato": "2026-11-22T16:50:36.763Z",
     "fonte": "Wikipedia",
     "piloti": [
       {

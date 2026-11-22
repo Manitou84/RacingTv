@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-22T08:37:18.049Z",
+  "aggiornato": "2026-11-22T16:50:36.763Z",
   "_fonte": "Wikipedia (inglese)",
   "stagioni": {
     "2021|MotoGP World Championship": {
@@ -10262,7 +10262,7 @@
           "punti": 49
         }
       ],
-      "letta": "2026-11-22T08:37:18.049Z",
+      "letta": "2026-11-22T16:50:36.763Z",
       "tentativi": 0
     },
     "2026|Moto2 World Championship": {
@@ -10495,7 +10495,7 @@
           "punti": 40
         }
       ],
-      "letta": "2026-11-22T08:37:18.049Z",
+      "letta": "2026-11-22T16:50:36.763Z",
       "tentativi": 0
     },
     "2026|Moto3 World Championship": {
@@ -10503,27 +10503,27 @@
         {
           "pos": 1,
           "nome": "Máximo Quiles",
-          "punti": 392
+          "punti": 417
         },
         {
           "pos": 2,
           "nome": "David Almansa",
-          "punti": 253
+          "punti": 266
         },
         {
           "pos": 3,
           "nome": "Álvaro Carpe",
-          "punti": 216
+          "punti": 224
         },
         {
           "pos": 4,
           "nome": "Brian Uriarte",
-          "punti": 207
+          "punti": 217
         },
         {
           "pos": 5,
           "nome": "Adrián Fernández",
-          "punti": 177
+          "punti": 193
         },
         {
           "pos": 6,
@@ -10537,57 +10537,57 @@
         },
         {
           "pos": 8,
+          "nome": "Valentín Perrone",
+          "punti": 127
+        },
+        {
+          "pos": 9,
           "nome": "Hakim Danish",
           "punti": 125
         },
         {
-          "pos": 9,
-          "nome": "Valentín Perrone",
-          "punti": 121
+          "pos": 10,
+          "nome": "Rico Salmela",
+          "punti": 113
         },
         {
-          "pos": 10,
+          "pos": 11,
           "nome": "Matteo Bertelle",
           "punti": 103
         },
         {
-          "pos": 11,
-          "nome": "Rico Salmela",
-          "punti": 93
-        },
-        {
           "pos": 12,
           "nome": "Guido Pini",
-          "punti": 86
+          "punti": 95
         },
         {
           "pos": 13,
-          "nome": "Adrián Cruces",
-          "punti": 80
+          "nome": "Joel Kelso",
+          "punti": 85
         },
         {
           "pos": 14,
-          "nome": "Joel Esteban",
-          "punti": 78
+          "nome": "Adrián Cruces",
+          "punti": 84
         },
         {
           "pos": 15,
-          "nome": "Joel Kelso",
-          "punti": 74
+          "nome": "Joel Esteban",
+          "punti": 83
         },
         {
           "pos": 16,
           "nome": "David Muñoz",
-          "punti": 72
-        },
-        {
-          "pos": 17,
-          "nome": "Eddie O'Shea",
-          "punti": 66
+          "punti": 75
         },
         {
           "pos": 18,
           "nome": "Casey O'Gorman",
+          "punti": 68
+        },
+        {
+          "pos": 17,
+          "nome": "Eddie O'Shea",
           "punti": 66
         },
         {
@@ -10598,12 +10598,12 @@
         {
           "pos": 20,
           "nome": "Jesús Ríos",
-          "punti": 48
+          "punti": 49
         },
         {
           "pos": 21,
           "nome": "Scott Ogden",
-          "punti": 39
+          "punti": 46
         },
         {
           "pos": 22,
@@ -10657,11 +10657,16 @@
         },
         {
           "pos": 32,
-          "nome": "Eduardo Gutiérrez",
+          "nome": "Beñat Fernandez",
           "punti": 0
         },
         {
           "pos": 33,
+          "nome": "Eduardo Gutiérrez",
+          "punti": 0
+        },
+        {
+          "pos": 34,
           "nome": "Kgopotso Mononyane",
           "punti": 0
         }
@@ -10698,7 +10703,7 @@
           "punti": 68
         }
       ],
-      "letta": "2026-11-22T08:37:18.049Z",
+      "letta": "2026-11-22T16:50:36.763Z",
       "tentativi": 0
     },
     "2026|Superbike World Championship": {
@@ -10855,7 +10860,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-22T08:37:18.049Z",
+      "letta": "2026-11-22T16:50:36.763Z",
       "tentativi": 0
     },
     "2026|Formula One World Championship": {
@@ -10990,22 +10995,22 @@
         {
           "pos": 1,
           "nome": "Mercedes",
-          "punti": 652
+          "punti": 666
         },
         {
           "pos": 2,
           "nome": "Ferrari",
-          "punti": 510
+          "punti": 517
         },
         {
           "pos": 3,
           "nome": "Red Bull Racing",
-          "punti": 415
+          "punti": 440
         },
         {
           "pos": 4,
           "nome": "McLaren",
-          "punti": 398
+          "punti": 431
         },
         {
           "pos": 5,
@@ -11015,7 +11020,7 @@
         {
           "pos": 6,
           "nome": "Alpine",
-          "punti": 69
+          "punti": 87
         },
         {
           "pos": 7,
@@ -11030,7 +11035,7 @@
         {
           "pos": 9,
           "nome": "Atlassian Williams",
-          "punti": 12
+          "punti": 16
         },
         {
           "pos": 10,
@@ -11043,7 +11048,7 @@
           "punti": 0
         }
       ],
-      "letta": "2026-11-22T08:37:18.049Z",
+      "letta": "2026-11-22T16:50:36.763Z",
       "tentativi": 0
     },
     "2026|FIA Formula 2 Championship": {
@@ -11165,7 +11170,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-22T08:37:18.049Z",
+      "letta": "2026-11-22T16:50:36.763Z",
       "tentativi": 0
     },
     "2026|FIA Formula 3 Championship": {
@@ -11347,7 +11352,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-22T08:37:18.049Z",
+      "letta": "2026-11-22T16:50:36.763Z",
       "tentativi": 0
     },
     "2026|Super Formula Championship": {
@@ -11388,7 +11393,7 @@
           "punti": 54
         },
         {
-          "pos": 7,
+          "pos": 8,
           "nome": "Toshiki Oyu",
           "punti": 50
         },
@@ -11418,17 +11423,17 @@
           "punti": 24
         },
         {
-          "pos": 16,
+          "pos": 14,
           "nome": "Kamui Kobayashi",
           "punti": 16
         },
         {
-          "pos": 14,
+          "pos": 15,
           "nome": "Syun Koide",
           "punti": 15
         },
         {
-          "pos": 15,
+          "pos": 16,
           "nome": "Ren Sato",
           "punti": 12.5
         },
@@ -11448,7 +11453,7 @@
           "punti": 6
         },
         {
-          "pos": 19,
+          "pos": 20,
           "nome": "Kenta Yamashita",
           "punti": 5
         },
@@ -11484,7 +11489,7 @@
         }
       ],
       "costruttori": [],
-      "letta": "2026-11-22T08:37:18.049Z",
+      "letta": "2026-11-22T16:50:36.763Z",
       "tentativi": 0
     },
     "2026|Supersport World Championship": {
@@ -11767,7 +11772,7 @@
           "punti": 5
         }
       ],
-      "letta": "2026-11-22T08:37:18.049Z",
+      "letta": "2026-11-22T16:50:36.763Z",
       "tentativi": 0
     },
     "2026|British Superbike Championship": {
@@ -11995,7 +12000,7 @@
           "punti": 0
         }
       ],
-      "letta": "2026-11-22T08:37:18.049Z",
+      "letta": "2026-11-22T16:50:36.763Z",
       "tentativi": 0
     }
   },
@@ -12052,7 +12057,7 @@
     "2025|British Superbike Championship": "32 piloti, 0 costruttori",
     "2026|MotoGP World Championship": "33 piloti, 11 costruttori",
     "2026|Moto2 World Championship": "35 piloti, 10 costruttori",
-    "2026|Moto3 World Championship": "33 piloti, 6 costruttori",
+    "2026|Moto3 World Championship": "34 piloti, 6 costruttori",
     "2026|Superbike World Championship": "30 piloti, 0 costruttori",
     "2026|Formula One World Championship": "25 piloti, 11 costruttori",
     "2026|FIA Formula 2 Championship": "23 piloti, 0 costruttori",
