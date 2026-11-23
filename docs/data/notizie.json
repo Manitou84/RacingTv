@@ -1,6 +1,76 @@
 {
-  "aggiornato": "2026-11-23T11:53:00.858Z",
+  "aggiornato": "2026-11-23T23:15:07.020Z",
   "articoli": [
+    {
+      "id": "d761e678f5a8",
+      "serie": "sbk",
+      "titolo": "V2 Future Champ Ducati Academy: nel 2027 sei weekend di gara, quattro giorni di test e la tappa a Brno",
+      "link": "https://www.gpone.com/it/2026/11/23/wsbk/la-v2-future-champ-ducati-academy-alza-lasticella-per-il-2027.html",
+      "fonte": "GPOne",
+      "data": "2026-11-23T18:37:59.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/WSBK/generic/v2-future-champ-ducati.jpeg?itok=rZ9VSwP5",
+      "sommario": "Il progetto riparte con un programma ancora più ambizioso: sei Round con tappa a Brno, quattro giornate di test e un pacchetto “All Season” offerto a prezzo speciale a chi aderisce entro Natale"
+    },
+    {
+      "id": "ed0d9a9ad692",
+      "serie": "motogp",
+      "titolo": "Fast By Prosecco Portimao, Pernat: “Senza Marquez la Ducati si sarebbe sognata il Mondiale!”",
+      "link": "https://www.gpone.com/it/2026/11/23/motogp/fast-by-prosecco-portimao-pernat-senza-marquez-la-ducati-si-sarebbe-sognata-il-mondiale.html",
+      "fonte": "GPOne",
+      "data": "2026-11-23T17:00:00.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/cover-fast-portimao.jpg?itok=q4S0iU4p",
+      "sommario": "VIDEO - Il manager genovese celebra il decimo titolo dello spagnolo, ma esalta anche la tripletta Aprilia a PortimAo: “Oggi è probabilmente la moto migliore. Senza Marc, Ducati non avrebbe vinto il Mondiale”. E su Bezzec"
+    },
+    {
+      "id": "18d4d22cae07",
+      "serie": "motogp",
+      "titolo": "Marc Márquez, il 10 che non doveva esserci: Ducati nasconde il decimo titolo nella maglietta H1ST0RY",
+      "link": "https://www.gpone.com/it/2026/11/23/motogp/il-10-che-non-doveva-esserci-ducati-nasconde-il-decimo-titolo-di-marquez-nella-parola-history.html",
+      "fonte": "GPOne",
+      "data": "2026-11-23T16:36:03.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/marquez-portimao-10001.jpg?itok=kUHsD3nd",
+      "sommario": "Liberty Media vuole valorizzare soprattutto i titoli della classe regina, così a Portimão la Ducati ha trovato una soluzione semplice e geniale: trasformare la I e la O della maglietta celebrativa in un 1 e uno 0"
+    },
+    {
+      "id": "7aac8bfcab3c",
+      "serie": "motogp",
+      "titolo": "Pirro: “Il Gaviscon? Non era assolutamente riferito a Valentino Rossi”",
+      "link": "https://www.gpone.com/it/2026/11/23/motogp/pirro-il-gaviscon-non-era-assolutamente-riferito-a-valentino-rossi.html",
+      "fonte": "GPOne",
+      "data": "2026-11-23T15:31:48.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/pirro_0.jpg?itok=zZxAtbAD",
+      "sommario": "Parla Michele: “Mi spiace per quanto ho letto sui social, è assurdo e mi domando come si possa pensare a una cosa del genere . Rossi ha fatto la storia, avvicinando milioni di persone a questo sport e creando dei campion"
+    },
+    {
+      "id": "af93b9b3fafc",
+      "serie": "sbk",
+      "titolo": "Eugene Laverty tornerà a gareggiare nel 2027: correrà nel BSB con una Ducati!",
+      "link": "https://www.gpone.com/it/2026/11/23/wsbk/eugene-laverty-riprendera-a-gareggiare-nel-2027-correra-nel-bsb-con-una-ducati.html",
+      "fonte": "GPOne",
+      "data": "2026-11-23T14:54:23.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/WSBK/generic/laverty-ducati-bsb.jpg?itok=kG5v9ZV-",
+      "sommario": "Il 40enne si rimetterà in gioco a 4 anni dal ritiro, debuttando nella Superbike britannica in sella a una delle due Panigale V4 R schierate dal team FleetSafe Ducati: “Era un’occasione che non potevo rifiutare”"
+    },
+    {
+      "id": "dcd4aa2238f9",
+      "serie": "motogp",
+      "titolo": "Marquez: \"Nessun messaggio da Tavullia, ma non me lo aspetto!\"",
+      "link": "https://www.gpone.com/it/2026/11/23/motogp/marquez-nessun-messaggio-da-tavullia-ma-non-me-lo-aspetto.html",
+      "fonte": "GPOne",
+      "data": "2026-11-23T14:43:55.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/marc_1.jpg?itok=F3XjOj62",
+      "sommario": "Dopo il decimo titolo mondiale, Marc torna sul rapporto con Valentino Rossi e sulle incognite del proprio futuro: il contratto con Ducati c'è, ma la decisione dipenderà anche dalla condizione fisica e dalla motivazione"
+    },
+    {
+      "id": "c0b8760b7980",
+      "serie": "motogp",
+      "titolo": "Gran Premio di Portimao: il Bello, il Brutto e il Cattivo",
+      "link": "https://www.gpone.com/it/2026/11/23/motogp/gran-premio-di-portimao-il-bello-il-brutto-e-il-cattivo.html",
+      "fonte": "GPOne",
+      "data": "2026-11-23T13:33:27.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/marquez-piscina.jpg?itok=TQU4WMkU",
+      "sommario": "Marc Marquez vince capra e cavoli. Martin lotta fino alla fine, Bezzecchi firma un successo carico di rimpianti"
+    },
     {
       "id": "4311f14c3864",
       "serie": "motogp",
@@ -90,6 +160,46 @@
       "data": "2026-11-23T10:18:48.000Z",
       "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/bez-valencia.jpg?itok=KA2eEeJw",
       "sommario": "Marquez è campione del mondo, Aprilia ha conquistato il titolo Team e ora punta a quello Costruttori contro Ducati. In Moto2 González e Guevara si giocano tutto nell'ultima gara, separati da appena 4,5 puntia"
+    },
+    {
+      "id": "cd1e6544d317",
+      "serie": "motogp",
+      "titolo": "Tutta la soddisfazione di Domenicali: \"È bello che l'era delle 1000cc si chiuda con il sigillo Ducati\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/23-9322283/tutta_la_soddisfazione_di_domenicali_bello_che_l_era_delle_1000cc_si_chiuda_con_il_sigillo_ducati",
+      "fonte": "Motosprint",
+      "data": "2026-11-23T10:00:00Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/23/122734486-006e8ad9-45ad-40a9-a70f-9bfb624ad6f6.jpg",
+      "sommario": "L'amministratore delegato estasiato a Portimão: \"Anche Marc si è dimostrato umano con l'errore della Sprint, ma è stato il primo a credere nella vittoria del titolo\""
+    },
+    {
+      "id": "678ce15a0df5",
+      "serie": "motogp",
+      "titolo": "Grassilli: \"Un titolo che resterà nella storia. Lavorare con Marquez è un onore\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/23-9322198/grassilli_un_titolo_che_rester_nella_storia_lavorare_con_marquez_un_onore",
+      "fonte": "Motosprint",
+      "data": "2026-11-23T10:00:00Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/23/120447252-c4c23e37-49f1-4da3-8d2b-fcc64e62b52e.jpg",
+      "sommario": "Il Direttore Sportivo di Ducati Corse: \"Dopo il -102 del Mugello è incredibile vincere il mondiale con una gara d'anticipo. Dopo la batosta del sabato abbiamo affrontato la domenica con più entusiasmo\""
+    },
+    {
+      "id": "fa33a9b91787",
+      "serie": "f1",
+      "titolo": "Câmara resta in Haas: non lotterà con Tsolov per il Titolo F2",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/23-9324248/cmara_resta_in_haas_non_lotter_con_tsolov_per_il_titolo_f2",
+      "fonte": "Autosprint",
+      "data": "2026-11-23T10:00:00Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/23/175225916-d32eced0-44e0-46a9-9ce0-371d431b570b.jpg",
+      "sommario": "Presa la decisione ufficiale sul brasilieno: resterà in F1 per accumulare esperienza, a costo di sacrificare il titolo di Campione della serie cadetta"
+    },
+    {
+      "id": "7b47627eb3e4",
+      "serie": "f1",
+      "titolo": "Wolff si gode lo show: \"Le tensioni tra Verstappen e Russell? Sono divertenti\"",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/23-9322287/wolff_si_gode_lo_show_le_tensioni_tra_verstappen_e_russell_sono_divertenti",
+      "fonte": "Autosprint",
+      "data": "2026-11-23T10:00:00Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/23/123914179-6c9b57cc-7c17-4728-a8a1-4a1d17951187.jpg",
+      "sommario": "Il paddock sembra essere dell'idea che i botta e risposta al vetriolo tra Max e George siano positivi per l'intrattenimento. Solo Steiner pare pensarla diversamente"
     },
     {
       "id": "99458df55b57",
@@ -3890,116 +4000,6 @@
       "data": "2026-11-05T16:00:00.000Z",
       "immagine": "",
       "sommario": "“E' dedicata ai ragazzi dai 13 ai 16 anni. Il mondiale di Aprilia? Vince sempre il migliore. Nel futuro Marc sarà intelligente con Acosta. Bagnaia? C’è poco da dire: la situazione la vedete tutti”"
-    },
-    {
-      "id": "c9b81ff433d7",
-      "serie": "motogp",
-      "titolo": "Aldeguer: \"Per me è meglio essere in Qatar che starmene a casa\"",
-      "link": "https://www.gpone.com/it/2026/11/05/motogp/aldeguer-per-me-e-meglio-essere-in-qatar-che-starmene-a-casa.html",
-      "fonte": "GPOne",
-      "data": "2026-11-05T15:58:44.000Z",
-      "immagine": "",
-      "sommario": "\"Potevo non venire dicendo che la mano non stava vene, ma è più importante essere qui. L'infortunio di Mandalika? Il più stupido della mia vita. A fine stagione mi riopero alla gamba\""
-    },
-    {
-      "id": "0f581edbe3a4",
-      "serie": "motogp",
-      "titolo": "Acosta: \"In Qatar sembra tutto normale e abbiamo dei contratti da rispettare\"",
-      "link": "https://www.gpone.com/it/2026/11/05/motogp/acosta-in-qatar-sembra-tutto-normale-e-abbiamo-dei-contratti-da-rispettare.html",
-      "fonte": "GPOne",
-      "data": "2026-11-05T15:46:59.000Z",
-      "immagine": "",
-      "sommario": "\"In passato KTM è stato veloce a Losail, il punto interrogativo è Aprilia. Il mio obiettivo è recuperare punti su Bezzecchi per il 3° posto in campionato\""
-    },
-    {
-      "id": "c5ff95f22b17",
-      "serie": "motogp",
-      "titolo": "Marc Marquez, alle calcagna di Valentino Rossi, si prepara a superarlo",
-      "link": "https://www.gpone.com/it/2026/11/05/motogp/marc-marquez-alle-calcagna-di-valentino-rossi-si-prepara-a-superarlo.html",
-      "fonte": "GPOne",
-      "data": "2026-11-05T15:08:45.000Z",
-      "immagine": "",
-      "sommario": "Gran Premio del Qatar, fatti e cifre: curiosità, statistiche e tutto quello che c'è da sapere"
-    },
-    {
-      "id": "1ef10e9791b4",
-      "serie": "f1",
-      "titolo": "Da Schumacher ad Antonelli: Alessandro Benetton racconta il nuovo re della Formula 1",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/05-9269392/da_schumacher_ad_antonelli_alessandro_benetton_racconta_il_nuovo_re_della_formula_1",
-      "fonte": "Autosprint",
-      "data": "2026-11-05T13:42:53.040Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/05/132654395-719f5f84-1b97-42ff-a58c-04e534e29295.jpg",
-      "sommario": "Il trionfo iridato del ventenne bolognese riaccende i ricordi dell'epopea Benetton. L'ex presidente del team mette a confronto il talento di Michael e Kimi: «Hanno la stessa fame e naturalezza, ma oggi c'è più pressione."
-    },
-    {
-      "id": "bf45c60c90d3",
-      "serie": "f1",
-      "titolo": "Antonelli a sorpresa: c'è un'altra gara (Monza a parte) da incorniciare",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/05-9269376/antonelli_a_sorpresa_c_un_altra_gara_monza_a_parte_da_incorniciare",
-      "fonte": "Autosprint",
-      "data": "2026-11-05T13:42:53.040Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/05/114711074-1567f2f2-4182-4b2d-97ae-7690005949f2.jpg",
-      "sommario": ""
-    },
-    {
-      "id": "62bcf3458534",
-      "serie": "f1",
-      "titolo": "Brasile 2003: Giancarlo Fisichella e la vittoria consegnata a Imola",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/05-9269037/brasile_2003_giancarlo_fisichella_e_la_vittoria_consegnata_a_imola",
-      "fonte": "Autosprint",
-      "data": "2026-11-05T12:21:38.127Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/05/114044239-20033fc1-b044-41e7-9ebd-7426b1a02f48.jpeg",
-      "sommario": "La pioggia di Interlagos, una Jordan capace di sorprendere e un premio consegnato a...Imola: Giancarlo Fisichella conquistò il suo primo successo in Formula 1"
-    },
-    {
-      "id": "8756d4558ef3",
-      "serie": "motogp",
-      "titolo": "MotoGP, Domenicali: \"Bagnaia? Bisogna accettare che certi problemi non si possono risolvere\" | Esclusiva",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/05-9268664/motogp_domenicali_bagnaia_bisogna_accettare_che_certi_problemi_non_si_possono_risolvere_eslcusiva",
-      "fonte": "Motosprint",
-      "data": "2026-11-05T11:26:45.613Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/05/102820003-5049f857-328c-4de6-91cb-1ce5a8a1031f.jpeg",
-      "sommario": "Il CEO Ducati a tuttotondo, tra SBK e MotoGP: \"Il regolamento SBK ci ha penalizzati ma cambierà, in MotoGP Márquez ha fatto cose incredibili. A Pecco auguro il meglio\""
-    },
-    {
-      "id": "a3b5b1835c6e",
-      "serie": "f1",
-      "titolo": "È scomparso a 80 anni Alan Jones, fu il primo campione del mondo per la Williams",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/05-9268014/scomparso_a_80_anni_alan_jones_fu_il_primo_campione_del_mondo_per_la_williams",
-      "fonte": "Autosprint",
-      "data": "2026-11-05T10:29:16.970Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/05/102003402-a973faf8-969e-4be9-bb0d-ff6ac5b210e0.jpg",
-      "sommario": "Ad oggi resta l'ultimo pilota australiano ad aver vinto il GP di casa. Fu convinto sostenitore delle gare animate contro i \"trenini in coda\"\n\n \n"
-    },
-    {
-      "id": "b135ecb9d4a8",
-      "serie": "f1",
-      "titolo": "F1 in lutto, è morto Alan Jones: regalò alla Williams il suo primo titolo mondiale",
-      "link": "https://www.gpone.com/it/2026/11/05/formula-1/f1-in-lutto-e-morto-alan-jones-regalo-alla-williams-il-suo-primo-titolo-mondiale.html",
-      "fonte": "GPOne",
-      "data": "2026-11-05T10:06:14.000Z",
-      "immagine": "",
-      "sommario": "L'australiano si è spento a 80 anni, pochi giorni dopo il suo compleanno. Nel 1980 portò la squadra di Frank Williams sul tetto del mondo, scrivendo una delle pagine più importanti della storia della Formula 1"
-    },
-    {
-      "id": "a70bbf85af37",
-      "serie": "motogp",
-      "titolo": "Pedro Acosta lascia KTM e anche Red Bull: nel 2027 sarà un pilota Monster",
-      "link": "https://www.gpone.com/it/2026/11/05/motogp/pedro-acosta-lasciata-ktm-e-anche-red-bull-nel-2027-sara-un-pilota-monster.html",
-      "fonte": "GPOne",
-      "data": "2026-11-05T09:49:43.000Z",
-      "immagine": "",
-      "sommario": "A differenza di quanto fatto da Marc Marquez, Pedro ha scelto di passare al marchio concorrente che è anche sponsor di Ducati"
-    },
-    {
-      "id": "c9c4156969bc",
-      "serie": "motogp",
-      "titolo": "Domenicali: \"Marc Márquez, una rimonta incredibile\"",
-      "link": "https://www.gpone.com/it/2026/11/05/motogp/domenicali-marc-marquez-una-rimonta-incredibile-ora-non-dobbiamo-sbagliare.html",
-      "fonte": "GPOne",
-      "data": "2026-11-05T08:20:09.000Z",
-      "immagine": "",
-      "sommario": "VIDEO - Ad Eicma 2026, tra i festeggiamenti per il centenario Ducati, con Claudio Domenicali abbiamo parlato della storia del marchio e del presente sportivo con Marc Marquez giunto al primo match point per il titolo in "
     }
   ]
 }
