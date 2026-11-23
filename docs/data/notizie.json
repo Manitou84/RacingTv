@@ -1,6 +1,146 @@
 {
-  "aggiornato": "2026-11-23T02:57:16.085Z",
+  "aggiornato": "2026-11-23T11:53:00.858Z",
   "articoli": [
+    {
+      "id": "4311f14c3864",
+      "serie": "motogp",
+      "titolo": "Le pagelle di Portimao: Marquez fa 10 nel suo GP più complicato, Bezzecchi rullo compressore, Moreira esplosivo",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/23-9321721/le_pagelle_di_portimao_marquez_fa_10_nel_suo_gp_pi_complicato_bezzecchi_rullo_compressore_moreira_esplosivo",
+      "fonte": "Motosprint",
+      "data": "2026-11-23T11:53:00.858Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/23/113236735-066ad405-e811-493b-b5b4-497a55224efb.jpg",
+      "sommario": "Marc chiude i giochi ma vive un weekend difficile, mentre Marco brilla ancora una volta. Martin stoico, Diogo vola ma... in tutti i sensi"
+    },
+    {
+      "id": "52d1e5931bb7",
+      "serie": "motogp",
+      "titolo": "Marc Márquez cuore blaugrana: festeggia il titolo con la 10 come Messi e Yamal",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/23-9321621/marc_mrquez_cuore_blaugrana_festeggia_il_titolo_con_la_10_come_messi_e_yamal",
+      "fonte": "Motosprint",
+      "data": "2026-11-23T11:53:00.858Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/23/100617652-e607711e-b055-4d68-a047-b8ab37b07334.jpg",
+      "sommario": "Il fenomeno ducatista ha sfoggiato la maglia più iconica del calcio dopo la vittoria del titolo, ripercorrendo alcuni dei giocatori più iconici della storia"
+    },
+    {
+      "id": "6eebe0fdb15c",
+      "serie": "motogp",
+      "titolo": "Lorenzo mette Marquez sopra tutti: “Ora sei il migliore della storia”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/23-9320669/lorenzo_mette_marquez_sopra_tutti_ora_sei_il_migliore_della_storia",
+      "fonte": "Motosprint",
+      "data": "2026-11-23T11:53:00.858Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/23/000803256-53f20223-48bb-4147-be15-de49219e31ee.jpg",
+      "sommario": "Il pentacampione con un messaggio sui social si è congratulato con Marc dopo la conquista del decimo titolo iridato, l’ottavo in MotoGP eguagliando Giacomo Agostini"
+    },
+    {
+      "id": "5f85400e4bcd",
+      "serie": "motogp",
+      "titolo": "Alex Crivillè incorona Marquez: “Mai mi sarei immaginato di vedere un pilota come te vincere dieci mondiali”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/23-9320563/alex_crivill_incorona_marquez_mai_mi_sarei_immaginato_di_vedere_un_pilota_come_te_vincere_dieci_mondiali",
+      "fonte": "Motosprint",
+      "data": "2026-11-23T11:53:00.858Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/23/092229087-563a83d0-3e42-404e-8e3f-ea3c28dadcd1.jpg",
+      "sommario": "Il primo iridato spagnolo della classe 500 elogia il connazionale dopo aver scritto una nuova pagina di storia del Motomondiale\n"
+    },
+    {
+      "id": "74d8c29bdac1",
+      "serie": "motogp",
+      "titolo": "La confessione di Gemma Pinto sulle vacanze con Marc",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/23-9320671/la_confessione_di_gemma_pinto_sulle_vacanze_con_marc",
+      "fonte": "Motosprint",
+      "data": "2026-11-23T11:53:00.858Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/23/002852398-f3bb8996-e9b5-403e-b928-ca62f8940312.jpg",
+      "sommario": "Il dieci volte campione del Mondo nelle ultime settimane aveva un solo obiettivo in mente, il titolo, tanto da proibire alla sua ragazza di programmare le ferie"
+    },
+    {
+      "id": "3d51362a77d6",
+      "serie": "motogp",
+      "titolo": "Lorenzo Gresini su Marquez: “Con Marc scritta una pagina indimenticabile della storia di Gresini Racing”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/23-9320559/lorenzo_gresini_su_marquez_con_marc_scritta_una_pagina_indimenticabile_della_storia_di_gresini_racing",
+      "fonte": "Motosprint",
+      "data": "2026-11-23T11:53:00.858Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/22/213438653-0fbfc782-5e3d-4c19-b460-8dc092168cc6.jpg",
+      "sommario": "In un lungo post sui social, il figlio di Fausto ricorda l’avventura nel 2024 con il campione spagnolo prima del passaggio in Ducati ufficiale\n"
+    },
+    {
+      "id": "86eab6325bc1",
+      "serie": "motogp",
+      "titolo": "Tutto quello che c’è da sapere su Valencia: l’analisi delle criticità per la MotoGP",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/23-9320557/tutto_quello_che_c_da_sapere_su_valencia_lanalisi_delle_criticit_per_la_motogp",
+      "fonte": "Motosprint",
+      "data": "2026-11-23T11:53:00.858Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/22/211144786-88615b2e-34df-47cf-b8a2-0ea776d01457.jpg",
+      "sommario": "Ecco tutto quello che c’è da sapere sul circuito Ricardo Tormo della omonima città spagnola, sede del ventiduesimo ed ultimo appuntamento del Motomondiale nonché gara decisiva per l’assegnazione del titolo costruttori Mo"
+    },
+    {
+      "id": "851bcf6ffbce",
+      "serie": "f1",
+      "titolo": "GP Qatar: orari TV e dove vedere la F1",
+      "link": "https://www.autosprint.it/news/formula1/f1-orari-tv/2026/11/23-9321142/gp_qatar_orari_tv_e_dove_vedere_la_f1",
+      "fonte": "Autosprint",
+      "data": "2026-11-23T11:53:00.858Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/23/084804863-9142e7f6-cf56-4976-8457-d2ac3310d8c8.jpg",
+      "sommario": "Ventunesimo appuntamento della stagione 2026 per la nuova Formula 1. Tutti gli orari di prove libere, qualifiche e gara in diretta su Sky, Now e in differita su TV8"
+    },
+    {
+      "id": "80af52f4cc02",
+      "serie": "motogp",
+      "titolo": "GP Valencia, tutti gli orari TV su Sky, NOW e TV8: Aprilia-Ducati, l'ultima sfida mondiale",
+      "link": "https://www.gpone.com/it/2026/11/23/motogp/gp-valencia-tutti-gli-orari-tv-su-sky-now-e-tv8-aprilia-ducati-lultima-sfida-mondiale.html",
+      "fonte": "GPOne",
+      "data": "2026-11-23T10:18:48.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/bez-valencia.jpg?itok=KA2eEeJw",
+      "sommario": "Marquez è campione del mondo, Aprilia ha conquistato il titolo Team e ora punta a quello Costruttori contro Ducati. In Moto2 González e Guevara si giocano tutto nell'ultima gara, separati da appena 4,5 puntia"
+    },
+    {
+      "id": "99458df55b57",
+      "serie": "motogp",
+      "titolo": "Bagnaia alla sua Ducati: “Ti ho amato follemente, regaliamoci un’ultima settimana, solo io e te”",
+      "link": "https://www.gpone.com/it/2026/11/23/motogp/bagnaia-alla-sua-ducati-ti-ho-amato-follemente-regaliamoci-unultima-settimana-solo-io-e-te.html",
+      "fonte": "GPOne",
+      "data": "2026-11-23T09:52:24.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/925296584-18650452540042463-3010565067950957893-n.jpeg?itok=FtwLgGBF",
+      "sommario": "Il giorno dopo il trionfo di Marc Marquez, Pecco pubblica un post che ripercorre tutti questi anni in sella alla Rossa in vista del gran finale di Portimao"
+    },
+    {
+      "id": "6e152ae61297",
+      "serie": "motogp",
+      "titolo": "Pirro: \"Senza Marquez non avremmo vinto il Mondiale. È stato lui a fare la differenza\"",
+      "link": "https://www.gpone.com/it/2026/11/23/motogp/pirro-senza-marquez-non-avremmo-vinto-il-mondiale-e-stato-lui-a-fare-la-differenza.html",
+      "fonte": "GPOne",
+      "data": "2026-11-23T08:51:30.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/whatsapp-image-2026-11-22-at-17-41-23.jpeg?itok=mNO3XDV7",
+      "sommario": "\"È stato Marquez a tenere in piedi la Ducati nei momenti difficili. Dopo Balaton Gigi ci disse di non mollare. Non abbiamo mai rinunciato a crederci, nulla era scontato dietro a questo trionfo\""
+    },
+    {
+      "id": "1837b967b625",
+      "serie": "motogp",
+      "titolo": "Marc Márquez, 10 titoli e bis in MotoGP con Ducati. Rigamonti: \"E' stata la più difficile\"",
+      "link": "https://www.gpone.com/it/2026/11/23/motogp/rigamonti-la-seconda-volta-la-piu-difficile-col-decimo-e-entrato-nella-storia.html",
+      "fonte": "GPOne",
+      "data": "2026-11-23T07:00:00.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/ducati-vittoria-marc-portimao-26.jpg?itok=IKm2E-c-",
+      "sommario": "\"L'anno scorso dovevamo vincere, quest'anno ci siamo detti di viverla giorno per giorno. Lui ha commesso meno errori ed ha pagato. Una stagione meno stressante, lo stress sembra averlo messo agli altri\""
+    },
+    {
+      "id": "39261a6fd47a",
+      "serie": "motogp",
+      "titolo": "Rivola: “Marquez ha meritato il titolo, Aprilia si è confermata il team campione”",
+      "link": "https://www.gpone.com/it/2026/11/23/motogp/rivola-marquez-ha-meritato-il-titolo-aprilia-si-e-confermata-il-team-campione.html",
+      "fonte": "GPOne",
+      "data": "2026-11-23T06:55:00.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/08/MotoGP/generic/rivola-aragon.jpg?itok=XXypbvB6",
+      "sommario": "“Marc ha fatto qualcosa di speciale, ma vedere l’Aprilia così forte è una grande soddisfazione. Sono ottimista per il futuro, Bezzecchi ha già trasformato gli errori di inizio anno in insegnamenti”"
+    },
+    {
+      "id": "913ee62bd408",
+      "serie": "motogp",
+      "titolo": "Pol Espargarò: “Marquez? Al posto suo sarei già alle Maldive con una caipirinha”",
+      "link": "https://www.gpone.com/it/2026/11/23/motogp/pol-espargaro-marquez-al-posto-suo-sarei-gia-alle-maldive-con-una-caipirinha.html",
+      "fonte": "GPOne",
+      "data": "2026-11-23T06:50:00.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/marquez3.jpeg?itok=13FUIXC-",
+      "sommario": "“Lui ha una mentalità completamente diversa, vive sempre al limite”. Bastianini: “Marc sa come cavare sempre il ragno dal buco”. Morbidelli: “Alieno, vincere 10 titoli è impressionante, da brividi”"
+    },
     {
       "id": "01a93cd19a27",
       "serie": "motogp",
@@ -3860,146 +4000,6 @@
       "data": "2026-11-05T08:20:09.000Z",
       "immagine": "",
       "sommario": "VIDEO - Ad Eicma 2026, tra i festeggiamenti per il centenario Ducati, con Claudio Domenicali abbiamo parlato della storia del marchio e del presente sportivo con Marc Marquez giunto al primo match point per il titolo in "
-    },
-    {
-      "id": "134207cc915e",
-      "serie": "motogp",
-      "titolo": "Dixon sostituisce Mir in Qatar: \"correre nel team HRC è il sogno di ogni pilota\"",
-      "link": "https://www.gpone.com/it/2026/11/05/motogp/dixon-sostituisce-mir-in-qatar-correre-nel-team-hrc-e-il-sogno-di-ogni-pilota.html",
-      "fonte": "GPOne",
-      "data": "2026-11-05T08:15:47.000Z",
-      "immagine": "",
-      "sommario": "Honda ha ufficializzato che sarà Dixon a prendere il posto di Joan. L'inglese aveva corso due gare in MotoGP nel 2021, quando aveva sostituito Morbidelli sulla Yamaha"
-    },
-    {
-      "id": "1b09a28be857",
-      "serie": "motogp",
-      "titolo": "MotoGP, Michelin e il freddo in Qatar. Taramasso: “potrebbe iniziare a formarsi la rugiada”",
-      "link": "https://www.gpone.com/it/2026/11/05/motogp/michelin-si-prepara-al-freddo-del-gran-premio-del-qatar.html",
-      "fonte": "GPOne",
-      "data": "2026-11-05T07:32:29.000Z",
-      "immagine": "",
-      "sommario": "Il cambio di data (da aprile a novembre) significa temperature più basse rispetto al solito, ma sono confermate le opzioni di gomme del 2025"
-    },
-    {
-      "id": "f4bf02dec617",
-      "serie": "f1",
-      "titolo": "Fisichella su Antonelli: \"Ha battuto tutti i miei record, sono felice per lui\"",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/04-9266602/fisichella_su_antonelli_ha_battuto_tutti_i_miei_record_sono_felice_per_lui",
-      "fonte": "Autosprint",
-      "data": "2026-11-04T16:44:12.587Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/04/121100986-bcdbe151-50bc-45c6-8354-bc8919c54055.jpeg",
-      "sommario": ""
-    },
-    {
-      "id": "82819294a136",
-      "serie": "motogp",
-      "titolo": "Dall'Igna: \"Marquez ha dato una dimostrazione di forza, intelligenza e talento\"",
-      "link": "https://www.gpone.com/it/2026/11/04/motogp/dalligna-marquez-ha-dato-una-dimostrazione-di-forza-intelligenza-e-talento.html",
-      "fonte": "GPOne",
-      "data": "2026-11-04T15:54:19.000Z",
-      "immagine": "",
-      "sommario": "\"Il vantaggio di Marc è ora significativo, ma non abbiamo finito il nostro lavoro. Un augurio di pronte guarigione a Martin, preferiamo battere i nostri avversari in pista\""
-    },
-    {
-      "id": "eb560614cc74",
-      "serie": "motogp",
-      "titolo": "Marquez: “In Malesia abbiamo gestito al meglio, in Qatar non cambieremo strategia”",
-      "link": "https://www.gpone.com/it/2026/11/04/motogp/marquez-in-malesia-abbiamo-gestito-al-meglio-in-qatar-non-cambieremo-strategia.html",
-      "fonte": "GPOne",
-      "data": "2026-11-04T15:47:04.000Z",
-      "immagine": "",
-      "sommario": "“Questa non è tra le mie piste preferite, ma l’anno scorso siamo stati competitivi. Puntiamo ad arrivare al massimo al GP”. Bagnaia: “Lusail sarà tosta, ma ha sempre esaltato la Desmosedici”"
-    },
-    {
-      "id": "3ec1443441b2",
-      "serie": "motogp",
-      "titolo": "Speed Legends: un viaggio nel mito della MotoGP a EICMA",
-      "link": "https://www.gpone.com/it/2026/11/04/motogp/speed-legends-un-viaggio-nel-mito-della-motogp.html",
-      "fonte": "GPOne",
-      "data": "2026-11-04T14:13:58.000Z",
-      "immagine": "",
-      "sommario": "FOTO - Una mostra che onora oltre settant'anni di storia della classe regina. 32 motociclette leggendarie, da Graham ed Agostini ai campioni dell'era moderna"
-    },
-    {
-      "id": "a18a55c01ade",
-      "serie": "motogp",
-      "titolo": "Jorge Martin non si arrende: sarà in Qatar e vuole correre",
-      "link": "https://www.gpone.com/it/2026/11/04/motogp/jorge-martin-non-si-arrende-sara-in-qatar-e-vuole-correre.html",
-      "fonte": "GPOne",
-      "data": "2026-11-04T12:06:57.000Z",
-      "immagine": "",
-      "sommario": "Il pilota dell'Aprilia non ha intenzione di lasciare nulla di intentato: \"vedremo come risponderà il fisico e fino a dove potrò spingermi\""
-    },
-    {
-      "id": "90f37bd4ec5a",
-      "serie": "f1",
-      "titolo": "GP del Messico, il weekend social tra il mondiale di Antonelli e il Día de Muertos",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/04-9258832/gp_del_messico_il_weekend_social_tra_il_mondiale_di_antonelli_e_il_da_de_muertos",
-      "fonte": "Autosprint",
-      "data": "2026-11-04T11:46:35.367Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/02/113931465-c0fe46a7-9dea-4281-966f-142190a59a75.jpeg",
-      "sommario": "La festa per Kimi, le celebrazioni della tradizione messicana, gli omaggi alle leggende della F1 e i travestimenti di Halloween: il racconto social del weekend"
-    },
-    {
-      "id": "588ab8638f19",
-      "serie": "sbk",
-      "titolo": "CFMoto svela la sua prima Superbike: ma quando debutterà in pista la V4SR-RR?",
-      "link": "https://www.gpone.com/it/2026/11/04/wsbk/cfmoto-svela-la-sua-prima-superbike-ma-quando-debuttera-in-pista-la-v4sr-rr.html",
-      "fonte": "GPOne",
-      "data": "2026-11-04T11:39:43.000Z",
-      "immagine": "",
-      "sommario": "A Modena prosegue lo sviluppo della V4SR-RR con Matteo Ferrari ad oggi unico tester. Per la Superbike il progetto verrà gestito da Aspar e pare ci sia già una deadline riguardante il debutto ufficiale"
-    },
-    {
-      "id": "4f03ac14e198",
-      "serie": "sbk",
-      "titolo": "Dixon: “Impressionante la nuova Honda: con la vecchia non si percepiva nulla”",
-      "link": "https://www.gpone.com/it/2026/11/04/wsbk/dixon-impressionante-la-nuova-honda-con-la-vecchia-non-si-percepiva-nulla.html",
-      "fonte": "GPOne",
-      "data": "2026-11-04T11:05:35.000Z",
-      "immagine": "",
-      "sommario": "“Questa CBR è un enorme passo avanti, cambia tutto rispetto a prima: so che possiamo giocarci la vittoria”"
-    },
-    {
-      "id": "70983d4a02dd",
-      "serie": "motogp",
-      "titolo": "Qatar, i piloti MotoGP arriveranno all’ultimo: conferenza stampa spostata alle 20",
-      "link": "https://www.gpone.com/it/2026/11/04/motogp/i-piloti-ritardano-il-loro-arrivo-in-qatar-slitta-la-conferenza-stampa.html",
-      "fonte": "GPOne",
-      "data": "2026-11-04T10:46:39.000Z",
-      "immagine": "",
-      "sommario": "Molti arriveranno a Doha solo domani e l'organizzatore è stato costretto a posticipare alle 20 il tradizionale incontro con i giornalisti"
-    },
-    {
-      "id": "a34e5fe4b446",
-      "serie": "f1",
-      "titolo": "Montezemolo celebra la \"normalità\" di Kimi: piedi per terra e farà la carriera dei grandi",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/04-9265764/montezemolo_celebra_la_normalit_di_kimi_piedi_per_terra_e_far_la_carriera_dei_grandi",
-      "fonte": "Autosprint",
-      "data": "2026-11-04T10:31:23.201Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/04/092714020-b8537a01-5c21-4d07-a9df-b28d5418e425.jpg",
-      "sommario": ""
-    },
-    {
-      "id": "0f3a088a8992",
-      "serie": "f1",
-      "titolo": "Gran Premio del Brasile, Interlagos: gli orari in tv su Sky, NOW e TV8",
-      "link": "https://www.gpone.com/it/2026/11/04/formula-1/gran-premio-del-brasile-interlagos-gli-orari-in-tv-su-sky-now-e-tv8.html",
-      "fonte": "GPOne",
-      "data": "2026-11-04T09:36:44.000Z",
-      "immagine": "",
-      "sommario": "Archiviata la conquista del titolo mondiale di Kimi Antonelli, la Formula 1 torna in pista. Tutto in diretta sulla Pay-Tv, in chiaro differita di qualifiche e gara"
-    },
-    {
-      "id": "df64de14c1c1",
-      "serie": "motogp",
-      "titolo": "Aldeguer e Fernandez proveranno a correre nel Gran Premio del Qatar",
-      "link": "https://www.gpone.com/it/2026/11/04/motogp/aldeguer-e-fernandez-proveranno-a-correre-nel-gran-premio-del-qatar.html",
-      "fonte": "GPOne",
-      "data": "2026-11-04T09:23:11.000Z",
-      "immagine": "",
-      "sommario": "Il team Gresini ha confermato la presenza di Fermin accanto a Lecuona, che sostituirà Alex Marquez. Raul sarà a Losail dopo essere stato dichiarato 'unfit' in Australia e in Malesia"
     }
   ]
 }
