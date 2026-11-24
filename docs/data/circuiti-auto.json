@@ -1,10 +1,10 @@
 {
-  "aggiornato": "2026-11-24T07:00:21.988Z",
+  "aggiornato": "2026-11-24T18:59:53.990Z",
   "_fonte": "Wikipedia e Wikidata",
   "circuiti": {
     "aragon": {
       "wiki": "MotorLand_Aragón",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Ciudad del Motor de Aragón",
       "luogo": "Alcañiz, Spagna",
       "lat": 41.0783,
@@ -29,7 +29,7 @@
     },
     "assen": {
       "wiki": "TT_Circuit_Assen",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "TT Circuit Assen",
       "luogo": "Assen, Paesi Bassi",
       "lat": 52.9617,
@@ -54,7 +54,7 @@
     },
     "austin": {
       "wiki": "Circuit_of_the_Americas",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito delle Americhe",
       "luogo": "Austin, Stati Uniti",
       "lat": 30.1328,
@@ -63,12 +63,12 @@
       "dal": 2012,
       "lunghezza": 5.513,
       "curve": 20,
-      "storia": "Il circuito delle Americhe di Austin, in Texas, è un circuito motoristico statunitense, sede dal 2012 del Gran Premio degli Stati Uniti d'America di Formula 1 e dal 2013 del Gran Premio motociclistico delle Americhe.",
+      "storia": "Il circuito delle Americhe di Austin, in Texas, è un circuito motoristico statunitense, sede dal 2012 del Gran Premio degli Stati Uniti d'America di Formula 1 e dal 2013 parte del calendario del Motomondiale ospitando il Gran Premio motociclistico delle Americhe e il Gran Premio motociclistico degli Stati Uniti d'America.",
       "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_delle_Americhe"
     },
     "baku": {
       "wiki": "Baku_City_Circuit",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito di Baku",
       "luogo": "Baku, Azerbaigian",
       "lat": 40.3725,
@@ -88,7 +88,7 @@
     },
     "balaton": {
       "wiki": "Balaton_Park_Circuit",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito del Balaton Park",
       "luogo": "Balatonfőkajár, Ungheria",
       "lat": 47.0081,
@@ -102,7 +102,7 @@
     },
     "barcellona": {
       "wiki": "Circuit_de_Barcelona-Catalunya",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito di Barcellona-Catalogna",
       "luogo": "Montmeló, Spagna",
       "lat": 41.57,
@@ -122,7 +122,7 @@
     },
     "brno": {
       "wiki": "Brno_Circuit",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito di Brno",
       "luogo": "Brno, Repubblica Ceca",
       "lat": 49.2047,
@@ -142,7 +142,7 @@
     },
     "buriram": {
       "wiki": "Chang_International_Circuit",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito internazionale di Buriram",
       "luogo": "Buriram, Thailandia",
       "lat": 14.9628,
@@ -157,12 +157,12 @@
       "dal": 2014,
       "lunghezza": 4.554,
       "curve": 12,
-      "storia": "Il circuito internazionale di Buriram è un circuito per competizioni motociclistiche e automobilistiche situato nella città di Buriram in Thailandia, costruito nel 2014. Dal 2015 fa parte del calendario del Campionato mondiale Superbike e nel 2018 entra a far parte di una delle 19 gare valevole per il Motomondiale 2018.",
+      "storia": "Il circuito internazionale di Buriram è un circuito per competizioni motociclistiche e automobilistiche situato nella città di Buriram, in Thailandia. Costruito nel 2014, dal 2015 al 2019 ha fatto parte del calendario del Campionato mondiale Superbike e dal 2018 è la sede del Gran Premio motociclistico di Thailandia.",
       "fonteStoria": "https://it.wikipedia.org/wiki/Circuito_internazionale_di_Buriram"
     },
     "citta-del-messico": {
       "wiki": "Autódromo_Hermanos_Rodríguez",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Autodromo Hermanos Rodríguez",
       "luogo": "Città del Messico, Messico",
       "lat": 19.4061,
@@ -182,7 +182,7 @@
     },
     "cremona": {
       "wiki": "Cremona_Circuit",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Cremona Circuit",
       "luogo": "San Martino del Lago, Italia",
       "lat": 45.0854,
@@ -196,7 +196,7 @@
     },
     "donington": {
       "wiki": "Donington_Park",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito di Donington Park",
       "luogo": "Castle Donington, Regno Unito",
       "lat": 52.8292,
@@ -221,7 +221,7 @@
     },
     "estoril": {
       "wiki": "Circuito_do_Estoril",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito di Estoril",
       "luogo": "Estoril, Portogallo",
       "lat": 38.7508,
@@ -246,7 +246,7 @@
     },
     "goiania": {
       "wiki": "Autódromo_Internacional_Ayrton_Senna_(Goiânia)",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Autódromo Internacional Ayrton Senna",
       "luogo": "Goiânia, Brasile",
       "lat": -16.7181,
@@ -266,7 +266,7 @@
     },
     "hungaroring": {
       "wiki": "Hungaroring",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Hungaroring",
       "luogo": "Mogyoród, Ungheria",
       "lat": 47.5822,
@@ -286,7 +286,7 @@
     },
     "interlagos": {
       "wiki": "Interlagos_Circuit",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito di Interlagos",
       "luogo": "San Paolo, Brasile",
       "lat": -23.7011,
@@ -306,7 +306,7 @@
     },
     "jerez": {
       "wiki": "Circuito_de_Jerez",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito di Jerez de la Frontera",
       "luogo": "Jerez de la Frontera, Spagna",
       "lat": 36.7083,
@@ -331,7 +331,7 @@
     },
     "las-vegas": {
       "wiki": "Las_Vegas_Strip_Circuit",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Las Vegas Strip Circuit",
       "luogo": "Las Vegas, Stati Uniti",
       "lat": 36.1099,
@@ -345,7 +345,7 @@
     },
     "le-mans": {
       "wiki": "Bugatti_Circuit",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuit des 24 Heures du Mans",
       "luogo": "Le Mans, Francia",
       "lat": 47.9333,
@@ -359,16 +359,16 @@
     },
     "lusail": {
       "wiki": "Lusail_International_Circuit",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito di Lusail",
       "luogo": "Lusail, Qatar",
       "lat": 25.49,
       "lon": 51.4542,
       "record": {
         "motogp": {
-          "chi": "Enea Bastianini",
-          "tempo": "1:54.338",
-          "anno": 2022
+          "chi": "Marc Márquez",
+          "tempo": "1:52.558",
+          "anno": 2026
         }
       },
       "dal": 2004,
@@ -379,7 +379,7 @@
     },
     "madrid": {
       "wiki": "Madring",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Madring",
       "luogo": "Madrid, Spagna",
       "lat": 40.4653,
@@ -393,7 +393,7 @@
     },
     "magny-cours": {
       "wiki": "Circuit_de_Nevers_Magny-Cours",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito di Nevers Magny-Cours",
       "luogo": "Magny-Cours, Francia",
       "lat": 46.8633,
@@ -413,7 +413,7 @@
     },
     "mandalika": {
       "wiki": "Mandalika_International_Street_Circuit",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito di Mandalika",
       "luogo": "Lombok, Indonesia",
       "lat": -8.8953,
@@ -433,7 +433,7 @@
     },
     "melbourne": {
       "wiki": "Albert_Park_Circuit",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito Albert Park",
       "luogo": "Melbourne, Australia",
       "lat": -37.8497,
@@ -453,7 +453,7 @@
     },
     "miami": {
       "wiki": "Miami_International_Autodrome",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Miami International Autodrome",
       "luogo": "Miami Gardens, Stati Uniti",
       "lat": 25.9581,
@@ -467,7 +467,7 @@
     },
     "misano": {
       "wiki": "Misano_World_Circuit_Marco_Simoncelli",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Misano World Circuit Marco Simoncelli",
       "luogo": "Misano Adriatico, Italia",
       "lat": 43.9614,
@@ -492,7 +492,7 @@
     },
     "monaco": {
       "wiki": "Circuit_de_Monaco",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito di Monte Carlo",
       "luogo": "Monte Carlo, Monaco",
       "lat": 43.7347,
@@ -512,7 +512,7 @@
     },
     "montreal": {
       "wiki": "Circuit_Gilles_Villeneuve",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito di Montréal",
       "luogo": "Montréal, Canada",
       "lat": 45.5006,
@@ -532,7 +532,7 @@
     },
     "monza": {
       "wiki": "Monza_Circuit",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Autodromo nazionale di Monza",
       "luogo": "Monza, Italia",
       "lat": 45.6206,
@@ -552,12 +552,12 @@
       "dal": 1922,
       "curve": 11,
       "lunghezza": 5.777,
-      "storia": "L'Autodromo nazionale Monza è un circuito automobilistico italiano, situato all'interno del parco di Monza.",
+      "storia": "L'Autodromo nazionale di Monza è un circuito automobilistico italiano, situato all'interno del parco di Monza.",
       "fonteStoria": "https://it.wikipedia.org/wiki/Autodromo_nazionale_di_Monza"
     },
     "most": {
       "wiki": "Autodrom_Most",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Autodromo di Most",
       "luogo": "Most, Repubblica Ceca",
       "lat": 50.5225,
@@ -571,7 +571,7 @@
     },
     "motegi": {
       "wiki": "Mobility_Resort_Motegi",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito di Motegi",
       "luogo": "Motegi, Giappone",
       "lat": 36.5333,
@@ -591,7 +591,7 @@
     },
     "mugello": {
       "wiki": "Mugello_Circuit",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Autodromo internazionale del Mugello",
       "luogo": "Scarperia e San Piero, Italia",
       "lat": 43.9975,
@@ -611,7 +611,7 @@
     },
     "phillip-island": {
       "wiki": "Phillip_Island_Grand_Prix_Circuit",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito di Phillip Island",
       "luogo": "Phillip Island, Australia",
       "lat": -38.5031,
@@ -625,7 +625,7 @@
     },
     "portimao": {
       "wiki": "Algarve_International_Circuit",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Autódromo Internacional do Algarve",
       "luogo": "Portimão, Portogallo",
       "lat": 37.2319,
@@ -645,7 +645,7 @@
     },
     "sachsenring": {
       "wiki": "Sachsenring",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Sachsenring",
       "luogo": "Hohenstein-Ernstthal, Germania",
       "lat": 50.7917,
@@ -665,7 +665,7 @@
     },
     "sepang": {
       "wiki": "Sepang_International_Circuit",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito di Sepang",
       "luogo": "Sepang, Malesia",
       "lat": 2.7606,
@@ -685,7 +685,7 @@
     },
     "shanghai": {
       "wiki": "Shanghai_International_Circuit",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito di Shanghai",
       "luogo": "Shanghai, Cina",
       "lat": 31.3389,
@@ -705,7 +705,7 @@
     },
     "silverstone": {
       "wiki": "Silverstone_Circuit",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito di Silverstone",
       "luogo": "Silverstone, Regno Unito",
       "lat": 52.071,
@@ -735,7 +735,7 @@
     },
     "singapore": {
       "wiki": "Marina_Bay_Street_Circuit",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Singapore Street Circuit",
       "luogo": "Singapore",
       "lat": 1.2915,
@@ -755,7 +755,7 @@
     },
     "spa": {
       "wiki": "Circuit_de_Spa-Francorchamps",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito di Spa-Francorchamps",
       "luogo": "Stavelot, Belgio",
       "lat": 50.4372,
@@ -775,7 +775,7 @@
     },
     "spielberg": {
       "wiki": "Red_Bull_Ring",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Red Bull Ring",
       "luogo": "Spielberg, Austria",
       "lat": 47.2197,
@@ -800,7 +800,7 @@
     },
     "suzuka": {
       "wiki": "Suzuka_International_Racing_Course",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito di Suzuka",
       "luogo": "Suzuka, Giappone",
       "lat": 34.8417,
@@ -825,7 +825,7 @@
     },
     "valencia": {
       "wiki": "Circuit_Ricardo_Tormo",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito di Valencia",
       "luogo": "Cheste, Spagna",
       "lat": 39.4858,
@@ -850,7 +850,7 @@
     },
     "yas-marina": {
       "wiki": "Yas_Marina_Circuit",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito di Yas Marina",
       "luogo": "Abu Dhabi, Emirati Arabi Uniti",
       "lat": 24.4672,
@@ -864,7 +864,7 @@
     },
     "zandvoort": {
       "wiki": "Circuit_Zandvoort",
-      "letto": "2026-10-25T13:00:25.868Z",
+      "letto": "2026-11-24T18:59:53.990Z",
       "nome": "Circuito di Zandvoort",
       "luogo": "Zandvoort, Paesi Bassi",
       "lat": 52.3889,

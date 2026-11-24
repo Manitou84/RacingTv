@@ -1,6 +1,186 @@
 {
-  "aggiornato": "2026-11-24T07:00:21.988Z",
+  "aggiornato": "2026-11-24T18:59:53.990Z",
   "articoli": [
+    {
+      "id": "28d16433c7e8",
+      "serie": "motogp",
+      "titolo": "Niente da fare per Vinales: Espargarò lo sostituisce anche nel GP di Valencia",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/24-9325991/niente_da_fare_per_vinales_espargar_lo_sostituisce_anche_nel_gp_di_valencia",
+      "fonte": "Motosprint",
+      "data": "2026-11-24T18:59:53.990Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/24/131825443-187dc358-7e08-41e4-ab76-a195a9832b53.jpg",
+      "sommario": "Maverick nuovamente fermo, stagione finita per lui. La RC16 del team Tech3 sarà guidata da Pol al Ricardo Tormo"
+    },
+    {
+      "id": "c646d05348cf",
+      "serie": "motogp",
+      "titolo": "Diogo Moreira nella storia del Motomondiale: ecco l’incredibile primato",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/24-9325928/diogo_moreira_nella_storia_del_motomondiale_ecco_lincredibile_primato",
+      "fonte": "Motosprint",
+      "data": "2026-11-24T18:59:53.990Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/24/121032202-dca07c3c-602d-4808-a6a1-0b3491f6281a.jpg",
+      "sommario": "Il brasiliano al debutto in MotoGP con la Honda RC213V del Team LCR nonostante il doppio zero Portimao si è laureato Rookie of the Year"
+    },
+    {
+      "id": "1ba002c875f6",
+      "serie": "motogp",
+      "titolo": "Márquez diretto: “Non mi sono arrivati i complimenti di Rossi e nemmeno me li aspetto”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/24-9323579/mrquez_diretto_non_mi_sono_arrivati_i_complimenti_di_rossi_e_nemmeno_me_li_aspetto",
+      "fonte": "Motosprint",
+      "data": "2026-11-24T18:59:53.990Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/23/154344579-8e19341e-7334-4c4d-b4fa-e3801bf29899.jpg",
+      "sommario": "Il neo-campione del mondo sul rivale: \"Ha dato tanto sia a me che al motociclismo e per questo lo rispetto. Ma non si può andare d'accordo con tutti\""
+    },
+    {
+      "id": "589cdc19833a",
+      "serie": "f1",
+      "titolo": "Nike entra nel Circus: dal 2027 al via una partnership globale",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/24-9326135/nike_entra_nel_circus_dal_2027_al_via_una_partnership_globale",
+      "fonte": "Autosprint",
+      "data": "2026-11-24T18:59:53.990Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/24/133718034-7508babb-bb47-4644-89fd-1a3245fc9387.jpeg",
+      "sommario": "Il colosso statunitense di abbigliamento diventerà partner ufficiale della Formula 1 a partire dalla prossima stagione. L’accordo coinvolgerà anche F1 Academy"
+    },
+    {
+      "id": "e408e69d9150",
+      "serie": "f1",
+      "titolo": "F1 e F2 nello stesso weekend: la norma FIA che costringe Câmara a scegliere",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/24-9325504/f1_e_f2_nello_stesso_weekend_la_norma_fia_che_costringe_cmara_a_scegliere",
+      "fonte": "Autosprint",
+      "data": "2026-11-24T18:59:53.990Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/21/211247657-20bf07d6-d8e6-4c1c-aa7a-c4b6516e2409.jpg",
+      "sommario": "Nonostante sia ancora leader del campionato di F2, Câmara dovrà rinunciare alle ultime quattro gare della stagione per proseguire la sua avventura in F1, perché?"
+    },
+    {
+      "id": "0aa6250c1685",
+      "serie": "f1",
+      "titolo": "V8 2030 \"esclusivi\": ci sarà un tetto al numero dei team clienti",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/24-9325919/v8_2030_esclusivi_ci_sar_un_tetto_al_numero_dei_team_clienti",
+      "fonte": "Autosprint",
+      "data": "2026-11-24T18:59:53.990Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/24/140148648-3938a483-84f2-4091-83a6-34dd5b1da4b0.jpg",
+      "sommario": "Il prossimo ciclo tecnico vedrà un importante cambiamento dei rapporti tra motoristi e squadre clienti, con effetti diretti anche sulle scelte decisionali"
+    },
+    {
+      "id": "570f1c1dff4b",
+      "serie": "f1",
+      "titolo": "E se Leclerc venisse mandato alla Haas? L'ipotesi impazza nel paddock",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/24-9324499/e_se_leclerc_venisse_mandato_alla_haas_l_ipotesi_impazza_nel_paddock",
+      "fonte": "Autosprint",
+      "data": "2026-11-24T18:59:53.990Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/24/092858790-b0e08f26-f847-4d64-a066-49c1d39ecc0d.jpg",
+      "sommario": "In una delle fasi più delicate degli ultimi anni della Ferrari Charles pare isolato, mentre dall'esterno Hamilton è considerato il pilota su cui puntare"
+    },
+    {
+      "id": "f5b03e819095",
+      "serie": "motogp",
+      "titolo": "Pedrosa esalta la mentalità di Marquez: “Sa che può sempre imparare e migliorare”",
+      "link": "https://www.gpone.com/it/2026/11/24/motogp/pedrosa-esalta-la-mentalita-di-marquez-sa-che-puo-sempre-imparare-e-migliorare.html",
+      "fonte": "GPOne",
+      "data": "2026-11-24T18:27:01.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/pedrosa-marquez.jpg?itok=uXuZrpZi",
+      "sommario": "“Non ha dominato come in passato, ha recuperato gestendo le proprie condizioni fisiche e i rischi. Non è stato il folle che conoscevamo, che cadeva un’infinità di volte nel corso della stagione”"
+    },
+    {
+      "id": "d23823b957eb",
+      "serie": "motogp",
+      "titolo": "Bradl: \"Spero di rivedere il sorriso sul volto di Quartararo in Honda\"",
+      "link": "https://www.gpone.com/it/2026/11/24/motogp/bradl-spero-di-rivedere-il-sorriso-sul-volto-di-quartararo-in-honda.html",
+      "fonte": "GPOne",
+      "data": "2026-11-24T18:20:00.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/cover-bradl.jpg?itok=V77_sNw4",
+      "sommario": "VIDEO - A tu per tu con il nuovo coordinatore sportivo di HRC: \"non smetterò di guidare, non vedo l'ora di provare la nuova 850. La mente sta diventando sempre più importanti per i piloti\""
+    },
+    {
+      "id": "1034695e087c",
+      "serie": "sbk",
+      "titolo": "Jake Dixon torna sulla Honda CBR1000-RR nei test a Jerez, assente Somkiat Chantra",
+      "link": "https://www.gpone.com/it/2026/11/24/wsbk/jake-dixon-torna-sulla-honda-cbr1000-rr-nei-test-a-jerez-assente-somkiat-chantra.html",
+      "fonte": "GPOne",
+      "data": "2026-11-24T16:31:46.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/WSBK/generic/dixon-chantra.jpg?itok=MwwqfPNo",
+      "sommario": "Il britannico tornerà in sella alla Firblade dopo le recenti apparizioni in MotoGP in sostituzione di Mir, mentre il thailandese dovrà saltare la due giorni di test privati per sottoporsi a un intervento chirurgico"
+    },
+    {
+      "id": "9006a7e2ff7f",
+      "serie": "sbk",
+      "titolo": "Jack Miller cambia pelle: nuova Yamaha e nuovo capotecnico per il 2027",
+      "link": "https://www.gpone.com/it/2026/11/24/wsbk/jack-miller-cambia-pelle-nuova-yamaha-e-nuovo-capotecnico-per-il-2027.html",
+      "fonte": "GPOne",
+      "data": "2026-11-24T16:17:19.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/WSBK/generic/miller2.jpg?itok=koFaBQG9",
+      "sommario": "La Casa dei Tre Diapason ha sistemato tutti i tasselli per l’attesissimo debutto dell’australiano a Valencia: ecco quali saranno le novità"
+    },
+    {
+      "id": "543ac8ae98e8",
+      "serie": "motogp",
+      "titolo": "Lecuona: “Bagnaia lavora in un modo, Alex Marquez in un altro, ma la Ducati è la stessa”",
+      "link": "https://www.gpone.com/it/2026/11/24/motogp/lecuona-bagnaia-lavora-in-un-modo-alex-marquez-in-un-altro-ma-la-ducati-e-la-stessa.html",
+      "fonte": "GPOne",
+      "data": "2026-11-24T15:42:15.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/lecuona.jpg?itok=hNK2Cg-M",
+      "sommario": "“Le due GP26 sono esattamente uguali. Bulega ha detto che sono il favorito? Per me è un piacere, è in quella direzione che lavoreremo”"
+    },
+    {
+      "id": "a892489b25fd",
+      "serie": "f1",
+      "titolo": "Gran Premio del Qatar, Losail: gli orari in tv su Sky, NOW e TV8",
+      "link": "https://www.gpone.com/it/2026/11/24/formula-1/gran-premio-del-qatar-loasail-gli-orari-in-tv-su-sky-now-e-tv8.html",
+      "fonte": "GPOne",
+      "data": "2026-11-24T15:03:20.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/FORMULA%201/generic/f1-qatar.JPG?itok=nzAdhe6W",
+      "sommario": "Penultimo appuntamento stagionale per la Formula 1. Tutti i turni in diretta sulla Pay-TV, qualifiche e gara in chiaro in differita"
+    },
+    {
+      "id": "7e855b12d409",
+      "serie": "motogp",
+      "titolo": "Vinales costretto a saltare anche il GP di Valencia, lo sostituirà Espargarò",
+      "link": "https://www.gpone.com/it/2026/11/24/motogp/vinales-costretto-a-saltare-anche-il-gp-di-valencia-lo-sostituira-espargaro.html",
+      "fonte": "GPOne",
+      "data": "2026-11-24T13:11:30.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/10/MotoGP/generic/vinales-sachsenring-2.jpg?itok=h_1g047N",
+      "sommario": "Il team Tech3 ha comunicato che il recupero e la sicurezza di Maverick sono la priorità. Come a Portimao, sarà Pol e portare in pista la sua KTM"
+    },
+    {
+      "id": "35732a062723",
+      "serie": "motogp",
+      "titolo": "Valentino Rossi riceverà la Moto d'Oro 2026 a Rimini, la FMI premierà anche Nicolò Bulega",
+      "link": "https://www.gpone.com/it/2026/11/24/motogp/moto-doro-2026-valentino-rossi-e-nicolo-bulega-premiati-a-rimini-dalla-fmi.html",
+      "fonte": "GPOne",
+      "data": "2026-11-24T10:39:50.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/05/WSBK/generic/rossi.jpg?itok=2jbgXP30",
+      "sommario": "Appuntamento il 10 dicembre al teatro Galli per un evento che sarà aperto gratuitamente al pubblico. Le informazioni per ritirare i biglietti"
+    },
+    {
+      "id": "22270684ade1",
+      "serie": "motogp",
+      "titolo": "Valencia, il Gran Premio degli addi: schieramento rivoluzionato per il 2027",
+      "link": "https://www.gpone.com/it/2026/11/24/motogp/valencia-il-gran-premio-degli-addi-schieramento-rivoluzionato-per-il-2027.html",
+      "fonte": "GPOne",
+      "data": "2026-11-24T10:29:25.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/garfico-cambiamenti.jpg?itok=ZujWNjle",
+      "sommario": "Solo 5 piloti non cambieranno casacca a fine anno. Dieci quelli che inizieranno una nuova avventura, 5 quelli che andranno via e altrettanti i debuttanti"
+    },
+    {
+      "id": "840099888a9a",
+      "serie": "motogp",
+      "titolo": "Marquez non scioglie i dubbi sul futuro: \"Il prossimo anno arriverà, ci sarà un test e ne parleremo\"",
+      "link": "https://www.gpone.com/it/2026/11/24/motogp/marquez-non-scioglie-i-dubbi-sul-futuro-il-prossimo-anno-arrivera-ci-sara-un-test-e-ne-parleremo.html",
+      "fonte": "GPOne",
+      "data": "2026-11-24T09:06:49.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/marquez-portimao-trionfo003.JPG?itok=_dfplTLF",
+      "sommario": "\"Lascio spazio alle interpretazioni. Ovviamente ho un contratto con Ducati. Bisogna assaporare questo mondiale. Il mondiale del 2025 lo avrei lasciato ad Alex\""
+    },
+    {
+      "id": "e0be91502299",
+      "serie": "sbk",
+      "titolo": "CFMOTO prepara lo sbarco in Superbike: Bautista nel mirino e prime wildcard nel 2027",
+      "link": "https://www.gpone.com/it/2026/11/24/wsbk/cfmoto-prepara-lo-sbarco-in-superbike-bautista-nel-mirino-e-prime-wildcard.html",
+      "fonte": "GPOne",
+      "data": "2026-11-24T08:58:46.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/WSBK/generic/cfmoto2.jpg?itok=4qCWU5Ur",
+      "sommario": "Aspar Martinez sta lavorando alacremente per allestire la squadra e Bautista sembra il principale indiziato per affiancare Matteo Ferrari nello sviluppo. Restano però alcuni nodi da sciogliere"
+    },
     {
       "id": "d761e678f5a8",
       "serie": "sbk",
@@ -3820,186 +4000,6 @@
       "data": "2026-11-06T10:00:00Z",
       "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/05/215937378-2bf99fd7-fb5f-4d16-b02c-da317fdd41b2.jpg",
       "sommario": "Malgrado i risultati Lewis pare non riuscire ancora ad inserirsi in Ferrari e dopo quanto successo in Messico non nasconde le tensioni con Charles"
-    },
-    {
-      "id": "8dd5ab3849a7",
-      "serie": "motogp",
-      "titolo": "Diretta MotoGP Qatar",
-      "link": "https://www.motosprint.it/news/eventi/gp-qatar/2026/11/06-9270978/diretta_motogp_prove_libere_gp_qatar_fp1_practice_e_tempi",
-      "fonte": "Motosprint",
-      "data": "2026-11-06T09:21:33.108Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/images/2026/11/06/082439802-d0949506-8d0d-43f1-86d8-09968cdb61a8.jpg",
-      "sommario": "Segui la cronaca testuale minuto per minuto diretamente dalla pista di Lusail"
-    },
-    {
-      "id": "6cfdc0f48765",
-      "serie": "motogp",
-      "titolo": "GP Qatar, Pecco Bagnaia spiega le parole di Sepang: \"Ho scelto un'altra strada per far parlare di me\"",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/06-9270943/gp_qatar_pecco_bagnaia_spiega_le_parole_di_sepang_ho_scelto_un_altra_strada_per_far_parlare_di_me",
-      "fonte": "Motosprint",
-      "data": "2026-11-06T09:21:33.108Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/05/183546204-c0f4aaff-c1ea-4d8b-9908-61a26e013e87.jpg",
-      "sommario": "Il campione Ducati è tornato sulle dichiarazioni dopo il GP della Malesia, rivendicando la scelta di esporsi sulla situazione tecnica della Ducati: \"Se ne sta parlando ancora molto, ha funzionato\"."
-    },
-    {
-      "id": "164b98c969b8",
-      "serie": "motogp",
-      "titolo": "LIVE - La diretta della FP1 del Gran Premio del Qatar a Lusail",
-      "link": "https://www.gpone.com/it/2026/11/06/motogp/live-la-diretta-della-fp1-del-gran-premio-del-qatar-a-lusail.html",
-      "fonte": "GPOne",
-      "data": "2026-11-06T09:19:00.000Z",
-      "immagine": "",
-      "sommario": "Alle 12:45 italiane scatta la prima sessione di prove libere sul circuito di Lusail. Yamaha non c'è, Martín tenta il rientro dopo l'infortunio e Márquez può già chiudere i conti con il Mondiale"
-    },
-    {
-      "id": "c0670ee688ff",
-      "serie": "motogp",
-      "titolo": "Lorenzo: \"Aprilia superiore alla Ducati, ma Marquez è il Senna della MotoGP”",
-      "link": "https://www.gpone.com/it/2026/11/05/motogp/lorenzo-dissi-a-sterlacchini-se-bezzecchi-non-cade-aprilia-vince-il-mondiale-al-100.html",
-      "fonte": "GPOne",
-      "data": "2026-11-06T08:00:00.000Z",
-      "immagine": "",
-      "sommario": "L’INTERVISTA – “Nessuna trappola: in Australia Martin ha avuto un problema all’avambraccio per cadere in quel modo. Marquez è l’Ayrton delle moto. A Bagnaia farà bene l’Aprilia”"
-    },
-    {
-      "id": "3e5cb273109e",
-      "serie": "motogp",
-      "titolo": "Marc Márquez si espone: “Qatar? Prenderò il primo aereo per andarmene, ma rimango concentrato”",
-      "link": "https://www.motosprint.it/news/eventi/gp-qatar/2026/11/05-9270137/marc_mrquez_si_espone_qatar_prender_il_primo_aereo_per_andarmene_ma_rimango_concentrato",
-      "fonte": "Motosprint",
-      "data": "2026-11-05T18:40:36.266Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/05/173124742-f2458ff6-2c00-4f69-9db8-51923a506e73.jpeg",
-      "sommario": "Il ducatista nella conferenza del giovedì: \"Mi piacerebbe essere da un'altra parte, ma siamo pronti a correre. Per me il titolo è ancora molto lontano, continuerò ad attaccare\""
-    },
-    {
-      "id": "9c7cbfdb9c95",
-      "serie": "f1",
-      "titolo": "Interlagos ’91, l’impresa di Senna: prima vittoria in casa con una marcia sola",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/05-9269479/interlagos_91_limpresa_di_senna_prima_vittoria_in_casa_con_una_marcia_sola",
-      "fonte": "Autosprint",
-      "data": "2026-11-05T18:40:36.266Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/05/140744130-caf0eff9-1628-4835-b30b-2ba540caf43c.jpeg",
-      "sommario": "Gran Premio di Interlagos 1991. Mansell si ritira, Patrese rimonta sotto la pioggia. Ayrton Senna, con la McLaren bloccata in sesta, vince in casa per 2,991 secondi"
-    },
-    {
-      "id": "cbbd512341fd",
-      "serie": "f1",
-      "titolo": "Liberty Media, F1 avanti come da programma con Qatar e Abu Dhabi",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/05-9269807/liberty_media_f1_avanti_come_da_programma_con_qatar_e_abu_dhabi",
-      "fonte": "Autosprint",
-      "data": "2026-11-05T18:40:36.266Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/05/160652594-f5db6e0e-47b4-4ccc-8b6d-606f9d871e4a.jpg",
-      "sommario": "Continuerà il monitoraggio delle condizioni di sicurezza nei due Paesi e il \"piano B\" (Imola) è pronto: la decisione verrà presa razionalmente"
-    },
-    {
-      "id": "8d29eabdfa91",
-      "serie": "motogp",
-      "titolo": "Marquez a Bezzecchi: \"Non potevo non venire in Qatar o ti avrei regalato punti\"",
-      "link": "https://www.gpone.com/it/2026/11/05/motogp/marquez-a-bezzecchi-non-potevo-non-venire-in-qatar-o-ti-avrei-regalo-punti.html",
-      "fonte": "GPOne",
-      "data": "2026-11-05T17:58:01.000Z",
-      "immagine": "",
-      "sommario": "\"Martin dice che solo io posso vincere o perdere il titolo? Lo hanno perso loro. Vorrei essere in un altro posto, ma abbiamo capito che dobbiamo rispettare i contratti\""
-    },
-    {
-      "id": "5e11d285a9b1",
-      "serie": "motogp",
-      "titolo": "MotoGP, Marquez risponde duro a Nieto: \"Vincere il decimo titolo non mi cambierà la vita\"",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/05-9269517/motogp_marquez_risponde_duro_a_nieto_vincere_il_decimo_titolo_non_mi_cambier_la_vita",
-      "fonte": "Motosprint",
-      "data": "2026-11-05T17:49:10.692Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/05/132032750-143205c0-c0e3-4b04-a974-627870e6ed94.jpg",
-      "sommario": "Il pilota Ducati è sempre più vicino al decimo titolo della sua carriera, un risultato che gli permetterebbe di superare Valentino Rossi, fermo a quota nove"
-    },
-    {
-      "id": "e39a5a3ad72f",
-      "serie": "motogp",
-      "titolo": "Dixon torna in MotoGP: Honda dell'assente Mir in Qatar",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/05-9268013/dixon_torna_in_motogp_honda_dell_assente_mir_in_qatar",
-      "fonte": "Motosprint",
-      "data": "2026-11-05T17:49:10.692Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/05/082601665-fb838f5b-6264-42f7-9fc7-13f3ccba09aa.jpg",
-      "sommario": "Jake a Lusail sulla RC213 V di Joan: l'inglese ritrova i prototipi della classe regina dopo 5 anni"
-    },
-    {
-      "id": "71b27b15f277",
-      "serie": "motogp",
-      "titolo": "Martin: “Solo Marc può vincere o perdere il titolo, ma voglio continuare a lottare”",
-      "link": "https://www.gpone.com/it/2026/11/05/motogp/martin-solo-marc-puo-vincere-o-perdere-il-titolo-ma-voglio-continuare-a-lottare.html",
-      "fonte": "GPOne",
-      "data": "2026-11-05T17:37:24.000Z",
-      "immagine": "",
-      "sommario": "“Non sono qui per rimandare la festa a Marquez, ma per cercare di portare la lotta fino all’ultima gara. Mi sento meglio rispetto alla Malesia e io voglio cogliere qualsiasi opportunità dovesse presentarsi”"
-    },
-    {
-      "id": "ca05bbdb0b5a",
-      "serie": "motogp",
-      "titolo": "Bezzecchi: \"Nel 2025 a Lusail ero ancora fidanzato con la RS-GP. Ora siamo sposati!\"",
-      "link": "https://www.gpone.com/it/2026/11/05/motogp/bezzecchi-nel-2025-a-lusail-ero-ancora-fidanzato-con-la-rs-gp-ora-siamo-sposati.html",
-      "fonte": "GPOne",
-      "data": "2026-11-05T17:19:07.000Z",
-      "immagine": "",
-      "sommario": "Marco racconta con ironia l'evoluzione del rapporto con la RS-GP, ma quando si parla del Mondiale torna serio: \"Vorrei tenere aperto il mondiale contro Marc, ma so che sarà dura. Darò tutto per riuscirci\""
-    },
-    {
-      "id": "1071aaf05b45",
-      "serie": "motogp",
-      "titolo": "Di Giannantonio, 10-12 km/h in meno: \"Non dipende da me, non ho preso chili\"",
-      "link": "https://www.gpone.com/it/2026/11/05/motogp/di-giannantonio-la-differenza-di-velocita-bisogna-chiedere-a-qualcun-altro.html",
-      "fonte": "GPOne",
-      "data": "2026-11-05T17:08:30.000Z",
-      "immagine": "",
-      "sommario": "\"Ho 10-12 chilometri orari in meno delle altre Ducati sul rettilineo, bisogna chiedere a qualcun altro il perchè della differenza. Il Qatar? spero un weekend normale\". Morbidelli: \"Concentriamoci sullo sport\""
-    },
-    {
-      "id": "05c7f38bd2b4",
-      "serie": "motogp",
-      "titolo": "Bastianini riapre il tema shakedown: \"Non è giusto avere così pochi test\"",
-      "link": "https://www.gpone.com/it/2026/11/05/motogp/bastianini-riapre-il-tema-shakedown-non-e-giusto-avere-cosi-pochi-test.html",
-      "fonte": "GPOne",
-      "data": "2026-11-05T16:42:22.000Z",
-      "immagine": "",
-      "sommario": "Chi cambierà costruttore \"avrà pochissimi giri a disposizione per prendere confidenza con le moto nuove. Mentre altri faranno un sacco di test. Dobbiamo aprire un confronto\""
-    },
-    {
-      "id": "f64dfa2d793a",
-      "serie": "motogp",
-      "titolo": "Bagnaia: \"La cosa che non c'è più sulla mia Ducati? Volevo fare parlare di me\"",
-      "link": "https://www.gpone.com/it/2026/11/05/motogp/bagnaia-la-cosa-che-non-ce-piu-sulla-mia-ducati-volevo-fare-parlare-di-me.html",
-      "fonte": "GPOne",
-      "data": "2026-11-05T16:28:39.000Z",
-      "immagine": "",
-      "sommario": "\"Non posso farlo per i risultati e ho scelto un'altra strada. Comunque finirà, nessuno potrà togliermi quanto ho fatto in questi anni. Ero preoccupato di venire in Qatar, ma ho deciso di fidarmi\""
-    },
-    {
-      "id": "a04248c3ac8b",
-      "serie": "motogp",
-      "titolo": "Dixon: \"È stato un anno sulle montagne russe: ho solo da guadagnarci a correre in Qatar\"",
-      "link": "https://www.gpone.com/it/2026/11/05/motogp/dixon-e-stato-un-anno-sulle-montagne-russe-ho-solo-da-guadagnarci-a-correre-in-qatar.html",
-      "fonte": "GPOne",
-      "data": "2026-11-05T16:18:56.000Z",
-      "immagine": "",
-      "sommario": "\"Per via dell'incidente di inizio stagione ho rischiato di fermarmi: volevo che la mia stagione continuasse, poi è arrivato il messaggio sul telefono\""
-    },
-    {
-      "id": "e7ccb8d1f128",
-      "serie": "motogp",
-      "titolo": "Lecuona: “Non penso a tornare a tempo pieno in MotoGP, sono felice in Superbike”",
-      "link": "https://www.gpone.com/it/2026/11/05/motogp/lecuona-non-penso-a-tornare-a-tempo-pieno-in-motogp-sono-felice-in-superbike.html",
-      "fonte": "GPOne",
-      "data": "2026-11-05T16:11:00.000Z",
-      "immagine": "",
-      "sommario": "“Sto vivendo una delle migliori pre-stagioni della mia vita e sto imparando cose che mi saranno utili l’anno prossimo. Seguire le orme di Bulega? Non ne so nulla, il mio manager non mi ha detto niente”"
-    },
-    {
-      "id": "b3ec8e2bb8a0",
-      "serie": "motogp",
-      "titolo": "Pirro: “Toto Wolff ha investito su Antonelli, Ducati lancia la Pre-Future Champ con il 250 Desmo\"",
-      "link": "https://www.gpone.com/it/2026/11/05/motogp/pirro-bagnaia-ce-poco-da-dire-la-situazione-la-vedete-tutti.html",
-      "fonte": "GPOne",
-      "data": "2026-11-05T16:00:00.000Z",
-      "immagine": "",
-      "sommario": "“E' dedicata ai ragazzi dai 13 ai 16 anni. Il mondiale di Aprilia? Vince sempre il migliore. Nel futuro Marc sarà intelligente con Acosta. Bagnaia? C’è poco da dire: la situazione la vedete tutti”"
     }
   ]
 }

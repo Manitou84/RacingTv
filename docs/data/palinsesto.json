@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-24T07:00:21.988Z",
+  "aggiornato": "2026-11-24T18:59:53.990Z",
   "weekend": [
     {
       "id": "motogp-gp-portogallo-2026",
@@ -422,21 +422,30 @@
           "classe": "Moto3",
           "sessione": "Gara",
           "inizio": "2026-11-29T10:00:00.000Z",
-          "tv8": null,
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-11-29T10:00:00.000Z"
+          },
           "fonte": "OA Sport"
         },
         {
           "classe": "Moto2",
           "sessione": "Gara",
           "inizio": "2026-11-29T11:15:00.000Z",
-          "tv8": null,
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-11-29T11:15:00.000Z"
+          },
           "fonte": "OA Sport"
         },
         {
           "classe": "MotoGP",
           "sessione": "Gara",
           "inizio": "2026-11-29T13:00:00.000Z",
-          "tv8": null,
+          "tv8": {
+            "tipo": "diretta",
+            "inizio": "2026-11-29T13:00:00.000Z"
+          },
           "fonte": "OA Sport"
         },
         {
