@@ -1,6 +1,66 @@
 {
-  "aggiornato": "2026-11-25T02:59:10.995Z",
+  "aggiornato": "2026-11-25T12:25:36.725Z",
   "articoli": [
+    {
+      "id": "2dd52a3af1dd",
+      "serie": "f1",
+      "titolo": "Alonso, il ritiro non è una questione d'età: \"Non vedo piloti superiori in pista\"",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/25-9327690/alonso_il_ritiro_non_una_questione_d_et_non_vedo_piloti_superiori_in_pista",
+      "fonte": "Autosprint",
+      "data": "2026-11-25T12:25:36.725Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/25/083520497-268d6f9a-c36e-4181-84cb-2a78494f14d0.jpg",
+      "sommario": "Fernando parla dell'impegno alla Dakar e della necessità di una stagione in F1 ad alto livello prima di decidere il ritiro: è un dovere nei confronti della carriera"
+    },
+    {
+      "id": "b3440b5c495a",
+      "serie": "f1",
+      "titolo": "A Las Vegas record di sorpassi in gara, ma Albon contesta: \"È stato un GP noioso\"",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/25-9327675/a_las_vegas_record_di_sorpassi_in_gara_ma_albon_contesta_stato_un_gp_noioso",
+      "fonte": "Autosprint",
+      "data": "2026-11-25T12:25:36.725Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/25/082739771-08e3a71e-36d2-4a9f-bb07-14b523462972.jpg",
+      "sommario": "Le oltre 300 manovre effettuate hanno esaltato tifosi, vertici dello sport e il boss Mercedes Wolff. Opposta invece, la reazione di alcuni piloti tra cui Verstappen"
+    },
+    {
+      "id": "6335b43465af",
+      "serie": "sbk",
+      "titolo": "All'attacco di Jerez: test SBK \"utile\" per la rivoluzione 2027",
+      "link": "https://www.motosprint.it/news/sbk/2026/11/25-9328390/all_attacco_di_jerez_test_sbk_utile_per_la_rivoluzione_2027",
+      "fonte": "Motosprint",
+      "data": "2026-11-25T12:25:36.725Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/25/090910962-4d836f9d-99ec-4302-aa5a-76930392a637.jpg",
+      "sommario": "Nonostante sia fuori dal prossimo calendario mondiale, l'Angel Nieto è tracciato attendibile per provare gomme Michelin, freni Brembo, benzina unica e un BoP sempre più invadente"
+    },
+    {
+      "id": "3f9aefc23857",
+      "serie": "motogp",
+      "titolo": "Dall'Igna: \"Questo titolo è un calice di vino pregiato. Marquez rasenta la perfezione\"",
+      "link": "https://www.gpone.com/it/2026/11/25/motogp/dalligna-questo-titolo-e-un-calice-di-vino-pregiato-marquez-rasenta-la-perfezione.html",
+      "fonte": "GPOne",
+      "data": "2026-11-25T11:00:54.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/dalligna-marquez.jpeg?itok=1JEhBmrU",
+      "sommario": "\"I miei complimenti ai nostri avversari per avere alzato l'asticella. Questo Mondiale appartiene a tutta la squadra, Marc un fenomeno rinato\""
+    },
+    {
+      "id": "70d403d40607",
+      "serie": "motogp",
+      "titolo": "Martin dice addio ad Aprilia: \"Facciamo in modo che l'ultimo GP sia speciale\"",
+      "link": "https://www.gpone.com/it/2026/11/25/motogp/martin-dice-addio-ad-aprilia-facciamo-in-modo-che-lultimo-gp-sia-speciale.html",
+      "fonte": "GPOne",
+      "data": "2026-11-25T09:09:40.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/03/MotoGP/generic/martin-viso-1774553318.jpg?itok=ujTZHKN5",
+      "sommario": "Per Jorge sarà l'ultimo weekend con la moto di Noale prima di passare alla Yamaha. Bezzecchi: \"Chiudiamo al meglio questa stagione e poi inizierà il 2027\""
+    },
+    {
+      "id": "5649277d42a9",
+      "serie": "motogp",
+      "titolo": "MotoGP, Ducati-Aprilia: a Valencia l'ultima battaglia per il Mondiale Marche",
+      "link": "https://www.gpone.com/it/2026/11/25/motogp/motogp-ducati-aprilia-a-valencia-lultima-battaglia-per-il-mondiale-marche.html",
+      "fonte": "GPOne",
+      "data": "2026-11-25T07:00:00.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/aprilia-ducati-marche.jpg?itok=flOIrgqz",
+      "sommario": "Nove punti separano le due Case italiane, con 37 ancora a disposizione. Ducati rischia di perdere un titolo che conquista ininterrottamente dal 2020, mentre Aprilia potrebbe centrare una storica doppietta dopo il Mondial"
+    },
     {
       "id": "28d16433c7e8",
       "serie": "motogp",
@@ -3940,66 +4000,6 @@
       "data": "2026-11-06T17:15:01.000Z",
       "immagine": "",
       "sommario": "Fabio firma 1'50.406 a Lusail e precede Marc Marquez di 0,142 secondi, con Bezzecchi terzo e protagonista anche prima dei time attack. Ducati occupa tre delle prime quattro posizioni, Aprilia porta tutte le sue moto in Q"
-    },
-    {
-      "id": "cb82073b0482",
-      "serie": "f1",
-      "titolo": "Antonelli come Hamilton e Vettel: il mito di Senna rivive nel casco di Kimi",
-      "link": "https://www.gpone.com/it/2026/11/06/formula-1/antonelli-come-hamilton-e-vettel-il-mito-di-senna-rivive-nel-casco-di-kimi.html",
-      "fonte": "GPOne",
-      "data": "2026-11-06T15:38:00.000Z",
-      "immagine": "",
-      "sommario": "Il neo campione del mondo celebra Ayrton a Interlagos con un casco ispirato alla storica vittoria del 1991. Un omaggio che segue quelli di Hamilton e Vettel e racconta quanto sia ancora forte l'eredità del brasiliano"
-    },
-    {
-      "id": "11dc9e4df0ed",
-      "serie": "motogp",
-      "titolo": "LIVE - La diretta delle Prequalifiche del Gran Premio del Qatar a Lusail",
-      "link": "https://www.gpone.com/it/2026/11/06/motogp/live-la-diretta-delle-prequalifiche-del-gran-premio-del-qatar-e-lusail.html",
-      "fonte": "GPOne",
-      "data": "2026-11-06T14:06:03.000Z",
-      "immagine": "",
-      "sommario": "Alle 17:00 italiane la Prequalifica di Lusail, con i dieci posti per la Q2 in palio. Marc Marquez ha chiuso davanti a tutti la FP1, ma l'Aprilia è vicinissima con Bezzecchi. Buoni segnali anche da Martín, quinto al rient"
-    },
-    {
-      "id": "e58dee2cdd72",
-      "serie": "motogp",
-      "titolo": "Marquez parte forte e firma le FP1 in Qatar, Bezzecchi 2°, Martin 5°",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/06-9272219/marquez_parte_forte_e_firma_le_fp1_in_qatar_bezzecchi_2_martin_5",
-      "fonte": "Motosprint",
-      "data": "2026-11-06T13:37:34.134Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/06/125458148-917682c2-2e47-4f7d-9ad6-afcb8072f5a0.jpeg",
-      "sommario": "Lo spagnolo precede Marco e Di Giannantonio, mentre Jorge mostra segnali di crescita incoraggianti. Tanta Italia in top ten\n"
-    },
-    {
-      "id": "e01287782eaa",
-      "serie": "f1",
-      "titolo": "Vettel ad Antonelli: \"Il titolo cambia come ti guardano gli altri. Tu non cambiare\"",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/06-9258734/vettel_ad_antonelli_il_titolo_cambia_come_ti_guardano_gli_altri_tu_non_cambiare",
-      "fonte": "Autosprint",
-      "data": "2026-11-06T12:15:02.640Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/06/120739152-dbdf705d-41bb-4750-a90a-e66a46465f02.jpg",
-      "sommario": "Dopo il Mondiale conquistato in Messico, il quattro volte campione dedica a Kimi un messaggio personale: il ricordo del primo trionfo, i compliementi e un consiglio"
-    },
-    {
-      "id": "00edb880e16f",
-      "serie": "motogp",
-      "titolo": "Luce verde per Jorge Martin in Qatar: ha il via libera dei medici per correre",
-      "link": "https://www.gpone.com/it/2026/11/06/motogp/luce-verde-per-jorge-martin-in-qatar-ha-il-via-libera-dei-medici-per-correre.html",
-      "fonte": "GPOne",
-      "data": "2026-11-06T10:31:09.000Z",
-      "immagine": "",
-      "sommario": "Come previsto dal nuovo protocollo, il dottor Angel Charte ha visitato questa mattina il pilota di Aprilia prima di dichiararlo 'fit'"
-    },
-    {
-      "id": "d878cebd7c9b",
-      "serie": "f1",
-      "titolo": "Lo status perso manda in crisi Hamilton e su Leclerc non si trattiene più",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/06-9270960/lo_status_perso_manda_in_crisi_hamilton_e_su_leclerc_non_si_trattiene_pi",
-      "fonte": "Autosprint",
-      "data": "2026-11-06T10:00:00Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/05/215937378-2bf99fd7-fb5f-4d16-b02c-da317fdd41b2.jpg",
-      "sommario": "Malgrado i risultati Lewis pare non riuscire ancora ad inserirsi in Ferrari e dopo quanto successo in Messico non nasconde le tensioni con Charles"
     }
   ]
 }
