@@ -1,6 +1,106 @@
 {
-  "aggiornato": "2026-11-25T12:25:36.725Z",
+  "aggiornato": "2026-11-25T21:53:50.639Z",
   "articoli": [
+    {
+      "id": "b103a905ee50",
+      "serie": "motogp",
+      "titolo": "Epilogo amaro: Bagnaia non correrà l’ultima gara con la Ducati a Valencia",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/25-9331364/epilogo_amaro_bagnaia_non_correr_lultima_gara_con_la_ducati_a_valencia",
+      "fonte": "Motosprint",
+      "data": "2026-11-25T21:53:50.639Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/25/155403275-66e65f3f-0133-478d-b5a6-8554666c3984.jpg",
+      "sommario": "Pecco è stato dichiarato unfit e non prenderà parte a quello che sarebbe stato il suo ultimo weekend con la Rossa prima del passaggio in Aprilia. Al suo posto ci sarà nuovamente Lecuona"
+    },
+    {
+      "id": "815bc0024992",
+      "serie": "motogp",
+      "titolo": "Giacomo Agostini prova a fare pace tra Rossi e Marquez: \"Li invito a cena e offro io\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/25-9331272/giacomo_agostini_prova_a_fare_pace_tra_rossi_e_marquez_li_invito_a_cena_e_offro_io",
+      "fonte": "Motosprint",
+      "data": "2026-11-25T21:53:50.639Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/25/154008811-d26072a6-9dab-4489-b1f1-076f526bbe21.jpg",
+      "sommario": "Il 15 volte iridato lancia una proposta di riappacificazione tra Valentino e Marc: \"Li invito a Bergamo, offro la cena con lo champagne e chiudiamo la storia\"."
+    },
+    {
+      "id": "b58b8035f467",
+      "serie": "motogp",
+      "titolo": "Valentino Rossi e il consiglio a Kimi Antonelli: “Era disperato”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/25-9330191/valentino_rossi_e_il_consiglio_a_kimi_antonelli_era_disperato",
+      "fonte": "Motosprint",
+      "data": "2026-11-25T21:53:50.639Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/25/134323080-bf4f2e8a-055e-4213-b4cb-56c5c29b496b.jpg",
+      "sommario": "Il Dottore racconta un aneddoto risalente a Imola 2025 nel suo libro: \"Devi imparare a dire di no: spesso ti salva, anche a costo di sembrare uno stronzo\""
+    },
+    {
+      "id": "5a05be139f42",
+      "serie": "motogp",
+      "titolo": "Aprilia tra due fuochi a Valencia: tra il primo titolo Costruttori in MotoGP e la lotta interna",
+      "link": "https://www.motosprint.it/news/eventi/gp-valencia/2026/11/25-9329202/aprilia_tra_due_fuochi_a_valencia_tra_il_primo_titolo_costruttori_in_motogp_e_la_lotta_interna",
+      "fonte": "Motosprint",
+      "data": "2026-11-25T21:53:50.639Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/25/114229771-e73b6ebd-fc2b-419d-beec-99f431f32616.jpg",
+      "sommario": "La Casa veneta si giocherà il Costruttori contro Ducati e arriva in Spagna con 9 punti di vantaggio. Martín e Bezzecchi, allo stesso tempo, sono separati da 2 punti per il 2° posto tra i piloti"
+    },
+    {
+      "id": "8af573b5da3f",
+      "serie": "f1",
+      "titolo": "Budget cap, la FIA notifica due violazioni: sanzioni per Williams e Alpine",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/25-9331683/budget_cap_la_fia_notifica_due_violazioni_sanzioni_per_williams_e_alpine",
+      "fonte": "Autosprint",
+      "data": "2026-11-25T21:53:50.639Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/25/170605418-f8237a1a-117e-4d51-8218-dd0587f026bd.jpg",
+      "sommario": "Le due scuderia hanno raggiunto un accordo con la FIA dopo che sono state rilevate violazioni diverse, in un caso anche di superamento del tetto di spesa"
+    },
+    {
+      "id": "2a09bfa9712d",
+      "serie": "f1",
+      "titolo": "Verstappen, GTA 6 senza segreti: 40 ore di gioco nel week end di Las Vegas",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/25-9329736/verstappen_gta_6_senza_segreti_40_ore_di_gioco_nel_week_end_di_las_vegas",
+      "fonte": "Autosprint",
+      "data": "2026-11-25T21:53:50.639Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/25/131207912-bfd2170a-1ae7-4917-8c1b-20581f0cb46f.jpg",
+      "sommario": "Max ha rivelato durante una diretta Twitch (sempre impegnato con l'ultimo titolo di GTA) di aver completato l'80% delle missioni nel fine settimana di Las Vegas"
+    },
+    {
+      "id": "1041363a10f6",
+      "serie": "motogp",
+      "titolo": "Beirer: \"Acosta ha estratto il massimo da KTM, superando ogni sfida in tempi brevissimi\"",
+      "link": "https://www.gpone.com/it/2026/11/25/motogp/beirer-acosta-ha-superato-il-massimo-superando-ogni-sfida-in-tempi-brevissimi.html",
+      "fonte": "GPOne",
+      "data": "2026-11-25T18:35:46.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/ktm.jpg?itok=rnkehiUx",
+      "sommario": "KTM saluta Acosta e Binder in vista del finale di Valencia: \"Brad ha rappresentato il metodo e lo spirito della nostra azienda\""
+    },
+    {
+      "id": "c58b9a743002",
+      "serie": "sbk",
+      "titolo": "Alex Lowes e Bimota comandano la prima giornata di test a Jerez, 2° Locatelli",
+      "link": "https://www.gpone.com/it/2026/11/25/wsbk/alex-lowes-e-bimota-comandano-la-prima-giornata-di-test-a-jerez-2deg-locatelli.html",
+      "fonte": "GPOne",
+      "data": "2026-11-25T17:15:30.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/WSBK/generic/alex-lowes-jerez.jpg?itok=DtxWGJND",
+      "sommario": "Il britannico mette tutti in fila scendendo sotto al muro dell’1’40”. Terza e quinta piazza per le Honda di Dixon e Rea, separate dalla Kawasaki di Gerloff. Seguono Bassani e van der Mark"
+    },
+    {
+      "id": "64edead5eda7",
+      "serie": "motogp",
+      "titolo": "ULTIM'ORA: Bagnaia salta anche Valencia, addio amaro alla Ducati",
+      "link": "https://www.gpone.com/it/2026/11/25/motogp/ultimora-bagnaia-salta-anche-valencia-addio-amaro-alla-ducati.html",
+      "fonte": "GPOne",
+      "data": "2026-11-25T16:06:11.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/pecco.jpg?itok=BBG-Vj91",
+      "sommario": "Non ci sarà un'ultimo ballo tra Pecco Bagnaia e la Ducati a Valencia, l'ultimo controllo medico non è andato secondo i piani e Iker Lecuona dovrà sostituirlo nuovamente"
+    },
+    {
+      "id": "5d5fb638a884",
+      "serie": "motogp",
+      "titolo": "Simoncelli elogia Marquez: “Mi sarebbe piaciuto vedere Marc lottare contro Marco”",
+      "link": "https://www.gpone.com/it/2026/11/25/motogp/simoncelli-elogia-marquez-mi-sarebbe-piaciuto-vedere-marc-lottare-contro-marco.html",
+      "fonte": "GPOne",
+      "data": "2026-11-25T13:57:39.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/simoncelli-qatar.jpg?itok=dNO6E1sP",
+      "sommario": "“Un altro avrebbe lasciato dopo l’incidente in Indonesia, lui invece è tornato e sta facendo qualcosa di incredibile: corre con un braccio e lascia tutti indietro. Acosta sarà il futuro”"
+    },
     {
       "id": "2dd52a3af1dd",
       "serie": "f1",
@@ -3900,106 +4000,6 @@
       "data": "2026-11-06T19:42:43.014Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/06/190432023-5de70297-7ff4-476c-8670-468198b3a619.jpg",
       "sommario": "Il catalano trova degli alleati: \"Mi limiterò a raccogliere il massimo dei punti possibile. Di Giannantonio? Sono contento sia veloce così potrà lottare con le Aprilia\""
-    },
-    {
-      "id": "924e7692a4e7",
-      "serie": "motogp",
-      "titolo": "Martín migliora giro dopo giro: “Di questo passo, domenica posso finire la gara”",
-      "link": "https://www.motosprint.it/news/eventi/gp-qatar/2026/11/06-9273848/martn_migliora_giro_dopo_giro_di_questo_passo_domenica_posso_finire_la_gara",
-      "fonte": "Motosprint",
-      "data": "2026-11-06T19:42:43.014Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/06/184613442-fee5bd9b-e589-43b3-b7ce-2621bd5c0036.jpg",
-      "sommario": "Il madrileno è fiducioso: \"La forza sulla mano destra è poca e nel time attack soffro, ma il miglioramento rispetto a stamattina mi fa ben sperare per domenica\""
-    },
-    {
-      "id": "0d696484f91c",
-      "serie": "motogp",
-      "titolo": "Dixon: \"Ero imbarazzato: Puig mi ha detto di non cadere e io sono subito finito a terra\"",
-      "link": "https://www.gpone.com/it/2026/11/06/motogp/dixon-ero-imbarazzato-puig-mi-ha-detto-di-non-cadere-e-io-sono-subito-finito-a-terra.html",
-      "fonte": "GPOne",
-      "data": "2026-11-06T19:28:31.000Z",
-      "immagine": "",
-      "sommario": "\"Crutchlow mi ha detto che la prestazione è stata impressionante. Il fatto è che ho poco tempo per imparare e conoscere\""
-    },
-    {
-      "id": "4be6f7971c0a",
-      "serie": "motogp",
-      "titolo": "Marc Marquez: \"La mia guerra è coi piloti, non con le case, mi basta quella in pista\"",
-      "link": "https://www.gpone.com/it/2026/11/06/motogp/marc-marquez-la-mia-guerra-e-coi-piloti-non-con-le-case-mi-basta-quella-in-pista.html",
-      "fonte": "GPOne",
-      "data": "2026-11-06T19:01:18.000Z",
-      "immagine": "",
-      "sommario": "\"Per Bezzecchi sarà tutto o niente, è scomodo perchè non puoi sbagliare, comodo perchè non hai nulla da perdere. Martin ha tirato fuori la forza di chi lotta per un mondiale. Sarà una qualifica combattuta\""
-    },
-    {
-      "id": "616c89cdd284",
-      "serie": "motogp",
-      "titolo": "Pecco Bagnaia: \"Mi sono sentito di nuovo un vero pilota ufficiale\"",
-      "link": "https://www.gpone.com/it/2026/11/06/motogp/pecco-bagnaia-mi-sono-sentito-di-nuovo-un-vero-pilota-ufficiale.html",
-      "fonte": "GPOne",
-      "data": "2026-11-06T18:53:42.000Z",
-      "immagine": "",
-      "sommario": "\"Oggi mi sono divertito e un po' me lo aspettavo per via del circuito e dell'asfalto. Nella Sprint potrei avere una buona occasione, voglio restituire qualcosa al mio team\""
-    },
-    {
-      "id": "7889c9be4507",
-      "serie": "motogp",
-      "titolo": "Acosta: “Cerco una svolta per sabato, peggio di così non poteva andare”",
-      "link": "https://www.gpone.com/it/2026/11/06/motogp/acosta-cerco-una-svolta-per-sabato-peggio-di-cosi-non-poteva-andare.html",
-      "fonte": "GPOne",
-      "data": "2026-11-06T18:44:13.000Z",
-      "immagine": "",
-      "sommario": "“La moto si è fermata per un problema elettrico. Non è normale che con la gomma nuova morbida siamo più lenti rispetto a una media usata”"
-    },
-    {
-      "id": "0c131316e040",
-      "serie": "motogp",
-      "titolo": "Martin: \"Ho tanta adrenalina che anche se sento dolore, me ne frego e spingo\"",
-      "link": "https://www.gpone.com/it/2026/11/06/motogp/martin-ho-tanta-adrenalina-che-anche-se-sento-dolore-me-ne-freno-e-spingo.html",
-      "fonte": "GPOne",
-      "data": "2026-11-06T18:42:28.000Z",
-      "immagine": "",
-      "sommario": "\"Ho imparato da Nadal: con il dolore bisogna conviverci. Attualmente soffro soprattutto nel time attack, ma sto molto meglio. Magari fossi stato così anche a Sepang...\""
-    },
-    {
-      "id": "90ceedf18f91",
-      "serie": "motogp",
-      "titolo": "Bezzecchi: “La nuova MotoGP è molto figa, ma mi mancheranno i 370 km/h”",
-      "link": "https://www.gpone.com/it/2026/11/06/motogp/bezzecchi-la-nuova-motogp-e-molto-figa-ma-mi-mancheranno-i-370-kmh.html",
-      "fonte": "GPOne",
-      "data": "2026-11-06T18:30:12.000Z",
-      "immagine": "",
-      "sommario": "\"Con queste moto per me è stato amore a prima vista, ma so che ci saranno cose belle anche con le prossime. Io forte sul passo? Si, ma serve un passo in avanti in qualifica, perché partire dietro può diventare un problem"
-    },
-    {
-      "id": "26d6f0509414",
-      "serie": "motogp",
-      "titolo": "Di Giannantonio: \"Un peccato, negli ultimi GP avremmo potuto lavorare meglio\"",
-      "link": "https://www.gpone.com/it/2026/11/06/motogp/di-giannantonio-un-peccato-negli-ultimi-gp-avremmo-potuto-lavorare-meglio.html",
-      "fonte": "GPOne",
-      "data": "2026-11-06T18:12:26.000Z",
-      "immagine": "",
-      "sommario": "\"Sono bastate poche modifiche per ritrovare buone sensazioni\". I problemi al motore non sono risolti: 6 Km/h in meno di Lecuona in velocità massima"
-    },
-    {
-      "id": "1fe6d82fdb56",
-      "serie": "motogp",
-      "titolo": "Lampo per Di Giannantonio, Márquez e Bezzecchi inseguono. Anche Martín in Q2!",
-      "link": "https://www.motosprint.it/news/eventi/gp-qatar/2026/11/06-9273752/lampo_per_di_giannantonio_mrquez_e_bezzecchi_inseguono_anche_martn_in_q2_",
-      "fonte": "Motosprint",
-      "data": "2026-11-06T17:39:33.172Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/06/172029085-7a9f4d13-486b-4685-a0b4-a921a5d6b76c.jpeg",
-      "sommario": "Il romano stabilisce il nuovo record a Lusail, ma la lotta è tutta dietro. Márquez e Bezzecchi si studiano, Bagnaia risorge ed è 4° mentre Martín stringe i denti ed è 7°"
-    },
-    {
-      "id": "f4b5cce634bf",
-      "serie": "motogp",
-      "titolo": "Di Giannantonio da record, Ducati davanti ma Aprilia resta vicina",
-      "link": "https://www.gpone.com/it/2026/11/06/motogp/di-giannantonio-da-record-ducati-davanti-ma-aprilia-resta-vicina.html",
-      "fonte": "GPOne",
-      "data": "2026-11-06T17:15:01.000Z",
-      "immagine": "",
-      "sommario": "Fabio firma 1'50.406 a Lusail e precede Marc Marquez di 0,142 secondi, con Bezzecchi terzo e protagonista anche prima dei time attack. Ducati occupa tre delle prime quattro posizioni, Aprilia porta tutte le sue moto in Q"
     }
   ]
 }

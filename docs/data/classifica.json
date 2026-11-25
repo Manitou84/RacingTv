@@ -1,7 +1,7 @@
 {
-  "aggiornato": "2026-11-25T12:25:36.725Z",
+  "aggiornato": "2026-11-25T21:53:50.639Z",
   "motogp": {
-    "aggiornato": "2026-11-25T12:25:36.725Z",
+    "aggiornato": "2026-11-25T21:53:50.639Z",
     "fonte": "Motosprint",
     "piloti": [
       {
@@ -322,7 +322,7 @@
     ]
   },
   "f1": {
-    "aggiornato": "2026-11-25T12:25:36.725Z",
+    "aggiornato": "2026-11-25T21:53:50.639Z",
     "fonte": "Autosprint",
     "piloti": [
       {
@@ -489,14 +489,14 @@
       {
         "pos": 24,
         "slug": "sergio-perez",
-        "nome": "S. Perez",
+        "nome": "S. Pérez",
         "team": "Cadillac Formula 1 Team",
         "punti": 0
       },
       {
         "pos": 25,
         "slug": "rafael-camara",
-        "nome": "R. Camara",
+        "nome": "R. Câmara",
         "team": "Haas F1 Team",
         "punti": 0
       }
@@ -561,7 +561,7 @@
     ]
   },
   "sbk": {
-    "aggiornato": "2026-11-25T12:25:36.725Z",
+    "aggiornato": "2026-11-25T21:53:50.639Z",
     "fonte": "Wikipedia",
     "piloti": [
       {
