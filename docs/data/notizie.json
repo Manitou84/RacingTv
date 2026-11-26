@@ -1,6 +1,106 @@
 {
-  "aggiornato": "2026-11-26T03:54:02.407Z",
+  "aggiornato": "2026-11-26T13:29:32.905Z",
   "articoli": [
+    {
+      "id": "2efcb9efacbf",
+      "serie": "motogp",
+      "titolo": "Doppio impegno per Marco Bezzecchi a Valencia: titolo costruttori e 2° posto alla portata",
+      "link": "https://www.motosprint.it/news/eventi/gp-valencia/2026/11/26-9333692/doppio_impegno_per_marco_bezzecchi_a_valencia_titolo_costruttori_e_2_posto_alla_portata",
+      "fonte": "Motosprint",
+      "data": "2026-11-26T13:29:32.905Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/26/130830836-6f854466-5701-4ebc-966c-fa87a6acedb6.jpg",
+      "sommario": "Il romagnolo è reduce dalla vittoria di Portimão, in quello che è stato il suo miglior weekend del 2026: \"Contento di essere di nuovo in pista, ma c'è anche fermento per le nuove 850\""
+    },
+    {
+      "id": "8a8dfaba59be",
+      "serie": "motogp",
+      "titolo": "Ritorno e addio: Joan Mir a Valencia prima di salire sulla Ducati di Gresini Racing",
+      "link": "https://www.motosprint.it/news/eventi/gp-valencia/2026/11/26-9332492/ritorno_e_addio_joan_mir_a_valencia_prima_di_salire_sulla_ducati_di_gresini_racing",
+      "fonte": "Motosprint",
+      "data": "2026-11-26T13:29:32.905Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/26/093419746-6c445edc-32ac-49a5-ab05-ea7533bf2774.jpeg",
+      "sommario": "Il maiorchino vivrà l'ultimo weekend della carriera da pilota HRC al termine di una stagione costellata da problemi fisici. Il focus, ovviamente, è sul primo approccio con la Desmosedici"
+    },
+    {
+      "id": "5c51cfd19581",
+      "serie": "motogp",
+      "titolo": "Da GTA V a GTA VI, 13 anni di MotoGP: Rossi è ancora davanti, ma Marquez lo bracca da vicino",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/26-9331380/da_gta_v_a_gta_vi_13_anni_di_motogp_rossi_ancora_davanti_ma_marquez_lo_bracca_da_vicino",
+      "fonte": "Motosprint",
+      "data": "2026-11-26T13:29:32.905Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/25/155815942-cc58c174-0ea6-40c7-938c-0246dc38168f.jpg",
+      "sommario": "Nel 2013 il campione di Tavullia guidava la classifica delle vittorie in top class con 80 successi, mentre Marquez era a quota 6. Ecco la situazione tredici anni dopo"
+    },
+    {
+      "id": "e947ea6dc754",
+      "serie": "f1",
+      "titolo": "Brignone e il desiderio di un’ultima gara, come Grosjean dopo il Bahrain",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/26-9332677/brignone_e_il_desiderio_di_unultima_gara_come_grosjean_dopo_il_bahrain",
+      "fonte": "Autosprint",
+      "data": "2026-11-26T13:29:32.905Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/26/104830148-a95955e8-9957-48ef-a5de-d7a790fded31.jpg",
+      "sommario": "Dalla caduta ai due ori di Milano Cortina, fino al ritiro. Il desiderio di un’ultima partenza ricorda quello di Romain Grosjean dopo l’incidente del Bahrain"
+    },
+    {
+      "id": "ef7adcac4d0c",
+      "serie": "f1",
+      "titolo": "Mercato piloti, deciso il futuro di Bearman nel 2027",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/26-9332410/mercato_piloti_deciso_il_futuro_di_bearman_nel_2027",
+      "fonte": "Autosprint",
+      "data": "2026-11-26T13:29:32.905Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/26/093930505-765e8fac-997a-4131-8a00-e0063028bba4.jpg",
+      "sommario": "Un'altra tessera della griglia va al proprio posto e l'inglese sarà un osservatore interessato di quanto accadrà in Ferrari la prossima stagione, orizzonte 2028"
+    },
+    {
+      "id": "0a2ee6afd0c5",
+      "serie": "f1",
+      "titolo": "F1 senza cuore: i circuiti inutili di India e Vietnam, l'ospedale abbattuto in Rwanda",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/26-9331792/f1_senza_cuore_i_circuiti_inutili_di_india_e_vietnam_l_ospedale_abbattuto_in_rwanda",
+      "fonte": "Autosprint",
+      "data": "2026-11-26T13:29:32.905Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/26/091120323-89981fa3-18d4-42ab-b11f-dd7b8b0c23d5.jpg",
+      "sommario": "Per i propri interessi il Circus ha spesso dimostrato di non avere pietà e pure il suo ritorno in Africa programmato per il 2030 sta facendo discutere"
+    },
+    {
+      "id": "16d59dbc9a19",
+      "serie": "f1",
+      "titolo": "Vettel: era una Ferrari a cui mancavano coraggio ed efficienza",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/26-9331993/vettel_era_una_ferrari_a_cui_mancavano_coraggio_ed_efficienza",
+      "fonte": "Autosprint",
+      "data": "2026-11-26T13:29:32.905Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/26/090547281-9b7966d1-2f94-4ef1-ae09-d4f38c6a0a88.jpg",
+      "sommario": "Sebastian ricorda gli anni delle rincorse tecniche continue su Mercedes. Un coraggio a innovare tornato con il progetto e lo sviluppo 2026 ma non è bastato"
+    },
+    {
+      "id": "723fd9e67d6a",
+      "serie": "motogp",
+      "titolo": "Di Giannantonio: \"KTM? L'importante è non avere aspettative e pregiudizi\"",
+      "link": "https://www.gpone.com/it/2026/11/26/motogp/di-giannantonio-ktm-limportante-e-non-avere-aspettative-e-pregiudizi.html",
+      "fonte": "GPOne",
+      "data": "2026-11-26T12:43:35.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/diggia4.jpg?itok=c7ude4Ap",
+      "sommario": "\"Con le 850 torneremo a uno stile di guida simile alle moto del passato, ma la MotoGP deve essere estrema\""
+    },
+    {
+      "id": "c2fa893d6dbb",
+      "serie": "motogp",
+      "titolo": "Luca Marini: “Senna Agius? Potrà darci più consigli di quanti noi ne daremo a lui”",
+      "link": "https://www.gpone.com/it/2026/11/26/motogp/luca-marini-senna-agius-potra-darci-piu-consigli-di-quanti-noi-ne-daremo-a-lui.html",
+      "fonte": "GPOne",
+      "data": "2026-11-26T12:25:53.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/marini-portimao.jpg?itok=T5BPsmn2",
+      "sommario": "“Sarà positivo dividere il box con un pilota che conosce già bene le Pirelli. Il triennio in Honda è stato fantastico. Mi sono sempre sentito ascoltato, ma che poi abbiano fatto ciò che ho detto è un’altra cosa”"
+    },
+    {
+      "id": "651cc1f486bf",
+      "serie": "motogp",
+      "titolo": "Pedrosa: \"Marquez poteva distruggere cinque moto e poi vincere. Io non potevo permettermelo\"",
+      "link": "https://www.gpone.com/it/2026/11/26/motogp/pedrosa-marquez-poteva-distruggere-cinque-moto-e-poi-vincere-io-non-potevo-permettermelo.html",
+      "fonte": "GPOne",
+      "data": "2026-11-26T11:03:11.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/pedrosa-marquez-cover001.jpg?itok=5JFCeBvC",
+      "sommario": "Dani racconta i due opposti approcci alle gare, il coraggio di Marc in frenata e la rivalità interna al team Repsol Honda, dove il primo avversario era il compagno di squadra"
+    },
     {
       "id": "b103a905ee50",
       "serie": "motogp",
@@ -140,6 +240,16 @@
       "data": "2026-11-25T11:00:54.000Z",
       "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/dalligna-marquez.jpeg?itok=1JEhBmrU",
       "sommario": "\"I miei complimenti ai nostri avversari per avere alzato l'asticella. Questo Mondiale appartiene a tutta la squadra, Marc un fenomeno rinato\""
+    },
+    {
+      "id": "7b4e10a175c7",
+      "serie": "motogp",
+      "titolo": "Giacomo Agostini prova a mettere pace tra Rossi e Marquez: \"Li invito a cena e offro io\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/25-9331272/giacomo_agostini_prova_a_mettere_pace_tra_rossi_e_marquez_li_invito_a_cena_e_offro_io",
+      "fonte": "Motosprint",
+      "data": "2026-11-25T10:00:00Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/25/154008811-d26072a6-9dab-4489-b1f1-076f526bbe21.jpg",
+      "sommario": "Il 15 volte iridato lancia una proposta di riappacificazione tra Valentino e Marc: \"Li invito a Bergamo, offro la cena con lo champagne e chiudiamo la storia\"."
     },
     {
       "id": "70d403d40607",
@@ -3890,116 +4000,6 @@
       "data": "2026-11-07T16:33:19.000Z",
       "immagine": "",
       "sommario": "L'incidente al 4° giro alla prima curva. Gli Steward non penalizzano Marc, per Marco è l'addio alla lotta per il titolo"
-    },
-    {
-      "id": "03bbd88b824f",
-      "serie": "motogp",
-      "titolo": "LIVE - La diretta della Sprint Race del Gran Premio del Qatar a Lusail",
-      "link": "https://www.gpone.com/it/2026/11/07/motogp/live-la-diretta-della-sprint-race-del-gran-premio-del-qatar-a-lusail.html",
-      "fonte": "GPOne",
-      "data": "2026-11-07T14:02:47.000Z",
-      "immagine": "",
-      "sommario": "Alle 17:00 italiane scatta la Sprint di Lusail, con Bezzecchi davanti a tutti dopo una pole da record. Márquez parte secondo, Di Giannantonio terzo, mentre Martín dovrà risalire dall'undicesima posizione. In palio punti "
-    },
-    {
-      "id": "5c31f3a4b6e6",
-      "serie": "motogp",
-      "titolo": "Bezzecchi piega Marquez e si prende la pole in Qatar, 3° Di Giannantonio",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/07-9275032/bezzecchi_piega_marquez_e_si_prende_la_pole_in_qatar_3_di_giannantonio",
-      "fonte": "Motosprint",
-      "data": "2026-11-07T13:22:55.234Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/07/123733215-f2286296-8394-4f19-8e3d-6c33e6c607cb.jpg",
-      "sommario": "Marco firma il nuovo record della pista precedendo Marc e Fabio. 5° Bagnaia, Martin solamente in quarta fila \n"
-    },
-    {
-      "id": "070bde0c158c",
-      "serie": "f1",
-      "titolo": "GP Qatar e Abu Dhabi, le TV internazionali si tirano indietro?",
-      "link": "https://www.autosprint.it/news/formula1/in-diretta/2026/11/07-9275044/gp_qatar_e_abu_dhabi_le_tv_internazionali_si_tirano_indietro_",
-      "fonte": "Autosprint",
-      "data": "2026-11-07T13:22:55.234Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/07/125451077-2995a9ec-84af-4492-806d-9d5bb4947c74.jpg",
-      "sommario": "Secondo fonti tedesche, diverse emittenti televisive internazionali sarebbero decise a dare forfait per gli ultimi 2 GP stagionali. Intanto Imola aspetta"
-    },
-    {
-      "id": "ad275074409f",
-      "serie": "f1",
-      "titolo": "Red Bull brucia un altro pilota: Lawson vicino all'uscita dalla F1 dopo solo due stagioni",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/07-9274324/red_bull_brucia_un_altro_pilota_lawson_vicino_all_uscita_dalla_f1_dopo_solo_due_stagioni",
-      "fonte": "Autosprint",
-      "data": "2026-11-07T10:30:26.124Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/06/203904000-0efc04be-7ede-419e-bd5c-e762d8d92404.jpg",
-      "sommario": "I vertici di Milton Keynes e di Faenza, fedeli alla loro vocazione di cacciatori di talenti, vorrebbero promuovere Tsolov al fianco di Lindblad in Racing Bulls"
-    },
-    {
-      "id": "f8e89acb54bd",
-      "serie": "motogp",
-      "titolo": "Bulega, lo scherzo a EICMA: ritorno in Superbike a Phillip Island con Lecuona e Morbidelli",
-      "link": "https://www.gpone.com/it/2026/11/07/motogp/bulega-infiamma-eicma-correra-a-phillip-island-con-lecuona-e-morbidelli.html",
-      "fonte": "GPOne",
-      "data": "2026-11-07T08:08:11.000Z",
-      "immagine": "",
-      "sommario": "Nicolò è stato ospite venerdì al Salone, svelando che presto tornerà sulla Panigale V4. Gli appassionati sognano, ma sarà proprio così?"
-    },
-    {
-      "id": "f11daa563bd5",
-      "serie": "motogp",
-      "titolo": "LIVE - La diretta delle Qualifiche del Gran Premio del Qatar a Lusail",
-      "link": "https://www.gpone.com/it/2026/11/07/motogp/live-la-diretta-delle-qualifiche-del-gran-premio-del-qatar-a-lusail.html",
-      "fonte": "GPOne",
-      "data": "2026-11-07T07:50:21.000Z",
-      "immagine": "",
-      "sommario": "Di Giannantonio ha chiuso le prequalifiche con il nuovo record della pista, davanti a Márquez e Bezzecchi. Bagnaia veloce, Martín conquista l'accesso diretto alla Q2, mentre Acosta deve passare dalla Q1."
-    },
-    {
-      "id": "a705571996ef",
-      "serie": "motogp",
-      "titolo": "Qatar, Lusail: dal deserto al Guinness dei primati, passando per la rivolta di Rossi e Stoner",
-      "link": "https://www.gpone.com/it/2026/11/07/motogp/lusail-dal-deserto-alla-formula-1-la-straordinaria-trasformazione-del-circuito-del-qatar.html",
-      "fonte": "GPOne",
-      "data": "2026-11-07T07:41:00.000Z",
-      "immagine": "",
-      "sommario": "Nel 2004 c'erano soltanto asfalto e sabbia, nel 2009 la pioggia fece infuriare Valentino e Casey. Oggi il Qatar ospita MotoGP, F1 e WEC, ma le tensioni non sono finite"
-    },
-    {
-      "id": "ba80434d3613",
-      "serie": "motogp",
-      "titolo": "Da Ezpeleta a Wolff: i piloti sono eroi, ma solo quando stanno zitti e buoni",
-      "link": "https://www.gpone.com/it/2026/11/07/motogp/da-ezpeleta-a-wolff-i-piloti-sono-eroi-ma-solo-quando-stanno-zitti-e-buoni.html",
-      "fonte": "GPOne",
-      "data": "2026-11-07T07:36:35.000Z",
-      "immagine": "",
-      "sommario": "Il boss di Mercedes: \"non sanno niente di questione geopolitiche ma hanno eco mediatica\". I manager hanno bisogno di loro, ma non sembra vogliano ascoltarli"
-    },
-    {
-      "id": "2b80a1c2b87e",
-      "serie": "motogp",
-      "titolo": "Fernandez: “Non sono ancora al 100%, ma ora riesco a frenare usando l’indice”",
-      "link": "https://www.gpone.com/it/2026/11/06/motogp/fernandez-non-sono-ancora-al-100-ma-ora-riesco-a-frenare-usando-lindice.html",
-      "fonte": "GPOne",
-      "data": "2026-11-06T19:46:56.000Z",
-      "immagine": "",
-      "sommario": "“Ho un po’ di dolore ma l’osso è quasi guarito, la cosa che mi limita di più sono i legamenti. L’Aprilia va davvero bene, ma non abbiamo il pilota automatico: è la combinazione con i piloti che funziona”"
-    },
-    {
-      "id": "30ea96eb871f",
-      "serie": "motogp",
-      "titolo": "Bezzecchi tra i favoriti in Qatar: \"Mi sono trovato bene fin da subito, ma soffro con la Soft\"",
-      "link": "https://www.motosprint.it/news/eventi/gp-qatar/2026/11/06-9273845/bezzecchi_tra_i_favoriti_in_qatar_mi_sono_trovato_bene_fin_da_subito_ma_soffro_con_la_soft",
-      "fonte": "Motosprint",
-      "data": "2026-11-06T19:42:43.014Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/06/182801417-35e7aed2-eaec-4c59-99e0-6eb603d64f02.jpg",
-      "sommario": "Il romagnolo di Aprilia è terzo e autore di un ottimo passo gara: \"Sul giro secco faccio ancora fatica, ma i passi in avanti fatti da Aprilia rispetto al 2025 sono enormi\""
-    },
-    {
-      "id": "3b489aac8ec6",
-      "serie": "motogp",
-      "titolo": "Márquez gioca in difesa: “La vittoria non è l'obiettivo, Bezzecchi non ha nulla da perdere”",
-      "link": "https://www.motosprint.it/news/eventi/gp-qatar/2026/11/06-9274016/mrquez_gioca_in_difesa_la_vittoria_non_l_obiettivo_bezzecchi_non_ha_nulla_da_perdere",
-      "fonte": "Motosprint",
-      "data": "2026-11-06T19:42:43.014Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/06/190432023-5de70297-7ff4-476c-8670-468198b3a619.jpg",
-      "sommario": "Il catalano trova degli alleati: \"Mi limiterò a raccogliere il massimo dei punti possibile. Di Giannantonio? Sono contento sia veloce così potrà lottare con le Aprilia\""
     }
   ]
 }
