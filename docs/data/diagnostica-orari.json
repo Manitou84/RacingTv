@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-27T14:37:32.853Z",
+  "aggiornato": "2026-11-27T23:09:45.754Z",
   "articoli": [
     {
       "fonte": "Sky Sport",
@@ -8,12 +8,6 @@
       "gp": "GP Valencia",
       "serie": "motogp",
       "sessioni": [
-        "Moto3 Prove libere 1 2026-11-27T07:55:00.000Z",
-        "Moto2 Prove libere 1 2026-11-27T08:45:00.000Z",
-        "MotoGP Prove libere 1 2026-11-27T09:40:00.000Z",
-        "Moto3 Pre-qualifiche 2026-11-27T12:15:00.000Z",
-        "Moto2 Pre-qualifiche 2026-11-27T13:00:00.000Z",
-        "MotoGP Pre-qualifiche 2026-11-27T13:55:00.000Z",
         "Moto3 Prove libere 2 2026-11-28T07:35:00.000Z",
         "Moto2 Prove libere 2 2026-11-28T08:20:00.000Z",
         "MotoGP Prove libere 2 2026-11-28T09:05:00.000Z",
@@ -34,12 +28,6 @@
       "gp": "GP Valencia",
       "serie": "motogp",
       "sessioni": [
-        "Moto3 Prove libere 1 2026-11-27T07:55:00.000Z",
-        "Moto2 Prove libere 1 2026-11-27T08:45:00.000Z",
-        "MotoGP Prove libere 1 2026-11-27T09:40:00.000Z",
-        "Moto3 Pre-qualifiche 2026-11-27T12:15:00.000Z",
-        "Moto2 Pre-qualifiche 2026-11-27T13:00:00.000Z",
-        "MotoGP Pre-qualifiche 2026-11-27T13:55:00.000Z",
         "Moto3 Prove libere 2 2026-11-28T07:35:00.000Z",
         "Moto2 Prove libere 2 2026-11-28T08:20:00.000Z",
         "MotoGP Prove libere 2 2026-11-28T09:05:00.000Z",
@@ -51,6 +39,22 @@
         "Moto3 Gara 2026-11-29T10:00:00.000Z",
         "Moto2 Gara 2026-11-29T11:15:00.000Z",
         "MotoGP Gara 2026-11-29T13:00:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
+      "titolo": "MotoGP su TV8, GP Valencia 2026: quando qualifiche e Sprint in chiaro, orari e programma",
+      "url": "https://www.oasport.it/2026/11/motogp-su-tv8-gp-valencia-2026-quando-qualifiche-e-sprint-in-chiaro-orari-e-programma/",
+      "gp": "GP Valencia",
+      "serie": "motogp",
+      "sessioni": [
+        "Moto3 Prove libere 2 2026-11-28T07:40:00.000Z",
+        "Moto2 Prove libere 2 2026-11-28T08:25:00.000Z",
+        "MotoGP Prove libere 2 2026-11-28T09:10:00.000Z",
+        "MotoGP Qualifiche 2026-11-28T09:50:00.000Z TV8 diretta 2026-11-28T09:50:00.000Z",
+        "Moto3 Qualifiche 2026-11-28T11:45:00.000Z TV8 diretta 2026-11-28T11:45:00.000Z",
+        "Moto2 Qualifiche 2026-11-28T12:40:00.000Z TV8 diretta 2026-11-28T12:40:00.000Z",
+        "MotoGP Sprint 2026-11-28T14:00:00.000Z TV8 diretta 2026-11-28T14:00:00.000Z"
       ]
     },
     {
@@ -151,19 +155,6 @@
       ]
     },
     {
-      "fonte": "OA Sport",
-      "titolo": "Quando la MotoGP su TV8 oggi, GP Portogallo 2026: programma gara in chiaro",
-      "url": "https://www.oasport.it/2026/11/a-che-ora-la-motogp-su-tv8-oggi-gp-portogallo-2026-programma-gara-differita-in-chiaro/",
-      "gp": "GP Portogallo",
-      "serie": "motogp",
-      "sessioni": [
-        "MotoGP Warm up 2026-11-22T09:40:00.000Z",
-        "Moto3 Gara 2026-11-22T10:00:00.000Z TV8 diretta 2026-11-22T10:00:00.000Z",
-        "Moto2 Gara 2026-11-22T11:15:00.000Z TV8 diretta 2026-11-22T11:15:00.000Z",
-        "MotoGP Gara 2026-11-22T13:00:00.000Z TV8 diretta 2026-11-22T13:00:00.000Z"
-      ]
-    },
-    {
       "fonte": "Sky Sport",
       "titolo": "Formula 1, orari GP Qatar 2026 a Losail: dove vedere la F1 in tv | Sky Sport",
       "url": "https://sport.sky.it/formula-1/2026/11/25/f1-orari-gp-qatar-2026-losail",
@@ -189,6 +180,17 @@
         "F1 Prove libere 3 2026-11-28T14:30:00.000Z",
         "F1 Qualifiche 2026-11-28T18:00:00.000Z",
         "F1 Gara 2026-11-29T16:00:00.000Z"
+      ]
+    },
+    {
+      "fonte": "OA Sport",
+      "titolo": "F1 su TV8, GP Qatar 2026: quando le qualifiche in chiaro, orario e programma",
+      "url": "https://www.oasport.it/2026/11/f1-su-tv8-gp-qatar-2026-quando-le-qualifiche-in-chiaro-orario-e-programma/",
+      "gp": "GP Qatar",
+      "serie": "f1",
+      "sessioni": [
+        "F1 Prove libere 3 2026-11-28T14:30:00.000Z",
+        "F1 Qualifiche 2026-11-28T18:00:00.000Z TV8 diretta 2026-11-28T18:00:00.000Z"
       ]
     },
     {
@@ -272,17 +274,6 @@
       "serie": "f1",
       "sessioni": [
         "F1 Gara 2026-11-22T04:00:00.000Z TV8 differita 2026-11-22T16:10:00.000Z"
-      ]
-    },
-    {
-      "fonte": "OA Sport",
-      "titolo": "Quando la F1 su TV8 oggi, GP Las Vegas 2026: orario differita qualifiche in chiaro",
-      "url": "https://www.oasport.it/2026/11/a-che-ora-la-f1-su-tv8-oggi-gp-las-vegas-2026-programma-qualifiche-differita-in-chiaro/",
-      "gp": "GP Las Vegas",
-      "serie": "f1",
-      "sessioni": [
-        "F1 Prove libere 3 2026-11-21T00:30:00.000Z",
-        "F1 Qualifiche 2026-11-21T04:00:00.000Z TV8 differita 2026-11-21T19:15:00.000Z"
       ]
     }
   ]

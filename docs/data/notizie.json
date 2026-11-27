@@ -1,6 +1,126 @@
 {
-  "aggiornato": "2026-11-27T14:37:32.853Z",
+  "aggiornato": "2026-11-27T23:09:45.754Z",
   "articoli": [
+    {
+      "id": "3507cfbbaac3",
+      "serie": "motogp",
+      "titolo": "Nicolò Bulega, perché potrebbe prendere il posto di Marc Márquez in Ducati dopo il ritiro",
+      "link": "https://www.gpone.com/it/2026/11/27/motogp/nicolo-bulega-il-pilota-giusto-al-momento-giusto-per-sostituire-marquez-sulla-ducati.html",
+      "fonte": "GPOne",
+      "data": "2026-11-27T19:39:03.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/bulega.jpg?itok=NU-Cm7fy",
+      "sommario": "Ai numeri non si sfugge e Dall’Igna conosce alla perfezione quelli di Aldeguer e Nicolò. In Superbike Bulega si è ricostruito, senza praticamente sbagliare un colpo, e adesso potrebbe avere davanti a sé la grande occasio"
+    },
+    {
+      "id": "2c7f736a0a89",
+      "serie": "motogp",
+      "titolo": "I piloti salutano Marquez: \"Batterlo è un sogno che svanisce\"",
+      "link": "https://www.gpone.com/it/2026/11/27/motogp/i-piloti-salutano-marquez-batterlo-e-un-sogno-che-svanisce.html",
+      "fonte": "GPOne",
+      "data": "2026-11-27T19:12:56.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/marc-abbraccio-moreira.jpg?itok=SUc9gpD1",
+      "sommario": "Da Bastianini a Di Giannantonio, passando per Pol Espargarò, i piloti raccontano cosa ha significato condividere la pista con il dieci volte iridato, tra ammirazione, rispetto e il rimpianto di non poterlo più sfidare"
+    },
+    {
+      "id": "e374a39025d2",
+      "serie": "motogp",
+      "titolo": "Zarco: “Marquez è simile a Nadal per come ha continuato a soffrire e a vincere”",
+      "link": "https://www.gpone.com/it/2026/11/27/motogp/zarco-marquez-e-simile-a-nadal-per-come-ha-continuato-a-soffrire-e-a-vincere.html",
+      "fonte": "GPOne",
+      "data": "2026-11-27T19:09:53.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/zarco-portimao.jpg?itok=xhwNx7XG",
+      "sommario": "“La sua mente è molto più forte dei segnali che manda il suo corpo, ma sono felice che voglia prendersi cura di sé: non può permettersi un altro infortunio. Dopo i 30 anni capisci l’importanza del recupero”"
+    },
+    {
+      "id": "5e72f6b62e4f",
+      "serie": "motogp",
+      "titolo": "Iker Lecuona: “Penso di avere una possibilità in MotoGP per il 2027”",
+      "link": "https://www.gpone.com/it/2026/11/27/motogp/iker-lecuona-penso-di-avere-una-possibilita-in-motogp-per-il-2027.html",
+      "fonte": "GPOne",
+      "data": "2026-11-27T19:08:12.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/lecuona2.jpg?itok=wALJN9Wz",
+      "sommario": "“Non dipende da me, ma Ducati sa chi sono e conoscono tutti i miei dati. Ringrazio Marquez, so cosa significhi affrontare tanti infortuni”"
+    },
+    {
+      "id": "7d0e6729e331",
+      "serie": "motogp",
+      "titolo": "Il paddock saluta Marquez: \"Solo i grandi possono lasciare così, da migliore\"",
+      "link": "https://www.gpone.com/it/2026/11/27/motogp/il-paddock-saluta-marquez-solo-i-grandi-possono-lasciare-cosi-da-migliore.html",
+      "fonte": "GPOne",
+      "data": "2026-11-27T17:43:04.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/marquez-ritiro-valencia-piloti.jpg?itok=qcKH8ooy",
+      "sommario": "Da Guidotti, che lo ha conosciuto agli esordi, a Masini, che lo ha accompagnato nella rinascita. Cecchinello, Albesiano e Borsoi raccontano il campione, l'uomo e il vuoto che lascerà il suo ritiro"
+    },
+    {
+      "id": "fccf6fa1df4f",
+      "serie": "motogp",
+      "titolo": "Acosta sul ritiro di Marquez: \"dividere il box con Marc era un sogno e un obiettivo per me\"",
+      "link": "https://www.gpone.com/it/2026/11/27/motogp/acosta-sul-ritiro-di-marquez-dividere-il-box-con-marc-era-un-sogno-e-un-obiettivo-per-me.html",
+      "fonte": "GPOne",
+      "data": "2026-11-27T17:39:42.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/acosta-box-portimao.jpg?itok=tKC0cccM",
+      "sommario": "“È comprensibile la sua scelta, ha già sofferto abbastanza. Sono andato da lui per fargli i miei auguri. Dovrò cercarmi un nuovo rivale? Devo già tenere a bada il Pedro che è in me!”"
+    },
+    {
+      "id": "da9c774c148f",
+      "serie": "motogp",
+      "titolo": "Ducati, vietato l'ingresso ai box a Michele Pirro: tutta colpa del Gaviscon!",
+      "link": "https://www.gpone.com/it/2026/11/27/motogp/ducati-vietato-lingresso-ai-box-a-michele-pirro-tutta-colpa-del-gaviscon.html",
+      "fonte": "GPOne",
+      "data": "2026-11-27T17:34:30.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/pirro-gaviscon.jpeg?itok=R-DTuDJf",
+      "sommario": "Naturalmente è stata solo una divertente presa in giro per la famosa immagine mostrata dalle TV durante la festa per il 10° titolo mondiale di Marc Marquez"
+    },
+    {
+      "id": "cfa40e2af1ef",
+      "serie": "motogp",
+      "titolo": "Luca Marini: \"Volevamo battere Marquez con le 850, non ne avremo l'occasione\"",
+      "link": "https://www.gpone.com/it/2026/11/27/motogp/luca-marini-volevamo-battere-marquez-con-le-850-non-ne-avremo-loccasione.html",
+      "fonte": "GPOne",
+      "data": "2026-11-27T17:10:47.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/marini_0.jpg?itok=WmIENywO",
+      "sommario": "“È stato uno shock per tutti, ancora non riesco a crederci. Ogni pilota voleva dimostrare di poter essere più forte di lui con le nuove moto e le nuove gomme\""
+    },
+    {
+      "id": "989029282c66",
+      "serie": "motogp",
+      "titolo": "Martin: \"Marquez uno dei più grandi atleti della storia, lo paragono a Jordan\"",
+      "link": "https://www.gpone.com/it/2026/11/27/motogp/martin-marquez-uno-dei-piu-grandi-atleti-della-storia-lo-paragono-a-jordan.html",
+      "fonte": "GPOne",
+      "data": "2026-11-27T17:06:37.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/martin-marquez.jpg?itok=m0VHNdFC",
+      "sommario": "\"Per me è stato sempre un'ispirazione, volevo migliorare per riuscire a batterlo. A Phillip Island sorridevo sotto il casco lottando contro di lui\""
+    },
+    {
+      "id": "1722bcac3279",
+      "serie": "motogp",
+      "titolo": "Marco Bezzecchi sul ritiro di Marquez: \"Avrei preferito un altro anno di sfida con Marc\"",
+      "link": "https://www.gpone.com/it/2026/11/27/motogp/bezzecchi-avrei-preferito-un-altro-anno-di-sfida-con-marquez.html",
+      "fonte": "GPOne",
+      "data": "2026-11-27T17:06:05.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/img-8618.jpg?itok=SiIGF_59",
+      "sommario": "\"Sono rimasto sorpreso, non me l'aspettavo. È una di quelle cose che possiamo provare a capire, ma alla fine chi la capisce veramente è soltanto Marc\""
+    },
+    {
+      "id": "880054e2c837",
+      "serie": "motogp",
+      "titolo": "Quartararo: \"Marquez mi ha insegnato a non accontentarsi mai\"",
+      "link": "https://www.gpone.com/it/2026/11/27/motogp/quartararo-marquez-mi-ha-insegnato-a-non-accontentarsi-mai.html",
+      "fonte": "GPOne",
+      "data": "2026-11-27T16:36:39.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/quartararo_0.jpg?itok=So2yBWT9",
+      "sommario": "\"In Thailandia poteva farmi vincere, aveva 15 secondi su Dovizioso, ma non si accontentò. Quello che mi ha davvero ispirato è stato il suo approccio\""
+    },
+    {
+      "id": "9f6c3e8e75d0",
+      "serie": "motogp",
+      "titolo": "LIVE Bar Sport alle 19:00 - Marquez, il coraggio di dire basta",
+      "link": "https://www.gpone.com/it/2026/11/27/motogp/live-bar-sport-alle-19-00-marquez-il-coraggio-di-dire-basta.html",
+      "fonte": "GPOne",
+      "data": "2026-11-27T15:23:24.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/bs-sito.jpg?itok=WNJDRz4B",
+      "sommario": "VIDEO - Il ritiro di Marc Marquez sconvolge la MotoGP, ma il campione del mondo risponde in pista con il record di Valencia. Le ragioni dell'addio, il futuro di Ducati e quello del Mondiale: parliamone insieme in diretta"
+    },
     {
       "id": "19e41563d2fc",
       "serie": "motogp",
@@ -160,6 +280,126 @@
       "data": "2026-11-27T10:33:00.000Z",
       "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/bezzecchi.jpg?itok=jvIXjF-C",
       "sommario": "Marco porta l'Aprilia in vetta davanti a Marc Marquez che ha annunciato il suo ritiro dopo questo GP. Alle 12:15 la conferenza dello spagnolo"
+    },
+    {
+      "id": "d37a0ae16368",
+      "serie": "motogp",
+      "titolo": "GP Valencia, Acosta: \"Marc come Jordan e Nadal, è nella posizione di poter decidere quello che vuole\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/27-9340294/gp_valencia_acosta_marc_come_jordan_e_nadal_nella_posizione_di_poter_decidere_quello_che_vuole",
+      "fonte": "Motosprint",
+      "data": "2026-11-27T10:00:00Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/27/164213318-1c986856-bc5f-49e6-97b8-22fb7e07c7c1.jpg",
+      "sommario": "Quinto tempo nel venerdì di Valencia per Pedro Acosta, che si prepara a diventare il riferimento del team ufficiale Ducati dopo il ritiro annunciato da Marc Marquez"
+    },
+    {
+      "id": "02c510fe5298",
+      "serie": "motogp",
+      "titolo": "Bezzecchi: “Avrei voluto continuare ad imparare da Márquez”",
+      "link": "https://www.motosprint.it/news/eventi/gp-valencia/2026/11/27-9340178/bezzecchi_avrei_voluto_continuare_ad_imparare_da_mrquez",
+      "fonte": "Motosprint",
+      "data": "2026-11-27T10:00:00Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/27/170926688-5ca13276-b52a-43e2-8693-78a8a97d2ecd.jpg",
+      "sommario": "Il romagnolo sulla notizia della giornata: \"Sono un po' sorpreso, ma solo lui conosce la situazione. È un rivale difficile, ma dal quale ho avuto modo di imparare molto\""
+    },
+    {
+      "id": "1c4f32e791c3",
+      "serie": "motogp",
+      "titolo": "GP Valencia, Fermin Aldeguer: \"Lunedi sarò con VR46, il resto non dipende da me\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/27-9339781/gp_valencia_fermin_aldeguer_lunedi_sar_con_vr46_il_resto_non_dipende_da_me",
+      "fonte": "Motosprint",
+      "data": "2026-11-27T10:00:00Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/27/162152623-34439ae9-91bb-4f32-ae54-6082407f4e92.jpg",
+      "sommario": "Ottavo tempo per lo spagnolo al termine delle prove del venerdì, mentre il ritiro annunciato da Marc Marquez apre il dibattito sulla successione nel box Ducati. Il nome di Aldeguer è tra quelli in corsa insieme a Nicolò "
+    },
+    {
+      "id": "a55a63d83d75",
+      "serie": "motogp",
+      "titolo": "Marini sul ritiro di Márquez: “C'è il rischio che i prossimi Mondiali valgano meno”",
+      "link": "https://www.motosprint.it/news/eventi/gp-valencia/2026/11/27-9339780/marini_sul_ritiro_di_mrquez_c_il_rischio_che_i_prossimi_mondiali_valgano_meno",
+      "fonte": "Motosprint",
+      "data": "2026-11-27T10:00:00Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/27/163126897-a2681f5b-09d7-42ce-bd5c-acbf93dc50ec.jpg",
+      "sommario": "Il pilota HRC commenta: \"Non basterà vincere gare o titoli perché non puoi scontrarti contro il più forte degli ultimi anni, come è successo a Mir e Pecco in passato\""
+    },
+    {
+      "id": "fe9ca10bf2b2",
+      "serie": "motogp",
+      "titolo": "Morbidelli e il ritiro di Marquez: \"Una sella libera? Non ho la velocità per aspirare a una Ducati ufficiale\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/27-9339769/morbidelli_e_il_ritiro_di_marquez_una_sella_libera_non_ho_la_velocit_per_aspirare_a_una_ducati_ufficiale",
+      "fonte": "Motosprint",
+      "data": "2026-11-27T10:00:00Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/27/162827724-6081947b-0c95-4c21-a8e5-6b917803dc0b.jpg",
+      "sommario": "Franco: \"Forse avrei potuto farlo nel 2024 e 2025, ma nel 2026 no: i miei problemi sono diventati grandi, più di quanto potessi immaginare\"\n"
+    },
+    {
+      "id": "bf681fca025e",
+      "serie": "motogp",
+      "titolo": "Pablo Nieto e il Team VR46 al centro del mercato: “Non abbiamo un piano B”",
+      "link": "https://www.motosprint.it/news/eventi/gp-valencia/2026/11/27-9339518/pablo_nieto_e_il_team_vr46_al_centro_del_mercato_non_abbiamo_un_piano_b",
+      "fonte": "Motosprint",
+      "data": "2026-11-27T10:00:00Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/27/154817478-95ce75da-e6d6-49fc-8411-7f9e65581286.jpg",
+      "sommario": "Il Team Manager della formazione di Valentino Rossi parla del futuro: \"Abbiamo una delle moto migliori e capisco che possiamo essere un'opportunità per molti\""
+    },
+    {
+      "id": "cf9e3e2331f1",
+      "serie": "motogp",
+      "titolo": "Biaggi sul ritiro di Marquez: “Lasciare da vincente è un sacrificio, non tutti sono pronti a pagarne il prezzo”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/27-9339264/biaggi_sul_ritiro_di_marquez_lasciare_da_vincente_un_sacrificio_non_tutti_sono_pronti_a_pagarne_il_prezzo",
+      "fonte": "Motosprint",
+      "data": "2026-11-27T10:00:00Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/27/151050039-2f0f2845-d3c1-4c32-924e-82b51011d4a1.jpg",
+      "sommario": "Il pilota romano fece esattamente come Marc, ritirandosi al termine della stagione 2012 da campione del Mondo SBK"
+    },
+    {
+      "id": "33ebc8a1b82b",
+      "serie": "motogp",
+      "titolo": "Marquez si ritira ma non perde lo smalto: primo nelle Practice davanti a Bezzecchi",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/27-9339268/marquez_si_ritira_ma_non_perde_lo_smalto_primo_nelle_practice_davanti_a_bezzecchi",
+      "fonte": "Motosprint",
+      "data": "2026-11-27T10:00:00Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/27/152656969-542b59b8-d5c3-4aa2-b097-29139373b0dd.jpeg",
+      "sommario": "Marc conquista la vetta precedendo il romagnolo e Ogura. Top per Di Giannantonio, Martin ed un sorprendente Espargarò\n"
+    },
+    {
+      "id": "e1dd6fcb354b",
+      "serie": "motogp",
+      "titolo": "Marc Marquez, il sipario cala sul fenomeno: 10 titoli mondiali, 106 vittorie e un ritiro che nessuno si aspettava",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/27-9337761/marc_marquez_il_sipario_cala_sul_fenomeno_10_titoli_mondiali_106_vittorie_e_un_ritiro_che_nessuno_si_aspettava",
+      "fonte": "Motosprint",
+      "data": "2026-11-27T10:00:00Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/27/104118802-6fb22638-c938-46c8-92db-c406d698889f.jpg",
+      "sommario": "Dal primo Mondiale in 125cc con Derbi alla conquista della MotoGP da rookie, dalle battaglie con Rossi, Lorenzo e Dovizioso agli infortuni che sembravano averlo condannato, fino alla rinascita Ducati \n\n \n"
+    },
+    {
+      "id": "9442253f6431",
+      "serie": "motogp",
+      "titolo": "Chi sostituirà Marc Márquez? Davide Tardozzi non si sbilancia",
+      "link": "https://www.motosprint.it/news/eventi/gp-valencia/2026/11/27-9339035/chi_sostituir_marc_mrquez_davide_tardozzi_non_si_sbilancia",
+      "fonte": "Motosprint",
+      "data": "2026-11-27T10:00:00Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/27/145802337-a8473439-060c-464f-becf-ff39ad95db11.jpg",
+      "sommario": "Il Team Manager della formazione ufficiale: \"Vincere il titolo nella sua situazione è una cosa che solo Marc avrebbe potuto fare. Il futuro? A breve la decisione\""
+    },
+    {
+      "id": "ff3e2aea0042",
+      "serie": "motogp",
+      "titolo": "Quartararo e il messaggio per Marquez: “Sei sempre stato un’ispirazione per me”",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/27-9338944/quartararo_e_il_messaggio_per_marquez_sei_sempre_stato_unispirazione_per_me",
+      "fonte": "Motosprint",
+      "data": "2026-11-27T10:00:00Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/27/145028034-1c9d71b7-4ad7-4c1a-b5c4-62c72e65151a.jpg",
+      "sommario": "Il francese ha speso belle parole nei confronti di Marc nel giorno del ritiro del catalano: “Il modo in cui sei tornato dopo ciò che hai passato è stato ammirevole”"
+    },
+    {
+      "id": "f6f5eaeb532b",
+      "serie": "f1",
+      "titolo": "Abu Dhabi 2016, dieci anni fa il giro più lungo di Nico Rosberg",
+      "link": "https://www.autosprint.it/news/formula1/2026/11/27-9337561/abu_dhabi_2016_dieci_anni_fa_il_giro_pi_lungo_di_nico_rosberg",
+      "fonte": "Autosprint",
+      "data": "2026-11-27T10:00:00Z",
+      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/27/165316905-a34700e5-7858-4e75-b60f-ddf252bfd999.jpg",
+      "sommario": "Il 27 novembre 2016 Hamilton vinse a Yas Marina. A Rosberg bastò il secondo posto per laurearsi campione del mondo. Cinque giorni dopo annunciò il ritiro"
     },
     {
       "id": "acda1549019f",
@@ -3760,246 +4000,6 @@
       "data": "2026-11-10T14:42:40.009Z",
       "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/10/080445529-7a060612-4f51-44b9-b5df-d28aed6580c2.jpg",
       "sommario": "Jake è stato chiamato dal team ufficiale Honda per sostituire Mir in Qatar, debuttando in sella alla RC213V: “Ho percorso solo 74 giri, ma con tempi che mi avrebbero permesso di lottare”"
-    },
-    {
-      "id": "59fe058e8686",
-      "serie": "motogp",
-      "titolo": "Marquez per oltre metà gara in Zona 5: gli ultimi due giri a 190 battiti",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/10-9280803/marquez_per_oltre_met_gara_in_zona_5_gli_ultimi_due_giri_a_190_battiti",
-      "fonte": "Motosprint",
-      "data": "2026-11-10T14:42:40.009Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/09/140446417-e4615b25-1b11-4d08-aeb0-9ce2105a6949.jpg",
-      "sommario": "Arrivato estremamente provato al termine del GP Qatar, il ducatista ha pubblicato i dati del proprio cardiofrequenzimetro rilevati durante il GP"
-    },
-    {
-      "id": "df172f275c94",
-      "serie": "f1",
-      "titolo": "McDonald’s porta in F1 la Golden Zone, tra offerte live e coinvolgimento dei tifosi",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/10-9282474/mcdonalds_porta_in_f1_la_golden_zone_tra_offerte_live_e_coinvolgimento_dei_tifosi",
-      "fonte": "Autosprint",
-      "data": "2026-11-10T14:42:40.009Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/10/132347264-68398f8b-7cb5-4925-abc5-cf0cd6dce8be.jpeg",
-      "sommario": "La catena di Fast Food ha sviluppato una tattica di marketing geniale per il mercato dell'America Latina. Tutto nasce dalla Golden Zone, ecco di cosa si tratta"
-    },
-    {
-      "id": "de3dda32f40f",
-      "serie": "f1",
-      "titolo": "Leclerc papà, che gioia! Dal vecchio detto di Enzo Ferrari alla festa della F1 per Bianca",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/10-9282466/leclerc_pap_che_gioia_dal_vecchio_detto_di_enzo_ferrari_alla_festa_della_f1_per_bianca",
-      "fonte": "Autosprint",
-      "data": "2026-11-10T14:42:40.009Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/10/132110342-5c682b9d-bcab-4af0-ab51-905c7934a145.jpeg",
-      "sommario": "Charles Leclerc festeggia la nascita di Bianca. Dalla frase di Enzo Ferrari al sorpasso di Fernando Alonso a Suzuka: come la Formula racconta i suoi papà"
-    },
-    {
-      "id": "c3230c1ec78b",
-      "serie": "f1",
-      "titolo": "“Grande Kimi!”La torre di controllo di Bologna saluta Antonelli campione del mondo",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/10-9282464/grande_kimi_la_torre_di_controllo_di_bologna_saluta_antonelli_campione_del_mondo",
-      "fonte": "Autosprint",
-      "data": "2026-11-10T14:42:40.009Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/10/131801522-12187579-cf79-468f-b060-e2dbf6a9075f.jpg",
-      "sommario": "Dopo il Gran Premio del Brasile, Kimi Antonelli torna a Bologna da campione del mondo di Formula 1. Il saluto della torre di controllo e le tanto desiderate tagliatelle"
-    },
-    {
-      "id": "615cca7c42f2",
-      "serie": "f1",
-      "titolo": "Aduo 3, c'è chi si avvicina ma non cambiano le chance di sviluppo",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/10-9282661/aduo_3_c_chi_si_avvicina_ma_non_cambiano_le_chance_di_sviluppo",
-      "fonte": "Autosprint",
-      "data": "2026-11-10T14:42:40.009Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/10/131526191-91d54b67-556e-4360-898d-e5650a7ff7cb.jpg",
-      "sommario": "Concluso il terzo periodo di osservazione a Austin, le possibilità di omologazione aggiuntive nel 2027 restano quelle già note per Mercedes, Audi, Ferrari e Honda"
-    },
-    {
-      "id": "cb6cc778431c",
-      "serie": "sbk",
-      "titolo": "Pirro: “Torres nel Mondiale? Abbiamo mantenuto tutte le promesse”",
-      "link": "https://www.gpone.com/it/2026/11/10/wsbk/pirro-torres-nel-mondiale-abbiamo-mantenuto-tutte-le-promesse.html",
-      "fonte": "GPOne",
-      "data": "2026-11-10T13:24:35.000Z",
-      "immagine": "",
-      "sommario": "“La Ducati V2 Future Champ è l’unico Campionato in Italia che consente a un giovane di approdare nel Mondiale esattamente come la Red Bull Rookies Cup. Questa è la conferma della credibilità del nostro progetto”"
-    },
-    {
-      "id": "d9313cc7e771",
-      "serie": "f1",
-      "titolo": "La Formula 1 ha deciso: niente Imola, si corre in Qatar e Abu Dhabi",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/10-9282662/la_formula_1_ha_deciso_dove_concludere_il_mondiale_2026",
-      "fonte": "Autosprint",
-      "data": "2026-11-10T12:12:47.968Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/10/120012422-59f4cbe0-e8db-4e9d-9b5d-229babc39766.jpg",
-      "sommario": "Dopo settimane di attesa, la F1 ha finalmente preso la sua decisione sulle ultime due gare di Qatar e Abu Dhabi"
-    },
-    {
-      "id": "06fc16651d32",
-      "serie": "motogp",
-      "titolo": "Vinales: “Mi sottoporrò a nuovi esami. Se non posso migliorare, mi fermerò”",
-      "link": "https://www.gpone.com/it/2026/11/10/motogp/vinales-mi-sottoporro-a-nuovi-esami-se-non-posso-migliorare-mi-fermo.html",
-      "fonte": "GPOne",
-      "data": "2026-11-10T11:47:06.000Z",
-      "immagine": "",
-      "sommario": "“Provo sempre più dolore, quindi c’è sicuramente qualcosa che non va. Non ho motivazioni per continuare: se sto così non ha senso salire in moto e guidare al 50%. Mi faccio solo male mentalmente”"
-    },
-    {
-      "id": "df00f4505db6",
-      "serie": "f1",
-      "titolo": "La Mercedes celebra il Titolo con Hamilton, mentre Russell ha i nervi a fior di pelle",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/10-9281554/la_mercedes_celebra_il_titolo_con_hamilton_mentre_russell_ha_i_nervi_a_fior_di_pelle",
-      "fonte": "Autosprint",
-      "data": "2026-11-10T10:19:20.477Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/10/092903624-4113e193-a56e-423e-9113-acf3d0ba4cbf.jpg",
-      "sommario": "Boss Wolff ha invitato Lewis alla festa per il Mondiale marche vinto al termine di un weekend del Brasile che ha visto George sbagliare e bisticciare col team"
-    },
-    {
-      "id": "27786dfce404",
-      "serie": "f1",
-      "titolo": "Hamilton ignora le indicazioni Ferrari in Brasile, poi si scusa a modo suo",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/10-9281541/hamilton_ignora_le_indicazioni_ferrari_in_brasile_poi_si_scusa_a_modo_suo",
-      "fonte": "Autosprint",
-      "data": "2026-11-10T10:19:20.477Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/10/091745679-af1d2665-37cf-44e4-981d-103956b15d1f.jpg",
-      "sommario": "Al termine del GP di Interlagos Lewis ha spiegato le ragioni che lo hanno spinto a proseguire con le slick malgrado le condizioni della pista in peggioramento"
-    },
-    {
-      "id": "ac31536d3903",
-      "serie": "f1",
-      "titolo": "Lawson attende, Mekies si smarca: decisione tutta di Racing Bulls",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/10-9281559/lawson_attende_mekies_si_smarca_decisione_tutta_di_racing_bulls",
-      "fonte": "Autosprint",
-      "data": "2026-11-10T10:19:20.477Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/10/091252221-8d9e65ab-8932-4382-9727-96803714db13.jpg",
-      "sommario": "La squadra e, soprattutto, il Gruppo Red Bull devono decidere se confermare Lawson, autore di una serie di grandi risultati, o promuovere Tsolov"
-    },
-    {
-      "id": "16421b5292ec",
-      "serie": "motogp",
-      "titolo": "Troppo bello per cambiare: Aprilia rinnova Savadori con un biennale",
-      "link": "https://www.gpone.com/it/2026/11/10/motogp/troppo-buono-per-cambiare-aprilia-rinnova-savadori-con-un-biennale.html",
-      "fonte": "GPOne",
-      "data": "2026-11-10T09:58:59.000Z",
-      "immagine": "",
-      "sommario": "Il pilota e collaudatore Aprilia continuerà a portare avanti lo sviluppo e vestire i colori di Noale fino al 2028"
-    },
-    {
-      "id": "c2b7761e7834",
-      "serie": "sbk",
-      "titolo": "Svolta per Alvaro Bautista: Battistella non è più il suo manager!",
-      "link": "https://www.gpone.com/it/2026/11/10/wsbk/svolta-per-alvaro-bautista-battistella-non-e-piu-il-suo-manager.html",
-      "fonte": "GPOne",
-      "data": "2026-11-10T09:37:24.000Z",
-      "immagine": "",
-      "sommario": "Dopo l’ultima gara a Jerez, il pilota spagnolo ha deciso di prendere una decisione cruciale per il proprio futuro. Ecco chi curerà i suoi interessi per il 2027"
-    },
-    {
-      "id": "a7bba9b26eb6",
-      "serie": "motogp",
-      "titolo": "GP Portogallo, Portimao: gli orari in tv su Sky, TV8 e NOW. Marquez vede il titolo",
-      "link": "https://www.gpone.com/it/2026/11/10/motogp/gp-portogallo-portimao-gli-orari-in-tv-su-sky-tv8-e-now-marquez-vede-il-titolo.html",
-      "fonte": "GPOne",
-      "data": "2026-11-10T09:14:00.000Z",
-      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/portimao-1679307352.jpg?itok=_juO46VC",
-      "sommario": "Il Motomondiale torna in Europa per il penultimo appuntamento stagionale. Marc Márquez può laurearsi campione del mondo già nella Sprint del sabato. Ecco il programma completo del GP del Portogallo"
-    },
-    {
-      "id": "7115463e4c1d",
-      "serie": "motogp",
-      "titolo": "Carlos Ezpeleta fa autocritica sul Qatar: \"Dobbiamo migliorare i rapporti con piloti e team\"",
-      "link": "https://www.gpone.com/it/2026/11/10/motogp/ezpeleta-fa-autocritica-sul-qatar-dobbiamo-migliorare-i-rapporti-con-piloti-e-team.html",
-      "fonte": "GPOne",
-      "data": "2026-11-10T09:03:00.000Z",
-      "immagine": "",
-      "sommario": "Il Deputy CEO della MotoGP difende la decisione di correre a Lusail, ma ammette errori nella comunicazione. Sul caso Yamaha prende le distanze: \"Il nostro rapporto è commerciale, le questioni sportive spettano alla FIM\""
-    },
-    {
-      "id": "22328cf6e780",
-      "serie": "f1",
-      "titolo": "Jannik Sinner e Darren Cahill, l’ultimo consiglio tra Formula 1 e cinque P",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/09-9280623/jannik_sinner_e_darren_cahill_lultimo_consiglio_tra_formula_1_e_cinque_p",
-      "fonte": "Autosprint",
-      "data": "2026-11-09T17:30:15.789Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/09/133329059-68309ccc-fa00-45f6-a7f5-3407618aa890.jpg",
-      "sommario": "Nel video d’addio, Darren Cahill paragona Jannik Sinner a un pilota di F1 e gli ricorda la regola delle cinque P. Il legame del tennista con Ferrari e il paddock"
-    },
-    {
-      "id": "a3adbcd0a3dc",
-      "serie": "motogp",
-      "titolo": "Fast By Prosecco, Lusail - Pernat: “Aprilia, quanti rimpianti!\"",
-      "link": "https://www.gpone.com/it/2026/11/09/motogp/fast-by-prosecco-lusail-pernat-aprilia-quanti-rimpianti.html",
-      "fonte": "GPOne",
-      "data": "2026-11-09T16:49:00.000Z",
-      "immagine": "",
-      "sommario": "Carlo Pernat applaude Bezzecchi, critica la mancata penalità a Marquez nella Sprint e riflette sul ruolo di Dall'Igna: “Marc era istinto puro, oggi sa gestire una moto e un Gran Premio”. Ecco il suo commento al GP del Qa"
-    },
-    {
-      "id": "077030be2cc4",
-      "serie": "sbk",
-      "titolo": "Nuova sfida iridata per Dettwiler: correrà nel Mondiale Sportbike con BrCorse",
-      "link": "https://www.gpone.com/it/2026/11/09/wsbk/nuova-sfida-iridata-per-dettwiler-correra-nel-mondiale-sportbike-con-brcorse.html",
-      "fonte": "GPOne",
-      "data": "2026-11-09T16:21:42.000Z",
-      "immagine": "",
-      "sommario": "Il pilota svizzero tornerà a gareggiare in un Campionato del Mondo per la prima volta dal grave incidente del 2025 a Sepang, affiancando Carter Thompson su una Yamaha R7"
-    },
-    {
-      "id": "c7894ad74d23",
-      "serie": "sbk",
-      "titolo": "Il MotoAmerica lo aspetta: Petrucci a un passo dalla firma con Yamaha",
-      "link": "https://www.gpone.com/it/2026/11/09/wsbk/il-motoamerica-lo-aspetta-petrucci-a-un-passo-dalla-firma-con-yamaha.html",
-      "fonte": "GPOne",
-      "data": "2026-11-09T16:08:58.000Z",
-      "immagine": "",
-      "sommario": "Secondo quanto appreso, nelle prossime ore Danilo definirà l’accordo con il team Attack Performance: per lui si tratta di un ritorno negli States dopo l’avventura del 2022 con Ducati"
-    },
-    {
-      "id": "b4ed83960583",
-      "serie": "motogp",
-      "titolo": "Max Biaggi commenta l’incidente tra Marquez e Bezzecchi: le sue parole dirette",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/09-9280625/max_biaggi_commenta_lincidente_tra_marquez_e_bezzecchi_le_sue_parole_dirette",
-      "fonte": "Motosprint",
-      "data": "2026-11-09T14:08:24.751Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/09/130800615-56bc3e39-66ad-4fb6-ae0a-2a6a8c94d735.jpg",
-      "sommario": "Il romano, brand ambassador Aprilia, ha parlato dell’episodio più chiacchierato del weekend fornendo il proprio punto di vista: ecco cosa ha detto a riguardo"
-    },
-    {
-      "id": "eb0f394a71df",
-      "serie": "f1",
-      "titolo": "Leclerc come Massa, dopo otto stagioni in Ferrari non ha ancora vinto un titolo",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/09-9278893/leclerc_come_massa_dopo_otto_stagioni_in_ferrari_non_ha_ancora_vinto_un_titolo",
-      "fonte": "Autosprint",
-      "data": "2026-11-09T14:08:24.751Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/09/132203050-b0b68cfe-05b1-42fe-8311-68f0bfacaf4d.jpg",
-      "sommario": "Nonostante acclamato come il \"Predestinato\", Charles rischia di diventare il pilota più longevo del Cavallino senza però aver ottenuto niente di importante"
-    },
-    {
-      "id": "09d699ba08cc",
-      "serie": "f1",
-      "titolo": "Piastri-Webber, è addio: un anno dietro le quinte e prestazioni deludenti",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/09-9280515/piastri-webber_addio_un_anno_dietro_le_quinte_e_prestazioni_deludenti",
-      "fonte": "Autosprint",
-      "data": "2026-11-09T14:08:24.751Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/09/115759894-44cb0ba1-c4ad-4e5f-a151-4e50601b04ee.jpg",
-      "sommario": ""
-    },
-    {
-      "id": "cf0ada803e1b",
-      "serie": "motogp",
-      "titolo": "Rivola: “Il titolo non l’ha perso Aprilia, ma vinto Marquez: ha fatto la differenza”",
-      "link": "https://www.gpone.com/it/2026/11/09/motogp/rivola-il-titolo-non-lha-perso-aprilia-lha-vinto-marquez-ha-fatto-la-differenza.html",
-      "fonte": "GPOne",
-      "data": "2026-11-09T13:43:45.000Z",
-      "immagine": "",
-      "sommario": "“Abbiamo lasciato tanti punti in giro, ma preferisco essere in questa condizione che avere una moto e piloti lenti. La caduta nella Sprint è diversa: Bezzecchi non ha alcuna colpa”"
-    },
-    {
-      "id": "8c216f4ee3cd",
-      "serie": "motogp",
-      "titolo": "Salvate il soldato Toprak: in 5 gare Lecuona ha fatto i suoi stessi punti!",
-      "link": "https://www.gpone.com/it/2026/11/09/motogp/salvate-il-soldato-toprak-in-5-gare-lecuona-ha-fatto-i-suoi-stessi-punti.html",
-      "fonte": "GPOne",
-      "data": "2026-11-09T13:42:51.000Z",
-      "immagine": "",
-      "sommario": "L’ANALISI - Un anno fa era il grande atteso per il salto in MotoGP, ora il piatto piange. Toprak non è mai riuscito a digerire le Michelin e con la M1 c’è stata un’involuzione. Il 2027 sarà cruciale per il turco e Yamaha"
     }
   ]
 }
