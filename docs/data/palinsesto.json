@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-27T04:43:36.979Z",
+  "aggiornato": "2026-11-27T14:37:32.853Z",
   "weekend": [
     {
       "id": "f1-gp-las-vegas-2026",
@@ -69,7 +69,7 @@
         {
           "classe": "MotoGP",
           "sessione": "Warm up",
-          "inizio": "2026-11-22T09:00:00.000Z",
+          "inizio": "2026-11-22T09:40:00.000Z",
           "tv8": null,
           "fonte": "OA Sport"
         },
@@ -117,11 +117,6 @@
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/11/a-che-ora-la-motogp-su-tv8-oggi-gp-portogallo-2026-programma-gara-differita-in-chiaro/",
           "titolo": "Quando la MotoGP su TV8 oggi, GP Portogallo 2026: programma gara in chiaro"
-        },
-        {
-          "nome": "OA Sport",
-          "url": "https://www.oasport.it/2026/11/quando-la-motogp-su-tv8-domani-gp-portogallo-2026-orario-gara-differita-in-chiaro/",
-          "titolo": "Quando la MotoGP su TV8 domani, GP Portogallo 2026: orario gara, differita in chiaro"
         }
       ]
     },
@@ -310,13 +305,13 @@
       "fonti": [
         {
           "nome": "Sky Sport",
-          "url": "https://sport.sky.it/motogp/2026/11/25/motogp-orari-gp-valencia-2026-dove-vedere-sky-now-tv8",
-          "titolo": "MotoGP, GP Valencia: orari tv della gara in Spagna 2026 | Sky Sport"
+          "url": "https://sport.sky.it/motogp/2026/11/27/orari-motogp-gp-valencia-spagna-sky-now-tv8",
+          "titolo": "Orari MotoGp: Gp Valencia Spagna 2026 in tv e streaming su Sky, Now e TV8 | Sky Sport"
         },
         {
-          "nome": "OA Sport",
-          "url": "https://www.oasport.it/2026/11/motogp-oggi-in-tv-gp-valencia-2026-orari-prove-libere-streaming-programma-sky-e-tv8/",
-          "titolo": "MotoGP oggi in tv, GP Valencia 2026: orari prove libere, streaming, programma Sky e TV8"
+          "nome": "Sky Sport",
+          "url": "https://sport.sky.it/motogp/2026/11/25/motogp-orari-gp-valencia-2026-dove-vedere-sky-now-tv8",
+          "titolo": "MotoGP, GP Valencia: orari tv della gara in Spagna 2026 | Sky Sport"
         },
         {
           "nome": "OA Sport",
@@ -394,9 +389,14 @@
           "titolo": "Formula 1, orari GP Qatar 2026 a Losail: dove vedere la F1 in tv | Sky Sport"
         },
         {
+          "nome": "Sky Sport",
+          "url": "https://sport.sky.it/formula-1/2026/11/27/formula-1-orari-gp-qatar-2026",
+          "titolo": "F1, orari GP Qatar: dove vederlo su Sky e Now in tv, streaming e repliche | Sky Sport"
+        },
+        {
           "nome": "OA Sport",
           "url": "https://www.oasport.it/2026/11/f1-oggi-in-tv-gp-qatar-2026-orari-prove-libere-streaming-programma-sky-e-tv8/",
-          "titolo": "F1 oggi in tv, GP Qatar 2026: orari prove libere, streaming, programma Sky e TV8"
+          "titolo": "Quando la F1 oggi in tv, GP Qatar 2026: orari prove libere, streaming, programma Sky e TV8"
         },
         {
           "nome": "OA Sport",
