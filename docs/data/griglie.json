@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-28T04:49:58.463Z",
+  "aggiornato": "2026-11-28T13:49:15.224Z",
   "griglie": {
     "f1-gp-las-vegas-2026": {
       "serie": "f1",
@@ -236,6 +236,125 @@
           "pos": 22,
           "id": "bastianini",
           "nome": "Enea Bastianini"
+        }
+      ]
+    },
+    "motogp-gp-valencia-2026": {
+      "serie": "motogp",
+      "gp": "GP Valencia",
+      "fonte": "OA Sport",
+      "url": "https://www.oasport.it/2026/11/griglia-di-partenza-motogp-gp-valencia-2026-risultati-e-classifica-qualifiche/",
+      "aggiornato": "2026-11-28T13:49:15.224Z",
+      "righe": [
+        {
+          "pos": 1,
+          "id": "bezzecchi",
+          "nome": "Marco Bezzecchi"
+        },
+        {
+          "pos": 2,
+          "id": "marc-marquez",
+          "nome": "Marc Marquez"
+        },
+        {
+          "pos": 3,
+          "id": "raul-fernandez",
+          "nome": "Raúl Fernández"
+        },
+        {
+          "pos": 4,
+          "id": "alex-marquez",
+          "nome": "Álex Márquez"
+        },
+        {
+          "pos": 5,
+          "id": "martin",
+          "nome": "Jorge Martin"
+        },
+        {
+          "pos": 6,
+          "id": "di-giannantonio",
+          "nome": "Fabio Di Giannantonio"
+        },
+        {
+          "pos": 7,
+          "id": "bastianini",
+          "nome": "Enea Bastianini"
+        },
+        {
+          "pos": 8,
+          "id": null,
+          "nome": "Pol Espargaro 44 Ktm"
+        },
+        {
+          "pos": 9,
+          "id": "aldeguer",
+          "nome": "Fermín Aldeguer"
+        },
+        {
+          "pos": 10,
+          "id": "acosta",
+          "nome": "Pedro Acosta"
+        },
+        {
+          "pos": 11,
+          "id": "ogura",
+          "nome": "Ai Ogura"
+        },
+        {
+          "pos": 12,
+          "id": "mir",
+          "nome": "Joan Mir"
+        },
+        {
+          "pos": 13,
+          "id": "binder",
+          "nome": "Brad Binder"
+        },
+        {
+          "pos": 14,
+          "id": null,
+          "nome": "Iker Lecuona 27 Ducati"
+        },
+        {
+          "pos": 15,
+          "id": "zarco",
+          "nome": "Johann Zarco"
+        },
+        {
+          "pos": 16,
+          "id": "quartararo",
+          "nome": "Fabio Quartararo"
+        },
+        {
+          "pos": 17,
+          "id": "morbidelli",
+          "nome": "Franco Morbidelli"
+        },
+        {
+          "pos": 18,
+          "id": "moreira",
+          "nome": "Diogo Moreira"
+        },
+        {
+          "pos": 19,
+          "id": "marini",
+          "nome": "Luca Marini"
+        },
+        {
+          "pos": 20,
+          "id": "miller",
+          "nome": "Jack Miller"
+        },
+        {
+          "pos": 21,
+          "id": null,
+          "nome": "Augusto Fernandez 47 Yamaha"
+        },
+        {
+          "pos": 22,
+          "id": "rins",
+          "nome": "Álex Rins"
         }
       ]
     }
