@@ -1,7 +1,7 @@
 {
-  "aggiornato": "2026-11-28T13:49:15.224Z",
+  "aggiornato": "2026-11-28T21:28:57.073Z",
   "motogp": {
-    "aggiornato": "2026-11-28T13:49:15.224Z",
+    "aggiornato": "2026-11-28T21:28:57.073Z",
     "fonte": "Motosprint",
     "piloti": [
       {
@@ -13,38 +13,38 @@
       },
       {
         "pos": 2,
-        "slug": "jorge-martin",
-        "nome": "J. Martin",
-        "team": "Aprilia Racing Team",
-        "punti": 396
-      },
-      {
-        "pos": 3,
         "slug": "marco-bezzecchi",
         "nome": "M. Bezzecchi",
         "team": "Aprilia Racing Team",
-        "punti": 394
+        "punti": 406
+      },
+      {
+        "pos": 3,
+        "slug": "jorge-martin",
+        "nome": "J. Martin",
+        "team": "Aprilia Racing Team",
+        "punti": 405
       },
       {
         "pos": 4,
         "slug": "pedro-acosta",
         "nome": "P. Acosta",
         "team": "Red Bull KTM Factory Racing",
-        "punti": 315
+        "punti": 318
       },
       {
         "pos": 5,
         "slug": "ai-ogura",
         "nome": "A. Ogura",
         "team": "Trackhouse MotoGP Team",
-        "punti": 309
+        "punti": 315
       },
       {
         "pos": 6,
         "slug": "fabio-di-giannantonio",
         "nome": "F. D. Giannantonio",
         "team": "Pertamina Enduro VR46 Racing Team",
-        "punti": 298
+        "punti": 303
       },
       {
         "pos": 7,
@@ -58,7 +58,7 @@
         "slug": "alex-marquez",
         "nome": "A. Marquez",
         "team": "BK8 Gresini Racing MotoGP",
-        "punti": 204
+        "punti": 208
       },
       {
         "pos": 9,
@@ -72,7 +72,7 @@
         "slug": "enea-bastianini",
         "nome": "E. Bastianini",
         "team": "Red Bull KTM Tech 3",
-        "punti": 152
+        "punti": 159
       },
       {
         "pos": 11,
@@ -86,7 +86,7 @@
         "slug": "brad-binder",
         "nome": "B. Binder",
         "team": "Red Bull KTM Factory Racing",
-        "punti": 127
+        "punti": 129
       },
       {
         "pos": 13,
@@ -167,17 +167,17 @@
       },
       {
         "pos": 24,
-        "slug": "augusto-fernandez",
-        "nome": "A. Fernandez",
-        "team": "Prima Pramac Yamaha",
+        "slug": "pol-espargaro",
+        "nome": "P. Espargaro",
+        "team": "Red Bull KTM Tech 3",
         "punti": 6
       },
       {
         "pos": 25,
-        "slug": "pol-espargaro",
-        "nome": "P. Espargaro",
-        "team": "Red Bull KTM Tech 3",
-        "punti": 5
+        "slug": "augusto-fernandez",
+        "nome": "A. Fernandez",
+        "team": "Prima Pramac Yamaha",
+        "punti": 6
       },
       {
         "pos": 26,
@@ -240,7 +240,7 @@
       {
         "pos": 1,
         "nome": "Aprilia Racing Team",
-        "punti": 790
+        "punti": 811
       },
       {
         "pos": 2,
@@ -250,27 +250,27 @@
       {
         "pos": 3,
         "nome": "Trackhouse MotoGP Team",
-        "punti": 592
+        "punti": 598
       },
       {
         "pos": 4,
         "nome": "Red Bull KTM Factory Racing",
-        "punti": 442
+        "punti": 447
       },
       {
         "pos": 5,
         "nome": "Pertamina Enduro VR46 Racing Team",
-        "punti": 369
+        "punti": 374
       },
       {
         "pos": 6,
         "nome": "BK8 Gresini Racing MotoGP",
-        "punti": 361
+        "punti": 365
       },
       {
         "pos": 7,
         "nome": "Red Bull KTM Tech 3",
-        "punti": 174
+        "punti": 182
       },
       {
         "pos": 8,
@@ -312,17 +312,17 @@
       {
         "pos": 1,
         "nome": "Aprilia",
-        "punti": 598
+        "punti": 610
       },
       {
         "pos": 2,
         "nome": "Ducati",
-        "punti": 589
+        "punti": 594
       },
       {
         "pos": 3,
         "nome": "KTM",
-        "punti": 378
+        "punti": 385
       },
       {
         "pos": 4,
@@ -337,7 +337,7 @@
     ]
   },
   "f1": {
-    "aggiornato": "2026-11-28T13:49:15.224Z",
+    "aggiornato": "2026-11-28T21:28:57.073Z",
     "fonte": "Autosprint",
     "piloti": [
       {
@@ -576,7 +576,7 @@
     ]
   },
   "sbk": {
-    "aggiornato": "2026-11-28T13:49:15.224Z",
+    "aggiornato": "2026-11-28T21:28:57.073Z",
     "fonte": "Wikipedia",
     "piloti": [
       {

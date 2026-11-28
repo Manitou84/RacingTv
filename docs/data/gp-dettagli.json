@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-28T13:49:15.224Z",
+  "aggiornato": "2026-11-28T21:28:57.073Z",
   "_fonte": "Wikipedia (inglese), pagine dei singoli GP",
   "motogp": {
     "2025": {
@@ -967,7 +967,7 @@
         ],
         "sprint": [],
         "futuro": false,
-        "letto": "2026-11-28T13:49:15.224Z"
+        "letto": "2026-11-28T21:28:57.073Z"
       },
       "2026_Valencian_motorcycle_Grand_Prix": {
         "data": "2026-11-29",
@@ -981,7 +981,7 @@
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-11-28T13:49:15.224Z"
+        "letto": "2026-11-28T21:28:57.073Z"
       },
       "2026_Thailand_motorcycle_Grand_Prix": {
         "data": "2026-03-01",
@@ -2061,12 +2061,15 @@
         "data": "2026-11-29",
         "circuito": "lusail",
         "luogo": "Lusail International Circuit Lusail, Qatar",
-        "pole": null,
+        "pole": {
+          "chi": "George Russell",
+          "tempo": "1:21.695"
+        },
         "giroVeloce": null,
         "podio": [],
         "sprint": [],
         "futuro": true,
-        "letto": "2026-11-28T13:49:15.224Z"
+        "letto": "2026-11-28T21:28:57.073Z"
       },
       "2026_Abu_Dhabi_Grand_Prix": {
         "data": null,

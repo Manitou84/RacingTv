@@ -1,5 +1,5 @@
 {
-  "aggiornato": "2026-11-28T13:49:15.224Z",
+  "aggiornato": "2026-11-28T21:28:57.073Z",
   "arrivi": {
     "motogp-gp-qatar-2026": {
       "Sprint": {
@@ -452,7 +452,7 @@
         "sessione": "Gara",
         "fonte": "OA Sport",
         "url": "https://www.oasport.it/2026/11/ordine-darrivo-motogp-gp-portogallo-2026-risultati-e-classifica-gara/",
-        "aggiornato": "2026-11-28T13:49:15.224Z",
+        "aggiornato": "2026-11-28T21:28:57.073Z",
         "classificati": [
           {
             "pos": 1,
@@ -555,7 +555,7 @@
         "sessione": "Gara",
         "fonte": "OA Sport",
         "url": "https://www.oasport.it/2026/11/ordine-darrivo-f1-gp-las-vegas-2026-risultati-e-classifica-gara/",
-        "aggiornato": "2026-11-28T13:49:15.224Z",
+        "aggiornato": "2026-11-28T21:28:57.073Z",
         "classificati": [
           {
             "pos": 1,
@@ -654,6 +654,149 @@
           }
         ],
         "ritirati": []
+      }
+    },
+    "motogp-gp-valencia-2026": {
+      "Sprint": {
+        "serie": "motogp",
+        "gp": "GP Valencia",
+        "sessione": "Sprint",
+        "fonte": "OA Sport",
+        "url": "https://www.oasport.it/2026/11/ordine-darrivo-motogp-sprint-race-gp-valencia-2026-risultati-e-classifica/",
+        "aggiornato": "2026-11-28T21:28:57.073Z",
+        "classificati": [
+          {
+            "pos": 1,
+            "id": "bezzecchi",
+            "nome": "Marco Bezzecchi",
+            "secondi": 1081.139
+          },
+          {
+            "pos": 2,
+            "id": "martin",
+            "nome": "Jorge Martin",
+            "secondi": 1084.063
+          },
+          {
+            "pos": 3,
+            "id": "bastianini",
+            "nome": "Enea Bastianini",
+            "secondi": 1084.898
+          },
+          {
+            "pos": 4,
+            "id": "ogura",
+            "nome": "Ai Ogura",
+            "secondi": 1085.085
+          },
+          {
+            "pos": 5,
+            "id": "di-giannantonio",
+            "nome": "Fabio Di Giannantonio"
+          },
+          {
+            "pos": 6,
+            "id": "alex-marquez",
+            "nome": "Álex Márquez",
+            "secondi": 1086.514
+          },
+          {
+            "pos": 7,
+            "id": "acosta",
+            "nome": "Pedro Acosta",
+            "secondi": 1089.169
+          },
+          {
+            "pos": 8,
+            "id": "binder",
+            "nome": "Brad Binder",
+            "secondi": 1090.543
+          },
+          {
+            "pos": 9,
+            "id": null,
+            "nome": "Pol Espargaro",
+            "secondi": 1091.803
+          },
+          {
+            "pos": 10,
+            "id": "mir",
+            "nome": "Joan Mir",
+            "secondi": 1092.504
+          },
+          {
+            "pos": 11,
+            "id": "quartararo",
+            "nome": "Fabio Quartararo",
+            "secondi": 1093.098
+          },
+          {
+            "pos": 12,
+            "id": "moreira",
+            "nome": "Diogo Moreira",
+            "secondi": 1093.673
+          },
+          {
+            "pos": 13,
+            "id": "marc-marquez",
+            "nome": "Marc Marquez",
+            "secondi": 1093.836
+          },
+          {
+            "pos": 14,
+            "id": "marini",
+            "nome": "Luca Marini",
+            "secondi": 1094.22
+          },
+          {
+            "pos": 15,
+            "id": "zarco",
+            "nome": "Johann Zarco",
+            "secondi": 1094.349
+          },
+          {
+            "pos": 16,
+            "id": "miller",
+            "nome": "Jack Miller",
+            "secondi": 1096.165
+          },
+          {
+            "pos": 17,
+            "id": "rins",
+            "nome": "Álex Rins",
+            "secondi": 1096.297
+          },
+          {
+            "pos": 18,
+            "id": null,
+            "nome": "Iker Lecuona",
+            "secondi": 1096.54
+          },
+          {
+            "pos": 19,
+            "id": "morbidelli",
+            "nome": "Franco Morbidelli",
+            "secondi": 1099.595
+          },
+          {
+            "pos": 20,
+            "id": null,
+            "nome": "Augusto Fernandez",
+            "secondi": 1103.784
+          },
+          {
+            "pos": 21,
+            "id": "raul-fernandez",
+            "nome": "Raúl Fernández",
+            "secondi": 1103.892
+          }
+        ],
+        "ritirati": [
+          {
+            "id": "aldeguer",
+            "nome": "Fermín Aldeguer"
+          }
+        ]
       }
     }
   },

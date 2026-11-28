@@ -1,6 +1,196 @@
 {
-  "aggiornato": "2026-11-28T13:49:15.224Z",
+  "aggiornato": "2026-11-28T21:28:57.073Z",
   "articoli": [
+    {
+      "id": "4c74f572ecc6",
+      "serie": "motogp",
+      "titolo": "Ultimo sabato fumante per Márquez: “Ho pensato di non scontare i Long Lap”",
+      "link": "https://www.motosprint.it/news/eventi/gp-valencia/2026/11/28-9341656/ultimo_sabato_fumante_per_mrquez_ho_pensato_di_non_scontare_i_long_lap",
+      "fonte": "Motosprint",
+      "data": "2026-11-28T21:28:57.073Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/28/173020602-10eeb5d3-a051-4221-8d1e-701865c135dd.jpg",
+      "sommario": "Il ducatista ha vissuto l'incendio della propria moto, scontando poi le penalità: \"Inizialmente non volevo, ma poi ci ho ripensato: domani voglio godermi tutta la giornata, difficile gestire le emozioni\""
+    },
+    {
+      "id": "fcee6d5fb2ba",
+      "serie": "motogp",
+      "titolo": "GP Valencia, Marco Bezzecchi: \"Sarebbe stato meglio che le vittorie nelle Sprint arrivassero prima\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/28-9341631/gp_valencia_marco_bezzecchi_sarebbe_stato_meglio_che_le_vittorie_nelle_sprint_arrivassero_prima",
+      "fonte": "Motosprint",
+      "data": "2026-11-28T21:28:57.073Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/28/161642069-ceb3040b-54a6-4396-bcc8-814a39ff2c02.jpeg",
+      "sommario": "Il pilota Aprilia firma una giornata perfetta, dopo aver conquistato la pole con un margine importante su Marc Marquez e aver dominato la Sprint, la seconda consecutiva\n\n \n"
+    },
+    {
+      "id": "dadf2d837ddc",
+      "serie": "motogp",
+      "titolo": "Sabato alla riscossa per Jorge Martín, ma la rincorsa al 2° posto è sempre più in salita",
+      "link": "https://www.motosprint.it/news/eventi/gp-valencia/2026/11/28-9341633/sabato_alla_riscossa_per_jorge_martn_ma_la_rincorsa_al_2_posto_sempre_pi_in_salita",
+      "fonte": "Motosprint",
+      "data": "2026-11-28T21:28:57.073Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/28/164403083-6937f7c5-80bb-4e0f-a40f-f58574d36d35.jpg",
+      "sommario": "Il madrileno è secondo nella Sprint di Valencia, ma a -1 da Bezzecchi: \"Marco è troppo superiore, ha dimostrato di essere il più veloce durante l'anno. Ma il Mondiale lo vince il più forte\""
+    },
+    {
+      "id": "38e14ee775f9",
+      "serie": "motogp",
+      "titolo": "Pernat sul ritiro di Marquez: \"Ducati ha preso un pugno in faccia: il colpo lascia incoscienti\"",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/28-9339434/pernat_sul_ritiro_di_marquez_ducati_ha_preso_un_pugno_in_faccia_il_colpo_lascia_incoscienti",
+      "fonte": "Motosprint",
+      "data": "2026-11-28T21:28:57.073Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/27/160318561-b813a9d9-89f5-405b-82a5-0ca798e88c74.jpg",
+      "sommario": "Carlo guarda più aspetti di Marc: \"Bruciava all'Inferno, in Gresini era in Purgatorio, Paradiso con la Rossa ufficiale, ora però rimasta nella c...a. Ecco cosa succede a fare i contratti a marzo\""
+    },
+    {
+      "id": "c424bce6f46d",
+      "serie": "motogp",
+      "titolo": "Bezzecchi vince in solitaria la Sprint di Valencia, 3° Bastianini",
+      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/28-9341417/bezzecchi_vince_in_solitaria_la_sprint_di_valencia_3_bastianini",
+      "fonte": "Motosprint",
+      "data": "2026-11-28T21:28:57.073Z",
+      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/600/9999/2026/11/28/150137640-93a49a3a-c0b1-4d05-9cb2-3a8054aa5e79.jpg",
+      "sommario": "Marco va in fuga e trionfa davanti a Martin ed Enea. Top five per Di Giannantonio, Marquez 13° dopo due Long Lap Penalty\n"
+    },
+    {
+      "id": "969401195db2",
+      "serie": "motogp",
+      "titolo": "Di Giannantonio: “Pedrosa è una leggenda, mi sarebbe piaciuto lavorare con lui”",
+      "link": "https://www.gpone.com/it/2026/11/28/motogp/di-giannantonio-pedrosa-e-una-leggenda-mi-sarebbe-piaciuto-lavorare-con-lui.html",
+      "fonte": "GPOne",
+      "data": "2026-11-28T18:58:10.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/tin0685.jpg?itok=SvM5CUnb",
+      "sommario": "“Ma negli ultimi mesi abbiamo già parlato della nuova KTM. Le Aprilia qui a Valencia hanno un passo incredibile, Bezzecchi guida su un velo. Non ho aspettative per il GP: voglio solo divertirmi”"
+    },
+    {
+      "id": "8f875e318a39",
+      "serie": "motogp",
+      "titolo": "Alex Marquez: \"Il ritiro di Marc? volevo fosse felice prima di andar via e ci è riuscito\"",
+      "link": "https://www.gpone.com/it/2026/11/28/motogp/alex-marquez-il-ritiro-di-marc-volevo-fosse-felice-prima-di-andar-via-e-ci-e-riuscito.html",
+      "fonte": "GPOne",
+      "data": "2026-11-28T18:04:07.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/09/MotoGP/generic/alex-marquez-misano.jpg?itok=Pxw7EU8p",
+      "sommario": "\"Per me non è stato uno shock, come sportivo sapere quando lasciare è una virtù difficile. Ora affronterò le cose a modo mio, ma i consigli di un dieci volte campione del mondo saranno i benvenuti!\""
+    },
+    {
+      "id": "f2761489620b",
+      "serie": "motogp",
+      "titolo": "Zarco: “Marquez? Se si fosse giocato il Mondiale non l’avrebbero penalizzato al 100%”",
+      "link": "https://www.gpone.com/it/2026/11/28/motogp/zarco-marquez-se-si-fosse-giocato-il-mondiale-non-lavrebbero-penalizzato-al-100.html",
+      "fonte": "GPOne",
+      "data": "2026-11-28T17:47:44.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/zarco.jpg?itok=EofhsvYM",
+      "sommario": "“Ne sono sicuro. È facile prendere una decisione dopo che il titolo è già stato vinto. Di certo è stato spaventoso quanto accaduto”"
+    },
+    {
+      "id": "429ad93d1c75",
+      "serie": "motogp",
+      "titolo": "Marquez, anche l'ultimo BMW M Award è suo: nove volte il più veloce",
+      "link": "https://www.gpone.com/it/2026/11/28/motogp/marquez-anche-lultimo-bmw-m-award-e-suo-nove-volte-il-piu-veloce.html",
+      "fonte": "GPOne",
+      "data": "2026-11-28T17:38:53.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/marquez-m2-bmw.jpg?itok=cSPe59MA",
+      "sommario": "Lo spagnolo chiude la carriera conquistando per la nona volta il premio riservato al miglior pilota in qualifica. Battuto Bezzecchi di 12 punti, Marc si porta a casa la nuova BMW M2 con M xDrive"
+    },
+    {
+      "id": "66226fb1107b",
+      "serie": "motogp",
+      "titolo": "Marquez: \"Alla mia ultima gara potrei fare cambiare un'altra regola\"",
+      "link": "https://www.gpone.com/it/2026/11/28/motogp/marquez-alla-mia-ultima-gara-potrei-fare-cambiare-unaltra-regola.html",
+      "fonte": "GPOne",
+      "data": "2026-11-28T17:27:05.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/marquez-fuoco.jpeg?itok=FL_ujHBn",
+      "sommario": "\"La mia moto ha avuto un problema, ma a causa del guasto al semaforo. La penalizzazione? Giusta, ma si poteva evitare. Vorrei finire sul podio domani, ma non posso prometterlo\""
+    },
+    {
+      "id": "eedb249270e6",
+      "serie": "motogp",
+      "titolo": "Domenicali: \"Il ritiro di Marquez? Non ce lo aspettavamo, ma la salute viene prima di tutto\"",
+      "link": "https://www.gpone.com/it/2026/11/28/motogp/domenicali-il-ritiro-di-marquez-non-ce-lo-aspettavamo-ma-la-salute-viene-prima-di-tutto.html",
+      "fonte": "GPOne",
+      "data": "2026-11-28T17:25:37.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/marquez-domenicali-titolo.jpeg?itok=c5vAPOyn",
+      "sommario": "Il CEO di Ducati saluta il dieci volte campione del mondo: \"Marc cercava qualcosa di più che tornare a vincere. Sono orgoglioso che Ducati gli abbia restituito la fiducia in sé stesso e la gioia di correre\""
+    },
+    {
+      "id": "d99473437901",
+      "serie": "motogp",
+      "titolo": "Martin: “La penalità a Marquez? Non era colpa sua, ma le regole sono regole”",
+      "link": "https://www.gpone.com/it/2026/11/28/motogp/martin-la-penalita-a-marquez-non-era-colpa-sua-ma-le-regole-sono-regole.html",
+      "fonte": "GPOne",
+      "data": "2026-11-28T17:07:55.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/martin-box-valencia.jpg?itok=aPEi9gQf",
+      "sommario": "“È un peccato, ma domani sarà veloce. Bezzecchi ha perso il Mondiale più di quanto l’abbia fatto io. Sarà difficile batterlo domani. Se avessi la sua fiducia in sella sarei in un’altra situazione”"
+    },
+    {
+      "id": "dfa985518450",
+      "serie": "motogp",
+      "titolo": "Bastianini: \"Podio inaspettato, ma lo avevo promesso alla squadra\"",
+      "link": "https://www.gpone.com/it/2026/11/28/motogp/bastianini-podio-inaspettato-ma-lo-avevo-promesso-alla-squadra.html",
+      "fonte": "GPOne",
+      "data": "2026-11-28T16:55:13.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/img-8663.jpg?itok=2zZAUotN",
+      "sommario": "\"Dopo Motegi avevo promesso al team che ci sarei riuscito. Non mi aspettavo arrivasse qui a Valencia. La partenza? Quando ho visto la moto di Marc, mi sono guardato intorno!\""
+    },
+    {
+      "id": "2488a13969e9",
+      "serie": "motogp",
+      "titolo": "Bezzecchi: “Non sto facendo un altro sport: in griglia ho smadonnato a mettere la folle”",
+      "link": "https://www.gpone.com/it/2026/11/28/motogp/bezzecchi-non-sto-facendo-un-altro-sport-in-griglia-ho-smadonnato-a-mettere-la-folle.html",
+      "fonte": "GPOne",
+      "data": "2026-11-28T16:51:53.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/marco.jpg?itok=3HbSzXHL",
+      "sommario": "“La qualifica? Non esiste il giro perfetto. A Marquez ho detto: “cazzo, la macchina l'ho persa, però dai, l'ho persa con stile”"
+    },
+    {
+      "id": "27083098af4a",
+      "serie": "motogp",
+      "titolo": "Lecuona attacca la Direzione Gara: \"Partenza folle, due Long Lap a Marquez non hanno senso\"",
+      "link": "https://www.gpone.com/it/2026/11/28/motogp/lecuona-attacca-la-direzione-gara-partenza-folle-due-long-lap-a-marquez-non-hanno-senso.html",
+      "fonte": "GPOne",
+      "data": "2026-11-28T16:46:26.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/lecuona_1.jpg?itok=g-V0gzwd",
+      "sommario": "Lo spagnolo punta il dito contro la gestione della partenza della Sprint di Valencia: \"Potevamo distruggere dei motori per nulla. Qualcuno avrebbe potuto essere colpito, sarebbe stato un disastro\""
+    },
+    {
+      "id": "358bea22f156",
+      "serie": "motogp",
+      "titolo": "Marini: “La Direzione Gara non ha sbagliato, solo applicato le regole”",
+      "link": "https://www.gpone.com/it/2026/11/28/motogp/marini-la-direzione-gara-non-ha-sbagliato-solo-applicato-le-regole.html",
+      "fonte": "GPOne",
+      "data": "2026-11-28T16:45:29.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/marini_1.jpg?itok=U15tPQw_",
+      "sommario": "“Senza il problema alla moto di Marquez saremmo subito ripartiti. La mia gara? Mi aspettavo di più dalla Honda, non avevo fiducia”"
+    },
+    {
+      "id": "36f959fee3d7",
+      "serie": "motogp",
+      "titolo": "LIVE Bar Sport alle 19:00 - Marc Marquez, fuoco, fiamme e caos a Valencia",
+      "link": "https://www.gpone.com/it/2026/11/28/motogp/live-bar-sport-alle-19-00-fuoco-fiamme-e-caos-a-valencia.html",
+      "fonte": "GPOne",
+      "data": "2026-11-28T16:17:05.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/cover-bs-sat.jpg?itok=vWoEx65P",
+      "sommario": "La Ducati di Marquez in fiamme sulla griglia, il semaforo in tilt e una penalità che fa discutere. Intanto Bezzecchi domina e avvicina Aprilia al titolo Costruttori. Parliamone insieme questa sera con Carlo Pernat"
+    },
+    {
+      "id": "02a545879af2",
+      "serie": "motogp",
+      "titolo": "Tardozzi: “Marquez? Hanno applicato il regolamento, ma la colpa non è sua”",
+      "link": "https://www.gpone.com/it/2026/11/28/motogp/tardozzi-marquez-hanno-applicato-il-regolamento-ma-la-colpa-non-e-sua.html",
+      "fonte": "GPOne",
+      "data": "2026-11-28T15:15:54.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/tardozzi-aragon_0.jpg?itok=fI2kkw0z",
+      "sommario": "“Se non rientri con la tua moto, questa è la regola. Il fatto è che il problema non l’ha causato Marc, ma il semaforo. Aprilia? Noi abbiamo vinto 7 titoli costruttori di fila, ci sta anche perderlo un anno”"
+    },
+    {
+      "id": "dd77456593fb",
+      "serie": "motogp",
+      "titolo": "Sprint a Valencia: il semaforo non si spegne e la Ducati di Marquez va a fuoco",
+      "link": "https://www.gpone.com/it/2026/11/28/motogp/sprint-a-valencia-il-semaforo-non-si-spegne-e-la-ducati-di-marquez-va-a-fuoco.html",
+      "fonte": "GPOne",
+      "data": "2026-11-28T14:21:50.000Z",
+      "immagine": "https://www.gpone.com/sites/default/files/styles/thumb_xl/public/images/2026/article/foto/11/MotoGP/generic/marquez-fuoco-screen.JPG?itok=n14wcePS",
+      "sommario": "VIDEO Un inconveniente tecnico ha ritardato la partenza e la Desmosedici si è surriscaldata. Marc potrà ripartire ma dovrà scontare 2 Long Lap"
+    },
     {
       "id": "174c70a0ce0b",
       "serie": "motogp",
@@ -3810,196 +4000,6 @@
       "data": "2026-11-12T07:38:27.000Z",
       "immagine": "",
       "sommario": "Jorge denuncia la diffusione di notizie false e titoli che tirano in ballo Valentino Rossi, mai nominato nelle sue dichiarazioni su Márquez e Agostini: “Questo tipo di condotta dovrebbe essere severamente punito!”"
-    },
-    {
-      "id": "a64a66615e87",
-      "serie": "f1",
-      "titolo": "I team di fondo classifica si sentono penalizzati, chiesta la revisione del budget cap",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/11-9287259/i_team_di_fondo_classifica_si_sentono_penalizzati_chiesta_la_revisione_del_budget_cap",
-      "fonte": "Autosprint",
-      "data": "2026-11-11T17:47:00.570Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/11/170433401-6ebcc049-5f29-4221-8a3c-ce47486aafa3.jpg",
-      "sommario": "Aston Martin e Williams si sono fatte sentire domandano regole in grado di garantire possibilità di ottenere risultati uguali per tutti"
-    },
-    {
-      "id": "5c6e8405b6bc",
-      "serie": "motogp",
-      "titolo": "Pioggia a Jerez: Pol Espargarò e KTM i più veloci sul bagnato, 2° Bulega",
-      "link": "https://www.gpone.com/it/2026/11/11/motogp/pioggia-a-jerez-pol-espargaro-e-ktm-i-piu-veloci-sul-bagnato-2deg-bulega.html",
-      "fonte": "GPOne",
-      "data": "2026-11-11T17:19:54.000Z",
-      "immagine": "",
-      "sommario": "Lo spagnolo ha preceduto la Ducati di Nicolò di quasi otto decimi, 3° Savadori con Aprilia poi Pirro con la Ducati V4. Lecuona fermo ai box"
-    },
-    {
-      "id": "692b84f6d783",
-      "serie": "sbk",
-      "titolo": "Bautista: “CFMoto? Devo parlare con i cinesi: io sono pronto”",
-      "link": "https://www.gpone.com/it/2026/11/10/wsbk/bautista-cfmoto-devo-parlare-con-i-cinesi-io-sono-pronto.html",
-      "fonte": "GPOne",
-      "data": "2026-11-11T17:00:00.000Z",
-      "immagine": "",
-      "sommario": "“Ho guidato moto diverse e penso di avere l’esperienza per contribuire a realizzare una moto competitiva. Battistella? A 41 anni vorrei essere self-manager. Marquez fortissimo, Martin mi ha sorpreso di più\""
-    },
-    {
-      "id": "bf6bba4a8f3a",
-      "serie": "motogp",
-      "titolo": "Dovizioso: \"Quando sei il più veloce, io da pilota non me la sarei giocata così\"",
-      "link": "https://www.gpone.com/it/2026/11/11/motogp/dovizioso-se-sei-il-piu-veloce-io-come-pilota-non-me-la-sarei-giocata-cosi.html",
-      "fonte": "GPOne",
-      "data": "2026-11-11T15:45:29.000Z",
-      "immagine": "",
-      "sommario": "Dovizioso nel suo podcast torna sul contatto tra Marquez e Bezzecchi nella sprint. \"Nessuno dei due si è preoccupato dell'altro. Quando sei il più veloce, puoi giocare carte più sicure\""
-    },
-    {
-      "id": "2e8ae58644b0",
-      "serie": "f1",
-      "titolo": "Imola oltre il sogno sfumato: \"Il percorso per far tornare la F1 non si ferma\"",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/11-9286888/imola_oltre_il_sogno_sfumato_il_percorso_per_far_tornare_la_f1_non_si_ferma",
-      "fonte": "Autosprint",
-      "data": "2026-11-11T14:43:51.617Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/11/135129955-ebdb1340-67f2-4ffd-a827-ac14df6c06fc.jpg",
-      "sommario": "Il sindaco Panieri ha commentato la decisione di Fia e F1 di correre il finale di campionato in Medio Oriente; istituzioni al lavoro per un ritorno della F1 in futuro  "
-    },
-    {
-      "id": "0f811b0ee63e",
-      "serie": "sbk",
-      "titolo": "Mackenzie saluta Ducati e la Superbike: correrà nel BSB con BMW nel 2027!",
-      "link": "https://www.gpone.com/it/2026/11/11/wsbk/mackenzie-saluta-ducati-e-la-superbike-correra-nel-bsb-con-bmw-nel-2027.html",
-      "fonte": "GPOne",
-      "data": "2026-11-11T13:54:19.000Z",
-      "immagine": "",
-      "sommario": "L’ex portacolori MGM torna a correre in patria con la M1000RR del team Scars Racing in coppia con Rory Skinner"
-    },
-    {
-      "id": "2bec03d281ac",
-      "serie": "motogp",
-      "titolo": "Rivola elogia Martin: “L’anno scorso in Qatar credeva di aver finito la sua carriera”",
-      "link": "https://www.gpone.com/it/2026/11/11/motogp/rivola-elogia-martin-lanno-scorso-in-qatar-credeva-di-aver-finito-la-sua-carriera.html",
-      "fonte": "GPOne",
-      "data": "2026-11-11T13:46:13.000Z",
-      "immagine": "",
-      "sommario": "“Tornare a Lusail era sicuramente speciale per lui, ancora di più in quelle condizioni fisiche. Quello che ha fatto domenica è stato straordinario e nella Sprint ha fatto una sorta di miracolo”"
-    },
-    {
-      "id": "12f95c035267",
-      "serie": "f1",
-      "titolo": "Inseguendo Ferrari, cavallini scalpitanti: in Haas spareggio Bearman-Camara?",
-      "link": "https://www.autosprint.it/news/formula1/in-diretta/2026/11/11-9286785/inseguendo_ferrari_cavallini_scalpitanti_in_haas_spareggio_bearman-camara_",
-      "fonte": "Autosprint",
-      "data": "2026-11-11T13:40:43.501Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/11/130420365-60519cc5-b448-47d4-ae11-59dba29b28ee.jpg",
-      "sommario": "Haas per Ferrari come Racing Bulls per Red Bull? I prospetti FDA Bearman e Camara sanno di potersi giocare il posto, anche se i piani Ferrari futuri sono tutti da vedere"
-    },
-    {
-      "id": "f25ed20ad14f",
-      "serie": "f1",
-      "titolo": "Gomme da bagnato, non ci siamo ancora: Norris \"teme\" Las Vegas",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/11-9286538/gomme_da_bagnato_non_ci_siamo_ancora_norris_teme_las_vegas",
-      "fonte": "Autosprint",
-      "data": "2026-11-11T13:40:43.501Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/11/121357851-2daff281-011f-4965-bbde-838b6119a93a.jpg",
-      "sommario": "I dati raccolti in condizioni di gara in Brasile aiuteranno Pirelli a migliorare la finestra di funzionamento e la fase di attivazione delle gomme da bagnato 2027"
-    },
-    {
-      "id": "143a60aed03b",
-      "serie": "f1",
-      "titolo": "Sinner: \"Antonelli è un fenomeno\". E sul futuro scherza: \"Mi vedrete su una macchina da competizione\"",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/11-9286279/sinner_antonelli_un_fenomeno_e_sul_futuro_scherza_mi_vedrete_in_una_macchina_che_corre",
-      "fonte": "Autosprint",
-      "data": "2026-11-11T13:40:43.501Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/11/120848007-30223b99-df6a-4661-9f09-684ce8811ea3.jpg",
-      "sommario": "All’evento Allianz di Milano, il tennista racconta la passione per Formula 1 e MotoGP, elogia Kimi Antonelli e svela la sua routine tra palestra e simulatore"
-    },
-    {
-      "id": "777dce30535f",
-      "serie": "sbk",
-      "titolo": "Benzina unica, gomme Michelin e freni carboceramici: a Jerez primo test 2027 per Lecuona e Ducati",
-      "link": "https://www.gpone.com/it/2026/11/11/wsbk/benzina-unica-gomme-michelin-e-freni-carboceramici-a-jerez-primo-test-2027-per-lecuona-e-ducati.html",
-      "fonte": "GPOne",
-      "data": "2026-11-11T13:37:16.000Z",
-      "immagine": "",
-      "sommario": "Per Lecuona e Ducati è già iniziato il Mondiale: in azione sul tracciato andaluso anche i tester MotoGP con Bulega all’ultima uscita con la GP27 850 prima di Valencia"
-    },
-    {
-      "id": "0b369cbf9d93",
-      "serie": "motogp",
-      "titolo": "Bezzecchi e le Sprint, quanto gli sono costate? Aumentano i rimpianti in casa Aprilia",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/11-9286473/bezzecchi_e_le_sprint_quanto_gli_sono_costate_aumentano_i_rimpianti_in_casa_aprilia",
-      "fonte": "Motosprint",
-      "data": "2026-11-11T12:19:49.850Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/11/114029508-f02033b9-ca49-4060-8187-b9321d9917a9.jpg",
-      "sommario": "Sono sei gli \"zero\" nelle gare del sabato, che fanno da contraltare alle altrettante vittorie conquistate: come sarebbe la classifica con i soli risultati della domenica?"
-    },
-    {
-      "id": "461c448d83be",
-      "serie": "motogp",
-      "titolo": "Marquez a Portimao per entrare nella leggenda: l'ottavo titolo e il trono di Re Agostini",
-      "link": "https://www.gpone.com/it/2026/11/11/motogp/marquez-a-portimao-per-entrare-nella-leggenda-lottavo-titolo-e-il-trono-di-re-agostini.html",
-      "fonte": "GPOne",
-      "data": "2026-11-11T10:43:33.000Z",
-      "immagine": "",
-      "sommario": "Marc ha 60 punti di vantaggio su Martin e in Portogallo può conquistare l'8° Mondiale nella classe regina, raggiungendo Agostini. In ballo anche il mondiale marche fra Ducati ed Aprilia"
-    },
-    {
-      "id": "e19f70f7c393",
-      "serie": "motogp",
-      "titolo": "Il verdetto di Lorenzo: “Marquez meglio di Agostini, Rossi nemmeno nel gruppo”",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/11-9285777/il_verdetto_di_lorenzo_marquez_meglio_di_agostini_rossi_nemmeno_nel_gruppo",
-      "fonte": "Motosprint",
-      "data": "2026-11-11T10:25:06.758Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/11/090853330-ff077325-b668-4548-9ea9-6d76249f879e.jpg",
-      "sommario": "Il maiorchino esalta il recupero del catalano dall’infortunio, “se vincerà il decimo mondiale sarà senza dubbio il più grande dell’era moderna”"
-    },
-    {
-      "id": "3643dd718fc0",
-      "serie": "f1",
-      "titolo": "Alonso esalta Aston Martin: fenomenale in Brasile!",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/11-9285500/alonso_esalta_aston_martin_fenomenale_in_brasile_",
-      "fonte": "Autosprint",
-      "data": "2026-11-11T10:25:06.758Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/11/092206241-4153e810-e791-4a92-a596-7fbc5f4118d6.jpg",
-      "sommario": "In condizioni di pista bagnata la AMR26-B ha dato a Fernando sensazioni molto positive nel comportamento in curva. Resta il grande limite della power unit"
-    },
-    {
-      "id": "3b1930ce8a43",
-      "serie": "f1",
-      "titolo": "Hamilton prova a dimenticare la delusione di Interlagos recandosi a Rafah",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/11-9285159/hamilton_prova_a_dimenticare_la_delusione_di_interlagos_recandosi_a_rafah",
-      "fonte": "Autosprint",
-      "data": "2026-11-11T10:25:06.758Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/1200/9999/2026/11/11/092048014-28109e21-5338-46b6-b875-f479b94e1cec.jpg",
-      "sommario": "Da sempre molto vicino alle problematiche sociali, il pilota Ferrari ha voluto visitare il valico al confine con la Striscia di Gaza"
-    },
-    {
-      "id": "7088b1b2b2c3",
-      "serie": "f1",
-      "titolo": "Ocon si arrende, la F1 si allontana e lui scrive sui social: \"Grazie per il sostegno\"",
-      "link": "https://www.autosprint.it/news/formula1/2026/11/11-9284404/ocon_si_arrende_la_f1_si_allontana_e_lui_scrive_sui_social_grazie_per_il_sostegno",
-      "fonte": "Autosprint",
-      "data": "2026-11-11T10:25:06.758Z",
-      "immagine": "https://cdn-autosprint.corrieredellosport.it/img/600/9999/2026/11/11/091910687-e31ddaa8-c229-4efa-8f81-82f44b9f60d3.jpg",
-      "sommario": "Cacciato all'improvviso dalla Haas nel corso del weekend del Messico, Esteban sembra aver accettato di non avere prospettive per il 2027 "
-    },
-    {
-      "id": "b56a3c414f7e",
-      "serie": "motogp",
-      "titolo": "Moreira: \"Ho un problema al nervo del gomito, avevo dolore già in Malesia\"",
-      "link": "https://www.gpone.com/it/2026/11/11/motogp/moreira-ho-un-problema-al-nervo-del-gomito-avevo-dolore-gia-in-malesia.html",
-      "fonte": "GPOne",
-      "data": "2026-11-11T09:57:30.000Z",
-      "immagine": "",
-      "sommario": "Il brasiliano di LCR Honda spiega i motivi del ritiro in Qatar, legati all'infortunio al Sachsenring in Moto2 lo scorso anno"
-    },
-    {
-      "id": "64ed04f89d47",
-      "serie": "motogp",
-      "titolo": "Dai piloti che hanno segnato un’epoca ai supereroi: i due mondi dei Fantastici 4",
-      "link": "https://www.motosprint.it/news/motomondiale/moto-gp/2026/11/11-9283809/dai_piloti_che_hanno_segnato_unepoca_ai_supereroi_i_due_mondi_dei_fantastici_4",
-      "fonte": "Motosprint",
-      "data": "2026-11-11T09:21:30.931Z",
-      "immagine": "https://cdn-motosprint.corrieredellosport.it/img/1200/9999/2026/11/10/152033544-220be4f7-f8db-4c42-8f63-6a9c052e9315.jpg",
-      "sommario": "Rossi, Lorenzo, Pedrosa e Stoner sono stati soprannominati così per le loro gesta tra i cordoli, ma ad accomunarli con gli eroi Marvel non è soltanto tale appellativo"
     }
   ]
 }
